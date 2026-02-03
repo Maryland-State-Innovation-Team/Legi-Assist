@@ -88,7 +88,17 @@
                         <input v-model="searchQuery" type="text" class="w-full pl-9 pr-4 py-2 border border-gray-300 rounded-lg text-sm" placeholder="Title, summary, ID...">
                     </div>
                 </div>
-
+                <div v-if="selectedAgency" class="p-3 bg-red-50 rounded-lg border border-red-100">
+                    <label class="block text-[10px] font-black text-red-800 uppercase mb-2 tracking-wider">Filter by Impact Level</label>
+                    <select v-model="filterRating" class="w-full bg-white border border-red-200 rounded px-2 py-1 text-sm outline-none focus:ring-2 focus:ring-red-800">
+                        <option value="all">All Relevance Levels</option>
+                        <option value="5">5 - Primary Relevance</option>
+                        <option value="4">4 - High Relevance</option>
+                        <option value="3">3 - Moderate Relevance</option>
+                        <option value="2">2 - Low Relevance</option>
+                        <option value="1">1 - Minimal Relevance</option>
+                    </select>
+                </div>
                 <div>
                     <label class="block text-xs font-bold text-gray-500 uppercase mb-2">Broad Subjects</label>
                     <div class="form-select-multi border border-gray-200 rounded-lg p-2 space-y-1">
@@ -255,6 +265,7 @@
                 const showAgencyList = ref(false);
                 const filterBroad = ref([]);
                 const filterNarrow = ref([]);
+                const filterRating = ref("all");
                 const activeBill = ref(null);
 
                 // Initialize from URL
@@ -332,11 +343,22 @@
                 const filteredBills = computed(() => {
                     let results = allBills.value;
 
-                    // Agency Filter + Sorting
+                    // Agency Filter + Sorting + Rating Filter
                     if (selectedAgency.value) {
                         results = results.filter(b => 
                             b.agency_relevance.some(a => a.agency_name === selectedAgency.value)
-                        ).sort((a, b) => {
+                        );
+
+                        // Apply Relevance Rating Filter if not "all"
+                        if (filterRating.value !== "all") {
+                            results = results.filter(b => {
+                                const rel = b.agency_relevance.find(ar => ar.agency_name === selectedAgency.value);
+                                return rel && rel.relevance_rating == filterRating.value;
+                            });
+                        }
+
+                        // Sort by Rating (High to Low)
+                        results = [...results].sort((a, b) => {
                             const relA = a.agency_relevance.find(ar => ar.agency_name === selectedAgency.value)?.relevance_rating || 0;
                             const relB = b.agency_relevance.find(ar => ar.agency_name === selectedAgency.value)?.relevance_rating || 0;
                             return relB - relA;
@@ -459,7 +481,7 @@
 
                 return {
                     allBills, loading, selectedYear, searchQuery, agencySearch, selectedAgency,
-                    showAgencyList, filterBroad, filterNarrow, activeBill,
+                    showAgencyList, filterBroad, filterNarrow, filterRating, activeBill,
                     filteredAgencies, uniqueBroadSubjects, uniqueNarrowSubjects, filteredBills,
                     selectAgency, getRelevance, openBill, closeBill, formatCurrency,
                     formatDate, formatTime, exportToExcel, fetchData, getNextAction
