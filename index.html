@@ -3,32 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maryland Legi-Assist</title>
+    <title>Maryland Legi-Assist | Research & Tracking</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
-    
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <style>
-        /* Custom Scrollbar for nicer UI */
-        ::-webkit-scrollbar {
-            width: 8px;
-            height: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #f1f1f1; 
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #888; 
-            border-radius: 4px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #555; 
-        }
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #888; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
+        
         .md-flag-strip {
             background: linear-gradient(90deg, #bf0d3e 25%, #fff 25%, #fff 50%, #000 50%, #000 75%, #e0aa0f 75%);
             height: 8px;
@@ -36,584 +22,447 @@
         }
         [v-cloak] { display: none; }
 
-        /* Chat Transition */
-        .slide-up-enter-active,
-        .slide-up-leave-active {
-            transition: all 0.3s ease;
-        }
-        .slide-up-enter-from,
-        .slide-up-leave-to {
-            opacity: 0;
-            transform: translateY(20px);
+        .form-select-multi {
+            max-height: 120px;
+            overflow-y: auto;
         }
     </style>
 </head>
 <body class="bg-gray-50 text-slate-800 font-sans h-screen flex flex-col overflow-hidden">
 
     <div id="app" v-cloak class="flex flex-col h-full">
-
-        <header class="bg-white shadow-sm z-10 shrink-0">
+        <header class="bg-white shadow-sm z-20 shrink-0">
             <div class="md-flag-strip"></div>
-            <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
-                <div class="flex items-center gap-3">
-                    <i class="ph ph-scroll text-3xl text-red-800"></i>
-                    <div>
-                        <h1 class="text-2xl font-bold text-slate-900 tracking-tight">Maryland Legi-Assist</h1>
-                        <p class="text-xs text-slate-500">AI-Powered Legislative Analysis (2023-2026)</p>
-                    </div>
-                </div>
-                
-                <div class="flex flex-col md:flex-row gap-3 w-full md:w-auto">
-                    <div class="relative">
-                        <i class="ph ph-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
-                        <input 
-                            v-model="searchQuery" 
-                            type="text" 
-                            placeholder="Search bills, keywords..." 
-                            class="pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-800 focus:border-red-800 outline-none w-full md:w-64"
-                        >
+            <div class="max-w-7xl mx-auto px-4 py-4">
+                <div class="flex flex-col lg:flex-row justify-between items-center gap-4">
+                    <div class="flex items-center gap-3">
+                        <i class="ph ph-shield-check text-3xl text-red-800"></i>
+                        <div>
+                            <h1 class="text-2xl font-bold text-slate-900 tracking-tight">Maryland Legi-Assist</h1>
+                            <p class="text-xs text-slate-500 uppercase font-bold tracking-widest">Agency Impact Tracker</p>
+                        </div>
                     </div>
                     
-                    <select v-model="selectedYear" class="px-4 py-2 border border-gray-300 rounded-lg bg-white focus:ring-2 focus:ring-red-800 outline-none">
-                        <option value="all">All Years</option>
-                        <option v-for="year in availableYears" :value="year">{{ String(year) }}</option>
-                    </select>
+                    <div class="flex flex-wrap items-center gap-3 w-full lg:w-auto">
+                        <div class="relative flex-1 lg:w-80">
+                            <i class="ph ph-buildings absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                            <input 
+                                v-model="agencySearch" 
+                                @focus="showAgencyList = true"
+                                type="text" 
+                                placeholder="Filter by Agency (e.g. PSC, DBM)..." 
+                                class="pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-800 w-full outline-none"
+                            >
+                            <div v-if="showAgencyList && filteredAgencies.length" class="absolute left-0 right-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-xl z-50 max-h-60 overflow-y-auto">
+                                <div 
+                                    v-for="agency in filteredAgencies" 
+                                    @click="selectAgency(agency)"
+                                    class="px-4 py-2 hover:bg-red-50 cursor-pointer text-sm border-b border-gray-50"
+                                >
+                                    {{ agency }}
+                                </div>
+                            </div>
+                            <button v-if="selectedAgency" @click="selectedAgency = ''; agencySearch = ''" class="absolute right-3 top-1/2 -translate-y-1/2">
+                                <i class="ph ph-x-circle text-gray-400 hover:text-red-600"></i>
+                            </button>
+                        </div>
+
+                        <select v-model="selectedYear" @change="fetchData" class="px-4 py-2 border border-gray-300 rounded-lg bg-white focus:ring-2 focus:ring-red-800 outline-none font-bold">
+                            <option v-for="year in [2026, 2025, 2024, 2023]" :value="year">{{ year }} Session</option>
+                        </select>
+
+                        <button @click="exportToExcel" class="flex items-center gap-2 px-4 py-2 bg-green-700 hover:bg-green-800 text-white rounded-lg transition-colors text-sm font-medium">
+                            <i class="ph ph-file-xls"></i> Export
+                        </button>
+                    </div>
                 </div>
             </div>
         </header>
 
-        <main class="flex-1 overflow-hidden flex relative">
-            
-            <div v-if="loading" class="absolute inset-0 z-50 bg-white/80 flex items-center justify-center flex-col">
-                <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-red-800 mb-4"></div>
-                <p class="text-slate-600 font-medium">Loading Legislative Data...</p>
-                <p class="text-xs text-slate-400 mt-2">Ensure this is running on a local web server (http://localhost)</p>
-            </div>
+        <main class="flex-1 overflow-hidden flex flex-col md:flex-row">
+            <aside class="w-full md:w-80 bg-white border-r border-gray-200 overflow-y-auto p-4 space-y-6">
+                <div>
+                    <label class="block text-xs font-bold text-gray-500 uppercase mb-2">Keyword Search</label>
+                    <div class="relative">
+                        <i class="ph ph-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                        <input v-model="searchQuery" type="text" class="w-full pl-9 pr-4 py-2 border border-gray-300 rounded-lg text-sm" placeholder="Title, summary, ID...">
+                    </div>
+                </div>
 
-            <div v-if="error" class="absolute inset-0 z-50 bg-white flex items-center justify-center flex-col p-8 text-center">
-                <i class="ph ph-warning-circle text-4xl text-red-600 mb-4"></i>
-                <h2 class="text-xl font-bold text-slate-800">Unable to Load Data</h2>
-                <p class="text-slate-600 mt-2 max-w-md">{{ error }}</p>
-                <p class="text-sm text-slate-500 mt-4 bg-gray-100 p-4 rounded text-left font-mono">
-                    Expected structure:<br>
-                    /data/2023rs/csv/legislation_model_responses.csv<br>
-                    /data/2024rs/csv/...
-                </p>
-            </div>
+                <div>
+                    <label class="block text-xs font-bold text-gray-500 uppercase mb-2">Broad Subjects</label>
+                    <div class="form-select-multi border border-gray-200 rounded-lg p-2 space-y-1">
+                        <label v-for="sub in uniqueBroadSubjects" :key="sub.Code" class="flex items-center gap-2 text-sm cursor-pointer hover:bg-gray-50 p-1 rounded">
+                            <input type="checkbox" v-model="filterBroad" :value="sub.Name" class="rounded text-red-800">
+                            {{ sub.Name }}
+                        </label>
+                    </div>
+                </div>
 
-            <div class="flex-1 overflow-y-auto p-4 md:p-6 bg-gray-50">
-                <div class="max-w-7xl mx-auto">
-                    
-                    <div class="flex justify-between items-end mb-4">
-                        <h2 class="text-lg font-semibold text-slate-700">
-                            Results <span class="text-sm font-normal text-slate-500">({{ filteredBills.length }} bills found)</span>
+                <div>
+                    <label class="block text-xs font-bold text-gray-500 uppercase mb-2">Narrow Subjects</label>
+                    <div class="form-select-multi border border-gray-200 rounded-lg p-2 space-y-1">
+                        <label v-for="sub in uniqueNarrowSubjects" :key="sub.Code" class="flex items-center gap-2 text-xs cursor-pointer hover:bg-gray-50 p-1 rounded">
+                            <input type="checkbox" v-model="filterNarrow" :value="sub.Name" class="rounded text-red-800">
+                            {{ sub.Name }}
+                        </label>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="flex-1 overflow-y-auto bg-gray-50 p-4 relative">
+                <div v-if="loading" class="absolute inset-0 z-10 bg-white/80 flex items-center justify-center flex-col">
+                    <div class="animate-spin rounded-full h-10 w-10 border-b-2 border-red-800 mb-4"></div>
+                    <p class="font-medium text-slate-600">Syncing Legislative Data...</p>
+                </div>
+
+                <div class="max-w-5xl mx-auto">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-xl font-bold text-slate-800">
+                            {{ filteredBills.length }} Bills Match
+                            <span v-if="selectedAgency" class="text-red-800">for {{ selectedAgency }}</span>
                         </h2>
                     </div>
 
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="space-y-4">
                         <article 
                             v-for="bill in filteredBills" 
-                            :key="bill.id" 
-                            class="bg-white rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition-shadow cursor-pointer flex flex-col group"
-                            @click="openModal(bill)"
+                            :key="bill.BillNumber"
+                            @click="openBill(bill)"
+                            class="bg-white p-5 rounded-xl border border-gray-200 shadow-sm hover:border-red-300 transition-all cursor-pointer group"
                         >
-                            <div class="p-5 border-b border-gray-100">
-                                <div class="flex justify-between items-start mb-2">
-                                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-800">
-                                        {{ bill.YearAndSession }}
-                                    </span>
+                            <div class="flex justify-between items-start gap-4">
+                                <div class="flex-1">
+                                    <div class="flex items-center gap-3 mb-1">
+                                        <span class="text-lg font-black text-red-800 group-hover:underline">{{ bill.BillNumber }}</span>
+                                        <span v-if="getRelevance(bill)" class="px-2 py-0.5 bg-amber-100 text-amber-800 text-xs font-bold rounded">
+                                            Relevance Rating: {{ getRelevance(bill).relevance_rating }}/5
+                                        </span>
+                                    </div>
+                                    <h3 class="font-bold text-slate-900 leading-tight mb-2">{{ bill.Title }}</h3>
+                                    <p class="text-sm text-slate-600 line-clamp-2">{{ bill.bill_summary }}</p>
                                 </div>
-                                <h3 class="text-lg font-bold text-red-900 group-hover:text-red-700 transition-colors">
-                                    {{ bill.BillNumber }}
-                                </h3>
-                                <p class="text-sm font-medium text-slate-800 line-clamp-2 mt-1" :title="bill.Title">
-                                    {{ bill.Title }}
-                                </p>
-                            </div>
-
-                            <div class="p-5 flex-1 flex flex-col">
-                                <p class="text-sm text-slate-600 line-clamp-4 mb-4 flex-1">
-                                    {{ bill.bill_summary || bill.Synopsis }}
-                                </p>
                                 
-                                <div class="space-y-2 mt-auto pt-4 border-t border-gray-100 text-xs">
-                                    <div v-if="bill.funding && bill.funding !== 'None' && bill.funding !== 'N/A'" class="flex items-start gap-2">
-                                        <i class="ph ph-currency-dollar text-slate-400 mt-0.5"></i>
-                                        <span class="font-semibold text-slate-700">Funding:</span>
-                                        <span class="text-slate-600 truncate">{{ formatMoney(bill.funding) }}</span>
-                                    </div>
-                                    <div v-if="bill.responsible_party && bill.responsible_party !== 'N/A'" class="flex items-start gap-2">
-                                        <i class="ph ph-buildings text-slate-400 mt-0.5"></i>
-                                        <span class="font-semibold text-slate-700">Agency:</span>
-                                        <span class="text-slate-600 truncate">{{ bill.responsible_party }}</span>
-                                    </div>
+                                <div v-if="selectedYear === 2026 && getNextAction(bill)" class="text-right shrink-0">
+                                    <div class="text-[10px] font-bold text-red-600 uppercase tracking-tighter">{{ getNextAction(bill).label }}</div>
+                                    <div class="text-sm font-bold text-slate-700">{{ formatDate(getNextAction(bill).date) }}</div>
+                                    <div v-if="getNextAction(bill).isTime" class="text-xs text-slate-500">{{ formatTime(getNextAction(bill).date) }}</div>
                                 </div>
                             </div>
                         </article>
                     </div>
-                    
-                    <div v-if="filteredBills.length === 0 && !loading" class="text-center py-20">
-                        <i class="ph ph-files text-4xl text-gray-300 mb-3"></i>
-                        <p class="text-gray-500">No bills found matching your criteria.</p>
-                    </div>
-
                 </div>
-            </div>
+            </section>
         </main>
 
         <transition name="fade">
-            <div v-if="selectedBill" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm" @click.self="closeModal">
-                <div class="bg-white rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] flex flex-col overflow-hidden animate-scale-in">
-                    
-                    <div class="px-6 py-4 border-b border-gray-100 flex justify-between items-start bg-slate-50 shrink-0">
+            <div v-if="activeBill" class="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm" @click.self="closeBill">
+                <div class="bg-white rounded-2xl shadow-2xl w-full max-w-5xl max-h-[90vh] flex flex-col overflow-hidden">
+                    <header class="p-6 border-b border-gray-100 bg-gray-50 flex justify-between items-start">
                         <div>
                             <div class="flex items-center gap-3 mb-1">
-                                <h2 class="text-2xl font-bold text-red-900">{{ selectedBill.BillNumber }}</h2>
-                                <span class="px-2 py-1 bg-slate-200 text-slate-700 text-xs rounded font-mono">{{ selectedBill.YearAndSession }}</span>
+                                <h2 class="text-3xl font-black text-red-900">{{ activeBill.BillNumber }}</h2>
+                                <span class="px-3 py-1 bg-white border border-gray-200 rounded-full text-xs font-bold text-slate-500">{{ activeBill.YearAndSession }}</span>
                             </div>
-                            <h3 class="font-semibold text-slate-800 leading-tight">{{ selectedBill.Title }}</h3>
+                            <h3 class="text-lg font-bold text-slate-800">{{ activeBill.Title }}</h3>
                         </div>
-                        <button @click="closeModal" class="p-2 hover:bg-slate-200 rounded-full transition-colors">
-                            <i class="ph ph-x text-xl text-slate-500"></i>
+                        <button @click="closeBill" class="p-2 hover:bg-gray-200 rounded-full transition-colors">
+                            <i class="ph ph-x text-2xl"></i>
                         </button>
-                    </div>
+                    </header>
 
-                    <div class="flex-1 overflow-y-auto p-6 md:p-8">
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                            
-                            <div class="md:col-span-2 space-y-6">
-                                
-                                <section>
-                                    <h4 class="text-sm uppercase tracking-wider text-slate-500 font-bold mb-2">Plain-English Summary</h4>
-                                    <div class="prose prose-sm text-slate-700 bg-blue-50/50 p-4 rounded-lg border border-blue-100">
-                                        {{ selectedBill.bill_summary }}
-                                    </div>
+                    <div class="flex-1 overflow-y-auto p-6 md:p-10">
+                        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+                            <div class="lg:col-span-2 space-y-8">
+                                <section v-if="getRelevance(activeBill)" class="bg-red-50 border-l-4 border-red-800 p-6 rounded-r-xl">
+                                    <h4 class="text-red-900 font-bold uppercase text-xs tracking-widest mb-2">Agency Relevance: {{ selectedAgency }}</h4>
+                                    <p class="text-slate-800 font-medium leading-relaxed">{{ getRelevance(activeBill).relevance_explanation }}</p>
                                 </section>
 
                                 <section>
-                                    <h4 class="text-sm uppercase tracking-wider text-slate-500 font-bold mb-2">Official Synopsis</h4>
-                                    <p class="text-sm text-slate-600 leading-relaxed">{{ selectedBill.Synopsis }}</p>
+                                    <h4 class="text-slate-400 font-bold uppercase text-xs tracking-widest mb-3">Plain-English Summary</h4>
+                                    <p class="text-slate-700 leading-relaxed text-lg">{{ activeBill.bill_summary }}</p>
                                 </section>
 
-                                <div class="grid grid-cols-2 gap-4">
-                                    <div class="bg-gray-50 p-4 rounded-lg">
-                                        <h4 class="text-xs font-bold text-slate-500 uppercase mb-1">Program Start</h4>
-                                        <p class="font-medium">{{ formatYear(selectedBill.program_start_year) }}</p>
+                                <section>
+                                    <h4 class="text-slate-400 font-bold uppercase text-xs tracking-widest mb-3">Fiscal Impact Analysis</h4>
+                                    <div class="bg-emerald-50 text-emerald-900 p-5 rounded-xl border border-emerald-100">
+                                        {{ activeBill.fiscal_impact_summary }}
                                     </div>
-                                    <div class="bg-gray-50 p-4 rounded-lg">
-                                        <h4 class="text-xs font-bold text-slate-500 uppercase mb-1">Program End</h4>
-                                        <p class="font-medium">{{ formatYear(selectedBill.program_end_year) }}</p>
+                                </section>
+
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    <div class="p-4 bg-gray-50 rounded-lg">
+                                        <h5 class="text-xs font-bold text-slate-400 uppercase mb-2">Responsible Party</h5>
+                                        <p class="font-bold text-slate-800">{{ activeBill.responsible_party || 'N/A' }}</p>
+                                    </div>
+                                    <div class="p-4 bg-gray-50 rounded-lg">
+                                        <h5 class="text-xs font-bold text-slate-400 uppercase mb-2">Stakeholders</h5>
+                                        <p class="text-sm text-slate-700">{{ activeBill.stakeholders }}</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="space-y-6">
-                                
-                                <div class="space-y-4">
+                                <div class="bg-slate-50 rounded-xl p-5 space-y-4">
                                     <div>
-                                        <h4 class="text-xs font-bold text-slate-500 uppercase mb-1">Responsible Party</h4>
-                                        <div class="flex items-start gap-2">
-                                            <i class="ph ph-buildings text-red-800"></i>
-                                            <span class="text-sm text-slate-800">{{ selectedBill.responsible_party }}</span>
-                                        </div>
+                                        <span class="block text-[10px] font-bold text-slate-400 uppercase">Primary Sponsor</span>
+                                        <span class="font-bold text-slate-900">{{ activeBill.SponsorPrimary }}</span>
                                     </div>
-
                                     <div>
-                                        <h4 class="text-xs font-bold text-slate-500 uppercase mb-1">Funding Allocated</h4>
-                                        <div class="flex items-start gap-2">
-                                            <i class="ph ph-money text-green-700"></i>
-                                            <span class="text-sm text-slate-800 font-medium">{{ formatMoney(selectedBill.funding) }}</span>
-                                        </div>
+                                        <span class="block text-[10px] font-bold text-slate-400 uppercase">Current Status</span>
+                                        <span class="text-sm font-medium text-red-800">{{ activeBill.Status }}</span>
                                     </div>
-
-                                    <div>
-                                        <h4 class="text-xs font-bold text-slate-500 uppercase mb-1">Stakeholders Impacted</h4>
-                                        <div class="flex items-start gap-2">
-                                            <i class="ph ph-users text-blue-700"></i>
-                                            <span class="text-sm text-slate-800">{{ selectedBill.stakeholders }}</span>
-                                        </div>
+                                    <div v-if="activeBill.funding !== null">
+                                        <span class="block text-[10px] font-bold text-slate-400 uppercase">Est. Funding Impact</span>
+                                        <span class="text-lg font-black text-emerald-700">{{ formatCurrency(activeBill.funding) }}</span>
                                     </div>
                                 </div>
 
-                                <hr class="border-gray-100">
-
-                                <div class="space-y-3">
-                                    <a :href="getMgalegUrl(selectedBill)" target="_blank" class="flex items-center justify-center w-full gap-2 px-4 py-2.5 bg-red-800 hover:bg-red-900 text-white rounded-lg font-medium transition-colors text-sm">
-                                        View on MGA Website
-                                        <i class="ph ph-arrow-square-out"></i>
-                                    </a>
-
-                                    <button 
-                                        @click="fetchAndCopyMarkdown(selectedBill)" 
-                                        class="flex items-center justify-center w-full gap-2 px-4 py-2.5 bg-white border border-gray-300 hover:bg-gray-50 text-slate-700 rounded-lg font-medium transition-colors text-sm"
-                                        :disabled="copying"
-                                    >
-                                        <i class="ph" :class="copying ? 'ph-spinner animate-spin' : (copySuccess ? 'ph-check text-green-600' : 'ph-copy')"></i>
-                                        {{ copyButtonText }}
-                                    </button>
-                                    <p class="text-xs text-center text-slate-400">Copies raw markdown for use in AI tools</p>
+                                <div>
+                                    <h4 class="text-xs font-bold text-slate-400 uppercase mb-2">Subjects</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span v-for="s in activeBill.BroadSubjects" class="px-2 py-1 bg-slate-200 text-slate-700 rounded text-[10px] font-bold uppercase">{{ s.Name }}</span>
+                                        <span v-for="s in activeBill.NarrowSubjects" class="px-2 py-1 bg-blue-50 text-blue-700 rounded text-[10px]">{{ s.Name }}</span>
+                                    </div>
                                 </div>
+
+                                <a :href="'https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/' + activeBill.BillNumber + '?ys=' + selectedYear + 'RS'" 
+                                   target="_blank" 
+                                   class="flex items-center justify-center gap-2 w-full py-3 bg-slate-900 text-white rounded-xl font-bold hover:bg-black transition-colors">
+                                    View Bill on MGA
+                                    <i class="ph ph-arrow-square-out"></i>
+                                </a>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
         </transition>
-    <div class="fixed bottom-6 right-6 z-40 flex flex-col items-end gap-4">
-            
-            <transition name="slide-up">
-                <div v-if="isChatOpen" class="w-full sm:w-96 bg-white rounded-2xl shadow-2xl border border-gray-200 overflow-hidden flex flex-col h-[500px] max-h-[80vh] mb-2">
-                    <div class="bg-red-800 p-4 flex justify-between items-center text-white shrink-0">
-                        <div class="flex items-center gap-2">
-                            <div class="bg-white/20 p-1.5 rounded-lg">
-                                <i class="ph ph-robot text-xl"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-bold text-sm">Legi-Bot AI</h3>
-                                <p class="text-xs text-red-100 flex items-center gap-1">
-                                    <span class="w-1.5 h-1.5 bg-green-400 rounded-full"></span> Online
-                                </p>
-                            </div>
-                        </div>
-                        <button @click="toggleChat" class="hover:bg-white/10 p-1 rounded transition-colors">
-                            <i class="ph ph-minus text-lg"></i>
-                        </button>
-                    </div>
-
-                    <div class="flex-1 overflow-y-auto p-4 space-y-4 bg-slate-50" ref="chatContainer">
-                        
-                        <div class="flex justify-center my-4">
-                            <span class="text-xs text-slate-400 bg-slate-100 px-3 py-1 rounded-full">Today</span>
-                        </div>
-
-                        <div v-for="msg in chatMessages" :key="msg.id" :class="['flex', msg.sender === 'user' ? 'justify-end' : 'justify-start']">
-                            <div :class="['max-w-[85%] rounded-2xl px-4 py-2.5 text-sm shadow-sm', 
-                                msg.sender === 'user' 
-                                    ? 'bg-red-800 text-white rounded-br-none' 
-                                    : 'bg-white border border-gray-100 text-slate-700 rounded-bl-none']">
-                                <p>{{ msg.text }}</p>
-                                <p class="text-[10px] mt-1 opacity-70 text-right">{{ msg.time }}</p>
-                            </div>
-                        </div>
-
-                        <div v-if="isTyping" class="flex justify-start animate-pulse">
-                            <div class="bg-white border border-gray-100 rounded-2xl rounded-bl-none px-4 py-3 shadow-sm flex gap-1.5 items-center">
-                                <div class="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce"></div>
-                                <div class="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce delay-100"></div>
-                                <div class="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce delay-200"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-3 bg-white border-t border-gray-100 shrink-0">
-                        <form @submit.prevent="sendMessage" class="flex items-center gap-2">
-                            <input 
-                                v-model="currentChatMessage" 
-                                type="text" 
-                                placeholder="Ask about legislation..." 
-                                class="flex-1 px-4 py-2.5 bg-gray-100 text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-red-800 focus:bg-white transition-all"
-                            >
-                            <button 
-                                type="submit" 
-                                :disabled="!currentChatMessage.trim() || isTyping"
-                                class="p-2.5 bg-red-800 text-white rounded-full hover:bg-red-900 disabled:opacity-50 disabled:cursor-not-allowed transition-colors shadow-sm flex items-center justify-center"
-                            >
-                                <i class="ph ph-paper-plane-right text-lg"></i>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </transition>
-
-            <button 
-                @click="toggleChat"
-                class="group p-4 bg-red-800 text-white rounded-full shadow-lg hover:shadow-xl hover:bg-red-900 transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-red-200"
-                aria-label="Open AI Assistant"
-            >
-                <i v-if="!isChatOpen" class="ph ph-chat-teardrop-text text-3xl group-hover:scale-110 transition-transform"></i>
-                <i v-else class="ph ph-x text-3xl rotate-0 hover:rotate-90 transition-transform"></i>
-            </button>
-        </div>
     </div>
 
     <script>
-        const { createApp, ref, computed, onMounted } = Vue;
+        const { createApp, ref, computed, onMounted, watch } = Vue;
 
         createApp({
             setup() {
-                const { createApp, ref, computed, onMounted, nextTick } = Vue;
-
-                // --- Legislation Logic ---
                 const allBills = ref([]);
                 const loading = ref(true);
-                const error = ref(null);
-                const searchQuery = ref("");
                 const selectedYear = ref(2026);
-                const selectedBill = ref(null);
-                
-                // Copy State
-                const copying = ref(false);
-                const copySuccess = ref(false);
-                const copyButtonText = ref("Copy Full Text to Clipboard");
+                const searchQuery = ref("");
+                const agencySearch = ref("");
+                const selectedAgency = ref("");
+                const showAgencyList = ref(false);
+                const filterBroad = ref([]);
+                const filterNarrow = ref([]);
+                const activeBill = ref(null);
 
-                // Configuration
-                const yearsToLoad = [2023, 2024, 2025, 2026];
-                
-                // --- Chatbot Logic ---
-                const isChatOpen = ref(false);
-                const isTyping = ref(false);
-                const currentChatMessage = ref("");
-                const chatContainer = ref(null);
-                const chatMessages = ref([
-                    { 
-                        id: 1, 
-                        text: "Hello! I'm Legi-Bot. I can help you summarize bills or find funding details. What are you looking for today?", 
-                        sender: 'bot',
-                        time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+                // Initialize from URL
+                const initFromUrl = () => {
+                    const params = new URLSearchParams(window.location.search);
+                    if (params.get('year')) selectedYear.value = parseInt(params.get('year'));
+                    if (params.get('agency')) {
+                        selectedAgency.value = params.get('agency');
+                        agencySearch.value = params.get('agency');
                     }
-                ]);
+                    if (params.get('bill')) {
+                        // We'll open this after data loads
+                    }
+                };
 
-                // --- Methods ---
+                const updateUrl = () => {
+                    const params = new URLSearchParams();
+                    params.set('year', selectedYear.value);
+                    if (selectedAgency.value) params.set('agency', selectedAgency.value);
+                    if (activeBill.value) params.set('bill', activeBill.value.BillNumber);
+                    
+                    const newUrl = `${window.location.pathname}?${params.toString()}`;
+                    window.history.pushState({}, '', newUrl);
+                };
 
-                // 1. Load Data
-                const loadData = async () => {
-                    const promises = yearsToLoad.map(year => {
-                        const path = `data/${year}rs/csv/legislation_model_responses.csv`;
-                        return new Promise((resolve) => {
-                            Papa.parse(path, {
-                                download: true,
-                                header: true,
-                                skipEmptyLines: true,
-                                complete: (results) => {
-                                    if(results.data && results.data.length > 0) {
-                                        const processed = results.data.map(d => ({...d, _sourceYear: year}));
-                                        resolve(processed);
-                                    } else {
-                                        console.warn(`No data found for ${year}`);
-                                        resolve([]);
-                                    }
-                                },
-                                error: (err) => {
-                                    console.warn(`Failed to load ${path}`, err);
-                                    resolve([]); 
-                                }
-                            });
-                        });
-                    });
-
+                const fetchData = async () => {
+                    loading.value = true;
                     try {
-                        const results = await Promise.all(promises);
-                        allBills.value = results.flat();
-                        if (allBills.value.length === 0) {
-                            error.value = "No data files could be loaded. Please check file paths.";
+                        const resp = await fetch(`data/${selectedYear.value}rs/frontend_data.json`);
+                        const data = await resp.json();
+                        // Filter out bills without agency processing
+                        allBills.value = data.filter(b => b.agency_relevance && b.agency_relevance.length > 0);
+                        
+                        // Deep link to bill if in URL
+                        const params = new URLSearchParams(window.location.search);
+                        const billId = params.get('bill');
+                        if (billId) {
+                            const found = allBills.value.find(b => b.BillNumber === billId);
+                            if (found) activeBill.value = found;
                         }
                     } catch (e) {
-                        error.value = "Unexpected error loading data.";
-                        console.error(e);
+                        console.error("Load failed", e);
+                        allBills.value = [];
                     } finally {
                         loading.value = false;
                     }
                 };
 
-                // 2. Computed Properties
-                const availableYears = computed(() => {
-                    const years = allBills.value.map(b => b._sourceYear).filter(y => y);
-                    return [...new Set(years)].sort().reverse();
+                const filteredAgencies = computed(() => {
+                    const agencies = new Set();
+                    allBills.value.forEach(b => {
+                        b.agency_relevance.forEach(a => agencies.add(a.agency_name));
+                    });
+                    const list = Array.from(agencies).sort();
+                    if (!agencySearch.value) return list;
+                    return list.filter(a => a.toLowerCase().includes(agencySearch.value.toLowerCase()));
+                });
+
+                const uniqueBroadSubjects = computed(() => {
+                    const map = new Map();
+                    allBills.value.forEach(b => {
+                        b.BroadSubjects?.forEach(s => map.set(s.Code, s));
+                    });
+                    return Array.from(map.values()).sort((a,b) => a.Name.localeCompare(b.Name));
+                });
+
+                const uniqueNarrowSubjects = computed(() => {
+                    const map = new Map();
+                    allBills.value.forEach(b => {
+                        b.NarrowSubjects?.forEach(s => map.set(s.Code, s));
+                    });
+                    return Array.from(map.values()).sort((a,b) => a.Name.localeCompare(b.Name));
                 });
 
                 const filteredBills = computed(() => {
-                    return allBills.value.filter(bill => {
-                        const searchLower = searchQuery.value.toLowerCase();
-                        const matchesSearch = !searchQuery.value || 
-                            (bill.BillNumber && bill.BillNumber.toLowerCase().includes(searchLower)) ||
-                            (bill.Title && bill.Title.toLowerCase().includes(searchLower)) ||
-                            (bill.bill_summary && bill.bill_summary.toLowerCase().includes(searchLower));
+                    let results = allBills.value;
 
-                        const matchesYear = selectedYear.value === "all" || 
-                            (bill._sourceYear == selectedYear.value);
+                    // Agency Filter + Sorting
+                    if (selectedAgency.value) {
+                        results = results.filter(b => 
+                            b.agency_relevance.some(a => a.agency_name === selectedAgency.value)
+                        ).sort((a, b) => {
+                            const relA = a.agency_relevance.find(ar => ar.agency_name === selectedAgency.value)?.relevance_rating || 0;
+                            const relB = b.agency_relevance.find(ar => ar.agency_name === selectedAgency.value)?.relevance_rating || 0;
+                            return relB - relA;
+                        });
+                    }
 
-                        return matchesSearch && matchesYear;
-                    });
+                    // Keyword
+                    if (searchQuery.value) {
+                        const q = searchQuery.value.toLowerCase();
+                        results = results.filter(b => 
+                            b.BillNumber.toLowerCase().includes(q) ||
+                            b.Title.toLowerCase().includes(q) ||
+                            b.bill_summary.toLowerCase().includes(q) ||
+                            b.Synopsis.toLowerCase().includes(q)
+                        );
+                    }
+
+                    // Subjects
+                    if (filterBroad.value.length > 0) {
+                        results = results.filter(b => 
+                            b.BroadSubjects?.some(s => filterBroad.value.includes(s.Name))
+                        );
+                    }
+                    if (filterNarrow.value.length > 0) {
+                        results = results.filter(b => 
+                            b.NarrowSubjects?.some(s => filterNarrow.value.includes(s.Name))
+                        );
+                    }
+
+                    return results;
                 });
 
-                // 3. Helpers
-                const isTrue = (val) => {
-                    if (typeof val === 'boolean') return val;
-                    if (typeof val === 'string') return val.toLowerCase() === 'true';
-                    return false;
+                const selectAgency = (name) => {
+                    selectedAgency.value = name;
+                    agencySearch.value = name;
+                    showAgencyList.value = false;
+                    updateUrl();
                 };
 
-                const formatMoney = (val) => {
-                    if (!val || val === 'None') return 'N/A';
-                    if (!isNaN(val)) {
-                        return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(val);
-                    }
-                    return val;
+                const getRelevance = (bill) => {
+                    if (!selectedAgency.value || !bill.agency_relevance) return null;
+                    return bill.agency_relevance.find(a => a.agency_name === selectedAgency.value);
                 };
 
-                const formatYear = (val) => {
-                    if (!val || val === 'N/A' || val === 'None') return 'N/A';
-                    const num = parseFloat(val);
-                    return isNaN(num) ? val : String(num);
+                const openBill = (bill) => {
+                    activeBill.value = bill;
+                    updateUrl();
                 };
 
-                const getMgalegUrl = (bill) => {
-                    if (!bill) return '#';
-                    const billNum = bill.BillNumber ? bill.BillNumber.toLowerCase() : '';
-                    let year = bill._sourceYear;
-                    if(!year && bill.YearAndSession) {
-                        const match = bill.YearAndSession.match(/\d{4}/);
-                        if(match) year = match[0];
-                    }
-                    return `https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/${billNum}?ys=${year}RS`;
+                const closeBill = () => {
+                    activeBill.value = null;
+                    updateUrl();
                 };
 
-                const openModal = (bill) => {
-                    selectedBill.value = bill;
-                    copySuccess.value = false;
-                    copyButtonText.value = "Copy Full Text to Clipboard";
-                };
-
-                const closeModal = () => {
-                    selectedBill.value = null;
-                };
-
-                // 4. Copy Logic
-                const fetchAndCopyMarkdown = async (bill) => {
-                    if (!bill) return;
-                    copying.value = true;
-                    
-                    let year = bill._sourceYear;
-                    if(!year && bill.YearAndSession) {
-                        const match = bill.YearAndSession.match(/\d{4}/);
-                        if(match) year = match[0];
-                    }
-
-                    const pathsToTry = [
-                        `data/${year}rs/md/${bill.BillNumber}.md`,
-                        `data/${year}rs/md/${bill.BillNumber}_amended.md`,
-                        `data/${year}rs/md/${bill.BillNumber.toLowerCase()}.md`
+                const getNextAction = (bill) => {
+                    const now = new Date();
+                    const actions = [
+                        { label: 'Hearing', date: bill.HearingDateTimePrimaryHouseOfOrigin, isTime: true },
+                        { label: 'Hearing', date: bill.HearingDateTimeSecondaryHouseOfOrigin, isTime: true },
+                        { label: '2nd Reading', date: bill.SecondReadingDateHouseOfOrigin, isTime: false },
+                        { label: '3rd Reading', date: bill.ThirdReadingDateHouseOfOrigin, isTime: false },
+                        { label: 'Opposite Hearing', date: bill.HearingDateTimePrimaryOppositeHouse, isTime: true },
+                        { label: 'Opposite Hearing', date: bill.HearingDateTimeSecondaryOppositeHouse, isTime: true },
+                        { label: 'Opp. 2nd Reading', date: bill.SecondReadingDateOppositeHouse, isTime: false },
+                        { label: 'Opp. 3rd Reading', date: bill.ThirdReadingDateOppositeHouse, isTime: false }
                     ];
 
-                    let text = null;
+                    // Filter for valid dates that are today or in the future
+                    const upcoming = actions
+                        .filter(a => a.date)
+                        .map(a => ({ ...a, date: new Date(a.date) }))
+                        .filter(a => a.date >= now.setHours(0, 0, 0, 0))
+                        .sort((a, b) => a.date - b.date);
 
-                    for (const path of pathsToTry) {
-                        try {
-                            const response = await fetch(path);
-                            if (response.ok) {
-                                text = await response.text();
-                                break;
-                            }
-                        } catch (e) {
-                            console.log(`Could not fetch ${path}`);
-                        }
-                    }
+                    return upcoming.length > 0 ? upcoming[0] : null;
+                };
 
-                    if (text) {
-                        try {
-                            await navigator.clipboard.writeText(text);
-                            copySuccess.value = true;
-                            copyButtonText.value = "Copied to Clipboard!";
-                            setTimeout(() => {
-                                copySuccess.value = false;
-                                copyButtonText.value = "Copy Full Text to Clipboard";
-                            }, 3000);
-                        } catch (err) {
-                            copyButtonText.value = "Clipboard permission denied";
-                        }
-                    } else {
-                        copyButtonText.value = "Text file not found";
-                    }
+                const formatCurrency = (val) => {
+                    if (val === 0) return "No Direct Fiscal Impact";
+                    return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(val);
+                };
+
+                const formatDate = (ds) => ds ? new Date(ds).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
+                const formatTime = (ds) => ds ? new Date(ds).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }) : '';
+
+                const exportToExcel = () => {
+                    const rows = filteredBills.value.map(b => ({
+                        Bill: b.BillNumber,
+                        Title: b.Title,
+                        MGA_Link: `https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/${b.BillNumber}?ys=${selectedYear.value}RS`,
+                        Agency_Rating: getRelevance(b)?.relevance_rating || '',
+                        Relevance_Note: getRelevance(b)?.relevance_explanation || '',
+                        Summary: b.bill_summary,
+                        Fiscal_Impact: b.fiscal_impact_summary,
+                        Funding: b.funding,
+                        Sponsor: b.SponsorPrimary,
+                        Status: b.Status,
+                        Broad_Subjects: b.BroadSubjects.map(s => s.Name).join('; '),
+                        Narrow_Subjects: b.NarrowSubjects.map(s => s.Name).join('; ')
+                    }));
+
+                    if (rows.length === 0) return;
                     
-                    copying.value = false;
+                    const header = Object.keys(rows[0]).join(',');
+                    const csv = [header, ...rows.map(row => 
+                        Object.values(row).map(v => `"${String(v).replace(/"/g, '""')}"`).join(',')
+                    )].join('\n');
+
+                    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+                    const link = document.createElement("a");
+                    link.href = URL.createObjectURL(blob);
+                    link.download = `MD_Legislation_Export_${selectedYear.value}.csv`;
+                    link.click();
                 };
 
-                // 5. Chat Methods
-                const toggleChat = () => {
-                    isChatOpen.value = !isChatOpen.value;
-                    if (isChatOpen.value) {
-                        scrollToBottom();
-                    }
-                };
-
-                const scrollToBottom = () => {
-                    nextTick(() => {
-                        if (chatContainer.value) {
-                            chatContainer.value.scrollTop = chatContainer.value.scrollHeight;
-                        }
-                    });
-                };
-
-                const sendMessage = () => {
-                    if (!currentChatMessage.value.trim()) return;
-
-                    // Add User Message
-                    chatMessages.value.push({
-                        id: Date.now(),
-                        text: currentChatMessage.value,
-                        sender: 'user',
-                        time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
-                    });
-
-                    const userQuery = currentChatMessage.value;
-                    currentChatMessage.value = "";
-                    scrollToBottom();
-                    isTyping.value = true;
-
-                    // Mock API Delay
-                    setTimeout(() => {
-                        let responseText = "I see you're interested in that. I'm currently in demo mode, but I can tell you that the 2026 session is particularly focused on budget allocations.";
-                        
-                        if (userQuery.toLowerCase().includes("fund")) {
-                            responseText = "For funding specific inquiries, please look for the green dollar signs ($) on the bill cards. These indicate fiscal notes are attached.";
-                        } else if (userQuery.toLowerCase().includes("education")) {
-                            responseText = "Education bills are often handled by the Ways and Means committee. Try searching for 'Education' in the top search bar.";
-                        }
-
-                        chatMessages.value.push({
-                            id: Date.now() + 1,
-                            text: responseText,
-                            sender: 'bot',
-                            time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
-                        });
-                        
-                        isTyping.value = false;
-                        scrollToBottom();
-                    }, 1500);
-                };
-
-                // Init
                 onMounted(() => {
-                    loadData();
+                    initFromUrl();
+                    fetchData();
                 });
 
                 return {
-                    loading,
-                    error,
-                    searchQuery,
-                    selectedYear,
-                    availableYears,
-                    filteredBills,
-                    selectedBill,
-                    openModal,
-                    closeModal,
-                    isTrue,
-                    formatMoney,
-                    formatYear,
-                    getMgalegUrl,
-                    fetchAndCopyMarkdown,
-                    copying,
-                    copySuccess,
-                    copyButtonText,
-                    // Chat exports
-                    isChatOpen,
-                    isTyping,
-                    chatMessages,
-                    currentChatMessage,
-                    toggleChat,
-                    sendMessage,
-                    chatContainer
+                    allBills, loading, selectedYear, searchQuery, agencySearch, selectedAgency,
+                    showAgencyList, filterBroad, filterNarrow, activeBill,
+                    filteredAgencies, uniqueBroadSubjects, uniqueNarrowSubjects, filteredBills,
+                    selectAgency, getRelevance, openBill, closeBill, formatCurrency,
+                    formatDate, formatTime, exportToExcel, fetchData, getNextAction
                 };
             }
         }).mount('#app');
