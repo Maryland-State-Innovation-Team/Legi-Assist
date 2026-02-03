@@ -12,7 +12,7 @@ from pipeline.state import PipelineState
 from pipeline.download import download_session_data
 from pipeline.convert import convert_pdfs_to_md
 from pipeline.amend import apply_amendments
-from pipeline.qa import run_qa, export_qa_to_csv
+from pipeline.qa import run_qa
 
 def setup_client(family, model_name):
     load_dotenv()
