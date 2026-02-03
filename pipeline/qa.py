@@ -109,10 +109,15 @@ def run_qa(session_year: int, bill_number: str, state_manager, client, model_nam
         # Fallback to legislation.json
         bill_info = get_bill_json_info(session_year, bill_number)
         if bill_info:
-            title = bill_info.get('Title', '')
-            synopsis = bill_info.get('Synopsis', '')
-            broad = [s.get('Name') for s in bill_info.get('BroadSubjects', [])]
-            narrow = [s.get('Name') for s in bill_info.get('NarrowSubjects', [])]
+            title = bill_info.get('Title') or ''
+            synopsis = bill_info.get('Synopsis') or ''
+            
+            # Use 'or []' to handle cases where the key exists but value is None
+            broad_list = bill_info.get('BroadSubjects') or []
+            broad = [s.get('Name') for s in broad_list if s]
+            
+            narrow_list = bill_info.get('NarrowSubjects') or []
+            narrow = [s.get('Name') for s in narrow_list if s]
             
             bill_md = f"# {title}\n\n"
             bill_md += f"## Synopsis\n{synopsis}\n\n"
