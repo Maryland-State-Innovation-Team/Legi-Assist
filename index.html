@@ -178,7 +178,9 @@
                             <div class="flex justify-between items-start gap-4">
                                 <div class="flex-1">
                                     <div class="flex items-center gap-3 mb-1">
-                                        <span class="text-lg font-black text-red-800 group-hover:underline">{{ bill.BillNumber }}</span>
+                                        <span class="text-lg font-black text-red-800 group-hover:underline">
+                                            {{ bill.BillNumber }}{{ bill.CrossfileBillNumber ? '/' + bill.CrossfileBillNumber : '' }}
+                                        </span>
                                         <span v-if="getRelevance(bill)" class="px-2 py-0.5 bg-amber-100 text-amber-800 text-xs font-bold rounded">
                                             Relevance Rating: {{ getRelevance(bill).relevance_rating }}/5
                                         </span>
@@ -214,7 +216,9 @@
                     <header class="p-6 border-b border-gray-100 bg-gray-50 flex justify-between items-start">
                         <div>
                             <div class="flex items-center gap-3 mb-1">
-                                <h2 id="modal-title" ref="modalTitle" tabindex="-1" class="text-3xl font-black text-red-900 outline-none">{{ activeBill.BillNumber }}</h2>
+                                <h2 id="modal-title" ref="modalTitle" tabindex="-1" class="text-3xl font-black text-red-900 outline-none">
+                                    {{ activeBill.BillNumber }}{{ activeBill.CrossfileBillNumber ? '/' + activeBill.CrossfileBillNumber : '' }}
+                                </h2>
                                 <span class="px-3 py-1 bg-white border border-gray-200 rounded-full text-xs font-bold text-slate-500">{{ activeBill.YearAndSession }}</span>
                             </div>
                             <h3 class="text-lg font-bold text-slate-800">{{ activeBill.Title }}</h3>
@@ -465,6 +469,7 @@
                         const q = searchQuery.value.toLowerCase();
                         results = results.filter(b => 
                             b.BillNumber.toLowerCase().includes(q) ||
+                            (b.CrossfileBillNumber && b.CrossfileBillNumber.toLowerCase().includes(q)) ||
                             b.Title.toLowerCase().includes(q) ||
                             b.bill_summary.toLowerCase().includes(q) ||
                             b.Synopsis.toLowerCase().includes(q)
