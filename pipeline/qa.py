@@ -138,11 +138,9 @@ def run_qa(session_year: int, bill_number: str, state_manager, client, model_nam
     bill_state = state_manager.get_bill(bill_number)
     
     if bill_state.get('qa_input_hash') == current_hash and bill_state.get('qa_results'):
-        print(f"[{bill_number}] No changes in QA input. Skipping QA stage.")
         state_manager.update_bill(bill_number, {"needs_qa": False})
         return
 
-    print(f"Running QA on {bill_number}...")
     try:
         # 1. General QA
         response = query_llm_with_retries(
@@ -157,14 +155,13 @@ def run_qa(session_year: int, bill_number: str, state_manager, client, model_nam
         
         qa_data = {}
         if response:
-            qa_data = response.model_dump()
+            qa_data = response
         
         # 2. Agency Relevance Analysis
         agencies_csv = os.path.abspath('data/maryland_agencies.csv')
         agencies_text = load_agencies(agencies_csv)
         
         if agencies_text:
-            print(f"Running Agency Analysis on {bill_number}...")
             agency_prompt = get_agency_prompt(agencies_text)
             agency_response = query_llm_with_retries(
                 client=client,
@@ -178,7 +175,7 @@ def run_qa(session_year: int, bill_number: str, state_manager, client, model_nam
             
             if agency_response:
                 # Store as a list of dicts
-                qa_data['agency_relevance'] = [a.model_dump() for a in agency_response.relevant_agencies]
+                qa_data['agency_relevance'] = agency_response.get('relevant_agencies', [])
 
         if qa_data:
             state_manager.update_bill(bill_number, {
@@ -201,12 +198,6 @@ def export_qa_to_csv(session_year: int, state_manager):
             data.append(row)
             
     if data:
-        # Also export as JSON for easier web consumption
-        json_out_path = os.path.abspath(f'data/{session_year}rs/legislation_qa.json')
-        with open(json_out_path, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2)
-        print(f"Exported QA JSON to {json_out_path}")
-
         # Export to CSV
         csv_data = []
         for item in data:

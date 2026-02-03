@@ -50,7 +50,6 @@ def apply_amendments(session_year: int, bill_number: str, state_manager, client,
     amended_path = os.path.join(md_dir, f"{bill_number}_amended.md")
 
     if bill_state.get('amend_input_hash') == current_hash and os.path.exists(amended_path):
-        print(f"[{bill_number}] No changes in bill or amendments. Skipping amend stage.")
         state_manager.update_bill(bill_number, {
             "needs_amend": False,
             "needs_qa": True
@@ -61,7 +60,6 @@ def apply_amendments(session_year: int, bill_number: str, state_manager, client,
 
     # Apply sequentially
     for amd_file in amd_files:
-        print(f"Applying {os.path.basename(amd_file)} to {bill_number}...")
         with open(amd_file, 'r', encoding='utf-8') as f:
             amd_md = f.read()
         

@@ -1,5 +1,6 @@
 import os
 import argparse
+from tqdm import tqdm
 from dotenv import load_dotenv
 from google import genai
 from openai import OpenAI
@@ -47,30 +48,22 @@ def main():
     
     # 4. Process Loop
     # We iterate through all known bills and check their 'needs_*' flags
-    for bill_number in all_bills:
+    for bill_number in tqdm(all_bills, desc="Processing Bills"):
         bill_data = state.get_bill(bill_number)
 
         # Convert Stage
         if bill_data.get('needs_convert'):
-            print(f"[{bill_number}] Converting...")
-
             convert_pdfs_to_md(args.year, bill_number, state)
             # Refresh state
             bill_data = state.get_bill(bill_number)
 
         # Amend Stage
-        if bill_data.get('needs_convert'):
-            # Double check logic: if convert happened, we might need amend
-            pass 
-        
         if bill_data.get('needs_amend'):
-            print(f"[{bill_number}] Amending...")
             apply_amendments(args.year, bill_number, state, client, args.model, args.model_family)
             bill_data = state.get_bill(bill_number)
 
         # QA Stage
         if bill_data.get('needs_qa'):
-            print(f"[{bill_number}] Running QA...")
             run_qa(args.year, bill_number, state, client, args.model, args.model_family)
 
     # 5. Final Export
