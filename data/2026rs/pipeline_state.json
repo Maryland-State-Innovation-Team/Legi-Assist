@@ -59908,285 +59908,1123 @@
     "needs_download": false,
     "needs_convert": false,
     "needs_amend": false,
-    "needs_qa": true,
+    "needs_qa": false,
     "files": {
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0039.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "This bill establishes the Workgroup on Certified Community Behavioral Health Clinic Implementation and Rate Methodology within the Maryland Department of Health to transition clinics to a sustainable funding model. It requires the department to conduct a cost-driven rate study for outpatient mental health centers (OMHCs), establishes a rate reform advisory panel, and mandates a minimum 3% annual reimbursement rate increase for OMHCs for fiscal years 2026 and 2027, eventually transitioning to a full cost-based reimbursement methodology by fiscal year 2028.",
+      "start_year": 2026,
+      "end_year": 2028,
+      "funding": null,
+      "responsible_party": "Maryland Department of Health",
+      "stakeholders": "Certified community behavioral health clinics, outpatient mental health centers, community behavioral health providers, and Medicaid recipients requiring mental health or substance use services.",
+      "fiscal_impact_summary": "The bill mandates a minimum 3% annual increase in Medicaid reimbursement rates for outpatient mental health centers in fiscal years 2026 and 2027, with costs to be included in the Governor's proposed budget. It also requires the Maryland Department of Health to implement a new cost-based reimbursement methodology starting in fiscal year 2028. Additional state costs will include conducting a required rate study and providing administrative support for the new workgroup and advisory panel; however, a specific dollar amount for these impacts is not provided in the bill text.",
+      "agency_relevance": [
+        {
+          "agency_name": "Department of Health",
+          "is_relevant": true,
+          "relevance_explanation": "The Maryland Department of Health is the primary implementing agency. Its Behavioral Health Administration must establish a new workgroup, conduct a cost-driven rate study for outpatient mental health centers, and implement mandatory reimbursement rate increases for the Maryland Medical Assistance Program (Medicaid).",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Executive Commissions, Committees, Task Forces, and Advisory Boards",
+          "is_relevant": true,
+          "relevance_explanation": "The bill explicitly establishes two new bodies: the Workgroup on Certified Community Behavioral Health Clinic Implementation and Rate Methodology and the Outpatient Mental Health Centers Rate Reform Advisory Panel, which are categorized as executive study and advisory groups.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Department of Budget and Management",
+          "is_relevant": true,
+          "relevance_explanation": "The bill mandates that the Governor's proposed budgets for Fiscal Years 2027 and 2028 include specific 3% reimbursement rate adjustments for outpatient mental health centers. As the central fiscal authority, DBM must ensure these statutory funding requirements are met during budget formulation.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Governor's Office",
+          "is_relevant": true,
+          "relevance_explanation": "The Governor is responsible for the final submission of the state budget, which must include the mandated rate increases. Additionally, the Governor receives the formal report and recommendations from the newly established workgroup.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Health Services Cost Review Commission",
+          "is_relevant": true,
+          "relevance_explanation": "The bill requires the workgroup to evaluate the integration of behavioral health clinics with the federal AHEAD (Achieving Healthcare Efficiency through Accountable Design) model. HSCRC is the primary agency responsible for managing Maryland\u2019s participation in the AHEAD model and regulating associated healthcare costs.",
+          "relevance_rating": 2
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-03T07:54:07.663517",
+    "qa_input_hash": "4102006d1b1cd5d6f67b3ba58db657385f11533f7c6074d2bc6bfe99bc79fd6d",
+    "last_updated_local": "2026-02-03T07:55:04.844752",
     "bill_hash": "e138cb4bc30964966a97d72db12599c3"
   },
   "SB0042": {
     "last_seen": "2026-02-02T21:55:00.672271",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "fiscal_note": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0042_fn.pdf",
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0042.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "The bill grants civil immunity to registered reduction operators and veterans service organizations that act in good faith when transferring or receiving unclaimed hydrolyzed or soil remains of veterans or their eligible dependents for final disposition.",
+      "start_year": 2026,
+      "end_year": null,
+      "funding": null,
+      "responsible_party": "Maryland Department of Labor (Office of Cemetery Oversight), Maryland Department of Health (State Board of Morticians and Funeral Directors), and Department of Veterans and Military Families",
+      "stakeholders": "Veterans, eligible dependents of veterans, veterans service organizations, and registered reduction operators.",
+      "fiscal_impact_summary": "State operations and finances are not materially affected. There is no local fiscal impact, and the impact on small businesses is minimal.",
+      "agency_relevance": [
+        {
+          "agency_name": "Department of Veterans & Military Families",
+          "is_relevant": true,
+          "relevance_explanation": "The bill specifically addresses the disposition of unclaimed remains of veterans and their eligible dependents. The fiscal note indicates that if a veterans service organization does not take possession of these remains, they must be transferred to DVMF for appropriate disposition.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Department of Health",
+          "is_relevant": true,
+          "relevance_explanation": "The Maryland Department of Health, through the State Board of Morticians and Funeral Directors, regulates funeral establishments, crematories, and reduction facilities. The department is responsible for adopting regulations regarding the handling of these remains as described in the bill.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Department of Labor",
+          "is_relevant": true,
+          "relevance_explanation": "The Maryland Department of Labor, through the Office of Cemetery Oversight, regulates crematories and reduction facilities. The department must adopt regulations identical to the Board of Morticians and Funeral Directors regarding the disposition of remains.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Administrative Office of the Courts",
+          "is_relevant": true,
+          "relevance_explanation": "The bill establishes civil immunity for certain entities and organizations acting in good faith. As the administrative arm of the Judiciary, this agency oversees the court system where civil liability and immunity claims are adjudicated.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Office of the Attorney General",
+          "is_relevant": true,
+          "relevance_explanation": "The Office of the Attorney General serves as the primary legal advisor to the state agencies involved (MDH, MDL, and DVMF) and would be responsible for advising them on the implementation and legal protections afforded by the bill's immunity provisions.",
+          "relevance_rating": 2
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:00.720797",
+    "qa_input_hash": "ac6a5b48040d69190da6240d7b7874fc61f3d2c165d3480f03e2f68c7b5db832",
+    "last_updated_local": "2026-02-03T07:55:32.665638",
     "bill_hash": "7353104d603ef5bd0181b4a0e026e1f4"
   },
   "SB0044": {
     "last_seen": "2026-02-02T21:55:01.296427",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "fiscal_note": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0044_fn.pdf",
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0044.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "This bill requires the forfeiture of pension benefits for public employees in the State Retirement and Pension System who are convicted of or plead guilty to certain sexual crimes committed in the course of their duties, while providing procedures for reversing forfeitures and protecting the interests of spouses and dependents.",
+      "start_year": 2026,
+      "end_year": null,
+      "funding": 0,
+      "responsible_party": "State Retirement Agency and the Board of Trustees of the State Retirement and Pension System",
+      "stakeholders": "Current and former public employees in the State Retirement and Pension System, and their dependents.",
+      "fiscal_impact_summary": "The bill is expected to have no discernible effect on State or local pension liabilities or contribution rates because it will likely apply to a limited number of cases. The State Retirement Agency can likely implement the bill with existing resources, provided a reporting process is established with the courts. There is no impact on State or local revenues.",
+      "agency_relevance": [
+        {
+          "agency_name": "Maryland State Retirement Agency",
+          "is_relevant": true,
+          "relevance_explanation": "As the administrative arm of the State Retirement and Pension System (SRPS), the agency is the primary entity responsible for implementing the bill. Its Board of Trustees must adopt regulations for forfeiture, oversee the clear and convincing evidence standard for convictions, recover benefits from retired members, and handle the restoration of benefits if convictions are overturned.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Administrative Office of the Courts",
+          "is_relevant": true,
+          "relevance_explanation": "The bill directly impacts the Judges' Retirement System, which the AOC supports. Furthermore, the bill allows public employees and their dependents to file claims for partial benefit payments in circuit courts, necessitating judicial infrastructure and potentially affecting judicial branch personnel policies.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Office of the Attorney General",
+          "is_relevant": true,
+          "relevance_explanation": "The OAG serves as the legal advisor to nearly all state agencies, including the SRPS. It will be responsible for providing legal guidance on the implementation of forfeiture laws, representing the Board of Trustees in related litigation, and managing legal matters involving the 'qualifying crimes' defined in the bill.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Maryland State Police",
+          "is_relevant": true,
+          "relevance_explanation": "The bill specifically identifies the State Police Retirement System as one of the affected pension plans. As the primary employer for these members, the Maryland State Police has a direct interest in the personnel and benefit implications for its officers.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Department of Public Safety and Correctional Services",
+          "is_relevant": true,
+          "relevance_explanation": "The bill specifically applies to the Correctional Officers\u2019 Retirement System. DPSCS is the primary agency employing these officers and will be impacted by any forfeiture of benefits for employees convicted of crimes committed in the course of their duties.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Department of Education",
+          "is_relevant": true,
+          "relevance_explanation": "The bill impacts the Teachers\u2019 Pension and Retirement Systems. The MSDE, which oversees the state's K-12 system and teacher certification, is a primary stakeholder in policies affecting the benefits of the educator workforce.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Department of Budget and Management",
+          "is_relevant": true,
+          "relevance_explanation": "As the state's central personnel authority, DBM manages the statewide personnel system for Maryland's workforce. The forfeiture of public employee benefits for criminal conduct is a significant policy shift within its purview of personnel management and fiscal oversight.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Comptroller of Maryland",
+          "is_relevant": true,
+          "relevance_explanation": "The Comptroller acts as the state's fiscal watchdog and sits on the Board of Public Works. The office has a general interest in the fiscal health and administrative integrity of the state's pension system and the payroll of its members.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Maryland State Treasurer's Office",
+          "is_relevant": true,
+          "relevance_explanation": "The Treasurer is the principal custodian of state funds and holds a key seat on the Board of Public Works. The office plays a significant role in the oversight and governance of the state's financial assets, including the funds managed for the SRPS.",
+          "relevance_rating": 2
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:01.353862",
+    "qa_input_hash": "b3b51e9dff0c8cb628dc3ec7026b2d02d6874d4ff0b1aadc6ec9bb9eec2e0031",
+    "last_updated_local": "2026-02-03T07:56:30.591699",
     "bill_hash": "a9232bba9eca94e18ed6abc130c78698"
   },
   "SB0050": {
     "last_seen": "2026-02-02T21:55:01.767541",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0050.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "The Fairness in Girls\u2019 Sports Act requires Maryland public and certain nonpublic high school athletic teams to be expressly designated by biological sex (male, female, or coed) and prohibits biological males from participating on teams designated for females. The bill protects schools from adverse actions by governmental or athletic organizations for maintaining separate female teams and authorizes students to bring civil actions for violations or retaliation.",
+      "start_year": 2026,
+      "end_year": null,
+      "funding": 0,
+      "responsible_party": "Maryland State Department of Education",
+      "stakeholders": "High school students, public and nonpublic high schools, and athletic associations or organizations.",
+      "fiscal_impact_summary": "The provided text does not contain a formal fiscal note. However, based on the bill's provisions, there may be administrative costs for schools to implement team designations and potential legal expenditures for schools and the state resulting from the authorization of civil actions.",
+      "agency_relevance": [
+        {
+          "agency_name": "Department of Education",
+          "is_relevant": true,
+          "relevance_explanation": "As the primary agency overseeing Maryland's public K-12 system and high school standards, MSDE is responsible for the implementation of the Education Article. This bill directly amends that article to regulate interscholastic and intramural sports at public and certain nonpublic high schools, falling under MSDE's oversight and regulatory authority.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Commission on Civil Rights",
+          "is_relevant": true,
+          "relevance_explanation": "The bill addresses participation in sports based on biological sex and prohibits adverse actions for maintaining separate-sex teams. This intersects with the Commission's mandate to enforce anti-discrimination laws in public accommodations and education, particularly regarding protected classes like sex and gender identity.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Office of the Attorney General",
+          "is_relevant": true,
+          "relevance_explanation": "The OAG would be responsible for providing legal counsel to the State and the Department of Education regarding the bill's implementation and potential conflicts with federal laws (such as Title IX) and constitutional challenges.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Administrative Office of the Courts",
+          "is_relevant": true,
+          "relevance_explanation": "The bill explicitly authorizes students to bring civil actions against schools or athletic associations for violations or retaliation, which would impact the workload and procedural infrastructure managed by the Judiciary.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Governor's Office",
+          "is_relevant": true,
+          "relevance_explanation": "The Governor's Office is responsible for signing or vetoing the legislation and overseeing its implementation through the executive branch. This bill represents a significant policy shift in the state's education and civil rights landscape.",
+          "relevance_rating": 2
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:01.827077",
+    "qa_input_hash": "421822e7b09de11959f763a5b653acef08746c737c0a3247be0d7a60c74b5505",
+    "last_updated_local": "2026-02-03T07:57:04.344318",
     "bill_hash": "2ba4e5f6bb6a9c33a5d49fc544f3f3d9"
   },
   "SB0051": {
     "last_seen": "2026-02-02T21:55:02.392702",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "fiscal_note": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0051_fn.pdf",
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0051.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "This bill requires each local board of education to install at least one video recording device in all self-contained special education classrooms beginning in the 2026-2027 school year. The legislation mandates continuous recording during school hours (excluding private areas like bathrooms) and establishes protocols for providing notice to parents, storing footage for at least six months, and reporting equipment interruptions. It further outlines procedures for reviewing footage in response to allegations of abuse or neglect while prohibiting the use of these recordings for monitoring school employee performance.",
+      "start_year": 2026,
+      "end_year": null,
+      "funding": 0,
+      "responsible_party": "Maryland State Department of Education and local county boards of education",
+      "stakeholders": "Students in self-contained special education classrooms, parents and legal guardians, public school teachers and staff, local school boards, and law enforcement agencies.",
+      "fiscal_impact_summary": "The Maryland State Department of Education can adopt regulations and collect data using existing resources. However, local school systems will incur significant expenditures for the purchase, installation, and maintenance of video equipment, as well as for data storage and staff training. Specific first-year cost estimates include $4.9 million for Prince George's County, $620,200 for Anne Arundel County, and $550,000 for Baltimore City. Small businesses in the security and video equipment sectors may see increased demand.",
+      "agency_relevance": [
+        {
+          "agency_name": "Department of Education",
+          "is_relevant": true,
+          "relevance_explanation": "The Maryland State Department of Education (MSDE) is the primary agency responsible for overseeing public K-12 education and is explicitly required by the bill to adopt implementing regulations and collect annual reports from county boards regarding video recording requests.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Maryland Center for School Safety",
+          "is_relevant": true,
+          "relevance_explanation": "As the state's centralized hub for school safety coordination, the Center provides technical assistance and training to schools. The bill's mandate to install cameras in special education classrooms for safety and incident review directly aligns with the Center's mission and the Maryland Safe to Learn Act.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Department of Human Services",
+          "is_relevant": true,
+          "relevance_explanation": "The bill explicitly authorizes representatives from Child Protective Services (which is managed by DHS through local departments) to view video recordings to investigate potential child abuse or neglect in classrooms.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Maryland State Police",
+          "is_relevant": true,
+          "relevance_explanation": "The bill authorizes law enforcement agencies to review video recordings if the school administration identifies potential criminal conduct, making the State Police a key partner in investigations related to these recordings.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Department of Disabilities",
+          "is_relevant": true,
+          "relevance_explanation": "The bill specifically targets classrooms providing instruction to students with disabilities. The Department of Disabilities acts as a cross-disability policy leader and advocate, ensuring programs provide equal access and safety for this population.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Public Employee Relations Board",
+          "is_relevant": true,
+          "relevance_explanation": "The bill includes a specific prohibition against using video recordings to monitor the performance of school employees. This directly relates to the Board's role in overseeing collective bargaining and labor relations for the public education workforce.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Commission on Civil Rights",
+          "is_relevant": true,
+          "relevance_explanation": "The bill involves the handling of confidential student recordings and potential discrimination or unfair treatment issues within public accommodations (schools), which are areas monitored and investigated by the Commission.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Office of the Attorney General",
+          "is_relevant": true,
+          "relevance_explanation": "The OAG acts as the primary legal advisor to the Department of Education and other state agencies, and will likely be involved in ensuring the new regulations and recording practices comply with federal privacy laws like FERPA.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Governor's Office for Children",
+          "is_relevant": true,
+          "relevance_explanation": "The Office for Children leads a 'whole-of-government' approach to child well-being; the bill's focus on student safety in special education settings falls within its policy advocacy scope.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Governor's Office of Crime Prevention and Policy",
+          "is_relevant": true,
+          "relevance_explanation": "This office serves as the state\u2019s central hub for public safety policy and funding. It manages grants that support law enforcement and victim services, which may be relevant to the implementation and outcomes of video monitoring for safety.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Governor's Office of the Deaf and Hard of Hearing",
+          "is_relevant": true,
+          "relevance_explanation": "The bill specifically mentions classrooms with students who are nonverbal or in life skills programs. The ODHH advocates for deaf and hard-of-hearing residents, who frequently represent a significant portion of the students in self-contained special education environments.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Administrative Office of the Courts",
+          "is_relevant": true,
+          "relevance_explanation": "The bill requires local boards to retain video recordings for use as evidence in complaints. These recordings may become critical evidence in judicial proceedings managed or supported by the Maryland Judiciary infrastructure.",
+          "relevance_rating": 1
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:02.444701",
+    "qa_input_hash": "ea83feec57afe70d4ce91a0c579c8f9c8ccfe5832a401d3925446a8848f4c40c",
+    "last_updated_local": "2026-02-03T07:57:55.428133",
     "bill_hash": "0f943d69522bd2a3f7e263c0a948b95c"
   },
   "SB0057": {
     "last_seen": "2026-02-02T21:55:02.803286",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0057.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "This bill authorizes the Maryland Department of Education to create a process for adding a veteran status notation to the licenses and public profiles of primary and secondary educators. Educators who opt-in must provide proof of their veteran status and can consent to being contacted by state agencies regarding their eligibility for veterans benefits.",
+      "start_year": 2026,
+      "end_year": null,
+      "funding": null,
+      "responsible_party": "Maryland Department of Education",
+      "stakeholders": "Primary and secondary educators in Maryland who are veterans",
+      "fiscal_impact_summary": "The fiscal impact summary is not available as the Fiscal and Policy Note was not included in the provided text.",
+      "agency_relevance": [
+        {
+          "agency_name": "Department of Education",
+          "is_relevant": true,
+          "relevance_explanation": "As the agency responsible for the certification of teachers and professional school staff, MSDE would be the primary entity tasked with establishing the process to include veteran status notations on educator licenses and public profiles.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Department of Veterans & Military Families",
+          "is_relevant": true,
+          "relevance_explanation": "This agency is specifically named as a source for veteran status certification and would be the primary executive branch agency interested in receiving the data to contact educators regarding their eligibility for state or federal benefits.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Department of Information Technology",
+          "is_relevant": true,
+          "relevance_explanation": "DoIT may be involved in the technical implementation of updating MSDE\u2019s licensing databases and ensuring the secure electronic transmission of sensitive veteran data between state agencies.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Department of Budget and Management",
+          "is_relevant": true,
+          "relevance_explanation": "DBM oversees the state's personnel systems and the budget; it would be responsible for evaluating the fiscal impact and resource allocation needed for MSDE to update its licensing software and processes.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Governor's Office",
+          "is_relevant": true,
+          "relevance_explanation": "The Governor's Office oversees executive branch operations and coordination between MSDE and the Department of Veterans and Military Families, and spearheads initiatives aimed at improving economic opportunity for veterans.",
+          "relevance_rating": 2
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:02.843675",
+    "qa_input_hash": "73f9b5daf633b64c99912a220c4b54f2c1081ef61f4d7b7c872548af3864e2f1",
+    "last_updated_local": "2026-02-03T07:58:22.776970",
     "bill_hash": "07f7948cb412b4fc0e2ab9349e10b72e"
   },
   "SB0066": {
     "last_seen": "2026-02-02T21:55:03.408355",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "fiscal_note": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0066_fn.pdf",
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0066.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "Known as Jamari\u2019s Law, this bill increases the maximum periods of imprisonment for individuals convicted of manslaughter by vehicle or vessel (gross negligence). For a first conviction, the maximum incarceration period increases from 10 to 20 years, and for subsequent convictions, it increases from 15 to 30 years.",
+      "start_year": 2026,
+      "end_year": null,
+      "funding": null,
+      "responsible_party": "Department of Public Safety and Correctional Services",
+      "stakeholders": "Individuals convicted of manslaughter by vehicle or vessel, the Department of Public Safety and Correctional Services, and the Maryland Judiciary.",
+      "fiscal_impact_summary": "The bill is expected to result in a minimal increase in State general fund incarceration expenditures for the Department of Public Safety and Correctional Services. Because current average sentences (approximately 7 years) are within existing statutory maximums, significant fiscal impact from sentences exceeding current limits would likely occur beyond the five-year fiscal note period. There is no effect on State revenues or local government finances.",
+      "agency_relevance": [
+        {
+          "agency_name": "Department of Public Safety and Correctional Services",
+          "is_relevant": true,
+          "relevance_explanation": "As the agency responsible for the management of the state\u2019s adult correctional system, DPSCS is directly impacted by the increase in maximum prison sentences for manslaughter by vehicle or vessel. This bill leads to potential increases in incarceration expenditures and affects prison population management.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Administrative Office of the Courts",
+          "is_relevant": true,
+          "relevance_explanation": "The Judiciary, supported by the AOC, is responsible for the adjudication of these felony cases and the imposition of sentences. The bill changes the statutory maximums that judges must consider during sentencing and impacts judicial workload and budgetary planning.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Maryland Office of the Public Defender",
+          "is_relevant": true,
+          "relevance_explanation": "The OPD represents indigent individuals facing potential loss of liberty. By doubling the maximum possible imprisonment for first and subsequent offenses, the bill significantly increases the stakes and resource requirements for the public defenders assigned to these cases.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Governor's Office of Crime Prevention and Policy",
+          "is_relevant": true,
+          "relevance_explanation": "GOCPP serves as the state\u2019s central hub for public safety policy and advises the Governor on criminal justice strategies. This legislation represents a significant change in the state's criminal sentencing policy regarding vehicular crimes.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Motor Vehicle Administration",
+          "is_relevant": true,
+          "relevance_explanation": "The MVA manages driver licensing and maintains official driving records. Convictions for vehicular manslaughter carry significant regulatory consequences for driving privileges, and changes to the severity of these penalties are relevant to the agency's oversight of motor vehicle law compliance.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Maryland State Police",
+          "is_relevant": true,
+          "relevance_explanation": "The MSP is responsible for highway safety and the investigation of major crimes, including fatal traffic accidents. Their investigations form the basis for the manslaughter charges addressed by this bill.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Office of the Attorney General",
+          "is_relevant": true,
+          "relevance_explanation": "The OAG represents the state in criminal appeals. An increase in maximum penalties for high-profile felonies like vehicular manslaughter often leads to increased appellate litigation handled by this agency.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Department of Budget and Management",
+          "is_relevant": true,
+          "relevance_explanation": "DBM oversees the state's annual operating budget. The fiscal note indicates a potential increase in general fund incarceration expenditures due to the bill's changes to existing penalties, requiring DBM's fiscal management.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Governor's Office",
+          "is_relevant": true,
+          "relevance_explanation": "The Governor's Office is responsible for signing legislation into law and overseeing the operations of the executive departments impacted by the bill, such as DPSCS and MSP.",
+          "relevance_rating": 1
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:03.462728",
+    "qa_input_hash": "6b9aed530934ac3af68f5c5926c5b1e4148472847d63b38879efb7c3fea35fee",
+    "last_updated_local": "2026-02-03T07:58:52.536580",
     "bill_hash": "2b544a2411a626eea38cec949376faf8"
   },
   "SB0068": {
     "last_seen": "2026-02-02T21:55:04.019981",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "fiscal_note": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0068_fn.pdf",
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0068.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "This bill requires the Maryland Motor Vehicle Administration to include at least five questions regarding motorcycle safety awareness on the driver's license examination. These questions must cover topics such as motorcycle visibility, proper lane positioning, safe following distances, and crash prevention.",
+      "start_year": 2026,
+      "end_year": null,
+      "funding": null,
+      "responsible_party": "Motor Vehicle Administration",
+      "stakeholders": "Applicants for an original Maryland driver's license or a higher class of driver's license",
+      "fiscal_impact_summary": "The Motor Vehicle Administration can implement the bill's requirements using existing budgeted resources. There is no expected impact on State or local revenues, and no local fiscal impact.",
+      "agency_relevance": [
+        {
+          "agency_name": "Motor Vehicle Administration",
+          "is_relevant": true,
+          "relevance_explanation": "The MVA is the primary agency responsible for the driver's license examination and is explicitly tasked with developing and including the required motorcycle safety awareness questions.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Department of Transportation",
+          "is_relevant": true,
+          "relevance_explanation": "As the cabinet-level parent of the Motor Vehicle Administration, MDOT is responsible for the overall management of the state's transportation system and driver licensing policy.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Maryland State Police",
+          "is_relevant": true,
+          "relevance_explanation": "The Maryland State Police are responsible for highway safety and crash prevention, making the improved safety knowledge of drivers regarding motorcycles relevant to their law enforcement mission.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Maryland Transportation Authority",
+          "is_relevant": true,
+          "relevance_explanation": "The MDTA manages major highways and toll facilities where motorcycle safety is a priority, and its police force is responsible for traveler safety on these roads.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Governor's Office",
+          "is_relevant": true,
+          "relevance_explanation": "The Governor's Office provides high-level executive oversight of the implementing agencies and is responsible for signing or vetoing the legislation.",
+          "relevance_rating": 1
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:04.080577",
+    "qa_input_hash": "17bc60fa938507de7990e09af8f17c0f649e7c80ec334abc89f2c3f3ab3314e8",
+    "last_updated_local": "2026-02-03T07:59:53.650195",
     "bill_hash": "e01a212c79140786e6b1879c36cc8f05"
   },
   "SB0071": {
     "last_seen": "2026-02-02T21:55:04.489085",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0071.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "The bill establishes the Interjurisdictional Safe Pathways Commission to improve student safety by identifying, coordinating, and securing funding for physical infrastructure\u2014such as sidewalks, crosswalks, bike lanes, and traffic calming measures\u2014and educational programs that promote safe routes for students traveling to and from school. The Commission is required to conduct an inventory of current pathways, identify infrastructure gaps, evaluate funding opportunities from federal and private sources, and submit an annual report with recommendations to the Governor and General Assembly.",
+      "start_year": 2026,
+      "end_year": 2033,
+      "funding": null,
+      "responsible_party": "Maryland State Department of Education (MSDE)",
+      "stakeholders": "Maryland public school students (including students with Individualized Education Programs), parents, local school systems, local management boards, and nonprofit transportation and infrastructure organizations.",
+      "fiscal_impact_summary": "The bill results in an increase in state expenditures for the Maryland State Department of Education to provide staff and administrative support for the commission. Additionally, the state budget must cover reimbursement for travel expenses for commission members. While the commission is tasked with identifying and securing funding for infrastructure, the bill does not mandate a specific appropriation level.",
+      "agency_relevance": [
+        {
+          "agency_name": "Department of Education",
+          "is_relevant": true,
+          "relevance_explanation": "The State Superintendent of Schools is a mandatory member of the Interjurisdictional Safe Pathways Commission, and the Maryland State Department of Education is specifically tasked with providing staff and necessary support to the Commission.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Department of Transportation",
+          "is_relevant": true,
+          "relevance_explanation": "The Secretary of Transportation is a mandatory member of the Commission. The bill's focus on sidewalks, crosswalks, bike lanes, and pedestrian bridges falls under the Department's mission to plan and maintain Maryland\u2019s transportation network.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Executive Commissions, Committees, Task Forces, and Advisory Boards",
+          "is_relevant": true,
+          "relevance_explanation": "This bill directly establishes a new Interjurisdictional Safe Pathways Commission to coordinate across departments and study specific policy areas related to student travel safety.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Department of Disabilities",
+          "is_relevant": true,
+          "relevance_explanation": "The Secretary of Disabilities is a mandatory member of the Commission. The bill specifically includes students with Individualized Education Programs (IEPs) and their parents in the commission's structure, aligning with the Department's advocacy for accessible transportation.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Department of Health",
+          "is_relevant": true,
+          "relevance_explanation": "The Secretary of Health is a mandatory member of the Commission, as safe pathways for students impact public health, safety, and community wellness.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "State Highway Administration",
+          "is_relevant": true,
+          "relevance_explanation": "The Commission is tasked with identifying and coordinating funding for sidewalks, crosswalks, and school zone signage, which are core infrastructure components managed and maintained by the State Highway Administration on Maryland's numbered highways.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Governor's Office",
+          "is_relevant": true,
+          "relevance_explanation": "The Governor is responsible for designating the Chair of the Commission and receives an annual report on the assessment of safe pathways and funding opportunities.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Governor's Office for Children",
+          "is_relevant": true,
+          "relevance_explanation": "The Commission includes representatives from Local Management Boards, which are managed by the Governor's Office for Children to align agency efforts and improve child well-being at the local level.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Maryland Center for School Safety",
+          "is_relevant": true,
+          "relevance_explanation": "The agency's mission to foster safe learning environments for K-12 students through cross-agency collaboration overlaps with the Commission's goal of ensuring physical safety for students traveling to and from school.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Governor's Grants Office",
+          "is_relevant": true,
+          "relevance_explanation": "One of the Commission's primary duties is to evaluate federal and private grant opportunities to fund infrastructure improvements, which is the core technical expertise provided by the Governor's Grants Office.",
+          "relevance_rating": 2
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:04.552877",
+    "qa_input_hash": "59610fc7d10f980dea30cb62cb80964b148d84f5640dd7f0e61ef34d753e91a3",
+    "last_updated_local": "2026-02-03T08:00:37.334106",
     "bill_hash": "690cf094ac75fbfac0d403f3cb634080"
   },
   "SB0073": {
     "last_seen": "2026-02-02T21:55:04.943663",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0073.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "This emergency bill requires the Maryland State Board of Elections to establish guidelines for local boards of elections to implement expedited voting processes for elderly voters (aged 65 and older) and voters with disabilities. These processes must include dedicated expedited lines, priority seating in waiting areas, and clearly marked signage at all early voting centers and polling places. The bill also mandates that election judge training include best practices for assisting these voters and requires the State Board to monitor implementation and submit an annual report on the effectiveness of the accommodations.",
+      "start_year": 2026,
+      "end_year": null,
+      "funding": null,
+      "responsible_party": "Maryland State Board of Elections and local boards of elections",
+      "stakeholders": "Voters aged 65 and older, voters with disabilities, local boards of elections, and election judges",
+      "fiscal_impact_summary": "The provided text does not include the official Fiscal and Policy Note; however, the bill mandates that the State Board of Elections develop guidelines and training materials, and local boards of elections implement new procedures including expedited lines and signage. These requirements likely result in increased state and local expenditures for administrative oversight, equipment, and potential staffing adjustments at polling places.",
+      "agency_relevance": [
+        {
+          "agency_name": "Maryland State Board of Elections",
+          "is_relevant": true,
+          "relevance_explanation": "The State Board of Elections is the primary agency responsible for implementing this bill. It must establish the required guidelines for local boards, provide updated training for election judges, monitor implementation, and submit an annual report to the General Assembly.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Department of Disabilities",
+          "is_relevant": true,
+          "relevance_explanation": "As the state's cross-disability policy leader, this agency is highly relevant as the bill specifically mandates accommodations and expedited voting procedures for voters with disabilities in accordance with the Americans with Disabilities Act.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Department of Aging",
+          "is_relevant": true,
+          "relevance_explanation": "The bill specifically defines and targets 'elderly' voters (65+) for expedited voting and specialized accommodations, which falls within the Department of Aging's mission to advocate for and ensure equitable access for Maryland's older adults.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Office of the Attorney General",
+          "is_relevant": true,
+          "relevance_explanation": "The OAG serves as the primary legal advisor to the State Board of Elections and would likely be involved in reviewing the new guidelines to ensure they comply with State law and the federal Americans with Disabilities Act.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Commission on Civil Rights",
+          "is_relevant": true,
+          "relevance_explanation": "The MCCR enforces anti-discrimination laws related to public accommodations; ensuring that elderly voters and voters with disabilities have expedited and equal access to polling places is a core civil rights concern.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Department of Budget and Management",
+          "is_relevant": true,
+          "relevance_explanation": "The DBM oversees state agency budgets; there may be fiscal impacts associated with developing new training modules, providing signage for expedited lines, and the administrative cost of the required annual reporting by the State Board of Elections.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Governor's Office of the Deaf and Hard of Hearing",
+          "is_relevant": true,
+          "relevance_explanation": "This office advocates for a specific subset of the voters with disabilities mentioned in the bill and would be interested in ensuring the guidelines specifically address communication access for deaf and hard-of-hearing voters.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Governor's Office",
+          "is_relevant": true,
+          "relevance_explanation": "As the chief executive agency, the Governor's Office oversees the operations of the State Board of Elections and is responsible for signing the emergency legislation into law.",
+          "relevance_rating": 2
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:04.977663",
+    "qa_input_hash": "2747edaa7633cf5085c5197f298757a241c1bb25fe4cc816b8a47df3e2911bc1",
+    "last_updated_local": "2026-02-03T08:01:39.803060",
     "bill_hash": "803a1b537bdf415b9e0c1e04929a71b5"
   },
   "SB0075": {
     "last_seen": "2026-02-02T21:55:05.345158",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0075.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "This bill authorizes food retailers, such as supermarkets meeting specific size and inventory criteria, to obtain Class A alcoholic beverages licenses for selling beer or beer and wine. A food retailer may offer to purchase an existing Class A license from a holder located within 3,000 feet at fair market value. If the license holder declines the offer, the food retailer is permitted to apply directly to the local licensing board for a new Class A beer or beer and wine license. The bill also establishes specific standards for what constitutes a food retailer and provides a mechanism for judicial review of license valuation disputes.",
+      "start_year": 2026,
+      "end_year": null,
+      "funding": null,
+      "responsible_party": "Local alcoholic beverages licensing boards and the Maryland judiciary",
+      "stakeholders": "Food retailers (supermarkets and grocery stores), existing Class A license holders, local alcoholic beverages licensing boards, and the Maryland court system.",
+      "fiscal_impact_summary": "The Fiscal and Policy Note is not included in the provided text. However, the bill's provisions would likely result in an increase in local license fee revenues and an increase in administrative and judicial expenditures to process new applications and handle litigation regarding the fair market value of licenses.",
+      "agency_relevance": [
+        {
+          "agency_name": "Office of the Attorney General",
+          "is_relevant": true,
+          "relevance_explanation": "The OAG serves as the primary legal advisor for state agencies and the General Assembly. This bill introduces complex legal mechanisms, including specific standing for judicial review of 'fair market value' and stays on local licensing applications, which would likely require OAG legal guidance and potential litigation support.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Comptroller of Maryland",
+          "is_relevant": true,
+          "relevance_explanation": "As the state's chief financial officer and tax collector, the Comptroller oversees the collection of sales and use taxes. Authorizing food retailers to sell beer and wine represents a significant shift in the retail landscape that would impact state revenue streams and fiscal forecasting.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Administrative Office of the Courts",
+          "is_relevant": true,
+          "relevance_explanation": "The bill explicitly establishes a process for judicial review regarding 'fair market value' disputes and mandates that local license applications be stayed pending final judicial determination. This impacts court operations and the administrative infrastructure managed by the AOC.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Department of Human Services",
+          "is_relevant": true,
+          "relevance_explanation": "The bill defines a 'food retailer' eligible for an alcoholic beverages license as an establishment that accepts Supplemental Nutrition Assistance Program (SNAP) credits. DHS is the agency responsible for administering SNAP in Maryland, making their program criteria a central component of license eligibility.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Governor's Office",
+          "is_relevant": true,
+          "relevance_explanation": "The Governor's Office oversees all state departments and signs or vetoes legislation. This bill represents a major policy change regarding the sale of alcohol in supermarkets and chain stores, a long-debated issue with significant economic and public safety implications.",
+          "relevance_rating": 2
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:05.397156",
+    "qa_input_hash": "d4fa4910b8b56264a001ca6537912d16ec0e8d60a47014ba767b8752153759ef",
+    "last_updated_local": "2026-02-03T08:02:45.354556",
     "bill_hash": "7ae2b27123e981a23dc6fec5135bb4cc"
   },
   "SB0078": {
     "last_seen": "2026-02-02T21:55:05.784335",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0078.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "The Protect Our Prostate Act requires healthcare providers and clinical laboratories to provide patients with written information on necessary preparations to ensure accurate results before a prostate-specific antigen (PSA) test is administered. The bill also mandates that clinical laboratories follow standardized procedures, including using FDA-approved assays, implementing international calibration standards, reporting results in a specific format, and participating in clinical testing proficiency programs.",
+      "start_year": 2026,
+      "end_year": null,
+      "funding": null,
+      "responsible_party": "Maryland Department of Health",
+      "stakeholders": "Patients undergoing prostate-specific antigen testing, healthcare providers, and clinical laboratories operating in Maryland.",
+      "fiscal_impact_summary": "The associated Fiscal and Policy Note is not included in the provided text. However, the bill's requirements for written patient education and standardized laboratory reporting protocols likely result in minor administrative and operational costs for clinical laboratories and the Maryland Department of Health's regulatory oversight.",
+      "agency_relevance": [
+        {
+          "agency_name": "Department of Health",
+          "is_relevant": true,
+          "relevance_explanation": "The Maryland Department of Health is the primary agency responsible for public health services and the regulatory oversight of healthcare facilities and clinical laboratories. As the bill amends the Health - General Article and sets clinical and disclosure standards for laboratories and providers, MDH will be the lead agency for implementation and enforcement.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Maryland Health Care Commission",
+          "is_relevant": true,
+          "relevance_explanation": "The MHCC is responsible for planning health system needs and ensuring access to high-quality care. This bill's mandates for standardized reporting and calibration for PSA tests fall within the Commission's scope of monitoring quality-performance standards and transparency in healthcare services.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Department of Aging",
+          "is_relevant": true,
+          "relevance_explanation": "Prostate-specific antigen testing is a critical component of preventative healthcare for older adults. As the Department of Aging advocates for the health and wellness of Maryland\u2019s expanding 60+ population, these new testing protocols and disclosure requirements directly impact the demographic they serve.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Office of the Attorney General",
+          "is_relevant": true,
+          "relevance_explanation": "The OAG acts as the primary legal advisor for the Maryland Department of Health. The office would be responsible for providing legal guidance on the enforcement of the new laboratory standards and handling any litigation or regulatory disputes that arise from the act.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Office of Administrative Hearings",
+          "is_relevant": true,
+          "relevance_explanation": "The OAH conducts formal proceedings for the Department of Health. If clinical laboratories or healthcare providers are penalized for failing to comply with the bill's reporting or disclosure requirements, the OAH would preside over the resulting appeals and contested cases.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Governor's Office",
+          "is_relevant": true,
+          "relevance_explanation": "The Governor's Office oversees all executive branch operations and is responsible for signing legislation into law. It would monitor the implementation of the 'Protect Our Prostate Act' through its oversight of the Department of Health.",
+          "relevance_rating": 1
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:05.832135",
+    "qa_input_hash": "f2c1693e51bf75c4e1f22d91331fcb6d5c4fa2b9a65fbb6207d2cb3e5a82d44b",
+    "last_updated_local": "2026-02-03T08:03:21.460232",
     "bill_hash": "226a5dfb2e67a540b52ab162b333a31b"
   },
   "SB0082": {
     "last_seen": "2026-02-02T21:55:06.404263",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "fiscal_note": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0082_fn.pdf",
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0082.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "This bill prohibits a person, with the intent to defraud another, from counterfeiting, aiding in the counterfeiting of, or possessing a counterfeit lease or rental agreement. Violating the prohibition against counterfeiting is a felony subject to a maximum penalty of 10 years imprisonment and/or a $1,000 fine, while possession of a counterfeit lease is a misdemeanor subject to a maximum penalty of 3 years imprisonment and/or a $1,000 fine.",
+      "start_year": 2026,
+      "end_year": null,
+      "funding": null,
+      "responsible_party": "Maryland Judiciary and the Department of Public Safety and Correctional Services",
+      "stakeholders": "Landlords, tenants, the Maryland court system, and law enforcement agencies",
+      "fiscal_impact_summary": "The bill results in a minimal increase in State and local revenues and expenditures. State general fund revenues increase minimally due to monetary penalties from cases heard in the District Court, while State expenditures increase minimally for incarceration costs in State correctional facilities. Local revenues and expenditures also increase minimally due to circuit court fines and costs associated with local detention facilities.",
+      "agency_relevance": [
+        {
+          "agency_name": "Maryland Office of the Public Defender",
+          "is_relevant": true,
+          "relevance_explanation": "The bill creates new criminal charges related to counterfeiting leases and rental agreements, which the Office of the Public Defender (OPD) notes will directly increase the caseload for its attorneys representing indigent defendants.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Administrative Office of the Courts",
+          "is_relevant": true,
+          "relevance_explanation": "The bill establishes new criminal offenses and jurisdictional venues that will be adjudicated through the Maryland court system managed by the Administrative Office of the Courts.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Department of Public Safety and Correctional Services",
+          "is_relevant": true,
+          "relevance_explanation": "The bill establishes a new felony with a penalty of up to 10 years and a misdemeanor of up to 3 years, which directly impacts state correctional facility expenditures and incarceration management.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Maryland State Police",
+          "is_relevant": true,
+          "relevance_explanation": "As the primary statewide law enforcement agency, the Maryland State Police would be responsible for investigating reports of counterfeit leases or fraudulent rental agreements created with the intent to defraud.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Register of Wills",
+          "is_relevant": true,
+          "relevance_explanation": "The bill specifically identifies the Register of Wills as a location where the filing of a counterfeit instrument can establish the venue for criminal prosecution.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Office of the Attorney General",
+          "is_relevant": true,
+          "relevance_explanation": "The OAG acts as the state's legal advisor and handles criminal appeals; a change to the Criminal Law Article creating new document-based fraud offenses falls within their legal oversight and appellate jurisdiction.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Governor's Office of Crime Prevention and Policy",
+          "is_relevant": true,
+          "relevance_explanation": "This agency serves as the central hub for public safety policy and advises the Governor on criminal justice strategies, making it relevant to changes in the Criminal Law Article and sentencing.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Department of Budget and Management",
+          "is_relevant": true,
+          "relevance_explanation": "The fiscal note indicates that the Office of the Public Defender may require additional personnel resources through the budget process if the bill leads to a meaningful increase in case volume.",
+          "relevance_rating": 1
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:06.460504",
+    "qa_input_hash": "8319a48a2a31480e9188853205e8f3f08ff96f284e5bf67f4cb540b9b67c868e",
+    "last_updated_local": "2026-02-03T08:03:47.860095",
     "bill_hash": "356d783466376c75b2c3c92f79095ef4"
   },
   "SB0083": {
     "last_seen": "2026-02-02T21:55:07.177214",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "fiscal_note": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0083_fn.pdf",
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0083.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "This bill standardizes the grounds for disciplinary actions across various health occupation boards in Maryland. It allows these boards to deny licenses or discipline licensees if they have been disciplined by any branch of the uniformed services, the U.S. Department of Veterans Affairs, or a court or disciplinary authority of any state or country for acts that would warrant discipline under Maryland statutes.",
+      "start_year": 2026,
+      "end_year": null,
+      "funding": 0,
+      "responsible_party": "Maryland Department of Health and various health occupations boards",
+      "stakeholders": "Applicants and licensees of Maryland health occupation boards, including physicians, dentists, pharmacists, physical therapists, psychologists, social workers, and environmental health specialists.",
+      "fiscal_impact_summary": "The bill has no state or local fiscal impact. According to the fiscal note, the changes are technical in nature and do not directly affect governmental revenues or expenditures.",
+      "agency_relevance": [
+        {
+          "agency_name": "Department of Health",
+          "is_relevant": true,
+          "relevance_explanation": "The bill directly alters the disciplinary grounds for numerous health occupation boards (e.g., Dental, Pharmacy, Physicians, Social Work) which are housed within or overseen by the Maryland Department of Health.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Office of the Attorney General",
+          "is_relevant": true,
+          "relevance_explanation": "The OAG serves as the chief legal advisor to the health occupations boards and represents them in disciplinary hearings and appeals. The bill expands the legal grounds for such actions.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Office of Administrative Hearings",
+          "is_relevant": true,
+          "relevance_explanation": "Contested disciplinary actions taken by health occupations boards are typically adjudicated by Administrative Law Judges at the OAH. Expanding the grounds for discipline may impact the volume or nature of these cases.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Department of the Environment",
+          "is_relevant": true,
+          "relevance_explanation": "The bill amends the disciplinary statutes for the State Board of Environmental Health Specialists, which is a regulatory body located within the Department of the Environment.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Department of Veterans & Military Families",
+          "is_relevant": true,
+          "relevance_explanation": "The bill links professional discipline to actions taken by the U.S. Department of Veterans Affairs. As an advocate for veterans and their families, the department has a notable interest in how these federal actions affect state-level licensure.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Adjutant General of Maryland",
+          "is_relevant": true,
+          "relevance_explanation": "The Adjutant General oversees the Maryland National Guard, whose members are part of the 'uniformed services' referenced in the bill. Military members practicing in health occupations may be subject to state discipline based on military disciplinary records.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Maryland National Guard",
+          "is_relevant": true,
+          "relevance_explanation": "Guard members serving as licensed health professionals in Maryland are directly affected by the bill, as it allows state boards to use military disciplinary actions as grounds for state licensure penalties.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Executive Commissions, Committees, Task Forces, and Advisory Boards",
+          "is_relevant": true,
+          "relevance_explanation": "The bill specifically references various allied health committees (e.g., Respiratory Care, Athletic Trainer, Genetic Counselors) that assist the Board of Physicians in regulating and advising on disciplinary matters.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Governor's Office",
+          "is_relevant": true,
+          "relevance_explanation": "The Governor's Office oversees the executive agencies implementing these changes and is responsible for signing or vetoing the legislation.",
+          "relevance_rating": 1
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:07.235528",
+    "qa_input_hash": "d9a4b1e0841c847ecc993b3a3dad5711231a67df82b7ca8b6b6ec6aacded4964",
+    "last_updated_local": "2026-02-03T08:04:28.339482",
     "bill_hash": "aa7886c9131e59d5322a13369f4dc3fe"
   },
   "SB0086": {
     "last_seen": "2026-02-02T21:55:07.601508",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0086.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "This bill repeals the legal prohibition that prevents local governments, including counties and municipal corporations, from subsidizing Maryland General Assembly members in maintaining office space, services, or equipment.",
+      "start_year": 2026,
+      "end_year": null,
+      "funding": null,
+      "responsible_party": "Maryland General Assembly and local government jurisdictions",
+      "stakeholders": "Members of the Maryland General Assembly and local political subdivisions such as counties and municipalities",
+      "fiscal_impact_summary": "The bill has no direct impact on State finances as it repeals a restriction on local government spending. There is a potential increase in local government expenditures if jurisdictions choose to provide subsidies for legislative office space, services, or equipment.",
+      "agency_relevance": [
+        {
+          "agency_name": "State Ethics Commission",
+          "is_relevant": true,
+          "relevance_explanation": "By repealing the prohibition on local governments subsidizing General Assembly members' office space and equipment, the bill creates new scenarios where legislators may accept things of value from political subdivisions. This directly impacts the Commission's role in enforcing the Public Ethics Law and establishing conflict-of-interest standards.",
+          "relevance_rating": 4
+        },
+        {
+          "agency_name": "Office of the Attorney General",
+          "is_relevant": true,
+          "relevance_explanation": "The OAG serves as the primary legal advisor to the General Assembly. They would be responsible for advising legislators on the legal transition and the interaction between this repealed prohibition and other existing state laws.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Department of Budget and Management",
+          "is_relevant": true,
+          "relevance_explanation": "The bill references that General Assembly office space and services are provided in the State budget. DBM, as the central budget authority, would be affected by any shifts in funding responsibility or reductions in state budget requests if local governments begin subsidizing these costs.",
+          "relevance_rating": 3
+        },
+        {
+          "agency_name": "Department of General Services",
+          "is_relevant": true,
+          "relevance_explanation": "DGS is responsible for the maintenance of state-owned facilities and the management of real estate leases. Changes to how and where General Assembly members secure office space could impact DGS's management of existing state facilities or the procurement of private leases.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Governor's Office",
+          "is_relevant": true,
+          "relevance_explanation": "As the principal executive agency, the Governor's Office is responsible for signing or vetoing legislation. This bill impacts the relationship between state legislators and local political subdivisions, a matter of significant intergovernmental policy.",
+          "relevance_rating": 1
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:07.640422",
+    "qa_input_hash": "43564868f3354a3695d2e955f68b31be6914abc889c43e6c8dd2cfa59d7d83ae",
+    "last_updated_local": "2026-02-03T08:04:54.534912",
     "bill_hash": "c6316c280310922698bb92bbf45d1033"
   },
   "SB0095": {
     "last_seen": "2026-02-02T21:55:08.018279",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
-    "needs_qa": true,
+    "needs_convert": false,
+    "needs_amend": false,
+    "needs_qa": false,
     "files": {
       "bill_pdf": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0095.pdf",
       "amendments": []
     },
-    "qa_results": null,
+    "qa_results": {
+      "bill_summary": "This bill establishes a regulatory framework for parametric insurance, which pays a set benefit based on specific triggers like natural disasters rather than actual losses. It mandates insurer disclosures regarding basis risk, requires filing of rates and underwriting standards with the Maryland Insurance Administration, and authorizes the Insurance Commissioner to establish a pilot program for vulnerable populations and local entities.",
+      "start_year": 2026,
+      "end_year": null,
+      "funding": null,
+      "responsible_party": "Maryland Insurance Administration",
+      "stakeholders": "Maryland residents, property and casualty insurers, low-income and moderate-income households, small businesses, and local government units.",
+      "fiscal_impact_summary": "State special fund expenditures will increase for the Maryland Insurance Administration to adopt regulations, review filings, and oversee the pilot program. Special fund revenues may increase from filing fees, while general fund revenues may increase from fines of up to $100,000 for violations. Local governments may experience a fiscal impact if they participate in the community-based pilot programs.",
+      "agency_relevance": [
+        {
+          "agency_name": "Maryland Insurance Administration",
+          "is_relevant": true,
+          "relevance_explanation": "As the primary regulator of the state's insurance industry, the MIA is responsible for enforcing the new subtitle, reviewing rate and form filings for parametric insurance, and establishing the authorized pilot program.",
+          "relevance_rating": 5
+        },
+        {
+          "agency_name": "Governor's Office",
+          "is_relevant": true,
+          "relevance_explanation": "The office oversees all executive agencies, including the MIA, and the bill aligns with the Governor's initiatives on community resilience, climate response, and economic opportunity for low-income households.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Office of the Attorney General",
+          "is_relevant": true,
+          "relevance_explanation": "The OAG serves as the legal advisor to the Maryland Insurance Administration and would be involved in defending the new regulations or enforcing consumer protection standards established by the bill.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Department of Housing and Community",
+          "is_relevant": true,
+          "relevance_explanation": "The bill authorizes a pilot program specifically targeting low- and moderate-income households, which aligns with the department's mission to provide access to safe, sustainable housing and community revitalization.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Department of Commerce",
+          "is_relevant": true,
+          "relevance_explanation": "The pilot program for parametric insurance includes small businesses, a core constituent group for the Department of Commerce, which provides financial assistance and support for economic stability.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Department of Emergency Management",
+          "is_relevant": true,
+          "relevance_explanation": "The bill focuses on rapid financial response to climate-related catastrophic events and natural disasters, which directly supports the department's mandate for disaster recovery and building statewide resilience.",
+          "relevance_rating": 2
+        },
+        {
+          "agency_name": "Department of the Environment",
+          "is_relevant": true,
+          "relevance_explanation": "The trigger events for parametric insurance (hurricanes, floods, etc.) and the bill's focus on climate-related events are central to the MDE's work in lead climate change initiatives and managing environmental hazards.",
+          "relevance_rating": 2
+        }
+      ]
+    },
     "amended_status": "original",
     "amend_input_hash": null,
-    "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:08.073742",
+    "qa_input_hash": "9f432ae5f107f79fac836ac59a33a78fbd11e35b02d0c889c206bff0c192696d",
+    "last_updated_local": "2026-02-03T08:05:40.736665",
     "bill_hash": "89eb0dc15510e716b83480fed8e53e95"
   },
   "SB0096": {
     "last_seen": "2026-02-02T21:55:08.633426",
     "needs_download": false,
-    "needs_convert": true,
-    "needs_amend": true,
+    "needs_convert": false,
+    "needs_amend": false,
     "needs_qa": true,
     "files": {
       "fiscal_note": "C:\\git\\Legi-Scanner\\data\\2026rs\\pdf\\SB0096_fn.pdf",
@@ -60197,7 +61035,7 @@
     "amended_status": "original",
     "amend_input_hash": null,
     "qa_input_hash": null,
-    "last_updated_local": "2026-02-02T21:55:08.675431",
+    "last_updated_local": "2026-02-03T08:05:41.398833",
     "bill_hash": "cda63ed77f2a6c06058df2a4fbf7382b"
   },
   "SB0101": {
