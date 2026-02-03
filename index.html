@@ -53,9 +53,11 @@
                                 @focus="showAgencyList = true"
                                 type="text" 
                                 id="agency-filter-input"
-                                aria-label="Filter by Agency"
+                                role="combobox"
+                                aria-autocomplete="list"
+                                aria-label="Filter by Agency Relevance"
                                 aria-haspopup="listbox"
-                                :aria-expanded="showAgencyList"
+                                :aria-expanded="showAgencyList && filteredAgencies.length > 0"
                                 aria-controls="agency-results-list"
                                 placeholder="Filter by Agency Relevance..." 
                                 class="pl-10 pr-4 py-2 border border-gray-500 placeholder-gray-600 text-slate-900 rounded-lg focus:ring-2 focus:ring-red-800 w-full outline-none font-medium"
@@ -83,7 +85,7 @@
                             </ul>
                             <button 
                                 v-if="selectedAgency" 
-                                @click="selectedAgency = ''; agencySearch = ''" 
+                                @click="clearAgency" 
                                 aria-label="Clear selected agency"
                                 class="absolute right-3 top-1/2 -translate-y-1/2 p-1 rounded-full focus:outline-none focus:ring-2 focus:ring-red-800"
                             >
@@ -113,8 +115,8 @@
                     </div>
                 </div>
                 <div v-if="selectedAgency" class="p-3 bg-red-50 rounded-lg border border-red-100">
-                    <label class="block text-[10px] font-black text-red-800 uppercase mb-2 tracking-wider">Filter by Impact Level</label>
-                    <select v-model="filterRating" class="w-full bg-white border border-gray-400 rounded px-2 py-1 text-sm text-slate-900 outline-none focus:ring-2 focus:ring-red-800">
+                    <label for="impact-rating-filter" class="block text-[10px] font-black text-red-800 uppercase mb-2 tracking-wider">Filter by Impact Level</label>
+                    <select id="impact-rating-filter" v-model="filterRating" class="w-full bg-white border border-gray-400 rounded px-2 py-1 text-sm text-slate-900 outline-none focus:ring-2 focus:ring-red-800">
                         <option value="all">All Relevance Levels</option>
                         <option value="5">5 - Primary Relevance</option>
                         <option value="4">4 - High Relevance</option>
@@ -325,14 +327,38 @@
                     }
                 });
 
+                // Sync Filters to URL
+                watch([searchQuery, filterBroad, filterNarrow], () => {
+                    updateUrl();
+                });
+
                 // Initialize from URL
                 const initFromUrl = () => {
                     const params = new URLSearchParams(window.location.search);
                     if (params.get('year')) selectedYear.value = parseInt(params.get('year'));
+                    
                     if (params.get('agency')) {
                         selectedAgency.value = params.get('agency');
                         agencySearch.value = params.get('agency');
                     }
+
+                    // Restore Keyword Search
+                    if (params.get('q')) {
+                        searchQuery.value = params.get('q');
+                    }
+
+                    // Restore Broad Subjects (multi-value)
+                    const broad = params.getAll('broad');
+                    if (broad.length > 0) {
+                        filterBroad.value = broad;
+                    }
+
+                    // Restore Narrow Subjects (multi-value)
+                    const narrow = params.getAll('narrow');
+                    if (narrow.length > 0) {
+                        filterNarrow.value = narrow;
+                    }
+
                     if (params.get('bill')) {
                         // We'll open this after data loads
                     }
@@ -341,11 +367,23 @@
                 const updateUrl = () => {
                     const params = new URLSearchParams();
                     params.set('year', selectedYear.value);
+                    
                     if (selectedAgency.value) params.set('agency', selectedAgency.value);
                     if (activeBill.value) params.set('bill', activeBill.value.BillNumber);
                     
+                    // Add Keyword Search
+                    if (searchQuery.value) params.set('q', searchQuery.value);
+
+                    // Add Broad Subjects
+                    filterBroad.value.forEach(val => params.append('broad', val));
+
+                    // Add Narrow Subjects (URLSearchParams handles encoding automatically)
+                    filterNarrow.value.forEach(val => params.append('narrow', val));
+                    
                     const newUrl = `${window.location.pathname}?${params.toString()}`;
-                    window.history.pushState({}, '', newUrl);
+                    
+                    // Use replaceState to update URL without cluttering browser history during filtering
+                    window.history.replaceState({}, '', newUrl);
                 };
 
                 const fetchData = async () => {
@@ -452,6 +490,12 @@
                     selectedAgency.value = name;
                     agencySearch.value = name;
                     showAgencyList.value = false;
+                    updateUrl();
+                };
+
+                const clearAgency = () => {
+                    selectedAgency.value = '';
+                    agencySearch.value = '';
                     updateUrl();
                 };
 
@@ -565,7 +609,7 @@
                     filteredAgencies, uniqueBroadSubjects, uniqueNarrowSubjects, filteredBills,
                     selectAgency, getRelevance, openBill, closeBill, formatCurrency,
                     formatDate, formatTime, exportToExcel, fetchData, getNextAction,
-                    modalTitle, trapFocus 
+                    modalTitle, trapFocus, clearAgency
                 };
             }
         }).mount('#app');
