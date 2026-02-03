@@ -186,28 +186,3 @@ def run_qa(session_year: int, bill_number: str, state_manager, client, model_nam
             
     except Exception as e:
         print(f"QA Failed for {bill_number}: {e}")
-
-def export_qa_to_csv(session_year: int, state_manager):
-    """Generates the final CSV from the state file."""
-    data = []
-    for bill_num, info in state_manager.data.items():
-        res = info.get('qa_results')
-        if res:
-            row = {'BillNumber': bill_num}
-            row.update(res)
-            data.append(row)
-            
-    if data:
-        # Export to CSV
-        csv_data = []
-        for item in data:
-            row = item.copy()
-            if 'agency_relevance' in row and isinstance(row['agency_relevance'], list):
-                row['agency_relevance'] = json.dumps(row['agency_relevance'])
-            csv_data.append(row)
-
-        df = pd.DataFrame(csv_data)
-        out_path = os.path.abspath(f'data/{session_year}rs/csv/legislation_model_responses.csv')
-        os.makedirs(os.path.dirname(out_path), exist_ok=True)
-        df.to_csv(out_path, index=False)
-        print(f"Exported QA results to {out_path}")

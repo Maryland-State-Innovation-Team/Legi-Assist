@@ -1,5 +1,6 @@
 import os
 import argparse
+import json
 from tqdm import tqdm
 from dotenv import load_dotenv
 from google import genai
@@ -67,8 +68,41 @@ def main():
             run_qa(args.year, bill_number, state, client, args.model, args.model_family)
 
     # 5. Final Export
-    export_qa_to_csv(args.year, state)
+    export_frontend_data(args.year, state)
     print("--- Pipeline Complete ---")
+
+def export_frontend_data(session_year, state_manager):
+    print(f"Exporting frontend data for {session_year}...")
+    
+    # 1. Load legislation.json
+    leg_path = os.path.join(f"data/{session_year}rs", "legislation.json")
+    if not os.path.exists(leg_path):
+        print(f"Warning: {leg_path} not found. Skipping frontend export.")
+        return
+
+    with open(leg_path, 'r', encoding='utf-8') as f:
+        legislation_list = json.load(f)
+
+    # 2. Combine with QA results from state
+    combined_data = []
+    for bill in legislation_list:
+        bill_number = bill.get('BillNumber')
+        bill_state = state_manager.get_bill(bill_number)
+        
+        # Merge QA results if they exist
+        qa_results = bill_state.get('qa_results')
+        if qa_results:
+            bill.update(qa_results)
+        
+        combined_data.append(bill)
+
+    # 3. Save to frontend_data.json
+    out_path = os.path.join(f"data/{session_year}rs", "frontend_data.json")
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    with open(out_path, 'w', encoding='utf-8') as f:
+        json.dump(combined_data, f, indent=2)
+    
+    print(f"Frontend data exported to {out_path}")
 
 if __name__ == "__main__":
     main()
