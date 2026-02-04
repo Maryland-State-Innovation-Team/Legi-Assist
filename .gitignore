@@ -173,8 +173,9 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# Ignore PDFs
-**/*.pdf
-
 # Ignore node_modules
 node_modules
+
+# Ignore all PDFs except current session
+data/**/*.pdf
+!data/2026rs/pdf/*.pdf

@@ -1,15 +1,14 @@
-<bill>
-START OF PAGE 1
 EMERGENCY BILL
+START OF PAGE 1
 HOUSE BILL 444
 
-E4 6lr2554
+E4 EMERGENCY BILL 6lr2554
 CF SB 245
 
 By: Delegates Williams, Acevero, Addison, Allen, Alston, Amprey, Bagnall, Barnes,
 Behler, Boafo, Boyce, Charkoudian, Coley, Crutchfield, Cullison, Davis,
-Ebersole, Edelson, Embry, Fair, Feldmark, Fennell, Foley, Forbes, Fraser–
-Hidalgo, Guzzone, Harrison, Healey, Hill, Holmes, Ivey, A. Johnson,
+Ebersole, Edelson, Embry, Fair, Feldmark, Fennell, Foley, Forbes,
+Fraser–Hidalgo, Guzzone, Harrison, Healey, Hill, Holmes, Ivey, A. Johnson,
 S. Johnson, D. Jones, Kaiser, Kaufman, Korman, Lehman, Lewis, J. Long,
 Lopez, Martinez, McCaskill, Mireku–North, Moon, Moreno,
 Palakovich Carr, Pasteur, Patterson, Phillips, Qi, Roberson, Rogers,
@@ -20,7 +19,11 @@ Woorman, Young, and Ziegler
 Introduced and read first time: January 22, 2026
 Assigned to: Judiciary
 
-A BILL ENTITLED
+Committee Report: Favorable with amendments
+House action: Adopted
+Read second time: February 2, 2026
+
+CHAPTER ______
 
 1 AN ACT concerning
 
@@ -38,50 +41,57 @@ A BILL ENTITLED
 11 Annotated Code of Maryland
 12 (2025 Replacement Volume)
 
-13 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
-14 That the Laws of Maryland read as follows:
-
-15 Article – Criminal Procedure
-
-16 5–104.1.
-
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
-[Brackets] indicate matter deleted from existing law. *hb0444*
+[Brackets] indicate matter deleted from existing law.
+Underlining indicates amendments to bill.
+~~Strike~~ ~~out~~ indicates matter stricken from the bill by amendment or deleted from the law by
+amendment. *hb0444*
 END OF PAGE 1
 
 START OF PAGE 2
 2 HOUSE BILL 444
 
-1 (A) (1) IN THIS SECTION, “IMMIGRATION ENFORCEMENT AGREEMENT”
-2 MEANS A CONTRACT, AN AGREEMENT, AN INTERGOVERNMENTAL SERVICE
-3 AGREEMENT, OR A MEMORANDUM OF UNDERSTANDING WITH THE FEDERAL
-4 GOVERNMENT THAT AUTHORIZES THE STATE, A UNIT OF LOCAL GOVERNMENT, A
-5 COUNTY SHERIFF, OR ANY AGENCY, OFFICER, EMPLOYEE, OR AGENT OF THE STATE
-6 OR A UNIT OF LOCAL GOVERNMENT TO ENFORCE CIVIL IMMIGRATION LAW.
+1 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
+2 That the Laws of Maryland read as follows:
 
-7 (2) “IMMIGRATION ENFORCEMENT AGREEMENT” INCLUDES AN
-8 AGREEMENT MADE IN ACCORDANCE WITH:
+3 Article – Criminal Procedure
 
-9 (I) 8 U.S.C. § 1103;
+4 5–104.1.
 
-10 (II) 8 U.S.C. § 1357; OR
+5 (A) (1) IN THIS SECTION, “IMMIGRATION ENFORCEMENT AGREEMENT”
+6 MEANS A CONTRACT, AN AGREEMENT, AN INTERGOVERNMENTAL SERVICE
+7 AGREEMENT, OR A MEMORANDUM OF UNDERSTANDING WITH THE FEDERAL
+8 GOVERNMENT THAT AUTHORIZES THE STATE, A UNIT OF LOCAL GOVERNMENT, A
+9 COUNTY SHERIFF, OR ANY AGENCY, OFFICER, EMPLOYEE, OR AGENT OF THE STATE
+10 OR A UNIT OF LOCAL GOVERNMENT TO ENFORCE CIVIL IMMIGRATION LAW.
 
-11 (III) ANY OTHER FEDERAL LAW.
+11 (2) “IMMIGRATION ENFORCEMENT AGREEMENT” INCLUDES AN
+12 AGREEMENT MADE IN ACCORDANCE WITH:
 
-12 (B) THE STATE, A UNIT OF LOCAL GOVERNMENT, A COUNTY SHERIFF, OR
-13 ANY AGENCY, OFFICER, EMPLOYEE, OR AGENT OF THE STATE OR A UNIT OF LOCAL
-14 GOVERNMENT MAY NOT ENTER INTO AN IMMIGRATION ENFORCEMENT AGREEMENT.
+13 (I) 8 U.S.C. § 1103;
+
+14 (II) 8 U.S.C. § 1357; OR
 
 15 SECTION 2. AND BE IT FURTHER ENACTED, That the State, a unit of local
 16 government, a county sheriff, or any agency, officer, employee, or agent of the State or
 17 a unit of local government with an existing immigration enforcement agreement shall
 18 exercise the termination provision contained in the immigration enforcement agreement
 19 immediately on the taking effect of this Act.
-20
-21 SECTION 3. AND BE IT FURTHER ENACTED, That this Act is an emergency
-22 measure, is necessary for the immediate preservation of the public health or safety, has
-23 been passed by a yea and nay vote supported by three-fifths of all the members elected
-24 to each of the two Houses of the General Assembly, and shall take effect from the date
-25 it is enacted.
+
+20 SECTION 3. AND BE IT FURTHER ENACTED, That this Act is an emergency
+21 measure, is necessary for the immediate preservation of the public health or safety, has
+22 been passed by a yea and nay vote supported by three-fifths of all the members elected
+23 to each of the two Houses of the General Assembly, and shall take effect from the date
+24 it is enacted.
+
+Approved:
+
+________________________________________________________________________________
+Governor.
+
+________________________________________________________________________________
+Speaker of the House of Delegates.
+
+________________________________________________________________________________
+President of the Senate.
 END OF PAGE 2
-</bill>
