@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+/* iOS safe area support */
+html {
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+/* Header safe area padding for iOS */
+header {
+    padding-top: max(0.75rem, env(safe-area-inset-top));
+}
+
+/* Modal positioning fix for iOS */
+[role="dialog"] {
+    padding-top: env(safe-area-inset-top);
+}
+
+/* Ensure modal close button is always reachable */
+[role="dialog"] > div {
+    margin-top: env(safe-area-inset-top);
+}
+
 ::-webkit-scrollbar { width: 8px; height: 8px; }
 ::-webkit-scrollbar-track { background: #f1f1f1; }
 ::-webkit-scrollbar-thumb { background: #888; border-radius: 4px; }
@@ -120,4 +145,50 @@ article:focus-within {
 }
 .fade-enter-from, .fade-leave-to {
     opacity: 0;
+}
+
+/* iOS flexbox card height fix */
+.space-y-3 > article,
+.space-y-4 > article {
+    height: auto !important;
+    flex-shrink: 0;
+}
+
+/* Ensure button inside card doesn't stretch */
+article > button {
+    height: auto;
+    align-self: flex-start;
+}
+
+/* iframe-specific fixes */
+@supports (-webkit-touch-callout: none) {
+    /* iOS-only styles */
+    .fixed.inset-0 {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* Prevent iOS rubber-banding from hiding content */
+    #app {
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+    }
+    
+    main {
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+/* Normalize input/select/button heights in flex containers */
+.flex.items-center select,
+.flex.items-center button,
+.flex.items-center input {
+    min-height: 44px;
+    box-sizing: border-box;
 }
