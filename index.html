@@ -896,8 +896,21 @@
                                 agencySearch.value = params.get('agency');
                             }
                             if (params.get('q')) searchQuery.value = params.get('q');
-                            fetchData();
-                            updateUrl();
+                            
+                            const broad = params.getAll('broad');
+                            if (broad.length > 0) filterBroad.value = broad;
+                            
+                            const narrow = params.getAll('narrow');
+                            if (narrow.length > 0) filterNarrow.value = narrow;
+                            
+                            // Fetch data then open bill modal if specified
+                            fetchData().then(() => {
+                                const billId = params.get('bill');
+                                if (billId) {
+                                    const found = allBills.value.find(b => b.BillNumber === billId);
+                                    if (found) activeBill.value = found;
+                                }
+                            });
                         }
                     });
                 });
