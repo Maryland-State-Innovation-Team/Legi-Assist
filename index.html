@@ -618,7 +618,7 @@
                     if (narrow.length > 0) filterNarrow.value = narrow;
                 };
 
-                const updateUrl = () => {
+                const updateUrl = (usePushState = false) => {
                     const params = new URLSearchParams();
                     params.set('year', selectedYear.value);
                     if (selectedAgency.value) params.set('agency', selectedAgency.value);
@@ -627,11 +627,15 @@
                     filterBroad.value.forEach(val => params.append('broad', val));
                     filterNarrow.value.forEach(val => params.append('narrow', val));
                     const newUrl = `${window.location.pathname}?${params.toString()}`;
-                    window.history.replaceState({}, '', newUrl);
-                    notifyParentOfUrlChange();
+                    if (usePushState) {
+                        window.history.pushState({ bill: activeBill.value?.BillNumber || null }, '', newUrl);
+                    } else {
+                        window.history.replaceState({ bill: activeBill.value?.BillNumber || null }, '', newUrl);
+                    }
+                    notifyParentOfUrlChange(usePushState);
                 };
 
-                const notifyParentOfUrlChange = () => {
+                const notifyParentOfUrlChange = (usePushState = false) => {
                     if (window.parent !== window) {
                         try {
                             const targetOrigin = window.location.hostname === 'localhost'
@@ -640,7 +644,8 @@
                             window.parent.postMessage({
                                 type: 'legiassist-url-change',
                                 params: window.location.search,
-                                title: document.title
+                                title: document.title,
+                                pushState: usePushState
                             }, targetOrigin);
                         } catch (e) {
                             // Silently fail if postMessage blocked
@@ -763,12 +768,12 @@
 
                 const openBill = (bill) => {
                     activeBill.value = bill;
-                    updateUrl();
+                    updateUrl(true);
                 };
 
                 const closeBill = () => {
                     activeBill.value = null;
-                    updateUrl();
+                    updateUrl(true);
                 };
 
                 const trapFocus = (e) => {
@@ -911,6 +916,17 @@
                                     if (found) activeBill.value = found;
                                 }
                             });
+                        }
+                    });
+
+                    window.addEventListener('popstate', (event) => {
+                        const params = new URLSearchParams(window.location.search);
+                        const billId = params.get('bill');
+                        if (billId) {
+                            const found = allBills.value.find(b => b.BillNumber === billId);
+                            activeBill.value = found || null;
+                        } else {
+                            activeBill.value = null;
                         }
                     });
                 });
