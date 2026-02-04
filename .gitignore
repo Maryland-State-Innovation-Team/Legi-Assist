@@ -176,6 +176,5 @@ cython_debug/
 # Ignore node_modules
 node_modules
 
-# Ignore all PDFs except current session
+# Ignore all PDFs
 data/**/*.pdf
-!data/2026rs/pdf/*.pdf
