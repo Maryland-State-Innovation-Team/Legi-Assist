@@ -175,3 +175,6 @@ cython_debug/
 
 # Ignore PDFs
 **/*.pdf
+
+# Ignore node_modules
+node_modules

@@ -1,0 +1,21 @@
+{
+  "name": "legi-assist",
+  "version": "1.0.0",
+  "description": "Legi-Assist is an automated toolkit for collecting, processing, and analyzing Maryland General Assembly legislation. It transforms legislative PDFs into structured, machine-readable data and leverages LLMs to extract policy-relevant insights, such as funding impacts and stakeholder analysis.",
+  "scripts": {
+    "build:css": "tailwindcss -i assets/input_style.css -o assets/output_style.css --minify",
+    "watch:css": "tailwindcss -i assets/input_style.css -o assets/output_style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maryland-State-Innovation-Team/Legi-Assist.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maryland-State-Innovation-Team/Legi-Assist/issues"
+  },
+  "homepage": "https://github.com/Maryland-State-Innovation-Team/Legi-Assist#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
