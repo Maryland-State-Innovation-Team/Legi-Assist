@@ -23,7 +23,7 @@
                     <div class="flex justify-between items-center">
                         <div class="flex items-center gap-2 sm:gap-3">
                             <div>
-                                <a href="./" class="hover:opacity-70 transition-opacity">
+                                <a href="./" aria-label="Maryland Legi-Assist Home" class="hover:opacity-70 transition-opacity">
                                     <h1 class="text-lg sm:text-2xl font-bold text-slate-900 tracking-tight">Maryland Legi-Assist</h1>
                                 </a>
                                 <div class="flex items-center gap-1">
@@ -128,9 +128,9 @@
                     <h2 class="text-xs font-black text-gray-500 uppercase tracking-widest">Filters</h2>
                     <button 
                         @click="clearFilters" 
-                        class="text-[10px] font-bold text-red-700 hover:text-red-900 uppercase bg-red-50 px-2 py-1 rounded border border-red-100 transition-colors"
+                        class="text-[10px] font-bold text-red-900 hover:text-black uppercase bg-white hover:bg-red-50 px-2 py-1 rounded border border-red-200 transition-colors"
                     >
-                        Clear All
+                        Clear All Filters
                     </button>
                 </div>
                 
@@ -293,6 +293,7 @@
                                     class="pl-3 pr-8 py-1.5 bg-white border border-gray-300 rounded-lg text-sm font-bold text-slate-700 focus:ring-2 focus:ring-red-800 outline-none cursor-pointer hover:border-gray-400 transition-colors shadow-sm"
                                 >
                                     <option v-if="selectedYear === 2026" value="date">Newest First</option>
+                                    <option v-if="selectedYear === 2026" value="upcoming">Upcoming Action</option>
                                     
                                     <option v-if="selectedAgency" value="relevance">Highest Relevance</option>
                                     
@@ -833,7 +834,25 @@
                             return a.BillNumber.localeCompare(b.BillNumber, 'en', { numeric: true });
                         }
 
-                        // Option B: Sort by Relevance or Date
+                        // Option B: Sort by Upcoming Action (Hearing/Reading)
+                        if (sortBy.value === 'upcoming') {
+                            const actionA = getNextAction(a);
+                            const actionB = getNextAction(b);
+                            
+                            // Bills with actions come before bills without
+                            if (actionA && !actionB) return -1;
+                            if (!actionA && actionB) return 1;
+                            
+                            // If both have actions, sort by date (Ascending - soonest first)
+                            if (actionA && actionB) {
+                                return actionA.date - actionB.date;
+                            }
+                            
+                            // Fallback to Bill Number if neither has an upcoming action
+                            return a.BillNumber.localeCompare(b.BillNumber, 'en', { numeric: true });
+                        }
+
+                        // Option C: Sort by Relevance or Date
 
                         // Get relevance scores (0 if no agency selected)
                         const relA = selectedAgency.value 
