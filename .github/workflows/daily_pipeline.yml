@@ -2,7 +2,7 @@ name: Daily Pipeline
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Midnight daily
+    - cron: '3 1 * * *' # Midnight daily
   workflow_dispatch: # Allow manual trigger
 
 jobs:
