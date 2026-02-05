@@ -384,19 +384,19 @@
                                     <p class="text-slate-700 leading-relaxed text-base sm:text-lg">{{ activeBill.bill_summary }}</p>
                                 </section>
 
-                                <section aria-labelledby="fiscal-heading">
+                                <section v-if="activeBill.fiscal_impact_summary" aria-labelledby="fiscal-heading">
                                     <h4 id="fiscal-heading" class="text-slate-600 font-bold uppercase text-xs tracking-widest mb-3">Fiscal Impact Analysis</h4>
                                     <div class="bg-emerald-50 text-emerald-900 p-4 sm:p-5 rounded-xl border border-emerald-100 text-sm sm:text-base">
                                         {{ activeBill.fiscal_impact_summary }}
                                     </div>
                                 </section>
 
-                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-                                    <div class="p-4 bg-gray-50 rounded-lg">
+                                <div v-if="activeBill.responsible_party || activeBill.stakeholders" class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+                                    <div v-if="activeBill.responsible_party" class="p-4 bg-gray-50 rounded-lg">
                                         <h5 class="text-xs font-bold text-slate-600 uppercase mb-2">Responsible Party</h5>
-                                        <p class="font-bold text-slate-800 text-sm sm:text-base">{{ activeBill.responsible_party || 'N/A' }}</p>
+                                        <p class="font-bold text-slate-800 text-sm sm:text-base">{{ activeBill.responsible_party }}</p>
                                     </div>
-                                    <div class="p-4 bg-gray-50 rounded-lg">
+                                    <div v-if="activeBill.stakeholders" class="p-4 bg-gray-50 rounded-lg">
                                         <h5 class="text-xs font-bold text-slate-600 uppercase mb-2">Stakeholders</h5>
                                         <p class="text-xs sm:text-sm text-slate-700">{{ activeBill.stakeholders }}</p>
                                     </div>
