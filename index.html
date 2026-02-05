@@ -9,6 +9,16 @@
 
     <link rel="stylesheet" href="./assets/output_style.css">
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JEW030F57"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-3JEW030F57');
+    </script>
+
 </head>
 <body class="bg-gray-50 text-slate-800 font-sans h-screen flex flex-col overflow-hidden">
     <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:bg-white focus:text-red-800 focus:p-4 focus:font-bold focus:border-2 focus:border-red-800 focus:rounded-lg focus:shadow-xl">
@@ -882,6 +892,12 @@
                     selectedAgency.value = name;
                     agencySearch.value = name;
                     showAgencyList.value = false;
+
+                    if (typeof gtag === 'function') {
+                        gtag('event', 'agency_selected', {
+                            'agency_name': name
+                        });
+                    }
                     
                     // Update sort preference based on year
                     if (selectedYear.value < 2026) {
