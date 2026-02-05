@@ -24,7 +24,10 @@ class PipelineState:
 
     def get_bill(self, bill_number: str) -> Dict:
         if bill_number not in self.data:
+            now = datetime.now().isoformat()
             self.data[bill_number] = {
+                "first_seen": now,
+                "last_updated": now,
                 "last_seen": None,
                 "needs_download": True,
                 "needs_convert": False,
@@ -36,6 +39,14 @@ class PipelineState:
                 "amend_input_hash": None,
                 "qa_input_hash": None
             }
+        else:
+            # Ensure existing bills have these fields for sorting compatibility
+            bill = self.data[bill_number]
+            if "first_seen" not in bill:
+                bill["first_seen"] = bill.get("last_seen") or datetime.now().isoformat()
+            if "last_updated" not in bill:
+                bill["last_updated"] = bill.get("last_updated_local") or bill["first_seen"]
+                
         return self.data[bill_number]
 
     def update_bill(self, bill_number: str, updates: Dict):

@@ -68,6 +68,7 @@
                             <input 
                                 v-model="agencySearch" 
                                 @focus="showAgencyList = true"
+                                @input="showAgencyList = true"
                                 @keydown.down.prevent="focusFirstOption"
                                 @keydown.escape="showAgencyList = false"
                                 type="text" 
@@ -112,7 +113,7 @@
                             </button>
                         </div>
 
-                        <select v-model="selectedYear" @change="fetchData" aria-label="Select Legislative Session" class="px-2 sm:px-4 py-2 border border-gray-500 rounded-lg bg-white focus:ring-2 focus:ring-red-800 outline-none font-bold text-sm sm:text-base shrink-0">
+                        <select v-model="selectedYear" @change="fetchData" aria-label="Select Legislative Session" class="px-2 sm:px-4 py-3 border border-gray-500 rounded-lg bg-white focus:ring-2 focus:ring-red-800 outline-none font-bold text-sm sm:text-base shrink-0">
                             <option v-for="year in [2026, 2025, 2024, 2023]" :value="year">{{ year }}</option>
                         </select>
                     </div>
@@ -142,7 +143,7 @@
                 </div>
                 
                 <div v-if="selectedAgency" class="p-3 bg-red-50 rounded-lg border border-red-100">
-                    <label for="impact-rating-filter-desktop" class="block text-[10px] font-black text-red-800 uppercase mb-2 tracking-wider">Filter by Impact Level</label>
+                    <label for="impact-rating-filter-desktop" class="block text-[10px] font-black text-red-800 uppercase mb-2 tracking-wider">Filter by Relevance</label>
                     <select id="impact-rating-filter-desktop" v-model="filterRating" class="w-full bg-white border border-gray-400 rounded px-2 py-1 text-sm text-slate-900 outline-none focus:ring-2 focus:ring-red-800">
                         <option value="all">All Relevance Levels</option>
                         <option value="5">5 - Primary Relevance</option>
@@ -220,7 +221,7 @@
                             </div>
                             
                             <div v-if="selectedAgency" class="p-4 bg-red-50 rounded-lg border border-red-100">
-                                <label for="impact-rating-filter-mobile" class="block text-[10px] font-black text-red-800 uppercase mb-2 tracking-wider">Filter by Impact Level</label>
+                                <label for="impact-rating-filter-mobile" class="block text-[10px] font-black text-red-800 uppercase mb-2 tracking-wider">Filter by Relevance</label>
                                 <select id="impact-rating-filter-mobile" v-model="filterRating" class="w-full bg-white border border-gray-400 rounded px-3 py-3 text-base text-slate-900 outline-none focus:ring-2 focus:ring-red-800">
                                     <option value="all">All Relevance Levels</option>
                                     <option value="5">5 - Primary Relevance</option>
@@ -271,17 +272,34 @@
                 </div>
 
                 <div class="max-w-5xl mx-auto">
-                    <div class="flex justify-between items-center mb-4 sm:mb-6">
-                        <div role="status" aria-live="polite" aria-atomic="true" class="sr-only">
-                            <template v-if="loading">Loading bills...</template>
-                            <template v-else>
-                                {{ filteredBills.length }} bills match your search criteria<template v-if="selectedAgency"> for {{ selectedAgency }}</template>.
-                            </template>
+                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-end gap-4 mb-4 sm:mb-6">
+                        <div>
+                            <div role="status" aria-live="polite" aria-atomic="true" class="sr-only">
+                                <template v-if="loading">Loading bills...</template>
+                                <template v-else>
+                                    {{ filteredBills.length }} bills match your search criteria<template v-if="selectedAgency"> for {{ selectedAgency }}</template>.
+                                </template>
+                            </div>
+                            <h2 class="text-base sm:text-xl font-bold text-slate-800" aria-hidden="true">
+                                {{ filteredBills.length }} Bills
+                                <span v-if="selectedAgency" class="text-red-800 block sm:inline text-sm sm:text-xl">for {{ selectedAgency }}</span>
+                            </h2>
                         </div>
-                        <h2 class="text-base sm:text-xl font-bold text-slate-800" aria-hidden="true">
-                            {{ filteredBills.length }} Bills
-                            <span v-if="selectedAgency" class="text-red-800 block sm:inline text-sm sm:text-xl">for {{ selectedAgency }}</span>
-                        </h2>
+
+                        <div v-if="selectedAgency && selectedYear === 2026" class="flex items-center gap-2">
+                            <label for="sort-select" class="text-xs font-bold text-slate-500 uppercase">Sort by:</label>
+                            <div class="relative">
+                                <select 
+                                    id="sort-select" 
+                                    v-model="sortBy" 
+                                    class="pl-3 pr-8 py-1.5 bg-white border border-gray-300 rounded-lg text-sm font-bold text-slate-700 focus:ring-2 focus:ring-red-800 outline-none cursor-pointer hover:border-gray-400 transition-colors shadow-sm"
+                                >
+                                    <option value="date">Newest First</option>
+                                    <option value="relevance">Highest Relevance</option>
+                                    <option value="bill_number">Bill Number</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="space-y-3 sm:space-y-4">
@@ -302,7 +320,10 @@
                                                 {{ bill.BillNumber }}{{ bill.CrossfileBillNumber ? '/' + bill.CrossfileBillNumber : '' }}
                                             </span>
                                             <span v-if="getRelevance(bill)" class="px-2 py-0.5 bg-amber-100 text-amber-800 text-xs font-bold rounded">
-                                                {{ getRelevance(bill).relevance_rating }}/5
+                                                Relevance: {{ getRelevance(bill).relevance_rating }}/5
+                                            </span>
+                                            <span v-if="isNew(bill.first_seen)" class="px-2 py-0.5 bg-blue-100 text-blue-800 text-[10px] font-bold uppercase tracking-wide rounded border border-blue-200">
+                                                <span class="sr-only">Status: </span>Newly added
                                             </span>
                                         </div>
                                         <h3 class="font-bold text-slate-900 leading-tight mb-2 text-sm sm:text-base">{{ bill.Title }}</h3>
@@ -395,6 +416,17 @@
                                     <div v-if="activeBill.funding !== null">
                                         <dt class="text-[10px] font-bold text-slate-600 uppercase">Est. Funding Impact</dt>
                                         <dd class="text-base sm:text-lg font-black text-emerald-700">{{ formatCurrency(activeBill.funding) }}</dd>
+                                    </div>
+                                    
+                                    <div v-if="(activeBill.first_seen || activeBill.last_updated) && selectedYear >= 2026" class="pt-4 mt-4 border-t border-slate-200 grid grid-cols-2 gap-4">
+                                        <div v-if="activeBill.first_seen">
+                                            <dt class="text-[10px] font-bold text-slate-500 uppercase">First Seen</dt>
+                                            <dd class="text-xs text-slate-700 font-medium font-mono">{{ formatTimestamp(activeBill.first_seen) }}</dd>
+                                        </div>
+                                        <div v-if="activeBill.last_updated">
+                                            <dt class="text-[10px] font-bold text-slate-500 uppercase">Last Updated</dt>
+                                            <dd class="text-xs text-slate-700 font-medium font-mono">{{ formatTimestamp(activeBill.last_updated) }}</dd>
+                                        </div>
                                     </div>
                                 </dl>
 
@@ -527,7 +559,9 @@
                 const filterBroad = ref([]);
                 const filterNarrow = ref([]);
                 const filterRating = ref("all");
+                const sortBy = ref("date");
                 const activeBill = ref(null);
+                const pendingBillId = ref(null);
                 const showAboutModal = ref(false);
                 const showFilterDrawer = ref(false);
                 const drawerReady = ref(false);
@@ -599,30 +633,63 @@
                     filterBroad.value = [];
                     filterNarrow.value = [];
                     filterRating.value = "all";
+                    sortBy.value = "date";
                     updateUrl();
                 };
 
-                watch([searchQuery, filterBroad, filterNarrow], () => { updateUrl(); });
+                watch([searchQuery, filterBroad, filterNarrow, sortBy], () => { updateUrl(); });
 
-                const initFromUrl = () => {
+                // Enforce sort rules when year changes
+                watch(selectedYear, (newYear) => {
+                    if (newYear < 2026) {
+                        sortBy.value = 'bill_number';
+                    } else {
+                        sortBy.value = 'date';
+                    }
+                });
+
+                const initFromUrl = async () => {
                     const params = new URLSearchParams(window.location.search);
+
+                    // Capture bill ID immediately before reactive changes trigger URL updates
+                    if (params.get('bill')) pendingBillId.value = params.get('bill');
+
+                    // Set Year first (this triggers the year watcher which resets sort)
                     if (params.get('year')) selectedYear.value = parseInt(params.get('year'));
+
                     if (params.get('agency')) {
                         selectedAgency.value = params.get('agency');
                         agencySearch.value = params.get('agency');
                     }
+
                     if (params.get('q')) searchQuery.value = params.get('q');
+
                     const broad = params.getAll('broad');
                     if (broad.length > 0) filterBroad.value = broad;
+
                     const narrow = params.getAll('narrow');
                     if (narrow.length > 0) filterNarrow.value = narrow;
+
+                    // Apply sort parameter LAST
+                    if (params.get('sort')) {
+                        await nextTick();
+                        sortBy.value = params.get('sort');
+                    }
                 };
 
                 const updateUrl = (usePushState = false) => {
                     const params = new URLSearchParams();
                     params.set('year', selectedYear.value);
+                    params.set('sort', sortBy.value);
                     if (selectedAgency.value) params.set('agency', selectedAgency.value);
-                    if (activeBill.value) params.set('bill', activeBill.value.BillNumber);
+
+                    // Use active bill if set, otherwise preserve pending bill ID to prevent URL wiping during load
+                    if (activeBill.value) {
+                        params.set('bill', activeBill.value.BillNumber);
+                    } else if (pendingBillId.value) {
+                        params.set('bill', pendingBillId.value);
+                    }
+
                     if (searchQuery.value) params.set('q', searchQuery.value);
                     filterBroad.value.forEach(val => params.append('broad', val));
                     filterNarrow.value.forEach(val => params.append('narrow', val));
@@ -659,11 +726,17 @@
                         const resp = await fetch(`data/${selectedYear.value}rs/frontend_data.json`);
                         const data = await resp.json();
                         allBills.value = data.filter(b => b.agency_relevance && b.agency_relevance.length > 0);
+
+                        // Check pendingBillId first (captured at init), fallback to URL param
                         const params = new URLSearchParams(window.location.search);
-                        const billId = params.get('bill');
-                        if (billId) {
-                            const found = allBills.value.find(b => b.BillNumber === billId);
-                            if (found) activeBill.value = found;
+                        const targetBillId = pendingBillId.value || params.get('bill');
+
+                        if (targetBillId) {
+                            const found = allBills.value.find(b => b.BillNumber === targetBillId);
+                            if (found) {
+                                activeBill.value = found;
+                                pendingBillId.value = null; // Clear pending once found
+                            }
                         }
                     } catch (e) {
                         console.error("Load failed", e);
@@ -706,6 +779,8 @@
 
                 const filteredBills = computed(() => {
                     let results = allBills.value;
+                    
+                    // 1. Filter by Agency (and Rating)
                     if (selectedAgency.value) {
                         results = results.filter(b => 
                             b.agency_relevance.some(a => a.agency_name === selectedAgency.value)
@@ -716,12 +791,9 @@
                                 return rel && rel.relevance_rating == filterRating.value;
                             });
                         }
-                        results = [...results].sort((a, b) => {
-                            const relA = a.agency_relevance.find(ar => ar.agency_name === selectedAgency.value)?.relevance_rating || 0;
-                            const relB = b.agency_relevance.find(ar => ar.agency_name === selectedAgency.value)?.relevance_rating || 0;
-                            return relB - relA;
-                        });
                     }
+
+                    // 2. Filter by Search Query
                     if (searchQuery.value) {
                         const q = searchQuery.value.toLowerCase();
                         results = results.filter(b => 
@@ -732,6 +804,8 @@
                             b.Synopsis.toLowerCase().includes(q)
                         );
                     }
+
+                    // 3. Filter by Subjects
                     if (filterBroad.value.length > 0) {
                         results = results.filter(b => 
                             b.BroadSubjects?.some(s => filterBroad.value.includes(s.Name))
@@ -742,7 +816,38 @@
                             b.NarrowSubjects?.some(s => filterNarrow.value.includes(s.Name))
                         );
                     }
-                    return results;
+
+                    // 4. Sorting Logic
+                    return [...results].sort((a, b) => {
+                        // Option A: Sort by Bill Number
+                        if (sortBy.value === 'bill_number') {
+                            return a.BillNumber.localeCompare(b.BillNumber, 'en', { numeric: true });
+                        }
+
+                        // Option B: Sort by Relevance or Date
+                        
+                        // Get relevance scores (0 if no agency selected)
+                        const relA = selectedAgency.value 
+                            ? (a.agency_relevance.find(ar => ar.agency_name === selectedAgency.value)?.relevance_rating || 0) 
+                            : 0;
+                        const relB = selectedAgency.value 
+                            ? (b.agency_relevance.find(ar => ar.agency_name === selectedAgency.value)?.relevance_rating || 0) 
+                            : 0;
+                            
+                        // Get timestamps (default to 0 if missing)
+                        const dateA = a.first_seen ? new Date(a.first_seen).getTime() : 0;
+                        const dateB = b.first_seen ? new Date(b.first_seen).getTime() : 0;
+
+                        if (sortBy.value === 'relevance' && selectedAgency.value) {
+                            // Sort by Relevance (Desc), then Date (Desc)
+                            if (relA !== relB) return relB - relA;
+                            return dateB - dateA;
+                        } else {
+                            // Sort by Date (Desc), then Relevance (Desc)
+                            if (dateA !== dateB) return dateB - dateA;
+                            return relB - relA;
+                        }
+                    });
                 });
 
                 const selectAgency = (name) => {
@@ -755,6 +860,8 @@
                 const clearAgency = async () => {
                     selectedAgency.value = '';
                     agencySearch.value = '';
+                    showAgencyList.value = true; // Explicitly open the dropdown
+                    sortBy.value = 'date'; // Reset sort when agency is cleared
                     updateUrl();
                     await nextTick(); 
                     const input = document.getElementById('agency-filter-input');
@@ -831,7 +938,16 @@
                 };
 
                 const formatDate = (ds) => ds ? new Date(ds).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
+                const formatTimestamp = (ds) => ds ? new Date(ds).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' }) : '';
                 const formatTime = (ds) => ds ? new Date(ds).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }) : '';
+                const isNew = (dateStr) => {
+                    if (!dateStr) return false;
+                    const d = new Date(dateStr);
+                    const today = new Date();
+                    return d.getDate() === today.getDate() &&
+                        d.getMonth() === today.getMonth() &&
+                        d.getFullYear() === today.getFullYear();
+                };
 
                 const exportToExcel = () => {
                     const rows = filteredBills.value.map(b => ({
@@ -845,6 +961,8 @@
                         Funding: (b.funding !== null && b.funding !== undefined) ? b.funding : '',
                         Sponsor: b.SponsorPrimary || '',
                         Status: b.Status || '',
+                        First_Seen: b.first_seen ? new Date(b.first_seen).toLocaleDateString() : '',
+                        Last_Updated: b.last_updated ? new Date(b.last_updated).toLocaleDateString() : '',
                         Broad_Subjects: b.BroadSubjects?.map(s => s.Name).join('; ') || '',
                         Narrow_Subjects: b.NarrowSubjects?.map(s => s.Name).join('; ') || ''
                     }));
@@ -903,6 +1021,7 @@
                                 agencySearch.value = params.get('agency');
                             }
                             if (params.get('q')) searchQuery.value = params.get('q');
+                            if (params.get('sort')) sortBy.value = params.get('sort');
                             
                             const broad = params.getAll('broad');
                             filterBroad.value = broad.length > 0 ? broad : [];
@@ -954,10 +1073,10 @@
                 return {
                     allBills, loading, selectedYear, searchQuery, agencySearch, selectedAgency,
                     showAgencyList, filterBroad, filterNarrow, filterRating, activeBill, showAboutModal,
-                    showFilterDrawer, drawerReady, activeFilterCount,
+                    showFilterDrawer, drawerReady, activeFilterCount, sortBy,
                     filteredAgencies, uniqueBroadSubjects, uniqueNarrowSubjects, filteredBills,
                     selectAgency, getRelevance, openBill, closeBill, formatCurrency,
-                    formatDate, formatTime, exportToExcel, fetchData, getNextAction,
+                    formatDate, formatTime, formatTimestamp, isNew, exportToExcel, fetchData, getNextAction,
                     modalTitle, trapFocus, clearAgency, clearFilters, agencyFilterContainer,
                     filterDrawer, focusFirstOption, announceToScreenReader
                 };

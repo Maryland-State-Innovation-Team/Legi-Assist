@@ -14,9 +14,12 @@ def convert_pdfs_to_md(session_year: int, bill_number: str, state_manager):
     
     # Convert Main Bill
     bill_pdf = files.get('bill_pdf')
+    any_changes = False
+    
     if bill_pdf and os.path.exists(bill_pdf):
         md_path = os.path.join(md_dir, f"{bill_number}.md")
-        _convert_single(bill_pdf, md_path)
+        if _convert_single(bill_pdf, md_path):
+            any_changes = True
     
     # Convert Amendments
     amd_files = files.get('amendments', [])
@@ -25,36 +28,51 @@ def convert_pdfs_to_md(session_year: int, bill_number: str, state_manager):
         if os.path.exists(amd_pdf):
             base = os.path.basename(amd_pdf).replace('.pdf', '.md')
             md_path = os.path.join(md_dir, base)
-            _convert_single(amd_pdf, md_path)
+            if _convert_single(amd_pdf, md_path):
+                any_changes = True
 
     # Convert Fiscal Note
     fn_pdf = files.get('fiscal_note')
     if fn_pdf and os.path.exists(fn_pdf):
         base = os.path.basename(fn_pdf).replace('.pdf', '.md')
         md_path = os.path.join(md_dir, base)
-        _convert_single_simple(fn_pdf, md_path)
+        if _convert_single_simple(fn_pdf, md_path):
+            any_changes = True
             
     # Update State
     state_manager.update_bill(bill_number, {"needs_convert": False})
     
-    # Logic: If we have amendments, we need to run the Amender
-    if amd_files:
-        state_manager.update_bill(bill_number, {"needs_amend": True})
+    if any_changes:
+        # Logic: If we have amendments, we need to run the Amender
+        if amd_files:
+            state_manager.update_bill(bill_number, {"needs_amend": True})
+        else:
+            # If no amendments, we might still need QA if the main bill changed
+            state_manager.update_bill(bill_number, {"needs_qa": True, "amended_status": "original"})
     else:
-        # If no amendments, we might still need QA if the main bill changed
-        state_manager.update_bill(bill_number, {"needs_qa": True, "amended_status": "original"})
+        state_manager.update_bill(bill_number, {"needs_amend": False, "needs_qa": False})
 
 
-def _convert_single(pdf_path, md_path):
+def _convert_single(pdf_path, md_path) -> bool:
     text = pdf_text(pdf_path)
-    with open(md_path, 'w', encoding='utf-8') as f:
-        f.write(text)
+    return _write_if_changed(text, md_path)
 
 
-def _convert_single_simple(pdf_path, md_path):
+def _convert_single_simple(pdf_path, md_path) -> bool:
     text = pdf_text_simple(pdf_path)
-    with open(md_path, 'w', encoding='utf-8') as f:
+    return _write_if_changed(text, md_path)
+
+
+def _write_if_changed(text, path) -> bool:
+    if os.path.exists(path):
+        with open(path, 'r', encoding='utf-8') as f:
+            existing_text = f.read()
+        if existing_text == text:
+            return False
+    
+    with open(path, 'w', encoding='utf-8') as f:
         f.write(text)
+    return True
 
 
 def pdf_text_simple(pdf_file):

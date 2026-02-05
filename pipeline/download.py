@@ -78,11 +78,16 @@ def download_session_data(session_year: int, state_manager) -> List[str]:
             
             # If check was successful (returned dict, even if empty)
             if files_downloaded is not None:
+                now_str = pd.Timestamp.now().isoformat()
                 updates = {
                     "needs_download": False, 
-                    "last_seen": pd.Timestamp.now().isoformat(),
+                    "last_seen": now_str,
                     "bill_hash": current_hash
                 }
+                
+                # If the hash changed, we consider it a source update
+                if should_check_html:
+                    updates["last_updated"] = now_str
                 
                 # If new files were downloaded, mark downstream dirty
                 if files_downloaded:
@@ -120,7 +125,8 @@ def scrape_and_download(session_year, bill_number, output_dir, headers) -> Optio
     if fn_link:
         fn_path = os.path.join(output_dir, f"{bill_number}_fn.pdf")
         try:
-            if _download_file(f"https://mgaleg.maryland.gov{fn_link}", fn_path, headers):
+            _download_file(f"https://mgaleg.maryland.gov{fn_link}", fn_path, headers)
+            if os.path.exists(fn_path):
                 downloaded_files['fiscal_note'] = fn_path
         except Exception as e:
             print(f"Error downloading fiscal note for {bill_number}: {e}")
@@ -153,7 +159,8 @@ def scrape_and_download(session_year, bill_number, output_dir, headers) -> Optio
         if bill_link:
             fname = f"{bill_number}.pdf"
             fpath = os.path.join(output_dir, fname)
-            if _download_file(f"https://mgaleg.maryland.gov{bill_link}", fpath, headers):
+            _download_file(f"https://mgaleg.maryland.gov{bill_link}", fpath, headers)
+            if os.path.exists(fpath):
                 downloaded_files['bill_pdf'] = fpath
 
         # Download Amendments
@@ -161,7 +168,8 @@ def scrape_and_download(session_year, bill_number, output_dir, headers) -> Optio
         for amd_id, amd_href in amendments.items():
             fname = f"{bill_number}_amd{amd_id}.pdf"
             fpath = os.path.join(output_dir, fname)
-            if _download_file(f"https://mgaleg.maryland.gov{amd_href}", fpath, headers):
+            _download_file(f"https://mgaleg.maryland.gov{amd_href}", fpath, headers)
+            if os.path.exists(fpath):
                  downloaded_files['amendments'].append(fpath)
     except Exception as e:
         print(f"Error downloading files for {bill_number}: {e}")
@@ -174,11 +182,16 @@ def _download_file(url, path, headers) -> bool:
     Returns True if file was downloaded (new/changed), False if existed.
     Raises Exception on failure.
     """
-    if os.path.exists(path):
-        return False # Skip if exists (Basic Idempotency)
-    
     r = requests.get(url, headers=headers)
     r.raise_for_status()
+    new_content = r.content
+    
+    if os.path.exists(path):
+        with open(path, 'rb') as f:
+            old_content = f.read()
+        if old_content == new_content:
+            return False # Content didn't change
+            
     with open(path, 'wb') as f:
-        f.write(r.content)
+        f.write(new_content)
     return True

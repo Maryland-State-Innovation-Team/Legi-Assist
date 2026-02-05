@@ -94,6 +94,10 @@ def export_frontend_data(session_year, state_manager):
         bill_number = bill.get('BillNumber')
         bill_state = state_manager.get_bill(bill_number)
         
+        # Add timestamps for frontend sorting
+        bill['first_seen'] = bill_state.get('first_seen')
+        bill['last_updated'] = bill_state.get('last_updated')
+        
         # Merge QA results if they exist
         qa_results = bill_state.get('qa_results')
         if qa_results:
