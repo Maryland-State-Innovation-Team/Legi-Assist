@@ -194,11 +194,18 @@ article:focus-within {
 }
 
 /* Override for flag card without media */
-
 @media (min-width: 40em) {
     .maryland-card--flag .maryland-card__header,
     .maryland-card--flag .maryland-card__body,
     .maryland-card--flag .maryland-card__footer {
         margin-left: 0 !important;
     }
+}
+
+/* Fix for MDWDS applying underlines to all unstyled buttons */
+.usa-button--unstyled {
+    text-decoration: none;
+}
+.usa-button--unstyled:hover {
+    text-decoration: none;
 }
