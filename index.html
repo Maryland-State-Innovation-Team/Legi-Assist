@@ -186,7 +186,7 @@
 
                      <div class="margin-bottom-3">
                          <label class="usa-label margin-top-0" for="session-select">Session</label>
-                         <select class="usa-select mt-2" name="year-select" id="year-select" v-model="landingYear">
+                         <select class="usa-select mt-2" name="year-select" id="year-select" v-model="selectedYear" @change="fetchData">
                             <option v-for="year in [2026, 2025, 2024, 2023]" :value="year">{{ year }} Regular Session</option>
                         </select>
                      </div>
@@ -946,7 +946,6 @@
                 // Initialize year from URL if present, otherwise default to 2026
                 const initialYear = urlParams.get('year') ? parseInt(urlParams.get('year')) : 2026;
                 const selectedYear = ref(initialYear);
-                const landingYear = ref(initialYear);
                 const searchQuery = ref("");
                 const agencySearch = ref("");
                 const selectedAgency = ref("");
@@ -1101,9 +1100,11 @@
                 const initFromUrl = async () => {
                     const params = new URLSearchParams(window.location.search);
 
-                    // Check if we should show dashboard immediately
+                    // Show dashboard if any deep-linking params exist, otherwise show landing
                     if (params.has('bill') || params.has('q') || params.has('agency') || params.has('broad') || params.has('narrow') || params.has('year')) {
                         currentView.value = 'dashboard';
+                    } else {
+                        currentView.value = 'landing';
                     }
 
                     // Capture bill ID immediately before reactive changes trigger URL updates
@@ -1145,7 +1146,6 @@
                 };
 
                 const enterDashboard = () => {
-                    selectedYear.value = landingYear.value;
                     fetchData();
                     currentView.value = 'dashboard';
                     window.scrollTo(0, 0);
@@ -1774,7 +1774,7 @@
                 });
 
                 return {
-                    allBills, loading, selectedYear, landingYear, searchQuery, agencySearch, selectedAgency,
+                    allBills, loading, selectedYear, searchQuery, agencySearch, selectedAgency,
                     showAgencyList, sponsorSearch, selectedSponsor, showSponsorList, filterBroad, filterNarrow, filterRating, activeBill, showAboutModal,
                     showFilterDrawer, drawerReady, activeFilterCount, sortBy,
                     filteredAgencies, uniqueSponsors, filteredSponsors, uniqueBroadSubjects, uniqueNarrowSubjects, filteredBills,
