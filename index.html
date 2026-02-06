@@ -80,7 +80,7 @@
                                                 </div>
 
                                                 <div class="margin-top-2 display-flex flex-align-center gap-1 opacity-90">
-                                                    <span class="font-sans-xs text-base-dark margin-right-1">Built by</span>
+                                                    <span class="font-sans-xs text-base margin-right-1">Built by</span>
                                                     <img src="assets/innovation-website-logo-dark.png" alt="Maryland State Innovation Team" style="height: 2.5rem; width: auto;">
                                                 </div>
                                             </div>
@@ -326,7 +326,7 @@
                                 <input class="usa-checkbox__input" :id="'broad-'+sub.Code" type="checkbox" v-model="filterBroad" :value="sub.Name" @focus="scrollToFocusedItem">
                                 <label class="usa-checkbox__label" :for="'broad-'+sub.Code">{{ sub.Name }}</label>
                             </div>
-                            <div v-if="filteredBroadSubjects.length === 0" class="font-sans-2xs text-base-default text-italic padding-1">
+                            <div v-if="filteredBroadSubjects.length === 0" class="font-sans-2xs text-base text-italic padding-1">
                                 No matches found
                             </div>
                         </div>
@@ -346,7 +346,7 @@
                                 <input class="usa-checkbox__input" :id="'narrow-'+sub.Code" type="checkbox" v-model="filterNarrow" :value="sub.Name" @focus="scrollToFocusedItem">
                                 <label class="usa-checkbox__label" :for="'narrow-'+sub.Code">{{ sub.Name }}</label>
                             </div>
-                            <div v-if="filteredNarrowSubjects.length === 0" class="font-sans-2xs text-base-default text-italic padding-1">
+                            <div v-if="filteredNarrowSubjects.length === 0" class="font-sans-2xs text-base text-italic padding-1">
                                 No matches found
                             </div>
                         </div>
@@ -360,7 +360,7 @@
                               style="top: 50%; right: -30%; width: 120%; transform: translateY(-50%); opacity: 0.15; filter: sepia(1); pointer-events: none;">
                         
                         <div class="position-relative z-10">
-                            <p class="font-sans-xs text-uppercase text-base-default text-bold margin-bottom-1 margin-top-0">
+                            <p class="font-sans-xs text-uppercase text-base text-bold margin-bottom-1 margin-top-0">
                                 Built By
                             </p>
                             <h3 class="font-sans-lg line-height-sans-3 text-bold text-primary-darker margin-bottom-3 margin-top-0">
@@ -449,7 +449,7 @@
 
                  <!-- Scrollable Results -->
                  <section class="flex-1 overflow-y-auto padding-2 desktop:padding-4 scroll-smooth bg-base-lightest">
-                     <div v-if="loading" class="display-flex flex-column flex-align-center flex-justify-center text-base-default" style="height: 16rem;">
+                     <div v-if="loading" class="display-flex flex-column flex-align-center flex-justify-center text-base" style="height: 16rem;">
                          <div class="width-6 height-6 radius-pill border-2px border-top-primary margin-bottom-2" style="border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent; animation: spin 1s linear infinite;"></div>
                          <p class="font-sans-lg text-bold">Syncing Legislative Data...</p>
                      </div>
@@ -460,7 +460,7 @@
                      <div v-else class="grid-container padding-0 desktop:padding-x-4 width-full">
 
                         <div class="desktop:display-none padding-bottom-2 margin-bottom-2 border-bottom border-base-lighter text-center" role="status" aria-live="polite">
-                            <span class="font-sans-xs text-base-default text-italic">{{ filteredBills.length }} Results</span>
+                            <span class="font-sans-xs text-base text-italic">{{ filteredBills.length }} Results</span>
                         </div>
 
                         <ul class="maryland-card-group">
@@ -516,7 +516,7 @@
                          
                          <div v-if="filteredBills.length === 0" class="text-center padding-y-8 bg-white radius-lg border-1px border-base-lighter border-dashed margin-top-4">
                              <i class="ph ph-files text-huge text-base-lighter margin-bottom-1"></i>
-                             <p class="text-base-default font-medium margin-bottom-2">No bills match your criteria.</p>
+                             <p class="text-base font-medium margin-bottom-2">No bills match your criteria.</p>
                              <button @click="clearFilters" class="usa-button usa-button--unstyled text-primary text-bold">Clear Filters</button>
                          </div>
                      </div>
@@ -673,7 +673,7 @@
                                         <input class="usa-checkbox__input" :id="'mobile-broad-'+sub.Code" type="checkbox" v-model="filterBroad" :value="sub.Name" @focus="scrollToFocusedItem">
                                         <label class="usa-checkbox__label" :for="'mobile-broad-'+sub.Code">{{ sub.Name }}</label>
                                     </div>
-                                    <div v-if="filteredBroadSubjects.length === 0" class="font-sans-2xs text-base-default text-italic padding-1">
+                                    <div v-if="filteredBroadSubjects.length === 0" class="font-sans-2xs text-base text-italic padding-1">
                                         No matches found
                                     </div>
                                 </div>
@@ -693,7 +693,7 @@
                                         <input class="usa-checkbox__input" :id="'mobile-narrow-'+sub.Code" type="checkbox" v-model="filterNarrow" :value="sub.Name" @focus="scrollToFocusedItem">
                                         <label class="usa-checkbox__label" :for="'mobile-narrow-'+sub.Code">{{ sub.Name }}</label>
                                     </div>
-                                    <div v-if="filteredNarrowSubjects.length === 0" class="font-sans-2xs text-base-default text-italic padding-1">
+                                    <div v-if="filteredNarrowSubjects.length === 0" class="font-sans-2xs text-base text-italic padding-1">
                                         No matches found
                                     </div>
                                 </div>
@@ -707,7 +707,7 @@
                                       style="top: 50%; right: -30%; width: 120%; transform: translateY(-50%); opacity: 0.15; filter: sepia(1); pointer-events: none;">
                                 
                                 <div class="position-relative z-10">
-                                    <p class="font-sans-xs text-uppercase text-base-default text-bold margin-bottom-1 margin-top-0">
+                                    <p class="font-sans-xs text-uppercase text-base text-bold margin-bottom-1 margin-top-0">
                                         Built By
                                     </p>
                                     <h3 class="font-sans-lg line-height-sans-3 text-bold text-primary-darker margin-bottom-3 margin-top-0">
