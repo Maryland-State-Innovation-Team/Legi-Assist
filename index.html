@@ -821,11 +821,11 @@
                                     <div v-if="(activeBill.first_seen || activeBill.last_updated) && selectedYear >= 2026" class="pt-4 mt-4 border-t border-base-light grid grid-cols-2 gap-4">
                                         <div v-if="activeBill.first_seen">
                                             <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">First Seen</dt>
-                                            <dd class="font-sans-sm font-medium text-base-darker mt-1">{{ formatTimestamp(activeBill.first_seen) }}</dd>
+                                            <dd class="font-sans-sm font-medium text-base-darker mt-1" v-html="formatTimestamp(activeBill.first_seen)"></dd>
                                         </div>
                                         <div v-if="activeBill.last_updated">
                                             <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Last Updated</dt>
-                                            <dd class="font-sans-sm font-medium text-base-darker mt-1">{{ formatTimestamp(activeBill.last_updated) }}</dd>
+                                            <dd class="font-sans-sm font-medium text-base-darker mt-1" v-html="formatTimestamp(activeBill.last_updated)"></dd>
                                         </div>
                                     </div>
                                 </dl>
@@ -1582,7 +1582,13 @@
                 };
 
                 const formatDate = (ds) => ds ? new Date(ds).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
-                const formatTimestamp = (ds) => ds ? new Date(ds).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric' }) : '';
+                const formatTimestamp = (ds) => {
+                    if (!ds) return '';
+                    const d = new Date(ds);
+                    const datePart = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+                    const timePart = d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+                    return `${datePart}<br>@ ${timePart}`;
+                };
                 const formatTime = (ds) => ds ? new Date(ds).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }) : '';
                 const isNew = (dateStr) => {
                     if (!dateStr) return false;
