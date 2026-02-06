@@ -1,0 +1,4 @@
+site_name: Legi-Assist
+nav:
+  - Home: index.md
+  - How This Works: how-this-works.md
