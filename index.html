@@ -79,7 +79,9 @@
                                                     </button>
                                                 </div>
 
-                                                <div class="margin-top-4 display-flex flex-align-center gap-1 opacity-90">
+                                                <hr class="border-base-light" style="margin-top: 2rem; margin-bottom: 2rem;">
+
+                                                <div class="margin-top-2 display-flex flex-align-center gap-1 opacity-90">
                                                     <span class="font-sans-xs text-base margin-right-1">Built by</span>
                                                     <img src="assets/innovation-website-logo-dark.png" alt="Maryland State Innovation Team" style="height: 2.5rem; width: auto;">
                                                 </div>
@@ -135,7 +137,7 @@
 
                     <div class="grid-row">
                         <div class="grid-col-12">
-                            <hr class="border-base-lighter" style="margin-top: 4rem; margin-bottom: 4rem; border: 0; border-top: 1px solid;">
+                            <hr class="border-base-light" style="margin-top: 4rem; margin-bottom: 4rem;">
                         </div>
                     </div>
 
@@ -194,7 +196,7 @@
                         </select>
                      </div>
                      
-                     <hr class="border-base-lighter margin-y-3">
+                     <hr class="border-base-light margin-y-3">
 
                     <div ref="agencyFilterContainer" class="margin-bottom-3 position-relative" @focusout="handleFocusOut('agency', $event)">
                         <label class="usa-label margin-top-0 font-sans-sm" for="agency-filter-input">Filter by Agency</label>
@@ -257,7 +259,7 @@
                         </div>
                     </div>
 
-                    <hr class="border-base-lighter margin-y-3">
+                    <hr class="border-base-light margin-y-3">
 
                     <div ref="sponsorFilterContainer" class="margin-bottom-3 position-relative" @focusout="handleFocusOut('sponsor', $event)">
                         <label class="usa-label margin-top-0 font-sans-sm" for="sponsor-filter-input">Filter by Sponsor</label>
@@ -308,7 +310,7 @@
                         </ul>
                     </div>
 
-                     <hr class="border-base-lighter margin-y-3">
+                     <hr class="border-base-light margin-y-3">
 
                      <div class="margin-bottom-3">
                         <label class="usa-label margin-top-0 font-sans-sm" for="keyword-search">Keyword Search</label>
@@ -355,7 +357,7 @@
                         </div>
                     </fieldset>
 
-                    <hr class="border-base-lighter margin-y-3">
+                    <hr class="border-base-light margin-y-3">
 
                     <div class="position-relative overflow-hidden padding-3 radius-md bg-base-lightest border border-base-lighter">
                          <img src="assets/logomark.svg" alt="" aria-hidden="true" 
@@ -546,7 +548,7 @@
                                 </select>
                             </div>
 
-                        <hr v-if="selectedYear === 2026 || selectedAgency" class="border-base-lighter margin-y-3">
+                        <hr v-if="selectedYear === 2026 || selectedAgency" class="border-base-light margin-y-3">
                             <div class="margin-bottom-3">
                                  <label class="usa-label margin-top-0 font-sans-sm" for="mobile-year-select">Session</label>
                                  <select v-model="selectedYear" id="mobile-year-select" @change="fetchData" class="usa-select width-full font-sans-sm">
@@ -608,7 +610,7 @@
                                 </div>
                             </div>
                             
-                            <hr class="border-base-lighter margin-y-2">
+                            <hr class="border-base-light margin-y-2">
                             
                             <div class="margin-bottom-3" @focusout="handleFocusOut('sponsor', $event)">
                                 <label class="usa-label margin-top-0 font-sans-sm" for="mobile-sponsor-input">Filter by Sponsor</label>
@@ -653,7 +655,7 @@
                                 </div>
                             </div>
 
-                            <hr class="border-base-lighter margin-y-2">
+                            <hr class="border-base-light margin-y-2">
 
                             <div class="margin-bottom-3">
                                 <label class="usa-label margin-top-0 font-sans-sm" for="mobile-keyword-input">Keyword Search</label>
@@ -700,7 +702,7 @@
                                 </div>
                             </fieldset>
 
-                            <hr class="border-base-lighter margin-y-3">
+                            <hr class="border-base-light margin-y-3">
 
                             <div class="position-relative overflow-hidden padding-3 radius-md bg-base-lightest border border-base-lighter">
                                  <img src="assets/logomark.svg" alt="" aria-hidden="true" 
