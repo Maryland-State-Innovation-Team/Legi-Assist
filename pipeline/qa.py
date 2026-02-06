@@ -53,10 +53,10 @@ question_dict = {
     'bill_summary': 'Write a brief, plain-English summary of the bill.',
     'start_year': 'What year does the bill take effect?',
     'end_year': 'What year does the bill expire or sunset?',
-    'funding': 'How much funding is allocated or mandated by the bill? (if millions, write out full number. E.g. "1 million" should be 1000000)',
+    'funding': 'What is the estimated financial impact (allocations, mandates, or revenue changes) described in the Fiscal Note or bill text? Prioritize specific figures from the Fiscal Note; if absent, describe the nature of the impact found in the text (e.g. "Indeterminate revenue decrease"). (if millions, write out full number. E.g. "1 million" should be 1000000)',
     'responsible_party': 'What Maryland State agency, department, office, or role is responsible for implementing the bill?',
     'stakeholders': 'What population will be impacted by the bill?',
-    'fiscal_impact_summary': 'Summarize the state and local fiscal impact as described in the Fiscal Note. Include estimates for revenues and expenditures if available.',
+    'fiscal_impact_summary': 'Summarize the state and local fiscal impact. If a formal Fiscal Note is present, prioritize its specific revenue and expenditure estimates. If absent, identify financial implications explicitly stated in the bill text (e.g., delayed fees, tax credits, or new spending mandates) and note that specific dollar estimates are unavailable.',
 }
 
 SYSTEM_PROMPT = (
