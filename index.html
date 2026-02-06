@@ -65,7 +65,7 @@
                                                         id="year-select" 
                                                         v-model="selectedYear" 
                                                         @change="fetchData"
-                                                        style="height: auto;"
+                                                        style="height: auto; max-width: 100%;"
                                                     >
                                                         <option v-for="year in [2026, 2025, 2024, 2023]" :value="year">{{ year }} Regular Session</option>
                                                     </select>
