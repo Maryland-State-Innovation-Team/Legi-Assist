@@ -69,3 +69,12 @@ class PipelineState:
             key = f"needs_{stages[i]}"
             updates[key] = True
         self.update_bill(bill_number, updates)
+
+    def clean_state(self, current_bill_numbers: list[str]):
+        """Removes bills from state that are no longer in the master list."""
+        initial_count = len(self.data)
+        self.data = {k: v for k, v in self.data.items() if k in current_bill_numbers}
+        removed_count = initial_count - len(self.data)
+        if removed_count > 0:
+            print(f"Removed {removed_count} orphaned records from state.")
+            self.save()

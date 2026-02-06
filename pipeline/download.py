@@ -31,33 +31,43 @@ def download_session_data(session_year: int, state_manager) -> List[str]:
     if session_year != 2026:
         leg_data = [l for l in leg_data if l.get('ChapterNumber')]
 
-    leg_data_map = {l['BillNumber']: l for l in leg_data}
-
-    df = pd.DataFrame.from_records(leg_data)
+    # Deduplication Logic
     # Sort to prioritize HB over SB (Dedup logic)
-    df.sort_values(by='BillNumber', inplace=True)
+    leg_data.sort(key=lambda x: x.get('BillNumber', ''))
     
+    unique_leg_data = []
     seen_crossfiles = set()
-    bills_to_process = []
+    
+    for bill in leg_data:
+        bill_number = bill.get('BillNumber')
+        crossfile = bill.get('CrossfileBillNumber')
 
-    pdf_dir = os.path.abspath(f'data/{session_year}rs/pdf')
-    os.makedirs(pdf_dir, exist_ok=True)
-
-    for _, row in tqdm(df.iterrows(), total=df.shape[0], desc="Scanning Bill List"):
-        bill_number = row['BillNumber']
-        crossfile = row.get('CrossfileBillNumber')
-
-        # Crossfile Dedup
         if bill_number in seen_crossfiles:
             continue
+            
+        unique_leg_data.append(bill)
+        
         if crossfile:
             seen_crossfiles.add(crossfile)
 
+    # Save FILTERED master list for reference
+    master_list_path = os.path.abspath(f'data/{session_year}rs/legislation.json')
+    os.makedirs(os.path.dirname(master_list_path), exist_ok=True)
+    with open(master_list_path, 'w', encoding='utf-8') as f:
+        json.dump(unique_leg_data, f, indent=2)
+
+    bills_to_process = []
+    pdf_dir = os.path.abspath(f'data/{session_year}rs/pdf')
+    os.makedirs(pdf_dir, exist_ok=True)
+
+    for bill in tqdm(unique_leg_data, desc="Scanning Bill List"):
+        bill_number = bill.get('BillNumber')
+        
         # Check State
         bill_state = state_manager.get_bill(bill_number)
         
         # Calculate Hash
-        raw_bill_data = leg_data_map.get(bill_number, {})
+        raw_bill_data = bill.copy()
         data_to_hash = raw_bill_data.copy()
         data_to_hash.pop('StatusCurrentAsOf', None)
         
@@ -97,6 +107,9 @@ def download_session_data(session_year: int, state_manager) -> List[str]:
                 state_manager.update_bill(bill_number, updates)
         
         bills_to_process.append(bill_number)
+
+    # Clean orphaned records from state
+    state_manager.clean_state(bills_to_process)
 
     return bills_to_process
 
