@@ -1,6 +1,6 @@
 # Legi-Assist
 
-Legi-Assist is a toolkit developed by the Maryland State Innovation Team to automate the collection, processing, analysis, and summarization of Maryland General Assembly legislation. It downloads legislative data, converts it into machine-readable formats, applies amendments, and leverages large language models (LLMs) to answer policy-relevant questions about bills. The toolkit is designed to support policy analysis, research, and innovation in government.
+Legi-Assist is an automated toolkit for collecting, processing, and analyzing Maryland General Assembly legislation. It transforms legislative PDFs into structured, machine-readable data and leverages LLMs to extract policy-relevant insights, such as funding impacts and stakeholder analysis.
 
 ## Installation
 
@@ -59,79 +59,63 @@ python code/leg_to_basic_txt.py 2025
 - Outputs `.txt` files to `data/{session_year}rs/basic_txt/`.
 - Prints the total page count processed.
 
----
+The repository is structured as a robust data pipeline, managed by an idempotent state tracker.
 
-### `leg_to_md.py`
+- **Download**: Scrapes bill metadata and downloads PDFs from the MGA website.
+- **Convert**: Processes PDFs into high-quality Markdown, preserving formatting and tracking strikeouts.
+- **Amend**: Uses LLMs to merge adopted amendments into the original bill text, creating a "current" version of the bill.
+- **QA**: Analyzes the final bill text using LLMs to answer specific policy questions.
+- **Export**: Generates a unified JSON file (`frontend_data.json`) for visualization.
 
-**Purpose:**  
-Converts all bill PDFs for a session year into markdown files, preserving formatting and marking struck-through text using markdown strikethrough syntax.
+## Installation
 
-**Arguments:**  
-- `session_year` (int, required): The regular session year.
+1. Clone the repository and navigate to the root directory.
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   .\venv\Scripts\activate  # Windows
+   source venv/bin/activate # Linux/Mac
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Configure environment variables in a `.env` file (see `.env-example`):
+   ```
+   GEMINI_API_KEY=your_key_here
+   OPENAI_API_KEY=your_key_here
+   ```
 
-**Usage:**  
+## Usage
+
+### Running the Pipeline
+
+The main entry point is `run_pipeline.py`. It manages all stages of the process and skips bills that have already been processed unless they have updated.
+
 ```bash
-python code/leg_to_md.py 2025
+python run_pipeline.py --year 2026 --model-family gemini
 ```
-- Reads PDFs from `data/{session_year}rs/pdf/`.
-- Outputs `.md` files to `data/{session_year}rs/md/`.
 
----
+**Arguments:**
+- `--year`: The legislative session year (default: 2026).
+- `--model-family`: The LLM provider to use (`gemini`, `gpt`, or `ollama`).
+- `--model`: Specific model name (default: `gemini-3-flash-preview`).
+- `--debug`: Limits processing to the first 10 bills for testing.
 
-### `amend_leg_md.py`
+### Project Structure
 
-**Purpose:**  
-Uses Google Gemini 2.5 Pro to apply amendment markdown files to bill markdown files, producing amended bill markdowns.
+- `pipeline/`: Core modules for each stage (download, convert, amend, qa).
+- `data/{year}rs/`: Contains session-specific data.
+  - `pdf/`: Original legislative documents.
+  - `md/`: Converted and amended bill text.
+  - `legislation.json`: Bill metadata.
+  - `pipeline_state.json`: Tracking file for the pipeline's progress.
+- `llm_utils.py`: Shared utilities for LLM communication and schema validation.
+- `index.html`: A Vue.js frontend for browsing the processed results.
 
-**Arguments:**  
-- `session_year` (int, required): The regular session year (e.g., 2025).
+### Utility Scripts
 
-**Usage:**  
-```bash
-python code/amend_leg_md.py 2025
-```
-- Requires a `.env` file with `GEMINI_API_KEY` set.
-- Looks for bill and amendment markdown files in `data/{session_year}rs/md/`.
-- Outputs amended markdown files as `{bill_number}_amended.md` in the same directory.
-
----
-
-### `count_tokens.py`
-
-**Purpose:**  
-Counts the number of tokens in all basic text files for a given session year using the `tiktoken` library, and estimates the cost for LLM processing.
-
-**Arguments:**  
-- `session_year` (int, required): The regular session year.
-
-**Usage:**  
-```bash
-python code/count_tokens.py 2025
-```
-- Scans `data/{session_year}rs/basic_txt/` for `.txt` files.
-- Prints the total token count and estimated cost for the default model (`o3`).
-
----
-
-### `leg_qa.py`
-
-**Purpose:**  
-Uses LLMs (Gemini, OpenAI GPT, or Ollama) to answer a set of policy-relevant questions about each bill, based on the bill's markdown text.
-
-**Arguments:**  
-- `session_year` (int, required): The regular session year.
-- `--model-family` (optional, default: `gemini`): The LLM backend family to use (`gpt`, `gemini`, or `ollama`).
-- `--model` (optional): The specific model name to use (e.g., `gpt-4.1-nano`, `gemini-2.5-flash`, `llama3`).
-
-**Usage:**  
-```bash
-python code/leg_qa.py 2025 --model-family gemini
-```
-- Requires API keys in `.env` for Gemini (`GEMINI_API_KEY`) or OpenAI (`OPENAI_API_KEY`).
-- Reads bill markdowns from `data/{session_year}rs/md/`.
-- Outputs a CSV with model responses to `data/{session_year}rs/csv/legislation_model_responses.csv`.
-
----
+- `describe_agencies.py`: Scrapes Maryland agency information and uses Gemini with Google Search grounding to generate summaries in `data/maryland_agencies.csv`.
 
 ## Requirements
 

@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* iOS safe area support */
+html {
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+html, body {
+    height: 100%;
+    height: -webkit-fill-available;
+    overflow: hidden;
+    width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+/* Header safe area padding for iOS */
+header {
+    padding-top: max(0.75rem, env(safe-area-inset-top));
+}
+
+/* Modal positioning fix for iOS */
+[role="dialog"] {
+    padding-top: env(safe-area-inset-top);
+}
+
+/* Ensure modal close button is always reachable */
+[role="dialog"] > div {
+    margin-top: env(safe-area-inset-top);
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #888; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #555; }
+
+.md-flag-strip {
+    background: linear-gradient(90deg, #bf0d3e 25%, #fff 25%, #fff 50%, #000 50%, #000 75%, #e0aa0f 75%);
+    height: 8px;
+    width: 100%;
+}
+[v-cloak] { display: none; }
+
+.form-select-multi {
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+[tabindex="0"]:focus-visible {
+    outline: 2px solid #991b1b;
+    outline-offset: 2px;
+}
+
+button:focus:not(:focus-visible),
+a:focus:not(:focus-visible) {
+    outline: none;
+}
+
+@media (prefers-contrast: high) {
+    .border-gray-200 { border-color: #000; }
+    .text-slate-500, .text-slate-600 { color: #000; }
+    .bg-red-50 { background-color: #fee; border: 1px solid #991b1b; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    .animate-spin { animation: none; }
+    .drawer-transition { transition: none !important; }
+}
+
+/* Touch-friendly labels without visually huge checkboxes */
+@media (pointer: coarse) {
+    .touch-target {
+        position: relative;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+    }
+    .touch-target::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 44px;
+        height: 44px;
+    }
+    /* Buttons and links get proper sizing */
+    button, a, select {
+        min-height: 44px;
+    }
+    /* Checkbox labels extend tap area without visual change */
+    .checkbox-label {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        margin: -4px -8px;
+        padding: 4px 8px;
+    }
+}
+
+article:focus-within {
+    border-color: #fca5a5;
+}
+
+/* Filter Drawer Styles */
+.drawer-overlay {
+    background: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+.drawer-transition {
+    transition: transform 0.3s ease-out;
+}
+
+.drawer-enter {
+    transform: translateX(-100%);
+}
+
+.drawer-open {
+    transform: translateX(0);
+}
+
+/* Fade transitions */
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 0.2s ease;
+}
+.fade-enter-from, .fade-leave-to {
+    opacity: 0;
+}
+
+/* iframe-specific fixes */
+@supports (-webkit-touch-callout: none) {
+    html, body {
+        height: 100%;
+        height: -webkit-fill-available;
+    }
+    
+    .fixed.inset-0 {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    #app {
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        height: -webkit-fill-available;
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+    
+    main {
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+}
+
+/* Normalize input/select/button heights in flex containers */
+.flex.items-center select,
+.flex.items-center button,
+.flex.items-center input {
+    min-height: 44px;
+    box-sizing: border-box;
+}
+
+/* Override for flag card without media */
+@media (min-width: 40em) {
+    .maryland-card--flag .maryland-card__header,
+    .maryland-card--flag .maryland-card__body,
+    .maryland-card--flag .maryland-card__footer {
+        margin-left: 0 !important;
+    }
+}
+
+/* Fix for MDWDS applying underlines to all unstyled buttons */
+.usa-button--unstyled {
+    text-decoration: none;
+}
+.usa-button--unstyled:hover {
+    text-decoration: none;
+}

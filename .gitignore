@@ -172,3 +172,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore node_modules
+node_modules
+
+# Ignore all PDFs
+data/**/*.pdf
+
+# Ignore iframe testing
+legi-assist

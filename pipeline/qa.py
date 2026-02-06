@@ -1,0 +1,195 @@
+import os
+import pandas as pd
+import json
+import hashlib
+from pydantic import BaseModel, Field
+from typing import Optional, List, Literal
+from llm_utils import query_llm_with_retries
+import csv
+
+_legislation_json_cache = {}
+
+def get_bill_json_info(session_year, bill_number):
+    """Retrieves bill info from the master legislation.json file, with caching."""
+    if session_year not in _legislation_json_cache:
+        json_path = os.path.abspath(f'data/{session_year}rs/legislation.json')
+        if os.path.exists(json_path):
+            try:
+                with open(json_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    _legislation_json_cache[session_year] = {b['BillNumber']: b for b in data}
+            except Exception as e:
+                print(f"Error loading {json_path}: {e}")
+                _legislation_json_cache[session_year] = {}
+        else:
+            _legislation_json_cache[session_year] = {}
+    return _legislation_json_cache[session_year].get(bill_number)
+
+# Load agencies for validation
+agencies_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'maryland_agencies.csv')
+agencies_df = pd.read_csv(agencies_path)
+unique_agencies = sorted(agencies_df['Agency Name'].dropna().unique().tolist())
+
+# Define Schema
+class AnswersToQuestions(BaseModel):
+    bill_summary: str
+    start_year: Optional[int] = None
+    end_year: Optional[int] = None
+    funding: Optional[float] = None
+    responsible_party: str
+    stakeholders: str
+    fiscal_impact_summary: Optional[str] = None
+
+class AgencyRelevance(BaseModel):
+    agency_name: Literal[tuple(unique_agencies)]
+    is_relevant: bool
+    relevance_explanation: str
+    relevance_rating: int = Field(description="Relevance rating from 1 to 5, with 5 being the most relevant")
+
+class AgencyAnalysis(BaseModel):
+    relevant_agencies: List[AgencyRelevance]
+
+question_dict = {
+    'bill_summary': 'Write a brief, plain-English summary of the bill.',
+    'start_year': 'What year does the bill take effect?',
+    'end_year': 'What year does the bill expire or sunset?',
+    'funding': 'How much funding is allocated or mandated by the bill? (if millions, write out full number. E.g. "1 million" should be 1000000)',
+    'responsible_party': 'What Maryland State agency, department, office, or role is responsible for implementing the bill?',
+    'stakeholders': 'What population will be impacted by the bill?',
+    'fiscal_impact_summary': 'Summarize the state and local fiscal impact as described in the Fiscal Note. Include estimates for revenues and expenditures if available.',
+}
+
+SYSTEM_PROMPT = (
+    "You are reading markdown generated from the text of a bill passed by the Maryland General Assembly, "
+    "and its associated Fiscal and Policy Note (appended at the end). "
+    "Note that ~ syntax means text has been stricken. "
+    "Answer the following questions:\n"
+    "{}\n"
+    "Please respond with only valid JSON in the specified format."
+).format("\n".join([f"- {key}: {value}" for key, value in question_dict.items()]))
+
+
+def get_agency_prompt(agencies_text):
+    return (
+        "You are an expert policy analyst. Review the provided bill text and fiscal note. "
+        "We have a list of Maryland State Agencies and their summaries. "
+        "For EACH agency in the list, determine if the bill is relevant to their work or has a notable fiscal impact on them, "
+        "based on the provided Agency Summary.\n\n"
+        "Return a list of ONLY the agencies that are relevant or impacted.\n\n"
+        "For each relevant agency, provide a relevance_rating from 1 to 5, where 5 is the most relevant (e.g., they are the primary implementing agency) and 1 is low relevance (e.g., they are minimally impacted or mentioned).\n\n"
+        "AGENCIES LIST:\n"
+        f"{agencies_text}\n\n"
+        "Analyze the bill's content against each agency's summary to make your determination."
+    )
+
+def load_agencies(csv_path):
+    agencies = []
+    if os.path.exists(csv_path):
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                agencies.append(f"Agency: {row.get('Agency Name', 'Unknown')}\nSummary: {row.get('Summary', 'N/A')}")
+    return "\n---\n".join(agencies)
+
+
+
+def run_qa(session_year: int, bill_number: str, state_manager, client, model_name, model_family):
+    md_dir = os.path.abspath(f'data/{session_year}rs/md')
+    
+    # Prefer amended text, fall back to original
+    bill_path = os.path.join(md_dir, f"{bill_number}_amended.md")
+    if not os.path.exists(bill_path):
+        bill_path = os.path.join(md_dir, f"{bill_number}.md")
+    
+    bill_md = ""
+    if os.path.exists(bill_path):
+        with open(bill_path, 'r', encoding='utf-8') as f:
+            bill_md = f.read()
+    else:
+        # Fallback to legislation.json
+        bill_info = get_bill_json_info(session_year, bill_number)
+        if bill_info:
+            title = bill_info.get('Title') or ''
+            synopsis = bill_info.get('Synopsis') or ''
+            
+            # Use 'or []' to handle cases where the key exists but value is None
+            broad_list = bill_info.get('BroadSubjects') or []
+            broad = [s.get('Name') for s in broad_list if s]
+            
+            narrow_list = bill_info.get('NarrowSubjects') or []
+            narrow = [s.get('Name') for s in narrow_list if s]
+            
+            bill_md = f"# {title}\n\n"
+            bill_md += f"## Synopsis\n{synopsis}\n\n"
+            if broad:
+                bill_md += f"Broad Subjects: {', '.join(broad)}\n"
+            if narrow:
+                bill_md += f"Narrow Subjects: {', '.join(narrow)}\n"
+
+    # Load Fiscal Note if available (always try to append it)
+    fn_path = os.path.join(md_dir, f"{bill_number}_fn.md")
+    if os.path.exists(fn_path):
+        with open(fn_path, 'r', encoding='utf-8') as f:
+            fn_md = f.read()
+        if bill_md:
+            bill_md += f"\n\nFISCAL NOTE:\n{fn_md}"
+        else:
+            bill_md = f"FISCAL NOTE:\n{fn_md}"
+
+    if not bill_md:
+        print(f"No text, JSON info, or Fiscal Note available for QA: {bill_number}")
+        return
+
+    # Check hash to see if input changed
+    current_hash = hashlib.sha256(bill_md.encode('utf-8')).hexdigest()
+    bill_state = state_manager.get_bill(bill_number)
+    
+    if bill_state.get('qa_input_hash') == current_hash and bill_state.get('qa_results'):
+        state_manager.update_bill(bill_number, {"needs_qa": False})
+        return
+
+    try:
+        # 1. General QA
+        response = query_llm_with_retries(
+            client=client,
+            prompt=SYSTEM_PROMPT,
+            value=bill_md,
+            response_format=AnswersToQuestions,
+            model_name=model_name,
+            max_retries=3,
+            model_family=model_family
+        )
+        
+        qa_data = {}
+        if response:
+            qa_data = response
+        
+        # 2. Agency Relevance Analysis
+        agencies_csv = os.path.abspath('data/maryland_agencies.csv')
+        agencies_text = load_agencies(agencies_csv)
+        
+        if agencies_text:
+            agency_prompt = get_agency_prompt(agencies_text)
+            agency_response = query_llm_with_retries(
+                client=client,
+                prompt=agency_prompt,
+                value=bill_md,
+                response_format=AgencyAnalysis,
+                model_name=model_name,
+                max_retries=3,
+                model_family=model_family
+            )
+            
+            if agency_response:
+                # Store as a list of dicts
+                qa_data['agency_relevance'] = agency_response.get('relevant_agencies', [])
+
+        if qa_data:
+            state_manager.update_bill(bill_number, {
+                "qa_results": qa_data,
+                "needs_qa": False,
+                "qa_input_hash": current_hash
+            })
+            
+    except Exception as e:
+        print(f"QA Failed for {bill_number}: {e}")

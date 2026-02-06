@@ -2,618 +2,1756 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maryland Legi-Assist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Maryland Legi-Assist | Research & Tracking</title>
+    <script 
+        src="https://unpkg.com/vue@3.5.13/dist/vue.global.prod.js" 
+        integrity="sha384-W/1Fp/LgAYO/oTn9Gs+PbeWuMuq1eQCnUMPCeg8POmMYchhzxctjEqtbiCIxDOON" 
+        crossorigin="anonymous">
+    </script>
     
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script 
+        src="https://unpkg.com/@phosphor-icons/web@2.1.2" 
+        integrity="sha384-J7cw2fbG1T4C5MirTVUxsZGaMfw2m0XsCgOQEqUvB1OF9VIsHWuZF1GmyVRzs7eu" 
+        crossorigin="anonymous">
+    </script>
     
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <!-- Maryland Web Design System -->
+    <link rel="stylesheet" href="https://cdn.maryland.gov/mdwds/0.36.0/css/mdwds.min.css" />
+    <script src="https://cdn.maryland.gov/mdwds/0.36.0/js/mdwds-init.js"></script>
+    <script defer src="https://cdn.maryland.gov/mdwds/0.36.0/js/mdwds-core.js"></script>
 
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="./assets/output_style.css">
 
-    <style>
-        /* Custom Scrollbar for nicer UI */
-        ::-webkit-scrollbar {
-            width: 8px;
-            height: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #f1f1f1; 
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #888; 
-            border-radius: 4px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #555; 
-        }
-        .md-flag-strip {
-            background: linear-gradient(90deg, #bf0d3e 25%, #fff 25%, #fff 50%, #000 50%, #000 75%, #e0aa0f 75%);
-            height: 8px;
-            width: 100%;
-        }
-        [v-cloak] { display: none; }
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JEW030F57"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-        /* Chat Transition */
-        .slide-up-enter-active,
-        .slide-up-leave-active {
-            transition: all 0.3s ease;
-        }
-        .slide-up-enter-from,
-        .slide-up-leave-to {
-            opacity: 0;
-            transform: translateY(20px);
-        }
-    </style>
+    gtag('config', 'G-3JEW030F57');
+    </script>
+
 </head>
 <body class="bg-gray-50 text-slate-800 font-sans h-screen flex flex-col overflow-hidden">
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:bg-white focus:text-black focus:p-4 focus:font-bold focus:rounded-lg">
+        Skip to main content
+    </a>
+    <div id="app" v-cloak class="flex flex-col h-full font-sans text-slate-900">
+        <!-- Landing View -->
+        <div v-if="currentView === 'landing'" class="flex-1 overflow-y-auto bg-white flex flex-col">
+            <main id="main-content" tabindex="-1">
+                <div class="grid-container">
+                    <div class="grid-row">
+                        <div class="grid-col-12">
+                            <section class="maryland-hero maryland-hero--landing-agency has-illustration has-image" aria-labelledby="hero-title" style="padding-top: 2rem; padding-bottom: 3rem; min-height: auto;">
+                                <div class="maryland-hero__container">
+                                    <div class="maryland-hero__row">
+                                        <div class="maryland-hero__content">
+                                            <h1 class="maryland-hero__title" id="hero-title">
+                                                Maryland Legi-Assist
+                                            </h1>
 
-    <div id="app" v-cloak class="flex flex-col h-full">
-
-        <header class="bg-white shadow-sm z-10 shrink-0">
-            <div class="md-flag-strip"></div>
-            <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
-                <div class="flex items-center gap-3">
-                    <i class="ph ph-scroll text-3xl text-red-800"></i>
-                    <div>
-                        <h1 class="text-2xl font-bold text-slate-900 tracking-tight">Maryland Legi-Assist</h1>
-                        <p class="text-xs text-slate-500">AI-Powered Legislative Analysis (2023-2026)</p>
-                    </div>
-                </div>
-                
-                <div class="flex flex-col md:flex-row gap-3 w-full md:w-auto">
-                    <div class="relative">
-                        <i class="ph ph-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
-                        <input 
-                            v-model="searchQuery" 
-                            type="text" 
-                            placeholder="Search bills, keywords..." 
-                            class="pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-800 focus:border-red-800 outline-none w-full md:w-64"
-                        >
-                    </div>
-                    
-                    <select v-model="selectedYear" class="px-4 py-2 border border-gray-300 rounded-lg bg-white focus:ring-2 focus:ring-red-800 outline-none">
-                        <option value="all">All Years</option>
-                        <option v-for="year in availableYears" :value="year">{{ String(year) }}</option>
-                    </select>
-                </div>
-            </div>
-        </header>
-
-        <main class="flex-1 overflow-hidden flex relative">
-            
-            <div v-if="loading" class="absolute inset-0 z-50 bg-white/80 flex items-center justify-center flex-col">
-                <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-red-800 mb-4"></div>
-                <p class="text-slate-600 font-medium">Loading Legislative Data...</p>
-                <p class="text-xs text-slate-400 mt-2">Ensure this is running on a local web server (http://localhost)</p>
-            </div>
-
-            <div v-if="error" class="absolute inset-0 z-50 bg-white flex items-center justify-center flex-col p-8 text-center">
-                <i class="ph ph-warning-circle text-4xl text-red-600 mb-4"></i>
-                <h2 class="text-xl font-bold text-slate-800">Unable to Load Data</h2>
-                <p class="text-slate-600 mt-2 max-w-md">{{ error }}</p>
-                <p class="text-sm text-slate-500 mt-4 bg-gray-100 p-4 rounded text-left font-mono">
-                    Expected structure:<br>
-                    /data/2023rs/csv/legislation_model_responses.csv<br>
-                    /data/2024rs/csv/...
-                </p>
-            </div>
-
-            <div class="flex-1 overflow-y-auto p-4 md:p-6 bg-gray-50">
-                <div class="max-w-7xl mx-auto">
-                    
-                    <div class="flex justify-between items-end mb-4">
-                        <h2 class="text-lg font-semibold text-slate-700">
-                            Results <span class="text-sm font-normal text-slate-500">({{ filteredBills.length }} bills found)</span>
-                        </h2>
-                    </div>
-
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        <article 
-                            v-for="bill in filteredBills" 
-                            :key="bill.id" 
-                            class="bg-white rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition-shadow cursor-pointer flex flex-col group"
-                            @click="openModal(bill)"
-                        >
-                            <div class="p-5 border-b border-gray-100">
-                                <div class="flex justify-between items-start mb-2">
-                                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-slate-100 text-slate-800">
-                                        {{ bill.YearAndSession }}
-                                    </span>
-                                </div>
-                                <h3 class="text-lg font-bold text-red-900 group-hover:text-red-700 transition-colors">
-                                    {{ bill.BillNumber }}
-                                </h3>
-                                <p class="text-sm font-medium text-slate-800 line-clamp-2 mt-1" :title="bill.Title">
-                                    {{ bill.Title }}
-                                </p>
-                            </div>
-
-                            <div class="p-5 flex-1 flex flex-col">
-                                <p class="text-sm text-slate-600 line-clamp-4 mb-4 flex-1">
-                                    {{ bill.bill_summary || bill.Synopsis }}
-                                </p>
-                                
-                                <div class="space-y-2 mt-auto pt-4 border-t border-gray-100 text-xs">
-                                    <div v-if="bill.funding && bill.funding !== 'None' && bill.funding !== 'N/A'" class="flex items-start gap-2">
-                                        <i class="ph ph-currency-dollar text-slate-400 mt-0.5"></i>
-                                        <span class="font-semibold text-slate-700">Funding:</span>
-                                        <span class="text-slate-600 truncate">{{ formatMoney(bill.funding) }}</span>
-                                    </div>
-                                    <div v-if="bill.responsible_party && bill.responsible_party !== 'N/A'" class="flex items-start gap-2">
-                                        <i class="ph ph-buildings text-slate-400 mt-0.5"></i>
-                                        <span class="font-semibold text-slate-700">Agency:</span>
-                                        <span class="text-slate-600 truncate">{{ bill.responsible_party }}</span>
+                                            <div class="maryland-hero__description">
+                                                <p>Discover the legislation that matters most to you</p>
+                                                
+                                                <div class="bg-white p-4 max-w-md text-left">
+                                                    <label class="usa-label text-xs font-bold uppercase tracking-wide text-gray-500" for="year-select">Select Legislative Session</label>
+                                                    <select class="usa-select mt-2" name="year-select" id="year-select" v-model="selectedYear" @change="fetchData">
+                                                        <option v-for="year in [2026, 2025, 2024, 2023]" :value="year">{{ year }} Regular Session</option>
+                                                    </select>
+                                                    <button @click="enterDashboard" class="usa-button usa-button--big width-full margin-top-2 bg-red-800 hover:bg-red-900">
+                                                        Search
+                                                    </button>
+                                                    <div class="margin-top-2 display-flex flex-align-center gap-1 opacity-90">
+                                                        <span class="font-sans-xs text-base-dark margin-right-1">Built by</span>
+                                                        <img src="assets/innovation-website-logo-dark.png" alt="Maryland State Innovation Team" style="height: 2.5rem; width: auto;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="maryland-hero__img-container" style="min-height: 0;">
+                                            <figure class="maryland-hero__image" style="max-height: 400px; overflow: hidden; width: 100%;">
+                                                <img alt="Maryland State House of Delegates Chamber" src="assets/delegates_chamber_new.jpg" style="object-fit: cover; width: 100%; height: 100%; display: block;">
+                                            </figure>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </article>
-                    </div>
-                    
-                    <div v-if="filteredBills.length === 0 && !loading" class="text-center py-20">
-                        <i class="ph ph-files text-4xl text-gray-300 mb-3"></i>
-                        <p class="text-gray-500">No bills found matching your criteria.</p>
-                    </div>
-
-                </div>
-            </div>
-        </main>
-
-        <transition name="fade">
-            <div v-if="selectedBill" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm" @click.self="closeModal">
-                <div class="bg-white rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] flex flex-col overflow-hidden animate-scale-in">
-                    
-                    <div class="px-6 py-4 border-b border-gray-100 flex justify-between items-start bg-slate-50 shrink-0">
-                        <div>
-                            <div class="flex items-center gap-3 mb-1">
-                                <h2 class="text-2xl font-bold text-red-900">{{ selectedBill.BillNumber }}</h2>
-                                <span class="px-2 py-1 bg-slate-200 text-slate-700 text-xs rounded font-mono">{{ selectedBill.YearAndSession }}</span>
-                            </div>
-                            <h3 class="font-semibold text-slate-800 leading-tight">{{ selectedBill.Title }}</h3>
+                            </section>
                         </div>
-                        <button @click="closeModal" class="p-2 hover:bg-slate-200 rounded-full transition-colors">
-                            <i class="ph ph-x text-xl text-slate-500"></i>
+                    </div>
+
+                    <div class="grid-row" style="margin-top: 3rem;">
+                        <div class="grid-col-12 desktop:grid-col-10">
+                            <div class="usa-prose">
+                                <h2 class="margin-top-0">About Maryland Legi-Assist</h2>
+                                <p class="padding-top-4 font-sans-md"><strong>Methodology</strong></p>
+                                <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-base-dark leading-relaxed font-sans-md list-none pl-0">
+                                    <li class="flex items-start gap-2">
+                                        <span class="text-red-800 font-bold text-lg leading-none mt-0.5" aria-hidden="true">&bull;</span>
+                                        <span>
+                                            <strong>Automated Data Sync:</strong> The system connects nightly to the Maryland General Assembly (MGA) to download and index the latest bill texts, adopted amendments, and fiscal notes.
+                                        </span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="text-red-800 font-bold text-lg leading-none mt-0.5" aria-hidden="true">&bull;</span>
+                                        <span>
+                                            <strong>AI-Enhanced Analysis:</strong> It utilizes Large Language Models (LLMs) to interpret complex legislative PDFs—specifically handling strikethroughs and amendments—to generate plain-language summaries, stakeholder mappings, and fiscal impact analyses.
+                                        </span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="text-red-800 font-bold text-lg leading-none mt-0.5" aria-hidden="true">&bull;</span>
+                                        <span>
+                                            <strong>Agency Relevance Scoring:</strong> The tool evaluates every introduced bill against grounded descriptions of over 120 state entities, assigning a relevance score to help agencies filtering out noise.
+                                        </span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <span class="text-red-800 font-bold text-lg leading-none mt-0.5" aria-hidden="true">&bull;</span>
+                                        <span>
+                                            <strong>Workflow Optimization:</strong> Agency users can instantly identify high-priority legislation, track upcoming hearing dates, and export structured data for internal policy review processes.
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-row">
+                        <div class="grid-col-12">
+                            <hr class="border-base-lighter" style="margin-top: 3rem; margin-bottom: 3rem; border: 0; border-top: 1px solid;">
+                        </div>
+                    </div>
+
+                    <div class="grid-row" style="margin-bottom: 3rem;">
+                        <div class="grid-col-12 desktop:grid-col-10">
+                            <div class="usa-prose">
+                                <h2 class="margin-top-0">About the Maryland State Innovation Team</h2>
+                                <p class="padding-top-4 font-sans-md margin-bottom-3"><strong>Driving bold solutions to reduce childhood poverty and increase economic mobility.</strong></p>
+
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 font-sans-md text-base-dark leading-relaxed">
+                                    <div>
+                                        <p class="margin-top-0">
+                                            We are a multidisciplinary team focused on solutions to our state's most challenging problems. Sitting at the intersection of data science, public policy, and strategic partnerships, we serve as a solution incubator for the state—collaborating across agencies to accelerate new ways of working.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="margin-top-0">
+                                            Tools like Legi-Assist represent our commitment to modernizing government operations. By leveraging responsible AI and human-centered design, we empower state employees to work more efficiently, ensuring that policy decisions are data-informed and responsive to the needs of all Marylanders.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- Dashboard View -->
+        <div v-else class="flex h-full overflow-hidden bg-gray-50">
+            <!-- Sidebar (Desktop) -->
+            <aside class="display-none desktop:display-flex flex-column shrink-0 z-30 bg-white border-base-lighter border-right" style="width: 20rem;">
+                <!-- Header -->
+                <div class="padding-3 border-bottom border-base-lighter bg-white" style="padding-bottom: 1.75rem;">
+                     <a href="#" @click.prevent="returnToLanding" class="display-flex flex-align-center gap-1 margin-bottom-2 no-underline text-base-darker hover:text-primary" style="text-decoration: none;" aria-label="Return to Landing Page">
+                         <i class="ph ph-scroll text-primary text-xl"></i>
+                         <h1 class="font-sans-md text-bold margin-0">Maryland Legi-Assist</h1>
+                     </a>
+                     <button @click="showAboutModal = true" class="usa-button usa-button--outline width-full display-flex flex-justify-between flex-align-center">
+                         About this Tool
+                     </button>
+                </div>
+
+                <!-- Filters Scroll Area -->
+                <div class="flex-1 overflow-y-auto padding-3">
+                    <div class="display-flex flex-justify-between flex-align-center margin-bottom-2 width-full">
+                        <h2 class="font-sans-lg text-bold margin-0" style="outline: none;" ref="filtersHeading" tabindex="-1">Filters</h2>
+                        <button @click="clearFilters" class="usa-button usa-button--unstyled font-sans-3xs text-uppercase text-primary hover:text-primary-dark margin-left-auto underline" v-if="activeFilterCount > 0">Clear All</button>
+                    </div>
+
+                     <div class="margin-bottom-3">
+                         <label class="usa-label margin-top-0" for="session-select">Session</label>
+                         <select class="usa-select mt-2" name="year-select" id="year-select" v-model="landingYear">
+                            <option v-for="year in [2026, 2025, 2024, 2023]" :value="year">{{ year }} Regular Session</option>
+                        </select>
+                     </div>
+                     
+                     <hr class="border-base-lighter margin-y-3">
+
+                    <div ref="agencyFilterContainer" class="margin-bottom-3 position-relative" @focusout="handleFocusOut('agency', $event)">
+                        <label class="usa-label margin-top-0" for="agency-filter-input">Filter by Agency</label>
+                        <div class="position-relative margin-top-1">
+                            <input 
+                                v-model="agencySearch" 
+                                @focus="showAgencyList = true"
+                                @input="showAgencyList = true"
+                                @keydown.down.prevent="focusFirstOption"
+                                @keydown.escape="showAgencyList = false"
+                                type="text" 
+                                id="agency-filter-input"
+                                role="combobox"
+                                aria-autocomplete="list"
+                                aria-controls="agency-results-list"
+                                :aria-expanded="showAgencyList && filteredAgencies.length > 0"
+                                class="usa-input width-full"
+                                style="padding-right: 2.5rem;"
+                                placeholder="Search agencies..."
+                            >
+                            <button 
+                                v-if="selectedAgency" 
+                                @click="clearAgency" 
+                                aria-label="Clear selected agency"
+                                class="usa-button usa-button--unstyled position-absolute text-base-light hover:text-primary display-flex flex-align-center flex-justify-center"
+                                style="top: 50%; right: 0.5rem; transform: translateY(-50%); width: 2rem; height: 2rem;"
+                            >
+                                <i class="ph-fill ph-x-circle text-xl" aria-hidden="true"></i>
+                            </button>
+                        </div>
+
+                        <ul 
+                            v-if="showAgencyList && filteredAgencies.length" 
+                            id="agency-results-list"
+                            role="listbox"
+                            class="position-absolute left-0 right-0 margin-top-1 bg-white border-1px border-base-lighter shadow-2 z-50 maxh-card overflow-y-auto list-none padding-0 margin-0"
+                        >
+                            <li 
+                                v-for="option in filteredAgencies" 
+                                :key="option.name"
+                                tabindex="0"
+                                @click="selectAgency(option)"
+                                @keydown.enter.prevent="selectAgency(option)"
+                                @keydown.space.prevent="selectAgency(option)"
+                                class="padding-105 hover:bg-base-lightest focus:bg-base-lightest cursor-pointer font-sans-2xs border-bottom border-base-lighter last:border-0 text-base-darker outline-none focus:outline-primary"
+                            >
+                                {{ option.displayName }}
+                            </li>
+                        </ul>
+
+                        <div v-if="selectedAgency" class="margin-top-2 padding-2 bg-primary-lighter radius-md border border-primary-light">
+                            <label class="usa-label margin-top-0 text-primary-darker font-sans-3xs uppercase" for="agency-relevance-select">Relevance Threshold</label>
+                            <select id="agency-relevance-select" v-model="filterRating" class="usa-select margin-top-05 height-auto py-1 font-sans-2xs">
+                                <option value="all">All Relevance Levels</option>
+                                <option value="5">Primary - 5</option>
+                                <option value="4">High - 4+</option>
+                                <option value="3">Moderate - 3+</option>
+                                <option value="2">Low - 2+</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <hr class="border-base-lighter margin-y-3">
+
+                    <div ref="sponsorFilterContainer" class="margin-bottom-3 position-relative" @focusout="handleFocusOut('sponsor', $event)">
+                        <label class="usa-label margin-top-0" for="sponsor-filter-input">Filter by Sponsor</label>
+                        <div class="position-relative margin-top-1">
+                            <input 
+                                v-model="sponsorSearch" 
+                                @focus="showSponsorList = true"
+                                @input="showSponsorList = true"
+                                @keydown.escape="showSponsorList = false"
+                                type="text" 
+                                id="sponsor-filter-input"
+                                role="combobox"
+                                aria-autocomplete="list"
+                                aria-controls="sponsor-results-list"
+                                :aria-expanded="showSponsorList && filteredSponsors.length > 0"
+                                class="usa-input width-full"
+                                style="padding-right: 2.5rem;"
+                                placeholder="Search sponsors..."
+                            >
+                            <button 
+                                v-if="selectedSponsor" 
+                                @click="clearSponsor" 
+                                aria-label="Clear selected sponsor"
+                                class="usa-button usa-button--unstyled position-absolute text-base-light hover:text-primary display-flex flex-align-center flex-justify-center"
+                                style="top: 50%; right: 0.5rem; transform: translateY(-50%); width: 2rem; height: 2rem;"
+                            >
+                                <i class="ph-fill ph-x-circle text-xl" aria-hidden="true"></i>
+                            </button>
+                        </div>
+
+                        <ul 
+                            v-if="showSponsorList && filteredSponsors.length" 
+                            id="sponsor-results-list"
+                            role="listbox"
+                            class="position-absolute left-0 right-0 margin-top-1 bg-white border-1px border-base-lighter shadow-2 z-50 maxh-card overflow-y-auto list-none padding-0 margin-0"
+                        >
+                            <li 
+                                v-for="option in filteredSponsors" 
+                                :key="option"
+                                tabindex="0"
+                                @click="selectSponsor(option)"
+                                @keydown.enter.prevent="selectSponsor(option)"
+                                @keydown.space.prevent="selectSponsor(option)"
+                                class="padding-105 hover:bg-base-lightest focus:bg-base-lightest cursor-pointer font-sans-2xs border-bottom border-base-lighter last:border-0 text-base-darker outline-none focus:outline-primary"
+                            >
+                                {{ option }}
+                            </li>
+                        </ul>
+                    </div>
+
+                     <hr class="border-base-lighter margin-y-3">
+
+                     <div class="margin-bottom-3">
+                        <label class="usa-label margin-top-0" for="keyword-search">Keyword Search</label>
+                        <input v-model="searchQuery" id="keyword-search" type="text" class="usa-input margin-top-0 width-full" placeholder="Title, summary, ID...">
+                     </div>
+
+                     <fieldset class="usa-fieldset margin-bottom-3">
+                        <legend class="usa-label margin-top-0 margin-bottom-1">Broad Subjects</legend>
+                        <input 
+                            v-model="broadSubjectSearch" 
+                            type="text" 
+                            class="usa-input margin-bottom-1 height-4 font-sans-2xs" 
+                            placeholder="Filter broad subjects..." 
+                            aria-label="Filter Broad Subjects"
+                        >
+                        <div class="border-1px border-base-lighter padding-1 overflow-y-auto bg-white" style="max-height: 10rem;">
+                            <div class="usa-checkbox" v-for="sub in filteredBroadSubjects" :key="sub.Code">
+                                <input class="usa-checkbox__input" :id="'broad-'+sub.Code" type="checkbox" v-model="filterBroad" :value="sub.Name" @focus="scrollToFocusedItem">
+                                <label class="usa-checkbox__label" :for="'broad-'+sub.Code">{{ sub.Name }}</label>
+                            </div>
+                            <div v-if="filteredBroadSubjects.length === 0" class="font-sans-2xs text-base-default text-italic padding-1">
+                                No matches found
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="usa-fieldset">
+                        <legend class="usa-label margin-top-0 margin-bottom-1">Narrow Subjects</legend>
+                        <input 
+                            v-model="narrowSubjectSearch" 
+                            type="text" 
+                            class="usa-input margin-bottom-1 height-4 font-sans-2xs" 
+                            placeholder="Filter narrow subjects..." 
+                            aria-label="Filter Narrow Subjects"
+                        >
+                        <div class="border-1px border-base-lighter padding-1 overflow-y-auto bg-white" style="max-height: 10rem;">
+                            <div class="usa-checkbox" v-for="sub in filteredNarrowSubjects" :key="sub.Code">
+                                <input class="usa-checkbox__input" :id="'narrow-'+sub.Code" type="checkbox" v-model="filterNarrow" :value="sub.Name" @focus="scrollToFocusedItem">
+                                <label class="usa-checkbox__label" :for="'narrow-'+sub.Code">{{ sub.Name }}</label>
+                            </div>
+                            <div v-if="filteredNarrowSubjects.length === 0" class="font-sans-2xs text-base-default text-italic padding-1">
+                                No matches found
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <hr class="border-base-lighter margin-y-3">
+
+                    <div class="padding-2 bg-base-lightest radius-md border border-base-lighter">
+                         <div class="display-flex flex-column flex-align-start gap-05 margin-bottom-1">
+                            <span class="font-sans-3xs text-uppercase text-base-default text-bold">Built by</span>
+                            <img src="assets/innovation-website-logo-dark.png" alt="Maryland State Innovation Team" style="margin-left: auto; margin-right: auto; height: 2.5rem; width: auto; object-fit: contain;">
+                        </div>
+                        <hr class="border-base-lighter margin-y-3">
+                         <a href="https://innovation.maryland.gov" target="_blank" class="font-sans-xs text-primary hover:text-primary-dark text-bold display-flex flex-align-center gap-1 margin-top-1">
+                             Learn more at innovation.maryland.gov
+                             <i class="ph ph-arrow-square-out" aria-hidden="true"></i>
+                         </a>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Results Area -->
+            <main id="main-content" class="flex-1 display-flex flex-column min-w-0 bg-white position-relative">
+                 <!-- Mobile Header -->
+                 <div class="display-flex desktop:display-none bg-white border-bottom border-base-lighter padding-2 flex-align-center width-full z-10 sticky top-0">
+                     <a href="#" @click.prevent="returnToLanding" class="display-flex flex-align-center gap-1 no-underline text-base-darker hover:text-primary" style="text-decoration: none;" aria-label="Return to Landing Page">
+                         <i class="ph ph-scroll text-xl text-primary"></i>
+                         <span class="font-sans-md text-bold">MD Legi-Assist</span>
+                     </a>
+                     <div class="display-flex flex-align-center gap-1 margin-left-auto">
+                        <button 
+                            @click="showAboutModal = true" 
+                            class="usa-button usa-button--unstyled display-flex flex-align-center flex-justify-center width-4 height-4 text-base-darker hover:text-primary radius-pill hover:bg-base-lightest transition-colors"
+                            aria-label="About this Tool"
+                        >
+                            <i class="ph ph-info text-xl"></i>
+                        </button>
+
+                        <button 
+                            @click="exportToExcel" 
+                            class="usa-button usa-button--unstyled display-flex flex-align-center flex-justify-center width-4 height-4 text-base-darker hover:text-primary radius-pill hover:bg-base-lightest transition-colors"
+                            aria-label="Download Results CSV"
+                        >
+                            <i class="ph ph-download-simple text-xl"></i>
+                        </button>
+
+                        <button @click="showFilterDrawer = true" class="usa-button usa-button--outline usa-button--small display-flex flex-align-center gap-1 margin-right-0 margin-left-1">
+                            <i class="ph ph-funnel text-lg"></i>
+                            Filters
+                            <span v-if="activeFilterCount > 0" class="display-inline-block width-2 height-2 bg-primary text-white radius-pill text-center text-bold font-sans-3xs leading-none flex flex-align-center flex-justify-center" style="line-height: 1;">{{ activeFilterCount }}</span>
                         </button>
                     </div>
+                 </div>
+                 
+                 <!-- Results Header (Desktop) -->
+                <div class="display-none desktop:display-flex flex-justify-between flex-align-center padding-x-3 padding-top-5 padding-bottom-6 bg-white border-bottom border-base-lighter shrink-0 width-full">
+                    <div
+                        class="maryland-listing__list-summary flex-1"
+                        role="status"
+                        aria-live="polite"
+                        aria-atomic="true"
+                    >
+                        <p class="margin-0 font-sans-lg">
+                            <strong>{{ filteredBills.length }}</strong> Results
+                            <span v-if="selectedAgency" class="text-primary text-bold margin-left-1">for {{ selectedAgency }}</span>
+                        </p>
+                    </div>
 
-                    <div class="flex-1 overflow-y-auto p-6 md:p-8">
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                     <div class="display-flex flex-align-center gap-2">
+                         <div v-if="selectedYear === 2026 || selectedAgency" class="display-flex flex-align-center">
+                            <label for="sort-select" class="usa-label margin-0 margin-right-1 font-sans-xs text-base-dark text-bold text-no-wrap">Sort by</label>
+                            <select 
+                                id="sort-select" 
+                                v-model="sortBy" 
+                                class="usa-select margin-0 width-auto font-sans-xs bg-white border-base-light"
+                                style="height: 2.5rem; padding-top: 0.5rem; padding-bottom: 0.5rem;"
+                            >
+                                <option v-if="selectedYear === 2026" value="date">Newest First</option>
+                                <option v-if="selectedYear === 2026" value="upcoming">Upcoming Action</option>
+                                <option v-if="selectedAgency" value="relevance">Highest Relevance</option>
+                                <option value="bill_number">Bill Number</option>
+                            </select>
+                        </div>
+                        <button 
+                            @click="exportToExcel" 
+                            class="usa-button usa-button--outline bg-white hover:bg-base-lightest display-flex flex-align-center gap-1 margin-0"
+                            style="height: 2.5rem;"
+                        >
+                            <i class="ph ph-download-simple text-lg text-primary"></i> Download CSV
+                        </button>
+                     </div>
+                 </div>
+
+                 <!-- Scrollable Results -->
+                 <section class="flex-1 overflow-y-auto padding-2 desktop:padding-4 scroll-smooth bg-base-lightest">
+                     <div v-if="loading" class="display-flex flex-column flex-align-center flex-justify-center text-base-default" style="height: 16rem;">
+                         <div class="width-6 height-6 radius-pill border-2px border-top-primary margin-bottom-2" style="border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent; animation: spin 1s linear infinite;"></div>
+                         <p class="font-sans-lg text-bold">Syncing Legislative Data...</p>
+                     </div>
+                     <style>
+                        @keyframes spin { 100% { transform: rotate(360deg); } }
+                     </style>
+
+                     <div v-else class="grid-container padding-0 desktop:padding-x-4 width-full">
+
+                        <div class="desktop:display-none padding-bottom-2 margin-bottom-2 border-bottom border-base-lighter text-center" role="status" aria-live="polite">
+                            <span class="font-sans-xs text-base-default text-italic">{{ filteredBills.length }} Results</span>
+                        </div>
+
+                        <ul class="maryland-card-group">
+                            <li v-for="(bill, index) in filteredBills" :key="bill.BillNumber" class="maryland-card maryland-card--flag width-full margin-bottom-2 border-0">
+                                <div 
+                                    class="maryland-card__container cursor-pointer shadow-1 hover:shadow-3 transition-shadow bg-white"
+                                    @click="openBill(bill)"
+                                    @keydown.enter.prevent="openBill(bill)"
+                                    @keydown.space.prevent="openBill(bill)"
+                                    tabindex="0"
+                                    role="button"
+                                    :aria-label="'View details for ' + bill.BillNumber"
+                                >
+                                    <div class="display-flex flex-column flex-1 padding-3">
+                                        <div class="maryland-card__header padding-0 margin-bottom-1">
+
+                                            <div class="margin-bottom-05">
+                                                <h2 class="font-sans-xl text-bold text-primary line-height-sans-2 margin-0">
+                                                    {{ bill.BillNumber }}{{ bill.CrossfileBillNumber ? ' / ' + bill.CrossfileBillNumber : '' }}
+                                                </h2>
+                                            </div>
+
+                                            <div class="display-flex flex-wrap flex-align-center gap-1 margin-bottom-1">
+                                                <span v-if="getRelevance(bill)" class="usa-tag bg-primary-lighter text-primary-darker font-sans-2xs text-bold">
+                                                    Relevance: {{ getRelevance(bill).relevance_rating }}/5
+                                                </span>
+
+                                                <span v-if="isNew(bill.first_seen)" class="usa-tag bg-accent-cool text-white font-sans-2xs text-bold">New</span>
+                                            </div>
+
+                                            <h3 class="maryland-card__heading font-sans-lg text-bold text-base-darker line-height-sans-3 margin-0">
+                                                {{ bill.Title }}
+                                            </h3>
+                                        </div>
+
+                                        <div class="maryland-card__body padding-0 flex-1">
+                                            <div v-if="selectedYear === 2026 && getNextAction(bill)" class="margin-bottom-2">
+                                                <span class="inline-flex flex-align-center gap-1 bg-accent-warm-lighter text-base-darker padding-x-105 padding-y-05 radius-md font-sans-xs text-bold border border-accent-warm-light">
+                                                    <i class="ph ph-calendar-blank text-lg"></i>
+                                                    {{ getNextAction(bill).label }}: {{ formatDate(getNextAction(bill).date) }} 
+                                                    <span v-if="getNextAction(bill).isTime" class="text-normal margin-left-05">{{ formatTime(getNextAction(bill).date) }}</span>
+                                                </span>
+                                            </div>
+
+                                            <p class="font-sans-md text-base-dark line-clamp-3 margin-0">
+                                                {{ bill.bill_summary }}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                         
+                         <div v-if="filteredBills.length === 0" class="text-center padding-y-8 bg-white radius-lg border-1px border-base-lighter border-dashed margin-top-4">
+                             <i class="ph ph-files text-huge text-base-lighter margin-bottom-1"></i>
+                             <p class="text-base-default font-medium margin-bottom-2">No bills match your criteria.</p>
+                             <button @click="clearFilters" class="usa-button usa-button--unstyled text-primary text-bold">Clear Filters</button>
+                         </div>
+                     </div>
+                 </section>
+            </main>
+            
+            <!-- Mobile Drawer Reuse (Hidden by default) -->
+            <transition name="fade">
+                <div v-if="showFilterDrawer" class="position-fixed inset-0 z-50 drawer-overlay desktop:display-none" @click.self="showFilterDrawer = false">
+                    <aside ref="filterDrawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" @keydown="trapFocusDrawer" class="position-absolute inset-y-0 left-0 width-full bg-white shadow-3 display-flex flex-column" style="width: 85vw; max-width: 20rem;">
+                        <div class="padding-2 border-bottom border-base-lighter flex justify-between items-center bg-base-lightest w-full">
+                            <h2 id="drawer-title" ref="mobileFiltersHeading" tabindex="-1" class="font-bold text-lg text-base-dark margin-0" style="outline: none;">Filters</h2>
+                            <div class="flex items-center gap-3">
+                                <button @click="clearFilters" class="usa-button usa-button--unstyled font-sans-3xs text-uppercase text-primary hover:text-primary-dark underline" v-if="activeFilterCount > 0">Clear All</button>
+                                <button @click="showFilterDrawer = false" aria-label="Close filters" class="usa-button usa-button--unstyled text-base-dark hover:text-primary margin-0"><i class="ph ph-x text-xl" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <div class="padding-2 flex-1 overflow-y-auto">
+                            <div v-if="selectedYear === 2026 || selectedAgency" class="margin-bottom-3">
+                                <label class="usa-label margin-top-0" for="drawer-sort">Sort Order</label>
+                                <select v-model="sortBy" id="drawer-sort" class="usa-select width-full">
+                                    <option v-if="selectedYear === 2026" value="date">Newest First</option>
+                                    <option v-if="selectedYear === 2026" value="upcoming">Upcoming Action</option>
+                                    <option v-if="selectedAgency" value="relevance">Highest Relevance</option>
+                                    <option value="bill_number">Bill Number</option>
+                                </select>
+                            </div>
+
+                        <hr v-if="selectedYear === 2026 || selectedAgency" class="border-base-lighter margin-y-3">
+                            <div class="margin-bottom-3">
+                                 <label class="usa-label margin-top-0" for="mobile-year-select">Session</label>
+                                 <select v-model="selectedYear" id="mobile-year-select" @change="fetchData" class="usa-select width-full">
+                                     <option v-for="year in [2026, 2025, 2024, 2023]" :value="year">{{ year }}</option>
+                                 </select>
+                            </div>
                             
-                            <div class="md:col-span-2 space-y-6">
-                                
-                                <section>
-                                    <h4 class="text-sm uppercase tracking-wider text-slate-500 font-bold mb-2">Plain-English Summary</h4>
-                                    <div class="prose prose-sm text-slate-700 bg-blue-50/50 p-4 rounded-lg border border-blue-100">
-                                        {{ selectedBill.bill_summary }}
+                            <div class="margin-bottom-3" @focusout="handleFocusOut('agency', $event)">
+                                <label class="usa-label margin-top-0" for="mobile-agency-input">Filter by Agency</label>
+                                <input 
+                                    v-model="agencySearch" 
+                                    @focus="showAgencyList = true"
+                                    @input="showAgencyList = true"
+                                    @keydown.escape="showAgencyList = false"
+                                    type="text"
+                                    id="mobile-agency-input"
+                                    role="combobox"
+                                    aria-autocomplete="list"
+                                    aria-controls="mobile-agency-results-list"
+                                    :aria-expanded="showAgencyList && filteredAgencies.length > 0" 
+                                    placeholder="Search agencies..." 
+                                    class="usa-input width-full margin-bottom-1"
+                                >
+
+                                <div v-if="selectedAgency" class="padding-1 bg-primary-lighter text-primary-darker radius-md border-1px border-primary-light margin-bottom-1">
+                                    <div class="display-flex flex-align-center flex-justify-between font-sans-2xs text-bold margin-bottom-1">
+                                        {{ agencySearch }}
+                                        <button @click="clearAgency" aria-label="Clear selected agency" class="usa-button usa-button--unstyled text-primary"><i class="ph ph-x-circle text-lg" aria-hidden="true"></i></button>
+                                    </div>
+
+                                    <label class="usa-label margin-top-0 text-primary-darker font-sans-3xs uppercase" for="mobile-relevance-select">Relevance Threshold</label>
+                                    <select v-model="filterRating" id="mobile-relevance-select" class="usa-select margin-top-05 height-auto py-1 font-sans-2xs width-full bg-white">
+                                        <option value="all">All Relevance Levels</option>
+                                        <option value="5">Primary - 5</option>
+                                        <option value="4">High - 4+</option>
+                                        <option value="3">Moderate - 3+</option>
+                                        <option value="2">Low - 2+</option>
+                                    </select>
+                                </div>
+
+                                <div 
+                                    v-if="showAgencyList && filteredAgencies.length" 
+                                    id="mobile-agency-results-list"
+                                    role="listbox"
+                                    class="border-1px border-base-lighter radius-md overflow-y-auto" 
+                                    style="max-height: 10rem;"
+                                >
+                                    <div 
+                                        v-for="option in filteredAgencies" 
+                                        :key="option.name"
+                                        tabindex="0"
+                                        @click="selectAgency(option)"
+                                        @keydown.enter.prevent="selectAgency(option)"
+                                        @keydown.space.prevent="selectAgency(option)"
+                                        class="padding-1 border-bottom border-base-lighter hover:bg-base-lightest focus:bg-base-lightest font-sans-2xs text-base-dark last:border-0 outline-none focus:outline-primary cursor-pointer"
+                                    >
+                                        {{ option.displayName }}
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <hr class="border-base-lighter margin-y-2">
+                            
+                            <div class="margin-bottom-3" @focusout="handleFocusOut('sponsor', $event)">
+                                <label class="usa-label margin-top-0" for="mobile-sponsor-input">Filter by Sponsor</label>
+                                <input 
+                                    v-model="sponsorSearch" 
+                                    @focus="showSponsorList = true"
+                                    @input="showSponsorList = true"
+                                    @keydown.escape="showSponsorList = false"
+                                    type="text" 
+                                    id="mobile-sponsor-input"
+                                    role="combobox"
+                                    aria-autocomplete="list"
+                                    aria-controls="mobile-sponsor-results-list"
+                                    :aria-expanded="showSponsorList && filteredSponsors.length > 0"
+                                    placeholder="Search sponsors..." 
+                                    class="usa-input width-full margin-bottom-1"
+                                >
+
+                                <div v-if="selectedSponsor" class="display-flex flex-align-center flex-justify-between padding-1 bg-primary-lighter text-primary-darker radius-md font-sans-2xs text-bold border-1px border-primary-light margin-bottom-1">
+                                    {{ sponsorSearch }}
+                                    <button @click="clearSponsor" aria-label="Clear selected sponsor" class="usa-button usa-button--unstyled text-primary"><i class="ph ph-x-circle text-lg" aria-hidden="true"></i></button>
+                                </div>
+
+                                <div 
+                                    v-if="showSponsorList && filteredSponsors.length" 
+                                    id="mobile-sponsor-results-list"
+                                    role="listbox"
+                                    class="border-1px border-base-lighter radius-md overflow-y-auto" 
+                                    style="max-height: 10rem;"
+                                >
+                                    <div 
+                                        v-for="option in filteredSponsors" 
+                                        :key="option"
+                                        tabindex="0"
+                                        @click="selectSponsor(option)"
+                                        @keydown.enter.prevent="selectSponsor(option)"
+                                        @keydown.space.prevent="selectSponsor(option)"
+                                        class="padding-1 border-bottom border-base-lighter hover:bg-base-lightest focus:bg-base-lightest font-sans-2xs text-base-dark last:border-0 outline-none focus:outline-primary cursor-pointer"
+                                    >
+                                        {{ option }}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="border-base-lighter margin-y-2">
+
+                            <div class="margin-bottom-3">
+                                <label class="usa-label margin-top-0" for="mobile-keyword-input">Keyword Search</label>
+                                <input v-model="searchQuery" id="mobile-keyword-input" type="text" class="usa-input width-full" placeholder="Title, summary, ID...">
+                            </div>
+                            
+                             <fieldset class="usa-fieldset margin-bottom-3">
+                                <legend class="usa-label margin-top-0 margin-bottom-1">Broad Subjects</legend>
+                                <input 
+                                    v-model="broadSubjectSearch" 
+                                    type="text" 
+                                    class="usa-input margin-bottom-1 height-4 font-sans-2xs width-full" 
+                                    placeholder="Filter broad subjects..." 
+                                    aria-label="Filter Broad Subjects"
+                                >
+                                <div class="border-1px border-base-lighter padding-1 overflow-y-auto bg-white margin-top-1" style="max-height: 10rem;">
+                                    <div class="usa-checkbox" v-for="sub in filteredBroadSubjects" :key="sub.Code">
+                                        <input class="usa-checkbox__input" :id="'mobile-broad-'+sub.Code" type="checkbox" v-model="filterBroad" :value="sub.Name" @focus="scrollToFocusedItem">
+                                        <label class="usa-checkbox__label" :for="'mobile-broad-'+sub.Code">{{ sub.Name }}</label>
+                                    </div>
+                                    <div v-if="filteredBroadSubjects.length === 0" class="font-sans-2xs text-base-default text-italic padding-1">
+                                        No matches found
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="usa-fieldset">
+                                <legend class="usa-label margin-top-0 margin-bottom-1">Narrow Subjects</legend>
+                                <input 
+                                    v-model="narrowSubjectSearch" 
+                                    type="text" 
+                                    class="usa-input margin-bottom-1 height-4 font-sans-2xs width-full" 
+                                    placeholder="Filter narrow subjects..." 
+                                    aria-label="Filter Narrow Subjects"
+                                >
+                                <div class="border-1px border-base-lighter padding-1 overflow-y-auto bg-white margin-top-1" style="max-height: 10rem;">
+                                    <div class="usa-checkbox" v-for="sub in filteredNarrowSubjects" :key="sub.Code">
+                                        <input class="usa-checkbox__input" :id="'mobile-narrow-'+sub.Code" type="checkbox" v-model="filterNarrow" :value="sub.Name" @focus="scrollToFocusedItem">
+                                        <label class="usa-checkbox__label" :for="'mobile-narrow-'+sub.Code">{{ sub.Name }}</label>
+                                    </div>
+                                    <div v-if="filteredNarrowSubjects.length === 0" class="font-sans-2xs text-base-default text-italic padding-1">
+                                        No matches found
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <hr class="border-base-lighter margin-y-3">
+
+                            <div class="padding-2 bg-base-lightest radius-md border border-base-lighter">
+                                 <div class="display-flex flex-column flex-align-start gap-05 margin-bottom-1">
+                                    <span class="font-sans-3xs text-uppercase text-base-default text-bold">Built by</span>
+                                    <img src="assets/innovation-website-logo-dark.png" alt="Maryland State Innovation Team" style="margin-left: auto; margin-right: auto; height: 2.5rem; width: auto; object-fit: contain;">
+                                </div>
+                                <hr class="border-base-lighter margin-y-3">
+                                 <a href="https://innovation.maryland.gov" target="_blank" class="font-sans-xs text-primary hover:text-primary-dark text-bold display-flex flex-align-center gap-1 margin-top-1">
+                                     Learn more at innovation.maryland.gov
+                                     <i class="ph ph-arrow-square-out" aria-hidden="true"></i>
+                                 </a>
+                            </div>
+                        </div>
+                        <div class="padding-2 border-top border-base-lighter">
+                            <button @click="showFilterDrawer = false" class="usa-button width-full">Show {{ filteredBills.length }} Results</button>
+                        </div>
+                    </aside>
+                </div>
+            </transition>
+        </div>
+
+        <!-- Bill Detail Modal -->
+        <transition name="fade">
+            <div 
+                v-if="activeBill" 
+                role="dialog" 
+                aria-modal="true" 
+                aria-labelledby="modal-title"
+                class="fixed inset-0 z-[60] flex items-end sm:items-center justify-center sm:p-4 bg-black/60 backdrop-blur-sm" 
+                @click.self="closeBill"
+                @keydown.esc="closeBill"
+                @keydown.tab="trapFocus"
+            >
+                <div class="bg-white shadow-3 w-full sm:max-w-5xl max-h-[85dvh] sm:max-h-[90vh] flex flex-col overflow-hidden">
+                    <header class="p-4 sm:p-6 border-b border-base-lighter bg-white flex justify-between items-start gap-3 shrink-0">
+                        <div class="min-w-0 flex-1">
+                            <div class="flex flex-wrap items-center gap-2 sm:gap-3 mb-1">
+                                <h2 id="modal-title" ref="modalTitle" tabindex="-1" class="font-sans-xl desktop:font-sans-2xl text-bold text-primary outline-none line-height-sans-2">
+                                    {{ activeBill.BillNumber }}{{ activeBill.CrossfileBillNumber ? ' / ' + activeBill.CrossfileBillNumber : '' }}
+                                </h2>
+                                <span class="px-2 sm:px-3 py-05 bg-white border border-base-light font-sans-3xs text-bold text-base-dark uppercase tracking-wider">{{ activeBill.YearAndSession }}</span>
+                            </div>
+                        </div>
+                        <button @click="closeBill" aria-label="Close Modal" class="usa-button usa-button--unstyled p-2 hover:bg-base-lightest transition-colors shrink-0 text-base-darker">
+                            <i class="ph ph-x text-2xl" aria-hidden="true"></i>
+                        </button>
+                    </header>
+
+                    <div class="flex-1 overflow-y-auto min-h-0 p-4 sm:p-6 md:p-10 pb-[max(2rem,env(safe-area-inset-bottom))]">
+                        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-10">
+                            <div class="lg:col-span-2 space-y-6 sm:space-y-8">
+                                <h3 class="font-sans-lg text-bold text-base-darker line-height-sans-3">{{ activeBill.Title }}</h3>
+                                <section v-if="getRelevance(activeBill)" aria-labelledby="relevance-heading" class="bg-primary-lighter border-l-4 border-primary p-4 sm:p-6">
+                                    <h4 id="relevance-heading" class="text-primary-darker font-bold uppercase font-sans-3xs tracking-widest mb-2">Agency Relevance: {{ selectedAgency }}</h4>
+                                    <p class="text-base-darker font-medium leading-relaxed font-sans-md">{{ getRelevance(activeBill).relevance_explanation }}</p>
+                                </section>
+
+                                <section aria-labelledby="summary-heading">
+                                    <h4 id="summary-heading" class="text-base-dark font-bold uppercase font-sans-3xs tracking-widest mb-3">Plain-English Summary</h4>
+                                    <p class="text-base-darker leading-relaxed font-sans-md">{{ activeBill.bill_summary }}</p>
+                                </section>
+
+                                <section v-if="activeBill.fiscal_impact_summary" aria-labelledby="fiscal-heading">
+                                    <h4 id="fiscal-heading" class="text-base-dark font-bold uppercase font-sans-3xs tracking-widest mb-3">Fiscal Impact Analysis</h4>
+                                    <div class="bg-accent-cool-lighter text-base-darker p-4 sm:p-5 border border-accent-cool-light font-sans-md">
+                                        <div v-if="activeBill.has_fiscal_note === false" class="flex items-start gap-2 mb-3 pb-3 border-b border-accent-cool-light">
+                                            <i class="ph ph-warning text-lg text-accent-cool-dark mt-0.5 shrink-0"></i>
+                                            <p class="text-base-darker font-medium italic font-sans-xs">
+                                                Disclaimer: This fiscal analysis is preliminary and may change when the fiscal and policy note incorporating agency and DLS feedback is published.
+                                            </p>
+                                        </div>
+                                        {{ activeBill.fiscal_impact_summary }}
                                     </div>
                                 </section>
 
-                                <section>
-                                    <h4 class="text-sm uppercase tracking-wider text-slate-500 font-bold mb-2">Official Synopsis</h4>
-                                    <p class="text-sm text-slate-600 leading-relaxed">{{ selectedBill.Synopsis }}</p>
-                                </section>
-
-                                <div class="grid grid-cols-2 gap-4">
-                                    <div class="bg-gray-50 p-4 rounded-lg">
-                                        <h4 class="text-xs font-bold text-slate-500 uppercase mb-1">Program Start</h4>
-                                        <p class="font-medium">{{ formatYear(selectedBill.program_start_year) }}</p>
+                                <div v-if="activeBill.responsible_party || activeBill.stakeholders" class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+                                    <div v-if="activeBill.responsible_party" class="p-4 bg-base-lightest border border-base-lighter">
+                                        <h5 class="font-sans-3xs font-bold text-base-dark uppercase mb-2">Responsible Party</h5>
+                                        <p class="font-bold text-base-darker font-sans-sm">{{ activeBill.responsible_party }}</p>
                                     </div>
-                                    <div class="bg-gray-50 p-4 rounded-lg">
-                                        <h4 class="text-xs font-bold text-slate-500 uppercase mb-1">Program End</h4>
-                                        <p class="font-medium">{{ formatYear(selectedBill.program_end_year) }}</p>
+                                    <div v-if="activeBill.stakeholders" class="p-4 bg-base-lightest border border-base-lighter">
+                                        <h5 class="font-sans-3xs font-bold text-base-dark uppercase mb-2">Stakeholders</h5>
+                                        <p class="font-sans-xs text-base-dark">{{ activeBill.stakeholders }}</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="space-y-6">
-                                
-                                <div class="space-y-4">
+                                <dl class="bg-base-lightest border border-base-lighter p-4 sm:p-5 space-y-4">
                                     <div>
-                                        <h4 class="text-xs font-bold text-slate-500 uppercase mb-1">Responsible Party</h4>
-                                        <div class="flex items-start gap-2">
-                                            <i class="ph ph-buildings text-red-800"></i>
-                                            <span class="text-sm text-slate-800">{{ selectedBill.responsible_party }}</span>
-                                        </div>
+                                        <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Primary Sponsor</dt>
+                                        <dd class="font-sans-sm font-bold text-base-darker mt-1">{{ activeBill.SponsorPrimary }}</dd>
+                                    </div>
+                                    <div>
+                                        <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Current Status</dt>
+                                        <dd class="font-sans-sm font-bold text-primary mt-1">{{ activeBill.Status }}</dd>
                                     </div>
 
-                                    <div>
-                                        <h4 class="text-xs font-bold text-slate-500 uppercase mb-1">Funding Allocated</h4>
-                                        <div class="flex items-start gap-2">
-                                            <i class="ph ph-money text-green-700"></i>
-                                            <span class="text-sm text-slate-800 font-medium">{{ formatMoney(selectedBill.funding) }}</span>
-                                        </div>
+                                    <div v-if="getNextAction(activeBill)?.label === 'Hearing' && getTestimonyDeadline(getNextAction(activeBill).date)">
+                                        <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Testimony Deadline</dt>
+                                        <dd class="font-sans-sm font-bold text-red-800 mt-1">
+                                            {{ formatDate(getTestimonyDeadline(getNextAction(activeBill).date)) }} @ 6:00 PM
+                                        </dd>
                                     </div>
 
-                                    <div>
-                                        <h4 class="text-xs font-bold text-slate-500 uppercase mb-1">Stakeholders Impacted</h4>
-                                        <div class="flex items-start gap-2">
-                                            <i class="ph ph-users text-blue-700"></i>
-                                            <span class="text-sm text-slate-800">{{ selectedBill.stakeholders }}</span>
+                                    <div v-if="activeBill.funding != null">
+                                        <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Est. Funding Impact</dt>
+                                        <dd class="font-sans-sm font-bold text-accent-cool-darker mt-1">{{ formatCurrency(activeBill.funding) }}</dd>
+                                    </div>
+                                    
+                                    <div v-if="(activeBill.first_seen || activeBill.last_updated) && selectedYear >= 2026" class="pt-4 mt-4 border-t border-base-light grid grid-cols-2 gap-4">
+                                        <div v-if="activeBill.first_seen">
+                                            <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">First Seen</dt>
+                                            <dd class="font-sans-sm font-medium text-base-darker mt-1">{{ formatTimestamp(activeBill.first_seen) }}</dd>
+                                        </div>
+                                        <div v-if="activeBill.last_updated">
+                                            <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Last Updated</dt>
+                                            <dd class="font-sans-sm font-medium text-base-darker mt-1">{{ formatTimestamp(activeBill.last_updated) }}</dd>
                                         </div>
                                     </div>
+                                </dl>
+
+                                <div>
+                                    <h4 class="font-sans-3xs font-bold text-base-dark uppercase mb-2">Subjects</h4>
+                                    <ul class="flex flex-wrap gap-2" aria-label="Bill subjects">
+                                        <li v-for="s in activeBill.BroadSubjects" class="px-2 py-05 bg-base-lightest text-base-darker border border-base-lighter font-sans-3xs font-bold uppercase">{{ s.Name }}</li>
+                                        <li v-for="s in activeBill.NarrowSubjects" class="px-2 py-05 bg-accent-cool-lighter text-accent-cool-darker border border-accent-cool-light font-sans-3xs text-bold">{{ s.Name }}</li>
+                                    </ul>
                                 </div>
 
-                                <hr class="border-gray-100">
+                                <a :href="'https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/' + activeBill.BillNumber + '?ys=' + selectedYear + 'RS'" 
+                                target="_blank"
+                                rel="noopener"
+                                class="usa-button usa-button--primary width-full display-flex flex-justify-center flex-align-center gap-1 margin-0 text-no-underline hover:text-white">
+                                    View Bill on MGA
+                                    <i class="ph ph-arrow-square-out" aria-hidden="true"></i>
+                                    <span class="sr-only">(opens in new tab)</span>
+                                </a>
+                            </div>
+                        </div>
 
-                                <div class="space-y-3">
-                                    <a :href="getMgalegUrl(selectedBill)" target="_blank" class="flex items-center justify-center w-full gap-2 px-4 py-2.5 bg-red-800 hover:bg-red-900 text-white rounded-lg font-medium transition-colors text-sm">
-                                        View on MGA Website
-                                        <i class="ph ph-arrow-square-out"></i>
-                                    </a>
-
-                                    <button 
-                                        @click="fetchAndCopyMarkdown(selectedBill)" 
-                                        class="flex items-center justify-center w-full gap-2 px-4 py-2.5 bg-white border border-gray-300 hover:bg-gray-50 text-slate-700 rounded-lg font-medium transition-colors text-sm"
-                                        :disabled="copying"
-                                    >
-                                        <i class="ph" :class="copying ? 'ph-spinner animate-spin' : (copySuccess ? 'ph-check text-green-600' : 'ph-copy')"></i>
-                                        {{ copyButtonText }}
-                                    </button>
-                                    <p class="text-xs text-center text-slate-400">Copies raw markdown for use in AI tools</p>
+                        <div class="mt-6 sm:mt-10 pt-4 sm:pt-6 border-t border-base-lighter">
+                            <div class="flex flex-col sm:flex-row gap-3 items-start bg-base-lightest p-4 border border-base-lighter text-base-dark">
+                                <i class="ph ph-robot text-xl shrink-0 mt-0.5 text-base-light" aria-hidden="true"></i>
+                                <div class="font-sans-xs font-medium leading-relaxed">
+                                    <strong class="block mb-1 text-base-darker uppercase tracking-wide">Automated Summary Disclaimer</strong>
+                                    <p>
+                                        The summary content, relevance ratings, and fiscal analysis displayed here were generated using AI and may contain inaccuracies. 
+                                        This tool is for research assistance only. Please verify all details directly against the official 
+                                        <a :href="'https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/' + activeBill.BillNumber + '?ys=' + selectedYear + 'RS'" target="_blank" rel="noopener" class="usa-link text-bold">
+                                            Maryland General Assembly website
+                                            <span class="sr-only">(opens in new tab)</span>
+                                        </a>.
+                                    </p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
         </transition>
-    <div class="fixed bottom-6 right-6 z-40 flex flex-col items-end gap-4">
-            
-            <transition name="slide-up">
-                <div v-if="isChatOpen" class="w-full sm:w-96 bg-white rounded-2xl shadow-2xl border border-gray-200 overflow-hidden flex flex-col h-[500px] max-h-[80vh] mb-2">
-                    <div class="bg-red-800 p-4 flex justify-between items-center text-white shrink-0">
-                        <div class="flex items-center gap-2">
-                            <div class="bg-white/20 p-1.5 rounded-lg">
-                                <i class="ph ph-robot text-xl"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-bold text-sm">Legi-Bot AI</h3>
-                                <p class="text-xs text-red-100 flex items-center gap-1">
-                                    <span class="w-1.5 h-1.5 bg-green-400 rounded-full"></span> Online
-                                </p>
-                            </div>
-                        </div>
-                        <button @click="toggleChat" class="hover:bg-white/10 p-1 rounded transition-colors">
-                            <i class="ph ph-minus text-lg"></i>
-                        </button>
-                    </div>
 
-                    <div class="flex-1 overflow-y-auto p-4 space-y-4 bg-slate-50" ref="chatContainer">
-                        
-                        <div class="flex justify-center my-4">
-                            <span class="text-xs text-slate-400 bg-slate-100 px-3 py-1 rounded-full">Today</span>
-                        </div>
-
-                        <div v-for="msg in chatMessages" :key="msg.id" :class="['flex', msg.sender === 'user' ? 'justify-end' : 'justify-start']">
-                            <div :class="['max-w-[85%] rounded-2xl px-4 py-2.5 text-sm shadow-sm', 
-                                msg.sender === 'user' 
-                                    ? 'bg-red-800 text-white rounded-br-none' 
-                                    : 'bg-white border border-gray-100 text-slate-700 rounded-bl-none']">
-                                <p>{{ msg.text }}</p>
-                                <p class="text-[10px] mt-1 opacity-70 text-right">{{ msg.time }}</p>
-                            </div>
-                        </div>
-
-                        <div v-if="isTyping" class="flex justify-start animate-pulse">
-                            <div class="bg-white border border-gray-100 rounded-2xl rounded-bl-none px-4 py-3 shadow-sm flex gap-1.5 items-center">
-                                <div class="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce"></div>
-                                <div class="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce delay-100"></div>
-                                <div class="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce delay-200"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-3 bg-white border-t border-gray-100 shrink-0">
-                        <form @submit.prevent="sendMessage" class="flex items-center gap-2">
-                            <input 
-                                v-model="currentChatMessage" 
-                                type="text" 
-                                placeholder="Ask about legislation..." 
-                                class="flex-1 px-4 py-2.5 bg-gray-100 text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-red-800 focus:bg-white transition-all"
-                            >
-                            <button 
-                                type="submit" 
-                                :disabled="!currentChatMessage.trim() || isTyping"
-                                class="p-2.5 bg-red-800 text-white rounded-full hover:bg-red-900 disabled:opacity-50 disabled:cursor-not-allowed transition-colors shadow-sm flex items-center justify-center"
-                            >
-                                <i class="ph ph-paper-plane-right text-lg"></i>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </transition>
-
-            <button 
-                @click="toggleChat"
-                class="group p-4 bg-red-800 text-white rounded-full shadow-lg hover:shadow-xl hover:bg-red-900 transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-red-200"
-                aria-label="Open AI Assistant"
+        <!-- About Modal -->
+        <transition name="fade">
+            <div 
+                v-if="showAboutModal" 
+                role="dialog" 
+                aria-modal="true" 
+                aria-labelledby="about-modal-title"
+                class="fixed inset-0 z-[60] flex items-end sm:items-center justify-center sm:p-4 bg-slate-900/60 backdrop-blur-sm" 
+                @click.self="showAboutModal = false"
+                @keydown.esc="showAboutModal = false"
+                @keydown.tab="trapFocus"
             >
-                <i v-if="!isChatOpen" class="ph ph-chat-teardrop-text text-3xl group-hover:scale-110 transition-transform"></i>
-                <i v-else class="ph ph-x text-3xl rotate-0 hover:rotate-90 transition-transform"></i>
-            </button>
-        </div>
+                <div class="bg-white shadow-2xl w-full sm:max-w-2xl max-h-[85dvh] sm:max-h-[90vh] flex flex-col overflow-hidden">
+                    <header class="p-4 sm:p-6 border-b border-gray-200 bg-white flex justify-between items-center shrink-0">
+                        <h2 id="about-modal-title" ref="modalTitle" tabindex="-1" class="text-lg sm:text-xl font-bold text-base-darker outline-none">
+                            About Maryland Legi-Assist
+                        </h2>
+                        <button @click="showAboutModal = false" aria-label="Close Modal" class="p-2 hover:bg-gray-100 transition-colors">
+                            <i class="ph ph-x text-2xl text-base-darker" aria-hidden="true"></i>
+                        </button>
+                    </header>
+                    <div class="p-6 sm:p-8 space-y-6 overflow-y-auto min-h-0 pb-[max(2rem,env(safe-area-inset-bottom))]">
+                        <section>
+                            <h3 class="font-bold text-base-darker mb-4 text-lg">Methodology</h3>
+                            <ul class="space-y-3 text-base-dark leading-relaxed text-sm sm:text-base list-disc pl-5 marker:text-red-800">
+                                <li>
+                                    <strong>Automated Data Sync:</strong> The system connects nightly to the Maryland General Assembly (MGA) to download and index the latest bill texts, adopted amendments, and fiscal notes.
+                                </li>
+                                <li>
+                                    <strong>AI-Enhanced Analysis:</strong> It utilizes Large Language Models (LLMs) to interpret complex legislative PDFs—specifically handling strikethroughs and amendments—to generate plain-language summaries, stakeholder mappings, and fiscal impact analyses.
+                                </li>
+                                <li>
+                                    <strong>Agency Relevance Scoring:</strong> The tool evaluates every introduced bill against grounded descriptions of over 120 state entities, assigning a relevance score to help agencies filtering out noise.
+                                </li>
+                                <li>
+                                    <strong>Workflow Optimization:</strong> Agency users can instantly identify high-priority legislation, track upcoming hearing dates, and export structured data for internal policy review processes.
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                    <footer class="p-4 sm:p-6 bg-white border-t border-gray-200 flex justify-between items-center shrink-0">
+                        <a href="https://github.com/Maryland-State-Innovation-Team/Legi-Assist/" 
+                        target="_blank" 
+                        rel="noopener" 
+                        class="usa-button usa-button--outline m-0 flex items-center justify-center gap-2 h-10 px-4 no-underline text-base-darker hover:text-primary">
+                            <i class="ph ph-github-logo text-lg" aria-hidden="true"></i> 
+                            View on GitHub
+                            <span class="sr-only">(opens in new tab)</span>
+                        </a>
+                        <button @click="showAboutModal = false" class="usa-button usa-button--primary m-0 flex items-center justify-center h-10 px-6">
+                            Got it
+                        </button>
+                    </footer>
+                </div>
+            </div>
+        </transition>
     </div>
 
     <script>
-        const { createApp, ref, computed, onMounted } = Vue;
+        const { createApp, ref, computed, onMounted, onUnmounted, watch, nextTick } = Vue;
 
         createApp({
             setup() {
-                const { createApp, ref, computed, onMounted, nextTick } = Vue;
+                // Check URL params immediately to prevent flash of landing page
+                const urlParams = new URLSearchParams(window.location.search);
+                const hasDeepLink = urlParams.has('bill') || urlParams.has('q') || 
+                                urlParams.has('agency') || urlParams.has('broad') || 
+                                urlParams.has('narrow') || urlParams.has('year');
 
-                // --- Legislation Logic ---
+                const currentView = ref(hasDeepLink ? 'dashboard' : 'landing');
+                const agenciesData = ref({});
                 const allBills = ref([]);
                 const loading = ref(true);
-                const error = ref(null);
+
+                // Initialize year from URL if present, otherwise default to 2026
+                const initialYear = urlParams.get('year') ? parseInt(urlParams.get('year')) : 2026;
+                const selectedYear = ref(initialYear);
+                const landingYear = ref(initialYear);
                 const searchQuery = ref("");
-                const selectedYear = ref(2026);
-                const selectedBill = ref(null);
-                
-                // Copy State
-                const copying = ref(false);
-                const copySuccess = ref(false);
-                const copyButtonText = ref("Copy Full Text to Clipboard");
+                const agencySearch = ref("");
+                const selectedAgency = ref("");
+                const showAgencyList = ref(false);
+                const sponsorSearch = ref("");
+                const selectedSponsor = ref("");
+                const broadSubjectSearch = ref("");
+                const narrowSubjectSearch = ref("");
+                const showSponsorList = ref(false);
+                const filterBroad = ref([]);
+                const filterNarrow = ref([]);
+                const filterRating = ref("all");
+                const sortBy = ref("date");
+                const activeBill = ref(null);
+                const pendingBillId = ref(null);
+                const showAboutModal = ref(false);
+                const showFilterDrawer = ref(false);
+                const drawerReady = ref(false);
+                const modalTitle = ref(null);
+                const filtersHeading = ref(null);
+                const mobileFiltersHeading = ref(null);
+                const agencyFilterContainer = ref(null);
+                const sponsorFilterContainer = ref(null);
+                const filterDrawer = ref(null);
+                let lastActiveElement = null;
 
-                // Configuration
-                const yearsToLoad = [2023, 2024, 2025, 2026];
-                
-                // --- Chatbot Logic ---
-                const isChatOpen = ref(false);
-                const isTyping = ref(false);
-                const currentChatMessage = ref("");
-                const chatContainer = ref(null);
-                const chatMessages = ref([
-                    { 
-                        id: 1, 
-                        text: "Hello! I'm Legi-Bot. I can help you summarize bills or find funding details. What are you looking for today?", 
-                        sender: 'bot',
-                        time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
-                    }
-                ]);
+                // Count active filters for badge
+                const activeFilterCount = computed(() => {
+                    let count = 0;
+                    if (searchQuery.value) count++;
+                    if (selectedAgency.value) count++;
+                    if (selectedSponsor.value) count++;
+                    if (filterRating.value !== 'all') count++;
+                    count += filterBroad.value.length;
+                    count += filterNarrow.value.length;
+                    return count;
+                });
 
-                // --- Methods ---
-
-                // 1. Load Data
-                const loadData = async () => {
-                    const promises = yearsToLoad.map(year => {
-                        const path = `data/${year}rs/csv/legislation_model_responses.csv`;
-                        return new Promise((resolve) => {
-                            Papa.parse(path, {
-                                download: true,
-                                header: true,
-                                skipEmptyLines: true,
-                                complete: (results) => {
-                                    if(results.data && results.data.length > 0) {
-                                        const processed = results.data.map(d => ({...d, _sourceYear: year}));
-                                        resolve(processed);
-                                    } else {
-                                        console.warn(`No data found for ${year}`);
-                                        resolve([]);
-                                    }
-                                },
-                                error: (err) => {
-                                    console.warn(`Failed to load ${path}`, err);
-                                    resolve([]); 
-                                }
-                            });
+                // Handle drawer animation
+                watch(showFilterDrawer, async (val) => {
+                    if (val) {
+                        drawerReady.value = false;
+                        lastActiveElement = document.activeElement;
+                        await nextTick();
+                        requestAnimationFrame(() => {
+                            drawerReady.value = true;
                         });
-                    });
+                        // Focus first focusable element in drawer
+                        await nextTick();
+                        const firstInput = filterDrawer.value?.querySelector('input, button, select');
+                        if (firstInput) firstInput.focus();
+                    } else {
+                        drawerReady.value = false;
+                        await nextTick();
+                        if (lastActiveElement && document.body.contains(lastActiveElement)) {
+                            lastActiveElement.focus();
+                        }
+                    }
+                });
 
+                // A11y: Manage Focus for modals
+                watch([activeBill, showAboutModal], async ([newBill, newAbout]) => {
+                    if (newBill || newAbout) {
+                        lastActiveElement = document.activeElement;
+                        await nextTick();
+                        const modal = document.querySelector('[role="dialog"]');
+                        if (modal) {
+                            const closeBtn = modal.querySelector('button[aria-label="Close Modal"]');
+                            if (closeBtn) closeBtn.focus();
+                        }
+                    } else {
+                        await nextTick();
+                        if (lastActiveElement && document.body.contains(lastActiveElement)) {
+                            lastActiveElement.focus();
+                        }
+                    }
+                });
+
+                const handleClickOutside = (event) => {
+                    if (agencyFilterContainer.value && !agencyFilterContainer.value.contains(event.target)) {
+                        showAgencyList.value = false;
+                    }
+                    if (sponsorFilterContainer.value && !sponsorFilterContainer.value.contains(event.target)) {
+                        showSponsorList.value = false;
+                    }
+                };
+
+                const clearFilters = async () => {
+                    searchQuery.value = "";
+                    agencySearch.value = "";
+                    selectedAgency.value = "";
+                    sponsorSearch.value = "";
+                    selectedSponsor.value = "";
+                    broadSubjectSearch.value = "";
+                    narrowSubjectSearch.value = "";
+                    filterBroad.value = [];
+                    filterNarrow.value = [];
+                    filterRating.value = "all";
+                    sortBy.value = "date";
+                    updateUrl();
+
+                    // A11y: Manage focus so it doesn't get lost when the button disappears
+                    await nextTick();
+                    if (showFilterDrawer.value && mobileFiltersHeading.value) {
+                        mobileFiltersHeading.value.focus();
+                    } else if (filtersHeading.value) {
+                        filtersHeading.value.focus();
+                    }
+                };
+
+                const returnToLanding = async () => {
+                    // 1. Reset View
+                    currentView.value = 'landing';
+
+                    // 2. Reset all filters and state variables
+                    searchQuery.value = "";
+                    agencySearch.value = "";
+                    selectedAgency.value = "";
+                    sponsorSearch.value = "";
+                    selectedSponsor.value = "";
+                    broadSubjectSearch.value = "";
+                    narrowSubjectSearch.value = "";
+                    filterBroad.value = [];
+                    filterNarrow.value = [];
+                    filterRating.value = "all";
+                    sortBy.value = "date";
+                    activeBill.value = null;
+                    showFilterDrawer.value = false;
+
+                    // 3. Force URL to be clean (remove query params)
+                    // We wait for nextTick to ensure any watchers (triggered by resetting vars) 
+                    // that might call updateUrl() have finished.
+                    await nextTick();
+
+                    const baseUrl = window.location.pathname;
+                    window.history.pushState({}, '', baseUrl);
+                    notifyParentOfUrlChange(true);
+                };
+
+                watch([searchQuery, filterBroad, filterNarrow, sortBy, filterRating, selectedSponsor], () => { updateUrl(); });
+
+                // Enforce sort rules when year changes
+                watch(selectedYear, (newYear) => {
+                    if (newYear === 2026) {
+                        sortBy.value = 'date';
+                    } else {
+                        // For years < 2026, default to relevance if agency is selected, else bill number
+                        sortBy.value = selectedAgency.value ? 'relevance' : 'bill_number';
+                    }
+                });
+
+                const initFromUrl = async () => {
+                    const params = new URLSearchParams(window.location.search);
+
+                    // Check if we should show dashboard immediately
+                    if (params.has('bill') || params.has('q') || params.has('agency') || params.has('broad') || params.has('narrow') || params.has('year')) {
+                        currentView.value = 'dashboard';
+                    }
+
+                    // Capture bill ID immediately before reactive changes trigger URL updates
+                    if (params.get('bill')) pendingBillId.value = params.get('bill');
+
+                    // Set Year first (this triggers the year watcher which resets sort)
+                    if (params.get('year')) selectedYear.value = parseInt(params.get('year'));
+
+                    if (params.get('agency')) {
+                        const agencyKey = params.get('agency');
+                        selectedAgency.value = agencyKey;
+                        const found = agencyOptions.value.find(o => o.name === agencyKey);
+                        agencySearch.value = found ? found.displayName : agencyKey;
+                    }
+
+                    if (params.get('sponsor')) {
+                        const sponsor = params.get('sponsor');
+                        selectedSponsor.value = sponsor;
+                        sponsorSearch.value = sponsor;
+                    }
+
+                    if (params.get('q')) searchQuery.value = params.get('q');
+
+                    const broad = params.getAll('broad');
+                    if (broad.length > 0) filterBroad.value = broad;
+
+                    const narrow = params.getAll('narrow');
+                    if (narrow.length > 0) filterNarrow.value = narrow;
+
+                    if (params.get('relevance')) {
+                        filterRating.value = params.get('relevance');
+                    }
+
+                    // Apply sort parameter LAST
+                    if (params.get('sort')) {
+                        await nextTick();
+                        sortBy.value = params.get('sort');
+                    }
+                };
+
+                const enterDashboard = () => {
+                    selectedYear.value = landingYear.value;
+                    fetchData();
+                    currentView.value = 'dashboard';
+                    window.scrollTo(0, 0);
+                    updateUrl();
+                };
+
+                const updateUrl = (usePushState = false) => {
+                    const params = new URLSearchParams();
+                    params.set('year', selectedYear.value);
+                    params.set('sort', sortBy.value);
+                    if (selectedAgency.value) params.set('agency', selectedAgency.value);
+                    if (selectedSponsor.value) params.set('sponsor', selectedSponsor.value);
+
+                    // Use active bill if set, otherwise preserve pending bill ID to prevent URL wiping during load
+                    if (activeBill.value) {
+                        params.set('bill', activeBill.value.BillNumber);
+                    } else if (pendingBillId.value) {
+                        params.set('bill', pendingBillId.value);
+                    }
+
+                    if (searchQuery.value) params.set('q', searchQuery.value);
+                    filterBroad.value.forEach(val => params.append('broad', val));
+                    filterNarrow.value.forEach(val => params.append('narrow', val));
+                    if (filterRating.value !== 'all') params.set('relevance', filterRating.value);
+                    const newUrl = `${window.location.pathname}?${params.toString()}`;
+                    if (usePushState) {
+                        window.history.pushState({ bill: activeBill.value?.BillNumber || null }, '', newUrl);
+                    } else {
+                        window.history.replaceState({ bill: activeBill.value?.BillNumber || null }, '', newUrl);
+                    }
+                    notifyParentOfUrlChange(usePushState);
+                };
+
+                const notifyParentOfUrlChange = (usePushState = false) => {
+                    if (window.parent !== window) {
+                        try {
+                            const targetOrigin = window.location.hostname === 'localhost'
+                                ? '*'
+                                : 'https://ai.maryland.gov';
+                            window.parent.postMessage({
+                                type: 'legiassist-url-change',
+                                params: window.location.search,
+                                title: document.title,
+                                pushState: usePushState
+                            }, targetOrigin);
+                        } catch (e) {
+                            // Silently fail if postMessage blocked
+                        }
+                    }
+                };
+
+                const fetchAgencies = async () => {
                     try {
-                        const results = await Promise.all(promises);
-                        allBills.value = results.flat();
-                        if (allBills.value.length === 0) {
-                            error.value = "No data files could be loaded. Please check file paths.";
+                        const resp = await fetch('data/maryland_agencies.json');
+                        agenciesData.value = await resp.json();
+                    } catch (e) {
+                        console.error("Failed to load agencies", e);
+                    }
+                };
+
+                const fetchData = async () => {
+                    loading.value = true;
+                    try {
+                        const resp = await fetch(`data/${selectedYear.value}rs/frontend_data.json`);
+                        const data = await resp.json();
+                        allBills.value = data.filter(b => b.agency_relevance && b.agency_relevance.length > 0);
+
+                        // Check pendingBillId first (captured at init), fallback to URL param
+                        const params = new URLSearchParams(window.location.search);
+                        const targetBillId = pendingBillId.value || params.get('bill');
+
+                        if (targetBillId) {
+                            const found = allBills.value.find(b => b.BillNumber === targetBillId);
+                            if (found) {
+                                activeBill.value = found;
+                                pendingBillId.value = null; // Clear pending once found
+                            }
                         }
                     } catch (e) {
-                        error.value = "Unexpected error loading data.";
-                        console.error(e);
+                        console.error("Load failed", e);
+                        allBills.value = [];
                     } finally {
                         loading.value = false;
                     }
                 };
 
-                // 2. Computed Properties
-                const availableYears = computed(() => {
-                    const years = allBills.value.map(b => b._sourceYear).filter(y => y);
-                    return [...new Set(years)].sort().reverse();
+                const agencyOptions = computed(() => {
+                    return Object.values(agenciesData.value).map(agency => {
+                        const name = agency["Agency Name"];
+                        const acronym = agency["Acronym"];
+                        const alias = agency["Alias"];
+                        const displayName = acronym ? `${name} (${acronym})` : name;
+                        const searchString = `${name} ${acronym || ''} ${alias || ''}`.toLowerCase();
+                        
+                        return {
+                            name: name,
+                            displayName: displayName,
+                            searchString: searchString
+                        };
+                    }).sort((a, b) => a.displayName.localeCompare(b.displayName));
+                });
+
+                const filteredAgencies = computed(() => {
+                    if (!agencySearch.value) return agencyOptions.value;
+                    const query = agencySearch.value.toLowerCase();
+                    return agencyOptions.value.filter(option => option.searchString.includes(query));
+                });
+
+                const uniqueSponsors = computed(() => {
+                    const sponsors = new Set();
+                    allBills.value.forEach(b => {
+                        if (b.Sponsors && b.Sponsors.length > 0) {
+                            b.Sponsors.forEach(s => sponsors.add(s.Name));
+                        } else if (b.SponsorPrimary) {
+                            sponsors.add(b.SponsorPrimary);
+                        }
+                    });
+                    return Array.from(sponsors).sort();
+                });
+
+                const filteredSponsors = computed(() => {
+                    if (!sponsorSearch.value && !selectedSponsor.value) return uniqueSponsors.value;
+                    const query = sponsorSearch.value.toLowerCase();
+                    return uniqueSponsors.value.filter(s => s.toLowerCase().includes(query));
+                });
+
+                const uniqueBroadSubjects = computed(() => {
+                    const map = new Map();
+                    allBills.value.forEach(b => {
+                        b.BroadSubjects?.forEach(s => map.set(s.Code, s));
+                    });
+                    return Array.from(map.values()).sort((a,b) => a.Name.localeCompare(b.Name));
+                });
+
+                const uniqueNarrowSubjects = computed(() => {
+                    const map = new Map();
+                    allBills.value.forEach(b => {
+                        b.NarrowSubjects?.forEach(s => map.set(s.Code, s));
+                    });
+                    return Array.from(map.values()).sort((a,b) => a.Name.localeCompare(b.Name));
+                });
+
+                const filteredBroadSubjects = computed(() => {
+                    if (!broadSubjectSearch.value) return uniqueBroadSubjects.value;
+                    const q = broadSubjectSearch.value.toLowerCase();
+                    return uniqueBroadSubjects.value.filter(s => s.Name.toLowerCase().includes(q));
+                });
+
+                const filteredNarrowSubjects = computed(() => {
+                    if (!narrowSubjectSearch.value) return uniqueNarrowSubjects.value;
+                    const q = narrowSubjectSearch.value.toLowerCase();
+                    return uniqueNarrowSubjects.value.filter(s => s.Name.toLowerCase().includes(q));
                 });
 
                 const filteredBills = computed(() => {
-                    return allBills.value.filter(bill => {
-                        const searchLower = searchQuery.value.toLowerCase();
-                        const matchesSearch = !searchQuery.value || 
-                            (bill.BillNumber && bill.BillNumber.toLowerCase().includes(searchLower)) ||
-                            (bill.Title && bill.Title.toLowerCase().includes(searchLower)) ||
-                            (bill.bill_summary && bill.bill_summary.toLowerCase().includes(searchLower));
+                    let results = allBills.value;
 
-                        const matchesYear = selectedYear.value === "all" || 
-                            (bill._sourceYear == selectedYear.value);
+                    // 1. Filter by Agency (and Rating)
+                    if (selectedAgency.value) {
+                        results = results.filter(b => 
+                            b.agency_relevance.some(a => a.agency_name === selectedAgency.value)
+                        );
+                        if (filterRating.value !== "all") {
+                            const minRating = parseInt(filterRating.value);
+                            results = results.filter(b => {
+                                const rel = b.agency_relevance.find(ar => ar.agency_name === selectedAgency.value);
+                                // Use >= to implement "or higher" logic
+                                return rel && rel.relevance_rating >= minRating;
+                            });
+                        }
+                    }
 
-                        return matchesSearch && matchesYear;
+                    // 1b. Filter by Sponsor
+                    if (selectedSponsor.value) {
+                        results = results.filter(b => {
+                            if (b.Sponsors && b.Sponsors.length > 0) {
+                                return b.Sponsors.some(s => s.Name === selectedSponsor.value);
+                            }
+                            return b.SponsorPrimary === selectedSponsor.value;
+                        });
+                    }
+
+                    // 2. Filter by Search Query
+                    if (searchQuery.value) {
+                        const q = searchQuery.value.toLowerCase();
+                        
+                        const getVariants = (billNum) => {
+                            if (!billNum) return [];
+                            const lower = billNum.toLowerCase();
+                            const variants = [lower];
+                            const match = lower.match(/^([a-z]+)(\d+)$/);
+                            if (match) {
+                                const prefix = match[1];
+                                const digits = match[2];
+                                const number = parseInt(digits, 10);
+                                variants.push(`${prefix}${number}`);
+                                variants.push(`${prefix} ${number}`);
+                                variants.push(`${prefix} ${digits}`);
+                            }
+                            return variants;
+                        };
+
+                        results = results.filter(b => {
+                            const variants = getVariants(b.BillNumber);
+                            if (b.CrossfileBillNumber) {
+                                variants.push(...getVariants(b.CrossfileBillNumber));
+                            }
+                            
+                            return variants.some(v => v.includes(q)) ||
+                                b.Title.toLowerCase().includes(q) ||
+                                b.bill_summary.toLowerCase().includes(q) ||
+                                b.Synopsis.toLowerCase().includes(q);
+                        });
+                    }
+
+                    // 3. Filter by Subjects
+                    if (filterBroad.value.length > 0) {
+                        results = results.filter(b => 
+                            b.BroadSubjects?.some(s => filterBroad.value.includes(s.Name))
+                        );
+                    }
+                    if (filterNarrow.value.length > 0) {
+                        results = results.filter(b => 
+                            b.NarrowSubjects?.some(s => filterNarrow.value.includes(s.Name))
+                        );
+                    }
+
+                    // 4. Sorting Logic
+                    return [...results].sort((a, b) => {
+                        // Option A: Sort by Bill Number
+                        if (sortBy.value === 'bill_number') {
+                            return a.BillNumber.localeCompare(b.BillNumber, 'en', { numeric: true });
+                        }
+
+                        // Option B: Sort by Upcoming Action (Hearing/Reading)
+                        if (sortBy.value === 'upcoming') {
+                            const actionA = getNextAction(a);
+                            const actionB = getNextAction(b);
+                            
+                            // Bills with actions come before bills without
+                            if (actionA && !actionB) return -1;
+                            if (!actionA && actionB) return 1;
+                            
+                            // If both have actions, sort by date (Ascending - soonest first)
+                            if (actionA && actionB) {
+                                return actionA.date - actionB.date;
+                            }
+                            
+                            // Fallback to Bill Number if neither has an upcoming action
+                            return a.BillNumber.localeCompare(b.BillNumber, 'en', { numeric: true });
+                        }
+
+                        // Option C: Sort by Relevance or Date
+
+                        // Get relevance scores (0 if no agency selected)
+                        const relA = selectedAgency.value 
+                            ? (a.agency_relevance.find(ar => ar.agency_name === selectedAgency.value)?.relevance_rating || 0) 
+                            : 0;
+                        const relB = selectedAgency.value 
+                            ? (b.agency_relevance.find(ar => ar.agency_name === selectedAgency.value)?.relevance_rating || 0) 
+                            : 0;
+
+                        // Get timestamps (default to 0 if missing)
+                        const dateA = a.first_seen ? new Date(a.first_seen).getTime() : 0;
+                        const dateB = b.first_seen ? new Date(b.first_seen).getTime() : 0;
+
+                        if (sortBy.value === 'relevance' && selectedAgency.value) {
+                            // Sort by Relevance (Desc), then Date (Desc)
+                            if (relA !== relB) return relB - relA;
+                            return dateB - dateA;
+                        } else {
+                            // Sort by Date (Desc), then Relevance (Desc)
+                            if (dateA !== dateB) return dateB - dateA;
+                            return relB - relA;
+                        }
                     });
                 });
 
-                // 3. Helpers
-                const isTrue = (val) => {
-                    if (typeof val === 'boolean') return val;
-                    if (typeof val === 'string') return val.toLowerCase() === 'true';
-                    return false;
-                };
-
-                const formatMoney = (val) => {
-                    if (!val || val === 'None') return 'N/A';
-                    if (!isNaN(val)) {
-                        return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(val);
+                const selectAgency = (option) => {
+                    let name, displayName;
+                    if (typeof option === 'object') {
+                        name = option.name;
+                        displayName = option.displayName;
+                    } else {
+                        name = option;
+                        const found = agencyOptions.value.find(o => o.name === name);
+                        displayName = found ? found.displayName : name;
                     }
-                    return val;
-                };
 
-                const formatYear = (val) => {
-                    if (!val || val === 'N/A' || val === 'None') return 'N/A';
-                    const num = parseFloat(val);
-                    return isNaN(num) ? val : String(num);
-                };
+                    selectedAgency.value = name;
+                    agencySearch.value = displayName;
+                    showAgencyList.value = false;
 
-                const getMgalegUrl = (bill) => {
-                    if (!bill) return '#';
-                    const billNum = bill.BillNumber ? bill.BillNumber.toLowerCase() : '';
-                    let year = bill._sourceYear;
-                    if(!year && bill.YearAndSession) {
-                        const match = bill.YearAndSession.match(/\d{4}/);
-                        if(match) year = match[0];
+                    if (typeof gtag === 'function') {
+                        gtag('event', 'agency_selected', {
+                            'agency_name': name
+                        });
                     }
-                    return `https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/${billNum}?ys=${year}RS`;
-                };
-
-                const openModal = (bill) => {
-                    selectedBill.value = bill;
-                    copySuccess.value = false;
-                    copyButtonText.value = "Copy Full Text to Clipboard";
-                };
-
-                const closeModal = () => {
-                    selectedBill.value = null;
-                };
-
-                // 4. Copy Logic
-                const fetchAndCopyMarkdown = async (bill) => {
-                    if (!bill) return;
-                    copying.value = true;
                     
-                    let year = bill._sourceYear;
-                    if(!year && bill.YearAndSession) {
-                        const match = bill.YearAndSession.match(/\d{4}/);
-                        if(match) year = match[0];
+                    // Update sort preference based on year
+                    if (selectedYear.value < 2026) {
+                        sortBy.value = 'relevance';
+                    }
+                    
+                    updateUrl();
+                };
+
+                const clearAgency = async () => {
+                    selectedAgency.value = '';
+                    agencySearch.value = '';
+                    filterRating.value = 'all';
+                    showAgencyList.value = true; // Explicitly open the dropdown
+                    
+                    // If we are in an older year, we must revert to bill_number 
+                    // because 'relevance' is no longer an option without an agency
+                    if (selectedYear.value < 2026) {
+                        sortBy.value = 'bill_number';
+                    } else {
+                        sortBy.value = 'date';
                     }
 
-                    const pathsToTry = [
-                        `data/${year}rs/md/${bill.BillNumber}.md`,
-                        `data/${year}rs/md/${bill.BillNumber}_amended.md`,
-                        `data/${year}rs/md/${bill.BillNumber.toLowerCase()}.md`
-                    ];
+                    updateUrl();
+                    await nextTick(); 
+                    const input = document.getElementById('agency-filter-input');
+                    if (input) input.focus();
+                };
 
-                    let text = null;
+                const selectSponsor = (sponsor) => {
+                    selectedSponsor.value = sponsor;
+                    sponsorSearch.value = sponsor;
+                    showSponsorList.value = false;
+                    updateUrl();
+                };
 
-                    for (const path of pathsToTry) {
-                        try {
-                            const response = await fetch(path);
-                            if (response.ok) {
-                                text = await response.text();
-                                break;
-                            }
-                        } catch (e) {
-                            console.log(`Could not fetch ${path}`);
-                        }
-                    }
+                const clearSponsor = async () => {
+                    selectedSponsor.value = '';
+                    sponsorSearch.value = '';
+                    showSponsorList.value = true;
+                    updateUrl();
+                    await nextTick();
+                    const input = document.getElementById('sponsor-filter-input');
+                    if (input) input.focus();
+                };
 
-                    if (text) {
-                        try {
-                            await navigator.clipboard.writeText(text);
-                            copySuccess.value = true;
-                            copyButtonText.value = "Copied to Clipboard!";
-                            setTimeout(() => {
-                                copySuccess.value = false;
-                                copyButtonText.value = "Copy Full Text to Clipboard";
-                            }, 3000);
-                        } catch (err) {
-                            copyButtonText.value = "Clipboard permission denied";
+                const getRelevance = (bill) => {
+                    if (!selectedAgency.value || !bill.agency_relevance) return null;
+                    return bill.agency_relevance.find(a => a.agency_name === selectedAgency.value);
+                };
+
+                const openBill = (bill) => {
+                    activeBill.value = bill;
+                    updateUrl(true);
+                };
+
+                const closeBill = () => {
+                    activeBill.value = null;
+                    updateUrl(true);
+                };
+
+                const trapFocus = (e) => {
+                    const modal = document.querySelector('[role="dialog"]');
+                    if (!modal) return;
+                    const focusableSelectors = [
+                        'button:not([disabled]):not([aria-hidden="true"])',
+                        'a[href]:not([aria-hidden="true"])',
+                        'input:not([disabled]):not([type="hidden"])',
+                        'select:not([disabled])',
+                        'textarea:not([disabled])',
+                        '[tabindex]:not([tabindex="-1"]):not([aria-hidden="true"])'
+                    ].join(', ');
+                    const focusableElements = Array.from(modal.querySelectorAll(focusableSelectors))
+                        .filter(el => el.offsetParent !== null);
+                    if (focusableElements.length === 0) return;
+                    const firstElement = focusableElements[0];
+                    const lastElement = focusableElements[focusableElements.length - 1];
+                    if (e.shiftKey) {
+                        if (document.activeElement === firstElement) {
+                            e.preventDefault();
+                            lastElement.focus();
                         }
                     } else {
-                        copyButtonText.value = "Text file not found";
+                        if (document.activeElement === lastElement) {
+                            e.preventDefault();
+                            firstElement.focus();
+                        }
+                    }
+                };
+
+                const getTestimonyDeadline = (hearingDate) => {
+                    if (!hearingDate) return null;
+                    const date = new Date(hearingDate);
+                    const day = date.getDay(); // 0=Sun, 1=Mon, ..., 6=Sat
+                    
+                    let daysToSubtract = 0;
+                    if (day === 1 || day === 2) { // Monday, Tuesday
+                        daysToSubtract = 4;
+                    } else if (day >= 3 && day <= 5) { // Wednesday, Thursday, Friday
+                        daysToSubtract = 2;
+                    } else {
+                        return null; // No rule defined for weekends
                     }
                     
-                    copying.value = false;
+                    const deadlineDate = new Date(date);
+                    deadlineDate.setDate(date.getDate() - daysToSubtract);
+                    deadlineDate.setHours(18, 0, 0, 0); // Always 6:00 PM
+                    return deadlineDate;
                 };
 
-                // 5. Chat Methods
-                const toggleChat = () => {
-                    isChatOpen.value = !isChatOpen.value;
-                    if (isChatOpen.value) {
-                        scrollToBottom();
+                const getNextAction = (bill) => {
+                    const now = new Date();
+                    const actions = [
+                        { label: 'Hearing', date: bill.HearingDateTimePrimaryHouseOfOrigin, isTime: true },
+                        { label: 'Hearing', date: bill.HearingDateTimeSecondaryHouseOfOrigin, isTime: true },
+                        { label: '2nd Reading', date: bill.SecondReadingDateHouseOfOrigin, isTime: false },
+                        { label: '3rd Reading', date: bill.ThirdReadingDateHouseOfOrigin, isTime: false },
+                        { label: 'Opp. Hearing', date: bill.HearingDateTimePrimaryOppositeHouse, isTime: true },
+                        { label: 'Opp. Hearing', date: bill.HearingDateTimeSecondaryOppositeHouse, isTime: true },
+                        { label: 'Opp. 2nd', date: bill.SecondReadingDateOppositeHouse, isTime: false },
+                        { label: 'Opp. 3rd', date: bill.ThirdReadingDateOppositeHouse, isTime: false }
+                    ];
+                    const upcoming = actions
+                        .filter(a => a.date)
+                        .map(a => ({ ...a, date: new Date(a.date) }))
+                        .filter(a => a.date >= now.setHours(0, 0, 0, 0))
+                        .sort((a, b) => a.date - b.date);
+                    return upcoming.length > 0 ? upcoming[0] : null;
+                };
+
+                const formatCurrency = (val) => {
+                    if (val === 0) return "No Direct Fiscal Impact";
+                    return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(val);
+                };
+
+                const formatDate = (ds) => ds ? new Date(ds).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
+                const formatTimestamp = (ds) => ds ? new Date(ds).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric' }) : '';
+                const formatTime = (ds) => ds ? new Date(ds).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }) : '';
+                const isNew = (dateStr) => {
+                    if (!dateStr) return false;
+                    const d = new Date(dateStr);
+                    const today = new Date();
+                    return d.getDate() === today.getDate() &&
+                        d.getMonth() === today.getMonth() &&
+                        d.getFullYear() === today.getFullYear();
+                };
+
+                const exportToExcel = () => {
+                    const rows = filteredBills.value.map(b => ({
+                        Bill: b.BillNumber,
+                        Title: b.Title,
+                        MGA_Link: `https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/${b.BillNumber}?ys=${selectedYear.value}RS`,
+                        Agency_Rating: getRelevance(b)?.relevance_rating || '',
+                        Relevance_Note: getRelevance(b)?.relevance_explanation || '',
+                        Summary: b.bill_summary || '',
+                        Fiscal_Impact: b.fiscal_impact_summary || '',
+                        Funding: (b.funding !== null && b.funding !== undefined) ? b.funding : '',
+                        Sponsor: b.SponsorPrimary || '',
+                        Status: b.Status || '',
+                        First_Seen: b.first_seen ? new Date(b.first_seen).toLocaleDateString() : '',
+                        Last_Updated: b.last_updated ? new Date(b.last_updated).toLocaleDateString() : '',
+                        Broad_Subjects: b.BroadSubjects?.map(s => s.Name).join('; ') || '',
+                        Narrow_Subjects: b.NarrowSubjects?.map(s => s.Name).join('; ') || ''
+                    }));
+                    if (rows.length === 0) {
+                        announceToScreenReader('No bills to download.');
+                        return;
+                    }
+                    const header = Object.keys(rows[0]).join(',');
+                    const csv = [header, ...rows.map(row => 
+                        Object.values(row).map(v => `"${String(v).replace(/"/g, '""')}"`).join(',')
+                    )].join('\n');
+                    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+                    const link = document.createElement("a");
+                    link.href = URL.createObjectURL(blob);
+                    link.download = `MD_Legislation_Export_${selectedYear.value}.csv`;
+                    link.click();
+                    setTimeout(() => URL.revokeObjectURL(link.href), 100);
+                    announceToScreenReader(`Download complete. ${rows.length} bills downloaded as CSV.`);
+                };
+
+                const focusFirstOption = () => {
+                    const firstOption = document.querySelector('#agency-results-list li');
+                    if (firstOption) firstOption.focus();
+                };
+
+                const announceToScreenReader = (message) => {
+                    const announcement = document.createElement('div');
+                    announcement.setAttribute('role', 'status');
+                    announcement.setAttribute('aria-live', 'polite');
+                    announcement.setAttribute('aria-atomic', 'true');
+                    announcement.className = 'sr-only';
+                    announcement.textContent = message;
+                    document.body.appendChild(announcement);
+                    setTimeout(() => { document.body.removeChild(announcement); }, 1000);
+                };
+
+                const handleFocusOut = (type, event) => {
+                    // Only close if the new focused element (relatedTarget) is OUTSIDE the container
+                    if (!event.currentTarget.contains(event.relatedTarget)) {
+                        if (type === 'agency') showAgencyList.value = false;
+                        if (type === 'sponsor') showSponsorList.value = false;
                     }
                 };
 
-                const scrollToBottom = () => {
-                    nextTick(() => {
-                        if (chatContainer.value) {
-                            chatContainer.value.scrollTop = chatContainer.value.scrollHeight;
-                        }
-                    });
+                const scrollToFocusedItem = (event) => {
+                    // Find the wrapper (usa-checkbox) and scroll it into view within its container
+                    const wrapper = event.target.closest('.usa-checkbox');
+                    if (wrapper) {
+                        wrapper.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+                    }
                 };
 
-                const sendMessage = () => {
-                    if (!currentChatMessage.value.trim()) return;
+                const trapFocusDrawer = (e) => {
+                    const drawer = filterDrawer.value;
+                    if (!drawer || e.key !== 'Tab') return;
 
-                    // Add User Message
-                    chatMessages.value.push({
-                        id: Date.now(),
-                        text: currentChatMessage.value,
-                        sender: 'user',
-                        time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
-                    });
+                    const focusableSelectors = [
+                        'button:not([disabled]):not([aria-hidden="true"])',
+                        'a[href]:not([aria-hidden="true"])',
+                        'input:not([disabled]):not([type="hidden"])',
+                        'select:not([disabled])',
+                        'textarea:not([disabled])',
+                        '[tabindex]:not([tabindex="-1"]):not([aria-hidden="true"])'
+                    ].join(', ');
 
-                    const userQuery = currentChatMessage.value;
-                    currentChatMessage.value = "";
-                    scrollToBottom();
-                    isTyping.value = true;
+                    const focusableElements = Array.from(drawer.querySelectorAll(focusableSelectors))
+                        .filter(el => el.offsetParent !== null); // Ensure visible
 
-                    // Mock API Delay
-                    setTimeout(() => {
-                        let responseText = "I see you're interested in that. I'm currently in demo mode, but I can tell you that the 2026 session is particularly focused on budget allocations.";
-                        
-                        if (userQuery.toLowerCase().includes("fund")) {
-                            responseText = "For funding specific inquiries, please look for the green dollar signs ($) on the bill cards. These indicate fiscal notes are attached.";
-                        } else if (userQuery.toLowerCase().includes("education")) {
-                            responseText = "Education bills are often handled by the Ways and Means committee. Try searching for 'Education' in the top search bar.";
+                    if (focusableElements.length === 0) return;
+
+                    const firstElement = focusableElements[0];
+                    const lastElement = focusableElements[focusableElements.length - 1];
+
+                    if (e.shiftKey) { // Shift + Tab
+                        if (document.activeElement === firstElement) {
+                            e.preventDefault();
+                            lastElement.focus();
                         }
-
-                        chatMessages.value.push({
-                            id: Date.now() + 1,
-                            text: responseText,
-                            sender: 'bot',
-                            time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
-                        });
-                        
-                        isTyping.value = false;
-                        scrollToBottom();
-                    }, 1500);
+                    } else { // Tab
+                        if (document.activeElement === lastElement) {
+                            e.preventDefault();
+                            firstElement.focus();
+                        }
+                    }
                 };
 
-                // Init
-                onMounted(() => {
-                    loadData();
+                onMounted(async () => {
+                    await fetchAgencies();
+                    initFromUrl();
+                    fetchData();
+                    window.addEventListener('click', handleClickOutside);
+                    // Listen for URL state from parent
+                    window.addEventListener('message', (event) => {
+                        const allowedOrigins = [
+                            'https://ai.maryland.gov',
+                            'http://localhost:8000'
+                        ];
+                        if (!allowedOrigins.includes(event.origin)) return;
+                        
+                        if (event.data.type === 'legiassist-set-params') {
+                            const params = new URLSearchParams(event.data.params);
+                            
+                            // Update filters from params
+                            if (params.get('year')) selectedYear.value = parseInt(params.get('year'));
+                            if (params.get('agency')) {
+                                selectedAgency.value = params.get('agency');
+                                agencySearch.value = params.get('agency');
+                            }
+                            if (params.get('sponsor')) {
+                                selectedSponsor.value = params.get('sponsor');
+                                sponsorSearch.value = params.get('sponsor');
+                            }
+                            if (params.get('q')) searchQuery.value = params.get('q');
+                            if (params.get('relevance')) filterRating.value = params.get('relevance');
+                            if (params.get('sort')) sortBy.value = params.get('sort');
+                            
+                            const broad = params.getAll('broad');
+                            filterBroad.value = broad.length > 0 ? broad : [];
+                            
+                            const narrow = params.getAll('narrow');
+                            filterNarrow.value = narrow.length > 0 ? narrow : [];
+                            
+                            // Handle bill modal - if data already loaded, just open/close modal
+                            const billId = params.get('bill');
+                            if (allBills.value.length > 0) {
+                                // Data already loaded, just update modal state
+                                if (billId) {
+                                    const found = allBills.value.find(b => b.BillNumber === billId);
+                                    activeBill.value = found || null;
+                                } else {
+                                    activeBill.value = null;
+                                }
+                            } else {
+                                // Need to fetch data first
+                                fetchData().then(() => {
+                                    if (billId) {
+                                        const found = allBills.value.find(b => b.BillNumber === billId);
+                                        if (found) activeBill.value = found;
+                                    }
+                                });
+                            }
+                        }
+                    });
+
+                    window.addEventListener('popstate', (event) => {
+                        // Skip if embedded - let parent iframe wrapper handle via postMessage
+                        if (window.parent !== window) return;
+                        
+                        const params = new URLSearchParams(window.location.search);
+                        const billId = params.get('bill');
+                        if (billId) {
+                            const found = allBills.value.find(b => b.BillNumber === billId);
+                            activeBill.value = found || null;
+                        } else {
+                            activeBill.value = null;
+                        }
+                    });
+                });
+
+                onUnmounted(() => {
+                    window.removeEventListener('click', handleClickOutside);
                 });
 
                 return {
-                    loading,
-                    error,
-                    searchQuery,
-                    selectedYear,
-                    availableYears,
-                    filteredBills,
-                    selectedBill,
-                    openModal,
-                    closeModal,
-                    isTrue,
-                    formatMoney,
-                    formatYear,
-                    getMgalegUrl,
-                    fetchAndCopyMarkdown,
-                    copying,
-                    copySuccess,
-                    copyButtonText,
-                    // Chat exports
-                    isChatOpen,
-                    isTyping,
-                    chatMessages,
-                    currentChatMessage,
-                    toggleChat,
-                    sendMessage,
-                    chatContainer
+                    allBills, loading, selectedYear, landingYear, searchQuery, agencySearch, selectedAgency,
+                    showAgencyList, sponsorSearch, selectedSponsor, showSponsorList, filterBroad, filterNarrow, filterRating, activeBill, showAboutModal,
+                    showFilterDrawer, drawerReady, activeFilterCount, sortBy,
+                    filteredAgencies, uniqueSponsors, filteredSponsors, uniqueBroadSubjects, uniqueNarrowSubjects, filteredBills,
+                    broadSubjectSearch, narrowSubjectSearch, filteredBroadSubjects, filteredNarrowSubjects,
+                    selectAgency, selectSponsor, getRelevance, openBill, closeBill, formatCurrency,
+                    formatDate, formatTime, formatTimestamp, isNew, exportToExcel, fetchData, getNextAction, getTestimonyDeadline,
+                    modalTitle, trapFocus, trapFocusDrawer, clearAgency, clearSponsor, clearFilters, returnToLanding, agencyFilterContainer, sponsorFilterContainer,
+                    filterDrawer, focusFirstOption, announceToScreenReader,
+                    filtersHeading, mobileFiltersHeading,
+                    currentView, enterDashboard, handleFocusOut, scrollToFocusedItem
                 };
             }
         }).mount('#app');
