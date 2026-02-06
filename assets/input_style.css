@@ -192,3 +192,13 @@ article:focus-within {
     min-height: 44px;
     box-sizing: border-box;
 }
+
+/* Override for flag card without media */
+
+@media (min-width: 40em) {
+    .maryland-card--flag .maryland-card__header,
+    .maryland-card--flag .maryland-card__body,
+    .maryland-card--flag .maryland-card__footer {
+        margin-left: 0 !important;
+    }
+}

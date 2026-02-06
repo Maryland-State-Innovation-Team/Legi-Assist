@@ -1,6 +1,8 @@
 import os
 import sys
+import argparse
 import csv
+import json
 import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
@@ -8,6 +10,7 @@ from google import genai
 from google.genai import types
 import pandas as pd
 from tqdm import tqdm
+from pydantic import BaseModel, Field
 
 # Reconfigure stdout to always use utf-8 to prevent encoding errors
 sys.stdout.reconfigure(encoding='utf-8')
@@ -50,14 +53,18 @@ def scrape_agencies():
         print(f"Error scraping agencies: {e}")
         return []
 
+class AgencyMetadata(BaseModel):
+    summary: str = Field(description="A concise summary paragraph describing exactly what this agency does, its primary responsibilities, and the type of work it performs for Maryland residents.")
+    acronym: str = Field(description="The most common acronym by which the agency is described, if it is described by an acronym commonly. If not, this should be left blank.")
+    aliases: str = Field(description="Semi-colon separated list of aliases or former names for the agency or program if they have changed over time. If there are multiple aliases, semi-colon separate them.")
+
 def get_agency_summary(client, agency_name):
     """
-    Uses Gemini with Google Search grounding to summarize the agency.
+    Uses Gemini with Google Search grounding to summarize the agency and extract metadata.
     """
     prompt = f"""
     Search for the Maryland state agency named "{agency_name}". 
-    Write a concise summary paragraph describing exactly what this agency does, 
-    its primary responsibilities, and the type of work it performs for Maryland residents.
+    Provide a summary, acronym, and aliases for the agency.
     """
 
     # configure the tool
@@ -67,7 +74,8 @@ def get_agency_summary(client, agency_name):
     
     config = types.GenerateContentConfig(
         tools=[grounding_tool],
-        response_mime_type="text/plain"
+        response_mime_type="application/json",
+        response_schema=AgencyMetadata
     )
 
     try:
@@ -76,12 +84,24 @@ def get_agency_summary(client, agency_name):
             contents=prompt,
             config=config
         )
-        return response.text.strip()
+        # Parse the JSON response
+        try:
+            return json.loads(response.text)
+        except json.JSONDecodeError:
+            # Fallback if valid JSON isn't returned
+            print(f"Warning: Could not parse JSON for {agency_name}")
+            return {"summary": response.text.strip(), "acronym": "", "aliases": ""}
+            
     except Exception as e:
-        return f"Error generating summary: {e}"
+        print(f"Error generating summary for {agency_name}: {e}")
+        return {"summary": f"Error: {e}", "acronym": "", "aliases": ""}
 
 def main():
-    # 1. Check API Key
+    # 1. Setup Arguments & Check API Key
+    parser = argparse.ArgumentParser(description="Scrape and summarize Maryland agencies.")
+    parser.add_argument("--rerun", action="store_true", help="Rerun processing for agencies with missing acronyms/aliases.")
+    args = parser.parse_args()
+
     if not os.getenv("GEMINI_API_KEY"):
         print("Error: GEMINI_API_KEY not found in environment variables.")
         return
@@ -96,33 +116,32 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, "maryland_agencies.csv")
 
-    # 3. Load Existing Data (Idempotence)
-    processed_agencies = set()
-    file_exists = os.path.exists(output_file)
-    
-    if file_exists:
+    # 3. Load Existing Data
+    if os.path.exists(output_file):
         try:
-            # We read the CSV to see what we have already finished.
-            # We check for rows where 'Summary' is not empty/null.
             df = pd.read_csv(output_file)
-            if 'Agency Name' in df.columns and 'Summary' in df.columns:
-                # Normalize names for comparison (strip whitespace)
-                finished_df = df[df['Summary'].notna() & (df['Summary'] != "")]
-                processed_agencies = set(finished_df['Agency Name'].str.strip())
-            print(f"Loaded {len(processed_agencies)} existing records from {output_file}.")
+            # Ensure new columns exist if they don't
+            for col in ['Acronym', 'Alias']:
+                if col not in df.columns:
+                    df[col] = ""
+            print(f"Loaded {len(df)} existing records from {output_file}.")
         except Exception as e:
             print(f"Warning: Could not read existing CSV ({e}). Starting fresh.")
+            df = pd.DataFrame(columns=['Agency Name', 'URL', 'Summary', 'Acronym', 'Alias'])
+    else:
+        df = pd.DataFrame(columns=['Agency Name', 'URL', 'Summary', 'Acronym', 'Alias'])
+
+    # Fill NaN values to avoid issues
+    df = df.fillna("")
 
     # 4. Scrape & Merge
     scraped_agencies = scrape_agencies()
     all_candidates = scraped_agencies + SIDELOADED_AGENCIES
 
-    # 5. Filter Candidates
-    # We filter out agencies that are:
-    #   a) Already processed
-    #   b) 'County' or 'Baltimore City' (Noise filter)
-    agencies_to_process = []
+    # Create a set of existing names for fast lookup
+    existing_names = set(df['Agency Name'].str.strip())
     
+    new_rows = []
     for agency in all_candidates:
         name = agency['name'].strip()
         
@@ -130,51 +149,89 @@ def main():
         if "county" in name.lower() or "baltimore city" in name.lower():
             continue
             
-        # Idempotence Check
-        if name in processed_agencies:
-            continue
-            
-        agencies_to_process.append(agency)
+        # Add if not exists
+        if name not in existing_names:
+            new_rows.append({
+                'Agency Name': agency['name'], 
+                'URL': agency['url'], 
+                'Summary': "", 
+                'Acronym': "", 
+                'Alias': ""
+            })
+            existing_names.add(name) # Prevent duplicates within the scrape list itself if any
 
-    print(f"\n--- Processing {len(agencies_to_process)} New Agencies (Appending to {output_file}) ---\n")
+    if new_rows:
+        print(f"Adding {len(new_rows)} new agencies to the list...")
+        df = pd.concat([df, pd.DataFrame(new_rows)], ignore_index=True)
 
-    if not agencies_to_process:
-        print("No new agencies to process.")
-        return
+    # 5. Identify Rows to Process
+    to_process_indices = []
+    
+    for idx, row in df.iterrows():
+        summary = str(row['Summary']).strip()
+        acronym = str(row['Acronym']).strip()
+        alias = str(row['Alias']).strip()
+        
+        should_process = False
+        
+        # Always process if summary is missing
+        if not summary:
+            should_process = True
+        # If rerun is requested, check if we need to backfill metadata
+        elif args.rerun:
+             # Process if Acronym or Alias are empty (and we want to fill them)
+             # Note: Some agencies might genuinely not have them, but we'll retry.
+             if not acronym and not alias: 
+                 should_process = True
+        
+        if should_process:
+            to_process_indices.append(idx)
 
-    # 6. Initialize GenAI Client
-    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+    print(f"\n--- Processing {len(to_process_indices)} Agencies (Updating {output_file}) ---\n")
 
-    # 7. Process and Append
-    # We use mode='a' (append). We only write the header if the file didn't exist previously.
-    with open(output_file, mode='a', newline='', encoding='utf-8') as csvfile:
-        fieldnames = ['Agency Name', 'URL', 'Summary']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-
-        if not file_exists:
-            writer.writeheader()
+    if to_process_indices:
+        # 6. Initialize GenAI Client
+        client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
         count = 0
-        for agency in tqdm(agencies_to_process):
-            name = agency['name']
-            url = agency['url']
-
+        for idx in tqdm(to_process_indices):
+            name = df.at[idx, 'Agency Name']
+            
             # Using tqdm.write prevents the progress bar from breaking visually when printing
             tqdm.write(f"Processing: {name}...")
 
-            # Generate Summary
-            summary = get_agency_summary(client, name)
+            # Generate Summary and Metadata
+            metadata = get_agency_summary(client, name)
 
-            # Write to CSV immediately (lines are flushed to disk)
-            writer.writerow({
-                'Agency Name': name,
-                'URL': url,
-                'Summary': summary
-            })
+            # Update DataFrame
+            df.at[idx, 'Summary'] = metadata.get('summary', '')
+            df.at[idx, 'Acronym'] = metadata.get('acronym', '')
+            df.at[idx, 'Alias'] = metadata.get('aliases', '')
 
+            # Save incrementally (in case of crash)
+            df.to_csv(output_file, index=False)
             count += 1
 
-    print(f"Finished processing {count} new agencies.")
+        print(f"Finished processing {count} agencies.")
+    else:
+        print("No agencies need processing.")
+
+    # 8. Generate JSON Mirror
+    json_output_file = os.path.join(output_dir, "maryland_agencies.json")
+    try:
+        print(f"Updating JSON mirror at {json_output_file}...")
+        # Read clean DF from file or use current
+        df = pd.read_csv(output_file).fillna("")
+        
+        # Convert to dictionary keyed by Agency Name
+        # We use drop=False to keep the 'Agency Name' inside the value object too
+        json_data = df.set_index('Agency Name', drop=False).to_dict(orient='index')
+        
+        with open(json_output_file, 'w', encoding='utf-8') as f:
+            json.dump(json_data, f, indent=4, ensure_ascii=False)
+        print("JSON output generated successfully.")
+    except Exception as e:
+        print(f"Error generating JSON: {e}")
 
 if __name__ == "__main__":
     main()
