@@ -56,7 +56,7 @@
                                             <div class="maryland-hero__description">
                                                 <p>Discover the legislation that matters most to you</p>
                                                 
-                                                <div class="bg-white p-4 mt-4 max-w-md text-left">
+                                                <div class="bg-white p-4 max-w-md text-left">
                                                     <label class="usa-label text-xs font-bold uppercase tracking-wide text-gray-500" for="year-select">Select Legislative Session</label>
                                                     <select class="usa-select mt-2" name="year-select" id="year-select" v-model="selectedYear" @change="fetchData">
                                                         <option v-for="year in [2026, 2025, 2024, 2023]" :value="year">{{ year }} Regular Session</option>
