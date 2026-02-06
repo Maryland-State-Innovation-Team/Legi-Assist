@@ -799,33 +799,33 @@
                                 <dl class="bg-base-lightest border border-base-lighter p-4 sm:p-5 space-y-4">
                                     <div>
                                         <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Primary Sponsor</dt>
-                                        <dd class="font-sans-sm font-bold text-base-darker mt-1">{{ activeBill.SponsorPrimary }}</dd>
+                                        <dd class="font-sans-sm font-bold text-base-darker mt-1" style="line-height: 1.15rem;">{{ activeBill.SponsorPrimary }}</dd>
                                     </div>
                                     <div>
                                         <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Current Status</dt>
-                                        <dd class="font-sans-sm font-bold text-primary mt-1">{{ activeBill.Status }}</dd>
+                                        <dd class="font-sans-sm font-bold text-primary mt-1" style="line-height: 1.15rem;">{{ activeBill.Status }}</dd>
                                     </div>
 
                                     <div v-if="getNextAction(activeBill)?.label === 'Hearing' && getTestimonyDeadline(getNextAction(activeBill).date)">
                                         <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Testimony Deadline</dt>
-                                        <dd class="font-sans-sm font-bold text-red-800 mt-1">
+                                        <dd class="font-sans-sm font-bold text-red-800 mt-1" style="line-height: 1.15rem;">
                                             {{ formatDate(getTestimonyDeadline(getNextAction(activeBill).date)) }} @ 6:00 PM
                                         </dd>
                                     </div>
 
                                     <div v-if="activeBill.funding != null">
                                         <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Est. Funding Impact</dt>
-                                        <dd class="font-sans-sm font-bold text-accent-cool-darker mt-1">{{ formatCurrency(activeBill.funding) }}</dd>
+                                        <dd class="font-sans-sm font-bold text-accent-cool-darker mt-1" style="line-height: 1.15rem;">{{ formatCurrency(activeBill.funding) }}</dd>
                                     </div>
                                     
                                     <div v-if="(activeBill.first_seen || activeBill.last_updated) && selectedYear >= 2026" class="pt-4 mt-4 border-t border-base-light grid grid-cols-2 gap-4">
                                         <div v-if="activeBill.first_seen">
                                             <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">First Seen</dt>
-                                            <dd class="font-sans-sm font-medium text-base-darker mt-1" v-html="formatTimestamp(activeBill.first_seen)"></dd>
+                                            <dd class="font-sans-sm font-medium text-base-darker mt-1" v-html="formatTimestamp(activeBill.first_seen)" style="line-height: 1.15rem;"></dd>
                                         </div>
                                         <div v-if="activeBill.last_updated">
                                             <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Last Updated</dt>
-                                            <dd class="font-sans-sm font-medium text-base-darker mt-1" v-html="formatTimestamp(activeBill.last_updated)"></dd>
+                                            <dd class="font-sans-sm font-medium text-base-darker mt-1" v-html="formatTimestamp(activeBill.last_updated)" style="line-height: 1.15rem;"></dd>
                                         </div>
                                     </div>
                                 </dl>
