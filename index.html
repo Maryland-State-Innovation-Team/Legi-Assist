@@ -483,28 +483,26 @@
                                                 </h2>
                                             </div>
 
-                                            <div class="display-flex flex-wrap flex-align-center gap-1 margin-bottom-1">
-                                                <span v-if="getRelevance(bill)" class="usa-tag bg-primary-lighter text-primary-darker font-sans-2xs text-bold">
-                                                    Relevance: {{ getRelevance(bill).relevance_rating }}/5
-                                                </span>
-
-                                                <span v-if="isNew(bill.first_seen)" class="usa-tag bg-accent-cool text-white font-sans-2xs text-bold">New</span>
-                                            </div>
-
                                             <h3 class="maryland-card__heading font-sans-lg text-bold text-base-darker line-height-sans-3 margin-0">
                                                 {{ bill.Title }}
                                             </h3>
-                                        </div>
 
-                                        <div class="maryland-card__body padding-0 flex-1">
-                                            <div v-if="selectedYear === 2026 && getNextAction(bill)" class="margin-bottom-2">
-                                                <span class="inline-flex flex-align-center gap-1 bg-accent-warm-lighter text-base-darker padding-x-105 padding-y-05 radius-md font-sans-xs text-bold border border-accent-warm-light">
-                                                    <i class="ph ph-calendar-blank text-lg"></i>
+                                            <div class="display-flex flex-wrap flex-align-center gap-1 margin-top-3">
+                                                <span v-if="selectedYear === 2026 && getNextAction(bill)" class="inline-flex flex-align-center gap-1 bg-accent-warm-lighter text-base-darker padding-x-105 padding-y-05 radius-md font-sans-xs text-bold border border-accent-warm-light">
+                                                    <i class="ph ph-calendar-blank text-md"></i>
                                                     {{ getNextAction(bill).label }}: {{ formatDate(getNextAction(bill).date) }} 
                                                     <span v-if="getNextAction(bill).isTime" class="text-normal margin-left-05">{{ formatTime(getNextAction(bill).date) }}</span>
                                                 </span>
-                                            </div>
 
+                                                <span v-if="getRelevance(bill)" class="inline-flex flex-align-center bg-primary-lighter text-primary-darker padding-x-105 padding-y-05 radius-md font-sans-xs text-bold border border-primary-light">
+                                                    Relevance: {{ getRelevance(bill).relevance_rating }}/5
+                                                </span>
+
+                                                <span v-if="isNew(bill.first_seen)" class="inline-flex flex-align-center bg-accent-cool-lighter text-accent-cool-darker padding-x-105 padding-y-05 radius-md font-sans-xs text-bold border border-accent-cool-light">New</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="maryland-card__body padding-0 flex-1">
                                             <p class="font-sans-md text-base-dark line-clamp-3 margin-0">
                                                 {{ bill.bill_summary }}
                                             </p>
