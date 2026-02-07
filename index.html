@@ -82,7 +82,7 @@
                                                 <hr class="border-white" style="margin-top: 2rem; margin-bottom: 2rem;">
 
                                                 <div class="margin-top-2 display-flex flex-align-center gap-1 opacity-90">
-                                                    <span class="font-sans-xs text-base margin-right-1">Built by</span>
+                                                    <span class="font-sans-xs text-base-dark margin-right-1">Built by</span>
                                                     <img src="assets/innovation-website-logo-dark.png" alt="Maryland State Innovation Team" style="height: 2.5rem; width: auto;">
                                                 </div>
                                             </div>
@@ -190,7 +190,7 @@
                     </div>
 
                      <div class="margin-bottom-3">
-                         <label class="usa-label margin-top-0 font-sans-sm" for="session-select">Session</label>
+                         <label class="usa-label margin-top-0 font-sans-sm" for="year-select">Session</label>
                          <select class="usa-select mt-2 font-sans-sm" name="year-select" id="year-select" v-model="selectedYear" @change="fetchData">
                             <option v-for="year in [2026, 2025, 2024, 2023]" :value="year">{{ year }} Regular Session</option>
                         </select>
@@ -465,7 +465,7 @@
                      <div v-else class="grid-container padding-0 desktop:padding-x-4 width-full">
 
                         <div class="desktop:display-none padding-bottom-2 margin-bottom-2 border-bottom border-base-lighter text-center" role="status" aria-live="polite">
-                            <span class="font-sans-xs text-base text-italic">{{ filteredBills.length }} Results</span>
+                            <span class="font-sans-xs text-base-dark text-italic">{{ filteredBills.length }} Results</span>
                         </div>
 
                         <ul class="maryland-card-group">
@@ -798,39 +798,41 @@
                             </div>
 
                             <div class="space-y-6">
-                                <dl class="bg-base-lightest border border-base-lighter p-4 sm:p-5 space-y-4">
-                                    <div>
-                                        <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Primary Sponsor</dt>
-                                        <dd class="font-sans-sm font-bold text-base-darker mt-1" style="line-height: 1.15rem;">{{ activeBill.SponsorPrimary }}</dd>
-                                    </div>
-                                    <div>
-                                        <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Current Status</dt>
-                                        <dd class="font-sans-sm font-bold text-primary mt-1" style="line-height: 1.15rem;">{{ activeBill.Status }}</dd>
-                                    </div>
+                                <div class="bg-base-lightest border border-base-lighter p-4 sm:p-5 space-y-4">
+                                    <dl class="space-y-4">
+                                        <div>
+                                            <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Primary Sponsor</dt>
+                                            <dd class="font-sans-sm font-bold text-base-darker mt-1" style="line-height: 1.15rem;">{{ activeBill.SponsorPrimary }}</dd>
+                                        </div>
+                                        <div>
+                                            <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Current Status</dt>
+                                            <dd class="font-sans-sm font-bold text-primary mt-1" style="line-height: 1.15rem;">{{ activeBill.Status }}</dd>
+                                        </div>
 
-                                    <div v-if="getNextAction(activeBill)?.label === 'Hearing' && getTestimonyDeadline(getNextAction(activeBill).date)">
-                                        <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Testimony Deadline</dt>
-                                        <dd class="font-sans-sm font-bold text-red-800 mt-1" style="line-height: 1.15rem;">
-                                            {{ formatDate(getTestimonyDeadline(getNextAction(activeBill).date)) }} @ 6:00 PM
-                                        </dd>
-                                    </div>
+                                        <div v-if="getNextAction(activeBill)?.label === 'Hearing' && getTestimonyDeadline(getNextAction(activeBill).date)">
+                                            <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Testimony Deadline</dt>
+                                            <dd class="font-sans-sm font-bold text-red-800 mt-1" style="line-height: 1.15rem;">
+                                                {{ formatDate(getTestimonyDeadline(getNextAction(activeBill).date)) }} @ 6:00 PM
+                                            </dd>
+                                        </div>
 
-                                    <div v-if="activeBill.funding != null">
-                                        <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Est. Funding Impact</dt>
-                                        <dd class="font-sans-sm font-bold text-accent-cool-darker mt-1" style="line-height: 1.15rem;">{{ formatCurrency(activeBill.funding) }}</dd>
-                                    </div>
+                                        <div v-if="activeBill.funding != null">
+                                            <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Est. Funding Impact</dt>
+                                            <dd class="font-sans-sm font-bold text-accent-cool-darker mt-1" style="line-height: 1.15rem;">{{ formatCurrency(activeBill.funding) }}</dd>
+                                        </div>
+                                    </dl>
                                     
                                     <div v-if="(activeBill.first_seen || activeBill.last_updated) && selectedYear >= 2026" class="pt-4 mt-4 border-t border-base-light grid grid-cols-2 gap-4">
-                                        <div v-if="activeBill.first_seen">
+                                        <dl v-if="activeBill.first_seen">
                                             <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">First Seen</dt>
                                             <dd class="font-sans-sm font-medium text-base-darker mt-1" v-html="formatTimestamp(activeBill.first_seen)" style="line-height: 1.15rem;"></dd>
-                                        </div>
-                                        <div v-if="activeBill.last_updated">
+                                        </dl>
+                                        <dl v-if="activeBill.last_updated">
                                             <dt class="font-sans-3xs font-bold text-base-dark uppercase tracking-wide">Last Updated</dt>
                                             <dd class="font-sans-sm font-medium text-base-darker mt-1" v-html="formatTimestamp(activeBill.last_updated)" style="line-height: 1.15rem;"></dd>
-                                        </div>
+                                        </dl>
                                     </div>
-                                </dl>
+                                </div>
 
                                 <div>
                                     <h4 class="font-sans-3xs font-bold text-base-dark uppercase mb-2">Subjects</h4>
