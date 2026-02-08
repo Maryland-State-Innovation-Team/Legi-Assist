@@ -100,6 +100,8 @@ def query_llm_with_retries(client, prompt, value, response_format, model_name, m
                 print("Max retries reached. Returning None.")
                 return None
         except Exception as e:
+            if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
+                raise e
             # For Ollama or any other unexpected error
             print(f"Unexpected error: {e}")
             if attempt < max_retries - 1:

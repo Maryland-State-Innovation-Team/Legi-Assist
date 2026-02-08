@@ -148,48 +148,42 @@ def run_qa(session_year: int, bill_number: str, state_manager, client, model_nam
         state_manager.update_bill(bill_number, {"needs_qa": False})
         return
 
-    try:
-        # 1. General QA
-        response = query_llm_with_retries(
+    # 1. General QA
+    response = query_llm_with_retries(
+        client=client,
+        prompt=SYSTEM_PROMPT,
+        value=bill_md,
+        response_format=AnswersToQuestions,
+        model_name=model_name,
+        model_family=model_family
+    )
+    
+    qa_data = {}
+    if response:
+        qa_data = response
+    
+    # 2. Agency Relevance Analysis
+    agencies_csv = os.path.abspath('data/maryland_agencies.csv')
+    agencies_text = load_agencies(agencies_csv)
+    
+    if agencies_text:
+        agency_prompt = get_agency_prompt(agencies_text)
+        agency_response = query_llm_with_retries(
             client=client,
-            prompt=SYSTEM_PROMPT,
+            prompt=agency_prompt,
             value=bill_md,
-            response_format=AnswersToQuestions,
+            response_format=AgencyAnalysis,
             model_name=model_name,
-            max_retries=3,
             model_family=model_family
         )
         
-        qa_data = {}
-        if response:
-            qa_data = response
-        
-        # 2. Agency Relevance Analysis
-        agencies_csv = os.path.abspath('data/maryland_agencies.csv')
-        agencies_text = load_agencies(agencies_csv)
-        
-        if agencies_text:
-            agency_prompt = get_agency_prompt(agencies_text)
-            agency_response = query_llm_with_retries(
-                client=client,
-                prompt=agency_prompt,
-                value=bill_md,
-                response_format=AgencyAnalysis,
-                model_name=model_name,
-                max_retries=3,
-                model_family=model_family
-            )
-            
-            if agency_response:
-                # Store as a list of dicts
-                qa_data['agency_relevance'] = agency_response.get('relevant_agencies', [])
+        if agency_response:
+            # Store as a list of dicts
+            qa_data['agency_relevance'] = agency_response.get('relevant_agencies', [])
 
-        if qa_data:
-            state_manager.update_bill(bill_number, {
-                "qa_results": qa_data,
-                "needs_qa": False,
-                "qa_input_hash": current_hash
-            })
-            
-    except Exception as e:
-        print(f"QA Failed for {bill_number}: {e}")
+    if qa_data:
+        state_manager.update_bill(bill_number, {
+            "qa_results": qa_data,
+            "needs_qa": False,
+            "qa_input_hash": current_hash
+        })

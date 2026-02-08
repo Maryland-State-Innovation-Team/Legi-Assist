@@ -65,23 +65,19 @@ def apply_amendments(session_year: int, bill_number: str, state_manager, client,
         
         value = USER_TEMPLATE.format(current_bill_md, amd_md)
         
-        try:
-            # Using Gemini via llm_utils
-            response_text = query_llm_with_retries(
-                client=client,
-                prompt=SYSTEM_PROMPT,
-                value=value,
-                response_format=None,
-                model_name=model_name,
-                model_family=model_family
-            )
-            
-            if response_text:
-                current_bill_md = response_text
-            else:
-                raise Exception("LLM returned None")
-
-        except Exception as e:
+        # Using Gemini via llm_utils
+        response_text = query_llm_with_retries(
+            client=client,
+            prompt=SYSTEM_PROMPT,
+            value=value,
+            response_format=None,
+            model_name=model_name,
+            model_family=model_family
+        )
+        
+        if response_text:
+            current_bill_md = response_text
+        else:
             print(f"Error applying amendment {amd_file}: {e}")
             state_manager.update_bill(bill_number, {"amended_status": "failed"})
             return
