@@ -57,7 +57,7 @@ except Exception as e:
 
 # Test evaluators with sample text
 print("\nTesting evaluators with sample text...")
-from evaluate_plain_language import PlainLanguageEvaluator, AccuracyEvaluator
+from evaluation.evaluators import PlainLanguageEvaluator, AccuracyEvaluator
 
 sample_text = """This bill authorizes the Department of Health to establish a new grant program.
 The program provides funding to local health departments for mental health services.

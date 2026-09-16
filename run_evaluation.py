@@ -15,7 +15,7 @@ from openai import OpenAI
 import ollama
 import pandas as pd
 
-from evaluate_plain_language import (
+from evaluation.evaluators import (
     PlainLanguageEvaluator,
     AccuracyEvaluator,
     PlainLanguageScore,
