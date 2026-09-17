@@ -105,7 +105,7 @@ def evaluate_session(session_years: List[int], llm_client, model_name: str,
 
             # Get both human and AI summaries
             human_synopsis = bill.get('Synopsis', '')  # Official synopsis
-            ai_summary = bill.get('summary', '')  # AI-generated summary from QA stage
+            ai_summary = bill.get('bill_summary', '')  # AI-generated summary from QA stage (field name is bill_summary, not summary)
 
             # Load bill text for context
             bill_text = load_bill_markdown(year, bill_number)

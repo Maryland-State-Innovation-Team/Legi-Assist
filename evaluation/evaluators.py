@@ -436,7 +436,7 @@ Evaluate on three dimensions (rate each 1-5):
    - 3 = Mostly accurate with minor issues
    - 5 = Completely accurate interpretation
 
-Return a JSON object with:
+Return ONLY a valid JSON object, with no markdown formatting or additional text:
 {
   "groundedness": <1-5>,
   "groundedness_reason": "<brief explanation>",
@@ -444,7 +444,9 @@ Return a JSON object with:
   "relevance_reason": "<brief explanation>",
   "interpretation": <1-5>,
   "interpretation_reason": "<brief explanation>"
-}"""
+}
+
+Do not wrap the JSON in markdown code blocks. Do not add any text before or after the JSON."""
 
         context = f"""SUMMARY TO EVALUATE:
 {summary}
@@ -468,8 +470,13 @@ BILL TEXT (first 3000 chars):
                 model_family=self.model_family
             )
 
-            # Parse JSON response
-            result = json.loads(response)
+            # Parse JSON response (strip markdown if present)
+            response_text = response.strip()
+            if response_text.startswith('```'):
+                # Extract JSON from markdown code block
+                lines = response_text.split('\n')
+                response_text = '\n'.join(lines[1:-1]) if len(lines) > 2 else response_text
+            result = json.loads(response_text)
 
             return AccuracyScore(
                 bill_number=bill_number,
