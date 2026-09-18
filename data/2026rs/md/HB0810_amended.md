@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 810
 
@@ -142,4 +141,3 @@ HOUSE BILL 810 3
 29 ~~the~~ ~~end~~ ~~of~~ ~~June~~ ~~30,~~ ~~2029,~~ ~~this~~ ~~Act,~~ ~~with~~ ~~no~~ ~~further~~ ~~action~~ ~~required~~ ~~by~~ ~~the~~ ~~General~~ ~~Assembly,~~
 30 ~~shall~~ ~~be~~ ~~abrogated~~ ~~and~~ ~~of~~ ~~no~~ ~~further~~ ~~force~~ ~~and~~ ~~effect.~~
 END OF PAGE 3
-</bill>

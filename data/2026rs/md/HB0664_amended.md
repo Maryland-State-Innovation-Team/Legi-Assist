@@ -9,7 +9,7 @@ AN ACT concerning
 
 Cecil County – Alcoholic Beverages – Alteration of License Quota
 
-for the purpose of altering the quota on the number of alcoholic beverages licenses that
+FOR the purpose of altering the quota on the number of alcoholic beverages licenses that
 the Board of License Commissioners for Cecil County may issue to apply only to
 Class A licenses based on a certain ratio; and generally relating to alcoholic
 beverages in Cecil County.
@@ -37,11 +37,11 @@ This title applies only in Cecil County.
 
 17–1601.
 
-(a) (1) EXCEPT AS PROVIDED IN PARAGRAPH (2) OF THIS SUBSECTION AND
-SUBJECT TO PARAGRAPH (3) of this subsection, the Board may not issue a number of
-CLASS A licenses that, in the aggregate, exceeds 1 for every [400] 2,000 registered
-voters or major fraction in the county, as determined by the current registration of
-voters.
+(a) (1) EXCEPT AS PROVIDED IN PARAGRAPH (2)
+OF THIS SUBSECTION AND SUBJECT TO PARAGRAPH (3) of this subsection, the Board
+may not issue a number of CLASS A licenses that, in the aggregate, exceeds 1 for every
+[400] 2,000 registered voters or major fraction in the county, as determined by the
+current registration of voters.
 
 (2) THE BOARD MAY ISSUE NOT FEWER THAN 2 CLASS A LICENSES IN
 EACH ELECTION DISTRICT OF THE COUNTY.
@@ -55,7 +55,7 @@ Ch. 825 2026 LAWS OF MARYLAND
 (3) [A Class BLX beer, wine, and liquor restaurant license, Class C
 club license, motel–restaurant complex license, hotel–restaurant complex license, or Class
 GC (golf course) beer, wine, and liquor (on–sale) license] NO OTHER CLASS OF LICENSE
-may be counted in the computation of the aggregate number of licenses.
+may [not] be counted in the computation of the aggregate number of licenses.
 
 (b) The quota shall be computed and applied separately for each election district
 of the county.

@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1194
 
@@ -21,8 +20,8 @@ CHAPTER ______
 3 Exemption From Earnings Offset
 
 4 FOR the purpose of exempting a retiree of the Correctional Officers’ Retirement System
-5 from a certain earnings offset if the retiree is reemployed with certain participating
-6 employers; and generally relating to the reemployment of retirees of the
+5 from a certain earnings offset if the retiree is reemployed with ~~a~~ certain participating
+6 ~~employer~~ employers; and generally relating to the reemployment of retirees of the
 7 Correctional Officers’ Retirement System.
 
 8 BY repealing and reenacting, with amendments,
@@ -112,7 +111,7 @@ HOUSE BILL 1194 3
 5 reemployed on a contractual basis for not more than 4 years by the Division of Corrections,
 6 the Division of Pretrial Detention and Services, or the Patuxent Institution in the
 7 Department of Public Safety and Correctional Services as a correctional officer in a
-8 correctional facility defined in § 1–101 of the Correctional Services Article;
+8 correctional facility defined in § 1–101 of the Correctional Services Article; ~~or~~
 
 9 (v) a retiree of the Correctional Officers’ Retirement System who is
 10 reemployed on a contractual basis for not more than 4 years as a parole and probation
@@ -122,26 +121,31 @@ HOUSE BILL 1194 3
 13 (VI) A RETIREE OF THE CORRECTIONAL OFFICERS’
 14 RETIREMENT SYSTEM WHO IS EMPLOYED AS A BAILIFF IN A STATE COURT.
 
-15 (c) An individual who is receiving a service retirement allowance or a vested
-16 allowance and who is reemployed by a participating employer may not receive creditable
-17 service or eligibility service during the period of reemployment.
+15 ~~(B) AN INDIVIDUAL WHO IS RECEIVING A SERVICE RETIREMENT~~
+16 ~~ALLOWANCE OR A VESTED ALLOWANCE AND WHO ACCEPTS EMPLOYMENT WITH A~~
+17 ~~PARTICIPATING EMPLOYER ON A PERMANENT, TEMPORARY, OR CONTRACTUAL~~
+18 ~~BASIS IS NOT SUBJECT TO A REDUCTION TO THE INDIVIDUAL’S ALLOWANCE.~~
 
-18 (d) The individual’s compensation during the period of reemployment may not be
-19 subject to the employer pickup provisions of § 21–303 of this article or any reduction or
-20 deduction as a member contribution for pension or retirement purposes.
+19 (c) An individual who is receiving a service retirement allowance or a vested
+20 allowance and who is reemployed by a participating employer may not receive creditable
+21 service or eligibility service during the period of reemployment.
 
-21 (e) The State Retirement Agency shall institute appropriate reporting procedures
-22 with the affected payroll systems to ensure compliance with this section.
+22 (d) The individual’s compensation during the period of reemployment may not be
+23 subject to the employer pickup provisions of § 21–303 of this article or any reduction or
+24 deduction as a member contribution for pension or retirement purposes.
 
-23 (f) (1) Immediately on the employment of any individual receiving a service
-24 retirement allowance or a vested allowance, a participating employer shall notify the State
-25 Retirement Agency of the type of employment and the anticipated earnings of the
-26 individual.
+25 (e) The State Retirement Agency shall institute appropriate reporting procedures
+26 with the affected payroll systems to ensure compliance with this section.
 
-27 (2) At least once each year, in a format specified by the State Retirement
-28 Agency, each participating employer shall provide the State Retirement Agency with a list
-29 of all employees included on any payroll of the employer, the Social Security numbers of
-30 the employees, and their earnings for that year.
+27 (f) (1) Immediately on the employment of any individual receiving a service
+28 retirement allowance or a vested allowance, a participating employer shall notify the State
+29 Retirement Agency of the type of employment and the anticipated earnings of the
+30 individual.
+
+31 (2) At least once each year, in a format specified by the State Retirement
+32 Agency, each participating employer shall provide the State Retirement Agency with a list
+33 of all employees included on any payroll of the employer, the Social Security numbers of
+34 the employees, and their earnings for that year.
 END OF PAGE 3
 
 START OF PAGE 4
@@ -166,7 +170,7 @@ START OF PAGE 4
 13 (i) The Division of Corrections, the Division of Pretrial Detention and Services,
 14 or the Patuxent Institution in the Department of Public Safety and Correctional Services
 15 shall notify the State Retirement Agency of any retirees who qualify under subsection
-16 (b)(3)(iv) AND (VI) of this section.
+16 (b)(3)(iv) of this section.
 
 17 (j) On or before September 1 of each year, the Commissioner of Corrections, the
 18 Commissioner of Pretrial Detention and Services, and the Director of the Patuxent
@@ -187,4 +191,3 @@ START OF PAGE 4
 28 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
 29 1, 2026.
 END OF PAGE 4
-</bill>

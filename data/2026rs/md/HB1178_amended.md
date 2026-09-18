@@ -27,23 +27,19 @@ CHAPTER ______
 
 2 Municipalities – Annexation – Limitations
 
-3 requiring a municipality that is seeking to
+3 FOR the purpose of ~~prohibiting~~ requiring a municipality ~~from~~ ~~annexing~~ that is seeking to
 4 annex land that is located in a different legislative district than a legislative district
-5 in which the municipality is located to notify certain members of the General
-6 Assembly in a certain manner; and generally relating to
-7 municipal annexation.
+5 in which the municipality is located ~~without~~ ~~first~~ ~~obtaining~~ ~~the~~ ~~consent~~ ~~of~~ ~~notifying~~
+6 to notify certain members of the General Assembly in a certain manner; ~~prohibiting~~
+7 ~~a~~ ~~municipality~~ ~~from~~ ~~annexing~~ ~~land~~ ~~that~~ ~~is~~ ~~owned~~ ~~by~~ ~~the~~ ~~United~~ ~~States,~~ ~~the~~ ~~State,~~ ~~a~~
+8 ~~political~~ ~~subdivision~~ ~~of~~ ~~the~~ ~~State,~~ ~~or~~ ~~a~~ ~~unit~~ ~~of~~ ~~the~~ ~~State~~ ~~or~~ ~~a~~ ~~political~~ ~~subdivision~~ ~~of~~
+9 ~~the~~ ~~State,~~ ~~or~~ ~~a~~ ~~certain~~ ~~tax–exempt~~ ~~entity,~~ ~~unless~~ ~~the~~ ~~municipality~~ ~~first~~ ~~obtains~~ ~~the~~
+10 ~~consent~~ ~~of~~ ~~the~~ ~~governmental~~ ~~entity~~ ~~or~~ ~~tax–exempt~~ ~~entity;~~ and generally relating to
+11 municipal annexation.
 
-8 BY repealing and reenacting, without amendments,
-9 Article – Local Government
-10 Section 4–406(a)
-11 Annotated Code of Maryland
-12 (2013 Volume and 2025 Supplement)
-
-13 BY adding to
-14 Article – Local Government
-15 Section 4–406(g)
-16 Annotated Code of Maryland
-17 (2013 Volume and 2025 Supplement)
+12 ~~BY~~ ~~repealing~~ ~~and~~ ~~reenacting,~~ ~~with~~ ~~amendments,~~
+13 ~~Article~~ ~~–~~ ~~Local~~ ~~Government~~
+14 ~~Section~~ ~~4–401~~
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
@@ -56,39 +52,99 @@ END OF PAGE 1
 START OF PAGE 2
 2 HOUSE BILL 1178
 
-1 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
-2 That the Laws of Maryland read as follows:
+1 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+2 ~~(2013~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
-3 Article – Local Government
+3 BY repealing and reenacting, without amendments,
+4 Article – Local Government
+5 Section 4–406(a)
+6 Annotated Code of Maryland
+7 (2013 Volume and 2025 Supplement)
 
-4 4–406.
+8 BY adding to
+9 Article – Local Government
+10 Section 4–406(g)
+11 Annotated Code of Maryland
+12 (2013 Volume and 2025 Supplement)
 
-5 (a) After an annexation resolution is introduced, the chief executive and
-6 administrative officer of the municipality shall publish notice in accordance with the
-7 requirements of this section that:
+13 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
+14 That the Laws of Maryland read as follows:
 
-8 (1) briefly and accurately describes the proposed annexation and the
-9 applicable conditions and circumstances; and
+15 Article – Local Government
 
-10 (2) specifies the date, time, and place that the legislative body sets for the
-11 public hearing on the proposed annexation.
+16 ~~4–401.~~
 
-12 (G) IF A MUNICIPALITY IS SEEKING TO ANNEX LAND THAT IS LOCATED IN A
-13 DIFFERENT LEGISLATIVE DISTRICT THAN THE LEGISLATIVE DISTRICT IN WHICH THE
-14 MUNICIPALITY OR ANY PART OF THE MUNICIPALITY IS LOCATED, AFTER THE
-15 ANNEXATION RESOLUTION IS INTRODUCED, THE MUNICIPALITY SHALL PROVIDE
-16 WRITTEN NOTICE TO THE MEMBERS OF THE GENERAL ASSEMBLY FOR THE
-17 DISTRICT IN WHICH THE LAND IS LOCATED AND FOR THE DISTRICT TO WHICH THE
-18 LAND IS BEING ANNEXED BY:
+17 ~~(a)~~ ~~Subject~~ ~~to~~ ~~subsections~~ ~~(b)~~ ~~and~~ ~~(c)~~ ~~of~~ ~~this~~ ~~section,~~ ~~the~~ ~~legislative~~ ~~body~~ ~~of~~ ~~a~~
+18 ~~municipality~~ ~~may~~ ~~enlarge~~ ~~its~~ ~~boundaries~~ ~~by~~ ~~annexation~~ ~~as~~ ~~provided~~ ~~in~~ ~~this~~ ~~subtitle.~~
 
-19 (1) ELECTRONIC COMMUNICATION; AND
+19 ~~(b)~~ ~~The~~ ~~power~~ ~~of~~ ~~annexation~~ ~~applies~~ ~~only~~ ~~to~~ ~~land~~ ~~that:~~
 
-20 (2) UNITED STATES POSTAL SERVICE.
+20 ~~(1)~~ ~~is~~ ~~contiguous~~ ~~and~~ ~~adjoining~~ ~~to~~ ~~the~~ ~~existing~~ ~~boundaries~~ ~~of~~ ~~the~~
+21 ~~municipality;~~ ~~and~~
 
-21 SECTION 2. AND BE IT FURTHER ENACTED, That this Act is an emergency
-22 measure, is necessary for the immediate preservation of the public health or safety, has
-23 been passed by a yea and nay vote supported by three–fifths of all the members elected to
-24 each of the two Houses of the General Assembly, and shall take effect from the date it is
-25 enacted.
+22 ~~(2)~~ ~~does~~ ~~not~~ ~~create~~ ~~an~~ ~~unincorporated~~ ~~area~~ ~~that~~ ~~is~~ ~~bounded~~ ~~on~~ ~~all~~ ~~sides~~ ~~by:~~
+
+23 ~~(i)~~ ~~real~~ ~~property~~ ~~presently~~ ~~in~~ ~~the~~ ~~boundaries~~ ~~of~~ ~~the~~ ~~municipality;~~
+
+24 ~~(ii)~~ ~~real~~ ~~property~~ ~~proposed~~ ~~to~~ ~~be~~ ~~in~~ ~~the~~ ~~boundaries~~ ~~of~~ ~~the~~ ~~municipality~~
+25 ~~as~~ ~~a~~ ~~result~~ ~~of~~ ~~the~~ ~~proposed~~ ~~annexation;~~ ~~or~~
+
+26 ~~(iii)~~ ~~any~~ ~~combination~~ ~~of~~ ~~real~~ ~~property~~ ~~described~~ ~~in~~ ~~item~~ ~~(i)~~ ~~or~~ ~~(ii)~~ ~~of~~
+27 ~~this~~ ~~item.~~
+
+28 (c) A municipality may not annex land that is:
+
+29 (1) in another municipality; OR
+
+30 (2) LOCATED IN A DIFFERENT LEGISLATIVE DISTRICT THAN A
+31 LEGISLATIVE DISTRICT IN WHICH THE MUNICIPALITY OR ANY PART OF THE
 END OF PAGE 2
+
+START OF PAGE 3
+HOUSE BILL 1178 3
+
+1 MUNICIPALITY IS LOCATED WITHOUT FIRST OBTAINING THE CONSENT OF
+2 NOTIFYING THE MEMBERS OF THE DELEGATION TO THE GENERAL ASSEMBLY FOR
+3 THE DISTRICT IN WHICH THE LAND IS LOCATED IN ACCORDANCE WITH SUBSECTION
+4 (D) OF THIS SECTION;
+
+5 (3) OWNED BY THE UNITED STATES, THE STATE, A POLITICAL
+6 SUBDIVISION OF THE STATE, OR A UNIT OF THE STATE OR A POLITICAL SUBDIVISION
+7 OF THE STATE, WITHOUT FIRST OBTAINING THE CONSENT OF THE GOVERNMENTAL
+8 ENTITY THAT OWNS THE LAND; OR
+
+9 (4) OWNED BY AN ENTITY THAT IS EXEMPT FROM FEDERAL INCOME
+10 TAXES UNDER § 501 OF THE INTERNAL REVENUE CODE WITHOUT FIRST OBTAINING
+11 THE CONSENT OF THE ENTITY.
+
+12 4–406.
+
+13 (a) After an annexation resolution is introduced, the chief executive and
+14 administrative officer of the municipality shall publish notice in accordance with the
+15 requirements of this section that:
+
+16 (1) briefly and accurately describes the proposed annexation and the
+17 applicable conditions and circumstances; and
+
+18 (2) specifies the date, time, and place that the legislative body sets for the
+19 public hearing on the proposed annexation.
+
+20 ~~(D)~~ (G) ~~AFTER~~ ~~AN~~ IF A MUNICIPALITY IS SEEKING TO ANNEX LAND THAT
+21 IS LOCATED IN A DIFFERENT LEGISLATIVE DISTRICT THAN THE LEGISLATIVE
+22 DISTRICT IN WHICH THE MUNICIPALITY OR ANY PART OF THE MUNICIPALITY IS
+23 LOCATED, AFTER THE ANNEXATION RESOLUTION IS INTRODUCED, THE
+24 MUNICIPALITY SHALL PROVIDE WRITTEN NOTICE TO THE MEMBERS OF THE
+25 GENERAL ASSEMBLY FOR THE DISTRICT IN WHICH THE LAND IS LOCATED AND FOR
+26 THE DISTRICT TO WHICH THE LAND IS BEING ANNEXED BY:
+
+27 (1) ELECTRONIC COMMUNICATION; AND
+
+28 (2) UNITED STATES POSTAL SERVICE.
+
+29 SECTION 2. AND BE IT FURTHER ENACTED, That this Act is an emergency
+30 measure, is necessary for the immediate preservation of the public health or safety, has
+31 been passed by a yea and nay vote supported by three–fifths of all the members elected to
+32 each of the two Houses of the General Assembly, and shall take effect from the date it is
+33 enacted.
+END OF PAGE 3
 </bill>

@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 845
 
@@ -29,7 +28,7 @@ CHAPTER ______
 3 Financial Assistance – ~~Delmar~~ ~~High~~ ~~School~~ ~~Graduates~~ Alterations to
 4 Scholarship Programs
 
-5 FOR the privilege of altering the eligibility for the Community College Promise Scholarship
+5 FOR the purpose of altering the eligibility for the Community College Promise Scholarship
 6 to include residents of Delmar, Maryland who graduated from Delmar High School
 7 in Delmar, Delaware; authorizing an institution of postsecondary education to award
 8 a scholarship under the Fallen Transportation Workers Scholarship Program to
@@ -209,8 +208,8 @@ HOUSE BILL 845 5
 9 TRANSPORTATION WORKER; AND
 
 10 (III) WAS RECEIVING AND RELIED ON, IN WHOLE OR IN PART, THE
-11 REASONABLE NECESSITIES OF LIFE FROM THE SURVIVING
-12 TRANSPORTATION WORKER.
+11 REASONABLE NECESSITIES OF LIFE FROM THE SURVIVING TRANSPORTATION
+12 WORKER.
 
 13 18–4002.
 
@@ -335,4 +334,3 @@ HOUSE BILL 845 7
 24 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
 25 1, 2026.
 END OF PAGE 7
-</bill>

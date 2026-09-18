@@ -51,6 +51,49 @@ END OF PAGE 1
 START OF PAGE 2
 2 HOUSE BILL 168
 
+1 services to a priority funding area under the Neighborhood and Community
+2 Assistance Program; and generally relating to affordable housing.
+
+3 BY repealing and reenacting, with amendments,
+4 Article – Education
+5 Section 4–115
+6 Annotated Code of Maryland
+7 (2025 Replacement Volume and 2025 Supplement)
+
+8 ~~BY~~ ~~adding~~ ~~to~~
+9 ~~Article~~ ~~–~~ ~~Housing~~ ~~and~~ ~~Community~~ ~~Development~~
+10 ~~Section~~ ~~1–103~~
+11 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+12 ~~(2019~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
+
+13 BY repealing and reenacting, with amendments,
+14 Article – Housing and Community Development
+15 Section 1–101, 4–512, 4–3001 through 4–3004, and 6–405
+16 Annotated Code of Maryland
+17 (2019 Replacement Volume and 2025 Supplement)
+
+18 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
+19 That the Laws of Maryland read as follows:
+
+20 Article – Education
+
+21 4–115.
+
+22 (a) (1) In this subtitle, “county council” means, in Baltimore City, the Mayor and City
+23 Council of Baltimore.
+
+24 (2) FOR PURPOSES OF THIS SUBTITLE, A COUNTY BOARD MAY
+25 CONSIDER THE PROVISION OF EDUCATOR WORKFORCE HOUSING, AS DEFINED IN §
+26 1–101 OF THE HOUSING AND COMMUNITY DEVELOPMENT ARTICLE, AS A SCHOOL
+27 PURPOSE.
+
+28 (b) With the approval of the State Superintendent, or the State Superintendent’s
+29 designee, each county board may:
+END OF PAGE 2
+
+START OF PAGE 3
+HOUSE BILL 168 3
+
 1 (1) Buy or otherwise acquire land, school sites, or buildings; and
 
 2 (2) Rent, repair, improve, and build school buildings or approve contracts
@@ -98,14 +141,14 @@ START OF PAGE 2
 35 the Baltimore County Office of Planning and Zoning of any schools it is considering for
 36 closure and request from that Office a written recommendation on the proposed action. If
 37 the Office of Planning and Zoning wishes to make a recommendation, it must be submitted
-END OF PAGE 2
+END OF PAGE 3
 
-START OF PAGE 3
-HOUSE BILL 168 3
+START OF PAGE 4
+4 HOUSE BILL 168
 
 1 to the board no later than November 1 of the calendar year preceding the proposed closure.
 2 The board of education shall consider these recommendations at least 3 months before
-3 taking final action. These provisions may be abolished by mutual agreement.
+3 taking final action. These provisions may be waived by mutual agreement.
 
 4 (e) (1) In Baltimore City, the Board of School Commissioners shall notify the
 5 Baltimore City Department of Planning of any school buildings the board is considering for
@@ -122,86 +165,33 @@ HOUSE BILL 168 3
 13 (4) The requirements of this subsection may be waived by mutual
 14 agreement between the board and the Baltimore City Department of Planning.
 
-15 Article – Education
+15 Article – Housing and Community Development
 
-16 4–115.
+16 1–101.
 
-17 (a) (1) In this subtitle, “county council” means, in Baltimore City, the Mayor and City
-18 Council of Baltimore.
+17 (a) In this Division I of this article the following words have the meanings
+18 indicated.
 
-19 (2) FOR PURPOSES OF THIS SUBTITLE, A COUNTY BOARD MAY
-20 CONSIDER THE PROVISION OF EDUCATOR WORKFORCE HOUSING, AS DEFINED IN
-21 § 1–101 OF THE HOUSING AND COMMUNITY DEVELOPMENT ARTICLE, AS A
-22 SCHOOL PURPOSE.
+19 (b) (1) “Community assistance” means activities designed to enhance the
+20 physical, social, or economic environment of a community to improve the health, safety, or
+21 socio–economic welfare of its citizens.
 
-23 (b) With the approval of the State Superintendent, or the State Superintendent’s
-24 designee, each county board may:
+22 (2) “Community assistance” includes the promotion of activities specified
+23 in paragraph (1) of this subsection through the concentration and coordination in
+24 communities in the State of federal, State, regional, and local public and private resources.
 
-25 (1) Buy or otherwise acquire land, school sites, or buildings; and
+25 (c) “County” means a county of the State or Baltimore City.
 
-26 (2) Rent, repair, improve, and build school buildings or approve contracts
-27 for doing so, if the plans conform to the bylaws, rules, and regulations of the State Board.
+26 (d) “Department” means the Department of Housing and Community
+27 Development.
 
-28 (c) (1) (i) Except as provided in this subsection, if, with the approval of the
-29 State Superintendent, or the State Superintendent’s designee, a county board finds that
-30 any land, school site, or building no longer is needed for school purposes, it shall inform the
-31 county commissioners or county council of the county board’s determination under this
-32 subparagraph.
-END OF PAGE 3
+28 (e) “EDUCATOR WORKFORCE HOUSING” MEANS ANY HOUSING THAT IS:
 
-START OF PAGE 4
-4 HOUSE BILL 168
+29 (1) RENTED OR SOLD AS AFFORDABLE, LOW– OR MODERATE–INCOME
+30 HOUSING; AND
 
-1 (ii) When the county commissioners or county council receives notice
-2 under subparagraph (i) of this paragraph, the county commissioners or county council shall
-3 notify the county board within 30 days after receiving the notice from the county board:
-
-4 1. Of the need to transfer the land, school site, or building to
-5 the county commissioners or county council if the land, school site, or building is an integral
-6 component of an existing economic development plan that will, in the judgment of the
-7 county commissioners or county council, significantly benefit the county; or
-
-8 2. That the county commissioners or county council has no
-9 existing plans for the use of the land, school site, or building.
-
-10 (iii) 1. If the county commissioners or county council provides the
-11 required notice to the county board under subparagraph (ii)1 of this paragraph or a public
-12 charter school does not need the school site or building under § 9–111 of this article, the
-13 land, school site, or building shall be transferred by the county board to the county
-14 commissioners or county council and may be used, sold, leased, or otherwise disposed of,
-15 except by gift, by the county commissioners or county council.
-
-16 2. If the county commissioners or county council provides the
-17 required notice to the county board under subparagraph (ii)2 of this paragraph, the county
-18 board shall comply with the provisions of § 9–111 of this article.
-
-19 Article – Housing and Community Development
-
-20 1–101.
-
-21 (a) In this Division I of this article the following words have the meanings
-22 indicated.
-
-23 (b) (1) “Community assistance” means activities designed to enhance the
-24 physical, social, or economic environment of a community to improve the health, safety, or
-25 socio–economic welfare of its citizens.
-
-26 (2) “Community assistance” includes the promotion of activities specified
-27 in paragraph (1) of this subsection through the concentration and coordination in
-28 communities in the State of federal, State, regional, and local public and private resources.
-
-29 (c) “County” means a county of the State or Baltimore City.
-
-30 (d) “Department” means the Department of Housing and Community
-31 Development.
-
-32 (e) “EDUCATOR WORKFORCE HOUSING” MEANS ANY HOUSING THAT IS:
-
-33 (1) RENTED OR SOLD AS AFFORDABLE, LOW– OR MODERATE–INCOME
-34 HOUSING; AND
-
-35 (2) RESERVED FOR TEACHERS OR OTHER EMPLOYEES OF A LOCAL
-36 SCHOOL SYSTEM WHO ARE NOT ADMINISTRATORS RESPONSIBLE FOR THE
+31 (2) RESERVED FOR TEACHERS OR OTHER EMPLOYEES OF A LOCAL
+32 SCHOOL SYSTEM WHO ARE NOT ADMINISTRATORS RESPONSIBLE FOR THE
 END OF PAGE 4
 
 START OF PAGE 5
@@ -587,37 +577,4 @@ START OF PAGE 12
 20 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
 21 1, 2026.
 END OF PAGE 12
-</bill> Maryland enacted House Bill 168.
-The corrected lines of the bill with the amendments applied are as follows:
-
-In the bill's **START OF PAGE 1**:
-The lines 4-5 reflect the purpose paragraph amendment.
-
-In the bill's **START OF PAGE 3**:
-Lines 15-22 reflect the amendments to Article – Education § 4–115:
-```markdown
-15 Article – Education
-
-16 4–115.
-
-17 (a) (1) In this subtitle, “county council” means, in Baltimore City, the Mayor and City
-18 Council of Baltimore.
-
-19 (2) FOR PURPOSES OF THIS SUBTITLE, A COUNTY BOARD MAY
-20 CONSIDER THE PROVISION OF EDUCATOR WORKFORCE HOUSING, AS DEFINED IN
-21 § 1–101 OF THE HOUSING AND COMMUNITY DEVELOPMENT ARTICLE, AS A
-22 SCHOOL PURPOSE.
-```
-
-In the bill's **START OF PAGE 4**:
-Line 36 and the continuation on **START OF PAGE 5** lines 1-2 reflect the amendment to Article – Housing and Community Development § 1–101:
-```markdown
-35 (2) RESERVED FOR TEACHERS OR OTHER EMPLOYEES OF A LOCAL
-36 SCHOOL SYSTEM WHO ARE NOT ADMINISTRATORS RESPONSIBLE FOR THE
-```
-```markdown
-1 STRATEGIC DIRECTION AND DAILY OPERATIONS OF THE LOCAL SCHOOL SYSTEM OR
-2 A PUBLIC SCHOOL.
-```
-
-The rest of the bill remains as provided in the Enrolled Bill markdown.
+</bill>

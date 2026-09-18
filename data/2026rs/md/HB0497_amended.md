@@ -1,12 +1,10 @@
-<bill>
-<bill>
 START OF PAGE 1
 HOUSE BILL 497
 
 D4 (6lr1871)
 ENROLLED BILL
 — Judiciary/Judicial Proceedings —
-Introduced by Delegates Simpson, Stinnett, Simmons, Moreno,
+Introduced by ~~Delegate~~ ~~Simpson~~ Delegates Simpson, Stinnett, Simmons, Moreno,
 Taylor, Moon, and Woods
 
 Read and Examined by Proofreaders:
@@ -27,12 +25,16 @@ CHAPTER ______
 
 1 AN ACT concerning
 
-2 Family Law – Temporary and Final Protective Orders – Duration
+2 Family Law – Temporary and Final Protective Orders – Duration ~~and~~ ~~Relief~~
 
-3 FOR the purpose of altering the time period during which a temporary protective
-4 order is effective; altering the time period during which a final protective order
-5 hearing is required to be held; and generally relating to temporary and final
-6 protective orders.
+3 FOR the purpose of ~~extending~~ altering the time period during which a temporary protective
+4 order is effective ~~after~~ ~~service~~ ~~of~~ ~~the~~ ~~order;~~ ~~extending~~ altering the time period ~~for~~
+5 during which a final protective order hearing is required to be held ~~after~~ ~~service~~ ~~of~~
+6 ~~the~~ ~~temporary~~ ~~protective~~ ~~order;~~ ~~providing~~ ~~that~~ ~~a~~ ~~final~~ ~~protective~~ ~~order~~ ~~may~~ ~~order~~ ~~the~~
+7 ~~respondent~~ ~~to~~ ~~pay~~ ~~to~~ ~~a~~ ~~person~~ ~~eligible~~ ~~for~~ ~~relief~~ ~~certain~~ ~~losses~~ ~~or~~ ~~expenses~~ ~~incurred~~
+8 ~~as~~ ~~a~~ ~~result~~ ~~of~~ ~~abuse;~~ ~~providing~~ ~~that~~ ~~a~~ ~~certain~~ ~~monetary~~ ~~award~~ ~~does~~ ~~not~~ ~~preclude~~ ~~a~~
+9 ~~petitioner~~ ~~from~~ ~~bringing~~ ~~a~~ ~~subsequent~~ ~~claim~~ ~~for~~ ~~certain~~ ~~losses~~ ~~or~~ ~~expenses;~~ and
+10 generally relating to temporary and final protective orders.
 
 11 BY repealing and reenacting, without amendments,
 12 Article – Family Law
@@ -54,9 +56,15 @@ START OF PAGE 2
 
 3 BY repealing and reenacting, with amendments,
 4 Article – Family Law
-5 Section 4–505(c) and 4–506(b)(1)
+5 Section 4–505(c) and 4–506(b)(1) ~~and~~ ~~(d)(13)~~ ~~and~~ ~~(14)~~
 6 Annotated Code of Maryland
 7 (2019 Replacement Volume and 2025 Supplement)
+
+8 ~~BY~~ ~~adding~~ ~~to~~
+9 ~~Article~~ ~~–~~ ~~Family~~ ~~Law~~
+10 ~~Section~~ ~~4–506(d)(14)~~ ~~and~~ ~~(l)~~
+11 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+12 ~~(2019~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
 13 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
 14 That the Laws of Maryland read as follows:
@@ -71,7 +79,7 @@ START OF PAGE 2
 20 eligible for relief from abuse.
 
 21 (c) (1) Except as otherwise provided in this subsection, the temporary
-22 protective order shall be effective for not more than [7] 14 days after ISSUANCE of
+22 protective order shall be effective for not more than [7] 14 days after ~~service~~ ISSUANCE of
 23 the order.
 
 24 (2) The judge may extend the temporary protective order as needed, but
@@ -96,10 +104,38 @@ HOUSE BILL 497 3
 
 1 (ii) Except as provided in § 4–505(c) of this subtitle, or unless
 2 continued for good cause, the final protective order hearing shall be held no later than [7]
-3 14 days after the temporary protective order is ISSUED.
+3 14 days after the temporary protective order is ~~served~~ ~~on~~ ~~the~~ ~~respondent~~ ISSUED.
+
+4 ~~(d)~~ ~~The~~ ~~final~~ ~~protective~~ ~~order~~ ~~may~~ ~~include~~ ~~any~~ ~~or~~ ~~all~~ ~~of~~ ~~the~~ ~~following~~ ~~relief:~~
+
+5 ~~(13)~~ ~~award~~ ~~temporary~~ ~~possession~~ ~~of~~ ~~any~~ ~~pet~~ ~~of~~ ~~the~~ ~~person~~ ~~eligible~~ ~~for~~ ~~relief~~
+6 ~~or~~ ~~the~~ ~~respondent;~~ ~~[or]~~
+
+7 ~~(14)~~ ~~ORDER~~ ~~THE~~ ~~RESPONDENT~~ ~~TO~~ ~~PAY~~ ~~TO~~ ~~A~~ ~~PERSON~~ ~~ELIGIBLE~~ ~~FOR~~
+8 ~~RELIEF,~~ ~~BY~~ ~~A~~ ~~DATE~~ ~~FIXED~~ ~~BY~~ ~~THE~~ ~~COURT,~~ ~~ANY~~ ~~LOSSES~~ ~~OR~~ ~~EXPENSES~~ ~~INCURRED~~ ~~AS~~
+9 ~~A~~ ~~DIRECT~~ ~~RESULT~~ ~~OF~~ ~~THE~~ ~~ABUSE,~~ ~~INCLUDING:~~
+
+10 ~~(I)~~ ~~MEDICAL,~~ ~~DENTAL,~~ ~~OR~~ ~~MENTAL~~ ~~HEALTH~~ ~~TREATMENT~~
+11 ~~COSTS;~~
+
+12 ~~(II)~~ ~~COSTS~~ ~~TO~~ ~~REPAIR~~ ~~OR~~ ~~REPLACE~~ ~~DAMAGED~~ ~~PROPERTY;~~
+
+13 ~~(III)~~ ~~FOOD,~~ ~~TEMPORARY~~ ~~SHELTER,~~ ~~OR~~ ~~RELOCATION~~ ~~COSTS;~~
+
+14 ~~(IV)~~ ~~TRANSPORTATION~~ ~~COSTS;~~
+
+15 ~~(V)~~ ~~FILING~~ ~~FEES~~ ~~AND~~ ~~COURT~~ ~~COSTS;~~ ~~AND~~
+
+16 ~~(VI)~~ ~~REASONABLE~~ ~~ATTORNEY’S~~ ~~FEES;~~ ~~OR~~
+
+17 ~~[(14)]~~ ~~(15)~~ ~~order~~ ~~any~~ ~~other~~ ~~relief~~ ~~that~~ ~~the~~ ~~judge~~ ~~determines~~ ~~is~~ ~~necessary~~ ~~to~~
+18 ~~protect~~ ~~a~~ ~~person~~ ~~eligible~~ ~~for~~ ~~relief~~ ~~from~~ ~~abuse.~~
+
+19 ~~(L)~~ ~~A~~ ~~MONETARY~~ ~~AWARD~~ ~~UNDER~~ ~~SUBSECTION~~ ~~(D)(14)~~ ~~OF~~ ~~THIS~~ ~~SECTION~~
+20 ~~DOES~~ ~~NOT~~ ~~PRECLUDE~~ ~~A~~ ~~PETITIONER~~ ~~FROM~~ ~~BRINGING~~ ~~A~~ ~~SUBSEQUENT~~ ~~CLAIM~~ ~~FOR~~
+21 ~~ADDITIONAL~~ ~~LOSSES~~ ~~OR~~ ~~EXPENSES~~ ~~NOT~~ ~~AWARDED~~ ~~IN~~ ~~THE~~ ~~FINAL~~ ~~PROTECTIVE~~
+22 ~~ORDER.~~
 
 23 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
 24 October 1, 2026.
 END OF PAGE 3
-</bill>
-</bill>

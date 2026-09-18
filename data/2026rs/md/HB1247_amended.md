@@ -1,6 +1,4 @@
-<bill>
 START OF PAGE 1
-EMERGENCY BILL
 HOUSE BILL 1247
 
 C8 EMERGENCY BILL (6lr3101)
@@ -29,7 +27,7 @@ CHAPTER ______
 2 Prince George’s County – Tax Increment Financing – Extraordinary
 3 Development District – Alterations
 
-4 PG 425–26
+4 PG ~~425–25~~ 425–26
 
 5 FOR the purpose of altering the definition of “extraordinary development district” for the
 6 purpose of provisions of law governing tax increment financing to include a certain
@@ -41,8 +39,6 @@ CHAPTER ______
 12 agreement that pledges certain taxes as security for bonds issued by Prince George’s
 13 County contingent on the adoption of certain resolutions; stating that an immersive
 14 entertainment venue is not a sign for the purpose of certain zoning ordinances;
-15 authorizing the Secretary of Transportation to issue certain waivers; and generally
-16 relating to tax increment financing of an extraordinary development district.
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
@@ -338,9 +334,9 @@ HOUSE BILL 1247 7
 21 EXCEPTIONS TO ANY PROVISION IN THIS SUBTITLE THAT REQUIRES STATE
 22 APPROVAL.
 
-23 SECTION 3. AND BE IT FURTHER ENACTED, That this Act is an emergency measure,
-24 is necessary for the immediate preservation of the public health or safety, has been passed
-25 by a yea and nay vote supported by three–fifths of all the members elected to each of the
-26 two Houses of the General Assembly, and shall take effect from the date it is enacted.
+23 SECTION 3. AND BE IT FURTHER ENACTED, That this Act ~~shall~~ ~~take~~ ~~effect~~ ~~June~~
+24 ~~1,~~ ~~2026~~ is an emergency measure, is necessary for the immediate preservation of the public
+25 health or safety, has been passed by a yea and nay vote supported by three–fifths of all the
+26 members elected to each of the two Houses of the General Assembly, and shall take effect
+27 from the date it is enacted.
 END OF PAGE 7
-</bill>

@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 578
 
@@ -6,7 +5,7 @@ M1 (6lr1710)
 ENROLLED BILL
 — Environment and Transportation/Education, Energy, and the Environment —
 Introduced by Delegates Palakovich Carr, Allen, Fair, Feldmark, Kaufman,
-Lehman, Shetty, Terrasa, White Holland, Wolek, Wu, Behler, Boyce,
+Lehman, Shetty, Terrasa, White Holland, Wolek, ~~and~~ ~~Wu~~ Wu, Behler, Boyce,
 Guyton, Lewis, Odom, Stein, and Ziegler
 
 Read and Examined by Proofreaders:
@@ -37,8 +36,9 @@ CHAPTER ______
 8 threatened species under certain circumstances; requiring a petition to remove a
 9 listed species to contain certain information; authorizing the Secretary to designate
 10 areas as essential habitats for endangered and threatened species; authorizing the
-11 Secretary to adopt management protocols for designated essential habitats; requiring the Department
-12 of Natural Resources to promulgate regulations authorizing the taking of black
+11 Secretary to adopt management protocols for designated essential habitats;
+12 ~~prohibiting~~ ~~a~~ ~~person~~ ~~from~~ ~~taking~~ ~~certain~~ ~~migratory~~ ~~birds;~~ requiring the Department
+13 of Natural Resources to promulgate regulations authorizing the taking of black
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
@@ -56,46 +56,48 @@ START OF PAGE 2
 
 3 BY repealing and reenacting, without amendments,
 4 Article – Natural Resources
-5 Section 3–501, 3–502, 4–2A–01(a), (i), and (j), 10–2A–01(a), (k), (l), and 10–2A–03(c)
-6 Annotated Code of Maryland
-7 (2023 Replacement Volume and 2025 Supplement)
+5 Section 3–501, 3–502, 4–2A–01(a), (i), and (j), ~~and~~ 10–2A–01(a), (k), and (l), and
+6 10–2A–03(c)
+7 Annotated Code of Maryland
+8 (2023 Replacement Volume and 2025 Supplement)
 
-8 BY repealing and reenacting, with amendments,
-9 Article – Natural Resources
-10 Section 3–503, 4–2A–04, 4–2A–05, 4–2A–06, 10–2A–04, 10–2A–05, and 10–2A–06
-11 Annotated Code of Maryland
-12 (2023 Replacement Volume and 2025 Supplement)
+9 BY repealing and reenacting, with amendments,
+10 Article – Natural Resources
+11 Section 3–503, 4–2A–04, 4–2A–05, 4–2A–06, ~~10–2A–03(c),~~ 10–2A–04, 10–2A–05, and
+12 10–2A–06
+13 Annotated Code of Maryland
+14 (2023 Replacement Volume and 2025 Supplement)
 
-13 BY adding to
-14 Article – Natural Resources
-15 Section 4–2A–01(f–1) and (f–2) and 10–2A–01(e–1) and (e–2)
-16 Annotated Code of Maryland
-17 (2023 Replacement Volume and 2025 Supplement)
+15 BY adding to
+16 Article – Natural Resources
+17 Section 4–2A–01(f–1) and (f–2) and 10–2A–01(e–1) and (e–2)
+18 Annotated Code of Maryland
+19 (2023 Replacement Volume and 2025 Supplement)
 
-18 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
-19 That the Laws of Maryland read as follows:
+20 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
+21 That the Laws of Maryland read as follows:
 
-20 Article – Natural Resources
+22 Article – Natural Resources
 
-21 3–501.
+23 3–501.
 
-22 (a) In this subtitle the following words have the meanings indicated.
+24 (a) In this subtitle the following words have the meanings indicated.
 
-23 (b) “Biodiversity” means the full range of living organisms native to a region.
+25 (b) “Biodiversity” means the full range of living organisms native to a region.
 
-24 (c) “Irreplaceable natural area” means an area with habitat necessary to support:
+26 (c) “Irreplaceable natural area” means an area with habitat necessary to support:
 
-25 (1) A unique natural community; or
+27 (1) A unique natural community; or
 
-26 (2) A plant or animal species listed as threatened or endangered under
-27 Title 10, Subtitle 2A of this article.
+28 (2) A plant or animal species listed as threatened or endangered under
+29 Title 10, Subtitle 2A of this article.
 
-28 (d) “Program” means the Irreplaceable Natural Areas Program.
+30 (d) “Program” means the Irreplaceable Natural Areas Program.
 
-29 (e) “Unique natural community” means an area that:
+31 (e) “Unique natural community” means an area that:
 
-30 (1) Has an assemblage of native plants or animals that is rare or declining
-31 in the State; or
+32 (1) Has an assemblage of native plants or animals that is rare or declining
+33 in the State; or
 END OF PAGE 2
 
 START OF PAGE 3
@@ -389,52 +391,58 @@ START OF PAGE 8
 
 30 (I) SHALL establish programs, including acquisition of land or
 31 aquatic habitat or interests therein, necessary for the conservation of threatened or
-32 endangered species of fish;
+32 endangered species of fish; AND
 
 33 (II) MAY DESIGNATE AREAS AS ESSENTIAL HABITATS FOR
-34 ENDANGERED AND THREATENED SPECIES; AND (III) MAY ADOPT MANAGEMENT
-35 PROTOCOLS FOR DESIGNATED ESSENTIAL HABITATS.
+34 ENDANGERED AND THREATENED SPECIES; AND
+END OF PAGE 8
 
-1 (2) The Secretary shall use all vested authority to carry out the provisions
-2 of this subsection.
+START OF PAGE 9
+HOUSE BILL 578 9
 
-3 (b) In carrying out programs authorized by this section, the Secretary shall
-4 consult with other states having a common interest in particular species of endangered or
-5 threatened species of fish and may enter into agreements with federal agencies, other
-6 states, political subdivisions of this State, or with individuals with respect to programs
-7 designed to conserve endangered or threatened species of fish including agreements for
-8 administration and management of any that are established under this section or utilized
-9 for conservation of endangered or threatened species of fish.
+1 (III) MAY ADOPT MANAGEMENT PROTOCOLS FOR DESIGNATED
+2 ESSENTIAL HABITATS.
 
-10 (c) (1) The Governor shall review other programs administered by him and
-11 utilize these programs in furtherance of the purposes of this subtitle.
+3 (2) The Secretary shall use all vested authority to carry out the provisions
+4 of this subsection.
 
-12 (2) All State departments and agencies, in consultation with and with the
-13 assistance of the Secretary, shall utilize their authorities in furtherance of the purposes of
-14 this subtitle by carrying out programs for the conservation of endangered species and
-15 threatened species listed pursuant to [§ 4–2A–04(f)] § 4–2A–04(G) of this subtitle and by
-16 taking any action necessary to insure that actions authorized, funded, or carried out by
-17 them do not jeopardize the continued existence of the endangered species or threatened
-18 species or result in the destruction or modification of habitat of the species which is deemed
-19 by the Secretary to be critical.
+5 (b) In carrying out programs authorized by this section, the Secretary shall
+6 consult with other states having a common interest in particular species of endangered or
+7 threatened species of fish and may enter into agreements with federal agencies, other
+8 states, political subdivisions of this State, or with individuals with respect to programs
+9 designed to conserve endangered or threatened species of fish including agreements for
+10 administration and management of any that are established under this section or utilized
+11 for conservation of endangered or threatened species of fish.
 
-20 (d) The Secretary shall adopt rules and regulations necessary to implement this
-21 section.
+12 (c) (1) The Governor shall review other programs administered by him and
+13 utilize these programs in furtherance of the purposes of this subtitle.
 
-22 10–2A–01.
+14 (2) All State departments and agencies, in consultation with and with the
+15 assistance of the Secretary, shall utilize their authorities in furtherance of the purposes of
+16 this subtitle by carrying out programs for the conservation of endangered species and
+17 threatened species listed pursuant to [§ 4–2A–04(f)] § 4–2A–04(G) of this subtitle and by
+18 taking any action necessary to insure that actions authorized, funded, or carried out by
+19 them do not jeopardize the continued existence of the endangered species or threatened
+20 species or result in the destruction or modification of habitat of the species which is deemed
+21 by the Secretary to be critical.
 
-23 (a) In this subtitle the following words have the meanings indicated.
+22 (d) The Secretary shall adopt rules and regulations necessary to implement this
+23 section.
 
-24 (E–1) “FORESEEABLE FUTURE” MEANS AS FAR INTO THE FUTURE AS THE
-25 DEPARTMENT CAN MAKE REASONABLY RELIABLE PREDICTIONS, ON A
-26 CASE–BY–CASE BASIS, ABOUT THE THREATS TO A SPECIES OF WILDLIFE OR PLANT
-27 AND THE SPECIES’ RESPONSE TO THOSE THREATS:
+24 10–2A–01.
 
-28 (1) USING THE BEST AVAILABLE DATA; AND
+25 (a) In this subtitle the following words have the meanings indicated.
 
-29 (2) TAKING INTO ACCOUNT CONSIDERATIONS INCLUDING:
+26 (E–1) “FORESEEABLE FUTURE” MEANS AS FAR INTO THE FUTURE AS THE
+27 DEPARTMENT CAN MAKE REASONABLY RELIABLE PREDICTIONS, ON A
+28 CASE–BY–CASE BASIS, ABOUT THE THREATS TO A SPECIES OF WILDLIFE OR PLANT
+29 AND THE SPECIES’ RESPONSE TO THOSE THREATS:
 
-30 (I) THE SPECIES’ LIFE–HISTORY CHARACTERISTICS;
+30 (1) USING THE BEST AVAILABLE DATA; AND
+
+31 (2) TAKING INTO ACCOUNT CONSIDERATIONS INCLUDING:
+
+32 (I) THE SPECIES’ LIFE–HISTORY CHARACTERISTICS;
 END OF PAGE 9
 
 START OF PAGE 10
@@ -460,21 +468,22 @@ START OF PAGE 10
 
 13 10–2A–03.
 
-14 (c) (1) Except as provided in regulations adopted by the Secretary, a person may
-15 not take, possess, transport, export, process, sell, offer for sale, or ship nongame wildlife
-16 deemed by the Secretary to be in need of conservation pursuant to this section.
+14 (c) (1) Except as provided in regulations adopted by the Secretary, a person
+15 may not take, possess, transport, export, process, sell, offer for
+16 sale, or ship nongame wildlife deemed by the Secretary to be in need of conservation
+17 pursuant to this section.
 
-17 (2) A common or contract carrier may not knowingly transport or receive
-18 for shipment nongame wildlife deemed by the Secretary to be in need of conservation
-19 pursuant to this section.
+18 (2) A common or contract carrier may not knowingly transport or receive
+19 for shipment nongame wildlife deemed by the Secretary to be in need of conservation
+20 pursuant to this section.
 
-20 10–2A–04.
+21 10–2A–04.
 
-21 (a) (1) Any species of wildlife or plant determined to be endangered species
-22 pursuant to the Endangered Species Act shall be deemed to be an endangered species under
-23 the provisions of this subtitle and any species of wildlife or plant determined to be a
-24 threatened species pursuant to the Endangered Species Act shall be deemed to be a
-25 threatened species under the provisions of this subtitle.
+22 (a) (1) Any species of wildlife or plant determined to be endangered species
+23 pursuant to the Endangered Species Act shall be deemed to be an endangered species under
+24 the provisions of this subtitle and any species of wildlife or plant determined to be a
+25 threatened species pursuant to the Endangered Species Act shall be deemed to be a
+26 threatened species under the provisions of this subtitle.
 END OF PAGE 10
 
 START OF PAGE 11
@@ -689,39 +698,41 @@ HOUSE BILL 578 15
 
 6 (I) SHALL establish programs, including acquisition of land or
 7 aquatic habitat or interests in the land or aquatic habitats, necessary for the conservation
-8 of nongame, threatened, or endangered species of wildlife or plants;
+8 of nongame, threatened, or endangered species of wildlife or plants; AND
 
 9 (II) MAY DESIGNATE AREAS AS ESSENTIAL HABITATS FOR
-10 ENDANGERED AND THREATENED SPECIES; AND (III) MAY ADOPT MANAGEMENT
-11 PROTOCOLS FOR DESIGNATED ESSENTIAL HABITATS.
+10 ENDANGERED AND THREATENED SPECIES; AND
 
-12 (2) The Secretary shall use all vested authority to carry out the provisions
-13 of this subsection.
+11 (III) MAY ADOPT MANAGEMENT PROTOCOLS FOR DESIGNATED
+12 ESSENTIAL HABITATS.
 
-14 (b) (1) In carrying out programs authorized by this section, the Secretary shall
-15 consult with the State Secretary of Agriculture and other states having a common interest
-16 in particular species of nongame, endangered, or threatened species of wildlife or plants.
+13 (2) The Secretary shall use all vested authority to carry out the provisions
+14 of this subsection.
 
-17 (2) The Secretary may enter into agreements with federal agencies, other
-18 states, political subdivisions of the State, or with individuals with respect to programs
-19 designed to conserve nongame, endangered, or threatened species of wildlife or plants,
-20 including agreements for administration and management established under this section
-21 or utilized for conservation of nongame, endangered, or threatened species of wildlife or
-22 plants.
+15 (b) (1) In carrying out programs authorized by this section, the Secretary shall
+16 consult with the State Secretary of Agriculture and other states having a common interest
+17 in particular species of nongame, endangered, or threatened species of wildlife or plants.
 
-23 (c) (1) The Governor shall review other programs administered by the
-24 Governor and utilize these programs in furtherance of the purposes of this subtitle.
+18 (2) The Secretary may enter into agreements with federal agencies, other
+19 states, political subdivisions of the State, or with individuals with respect to programs
+20 designed to conserve nongame, endangered, or threatened species of wildlife or plants,
+21 including agreements for administration and management established under this section
+22 or utilized for conservation of nongame, endangered, or threatened species of wildlife or
+23 plants.
 
-25 (2) All State departments and agencies, in consultation with and with the
-26 assistance of the Secretary, shall utilize their authorities in furtherance of the purposes of
-27 this subtitle by carrying out programs for the conservation of endangered species and
-28 threatened species listed pursuant to [§ 10–2A–04(f)] § 10–2A–04(G) of this subtitle, and
-29 by taking any action necessary to insure that actions authorized, funded, or carried out by
-30 them do not jeopardize the continued existence of the endangered species or threatened
-31 species or result in the destruction or modification of habitat of the species which is deemed
-32 by the Secretary to be critical.
+24 (c) (1) The Governor shall review other programs administered by the
+25 Governor and utilize these programs in furtherance of the purposes of this subtitle.
 
-33 (d) The Secretary shall adopt regulations necessary to implement this section.
+26 (2) All State departments and agencies, in consultation with and with the
+27 assistance of the Secretary, shall utilize their authorities in furtherance of the purposes of
+28 this subtitle by carrying out programs for the conservation of endangered species and
+29 threatened species listed pursuant to [§ 10–2A–04(f)] § 10–2A–04(G) of this subtitle, and
+30 by taking any action necessary to insure that actions authorized, funded, or carried out by
+31 them do not jeopardize the continued existence of the endangered species or threatened
+32 species or result in the destruction or modification of habitat of the species which is deemed
+33 by the Secretary to be critical.
+
+34 (d) The Secretary shall adopt regulations necessary to implement this section.
 END OF PAGE 15
 
 START OF PAGE 16
@@ -735,7 +746,7 @@ START OF PAGE 16
 6 with the same authorizations as a Depredation Permit issued by the U.S. Fish and Wildlife
 7 Service.
 
-8 SECTION 3. AND BE IT FURTHER ENACTED, That this Act shall take effect
+8 SECTION ~~2.~~ 3. AND BE IT FURTHER ENACTED, That this Act shall take effect
 9 October 1, 2026.
 
 Approved:
@@ -749,4 +760,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 16
-</bill>

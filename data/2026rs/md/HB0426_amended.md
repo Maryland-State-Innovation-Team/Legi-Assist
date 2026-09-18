@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 426
 
@@ -137,4 +136,3 @@ HOUSE BILL 426 3
 26 SECTION 3. AND BE IT FURTHER ENACTED, That this Act shall take effect
 27 October 1, 2026.
 END OF PAGE 3
-</bill>

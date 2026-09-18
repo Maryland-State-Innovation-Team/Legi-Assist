@@ -1,4 +1,4 @@
-EMERGENCY BILL
+START OF PAGE 1
 HOUSE BILL 1232
 
 Q1 EMERGENCY BILL (6lr3403)
@@ -28,7 +28,7 @@ CHAPTER ______
 2 Baltimore City – Economic Development Project in Downtown RISE District –
 3 Payment in Lieu of Taxes
 
-4 FOR the privilege of exempting an economic development project located in a certain area
+4 FOR the purpose of exempting an economic development project located in a certain area
 5 of downtown Baltimore City from Baltimore City property taxes if the owner of the
 6 economic development project and the Baltimore City Board of Estimates enter into
 7 a payment in lieu of taxes agreement and certain other requirements are met; and
@@ -140,36 +140,37 @@ HOUSE BILL 1232 3
 30 (2) FOR THOSE ECONOMIC DEVELOPMENT PROJECTS THAT HAVE A
 31 PAYMENT IN LIEU OF TAXES AGREEMENT UNDER THIS SECTION, AND FOR WHICH
 32 CONSTRUCTION OR REHABILITATION HAS BEEN COMPLETED:
-
-33 (I) THE NUMBER AND TYPES OF JOBS CREATED DURING THE
-34 PRECEDING FISCAL YEAR AND ESTIMATED TO BE CREATED DURING THE FOLLOWING
-35 FISCAL YEAR;
-
-36 (II) THE TOTAL TAXES THAT THE PROJECT IS ESTIMATED TO
-37 HAVE GENERATED, DIRECTLY AND INDIRECTLY, FOR THE CITY OF BALTIMORE
-38 DURING THE PRECEDING FISCAL YEAR AND ESTIMATED TO BE GENERATED DURING
-39 THE FOLLOWING FISCAL YEAR; AND
-
-40 (III) ANY OTHER ECONOMIC BENEFITS OF THE PROJECT.
 END OF PAGE 3
 
 START OF PAGE 4
 4 HOUSE BILL 1232
 
-1 SECTION 2. AND BE IT FURTHER ENACTED, That a payment in lieu of taxes
-2 agreement entered into under § 7–504.5 of the Tax – Property Article as enacted by
-3 Section 1 of this Act before the termination of Section 1 of this Act shall remain in effect
-4 for the duration of the agreement.
+1 (I) THE NUMBER AND TYPES OF JOBS CREATED DURING THE
+2 PRECEDING FISCAL YEAR AND ESTIMATED TO BE CREATED DURING THE FOLLOWING
+3 FISCAL YEAR;
 
-5
-6 SECTION 3. AND BE IT FURTHER ENACTED, That this Act is an emergency
-7 measure, is necessary for the immediate preservation of the public health or safety, has
-8 been passed by a yea and nay vote supported by three-fifths of all the members elected
-9 to each of the two Houses of the General Assembly, and shall take effect from the date
-10 it is enacted. Section 1 of this Act shall remain effective for a period of 10 years from the
-11 date it is enacted and, at the end of the 10–year period, Section 1 of this Act, with no
-12 further action required by the General Assembly, shall be abrogated and of no further
-13 force and effect.
+4 (II) THE TOTAL TAXES THAT THE PROJECT IS ESTIMATED TO
+5 HAVE GENERATED, DIRECTLY AND INDIRECTLY, FOR THE CITY OF BALTIMORE
+6 DURING THE PRECEDING FISCAL YEAR AND ESTIMATED TO BE GENERATED DURING
+7 THE FOLLOWING FISCAL YEAR; AND
+
+8 (III) ANY OTHER ECONOMIC BENEFITS OF THE PROJECT.
+
+9 ~~SECTION~~ ~~2.~~ ~~AND~~ ~~BE~~ ~~IT~~ ~~FURTHER~~ ~~ENACTED,~~ ~~That~~ ~~this~~ ~~Act~~ ~~shall~~ ~~take~~ ~~effect~~ ~~July~~
+10 ~~1,~~ ~~2026.~~
+
+11 SECTION 2. AND BE IT FURTHER ENACTED, That a payment in lieu of taxes
+12 agreement entered into under § 7–504.5 of the Tax – Property Article as enacted by Section
+13 1 of this Act before the termination of Section 1 of this Act shall remain in effect for the
+14 duration of the agreement.
+
+15 SECTION 3. AND BE IT FURTHER ENACTED, That this Act is an emergency
+16 measure, is necessary for the immediate preservation of the public health or safety, has been
+17 passed by a yea and nay vote supported by three–fifths of all the members elected to each of
+18 the two Houses of the General Assembly, and shall take effect from the date it is enacted.
+19 Section 1 of this Act shall remain effective for a period of 10 years from the date it is enacted
+20 and, at the end of the 10–year period, Section 1 of this Act, with no further action required
+21 by the General Assembly, shall be abrogated and of no further force and effect.
 
 Approved:
 

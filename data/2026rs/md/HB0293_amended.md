@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 100
 
@@ -379,4 +378,4 @@ SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
 Approved by the Governor, April 14, 2026.
 
 – 8 –
-END OF PAGE 8</bill>
+END OF PAGE 8

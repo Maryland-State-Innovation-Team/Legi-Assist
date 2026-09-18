@@ -383,8 +383,7 @@ contract claim or a longer period to which the parties agree.
 incurred:
 
 (1) more than [30] 60 days before the required submission of a notice of a
-claim under
-subsection (a) of this section; or
+claim under subsection (a) of this section; or
 
 (2) unless the time for submission of a claim is extended under subsection
 (b) of this section, more than [120] 150 days before the required submission of the claim.

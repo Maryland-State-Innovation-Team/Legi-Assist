@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 SENATE BILL 905
 
@@ -54,7 +53,7 @@ START OF PAGE 2
 
 1 (2021 Replacement Volume and 2025 Supplement)
 
-2 BY adding to
+2 BY adding
 3 Article – State Finance and Procurement
 4 Section 6–226(a)(2)(iii)214.
 5 Annotated Code of Maryland
@@ -78,22 +77,22 @@ START OF PAGE 2
 17 MANUFACTURING.
 
 18 (C) THE CORPORATION SHALL ESTABLISH:
-19
-20 (1) ELIGIBILITY CRITERIA TO RECEIVE A GRANT UNDER THE
-21 PROGRAM;
 
-22 (2) GRANT APPLICATION PROCEDURES AND EVALUATION CRITERIA;
-23 AND
+19 (1) ELIGIBILITY CRITERIA TO RECEIVE A GRANT UNDER THE
+20 PROGRAM;
 
-24 (3) GRANT AWARD PROCESSES AND AMOUNTS.
+21 (2) GRANT APPLICATION PROCEDURES AND EVALUATION CRITERIA;
+22 AND
 
-25 (D) GRANT RECIPIENTS MAY USE GRANT PROCEEDS ONLY FOR:
+23 (3) GRANT AWARD PROCESSES AND AMOUNTS.
 
-26 (1) THE ACQUISITION, RENOVATION, OR CONSTRUCTION OF SPACE
-27 FOR REGENERATIVE MEDICINE OR OTHER ADVANCED MANUFACTURING;
+24 (D) GRANT RECIPIENTS MAY USE GRANT PROCEEDS ONLY FOR:
 
-28 (2) INFRASTRUCTURE IMPROVEMENTS NECESSARY TO SUPPORT
-29 REGENERATIVE MEDICINE OR OTHER ADVANCED MANUFACTURING; AND
+25 (1) THE ACQUISITION, RENOVATION, OR CONSTRUCTION OF SPACE
+26 FOR REGENERATIVE MEDICINE OR OTHER ADVANCED MANUFACTURING;
+
+27 (2) INFRASTRUCTURE IMPROVEMENTS NECESSARY TO SUPPORT
+28 REGENERATIVE MEDICINE OR OTHER ADVANCED MANUFACTURING; AND
 END OF PAGE 2
 
 START OF PAGE 3
@@ -159,35 +158,33 @@ START OF PAGE 4
 8 (2) ADOPTING REGULATIONS REGARDING REGENERATIVE MEDICINE
 9 UNDER THIS SECTION.
 
-10 (G) THE CORPORATION MAY ADOPT REGULATIONS NECESSARY TO CARRY OUT
-11 THIS SECTION.
-12
+10 (G) THE CORPORATION MAY ADOPT REGULATIONS NECESSARY TO CARRY OUT THIS
+11 SECTION.
 
-13 Article – State Finance and Procurement
+12 Article – State Finance and Procurement
 
-14 6–226.
+13 6–226.
 
-15 (a) (2) (i) This paragraph does not apply in fiscal years 2024 through 2028.
+14 (a) (2) (i) This paragraph does not apply in fiscal years 2024 through 2028.
 
-16 (ii) Notwithstanding any other provision of law, and unless
-17 inconsistent with a federal law, grant agreement, or other federal requirement or with the
-18 terms of a gift or settlement agreement, net interest on all State money allocated by the
-19 State Treasurer under this section to special funds or accounts, and otherwise entitled to
-20 receive interest earnings, as accounted for by the Comptroller, shall accrue to the General
-21 Fund of the State.
+15 (ii) Notwithstanding any other provision of law, and unless
+16 inconsistent with a federal law, grant agreement, or other federal requirement or with the
+17 terms of a gift or settlement agreement, net interest on all State money allocated by the
+18 State Treasurer under this section to special funds or accounts, and otherwise entitled to
+19 receive interest earnings, as accounted for by the Comptroller, shall accrue to the General
+20 Fund of the State.
 
-22 (iii) The provisions of subparagraph (ii) of this paragraph do not
-23 apply to the following funds:
+21 (iii) The provisions of subparagraph (ii) of this paragraph do not
+22 apply to the following funds:
 
-24 212. the Department of Social and Economic Mobility Special
-25 Fund; [and]
+23 212. the Department of Social and Economic Mobility Special
+24 Fund; [and]
 
-26 213. the Population Health Improvement Fund; AND
+25 213. the Population Health Improvement Fund; AND
 
-27 214. THE MARYLAND ADVANCED MANUFACTURING
-28 GRANT PROGRAM FUND.
+26 214. THE MARYLAND ADVANCED MANUFACTURING
+27 GRANT PROGRAM FUND.
 
-29 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
-30 1, 2026.
+28 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
+29 1, 2026.
 END OF PAGE 4
-</bill>

@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 546
 
@@ -141,4 +140,3 @@ HOUSE BILL 546 3
 28 this Act, with no further action required by the General Assembly, shall be abrogated and
 29 of no further force and effect.
 END OF PAGE 3
-</bill>

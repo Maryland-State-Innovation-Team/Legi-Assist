@@ -1,10 +1,9 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1474
 
 A2 6lr3068
 
-By: Baltimore County Delegation
+By: ~~Delegate~~ ~~Ebersole~~ Baltimore County Delegation
 Introduced and read first time: February 13, 2026
 Assigned to: Government, Labor, and Elections
 
@@ -18,7 +17,7 @@ CHAPTER ______
 
 2 Baltimore County – Alcoholic Beverages Licenses – Transfers and Conversions
 
-3 For the purpose of repealing certain prohibitions on a transfer to different premises or a
+3 FOR the purpose of repealing certain prohibitions on a transfer to different premises or a
 4 conversion to a different class of license that apply to certain alcoholic beverages
 5 licenses issued, reissued, or transferred by the Board of License Commissioners for
 6 Baltimore County; requiring certain Class B beer, wine, and liquor licenses in
@@ -41,8 +40,6 @@ CHAPTER ______
 20 BY repealing
 21 Article – Alcoholic Beverages and Cannabis
 22 Section 13–1705, 13–1706, 13–1707, and 13–1709
-23 Annotated Code of Maryland
-24 (2024 Replacement Volume and 2025 Supplement)
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
@@ -54,49 +51,52 @@ END OF PAGE 1
 START OF PAGE 2
 2 HOUSE BILL 1474
 
-1 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
-2 That the Laws of Maryland read as follows:
+1 Annotated Code of Maryland
+2 (2024 Replacement Volume and 2025 Supplement)
 
-3 Article – Alcoholic Beverages and Cannabis
+3 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
+4 That the Laws of Maryland read as follows:
 
-4 13–102.
+5 Article – Alcoholic Beverages and Cannabis
 
-5 This title applies only in Baltimore County.
+6 13–102.
 
-6 13–1604.
+7 This title applies only in Baltimore County.
 
-7 (a) In this section, “eligible transferor district” means an election district in which
-8 the total number of Class B and Class D licenses, excluding exception licenses, is 10% or
-9 greater than the total number of Class B and Class D licenses that are allowed in an
-10 election district based on the rule of the Board that limits the total number of licenses
-11 available in an election district by population.
+8 13–1604.
 
-12 (b) (1) Subject to paragraphs (2) and (3) of this subsection, the Board may
-13 approve the transfer of a Class B or Class D license in existence in an eligible transferor
-14 district on June 1, 2025, to another election district if:
+9 (a) In this section, “eligible transferor district” means an election district in which
+10 the total number of Class B and Class D licenses, excluding exception licenses, is 10% or
+11 greater than the total number of Class B and Class D licenses that are allowed in an
+12 election district based on the rule of the Board that limits the total number of licenses
+13 available in an election district by population.
 
-15 (i) the approval occurs anytime from June 1, 2025, to May 31, 2028,
-16 both inclusive; and
+14 (b) (1) Subject to paragraphs (2) and (3) of this subsection, the Board may
+15 approve the transfer of a Class B or Class D license in existence in an eligible transferor
+16 district on June 1, 2025, to another election district if:
 
-17 (ii) prior to the transfer, the number of licenses in existence in the
-18 election district to which the license is to be transferred is not greater than 25% more than
-19 the number of licenses that would otherwise exist in that election district, based on the rule
-20 of the Board that limits the total number of licenses available in an election district by
-21 population.
+17 (i) the approval occurs anytime from June 1, 2025, to May 31, 2028,
+18 both inclusive; and
 
-22 (2) (i) The Board may not authorize the transfer of more than five Class
-23 B or Class D licenses in existence on June 1, 2025, in total under this section.
+19 (ii) prior to the transfer, the number of licenses in existence in the
+20 election district to which the license is to be transferred is not greater than 25% more than
+21 the number of licenses that would otherwise exist in that election district, based on the rule
+22 of the Board that limits the total number of licenses available in an election district by
+23 population.
 
-24 (ii) Not more than two licenses may be transferred under this
-25 subsection into any single election district.
+24 (2) (i) The Board may not authorize the transfer of more than five Class
+25 B or Class D licenses in existence on June 1, 2025, in total under this section.
 
-26 (c) (6) A [Class B or D license transferred under subsection (b) of this section
-27 or a] Class B Service Bar (SB) license issued under this subsection may not thereafter be
-28 transferred from the licensed premises or converted to another class of license.
+26 (ii) Not more than two licenses may be transferred under this
+27 subsection into any single election district.
 
-29 (e) (1) When a license is transferred from an eligible transferor district to
-30 another election district under this section, the license does not continue to exist in the
-31 eligible transferor district from which it was transferred.
+28 (c) (6) A [Class B or D license transferred under subsection (b) of this section
+29 or a] Class B Service Bar (SB) license issued under this subsection may not thereafter be
+30 transferred from the licensed premises or converted to another class of license.
+
+31 (e) (1) When a license is transferred from an eligible transferor district to
+32 another election district under this section, the license does not continue to exist in the
+33 eligible transferor district from which it was transferred.
 END OF PAGE 2
 
 START OF PAGE 3
@@ -492,4 +492,3 @@ START OF PAGE 10
 25 SECTION ~~2.~~ 5. AND BE IT FURTHER ENACTED, That, except as provided in
 26 Section 4 of this Act, this Act shall take effect July 1, 2026.
 END OF PAGE 10
-</bill>

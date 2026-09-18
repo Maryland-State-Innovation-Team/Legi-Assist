@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 472
 
@@ -21,7 +20,7 @@ CHAPTER ______
 2 Income Tax – Theatrical Production Tax Credit – Alterations and Sunset
 3 Extension
 
-4 ~~extending~~ ~~the~~ ~~termination~~ ~~date~~ limiting the excess amount of tax credit
+4 FOR the purpose of ~~extending~~ ~~the~~ ~~termination~~ ~~date~~ limiting the excess amount of tax credit
 5 certificates that the Department of Commerce may carry forward and issue in
 6 subsequent taxable years for a credit against the State income tax for certain costs
 7 related to certain theatrical productions in the State; extending the termination date
@@ -94,7 +93,7 @@ START OF PAGE 2
 28 certificates in a subsequent fiscal year.
 
 29 (3) THE AGGREGATE AMOUNT CARRIED FORWARD FROM ALL PRIOR
-30 FISCAL YEARS IN ACCORDANCE WITH PARAGRAPH (2) OF THIS SECTION MAY NOT
+30 FISCAL YEARS IN ACCORDANCE WITH PARAGRAPH (2) OF THIS SUBSECTION MAY NOT
 31 EXCEED $20,000,000.
 
 32 (4) The Secretary may not issue tax credit certificates for credit amounts
@@ -134,4 +133,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 3
-</bill>

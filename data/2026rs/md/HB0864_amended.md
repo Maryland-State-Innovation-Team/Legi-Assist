@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 864
 
@@ -32,13 +31,14 @@ CHAPTER ______
 
 4 FOR the purpose of altering certain apprenticeship requirements relating to public works
 5 contracts to require certain contractors and subcontractors to employ a certain
-6 number of qualifying new apprentices or journeyworkers necessary to meet
+6 number of ~~qualified~~ qualifying new apprentices or journeyworkers necessary to meet
 7 a certain applicable percentage for the project; altering which projects are subject to
-8 certain apprenticeship requirements; altering certain provisions of law
+8 certain apprenticeship requirements; ~~repealing~~ altering certain provisions of law
 9 that authorize contractors and subcontractors to make certain payments to a certain
 10 apprenticeship program in lieu of employing certain apprentices; requiring the
-11 Secretary of Labor to annually establish a certain applicable percentage;
-12 establishing that certain apprenticeship requirements apply to the University
+11 Secretary of Labor to annually establish a certain applicable percentage; ~~authorizing~~
+12 ~~the~~ ~~Secretary~~ ~~to~~ ~~waive~~ ~~certain~~ ~~requirements~~ ~~under~~ ~~certain~~ ~~circumstances;~~
+13 establishing that certain apprenticeship requirements apply to the University
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
@@ -62,35 +62,41 @@ START OF PAGE 2
 
 8 BY adding to
 9 Article – State Finance and Procurement
-10 Section 17–601.1, 17–602.1, 17–605.1, and 17–607
+10 Section 17–601.1, 17–602.1, ~~17–604.1,~~ 17–605.1, and 17–607
 11 Annotated Code of Maryland
 12 (2021 Replacement Volume and 2025 Supplement)
 
-13 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
-14 That the Laws of Maryland read as follows:
+13 ~~BY~~ ~~repealing~~ ~~and~~ ~~reenacting,~~ ~~without~~ ~~amendments,~~
+14 ~~Article~~ ~~–~~ ~~State~~ ~~Finance~~ ~~and~~ ~~Procurement~~
+15 ~~Section~~ ~~17–602~~
+16 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+17 ~~(2021~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
-15 Article – State Finance and Procurement
+18 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
+19 That the Laws of Maryland read as follows:
 
-16 11–203.
+20 Article – State Finance and Procurement
 
-17 (e) (1) In this subsection, “University” means the University System of
-18 Maryland, Morgan State University, or St. Mary’s College of Maryland.
+21 11–203.
 
-19 (2) Except as otherwise provided in this subsection, this Division II does
-20 not apply to the University System of Maryland, Morgan State University, St. Mary’s
-21 College of Maryland, or Baltimore City Community College.
+22 (e) (1) In this subsection, “University” means the University System of
+23 Maryland, Morgan State University, or St. Mary’s College of Maryland.
 
-22 (3) (i) A procurement by a University or Baltimore City Community
-23 College shall comply with the policies and procedures developed by the University or
-24 Baltimore City Community College and approved by the Board of Public Works and the
-25 Administrative, Executive, and Legislative Review Committee of the General Assembly in
-26 accordance with:
+24 (2) Except as otherwise provided in this subsection, this Division II does
+25 not apply to the University System of Maryland, Morgan State University, St. Mary’s
+26 College of Maryland, or Baltimore City Community College.
 
-27 1. § 12–112 of the Education Article for the University
-28 System of Maryland;
+27 (3) (i) A procurement by a University or Baltimore City Community
+28 College shall comply with the policies and procedures developed by the University or
+29 Baltimore City Community College and approved by the Board of Public Works and the
+30 Administrative, Executive, and Legislative Review Committee of the General Assembly in
+31 accordance with:
 
-29 2. § 14–109 of the Education Article for Morgan State
-30 University;
+32 1. § 12–112 of the Education Article for the University
+33 System of Maryland;
+
+34 2. § 14–109 of the Education Article for Morgan State
+35 University;
 END OF PAGE 2
 
 START OF PAGE 3
@@ -284,194 +290,164 @@ START OF PAGE 6
 24 [(c)] (D) “Covered craft” means a classification of workers listed in the prevailing
 25 wage determination applicable to the covered project.
 
-26 [(d)] (E) “Covered project” means a project for the construction of a public work
-27 THAT IS SUBJECT TO SUBTITLE 2 OF THIS TITLE.
-
-28 [(e)] (F) “Department” means the Maryland Department of Labor.
-
-29 [(f)] (G) “Fund” means the State Apprenticeship Training Fund established
-30 under § 17–602 of this subtitle.
-
-31 (H) “LABOR HOURS” MEANS THE TOTAL NUMBER OF HOURS DEVOTED TO
-32 THE PERFORMANCE OF CONSTRUCTION, ALTERATION, OR REPAIR WORK BY ANY
-33 INDIVIDUAL AND EXCLUDES HOURS WORKED BY:
+26 [(d)] (E) “Covered project” means a project for the construction of a public work[,
+27 as defined under § 17–201 of this title, that is valued at $500,000 or more] THAT IS
+28 SUBJECT TO SUBTITLE 2 OF THIS TITLE.
 END OF PAGE 6
 
 START OF PAGE 7
 HOUSE BILL 864 7
 
-1 (1) FOREMEN;
+1 [(e)] (F) “Department” means the Maryland Department of Labor.
 
-2 (2) SUPERINTENDENTS;
+2 [(f)] (G) “Fund” means the State Apprenticeship Training Fund established
+3 under § 17–602 of this subtitle.
 
-3 (3) OWNERS; OR
+4 (H) “LABOR HOURS” MEANS THE TOTAL NUMBER OF HOURS DEVOTED TO
+5 THE PERFORMANCE OF CONSTRUCTION, ALTERATION, OR REPAIR WORK BY ANY
+6 INDIVIDUAL AND EXCLUDES HOURS WORKED BY:
 
-4 (4) ANY PERSON EMPLOYED IN A BONA FIDE EXECUTIVE,
-5 ADMINISTRATIVE, OR PROFESSIONAL CAPACITY, AS DEFINED IN 29 C.F.R. PART
-6 541.
+7 (1) FOREMEN;
 
-7 [(g)] (I) “Participates in an apprenticeship training program” means that a
-8 contractor or subcontractor makes regular financial contributions for each covered craft to
-9 apprenticeship training programs for covered crafts during the term of the covered project
-10 that are at least equal to the hourly fringe benefit contribution rates required for
-11 apprenticeship training by the applicable prevailing wage determination for the project, as
-12 specified by the Secretary.
+8 (2) SUPERINTENDENTS;
 
-13 (J) “QUALIFYING APPRENTICE OR JOURNEYWORKER” MEANS
-14 AN INDIVIDUAL WHO:
+9 (3) OWNERS; OR
 
-15 (1) HAS GRADUATED FROM A REGISTERED APPRENTICESHIP
-16 TRAINING PROGRAM WITHIN 3 YEARS BEFORE THE START DATE OF THE COVERED
-17 PROJECT;
+10 (4) ANY PERSON EMPLOYED IN A BONA FIDE EXECUTIVE,
+11 ADMINISTRATIVE, OR PROFESSIONAL CAPACITY, AS DEFINED IN 29 C.F.R. PART
+12 541.
 
-18 (2) IS CURRENTLY COMPLETING, OR HAS COMPLETED WITHIN 3
-19 YEARS BEFORE THE START DATE OF THE COVERED PROJECT, THE EQUIVALENT
-20 OF AN APPRENTICESHIP IN LENGTH AND CONTENT OF WORK EXPERIENCE AND
-21 ALL REQUIREMENTS IN THE APPRENTICESHIP STANDARDS FOR A CRAFT; OR
+13 [(g)] (I) “Participates in an apprenticeship training program” means that a
+14 contractor or subcontractor makes regular financial contributions for each covered craft to
+15 apprenticeship training programs for covered crafts during the term of the covered project
+16 that are at least equal to the hourly fringe benefit contribution rates required for
+17 apprenticeship training by the applicable prevailing wage determination for the project, as
+18 specified by the Secretary.
 
-22 (3) IS ENROLLED IN A REGISTERED APPRENTICESHIP TRAINING PROGRAM.
+19 (J) “QUALIFYING APPRENTICE OR JOURNEYWORKER” MEANS
+20 AN INDIVIDUAL WHO:
 
-23 (K) “QUALIFIED APPRENTICESHIP PROGRAM” MEANS A PREAPPRENTICESHIP
-24 PROGRAM, APPRENTICESHIP PROGRAM, OR WORKFORCE DEVELOPMENT PROGRAM
-25 THAT IS AFFILIATED WITH OR PROVIDES PARTICIPANTS WITH ACCESS TO A
-26 REGISTERED APPRENTICESHIP TRAINING PROGRAM THAT HAS A COMPLETION
-27 RATE OF AT LEAST 25%, AS DETERMINED BY THE DEPARTMENT.
+21 (1) HAS GRADUATED FROM A REGISTERED APPRENTICESHIP
+22 TRAINING PROGRAM WITHIN 3 YEARS BEFORE THE START DATE OF THE COVERED
+23 PROJECT;
 
-28 [(h)] (L) “Secretary” means the Secretary of Labor.
+24 (2) IS CURRENTLY COMPLETING, OR HAS COMPLETED WITHIN 3 YEARS
+25 BEFORE THE START DATE OF THE COVERED PROJECT, THE EQUIVALENT OF AN
+26 APPRENTICESHIP IN LENGTH AND CONTENT OF WORK EXPERIENCE AND ALL
+27 REQUIREMENTS IN THE APPRENTICESHIP STANDARDS FOR A CRAFT; OR
 
-29 17–601.1.
-
-30 (A) THIS SUBTITLE APPLIES ONLY TO CONTRACTORS AND
-31 SUBCONTRACTORS WHO EMPLOY FOUR OR MORE INDIVIDUALS TO PERFORM WORK
-32 ON A COVERED PROJECT.
+28 (3) IS ENROLLED IN A REGISTERED APPRENTICESHIP TRAINING PROGRAM.
 END OF PAGE 7
 
 START OF PAGE 8
 8 HOUSE BILL 864
 
-1 (B) NOTHING IN THIS SUBTITLE MAY PREEMPT A LOCAL LAW OR POLICY
-2 PROVIDING FOR ADDITIONAL SKILLED AND TRAINED WORKFORCE REQUIREMENTS
-3 ON PUBLIC WORKS PROJECTS.
+1 (K) “QUALIFIED APPRENTICESHIP PROGRAM” MEANS A PREAPPRENTICESHIP
+2 PROGRAM, APPRENTICESHIP PROGRAM, OR WORKFORCE DEVELOPMENT
+3 PROGRAM THAT IS AFFILIATED WITH OR PROVIDES PARTICIPANTS WITH ACCESS
+4 TO A REGISTERED APPRENTICESHIP TRAINING PROGRAM THAT HAS A COMPLETION
+5 RATE OF AT LEAST 25%, AS DETERMINED BY THE DEPARTMENT.
 
-4 17–602.
+6 [(h)] (K) (L) “Secretary” means the Secretary of Labor.
 
-5 (a) There is a State Apprenticeship Training Fund in the Department.
+7 17–601.1.
 
-6 (b) The Fund consists of:
+8 (A) THIS SUBTITLE APPLIES ONLY TO CONTRACTORS AND
+9 SUBCONTRACTORS WHO EMPLOY FOUR OR MORE INDIVIDUALS TO PERFORM WORK
+10 ON A COVERED PROJECT.
 
-7 (1) payments made by contractors or subcontractors in accordance with
-8 this subtitle and Subtitle 6A of this title;
+11 (B) NOTHING IN THIS SUBTITLE MAY PREEMPT A LOCAL LAW OR POLICY
+12 PROVIDING FOR ADDITIONAL SKILLED AND TRAINED WORKFORCE REQUIREMENTS
+13 ON PUBLIC WORKS PROJECTS.
 
-9 (2) penalties collected as a result of violations of this subtitle and Subtitle
-10 6A of this title;
+14 17–602.
 
-11 (3) penalties collected as a result of violations of Title 14, Subtitle 8 of this
-12 article; AND
+15 (a) There is a State Apprenticeship Training Fund in the Department.
 
-13 (4) ANY MONEY FROM ANY OTHER SOURCE ACCEPTED FOR THE
-14 BENEFIT OF THE FUND.
+16 (b) The Fund consists of:
 
-15 (c) The Fund is a special, nonlapsing fund that is not subject to § 7–302 of this
-16 article.
+17 (1) payments made by contractors or subcontractors in accordance with
+18 this subtitle and Subtitle 6A of this title;
 
-17 (d) The State Treasurer shall hold the Fund separately, and the Comptroller shall
-18 account for the Fund.
+19 (2) penalties collected as a result of violations of this subtitle and Subtitle
+20 6A of this title; ~~and~~
 
-19 (e) The Secretary shall use money in the Fund to:
+21 (3) penalties collected as a result of violations of Title 14, Subtitle 8 of this
+22 article; AND
 
-20 (1) SUBJECT TO SUBSECTION (F) OF THIS SECTION, promote OR
-21 SUPPORT preapprenticeship programs, APPRENTICESHIP PROGRAMS, and other
-22 workforce development programs; and
+23 (4) ANY MONEY FROM ANY OTHER SOURCE ACCEPTED FOR THE
+24 BENEFIT OF THE FUND.
 
-23 (2) pay any costs associated with carrying out the provisions of this subtitle
-24 and Subtitle 6A of this title or Title 14, Subtitle 8 of this article.
-
-25 (F) FUNDS DISTRIBUTED UNDER SUBSECTION (E)(1) OF THIS SECTION
-26 SHALL BE AWARDED ONLY TO QUALIFIED APPRENTICESHIP PROGRAMS.
-
-27 17–602.1.
-
-28 (A) FOR CONSTRUCTION ON A COVERED PROJECT FOR WHICH A PUBLIC
-29 BODY ADVERTISES FOR BIDS OR PROPOSALS FOR A PUBLIC WORKS CONTRACT ON
-30 OR AFTER JANUARY 1, 2027, THE APPLICABLE PERCENTAGE IS 20%.
-
-31 (B) (1) ON OR BEFORE DECEMBER 31, 2028, AND EACH EVERY
-32 OTHER DECEMBER 31 THEREAFTER, THE SECRETARY SHALL SET THE APPLICABLE
-33 PERCENTAGE THAT WILL APPLY FOR THE FOLLOWING CALENDAR YEAR.
+25 (c) The Fund is a special, nonlapsing fund that is not subject to § 7–302 of this
+26 article.
 END OF PAGE 8
 
 START OF PAGE 9
 HOUSE BILL 864 9
 
-1 (2) THE APPLICABLE PERCENTAGE ADOPTED UNDER THIS
-2 SUBSECTION SHALL BE BASED ON, OVER THE PREVIOUS 2 YEARS:
+1 (d) The State Treasurer shall hold the Fund separately, and the Comptroller shall
+2 account for the Fund.
 
-3 (I) ENROLLMENT IN STATE APPRENTICESHIP PROGRAMS; AND
+3 (e) The Secretary shall use money in the Fund to:
 
-4 (II) ACTUAL APPRENTICESHIP UTILIZATION ON PUBLIC WORKS
-5 PROJECTS.
+4 (1) SUBJECT TO SUBSECTION (F) OF THIS SECTION, promote OR
+5 SUPPORT preapprenticeship programs, APPRENTICESHIP PROGRAMS, and other
+6 workforce development programs ~~in~~ ~~the~~ ~~State’s~~ ~~public~~ ~~secondary~~ ~~schools~~ ~~and~~ ~~community~~
+7 ~~colleges~~ ~~that~~ ~~assist~~ ~~students~~ ~~in~~ ~~preparing~~ ~~for~~ ~~and~~ ~~entering~~ ~~apprenticeship~~ ~~training~~
+8 ~~programs;~~ and
 
-6 (C) THE SECRETARY MAY ALTER THE APPLICABLE PERCENTAGE FOR A
-7 COVERED PROJECT TO MEET ANY RATIO REQUIREMENTS NECESSARY FOR
-8 APPRENTICE OR JOURNEYWORKER SUPERVISION IN THE COVERED CRAFT.
+9 (2) pay any costs associated with carrying out the provisions of this subtitle
+10 and Subtitle 6A of this title or Title 14, Subtitle 8 of this article.
 
-9 17–603.
+11 (F) FUNDS DISTRIBUTED UNDER SUBSECTION (E)(1) OF THIS SECTION
+12 SHALL BE AWARDED ONLY TO QUALIFIED APPRENTICESHIP PROGRAMS.
 
-10 (a) A contractor that is awarded a procurement contract for a covered project shall
-11 provide to a unit, as a condition of receiving the contract, written verification that:
+13 17–602.1.
 
-12 (1) the contractor participates in an apprenticeship training program for
-13 each covered craft in which it will employ persons for the covered project AND IS
-14 EMPLOYING THE NUMBER OF QUALIFYING NEW APPRENTICES OR
-15 JOURNEYWORKERS FOR A COVERED PROJECT NECESSARY TO MEET THE
-16 APPLICABLE PERCENTAGE FOR THE COVERED PROJECT; OR
+14 (A) FOR CONSTRUCTION ON A COVERED PROJECT FOR WHICH A PUBLIC
+15 BODY ADVERTISES FOR BIDS OR PROPOSALS FOR A PUBLIC WORKS CONTRACT ON
+16 OR AFTER JANUARY 1, 2027, THE APPLICABLE PERCENTAGE IS 20%.
 
-17 (2) the contractor will make payments to the Fund IN ACCORDANCE WITH
-18 § 17–605 OF THIS SUBTITLE; OR
+17 (B) (1) ON OR BEFORE DECEMBER 31, 2027 2028, AND EACH EVERY
+18 OTHER DECEMBER 31 THEREAFTER, THE SECRETARY SHALL SET THE APPLICABLE
+19 PERCENTAGE THAT WILL APPLY FOR THE FOLLOWING CALENDAR YEAR.
 
-19 (3) the contractor will make payments in amounts determined under §
-20 17–605 of this subtitle to a QUALIFIED APPRENTICESHIP PROGRAM for the
-21 purpose of supporting these programs.
+20 (2) THE APPLICABLE PERCENTAGE ADOPTED UNDER THIS
+21 SUBSECTION SHALL BE BASED ON, OVER THE PREVIOUS 2 YEARS:
 
-22 (b) The written verification required under subsection (a) of this section shall be
-23 provided by a contractor to the unit responsible for the project before the contractor
-24 commences performance under the procurement contract.
+22 (I) ENROLLMENT IN STATE APPRENTICESHIP PROGRAMS; AND
 
-25 (c) Organizations that have QUALIFIED apprenticeship programs and
-26 receive funds from contractors under subsection (a)(3) of this section shall certify to the
-27 Secretary that all funds received are used solely for the purpose of improving or expanding
-28 apprenticeship training in the State.
+23 (II) ACTUAL APPRENTICESHIP UTILIZATION ON PUBLIC WORKS
+24 PROJECTS.
 
-29 (d) The Secretary shall adopt regulations to establish a process for auditing
-30 organizations that provide QUALIFIED apprenticeship programs to ensure that
-31 all funds received under subsection (a)(3) of this section are used solely to improve and
-32 expand apprenticeship programs in the State.
+25 (C) THE SECRETARY MAY ALTER THE APPLICABLE PERCENTAGE FOR A
+26 COVERED PROJECT TO MEET ANY RATIO REQUIREMENTS NECESSARY FOR
+27 APPRENTICE OR JOURNEYWORKER SUPERVISION IN THE COVERED CRAFT.
 
-33 17–604.
+28 17–603.
 
-34 (a) A subcontractor that performs work at a value exceeding the small
-35 procurement amount specified in § 13–109 of this article for a covered project shall provide
-36 to a unit written verification that:
+29 (a) A contractor that is awarded a procurement contract for a covered project shall
+30 provide to a unit, as a condition of receiving the contract, written verification that:
 END OF PAGE 9
 
 START OF PAGE 10
 10 HOUSE BILL 864
 
-1 (1) the subcontractor participates in an apprenticeship training program
-2 for each covered craft in which it will employ persons AND IS EMPLOYING THE NUMBER
-3 OF QUALIFYING NEW APPRENTICES OR JOURNEYWORKERS FOR A
-4 COVERED PROJECT NECESSARY TO MEET THE APPLICABLE PERCENTAGE for the
-5 covered project; OR
+1 (1) the contractor participates in an apprenticeship training program for
+2 each covered craft in which it will employ persons for the covered project AND IS
+3 EMPLOYING THE NUMBER OF QUALIFYING NEW APPRENTICES OR
+4 JOURNEYWORKERS FOR A COVERED PROJECT NECESSARY TO MEET THE
+5 APPLICABLE PERCENTAGE FOR THE COVERED PROJECT;
 
-6 (2) the subcontractor will make payments to the Fund IN ACCORDANCE
-7 WITH § 17–605 OF THIS SUBTITLE; OR
+6 (2) the contractor will make payments to the Fund IN ACCORDANCE WITH
+7 § 17–605 OF THIS SUBTITLE; OR
 
-8 (3) the subcontractor will make payments in amounts determined under §
+8 (3) the contractor will make payments in amounts determined under §
 9 17–605 of this subtitle to a QUALIFIED APPRENTICESHIP PROGRAM for the
 10 purpose of supporting these programs.
 
 11 (b) The written verification required under subsection (a) of this section shall be
-12 provided by a subcontractor to the unit responsible for the project before the subcontractor
+12 provided by a contractor to the unit responsible for the project before the contractor
 13 commences performance under the procurement contract.
 
 14 (c) Organizations that have QUALIFIED apprenticeship programs and
@@ -484,85 +460,169 @@ START OF PAGE 10
 20 all funds received under subsection (a)(3) of this section are used solely to improve and
 21 expand apprenticeship programs in the State.
 
-22 17–605.
+22 17–604.
 
-23 (a) (1) A contractor or subcontractor shall make payments, as determined by the
-24 Secretary, not to exceed 25 cents per hour for each employee in each covered craft who is
-25 employed by the contractor or subcontractor on the covered project, IF THE CONTRACTOR
-26 OR SUBCONTRACTOR:
+23 (a) A subcontractor that performs work at a value exceeding the small
+24 procurement amount specified in § 13–109 of this article for a covered project shall provide
+25 to a unit written verification that:
 
-27 (I) ELECTS TO MAKE PAYMENTS TO THE FUND OR A QUALIFIED
-28 APPRENTICESHIP PROGRAM IN ACCORDANCE WITH THIS SUBTITLE; OR
+26 (1) the subcontractor participates in an apprenticeship training program
+27 for each covered craft in which it will employ persons AND IS EMPLOYING THE NUMBER
+28 OF QUALIFYING NEW APPRENTICES OR JOURNEYWORKERS FOR A
+29 COVERED PROJECT NECESSARY TO MEET THE APPLICABLE PERCENTAGE for the
+30 covered project;
 
-29 (II) FAILS TO MEET THEIR FULL QUALIFYING NEW
-30 APPRENTICE OR JOURNEYWORKER UTILIZATION REQUIREMENT UNDER THIS
-31 SUBTITLE.
+31 (2) the subcontractor will make payments to the Fund IN ACCORDANCE
+32 WITH § 17–605 OF THIS SUBTITLE; OR
 
-32 (2) If the prevailing wage determination for a covered craft includes a
-33 fringe benefit contribution for apprenticeship programs that exceeds 25 cents, the
-34 contractor or subcontractor shall pay the difference to the employees in the covered craft in
-35 wages.
-
-36 (3) Payments made under this section fulfill any obligations of the
-37 contractor or subcontractor regarding contributions for apprenticeship programs included
-38 in the prevailing wage determination under § 17–208 of this title.
+33 (3) the subcontractor will make payments in amounts determined under §
+34 17–605 of this subtitle to a QUALIFIED APPRENTICESHIP PROGRAM for the
 END OF PAGE 10
 
 START OF PAGE 11
 HOUSE BILL 864 11
 
-1 (4) Payments made under paragraph (1) of this subsection are permissible
-2 deductions under § 17–215(b) of this title.
+1 purpose of supporting these programs.
 
-3 (5) Payments made to the Fund in accordance with paragraph (1) of this
-4 subsection shall be made on a monthly basis.
+2 (b) The written verification required under subsection (a) of this section shall be
+3 provided by a subcontractor to the unit responsible for the project before the subcontractor
+4 commences performance under the procurement contract.
 
-5 (b) (1) If the Secretary determines that a contractor or subcontractor for a
-6 covered project has made contributions to an apprenticeship training program at rates
-7 lower than those required by this subtitle, OR HAS FAILED TO SATISFY THE
-8 QUALIFYING NEW APPRENTICE AND JOURNEYWORKER UTILIZATION REQUIREMENT
-9 UNDER THIS SUBTITLE, the contractor or subcontractor shall make payments to the Fund
-10 EQUAL TO THE PRO RATA difference between its contribution and the
-11 contribution rate required by this subtitle.
+5 (c) Organizations that have QUALIFIED apprenticeship programs and
+6 receive funds from contractors under subsection (a)(3) of this section shall certify to the
+7 Secretary that all funds received are used solely for the purpose of improving or expanding
+8 apprenticeship training in the State.
 
-12 (2) Payments made to the Fund in accordance with paragraph (1) of this
-13 subsection shall be made on a monthly basis.
+9 (d) The Secretary shall adopt regulations to establish a process for auditing
+10 organizations that provide QUALIFIED apprenticeship programs to ensure that
+11 all funds received under subsection (a)(3) of this section are used solely to improve and
+12 expand apprenticeship programs in the State.
 
-14 (c) A contractor shall report all apprenticeship payments made under this
-15 subtitle on prevailing wage payroll records required by § 17–220 of this title.
+13 17–604.1.
 
-16 (d) (1) A contractor or subcontractor that makes contributions to the Fund
-17 OR A QUALIFIED APPRENTICESHIP program may request that its
-18 contributions be directed to a specific preapprenticeship, APPRENTICESHIP, or workforce
-19 development program.
+14 (A) IN THIS SECTION, “ALL APPLICABLE APPRENTICESHIP TRAINING
+15 PROGRAMS” MEANS EACH APPRENTICESHIP TRAINING PROGRAM THAT HAS A
+16 GEOGRAPHIC AREA OF OPERATION THAT INCLUDES THE LOCATION OF THE
+17 COVERED PROJECT AND HAS A USUAL AND CUSTOMARY BUSINESS PRACTICE OF
+18 ENTERING INTO AGREEMENTS WITH EMPLOYERS FOR THE PLACEMENT OF
+19 APPRENTICES IN THE COVERED CRAFT.
 
-20 (2) The Secretary shall make a good–faith effort to accommodate requests
-21 received FOR CONTRIBUTIONS TO THE FUND in accordance with paragraph (1) of this
-22 subsection.
+20 (B) THE SECRETARY MAY WAIVE THE REQUIREMENTS UNDER § 17–603 OR
+21 § 17–604 OF THIS SUBTITLE IF A CONTRACTOR OR SUBCONTRACTOR SUBMITS A
+22 WRITTEN WAIVER APPLICATION, INCLUDING ANY SUPPORTING DOCUMENTATION
+23 REQUIRED BY THE SECRETARY, DEMONSTRATING THAT THE CONTRACTOR OR
+24 SUBCONTRACTOR:
 
-23 17–605.1.
+25 (1) SUBJECT TO SUBSECTION (C) OF THIS SECTION, HAS REQUESTED
+26 QUALIFIED APPRENTICES FROM ALL APPLICABLE APPRENTICESHIP TRAINING
+27 PROGRAMS; AND
 
-24 (A) WHILE CONSTRUCTION ACTIVITY ON A COVERED PROJECT IS ONGOING,
-25 EACH CONTRACTOR AND SUBCONTRACTOR PERFORMING WORK ON THE COVERED
-26 PROJECT SHALL SUBMIT A MONTHLY REPORT TO THE DEPARTMENT THAT
-27 INCLUDES:
+28 (2) FOR EACH REQUEST:
 
-28 (1) FOR EACH APPRENTICE OR JOURNEYWORKER:
-
-29 (I) THE NAME OF THE APPRENTICE OR JOURNEYWORKER;
-
-30 (II) THE NAME OF THE ASSOCIATED APPRENTICESHIP TRAINING
-31 PROGRAM; AND
-
-32 (III) THE APPRENTICE REGISTRATION OR IDENTIFICATION
-33 NUMBER;
-
-34 (2) THE TOTAL NUMBER OF APPRENTICES AND LABOR HOURS
-35 WORKED, CATEGORIZED BY TRADE OR CRAFT; AND
+29 (I) THE REQUEST HAS BEEN DENIED FOR A REASON THAT IS
+30 NOT THE RESULT OF A REFUSAL BY THE CONTRACTOR OR SUBCONTRACTOR TO
+31 COMPLY WITH THE ESTABLISHED STANDARDS AND REQUIREMENTS OF THE
+32 APPRENTICESHIP TRAINING PROGRAM; OR
 END OF PAGE 11
 
 START OF PAGE 12
 12 HOUSE BILL 864
+
+1 (II) THE APPRENTICESHIP TRAINING PROGRAM HAS FAILED TO
+2 RESPOND TO THE REQUEST WITHIN 10 BUSINESS DAYS AFTER THE DATE ON WHICH
+3 THE APPRENTICESHIP TRAINING PROGRAM RECEIVED THE REQUEST.
+
+4 (C) TO REQUEST QUALIFIED APPRENTICES FROM AN APPRENTICESHIP
+5 TRAINING PROGRAM, A CONTRACTOR OR SUBCONTRACTOR SHALL SUBMIT:
+
+6 (1) A REQUEST BY TELEPHONE AND IN WRITING SENT
+7 ELECTRONICALLY AND BY REGISTERED MAIL; AND
+
+8 (2) A REQUEST TO AN APPRENTICESHIP TRAINING PROGRAM WITH
+9 WHICH THE CONTRACTOR OR SUBCONTRACTOR DOES NOT HAVE AN EXISTING
+10 PARTICIPATION AGREEMENT, AT LEAST 90 CALENDAR DAYS BEFORE THE DATE THE
+11 CONTRACTOR OR SUBCONTRACTOR EXPECTS TO USE APPRENTICE LABOR.
+
+12 17–605.
+
+13 (a) (1) A contractor or subcontractor [that elects to make payments to the
+14 Fund in accordance with this subtitle] shall make payments, as determined by the
+15 Secretary, not to exceed 25 cents per hour for each employee in each covered craft who is
+16 employed by the contractor or subcontractor on the covered project, IF THE CONTRACTOR
+17 OR SUBCONTRACTOR:
+
+18 (I) ELECTS TO MAKE PAYMENTS TO THE FUND OR A QUALIFIED
+19 APPRENTICESHIP PROGRAM IN ACCORDANCE WITH THIS SUBTITLE; OR
+
+20 (II) FAILS TO MEET THEIR FULL QUALIFYING NEW
+21 APPRENTICE OR JOURNEYWORKER UTILIZATION REQUIREMENT UNDER THIS
+22 SUBTITLE.
+
+23 (2) If the prevailing wage determination for a covered craft includes a
+24 fringe benefit contribution for apprenticeship programs that exceeds 25 cents, the
+25 contractor or subcontractor shall pay the difference to the employees in the covered craft in
+26 wages.
+
+27 (3) Payments made under this section fulfill any obligations of the
+28 contractor or subcontractor regarding contributions for apprenticeship programs included
+29 in the prevailing wage determination under § 17–208 of this title.
+
+30 (4) Payments made under paragraph (1) of this subsection are permissible
+31 deductions under § 17–215(b) of this title.
+
+32 (5) Payments made to the Fund in accordance with paragraph (1) of this
+33 subsection shall be made on a monthly basis.
+END OF PAGE 12
+
+START OF PAGE 13
+HOUSE BILL 864 13
+
+1 (b) (1) If the Secretary determines that a contractor or subcontractor for a
+2 covered project has made contributions to an apprenticeship training program at rates
+3 lower than those required by this subtitle, OR HAS FAILED TO SATISFY THE QUALIFYING
+4 NEW APPRENTICE AND JOURNEYWORKER UTILIZATION REQUIREMENT UNDER THIS
+5 SUBTITLE, the contractor or subcontractor shall make payments to the Fund [for the]
+6 EQUAL TO THE PRO RATA difference between its contribution and the contribution
+7 rate required by this subtitle.
+
+8 (2) Payments made to the Fund in accordance with paragraph (1) of this
+9 subsection shall be made on a monthly basis.
+
+10 (c) A contractor shall report all apprenticeship payments made under this
+11 subtitle on prevailing wage payroll records required by § 17–220 of this title.
+
+12 (d) (1) A contractor or subcontractor that makes contributions to the Fund OR
+13 A QUALIFIED APPRENTICESHIP program, or an organization that has registered
+14 apprenticeship programs may request that its contributions be directed to a specific
+15 preapprenticeship, APPRENTICESHIP, or workforce development program.
+
+16 (2) The Secretary shall make a good–faith effort to accommodate requests
+17 received FOR CONTRIBUTIONS TO THE FUND in accordance with paragraph (1) of this
+18 subsection.
+
+19 17–605.1.
+
+20 (A) WHILE CONSTRUCTION ACTIVITY ON A COVERED PROJECT IS ONGOING,
+21 EACH CONTRACTOR AND SUBCONTRACTOR PERFORMING WORK ON THE COVERED
+22 PROJECT SHALL SUBMIT A MONTHLY REPORT TO THE DEPARTMENT THAT
+23 INCLUDES:
+
+24 (1) FOR EACH APPRENTICE OR JOURNEYWORKER:
+
+25 (I) THE NAME OF THE APPRENTICE OR JOURNEYWORKER;
+
+26 (II) THE NAME OF THE ASSOCIATED APPRENTICESHIP TRAINING
+27 PROGRAM; AND
+
+28 (III) THE APPRENTICE REGISTRATION OR IDENTIFICATION
+29 NUMBER;
+
+30 (2) THE TOTAL NUMBER OF APPRENTICES AND LABOR HOURS
+31 WORKED, CATEGORIZED BY TRADE OR CRAFT; AND
+END OF PAGE 13
+
+START OF PAGE 14
+14 HOUSE BILL 864
 
 1 (3) THE TOTAL NUMBER OF JOURNEYWORKERS AND LABOR HOURS
 2 WORKED, CATEGORIZED BY TRADE OR CRAFT.
@@ -581,13 +641,13 @@ START OF PAGE 12
 11 (C) THE DEPARTMENT SHALL MAINTAIN ON ITS WEBSITE:
 
 12 (1) DATA AGGREGATED FROM THE REPORTS RECEIVED UNDER
-13 SUBSECTIONS (A) AND (B) OF THIS SECTION SHOWING THE USE OF
-14 QUALIFYING NEW APPRENTICES AND JOURNEYWORKERS ON COVERED PROJECTS;
+13 SUBSECTIONS (A) AND (B) OF THIS SECTION SHOWING THE USE OF QUALIFYING
+14 NEW APPRENTICES AND JOURNEYWORKERS ON COVERED PROJECTS;
 15 AND
 
 16 (2) DESCRIPTIONS OF THE CIRCUMSTANCES OF ANY WAIVER
-17 PAYMENTS MADE BY EACH CONTRACTOR OR SUBCONTRACTOR UNDER § 17–605 OF
-18 THIS SUBTITLE.
+17 GRANTED UNDER § 17–604.1 PAYMENTS MADE BY EACH CONTRACTOR OR
+18 SUBCONTRACTOR UNDER § 17–605 OF THIS SUBTITLE.
 
 19 17–606.
 
@@ -607,34 +667,35 @@ START OF PAGE 12
 
 30 (2) Any person, firm, or corporation that is found to have made willfully a
 31 false or fraudulent representation or omission regarding a material fact in connection with
-32 prevailing wage records required by this section shall be liable for a civil penalty in an
-33 amount of up to $1,000 for each employee and each falsified record.
+END OF PAGE 14
 
-34 (3) Penalties shall be recoverable [in civil actions and paid to the State]
-35 UNDER THE MARYLAND FALSE CLAIMS ACT BY ORDER OF THE SECRETARY AND
-36 PAID TO THE GENERAL FUND.
-END OF PAGE 12
+START OF PAGE 15
+HOUSE BILL 864 15
 
-START OF PAGE 13
-HOUSE BILL 864 13
+1 prevailing wage records required by this section shall be liable for a civil penalty in an
+2 amount of up to $1,000 for each employee and each falsified record.
 
-1 (c) (1) The Secretary shall adopt regulations to establish administrative
-2 procedures for the collection of payments under this subtitle.
+3 (3) Penalties shall be recoverable [in civil actions and paid to the State]
+4 UNDER THE MARYLAND FALSE CLAIMS ACT BY ORDER OF THE SECRETARY AND
+5 PAID TO THE GENERAL FUND.
 
-3 (2) (i) The Secretary may file suit to enforce this section in any court of
-4 competent jurisdiction.
+6 (c) (1) The Secretary shall adopt regulations to establish administrative
+7 procedures for the collection of payments under this subtitle.
 
-5 (ii) In an action filed under this subsection, the court shall require
-6 the contractor or subcontractor to pay the amount required by subsection (a) of this section,
-7 including interest, reasonable counsel fees, and court costs.
+8 (2) (i) The Secretary may file suit to enforce this section in any court of
+9 competent jurisdiction.
 
-8 17–607.
+10 (ii) In an action filed under this subsection, the court shall require
+11 the contractor or subcontractor to pay the amount required by subsection (a) of this section,
+12 including interest, reasonable counsel fees, and court costs.
 
-9 THE SECRETARY SHALL ADOPT REGULATIONS NECESSARY TO CARRY OUT THE
-10 REQUIREMENTS OF THIS SUBTITLE.
+13 17–607.
 
-11 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
-12 October 1, 2026.
+14 THE SECRETARY SHALL ADOPT REGULATIONS NECESSARY TO CARRY OUT THE
+15 REQUIREMENTS OF THIS SUBTITLE.
+
+16 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
+17 October 1, 2026.
 
 Approved:
 
@@ -646,5 +707,4 @@ Speaker of the House of Delegates.
 
 ________________________________________________________________________________
 President of the Senate.
-END OF PAGE 13
-</bill>
+END OF PAGE 15

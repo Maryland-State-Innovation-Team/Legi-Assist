@@ -1,3 +1,4 @@
+START OF PAGE 1
 HOUSE BILL 894
 
 R2, Q8 (6lr0334)
@@ -38,580 +39,807 @@ CHAPTER ______
 6 Maryland Economic Development Corporation to prioritize certain redevelopment
 7 projects when making loans under the Strategic Infrastructure Revolving Loan
 8 Program; altering the authority of local legislative bodies to regulate land use
-9 planning on land located near certain transit stations; delaying the collection of
-10 certain development excise taxes and development impact fees for certain residential
-11 real estate projects, subject to certain exceptions; and generally relating to
-12 transit–oriented development.
 
-13 BY renumbering
-14 Article – Economic Development
-15 Section 5–709
-16 to be Section 5–710
+EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
+[Brackets] indicate matter deleted from existing law.
+Underlining indicates amendments to bill.
+~~Strike~~ ~~out~~ indicates matter stricken from the bill by amendment or deleted from the law by
+amendment.
+Italics indicate opposite chamber/conference committee amendments.*hb0894*
+END OF PAGE 1
+
+START OF PAGE 2
+2 HOUSE BILL 894
+
+1 planning on land located near certain transit stations; delaying the collection of
+2 certain development excise taxes and development impact fees for certain residential
+3 real estate projects, subject to ~~a~~ certain ~~exception~~ exceptions; ~~adding~~ ~~the~~ ~~use~~ ~~of~~ ~~project~~
+4 ~~labor~~ ~~agreements~~ ~~as~~ ~~a~~ ~~scoring~~ ~~preference~~ ~~for~~ ~~projects~~ ~~financed~~ ~~by~~ ~~the~~
+5 ~~Transit–Oriented~~ ~~Development~~ ~~Capital~~ ~~Grant~~ ~~and~~ ~~Revolving~~ ~~Loan~~ ~~Fund;~~ ~~applying~~
+6 ~~certain~~ ~~provisions~~ ~~of~~ ~~this~~ ~~Act~~ ~~retroactively;~~ and generally relating to transit–oriented
+7 development.
+
+8 BY renumbering
+9 Article – Economic Development
+10 Section 5–709
+11 to be Section 5–710
+12 Annotated Code of Maryland
+13 (2024 Replacement Volume and 2025 Supplement)
+
+14 BY repealing and reenacting, without amendments,
+15 Article – Economic Development
+16 Section 5–701(a) and 10–134(b)
 17 Annotated Code of Maryland
 18 (2024 Replacement Volume and 2025 Supplement)
 
-19 BY repealing and reenacting, without amendments,
+19 BY repealing and reenacting, with amendments,
 20 Article – Economic Development
-21 Section 5–701(a) and 10–134(b)
+21 Section 5–701(d), 5–707(e)(1), and 10–134(d)
 22 Annotated Code of Maryland
 23 (2024 Replacement Volume and 2025 Supplement)
 
-24 BY repealing and reenacting, with amendments,
+24 BY adding to
 25 Article – Economic Development
-26 Section 5–701(d), 5–707(e)(1), and 10–134(d)
+26 Section 5–709
 27 Annotated Code of Maryland
 28 (2024 Replacement Volume and 2025 Supplement)
 
-29 BY adding to
-30 Article – Economic Development
-31 Section 5–709
+29 BY repealing and reenacting, without amendments,
+30 Article – Land Use
+31 Section 1–101(a) and (g) and 7–501(a) and (i)
 32 Annotated Code of Maryland
+33 (2012 Volume and 2025 Supplement)
+
+34 BY repealing and reenacting, with amendments,
+35 Article – Land Use
+36 Section 1–401(b), 4–104, and 10–103(b)
+37 Annotated Code of Maryland
 38 (2012 Volume and 2025 Supplement)
 
-39 BY repealing and reenacting, with amendments,
-40 Article – Land Use
-41 Section 1–401(b), 4–104, and 10–103(b)
-42 Annotated Code of Maryland
-43 (2012 Volume and 2025 Supplement)
-
-44 BY adding to
-45 Article – Local Government
-46 Section 20–128
-47 Annotated Code of Maryland
-48 (2013 Volume and 2025 Supplement)
-
-49 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
-50 That Section(s) 5–709 of Article – Economic Development of the Annotated Code of
-51 Maryland be renumbered to be Section(s) 5–710.
-
-52 SECTION 2. AND BE IT FURTHER ENACTED, That the Laws of Maryland read
-53 as follows:
-
-54 Article – Economic Development
-
-55 5–701.
-
-56 (a) In this subtitle the following words have the meanings indicated.
+39 BY adding to
+40 Article – Local Government
+END OF PAGE 2
+
+START OF PAGE 3
+HOUSE BILL 894 3
+
+1 Section 20–128
+2 Annotated Code of Maryland
+3 (2013 Volume and 2025 Supplement)
+
+4 ~~BY~~ ~~repealing~~ ~~and~~ ~~reenacting,~~ ~~with~~ ~~amendments,~~
+5 ~~Article~~ ~~–~~ ~~Transportation~~
+6 ~~Section~~ ~~7–1204(b)(2)~~
+7 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+8 ~~(2020~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
-57 (d) “Enterprise zone” means an area:
+9 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
+10 That Section(s) 5–709 of Article – Economic Development of the Annotated Code of
+11 Maryland be renumbered to be Section(s) 5–710.
 
-58 (1) that meets the requirements of § 5–704(a) of this subtitle and is
-59 designated as an enterprise zone by the Secretary under § 5–704(b) of this subtitle;
+12 SECTION 2. AND BE IT FURTHER ENACTED, That the Laws of Maryland read
+13 as follows:
+
+14 Article – Economic Development
+
+15 5–701.
+
+16 (a) In this subtitle the following words have the meanings indicated.
+
+17 (d) “Enterprise zone” means an area:
 
-60 (2) (I) DESIGNATED AS A TRANSIT–ORIENTED DEVELOPMENT
-61 UNDER § 7–101 OF THE TRANSPORTATION ARTICLE;
+18 (1) that meets the requirements of § 5–704(a) of this subtitle and is
+19 designated as an enterprise zone by the Secretary under § 5–704(b) of this subtitle;
 
-62 (II) THAT IS SERVED BY A RAIL TRANSIT STATION THAT
-63 RECEIVES AT LEAST HOURLY SERVICE ON AVERAGE FROM 8:00 A.M. UNTIL 6:00 P.M.
-64 MONDAY THROUGH FRIDAY; AND
+20 (2) (I) DESIGNATED AS A TRANSIT–ORIENTED DEVELOPMENT
+21 UNDER § 7–101 OF THE TRANSPORTATION ARTICLE;
 
-65 (III) DESIGNATED AS AN ENTERPRISE ZONE IN ACCORDANCE
-66 WITH § 5–709 OF THIS SUBTITLE;
+22 (II) THAT IS SERVED BY A RAIL TRANSIT STATION THAT
+23 RECEIVES AT LEAST HOURLY SERVICE ON AVERAGE FROM 8:00 A.M. UNTIL 6:00 P.M.
+24 MONDAY THROUGH FRIDAY; AND
 
-67 (3) designated as an enterprise zone by the United States
-68 government under 42 U.S.C. §§ 11501 through 11505; or
+25 (III) DESIGNATED AS AN ENTERPRISE ZONE IN ACCORDANCE
+26 WITH § 5–709 OF THIS SUBTITLE;
 
-69 (4) designated as an empowerment zone or enterprise community by
-70 the United States government under 26 U.S.C. §§ 1391 through 1397F.
+27 [(2)] (3) designated as an enterprise zone by the United States
+28 government under 42 U.S.C. §§ 11501 through 11505; or
 
-71 5–707.
+29 [(3)] (4) designated as an empowerment zone or enterprise community by
+30 the United States government under 26 U.S.C. §§ 1391 through 1397F.
 
-72 (e) (1) (i) Notwithstanding subsection (d) of this section, except for a
-73 business entity certified to receive a property tax credit under § 9–103 of the Tax – Property
-74 Article for a tax year beginning before July 1, 2008, a business entity located in an
-75 enterprise zone may not receive the incentives and initiatives set forth in subsection (a)(1)
-76 and (2) of this section if the entity is located on land or within improvements owned by the
-77 federal government, the State, a county, or a municipal corporation unless the business
-78 entity has first utilized all applicable property tax exemptions under Title 7 of the
-79 Tax – Property Article, including entering into any available payment in lieu of tax
-80 agreement.
+31 5–707.
+END OF PAGE 3
 
-81 (ii) Subparagraph (i) of this paragraph does not apply to a business
-82 entity leasing land or improvements owned by the Maryland Economic Development
-83 Corporation OR THE MARYLAND DEPARTMENT OF TRANSPORTATION.
+START OF PAGE 4
+4 HOUSE BILL 894
 
-84 5–709.
+1 (e) (1) (i) Notwithstanding subsection (d) of this section, except for a
+2 business entity certified to receive a property tax credit under § 9–103 of the Tax – Property
+3 Article for a tax year beginning before July 1, 2008, a business entity located in an
+4 enterprise zone may not receive the incentives and initiatives set forth in subsection (a)(1)
+5 and (2) of this section if the entity is located on land or within improvements owned by the
+6 federal government, the State, a county, or a municipal corporation unless the business
+7 entity has first utilized all applicable property tax exemptions under Title 7 of the
+8 Tax – Property Article, including entering into any available payment in lieu of tax
+9 agreement.
 
-85 (A) (1) SUBJECT TO PARAGRAPH (2) OF THIS SUBSECTION, AN AREA
-86 DESIGNATED AS A TRANSIT–ORIENTED DEVELOPMENT UNDER § 7–101 OF THE
-87 TRANSPORTATION ARTICLE BEFORE OCTOBER 1, 2026, THAT IS SERVED BY A RAIL
-88 TRANSIT STATION THAT RECEIVES AT LEAST HOURLY SERVICE ON AVERAGE FROM
-89 8:00 A.M. UNTIL 6:00 P.M. MONDAY THROUGH FRIDAY IS ELIGIBLE TO
-90 AUTOMATICALLY BE DESIGNATED AS AN ENTERPRISE ZONE UNDER THE PROVISIONS
-91 OF THIS SUBTITLE NOTWITHSTANDING THE LIMIT ON THE NUMBER OF ENTERPRISE
-92 ZONES THAT THE SECRETARY MAY DESIGNATE UNDER § 5–704(B) OF THIS
-93 SUBTITLE.
+10 (ii) Subparagraph (i) of this paragraph does not apply to a business
+11 entity leasing land or improvements owned by the Maryland Economic Development
+12 Corporation OR THE MARYLAND DEPARTMENT OF TRANSPORTATION.
 
-94 (2) THE LOCAL GOVERNMENT OR MULTICOUNTY AGENCY WITH LAND
-95 USE AND PLANNING RESPONSIBILITY FOR THE AREA THAT REQUESTED THE AREA
-96 BE DESIGNATED AS A TRANSIT–ORIENTED DEVELOPMENT MAY ELECT, BY
-97 ORDINANCE, RESOLUTION, OR SIMILAR ACTION, TO DESIGNATE THE AREA AS AN
-98 ENTERPRISE ZONE.
+13 5–709.
 
-99 (B) (1) SUBJECT TO PARAGRAPH (2) OF THIS SUBSECTION, AN AREA
-100 DESIGNATED AS A TRANSIT–ORIENTED DEVELOPMENT UNDER § 7–101 OF THE
-101 TRANSPORTATION ARTICLE ON OR AFTER OCTOBER 1, 2026, THAT IS SERVED BY A
-102 RAIL TRANSIT STATION THAT RECEIVES AT LEAST HOURLY SERVICE ON AVERAGE
-103 FROM 8:00 A.M. UNTIL 6:00 P.M. MONDAY THROUGH FRIDAY SHALL
-104 AUTOMATICALLY BE DESIGNATED AS AN ENTERPRISE ZONE NOTWITHSTANDING THE
-105 LIMIT ON THE NUMBER OF ENTERPRISE ZONES THAT THE SECRETARY MAY
-106 DESIGNATE UNDER § 5–704(B) OF THIS SUBTITLE.
+14 (A) (1) AN SUBJECT TO PARAGRAPH (2) OF THIS SUBSECTION, AN AREA
+15 DESIGNATED AS A TRANSIT–ORIENTED DEVELOPMENT UNDER § 7–101 OF THE
+16 TRANSPORTATION ARTICLE BEFORE OCTOBER 1, 2026, THAT IS SERVED BY A RAIL
+17 TRANSIT STATION THAT RECEIVES AT LEAST HOURLY SERVICE ON AVERAGE FROM
+18 8:00 A.M. UNTIL 6:00 P.M. MONDAY THROUGH FRIDAY SHALL IS ELIGIBLE TO
+19 AUTOMATICALLY BE DESIGNATED AS AN ENTERPRISE ZONE UNDER THE PROVISIONS
+20 OF THIS SUBTITLE NOTWITHSTANDING THE LIMIT ON THE NUMBER OF ENTERPRISE
+21 ZONES THAT THE SECRETARY MAY DESIGNATE UNDER § 5–704(B) OF THIS
+22 SUBTITLE.
 
-107 (2) (I) AT THE TIME A TRANSIT–ORIENTED DEVELOPMENT AREA IS
-108 DESIGNATED, THE LOCAL GOVERNMENT OR MULTICOUNTY AGENCY WITH LAND USE
-109 AND PLANNING RESPONSIBILITY FOR THE AREA THAT REQUESTED THE AREA BE
-110 DESIGNATED AS A TRANSIT–ORIENTED DEVELOPMENT MAY ELECT NOT TO
-111 DESIGNATE THE AREA AS AN ENTERPRISE ZONE.
+23 (2) THE LOCAL GOVERNMENT OR MULTICOUNTY AGENCY WITH LAND
+24 USE AND PLANNING RESPONSIBILITY FOR THE AREA THAT REQUESTED THE AREA
+25 BE DESIGNATED AS A TRANSIT–ORIENTED DEVELOPMENT MAY ELECT, BY
+26 ORDINANCE, RESOLUTION, OR SIMILAR ACTION, TO DESIGNATE THE AREA AS AN
+27 ENTERPRISE ZONE.
 
-112 (II) AN ELECTION MADE UNDER SUBPARAGRAPH (I) OF THIS
-113 PARAGRAPH SHALL BE DONE, IN WRITING, TO THE SUSTAINABLE GROWTH
-114 SUBCABINET ESTABLISHED UNDER § 9–1403 OF THE STATE GOVERNMENT
-115 ARTICLE.
+28 (B) (1) SUBJECT TO PARAGRAPH (2) OF THIS SUBSECTION, AN AREA
+29 DESIGNATED AS A TRANSIT–ORIENTED DEVELOPMENT UNDER § 7–101 OF THE
+30 TRANSPORTATION ARTICLE ON OR AFTER OCTOBER 1, 2026, THAT IS SERVED BY A
+31 RAIL TRANSIT STATION THAT RECEIVES AT LEAST HOURLY SERVICE ON AVERAGE
+32 FROM 8:00 A.M. UNTIL 6:00 P.M. MONDAY THROUGH FRIDAY SHALL
+33 AUTOMATICALLY BE DESIGNATED AS AN ENTERPRISE ZONE NOTWITHSTANDING THE
+34 LIMIT ON THE NUMBER OF ENTERPRISE ZONES THAT THE SECRETARY MAY
+35 DESIGNATE UNDER § 5–704(B) OF THIS SUBTITLE.
 
-116 10–134.
+36 (2) (I) AT THE TIME A TRANSIT–ORIENTED DEVELOPMENT AREA IS
+37 DESIGNATED, THE LOCAL GOVERNMENT OR MULTICOUNTY AGENCY WITH LAND USE
+38 AND PLANNING RESPONSIBILITY FOR THE AREA THAT REQUESTED THE AREA BE
+END OF PAGE 4
 
-117 (b) (1) There is a Strategic Infrastructure Revolving Loan Program in the
-118 Maryland Economic Development Corporation.
+START OF PAGE 5
+HOUSE BILL 894 5
 
-119 (2) The purpose of the Program is to make loans for targeted investments
-120 in real estate and infrastructure projects to support transformative place–making, enhance
-121 transit–oriented development, enhance community development, and achieve inclusive and
-122 equitable economic growth objectives, with a focus on bringing underutilized assets into
-123 performance and generating revenue.
+1 DESIGNATED AS A TRANSIT–ORIENTED DEVELOPMENT MAY ELECT NOT TO
+2 DESIGNATE THE AREA AS AN ENTERPRISE ZONE.
 
-124 (d) (1) An applicant for a loan under this section shall submit to the
-125 Corporation an application on the form that the Corporation requires.
+3 (II) AN ELECTION MADE UNDER SUBPARAGRAPH (I) OF THIS
+4 PARAGRAPH SHALL BE DONE, IN WRITING, TO THE SUSTAINABLE GROWTH
+5 SUBCABINET ESTABLISHED UNDER § 9–1403 OF THE STATE GOVERNMENT
+6 ARTICLE.
 
-126 (2) The application shall include:
+7 10–134.
 
-127 (i) a detailed strategic plan for the targeted investment;
+8 (b) (1) There is a Strategic Infrastructure Revolving Loan Program in the
+9 Maryland Economic Development Corporation.
 
-128 (ii) the amount of money required for the activities described in the
-129 strategic plan;
+10 (2) The purpose of the Program is to make loans for targeted investments
+11 in real estate and infrastructure projects to support transformative place–making, enhance
+12 transit–oriented development, enhance community development, and achieve inclusive and
+13 equitable economic growth objectives, with a focus on bringing underutilized assets into
+14 performance and generating revenue.
 
-130 (iii) the money available to the applicant without financial assistance
-131 from the Program;
+15 (d) (1) An applicant for a loan under this section shall submit to the
+16 Corporation an application on the form that the Corporation requires.
 
-132 (iv) the amount of financial assistance requested from the Program;
+17 (2) The application shall include:
 
-133 (v) information relating to the financial status of the applicant,
-134 including, if applicable:
+18 (i) a detailed strategic plan for the targeted investment;
 
-135 1. a current balance sheet;
+19 (ii) the amount of money required for the activities described in the
+20 strategic plan;
 
-136 2. a profit and loss statement; and
+21 (iii) the money available to the applicant without financial assistance
+22 from the Program;
 
-137 3. credit references; and
+23 (iv) the amount of financial assistance requested from the Program;
 
-138 (vi) any other relevant information that the Corporation requests.
+24 (v) information relating to the financial status of the applicant,
+25 including, if applicable:
 
-139 (3) An applicant is eligible for a loan under the Program for projects located
-140 in a sustainable community, priority funding area, or transit–oriented development area.
+26 1. a current balance sheet;
 
-141 (4) The Corporation shall establish an Advisory Loan Committee to review
-142 loan applications and make recommendations to the Corporation on approval.
+27 2. a profit and loss statement; and
 
-143 (5) In making loans, the Corporation shall prioritize projects that:
+28 3. credit references; and
 
-144 (i) activate underutilized property owned by the government and
-145 institutions;
+29 (vi) any other relevant information that the Corporation requests.
+END OF PAGE 5
 
-146 (ii) REDEVELOP LAND CONTIGUOUS TO RAIL TRANSIT STATIONS
-147 THAT IS OWNED BY THE STATE, BALTIMORE CITY, OR THE WASHINGTON METROPOLITAN AREA
-148 TRANSIT AUTHORITY;
+START OF PAGE 6
+6 HOUSE BILL 894
 
-149 (III) offer significant development or redevelopment value;
+1 (3) An applicant is eligible for a loan under the Program for projects located
+2 in a sustainable community, priority funding area, or transit–oriented development area.
 
-150 (IV) leverage private investment; and
+3 (4) The Corporation shall establish an Advisory Loan Committee to review
+4 loan applications and make recommendations to the Corporation on approval.
 
-151 (V) have the potential for significant job growth or retention.
+5 (5) In making loans, the Corporation shall prioritize projects that:
 
-152 (6) Loans may be used:
+6 (i) activate underutilized property owned by the government and
+7 institutions;
 
-153 (i) to acquire property, including vacant sites;
+8 (ii) REDEVELOP STATE–OWNED LAND CONTIGUOUS TO RAIL
+9 TRANSIT STATIONS THAT IS OWNED BY THE STATE, BALTIMORE CITY, OR THE
+10 WASHINGTON METROPOLITAN AREA TRANSIT AUTHORITY;
 
-154 (ii) for design and development of a project; and
+11 (III) offer significant development or redevelopment value;
 
-155 (iii) for rehabilitation, construction, and demolition.
+12 [(iii)] (IV) leverage private investment; and
 
-156 Article – Land Use
+13 [(iv)] (V) have the potential for significant job growth or retention.
 
-157 1–101.
+14 (6) Loans may be used:
 
-158 (a) In this division the following words have the meanings indicated.
+15 (i) to acquire property, including vacant sites;
 
-159 (g) (1) “Legislative body” means the elected body of a local jurisdiction.
+16 (ii) for design and development of a project; and
 
-160 (2) “Legislative body” includes:
+17 (iii) for rehabilitation, construction, and demolition.
 
-161 (i) the board of county commissioners;
+18 Article – Land Use
 
-162 (ii) the county council; and
+19 1–101.
 
-163 (iii) the governing body of a municipal corporation.
+20 (a) In this division the following words have the meanings indicated.
 
-164 1–401.
+21 (g) (1) “Legislative body” means the elected body of a local jurisdiction.
 
-165 (b) The following provisions of this division apply to a charter county:
+22 (2) “Legislative body” includes:
 
-166 (1) this subtitle, including Parts II and III (Charter county –
-167 Comprehensive plans);
+23 (i) the board of county commissioners;
 
-168 (2) § 1–101(l), (m), and (o) (Definitions – “Plan”, “Priority funding area”,
-169 and “Sensitive area”);
+24 (ii) the county council; and
 
-170 (3) § 1–201 (Visions);
+25 (iii) the governing body of a municipal corporation.
 
-171 (4) § 1–206 (Required education);
+26 1–401.
+END OF PAGE 6
 
-172 (5) § 1–207 (Annual report – In general);
+START OF PAGE 7
+HOUSE BILL 894 7
 
-173 (6) § 1–208 (Annual report – Measures and indicators);
+1 (b) The following provisions of this division apply to a charter county:
 
-174 (7) Title 1, Subtitle 3 (Consistency);
+2 (1) this subtitle, including Parts II and III (Charter county –
+3 Comprehensive plans);
 
-175 (8) Title 1, Subtitle 5 (Growth Tiers);
+4 (2) § 1–101(l), (m), and (o) (Definitions – “Plan”, “Priority funding area”,
+5 and “Sensitive area”);
 
-176 (9) § 4–104(c) (Limitations – PARKING);
+6 (3) § 1–201 (Visions);
 
-177 (10) § 4–104(d) (Limitations – Manufactured homes and modular dwellings);
+7 (4) § 1–206 (Required education);
 
-178 (11) § 4–104(E) (LIMITATIONS – MIXED–USE DEVELOPMENT);
+8 (5) § 1–207 (Annual report – In general);
 
-179 (12) § 4–104(F) (LIMITATIONS – LAND FOR TRANSPORTATION USE);
+9 (6) § 1–208 (Annual report – Measures and indicators);
 
-180 (13) § 4–208 (Exceptions – Maryland Accessibility Code);
+10 (7) Title 1, Subtitle 3 (Consistency);
 
-181 (14) § 4–210 (Permits and variances – Solar panels);
+11 (8) Title 1, Subtitle 5 (Growth Tiers);
 
-182 (15) § 4–211 (Change in zoning classification – Energy generating
-183 systems);
+12 (9) § 4–104(c) (Limitations – [Bicycle parking)] PARKING);
 
-184 (16) § 4–212 (Agritourism);
+13 (10) § 4–104(d) (Limitations – Manufactured homes and modular dwellings);
 
-185 (17) § 4–213 (Alcohol production);
+14 (11) § 4–104(E) (LIMITATIONS – MIXED–USE DEVELOPMENT);
 
-186 (18) § 4–214 (Agricultural alcohol production);
+15 (12) § 4–104(F) (LIMITATIONS – STATE–OWNED LAND LAND FOR
+16 TRANSPORTATION USE);
 
-187 (19) § 4–215 (Pollinator–friendly vegetation management);
+17 [(11)] (13) § 4–208 (Exceptions – Maryland Accessibility Code);
 
-188 (20) § 4–216 (Limitations – Family child care homes and large family
-189 child care homes);
+18 [(12)] (14) § 4–210 (Permits and variances – Solar panels);
 
-190 (21) Title 4, Subtitle 5 (Accessory Dwelling Units);
+19 [(13)] (15) § 4–211 (Change in zoning classification – Energy generating
+20 systems);
 
-191 (22) § 5–102(d) (Subdivision regulations – Burial sites);
+21 [(14)] (16) § 4–212 (Agritourism);
 
-192 (23) § 5–104 (Major subdivision – Review);
+22 [(15)] (17) § 4–213 (Alcohol production);
 
-193 (24) Title 7, Subtitle 1 (Development Mechanisms);
+23 [(16)] (18) § 4–214 (Agricultural alcohol production);
 
-194 (25) Title 7, Subtitle 2 (Transfer of Development Rights);
+24 [(17)] (19) § 4–215 (Pollinator–friendly vegetation management);
+END OF PAGE 7
 
-195 (26) except in Montgomery County or Prince George’s County, Title
-196 7, Subtitle 3 (Development Rights and Responsibilities Agreements);
+START OF PAGE 8
+8 HOUSE BILL 894
 
-197 (27) Title 7, Subtitle 4 (Inclusionary Zoning);
+1 [(18)] (20) § 4–216 (Limitations – Family child care homes and large family
+2 child care homes);
 
-198 (28) Title 7, Subtitle 5 (Housing Expansion and Affordability);
+3 [(19)] (21) Title 4, Subtitle 5 (Accessory Dwelling Units);
 
-199 (29) § 8–401 (Conversion of overhead facilities);
+4 [(20)] (22) § 5–102(d) (Subdivision regulations – Burial sites);
 
-200 (30) for Baltimore County only, Title 9, Subtitle 3 (Single–County
-201 Provisions – Baltimore County);
+5 [(21)] (23) § 5–104 (Major subdivision – Review);
 
-202 (31) for Frederick County only, Title 9, Subtitle 10 (Single–County
-203 Provisions – Frederick County);
+6 [(22)] (24) Title 7, Subtitle 1 (Development Mechanisms);
 
-204 (32) for Howard County only, Title 9, Subtitle 13 (Single–County
-205 Provisions – Howard County);
+7 [(23)] (25) Title 7, Subtitle 2 (Transfer of Development Rights);
 
-206 (33) for Talbot County only, Title 9, Subtitle 18 (Single–County
-207 Provisions – Talbot County); and
+8 [(24)] (26) except in Montgomery County or Prince George’s County, Title
+9 7, Subtitle 3 (Development Rights and Responsibilities Agreements);
 
-208 (34) Title 11, Subtitle 2 (Civil Penalty).
+10 [(25)] (27) Title 7, Subtitle 4 (Inclusionary Zoning);
 
-209 4–104.
+11 [(26)] (28) Title 7, Subtitle 5 (Housing Expansion and Affordability);
 
-210 (a) (1) IN THIS SECTION THE FOLLOWING WORDS HAVE THE MEANINGS
-211 INDICATED.
+12 [(27)] (29) § 8–401 (Conversion of overhead facilities);
 
-212 (2) “ADEQUATE PARKING STUDY” MEANS A DATA–SUPPORTED
-213 ANALYSIS PREPARED FOR A DEVELOPMENT BY A LOCAL JURISDICTION TO
-214 EVALUATE WHETHER ONE OR MORE PARKING REQUIREMENTS, PARKING RATIOS, OR
-215 PARKING MANAGEMENT STANDARDS POTENTIALLY IMPOSED ON A DEVELOPMENT
-216 ARE JUSTIFIED TO ADDRESS LOCAL PARKING ISSUES.
+13 [(28)] (30) for Baltimore County only, Title 9, Subtitle 3 (Single–County
+14 Provisions – Baltimore County);
 
-217 (3) “MIXED–USE” HAS THE MEANING STATED IN § 7–501 OF
-218 THIS ARTICLE.
+15 [(29)] (31) for Frederick County only, Title 9, Subtitle 10 (Single–County
+16 Provisions – Frederick County);
 
-219 (4) “MODULAR dwelling” means a building assembly or system of building
-220 subassemblies designed for habitation as a dwelling for one or more individuals:
+17 [(30)] (32) for Howard County only, Title 9, Subtitle 13 (Single–County
+18 Provisions – Howard County);
 
-221 (I) that includes the necessary electrical, plumbing, heating,
-222 ventilating, and other service systems;
+19 [(31)] (33) for Talbot County only, Title 9, Subtitle 18 (Single–County
+20 Provisions – Talbot County); and
 
-223 (II) that is made or assembled by a manufacturer on or off the
-224 building site for installation, or assembly and installation, on the building site; and
+21 [(32)] (34) Title 11, Subtitle 2 (Civil Penalty).
 
-225 (III) installed and set up according to the manufacturer’s instructions
-226 on an approved foundation and support system.
+22 4–104.
 
-227 (b) (1) The powers granted to a local jurisdiction under this subtitle do not:
+23 (a) (1) IN THIS SECTION THE FOLLOWING WORDS HAVE THE MEANINGS
+24 INDICATED.
 
-228 (I) grant the local jurisdiction powers in any substantive area not
-229 otherwise granted to the local jurisdiction by any other public general or public local law;
+25 (2) “ADEQUATE PARKING STUDY” MEANS A DATA–SUPPORTED
+26 ANALYSIS PREPARED FOR A DEVELOPMENT BY A LOCAL JURISDICTION TO
+27 EVALUATE WHETHER ONE OR MORE PARKING REQUIREMENTS, PARKING RATIOS, OR
+END OF PAGE 8
 
-230 (II) restrict the local jurisdiction from exercising any power granted
-231 to the local jurisdiction by any other public general or public local law or otherwise;
+START OF PAGE 9
+HOUSE BILL 894 9
 
-232 (III) authorize the local jurisdiction or its officers to engage in any
-233 activity that is beyond their power under any other public general or public local law or
-234 otherwise; or
+1 PARKING MANAGEMENT STANDARDS POTENTIALLY IMPOSED ON A DEVELOPMENT
+2 ARE JUSTIFIED TO ADDRESS LOCAL PARKING ISSUES.
 
-235 (IV) preempt or supersede the regulatory authority of any unit of the
-236 State under any public general law.
+3 (2) (3) “MIXED–USE” HAS THE MEANING STATED IN § 7–501 OF
+4 THIS ARTICLE.
 
-237 (2) SUBSECTIONS (C)(2) AND (E) OF THIS SECTION DO NOT APPLY TO:
+5 (3) (4) [In this section, “modular] “MODULAR dwelling” means a
+6 building assembly or system of building subassemblies designed for habitation as a
+7 dwelling for one or more individuals:
 
-238 (I) A RAIL STATION LOCATED ON THE CAMPUS OF AN
-239 INSTITUTION OF HIGHER EDUCATION, AS DEFINED IN § 10–101 OF THE EDUCATION
-240 ARTICLE; OR
+8 [(1)] (I) that includes the necessary electrical, plumbing, heating,
+9 ventilating, and other service systems;
 
-241 (II) PROPERTY THAT:
+10 [(2)] (II) that is made or assembled by a manufacturer on or off the
+11 building site for installation, or assembly and installation, on the building site; and
 
-242 1. IS PARTIALLY LOCATED OUTSIDE:
+12 [(3)] (III) installed and set up according to the manufacturer’s instructions
+13 on an approved foundation and support system.
 
-243 A. FOR THE PROVISIONS IN SUBSECTION (C)(2) OF THIS
-244 SECTION, 0.25 MILES OF THE RAIL TRANSIT STATION; OR
+14 (b) (1) The powers granted to a local jurisdiction under this subtitle do not:
 
-245 B. FOR THE PROVISIONS IN SUBSECTION (E) OF THIS
-246 SECTION, 0.5 MILES OF THE RAIL TRANSIT STATION; OR
+15 [(1)] (I) grant the local jurisdiction powers in any substantive area not
+16 otherwise granted to the local jurisdiction by any other public general or public local law;
 
-247 2. IS IN AN AREA THAT WAS ZONED FOR SINGLE–FAMILY
-248 RESIDENTIAL USE ON JANUARY 1, 2026.
+17 [(2)] (II) restrict the local jurisdiction from exercising any power granted
+18 to the local jurisdiction by any other public general or public local law or otherwise;
 
-249 (c) (1) (I) If a legislative body regulates off–street parking, the legislative
-250 body shall require space for the parking of bicycles in a manner that the legislative body
-251 considers appropriate.
+19 [(3)] (III) authorize the local jurisdiction or its officers to engage in any
+20 activity that is beyond their power under any other public general or public local law or
+21 otherwise; or
 
-252 (II) A legislative body may allow a reduction in the number of
-253 required automobile parking spaces based on the availability of space for parking bicycles.
+22 [(4)] (IV) preempt or supersede the regulatory authority of any unit of the
+23 State under any public general law.
 
-254 (2) EXCEPT AS PROVIDED IN PARAGRAPH (3) OF THIS SUBSECTION,
-255 A LEGISLATIVE BODY OR OTHER LOCAL AGENCY WITH LAND USE AUTHORITY MAY
-256 NOT IMPOSE A MINIMUM OFF–STREET PARKING REQUIREMENT ON A RESIDENTIAL
-257 OR MIXED–USE DEVELOPMENT THAT IS LOCATED WITHIN 0.25 MILES OF A RAIL
-258 TRANSIT STATION THAT RECEIVES AT LEAST HOURLY SERVICE ON AVERAGE FROM
-259 8:00 A.M. UNTIL 6:00 P.M. MONDAY THROUGH FRIDAY.
+24 (2) SUBSECTIONS (C)(2) AND (E) OF THIS SECTION DO NOT APPLY TO:
 
-260 (3) (I) A LEGISLATIVE BODY OR OTHER LOCAL AGENCY WITH LAND
-261 USE AUTHORITY MAY IMPOSE A MINIMUM OFF–STREET PARKING REQUIREMENT ON
-262 A RESIDENTIAL OR MIXED–USE DEVELOPMENT THAT IS LOCATED WITHIN 0.25 MILES
-263 OF A RAIL TRANSIT STATION THAT RECEIVES AT LEAST HOURLY SERVICE ON
-264 AVERAGE FROM 8:00 A.M. UNTIL 6:00 P.M. MONDAY THROUGH FRIDAY IF:
+25 (I) A RAIL STATION LOCATED ON THE CAMPUS OF AN
+26 INSTITUTION OF HIGHER EDUCATION, AS DEFINED IN § 10–101 OF THE EDUCATION
+27 ARTICLE; OR
 
-265 1. THE LEGISLATIVE BODY OR OTHER LOCAL AGENCY HAS
-266 PERFORMED AN ADEQUATE PARKING STUDY WITHIN THE 3 YEARS PRIOR TO THE
-267 SUBMISSION OF A DEVELOPMENT APPLICATION; AND
+28 (II) PROPERTY THAT:
 
-268 2. THE DEPARTMENT OF TRANSPORTATION CONCURRED IN THE
-269 FINDINGS OF THE PARKING STUDY.
+29 1. IS PARTIALLY LOCATED OUTSIDE:
+END OF PAGE 9
 
-270 (II) 1. THE DEPARTMENT OF TRANSPORTATION SHALL
-271 PROVIDE ITS DECISION ON THE FINDINGS OF THE ADEQUATE PARKING STUDY
-272 WITHIN 45 DAYS AFTER THE FINDINGS ARE SUBMITTED TO THE DEPARTMENT.
+START OF PAGE 10
+10 HOUSE BILL 894
 
-273 2. FAILURE TO PROVIDE A DECISION WITHIN 45 DAYS
-274 SHALL BE DEEMED AS THE DEPARTMENT OF TRANSPORTATION CONCURRING
-275 WITH THE FINDINGS OF THE ADEQUATE PARKING STUDY.
+1 A. FOR THE PROVISIONS IN SUBSECTION (C)(2) OF THIS
+2 SECTION, 0.25 MILES OF THE RAIL TRANSIT STATION; OR
 
-276 (d) A legislative body may not prohibit the placement of a new manufactured
-271 home or modular dwelling in a zone that allows single–family residential uses if the home
-272 or dwelling:
+3 B. FOR THE PROVISIONS IN SUBSECTION (E) OF THIS
+4 SECTION, 0.5 MILES OF THE RAIL TRANSIT STATION; OR
 
-273 (1) (i) meets the definition of modular dwelling under subsection (a) of
-274 this section; or
+5 2. IS IN AN AREA THAT WAS ZONED FOR SINGLE–FAMILY
+6 RESIDENTIAL USE ON JANUARY 1, 2026.
 
-275 (ii) meets the definition of a manufactured home in § 9–102(a) of the
-276 Commercial Law Article and is, or will be after purchase, converted to real property in
-277 accordance with Title 8B, Subtitle 2 of the Real Property Article; or
+7 (c) (1) (I) If a legislative body regulates off–street parking, the legislative
+8 body shall require space for the parking of bicycles in a manner that the legislative body
+9 considers appropriate.
 
-278 (2) is located on land:
+10 [(2)] (II) A legislative body may allow a reduction in the number of
+11 required automobile parking spaces based on the availability of space for parking bicycles.
 
-279 (i) currently or previously owned by the federal government;
+12 (2) A EXCEPT AS PROVIDED IN PARAGRAPH (3) OF THIS SUBSECTION,
+13 A LEGISLATIVE BODY OR OTHER LOCAL AGENCY WITH LAND USE AUTHORITY MAY
+14 NOT IMPOSE A MINIMUM OFF–STREET PARKING REQUIREMENT ON A RESIDENTIAL
+15 OR MIXED–USE DEVELOPMENT THAT IS LOCATED WITHIN 0.25 MILES OF A RAIL
+16 TRANSIT STATION THAT RECEIVES AT LEAST HOURLY SERVICE ON AVERAGE FROM
+17 8:00 A.M. UNTIL 6:00 P.M. MONDAY THROUGH FRIDAY.
 
-280 (ii) greater than 80 acres in size; and
+18 (3) (I) A LEGISLATIVE BODY OR OTHER LOCAL AGENCY WITH LAND
+19 USE AUTHORITY MAY IMPOSE A MINIMUM OFF–STREET PARKING REQUIREMENT ON
+20 A RESIDENTIAL OR MIXED–USE DEVELOPMENT THAT IS LOCATED WITHIN 0.25 MILES
+21 OF A RAIL TRANSIT STATION THAT RECEIVES AT LEAST HOURLY SERVICE ON
+22 AVERAGE FROM 8:00 A.M. UNTIL 6:00 P.M. MONDAY THROUGH FRIDAY IF:
 
-281 (iii) that was the site of a former U.S. military reservation.
+23 1. THE LEGISLATIVE BODY OR OTHER LOCAL AGENCY
+24 HAS PERFORMED AN ADEQUATE PARKING STUDY WITHIN THE 3 YEARS PRIOR TO
+25 THE SUBMISSION OF A DEVELOPMENT APPLICATION; AND
 
-282 (E) A LOCAL JURISDICTION’S ZONING REGULATIONS SHALL ALLOW
-283 MIXED–USE DEVELOPMENT ON LAND DESIGNATED FOR RESIDENTIAL USE OR
-284 APPROPRIATE COMMERCIAL USE FOR MIXED–USE DEVELOPMENT WITHIN 0.5 MILES
-285 OF A RAIL TRANSIT STATION THAT RECEIVES AT LEAST HOURLY SERVICE ON
-286 AVERAGE FROM 8:00 A.M. UNTIL 6:00 P.M. MONDAY THROUGH FRIDAY.
+26 2. THE DEPARTMENT OF TRANSPORTATION
+27 CONCURRED IN THE FINDINGS OF THE PARKING STUDY.
 
-287 (F) FOR LAND THAT IS OWNED BY THE STATE, BALTIMORE CITY, OR THE WASHINGTON
-288 METROPOLITAN AREA TRANSIT AUTHORITY THAT IS IN USE FOR A
-289 TRANSPORTATION PURPOSE CONTIGUOUS TO A RAIL TRANSIT STATION THAT
-290 RECEIVES AT LEAST HOURLY SERVICE ON AVERAGE FROM 8:00 A.M. UNTIL 6:00 P.M.
-291 MONDAY THROUGH FRIDAY, A LEGISLATIVE BODY OR OTHER LOCAL AGENCY WITH
-292 LAND USE AUTHORITY MAY NOT IMPOSE LIMITATIONS OR RESTRICTIONS ON LAND
-293 USE CLASSIFICATION, HEIGHT, OR SETBACK, OR ANY SIMILAR REQUIREMENTS IF
-294 THE LAND IS SUBJECT TO A TRANSIT–ORIENTED DEVELOPMENT PLAN APPROVED
-295 BY THE DEPARTMENT OF TRANSPORTATION AND DEVELOPED IN COORDINATION
-296 WITH THE LOCAL JURISDICTION.
+28 (II) 1. THE DEPARTMENT OF TRANSPORTATION SHALL
+29 PROVIDE ITS DECISION ON THE FINDINGS OF THE ADEQUATE PARKING STUDY
+30 WITHIN 45 DAYS AFTER THE FINDINGS ARE SUBMITTED TO THE DEPARTMENT.
 
-297 (G) SUBSECTIONS (E) AND (F) OF THIS SECTION MAY NOT BE CONSTRUED TO
-298 ALTER THE LAND USE AUTHORITY OF A LOCAL JURISDICTION GOVERNING:
+31 2. FAILURE TO PROVIDE A DECISION WITHIN 45 DAYS
+32 SHALL BE DEEMED AS THE DEPARTMENT OF TRANSPORTATION CONCURRING WITH
+33 THE FINDINGS OF THE ADEQUATE PARKING STUDY.
+END OF PAGE 10
 
-299 (1) ENVIRONMENTAL OR NATURAL RESOURCES CONCERNS;
+START OF PAGE 11
+HOUSE BILL 894 11
 
-300 (2) PUBLIC HEALTH AND SAFETY CONSIDERATIONS; OR
+1 (d) A legislative body may not prohibit the placement of a new manufactured
+2 home or modular dwelling in a zone that allows single–family residential uses if the home
+3 or dwelling:
 
-301 (3) ADEQUATE PUBLIC FACILITIES ORDINANCES.
+4 (1) (i) meets the definition of modular dwelling under subsection (a) of
+5 this section; or
 
-302 7–501.
+6 (ii) meets the definition of a manufactured home in § 9–102(a) of the
+7 Commercial Law Article and is, or will be after purchase, converted to real property in
+8 accordance with Title 8B, Subtitle 2 of the Real Property Article; or
 
-303 (a) In this subtitle the following words have the meanings indicated.
+9 (2) is located on land:
 
-304 (i) (1) “Mixed–use” means any combination of a residential use with a
-305 recreational, office, dining, or retail use.
+10 (i) currently or previously owned by the federal government;
 
-306 (2) “Mixed–use” does not mean any combination of a residential use with
-307 an industrial or hazardous use.
+11 (ii) greater than 80 acres in size; and
 
-308 10–103.
+12 (iii) that was the site of a former U.S. military reservation.
 
-309 (b) The following provisions of this division apply to Baltimore City:
+13 (E) A LOCAL JURISDICTION’S ZONING REGULATIONS SHALL ALLOW
+14 MIXED–USE DEVELOPMENT ON LAND DESIGNATED FOR RESIDENTIAL USE OR
+15 APPROPRIATE COMMERCIAL USE FOR MIXED–USE DEVELOPMENT WITHIN 0.5 MILES
+16 OF A RAIL TRANSIT STATION THAT RECEIVES AT LEAST HOURLY SERVICE ON
+17 AVERAGE FROM 8:00 A.M. UNTIL 6:00 P.M. MONDAY THROUGH FRIDAY.
 
-310 (1) this title;
+18 (F) FOR STATE–OWNED LAND THAT IS OWNED BY THE STATE, BALTIMORE
+19 CITY, OR THE WASHINGTON METROPOLITAN AREA TRANSIT AUTHORITY THAT IS
+20 IN USE FOR A TRANSPORTATION PURPOSE CONTIGUOUS TO A RAIL TRANSIT STATION
+21 THAT RECEIVES AT LEAST HOURLY SERVICE ON AVERAGE FROM 8:00 A.M. UNTIL
+22 6:00 P.M. MONDAY THROUGH FRIDAY, A LEGISLATIVE BODY OR OTHER LOCAL
+23 AGENCY WITH LAND USE AUTHORITY MAY NOT IMPOSE LIMITATIONS OR
+24 RESTRICTIONS ON LAND USE CLASSIFICATION, HEIGHT, OR SETBACK, OR ANY
+25 SIMILAR REQUIREMENTS IF THE LAND IS SUBJECT TO A TRANSIT–ORIENTED
+26 DEVELOPMENT PLAN APPROVED BY THE DEPARTMENT OF TRANSPORTATION AND
+27 DEVELOPED IN COORDINATION WITH THE LOCAL JURISDICTION.
 
-311 (2) § 1–101(m) (Definitions – “Priority funding area”);
+28 (G) SUBSECTIONS (E) AND (F) OF THIS SECTION MAY NOT BE CONSTRUED TO
+29 ALTER THE LAND USE AUTHORITY OF A LOCAL JURISDICTION GOVERNING:
 
-312 (3) § 1–101(o) (Definitions – “Sensitive area”);
+30 (1) ENVIRONMENTAL OR NATURAL RESOURCES CONCERNS;
 
-313 (4) § 1–201 (Visions);
+31 (2) PUBLIC HEALTH AND SAFETY CONSIDERATIONS; OR
 
-314 (5) § 1–206 (Required education);
+32 (3) ADEQUATE PUBLIC FACILITIES ORDINANCES.
+END OF PAGE 11
 
-315 (6) § 1–207 (Annual report – In general);
+START OF PAGE 12
+12 HOUSE BILL 894
 
-316 (7) § 1–208 (Annual report – Measures and indicators);
+1 7–501.
 
-317 (8) Title 1, Subtitle 3 (Consistency);
+2 (a) In this subtitle the following words have the meanings indicated.
 
-318 (9) Title 1, Subtitle 4, Parts II and III (Home Rule Counties –
-319 Comprehensive Plans; Implementation);
+3 (i) (1) “Mixed–use” means any combination of a residential use with a
+4 recreational, office, dining, or retail use.
 
-320 (10) § 4–104(c) (Limitations – PARKING);
+5 (2) “Mixed–use” does not mean any combination of a residential use with
+6 an industrial or hazardous use.
 
-321 (11) § 4–104(d) (Limitations – Manufactured homes and modular dwellings);
+7 10–103.
 
-322 (12) § 4–104(E) (LIMITATIONS – MIXED–USE DEVELOPMENT);
+8 (b) The following provisions of this division apply to Baltimore City:
 
-323 (13) § 4–104(F) (LIMITATIONS – LAND FOR TRANSPORTATION USE);
+9 (1) this title;
 
-324 (14) § 4–205 (Administrative adjustments);
+10 (2) § 1–101(m) (Definitions – “Priority funding area”);
 
-325 (15) § 4–208 (Exceptions – Maryland Accessibility Code);
+11 (3) § 1–101(o) (Definitions – “Sensitive area”);
 
-326 (16) § 4–210 (Permits and variances – Solar panels);
+12 (4) § 1–201 (Visions);
 
-327 (17) § 4–211 (Change in zoning classification – Energy generating
-328 systems);
+13 (5) § 1–206 (Required education);
 
-329 (18) § 4–215 (Pollinator–friendly vegetation management);
+14 (6) § 1–207 (Annual report – In general);
 
-330 (19) § 4–216 (Limitations – Family child care homes and large family
-331 child care homes);
+15 (7) § 1–208 (Annual report – Measures and indicators);
 
-332 (20) Title 4, Subtitle 5 (Accessory Dwelling Units);
+16 (8) Title 1, Subtitle 3 (Consistency);
 
-333 (21) § 5–102(d) (Subdivision regulations – Burial sites);
+17 (9) Title 1, Subtitle 4, Parts II and III (Home Rule Counties –
+18 Comprehensive Plans; Implementation);
 
-334 (22) Title 7, Subtitle 1 (Development Mechanisms);
+19 (10) § 4–104(c) (Limitations – [Bicycle parking)] PARKING);
 
-335 (23) Title 7, Subtitle 2 (Transfer of Development Rights);
+20 (11) § 4–104(d) (Limitations – Manufactured homes and modular dwellings);
 
-336 (24) Title 7, Subtitle 3 (Development Rights and Responsibilities
-337 Agreements);
+21 (12) § 4–104(E) (LIMITATIONS – MIXED–USE DEVELOPMENT);
 
-338 (25) Title 7, Subtitle 4 (Inclusionary Zoning);
+22 (13) § 4–104(F) (LIMITATIONS – STATE–OWNED LAND LAND FOR
+23 TRANSPORTATION USE);
 
-339 (26) Title 7, Subtitle 5 (Housing Expansion and Affordability); and
+24 [(12)] (14) § 4–205 (Administrative adjustments);
 
-340 (27) Title 11, Subtitle 2 (Civil Penalty).
+25 [(13)] (15) § 4–208 (Exceptions – Maryland Accessibility Code);
+END OF PAGE 12
 
-341 SECTION 3. AND BE IT FURTHER ENACTED, That the Laws of Maryland read
-342 as follows:
+START OF PAGE 13
+HOUSE BILL 894 13
 
-343 Article – Local Government
+1 [(14)] (16) § 4–210 (Permits and variances – Solar panels);
 
-344 20–128.
+2 [(15)] (17) § 4–211 (Change in zoning classification – Energy generating
+3 systems);
 
-345 (A) (1) IN THIS SECTION THE FOLLOWING WORDS HAVE THE MEANINGS
-346 INDICATED.
+4 [(16)] (18) § 4–215 (Pollinator–friendly vegetation management);
 
-347 (2) “DEVELOPMENT EXCISE TAX” MEANS AN EXCISE TAX IMPOSED BY
-348 A COUNTY OR MUNICIPALITY ON THE CONSTRUCTION OR IMPROVEMENT OF A
-349 BUILDING.
+5 [(17)] (19) § 4–216 (Limitations – Family child care homes and large family
+6 child care homes);
 
-350 (3) “DEVELOPMENT IMPACT FEE” MEANS A FEE IMPOSED BY A
-351 COUNTY OR MUNICIPALITY FOR THE PURPOSE OF FINANCING ANY OF THE CAPITAL
-352 COSTS OF ADDITIONAL OR EXPANDED PUBLIC WORKS, IMPROVEMENTS, AND
-353 FACILITIES REQUIRED TO ACCOMMODATE NEW CONSTRUCTION OR DEVELOPMENT.
+7 [(18)] (20) Title 4, Subtitle 5 (Accessory Dwelling Units);
 
-354 (4) “RESIDENTIAL REAL ESTATE PROJECT” MEANS A MIXED–USE
-355 DEVELOPMENT THAT:
+8 [(19)] (21) § 5–102(d) (Subdivision regulations – Burial sites);
 
-356 (I) INCLUDES RESIDENTIAL UNITS; AND
+9 [(20)] (22) Title 7, Subtitle 1 (Development Mechanisms);
 
-357 (II) IS LOCATED WITHIN A TRANSIT–ORIENTED DEVELOPMENT
-358 DESIGNATED UNDER § 7–101 OF THE TRANSPORTATION ARTICLE, WHERE THE
-359 DEVELOPMENT IS SERVED BY A RAIL TRANSIT STATION THAT RECEIVES AT LEAST
-360 HOURLY SERVICE ON AVERAGE FROM 8:00 A.M. UNTIL 6:00 P.M. MONDAY THROUGH
-361 FRIDAY.
+10 [(21)] (23) Title 7, Subtitle 2 (Transfer of Development Rights);
 
-376 (B) (1) EXCEPT AS PROVIDED IN PARAGRAPHS (2) AND (3) OF THIS
-377 SUBSECTION, ANY DEVELOPMENT EXCISE TAX OR DEVELOPMENT IMPACT FEE
-378 IMPOSED ON A RESIDENTIAL REAL ESTATE PROJECT MAY NOT BE COLLECTED UNTIL AFTER:
+11 [(22)] (24) Title 7, Subtitle 3 (Development Rights and Responsibilities
+12 Agreements);
 
-380 (I) CONSTRUCTION OF THE RESIDENTIAL REAL ESTATE
-381 PROJECT IS COMPLETE; AND
+13 [(23)] (25) Title 7, Subtitle 4 (Inclusionary Zoning);
 
-382 (II) ALL REQUIREMENTS FOR A CERTIFICATE OF OCCUPANCY,
-383 AN OCCUPANCY PERMIT, OR ANY OTHER LOCAL EQUIVALENT THAT HAS BEEN
-384 ISSUED FOR THE RESIDENTIAL REAL ESTATE PROJECT HAVE BEEN MET.
+14 [(24)] (26) Title 7, Subtitle 5 (Housing Expansion and Affordability); and
 
-385 (2) A DEVELOPMENT EXCISE TAX OR DEVELOPMENT IMPACT FEE
-386 IMPOSED ON A RESIDENTIAL REAL ESTATE PROJECT MAY BE COLLECTED AS A PRECONDITION TO
-387 CONDUCTING A FINAL INSPECTION, BUT NOT MORE THAN 30 DAYS PRIOR TO THE
-388 DATE OF THE INSPECTION OF THE PROJECT.
+15 [(25)] (27) Title 11, Subtitle 2 (Civil Penalty).
 
-390 (3) THIS SUBSECTION DOES NOT APPLY TO THE COLLECTION OF A
-391 DEVELOPMENT EXCISE TAX OR DEVELOPMENT IMPACT FEE THAT WAS IMPOSED ON A RESIDENTIAL REAL ESTATE PROJECT TO
-392 FINANCE A COUNTY DEBT THAT WAS INCURRED ON OR BEFORE JANUARY 1, 2026.
+16 ~~Article~~ ~~–~~ ~~Local~~ ~~Government~~
 
-393 (C) NOTWITHSTANDING ANY OTHER LAW, A COUNTY OR MUNICIPALITY
-394 THAT IMPOSES A DEVELOPMENT EXCISE TAX OR DEVELOPMENT IMPACT FEE ON A
-395 RESIDENTIAL REAL ESTATE PROJECT MAY DENY, WITHHOLD, OR REVOKE A CERTIFICATE OF OCCUPANCY, AN
-397 OCCUPANCY PERMIT, OR ANY OTHER LOCAL EQUIVALENT IF THE DEVELOPMENT
-398 EXCISE TAX OR DEVELOPMENT IMPACT FEE IS NOT PAID WITHIN A REASONABLE
-399 TIME PERIOD SET BY THE COUNTY OR MUNICIPALITY.
+17 20–128.
 
-400 SECTION 4. AND BE IT FURTHER ENACTED, That § 4–104(e) of the Land Use
-401 Article, as enacted by Section 2 of this Act, shall apply only to land use rezonings or actions
-402 taken by a legislative body on or after the effective date of this Act.
+18 (A) (1) IN THIS SECTION THE FOLLOWING WORDS HAVE THE MEANINGS
+19 INDICATED.
 
-403 SECTION 5. AND BE IT FURTHER ENACTED, That Section 3 of this Act shall take
-404 effect October 1, 2026, contingent on the failure of Chapter ____ (S.B. 325/H.B. 548) of the
-405 Acts of the General Assembly of 2026, and if Chapter ____ (S.B. 325/H.B. 548) becomes
-406 effective, Section 3 of this Act, with no further action required by the General Assembly,
-407 shall be null and void.
+20 (2) “DEVELOPMENT EXCISE TAX” MEANS AN EXCISE TAX IMPOSED BY
+21 A COUNTY OR MUNICIPALITY ON THE CONSTRUCTION OR IMPROVEMENT OF A
+22 BUILDING.
 
-408 SECTION 6. AND BE IT FURTHER ENACTED, That, except as provided in
-409 Section 5 of this Act, this Act shall take effect October 1, 2026.
+23 (3) “DEVELOPMENT IMPACT FEE” MEANS A FEE IMPOSED BY A
+24 COUNTY OR MUNICIPALITY FOR THE PURPOSE OF FINANCING ANY OF THE CAPITAL
+25 COSTS OF ADDITIONAL OR EXPANDED PUBLIC WORKS, IMPROVEMENTS, AND
+26 FACILITIES REQUIRED TO ACCOMMODATE NEW CONSTRUCTION OR DEVELOPMENT.
+END OF PAGE 13
+
+START OF PAGE 14
+14 HOUSE BILL 894
+
+1 (4) “QUALIFYING RESIDENTIAL REAL ESTATE PROJECT” MEANS A
+2 MIXED–USE DEVELOPMENT THAT:
+
+3 (I) INCLUDES RESIDENTIAL UNITS; AND
+
+4 (II) IS LOCATED WITHIN A TRANSIT–ORIENTED DEVELOPMENT
+5 DESIGNATED UNDER § 7–101 OF THE TRANSPORTATION ARTICLE, WHERE THE
+6 DEVELOPMENT IS SERVED BY A RAIL TRANSIT STATION THAT RECEIVES AT LEAST
+7 HOURLY SERVICE ON AVERAGE FROM 8:00 A.M. UNTIL 6:00 P.M. MONDAY THROUGH
+8 FRIDAY.
+
+9 (B) THIS SECTION APPLIES ONLY TO:
+
+10 (1) A COUNTY THAT:
+
+11 (I) IS A CHARTER COUNTY THAT IMPOSES, BY LAW,
+12 DEVELOPMENT IMPACT FEES, SURCHARGES, OR DEVELOPMENT EXCISE TAXES;
+
+13 (II) IS A CODE COUNTY WITH PUBLIC LOCAL LAWS THAT
+14 REQUIRE THE PAYMENT OF DEVELOPMENT IMPACT FEES, SURCHARGES, OR
+15 DEVELOPMENT EXCISE TAXES; OR
+
+16 (III) IS A COMMISSION COUNTY THAT:
+
+17 1. HAS BEEN AUTHORIZED TO ENACT DEVELOPMENT
+18 IMPACT FEES, SURCHARGES, OR DEVELOPMENT EXCISE TAXES; AND
+
+19 2. HAS ENACTED, BY LOCAL LAW, DEVELOPMENT
+20 IMPACT FEES, SURCHARGES, OR DEVELOPMENT EXCISE TAXES; AND
+
+21 (2) A MUNICIPALITY THAT IMPOSES, BY LOCAL LAW, DEVELOPMENT
+22 IMPACT FEES, SURCHARGES, OR DEVELOPMENT EXCISE TAXES.
+
+23 (C) THIS SECTION DOES NOT APPLY TO A DEVELOPMENT EXCISE TAX OR
+24 DEVELOPMENT IMPACT FEE IMPOSED FOR THE PURPOSE OF FUNDING THE
+25 CONSTRUCTION OF A CONNECTION TO A PUBLIC WATER OR SEWER SYSTEM.
+
+26 (D) ANY DEVELOPMENT EXCISE TAX OR DEVELOPMENT IMPACT FEE
+27 IMPOSED ON A QUALIFYING RESIDENTIAL REAL ESTATE PROJECT UNDER THE
+28 AUTHORITY GRANTED IN THIS ARTICLE MAY NOT BE COLLECTED UNTIL AFTER:
+
+29 (1) CONSTRUCTION OF THE QUALIFYING RESIDENTIAL REAL ESTATE
+30 PROJECT IS COMPLETE; AND
+END OF PAGE 14
+
+START OF PAGE 15
+HOUSE BILL 894 15
+
+1 (2) A CERTIFICATE OF OCCUPANCY, AN OCCUPANCY PERMIT, OR ANY
+2 OTHER LOCAL EQUIVALENT HAS BEEN ISSUED FOR THE QUALIFYING RESIDENTIAL
+3 REAL ESTATE PROJECT.
+
+4 (E) NOTWITHSTANDING ANY OTHER LAW, A COUNTY OR MUNICIPALITY
+5 THAT IMPOSES A DEVELOPMENT EXCISE TAX OR DEVELOPMENT IMPACT FEE ON A
+6 QUALIFYING RESIDENTIAL REAL ESTATE PROJECT UNDER THE AUTHORITY
+7 GRANTED IN THIS ARTICLE MAY REVOKE A CERTIFICATE OF OCCUPANCY, AN
+8 OCCUPANCY PERMIT, OR ANY OTHER LOCAL EQUIVALENT IF THE DEVELOPMENT
+9 EXCISE TAX OR DEVELOPMENT IMPACT FEE IS NOT PAID WITHIN A REASONABLE
+10 TIME PERIOD SET BY THE COUNTY OR MUNICIPALITY.
+
+11 ~~Article~~ ~~–~~ ~~Transportation~~
+
+12 ~~7–1204.~~
+
+13 ~~(b)~~ ~~(2)~~ ~~The~~ ~~Sustainable~~ ~~Growth~~ ~~Subcabinet~~ ~~established~~ ~~under~~ ~~§~~
+14 ~~9–1406~~ ~~of~~ ~~the~~ ~~State~~ ~~Government~~ ~~Article~~ ~~may~~ ~~establish:~~
+
+15 ~~(i)~~ ~~Different~~ ~~eligibility~~ ~~requirements~~ ~~and~~ ~~objective~~ ~~scoring~~
+16 ~~standards~~ ~~for~~ ~~different~~ ~~types~~ ~~of~~ ~~financial~~ ~~assistance;~~ ~~and~~
+
+17 ~~(ii)~~ ~~Scoring~~ ~~preferences~~ ~~for~~ ~~applications~~ ~~that~~ ~~demonstrate~~ ~~that~~ ~~the~~
+18 ~~proposed~~ ~~project~~ ~~will:~~
+
+19 ~~1.~~ ~~Enhance~~ ~~access~~ ~~to~~ ~~transit~~ ~~for~~ ~~low–income~~ ~~and~~ ~~minority~~
+20 ~~residents~~ ~~of~~ ~~the~~ ~~local~~ ~~jurisdiction;~~
+
+21 ~~2.~~ ~~Enhance~~ ~~access~~ ~~to~~ ~~transit~~ ~~in~~ ~~areas~~ ~~with~~ ~~affordable~~ ~~housing~~
+22 and a diversity of job and educational opportunities; [or]
+
+23 ~~3.~~ ~~Encourage~~ ~~development~~ ~~around~~ ~~underdeveloped~~ ~~and~~
+24 underutilized transit stations in transit–oriented developments; OR
+
+25 4. USE PROJECT LABOR AGREEMENTS.
+
+26 SECTION 3. AND BE IT FURTHER ENACTED, That the Laws of Maryland read
+27 as follows:
+
+28 Article – Local Government
+
+29 20–128.
+END OF PAGE 15
+
+START OF PAGE 16
+16 HOUSE BILL 894
+
+1 (A) (1) IN THIS SECTION THE FOLLOWING WORDS HAVE THE MEANINGS
+2 INDICATED.
+
+3 (2) “DEVELOPMENT EXCISE TAX” MEANS AN EXCISE TAX IMPOSED BY
+4 A COUNTY OR MUNICIPALITY ON THE CONSTRUCTION OR IMPROVEMENT OF A
+5 BUILDING.
+
+6 (3) “DEVELOPMENT IMPACT FEE” MEANS A FEE IMPOSED BY A
+7 COUNTY OR MUNICIPALITY FOR THE PURPOSE OF FINANCING ANY OF THE CAPITAL
+8 COSTS OF ADDITIONAL OR EXPANDED PUBLIC WORKS, IMPROVEMENTS, AND
+9 FACILITIES REQUIRED TO ACCOMMODATE NEW CONSTRUCTION OR DEVELOPMENT.
+
+10 (4) “RESIDENTIAL REAL ESTATE PROJECT” MEANS A MIXED–USE
+11 DEVELOPMENT THAT:
+
+12 (I) INCLUDES RESIDENTIAL UNITS; AND
+
+13 (II) IS LOCATED WITHIN A TRANSIT–ORIENTED DEVELOPMENT
+14 DESIGNATED UNDER § 7–101 OF THE TRANSPORTATION ARTICLE, WHERE THE
+15 DEVELOPMENT IS SERVED BY A RAIL TRANSIT STATION THAT RECEIVES AT LEAST
+16 HOURLY SERVICE ON AVERAGE FROM 8:00 A.M. UNTIL 6:00 P.M. MONDAY THROUGH
+17 FRIDAY.
+
+18 (B) THIS SECTION APPLIES ONLY TO:
+
+19 (1) A COUNTY THAT:
+
+20 (I) IS A CHARTER COUNTY THAT IMPOSES, BY LAW,
+21 DEVELOPMENT IMPACT FEES, SURCHARGES, OR DEVELOPMENT EXCISE TAXES;
+
+22 (II) IS A CODE COUNTY WITH PUBLIC LOCAL LAWS THAT
+23 REQUIRE THE PAYMENT OF DEVELOPMENT IMPACT FEES, SURCHARGES, OR
+24 DEVELOPMENT EXCISE TAXES; OR
+
+25 (III) IS A COMMISSION COUNTY THAT:
+
+26 1. HAS BEEN AUTHORIZED TO ENACT DEVELOPMENT
+27 IMPACT FEES, SURCHARGES, OR DEVELOPMENT EXCISE TAXES; AND
+
+28 2. HAS ENACTED, BY LOCAL LAW, DEVELOPMENT
+29 IMPACT FEES, SURCHARGES, OR DEVELOPMENT EXCISE TAXES; AND
+
+30 (2) A MUNICIPALITY THAT IMPOSES, BY LOCAL LAW, DEVELOPMENT
+31 IMPACT FEES, SURCHARGES, OR DEVELOPMENT EXCISE TAXES.
+END OF PAGE 16
+
+START OF PAGE 17
+HOUSE BILL 894 17
+
+1 (C) (1) EXCEPT AS PROVIDED IN PARAGRAPHS (2) AND (3) OF THIS
+2 SUBSECTION, ANY DEVELOPMENT EXCISE TAX OR DEVELOPMENT IMPACT FEE
+3 IMPOSED ON A RESIDENTIAL REAL ESTATE PROJECT
+4 MAY NOT BE COLLECTED UNTIL AFTER:
+
+5 (I) CONSTRUCTION OF THE RESIDENTIAL REAL ESTATE
+6 PROJECT IS COMPLETE; AND
+
+7 (II) ALL REQUIREMENTS FOR A CERTIFICATE OF OCCUPANCY,
+8 AN OCCUPANCY PERMIT, OR ANY OTHER LOCAL EQUIVALENT THAT HAS BEEN
+9 ISSUED FOR THE RESIDENTIAL REAL ESTATE PROJECT HAVE BEEN MET.
+
+10 (2) A DEVELOPMENT EXCISE TAX OR DEVELOPMENT IMPACT FEE
+11 IMPOSED ON A RESIDENTIAL REAL ESTATE PROJECT
+12 MAY BE COLLECTED AS A PRECONDITION TO
+13 CONDUCTING A FINAL INSPECTION OF THE PROJECT, BUT NOT MORE THAN 30 DAYS
+14 PRIOR TO THE DATE OF THE INSPECTION.
+
+15 (3) THIS SUBSECTION DOES NOT APPLY TO THE COLLECTION OF A
+16 DEVELOPMENT EXCISE TAX OR DEVELOPMENT IMPACT FEE THAT WAS IMPOSED ON
+17 A RESIDENTIAL REAL ESTATE PROJECT TO FINANCE A COUNTY DEBT THAT WAS
+18 INCURRED ON OR BEFORE JANUARY 1, 2026.
+
+19 (D) NOTWITHSTANDING ANY OTHER LAW, A COUNTY OR MUNICIPALITY
+20 THAT IMPOSES A DEVELOPMENT EXCISE TAX OR DEVELOPMENT IMPACT FEE ON A
+21 RESIDENTIAL REAL ESTATE PROJECT
+22 MAY DENY, WITHHOLD, OR REVOKE A CERTIFICATE OF OCCUPANCY, AN
+23 OCCUPANCY PERMIT, OR ANY OTHER LOCAL EQUIVALENT IF THE DEVELOPMENT
+24 EXCISE TAX OR DEVELOPMENT IMPACT FEE IS NOT PAID WITHIN A REASONABLE
+25 TIME PERIOD SET BY THE COUNTY OR MUNICIPALITY.
+
+26 SECTION ~~3.~~ 4. AND BE IT FURTHER ENACTED, That § 4–104(e) of the Land Use
+27 Article, as enacted by Section 2 of this Act, shall apply only to land use rezonings or actions
+28 taken by a legislative body on or after the effective date of this Act.
+
+29 SECTION 5. AND BE IT FURTHER ENACTED, That Section 3 of this Act shall take
+30 effect October 1, 2026, contingent on the failure of Chapter ____ (S.B. 325/H.B. 548) of the
+31 Acts of the General Assembly of 2026, and if Chapter ____ (S.B. 325/H.B. 548) becomes
+32 effective, Section 3 of this Act, with no further action required by the General Assembly,
+33 shall be null and void.
+
+34 ~~SECTION~~ ~~4.~~ ~~AND~~ ~~BE~~ ~~IT~~ ~~FURTHER~~ ~~ENACTED,~~ ~~That~~ ~~§~~ ~~5–709~~ ~~of~~ ~~the~~ ~~Economic~~
+35 ~~Development~~ ~~Article,~~ ~~as~~ ~~enacted~~ ~~by~~ ~~Section~~ ~~2~~ ~~of~~ ~~this~~ ~~Act,~~ ~~shall~~ ~~apply~~ ~~retroactively~~ ~~to~~ ~~an~~
+36 ~~area~~ ~~designated~~ ~~prior~~ ~~to~~ ~~the~~ ~~effective~~ ~~date~~ ~~of~~ ~~this~~ ~~Act~~ ~~as~~ ~~a~~ ~~transit–oriented~~ ~~development~~
+END OF PAGE 17
+
+START OF PAGE 18
+18 HOUSE BILL 894
+
+1 ~~under~~ ~~§~~ ~~7–101~~ ~~of~~ ~~the~~ ~~Transportation~~ ~~Article~~ ~~and~~ ~~that~~ ~~is~~ ~~served~~ ~~by~~ ~~a~~ ~~rail~~ ~~transit~~ ~~station~~ ~~that~~
+2 ~~receives~~ ~~at~~ ~~least~~ ~~hourly~~ ~~service~~ ~~on~~ ~~average~~ ~~from~~ ~~8:00~~ ~~a.m.~~ ~~until~~ ~~6:00~~ ~~p.m.~~ ~~Monday~~ ~~through~~
+3 ~~Friday.~~
+
+4 SECTION ~~5.~~ 6. AND BE IT FURTHER ENACTED, That, except as provided in
+5 Section 5 of this Act, this Act shall take effect October 1, 2026.
 
 Approved:
 
@@ -623,3 +851,4 @@ Speaker of the House of Delegates.
 
 ________________________________________________________________________________
 President of the Senate.
+END OF PAGE 18

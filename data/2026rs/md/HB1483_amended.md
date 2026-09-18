@@ -1,11 +1,10 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1483
 
 J2, J1 (6lr2176)
 ENROLLED BILL
 — Health/Finance —
-Introduced by Delegates Kaiser, Guyton, ~~and~~ ~~Kaufman~~ Kaufman, Alston, Bagnall,
+Introduced by Delegates Kaiser, Guyton, Kaufman, Alston, Bagnall,
 Cullison, Guzzone, Hill, Hutchinson, Kipke, Lopez, Martinez, M. Morgan,
 Reilly, Rosenberg, Ross, Szeliga, Taveras, White Holland, and Woorman
 
@@ -181,68 +180,6 @@ START OF PAGE 4
 19 relationship that has existed for at least 6 months.
 
 20 (d) The term of a temporary telehealth license issued under this section is 6
-19-301.
-
-(a) Except as otherwise provided in this title, an individual shall be:
-
-(1) Licensed by the Board before the individual may practice social work
-in this State while representing oneself as a social worker; or
-
-(2) Licensed as a certified social worker–clinical before the individual
-may practice clinical social work in this State.
-
-(b) This section does not apply to:
-
-(1) Subject to subsection (d) of this section, an individual employed by
-any agency of the federal government while performing the duties of that employment;
-
-(2) An individual licensed as a social worker in another state while
-responding to an emergency in this State;
-
-(3) An individual who:
-
-(i) Is licensed to practice social work in any other state;
-
-(ii) Has an application for a license pending before the Board; and
-
-(iii) Meets requirements established by the Board in regulations;
-[or]
-
-(4) A student while pursuing a supervised course of study in a social
-work program that is accredited or is a candidate for accreditation by the Council on
-Social Work Education; OR
-
-(5) A SOCIAL WORKER WHO IS LICENSED AND IN GOOD STANDING
-
-IN ANOTHER STATE OR A STUDENT WHILE PURSUING A SUPERVISED COURSE OF
-STUDY IN A GRADUATE LEVEL SOCIAL WORK PROGRAM IN ANOTHER STATE THAT
-IS ACCREDITED OR IS A CANDIDATE FOR ACCREDITATION BY THE COUNCIL ON
-SOCIAL WORK EDUCATION AND WHO:
-
-(I) ESTABLISHED A CLIENT–SOCIAL WORKER
-RELATIONSHIP WITH A CLIENT OUTSIDE THE STATE;
-
-(II) IS NO LONGER ABLE TO PROVIDE IN–PERSON SOCIAL
-WORK SERVICES TO THE CLIENT BECAUSE THE CLIENT IS LOCATED IN THE
-STATE; AND
-
-(III) PROVIDES SOCIAL WORK SERVICES THROUGH
-TELEHEALTH, AS DEFINED IN § 1–1001 OF THIS ARTICLE, FOR THE PURPOSE OF
-PROVIDING CONTINUITY OF CARE TO THE CLIENT FOR NOT MORE THAN 6
-MONTHS AFTER:
-
-1. THE CLIENT RELOCATED TO THE STATE; OR
-
-2. THE CLIENT RETURNED TO THE STATE
-FOLLOWING A CONTINUOUS AND NONINCIDENTAL PERIOD OF RELOCATION
-OUTSIDE THE STATE.
-
-(c) An individual may not practice social work without a license under
-subsection (b)(3) of this section for more than 6 months.
-
-(d) An individual employed by an agency of the federal government who is
-licensed to practice social work in the State shall comply with the provisions of this
-title.
 21 months.
 
 22 (e) A temporary telehealth license issued under this section may not be renewed.
@@ -252,17 +189,85 @@ title.
 25 date on which the violation occurred.
 
 26 (g) The Board shall adopt regulations:
+
+27 (1) To establish qualifications and application fees for a temporary
+28 telehealth license issued under this section;
+
+29 (2) To establish any conditions or limitations applicable to a temporary
+30 telehealth licensee; and
 END OF PAGE 4
 
 START OF PAGE 5
 HOUSE BILL 1483 5
+
+1 (3) Necessary for the implementation, administration, and enforcement of
+2 this section.]
+
+3 19–301.
+
+4 (a) Except as otherwise provided in this title, an individual shall be:
+
+5 (1) Licensed by the Board before the individual may practice social work in
+6 this State while representing oneself as a social worker; or
+
+7 (2) Licensed as a certified social worker–clinical before the individual may
+8 practice clinical social work in this State.
+
+9 (b) This section does not apply to:
+
+10 (1) Subject to subsection (d) of this section, an individual employed by any
+11 agency of the federal government while performing the duties of that employment;
+
+12 (2) An individual licensed as a social worker in another state while
+13 responding to an emergency in this State;
+
+14 (3) An individual who:
+
+15 (i) Is licensed to practice social work in any other state;
+
+16 (ii) Has an application for a license pending before the Board; and
+
+17 (iii) Meets requirements established by the Board in regulations; [or]
+
+18 (4) A student while pursuing a supervised course of study in a social work
+19 program that is accredited or is a candidate for accreditation by the Council on Social Work
+20 Education; OR
+
+21 (5) A SOCIAL WORKER WHO IS LICENSED AND IN GOOD STANDING IN
+22 ANOTHER STATE OR A STUDENT WHILE PURSUING A SUPERVISED COURSE OF STUDY
+23 IN A GRADUATE LEVEL SOCIAL WORK PROGRAM IN ANOTHER STATE THAT IS
+24 ACCREDITED OR IS A CANDIDATE FOR ACCREDITATION BY THE COUNCIL ON SOCIAL
+25 WORK EDUCATION AND WHO:
+
+26 (I) ESTABLISHED A CLIENT–SOCIAL WORKER RELATIONSHIP
+27 WITH A CLIENT OUTSIDE THE STATE;
+
+28 (II) IS NO LONGER ABLE TO PROVIDE IN–PERSON SOCIAL WORK
+29 SERVICES TO THE CLIENT BECAUSE THE CLIENT IS LOCATED IN THE STATE; AND
 END OF PAGE 5
 
 START OF PAGE 6
 6 HOUSE BILL 1483
 
-12 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
-13 October 1, 2026.
+1 (III) PROVIDES SOCIAL WORK SERVICES THROUGH
+2 TELEHEALTH, AS DEFINED IN § 1–1001 OF THIS ARTICLE, FOR THE PURPOSE OF
+3 PROVIDING CONTINUITY OF CARE TO THE CLIENT FOR NOT MORE THAN 6 MONTHS
+4 AFTER:
+
+5 1. THE CLIENT RELOCATED TO THE STATE; OR
+
+6 2. THE CLIENT RETURNED TO THE STATE FOLLOWING A
+7 CONTINUOUS AND NONINCIDENTAL PERIOD OF RELOCATION OUTSIDE THE STATE.
+
+8 (c) An individual may not practice social work without a license under subsection
+9 (b)(3) of this section for more than 6 months.
+
+10 (d) An individual employed by an agency of the federal government who is
+11 licensed to practice social work in the State shall comply with the provisions of this
+12 title.
+
+13 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
+14 October 1, 2026.
 
 Approved:
 
@@ -274,4 +279,4 @@ Speaker of the House of Delegates.
 
 ________________________________________________________________________________
 President of the Senate.
-END OF PAGE 6</bill>
+END OF PAGE 6

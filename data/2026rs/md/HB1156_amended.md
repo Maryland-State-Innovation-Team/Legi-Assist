@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1156
 
@@ -27,7 +26,7 @@ CHAPTER ______
 
 2 Calvert County – Length of Service Award Program – Benefits
 
-3 For the purpose of altering a certain benefit amount for certain fire and rescue volunteers;
+3 FOR the purpose of altering a certain benefit amount for certain fire and rescue volunteers;
 4 and generally relating to the Length of Service Award Program.
 
 5 BY repealing and reenacting, with amendments,
@@ -76,4 +75,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 2
-</bill>

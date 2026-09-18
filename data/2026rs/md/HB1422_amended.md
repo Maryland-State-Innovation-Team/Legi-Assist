@@ -1,5 +1,3 @@
-<bill>
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 366
 
@@ -12,16 +10,22 @@ AN ACT concerning
 State Procurement and Personnel – Liquidated Damages Documentation
 Requirements and State Fiscal Leadership Capacity
 
-AN ACT concerning authorizing the Secretary of
-Budget and Management to set the pay scale for certain chief financial officer positions in
-order to assist with recruitment and retention; requiring the Secretary to establish 
-certain minimum qualifications for chief financial officers that consider certain
-qualifications; requiring the Department of Budget and Management to adopt certain 
-regulations on or before a certain date; requiring certain chief financial officers to 
-provide to the Office of the Comptroller certain financial information at the close of 
-the fiscal year for a certain report; requiring certain chief financial officers to 
-provide the General Accounting Division of the Office of the Comptroller with certain 
-information and a certain letter; and generally relating to liquidated damages
+FOR the purpose of requiring units of State government to provide certain documentation
+to the Board of Public Works and the Joint Audit and Evaluation Committee if the
+unit decides not to pursue certain liquidated damages; authorizing the Secretary of
+Budget and Management to ~~grant~~ ~~a~~ ~~certain~~ ~~exemption~~ ~~to~~ ~~the~~ ~~State~~ ~~pay~~ ~~plan~~ ~~under~~
+~~certain~~ ~~circumstances~~ set the pay scale for certain chief financial officer positions in
+order to assist with recruitment and retention; requiring ~~certain~~ ~~appointing~~
+~~authorities~~ ~~to~~ ~~select~~ the Secretary to establish certain minimum qualifications for
+chief financial officers that ~~meet~~ consider certain ~~requirements;~~ qualifications;
+requiring the Department of Budget and Management to adopt certain regulations
+on or before a certain date; requiring certain chief financial officers to provide to the
+Office of the Comptroller certain financial information at the close of the fiscal year
+for a certain report; requiring certain chief financial officers to provide the General
+Accounting Division of the Office of the Comptroller with certain information and a
+certain letter; ~~requiring~~ ~~certain~~ ~~units~~ ~~of~~ ~~State~~ ~~government~~ ~~to~~ ~~liquidated~~ ~~damages~~
+~~documentation~~ ~~requirements~~ ~~and~~ ~~take~~ ~~certain~~ ~~actions~~ ~~if~~ ~~the~~ ~~unit~~ ~~does~~ ~~not~~ ~~intend~~ ~~to~~
+~~pursue~~ ~~certain~~ ~~damages;~~ and generally relating to liquidated damages
 documentation requirements and the chief financial officers of units in the Executive
 Branch of State government.
 
@@ -103,9 +107,10 @@ END OF PAGE 2
 START OF PAGE 3
 WES MOORE, Governor Ch. 366
 
-(1) obtain the approval of the decision by the head of the unit; [and]
+[(i)] (1) obtain the approval of the decision by the head of the unit;
+[and]
 
-(2) maintain documentation on the reason the unit decided
+[(ii)] (2) maintain documentation on the reason the unit decided
 not to pursue liquidated damages; AND
 
 (3) PROVIDE DOCUMENTATION TO THE BOARD AND THE JOINT
@@ -166,24 +171,13 @@ ANNUALLY IN STATE AND FEDERAL FUNDING; AND
 (2) THIS SECTION DOES NOT APPLY TO THE UNIVERSITY SYSTEM OF
 MARYLAND.
 
-(C) NOTWITHSTANDING ANY OTHER PROVISION OF LAW, THE SECRETARY 
-MAY SET THE PAY SCALE FOR CHIEF FINANCIAL OFFICER POSITIONS IN ORDER TO 
-ASSIST WITH recruitment AND RETENTION.
+(C) NOTWITHSTANDING ANY OTHER PROVISION OF LAW, THE SECRETARY
+MAY SET THE PAY SCALE FOR CHIEF FINANCIAL OFFICER POSITIONS IN ORDER TO
+ASSIST WITH RECRUITMENT AND RETENTION.
 
 (D) AN APPOINTING AUTHORITY SUBJECT TO THIS SECTION SHALL MAKE AN
-APPOINTMENT OF A CHIEF FINANCIAL OFFICER WHO MEETS THE QUALIFICATIONS IN SUBSECTION (E) OF THIS SECTION.
-
-– 4 –
-END OF PAGE 4
-
-START OF PAGE 5
-WES MOORE, Governor Ch. 366
-
-– 5 –
-END OF PAGE 5
-
-START OF PAGE 6
-Ch. 366 2026 LAWS OF MARYLAND
+APPOINTMENT OF A CHIEF FINANCIAL OFFICER WHO MEETS THE ~~REQUIREMENTS~~
+QUALIFICATIONS IN SUBSECTION (E) OF THIS SECTION.
 
 (E) (1) THE SECRETARY SHALL ESTABLISH MINIMUM QUALIFICATIONS
 FOR CHIEF FINANCIAL OFFICER POSITIONS THAT CONSIDER:
@@ -208,6 +202,12 @@ STANDARDS.
 ADOPT REGULATIONS TO ESTABLISH MINIMUM QUALIFICATIONS FOR CHIEF
 FINANCIAL OFFICER POSITIONS.
 
+– 4 –
+END OF PAGE 4
+
+START OF PAGE 5
+WES MOORE, Governor Ch. 366
+
 (F) FOR PREPARATION OF THE ANNUAL COMPREHENSIVE FINANCIAL
 REPORT REQUIRED UNDER § 2–102 OF THE STATE FINANCE AND PROCUREMENT
 ARTICLE, A CHIEF FINANCIAL OFFICER OF A UNIT OF STATE GOVERNMENT SUBJECT
@@ -216,12 +216,6 @@ CLOSE OF THE FISCAL YEAR:
 
 (1) ALL NECESSARY ENTRIES OF THE UNIT’S FINANCIAL
 INFORMATION;
-
-– 6 –
-END OF PAGE 6
-
-START OF PAGE 7
-WES MOORE, Governor Ch. 366
 
 (2) THE INFORMATION NECESSARY TO PREPARE THE SCHEDULE OF
 EXPENDITURES OF FEDERAL AWARDS IN ACCORDANCE WITH APPLICABLE FEDERAL
@@ -265,7 +259,5 @@ SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
 
 Approved by the Governor, May 12, 2026.
 
-– 7 –
-END OF PAGE 7
-</bill>
-</bill>
+– 5 –
+END OF PAGE 5

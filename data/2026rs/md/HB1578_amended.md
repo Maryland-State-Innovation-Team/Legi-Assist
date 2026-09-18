@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1578
 
@@ -71,15 +70,15 @@ START OF PAGE 2
 16 Annotated Code of Maryland
 17 (2021 Replacement Volume and 2025 Supplement)
 
-18 BY adding to
-19 Article – State Government
-20 Section 9–1A–10(a)
+18 BY repealing and reenacting, without amendments,
+19 Article – State Finance and Procurement
+20 Section 14–501(a)
 21 Annotated Code of Maryland
 22 (2021 Replacement Volume and 2025 Supplement)
 
-23 BY repealing and reenacting, without amendments,
-24 Article – State Finance and Procurement
-25 Section 14–501(a)
+23 BY adding to
+24 Article – State Government
+25 Section 9–1A–10(a)
 26 Annotated Code of Maryland
 27 (2021 Replacement Volume and 2025 Supplement)
 
@@ -114,7 +113,7 @@ HOUSE BILL 1578 3
 10 of 2023, and Chapters 620 and 621 of the Acts of the General Assembly of 2025
 11 Section 2
 
-12 BY repealing
+12 BY repealing ~~and~~ ~~reenacting,~~ ~~with~~ ~~amendments,~~
 13 Chapter 641 of the Acts of the General Assembly of 2022, as amended by Chapters
 14 137 and 138 of the Acts of the General Assembly of 2023 and Chapters 620
 15 and 621 of the Acts of the General Assembly of 2025
@@ -287,7 +286,7 @@ START OF PAGE 6
 
 30 (IV) THERE ARE SUBSTANTIAL, ADVERSE, AND STATISTICALLY
 31 SIGNIFICANT DISPARITIES THAT ARE CONSISTENT WITH DISCRIMINATION AGAINST
-32 MINORITY– AND WOMEN–OWNED BUSINESSES IN STATE PROCUREMENT;
+32 MINORITIES AND NONMINORITY WOMEN IN STATE PROCUREMENT;
 
 33 (V) THESE SUBSTANTIAL, ADVERSE, AND STATISTICALLY
 34 SIGNIFICANT DISPARITIES ARE CONSISTENT WITH DISCRIMINATION AGAINST ALL
@@ -296,14 +295,14 @@ END OF PAGE 6
 START OF PAGE 7
 HOUSE BILL 1578 7
 
-1 MINORITY GROUPS AND FOR NONMINORITY WOMEN IN MOST MAJOR
+1 ~~INDIVIDUAL~~ MINORITY GROUPS AND FOR NONMINORITY WOMEN IN MOST MAJOR
 2 INDUSTRY CATEGORIES IN STATE PROCUREMENT;
 
 3 (VI) THERE IS SIGNIFICANT EVIDENCE THAT DISCRIMINATION IN
 4 THE PRIVATE SECTOR HAS DEPRESSED FIRM FORMATION AND FIRM GROWTH
 5 AMONG MINORITY AND NONMINORITY WOMEN ENTREPRENEURS, DECREASING THE
-6 AVAILABILITY OF MINORITY– AND WOMEN–OWNED FIRMS FOR PUBLIC AND PRIVATE
-7 CONTRACTING; AND
+6 AVAILABILITY OF ~~MINORITIES~~ ~~AND~~ ~~NONMINORITY~~ ~~WOMEN~~ MINORITY– AND
+7 WOMEN–OWNED FIRMS FOR PUBLIC AND PRIVATE CONTRACTING; AND
 
 8 (VII) THERE IS POWERFUL AND PERSUASIVE EVIDENCE, BOTH
 9 STATISTICAL AND QUALITATIVE, OF INTENTIONAL DISCRIMINATION, INCLUDING
@@ -313,31 +312,32 @@ HOUSE BILL 1578 7
 12 (5) AS A RESULT OF ONGOING DISCRIMINATION AND THE
 13 PRESENT–DAY EFFECTS OF PAST DISCRIMINATION, MINORITY– AND WOMEN–OWNED
 14 BUSINESSES COMBINED CONTINUE TO BE SIGNIFICANTLY UNDERUTILIZED
-15 RELATIVE TO THE AVAILABILITY OF MINORITY– AND WOMEN–OWNED BUSINESSES
-16 TO PERFORM WORK IN THE OVERWHELMING MAJORITY OF THE PROCUREMENT
-17 CATEGORIES IN WHICH THE STATE DOES BUSINESS;
+15 RELATIVE TO THE AVAILABILITY OF ~~MINORITIES~~ ~~AND~~ ~~NONMINORITY~~ ~~WOMEN~~
+16 MINORITY– AND WOMEN–OWNED BUSINESSES TO PERFORM WORK IN THE
+17 OVERWHELMING MAJORITY OF THE PROCUREMENT CATEGORIES IN WHICH THE
+18 STATE DOES BUSINESS;
 
-18 (6) MINORITY PRIME CONTRACTORS ALSO ARE SUBJECT TO
-19 DISCRIMINATION AND CONFRONT ESPECIALLY DAUNTING BARRIERS IN
-20 ATTEMPTING TO COMPETE WITH VERY LARGE AND LONG–ESTABLISHED
-21 NONMINORITY COMPANIES;
+19 (6) MINORITY PRIME CONTRACTORS ALSO ARE SUBJECT TO
+20 DISCRIMINATION AND CONFRONT ESPECIALLY DAUNTING BARRIERS IN
+21 ATTEMPTING TO COMPETE WITH VERY LARGE AND LONG–ESTABLISHED
+22 NONMINORITY COMPANIES;
 
-22 (7) DESPITE THE FACT THAT THE STATE HAS EMPLOYED, AND
-23 CONTINUES TO EMPLOY, NUMEROUS AND ROBUST RACE–NEUTRAL REMEDIES,
-24 INCLUDING AGGRESSIVE OUTREACH AND ADVERTISING, TRAINING AND EDUCATION,
-25 SMALL BUSINESS PROGRAMS, EFFORTS TO IMPROVE ACCESS TO CAPITAL, AND
-26 OTHER EFFORTS, THERE IS A STRONG BASIS IN EVIDENCE THAT DISCRIMINATION
-27 PERSISTS EVEN IN PUBLIC SECTOR PROCUREMENT IN WHICH THESE EFFORTS HAVE
-28 BEEN EMPLOYED;
+23 (7) DESPITE THE FACT THAT THE STATE HAS EMPLOYED, AND
+24 CONTINUES TO EMPLOY, NUMEROUS AND ROBUST RACE–NEUTRAL REMEDIES,
+25 INCLUDING AGGRESSIVE OUTREACH AND ADVERTISING, TRAINING AND EDUCATION,
+26 SMALL BUSINESS PROGRAMS, EFFORTS TO IMPROVE ACCESS TO CAPITAL, AND
+27 OTHER EFFORTS, THERE IS A STRONG BASIS IN EVIDENCE THAT DISCRIMINATION
+28 PERSISTS EVEN IN PUBLIC SECTOR PROCUREMENT IN WHICH THESE EFFORTS HAVE
+29 BEEN EMPLOYED;
 
-29 (8) NOTWITHSTANDING THE LEVELS OF PARTICIPATION ACHIEVED
-30 WHEN RACE–CONSCIOUS MEASURES ARE USED, THERE IS CONCERN THAT, IN THE
-31 ABSENCE OF MINORITY BUSINESS ENTERPRISE PARTICIPATION GOALS FOR STATE
-32 PROCUREMENT, THERE WOULD BE A SUBSTANTIAL DECREASE IN THE OVERALL
-33 UTILIZATION OF MINORITY– AND WOMEN–OWNED BUSINESSES;
+30 (8) NOTWITHSTANDING THE LEVELS OF PARTICIPATION ACHIEVED
+31 WHEN RACE–CONSCIOUS MEASURES ARE USED, THERE IS CONCERN THAT, IN THE
+32 ABSENCE OF MINORITY BUSINESS ENTERPRISE PARTICIPATION GOALS FOR STATE
+33 PROCUREMENT, THERE WOULD BE A SUBSTANTIAL DECREASE IN THE OVERALL
+34 UTILIZATION OF MINORITY– AND WOMEN–OWNED BUSINESSES;
 
-34 (9) THIS SUBTITLE ENSURES THAT RACE–NEUTRAL EFFORTS WILL BE
-35 USED TO THE MAXIMUM EXTENT FEASIBLE AND THAT RACE–CONSCIOUS MEASURES
+35 (9) THIS SUBTITLE ENSURES THAT RACE–NEUTRAL EFFORTS WILL BE
+36 USED TO THE MAXIMUM EXTENT FEASIBLE AND THAT RACE–CONSCIOUS MEASURES
 END OF PAGE 7
 
 START OF PAGE 8
@@ -359,33 +359,34 @@ START OF PAGE 8
 12 DATA AND NARROWLY TAILORED TO THE COMPELLING INTERESTS OF THE STATE;
 13 AND
 
-14 (12) STATE EFFORTS TO REDUCE DISCRIMINATION SUPPORT
+14 (12) STATE EFFORTS TO ~~SUPPORT~~ REDUCE DISCRIMINATION SUPPORT
 15 THE DEVELOPMENT OF COMPETITIVELY VIABLE MINORITY– AND WOMEN–OWNED
-16 BUSINESS ENTERPRISES AND CREATE JOBS FOR ALL CITIZENS OF MARYLAND,
-17 HELP GROW THE MARYLAND ECONOMY, AND FOSTER COMPETITION THAT WILL
-18 REDUCE THE COST OF GOODS AND SERVICES PROCURED BY THE STATE.
+16 BUSINESS ENTERPRISES ~~WILL~~ ~~HELP~~ ~~REDUCE~~ ~~DISCRIMINATION,~~ ~~CREATE~~ AND
+17 CREATE JOBS FOR ALL CITIZENS OF MARYLAND, HELP GROW THE MARYLAND
+18 ECONOMY, AND FOSTER COMPETITION THAT WILL REDUCE THE COST OF GOODS AND
+19 SERVICES PROCURED BY THE STATE.
 
-19 14–302.
+20 14–302.
 
-20 (a) (10) (iv) 2. The head of the unit shall:
+21 (a) (10) (iv) 2. The head of the unit shall:
 
-21 B. forward one copy of the waiver determination to the
-22 [Governor’s] Office of Small, Minority, and Women Business Affairs.
+22 B. forward one copy of the waiver determination to the
+23 [Governor’s] Office of Small, Minority, and Women Business Affairs.
 
-23 (v) On or before July 31 of each year, each unit shall submit directly
-24 to the Board of Public Works and the [Governor’s] Office of Small, Minority, and Women
-25 Business Affairs an annual report of waivers requested and waivers granted under this
-26 paragraph.
+24 (v) On or before July 31 of each year, each unit shall submit directly
+25 to the Board of Public Works and the [Governor’s] Office of Small, Minority, and Women
+26 Business Affairs an annual report of waivers requested and waivers granted under this
+27 paragraph.
 
-27 (12) (i) This paragraph applies after execution of a contract with an
-28 expected degree of minority business enterprise participation.
+28 (12) (i) This paragraph applies after execution of a contract with an
+29 expected degree of minority business enterprise participation.
 
-29 (ii) The minority business enterprise participation schedule,
-30 including any amendment, shall be attached to and made a part of the executed contract.
+30 (ii) The minority business enterprise participation schedule,
+31 including any amendment, shall be attached to and made a part of the executed contract.
 
-31 (iii) 1. A. Except as provided in subsubsubparagraph B of this
-32 subsubparagraph, for purposes of this subparagraph, good cause for removal of a certified
-33 minority business enterprise after contract execution includes documented
+32 (iii) 1. A. Except as provided in subsubsubparagraph B of this
+33 subsubparagraph, for purposes of this subparagraph, good cause for removal of a certified
+34 minority business enterprise after contract execution includes documented
 END OF PAGE 8
 
 START OF PAGE 9
@@ -451,7 +452,7 @@ START OF PAGE 10
 5 [Governor’s] Office of Small, Minority, and Women Business Affairs and the certification
 6 agency and approved by the Board.
 
-7 (b) (1) On or before [December 31 of] THE 5TH DAY OF A REGULAR
+7 (b) (1) On or before [December 31 of] THE ~~15TH~~ 5TH DAY OF A REGULAR
 8 LEGISLATIVE SESSION each year, the [Governor’s] Office of Small, Minority, and Women
 9 Business Affairs shall submit to the Board of Public Works and, subject to § 2–1257 of the
 10 State Government Article, to the Legislative Policy Committee and the Joint Committee on
@@ -480,9 +481,10 @@ START OF PAGE 10
 28 (II) MINORITY BUSINESS ENTERPRISE PROGRAM COMPLIANCE
 29 ASSESSMENTS UNDER SUBSECTION (A)(2)(V) OF THIS SECTION; AND
 
-30 (III) ANY OTHER INFORMATION REQUESTED BY THE OFFICE OF
-31 SMALL, MINORITY, AND WOMEN BUSINESS AFFAIRS RELATED TO
-32 CONTRACTS GOVERNED BY THIS SUBTITLE.
+30 (III) ANY OTHER INFORMATION REQUESTED ~~BASED~~ ~~ON~~ ~~CRITERIA~~
+31 ~~ESTABLISHED~~ BY THE OFFICE OF SMALL, MINORITY, AND WOMEN BUSINESS
+32 AFFAIRS ~~UNDER~~ ~~A~~ ~~CONTRACT~~ RELATED TO CONTRACTS GOVERNED BY THIS
+33 SUBTITLE.
 END OF PAGE 10
 
 START OF PAGE 11
@@ -677,9 +679,10 @@ START OF PAGE 14
 27 NONDESIGNATED ACHIEVEMENT AWARDS UNDER SUBSECTION (B) OF THIS
 28 SECTION; AND
 
-29 (II) ANY OTHER INFORMATION REQUESTED BY THE OFFICE OF
-30 SMALL, MINORITY, AND WOMEN BUSINESS AFFAIRS RELATED TO
-31 CONTRACTS GOVERNED BY THIS SUBTITLE.
+29 (II) ANY OTHER INFORMATION REQUESTED ~~BASED~~ ~~ON~~ ~~CRITERIA~~
+30 ~~ESTABLISHED~~ BY THE OFFICE OF SMALL, MINORITY, AND WOMEN BUSINESS
+31 AFFAIRS ~~UNDER~~ ~~A~~ ~~DESIGNATED~~ ~~OR~~ ~~UNDESIGNATED~~ ~~CONTRACT~~ ~~AS~~ RELATED TO
+32 CONTRACTS GOVERNED BY THIS SUBTITLE.
 END OF PAGE 14
 
 START OF PAGE 15
@@ -689,7 +692,7 @@ HOUSE BILL 1578 15
 2 PREPARED IN CONJUNCTION WITH THE ANNUAL REPORT REQUIRED UNDER §
 3 9–4120 OF THE STATE GOVERNMENT ARTICLE.
 
-4 [(c)] (D) On or before [December 31] THE 5TH DAY OF A REGULAR
+4 [(c)] (D) On or before [December 31] THE ~~15TH~~ 5TH DAY OF A REGULAR
 5 LEGISLATIVE SESSION of each year, the [Governor’s] Office of Small, Minority, and
 6 Women Business Affairs shall submit to the Board of Public Works and, subject to § 2–1257
 7 of the State Government Article, to the Legislative Policy Committee a report summarizing
@@ -704,7 +707,7 @@ HOUSE BILL 1578 15
 12 (2) establish procedures for tracking and reporting participation of
 13 veteran–owned small business enterprises under this subtitle; and
 
-14 (3) on or before [December 1] THE 5TH DAY OF A REGULAR
+14 (3) on or before [December 1] THE ~~15TH~~ 5TH DAY OF A REGULAR
 15 LEGISLATIVE SESSION of each year, report to the Legislative Policy Committee on:
 
 16 (i) the number and dollar value of contracts awarded to
@@ -745,7 +748,7 @@ START OF PAGE 16
 7 STATES CONSTITUTION, A LICENSEE SHALL COMPLY WITH THE STATE’S MINORITY
 8 BUSINESS ENTERPRISE PROGRAM.
 
-9 (B) (1) (i) An applicant or a licensee is subject to:
+9 ~~(a)~~ (B) (1) (i) An applicant or a licensee is subject to:
 
 10 1. THE REQUIREMENT TO PUT FORTH A GOOD FAITH
 11 EFFORT TO MEET the minority business participation goal established for a unit by the
@@ -806,26 +809,26 @@ HOUSE BILL 1578 17
 14 all employees of the racetrack, including the employees of the racetrack on the backstretch
 15 of the racetrack.
 
-16 (C) (1) The Commission shall ensure that a video lottery operation
-17 licensee complies with the requirements of subsection (B)(1) and (2) of this section
+16 ~~(b)~~ (C) (1) The Commission shall ensure that a video lottery operation
+17 licensee complies with the requirements of subsection ~~(a)(1)~~ (B)(1) and (2) of this section
 18 as a condition of holding the video lottery operation license.
 
 19 (2) The [Governor’s] Office of Small, Minority, and Women Business
-20 Affairs shall monitor a licensee’s compliance with subsection (B)(1) and (2) of this
+20 Affairs shall monitor a licensee’s compliance with subsection ~~(a)(1)~~ (B)(1) and (2) of this
 21 section.
 
 22 (3) The [Governor’s] Office of Small, Minority, and Women Business
 23 Affairs shall report to the Commission at least every 6 months on the compliance of
-24 licensees with subsection (B)(1) and (2) of this section.
+24 licensees with subsection ~~(a)(1)~~ (B)(1) and (2) of this section.
 
 25 (4) If the [Governor’s] Office of Small, Minority, and Women Business
-26 Affairs reports that a licensee is not in compliance with subsection (B)(1) and (2) of this
-27 section, the Commission may take immediate action to ensure the compliance of the
+26 Affairs reports that a licensee is not in compliance with subsection ~~(a)(1)~~ (B)(1) and (2) of
+27 this section, the Commission may take immediate action to ensure the compliance of the
 28 licensee.
 
-29 (D) On or after July 1, [2026] 2031, the provisions of subsections (B)(1) and (2) and (C)
-30 of this section and any regulations adopted under subsections (B)(1) and (2) and (C) of this
-31 section shall be of no effect and may not be enforced.
+29 ~~(c)~~ (D) On or after July 1, [2026] 2031, the provisions of subsections ~~(a)(1)~~
+30 (B)(1) and (2) and ~~(b)~~ (C) of this section and any regulations adopted under subsections
+31 ~~(a)(1)~~ (B)(1) and (2) and ~~(b)~~ (C) of this section shall be of no effect and may not be enforced.
 
 32 9–1E–07.
 END OF PAGE 17
@@ -1017,13 +1020,32 @@ HOUSE BILL 1578 21
 
 28 SECTION 2. AND BE IT FURTHER ENACTED, That:
 
-29 [(c)] (B) The State Retirement and Pension System shall provide to the
-30 certification agency any information deemed necessary to assess the need for remedial
-31 measures to assist minority and women–owned businesses in the brokerage and
-32 investment management services industry and market.
+29 ~~(b)~~ ~~The~~ ~~certification~~ ~~agency~~ ~~and~~ ~~the~~ ~~[Governor’s]~~ ~~Office~~ ~~of~~ ~~Small,~~ ~~Minority,~~ ~~and~~
+30 ~~Women~~ ~~Business~~ ~~Affairs~~ ~~shall~~ ~~submit~~ ~~the~~ ~~findings~~ ~~of~~ ~~the~~ ~~study~~ ~~required~~ ~~under~~ ~~subsection~~
+31 ~~(a)~~ ~~of~~ ~~this~~ ~~section~~ ~~to~~ ~~the~~ ~~Legislative~~ ~~Policy~~ ~~Committee,~~ ~~in~~ ~~accordance~~ ~~with~~ ~~§~~ ~~2–1257~~ ~~of~~ ~~the~~
+32 ~~State~~ ~~Government~~ ~~Article,~~ ~~on~~ ~~or~~ ~~before~~ ~~December~~ ~~31,~~ ~~[2026]~~ ~~2031,~~ ~~so~~ ~~that~~ ~~the~~ ~~General~~
+33 ~~Assembly~~ ~~may~~ ~~review~~ ~~the~~ ~~findings~~ ~~before~~ ~~the~~ ~~[2027]~~ ~~2032~~ ~~Session.~~
 
-33 SECTION 3. AND BE IT FURTHER ENACTED, That this Act shall take effect June
-34 1, 2026.
+34 [(c)] (B) The State Retirement and Pension System shall provide to the
+35 certification agency any information deemed necessary to assess the need for remedial
+36 measures to assist minority and women–owned businesses in the brokerage and
+37 investment management services industry and market.
+END OF PAGE 21
+
+START OF PAGE 22
+22 HOUSE BILL 1578
+
+1 ~~(d)~~ ~~The~~ ~~[Governor’s]~~ ~~Office~~ ~~of~~ ~~Small,~~ ~~Minority,~~ ~~and~~ ~~Women~~ ~~Business~~ ~~Affairs,~~ ~~in~~
+2 ~~consultation~~ ~~with~~ ~~the~~ ~~certification~~ ~~agency~~ ~~and~~ ~~the~~ ~~Office~~ ~~of~~ ~~the~~ ~~Attorney~~ ~~General,~~ ~~shall~~
+3 ~~develop~~ ~~race–~~ ~~and~~ ~~gender–neutral~~ ~~approaches~~ ~~to~~ ~~address~~ ~~the~~ ~~needs~~ ~~of~~ ~~minority~~ ~~and~~
+4 ~~women–owned~~ ~~businesses~~ ~~in~~ ~~the~~ ~~brokerage~~ ~~and~~ ~~investment~~ ~~management~~ ~~services~~ ~~industry~~
+5 ~~and~~ ~~market~~ ~~and~~ ~~submit~~ ~~its~~ ~~report~~ ~~to~~ ~~the~~ ~~Legislative~~ ~~Policy~~ ~~Committee,~~ ~~in~~ ~~accordance~~ ~~with~~
+6 ~~§~~ ~~2–1257~~ ~~of~~ ~~the~~ ~~State~~ ~~Government~~ ~~Article,~~ ~~on~~ ~~or~~ ~~before~~ ~~December~~ ~~31,~~ ~~[2026]~~ ~~2031,~~ ~~so~~ ~~that~~
+7 ~~the~~ ~~General~~ ~~Assembly~~ ~~may~~ ~~review,~~ ~~consider,~~ ~~and~~ ~~adopt~~ ~~race–~~ ~~and~~ ~~gender–neutral~~
+8 ~~alternatives~~ ~~to~~ ~~remedial~~ ~~measures~~ ~~that~~ ~~are~~ ~~not~~ ~~race~~ ~~and~~ ~~gender~~ ~~neutral.~~
+
+9 SECTION 3. AND BE IT FURTHER ENACTED, That this Act shall take effect June
+10 1, 2026.
 
 Approved:
 
@@ -1036,4 +1058,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 22
-</bill>

@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 493
 
@@ -26,20 +25,25 @@ CHAPTER ______
 
 1 AN ACT concerning
 
-2 Washington County – Judgeships – District Court
+2 Washington County – Judgeships – ~~Circuit~~ ~~Court~~ ~~and~~ District Court
 
-3 FOR the purpose of 
-4 increasing the number of associate judges of the District Court in a
+3 FOR the purpose of ~~increasing~~ ~~the~~ ~~number~~ ~~of~~ ~~resident~~ ~~judges~~ ~~of~~ ~~the~~ ~~Circuit~~ ~~Court~~ ~~for~~ ~~St.~~
+4 ~~Mary’s~~ ~~County;~~ increasing the number of associate judges of the District Court in a
 5 certain district appointed from Washington County; and generally relating to
-6 judgeships in the District Court.
+6 judgeships in ~~the~~ ~~circuit~~ ~~courts~~ ~~and~~ the District Court.
 
 7 BY repealing and reenacting, with amendments,
 8 Article – Courts and Judicial Proceedings
-9 Section 1–603(b)(11)
+9 Section ~~1–503(a)(18)~~ ~~and~~ 1–603(b)(11)
 10 Annotated Code of Maryland
 11 (2020 Replacement Volume and 2025 Supplement)
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
+[Brackets] indicate matter deleted from existing law.
+Underlining indicates amendments to bill.
+~~Strike~~ ~~out~~ indicates matter stricken from the bill by amendment or deleted from the law by
+amendment.
+Italics indicate opposite chamber/conference committee amendments.*hb0493*
 END OF PAGE 1
 
 START OF PAGE 2
@@ -49,6 +53,14 @@ START OF PAGE 2
 2 That the Laws of Maryland read as follows:
 
 3 Article – Courts and Judicial Proceedings
+
+4 ~~1–503.~~
+
+5 ~~(a)~~ ~~In~~ ~~each~~ ~~county~~ ~~in~~ ~~the~~ ~~first~~ ~~seven~~ ~~judicial~~ ~~circuits~~ ~~there~~ ~~shall~~ ~~be~~ ~~the~~ ~~number~~ ~~of~~
+6 ~~resident~~ ~~judges~~ ~~of~~ ~~the~~ ~~circuit~~ ~~court~~ ~~set~~ ~~forth~~ ~~below,~~ ~~including~~ ~~the~~ ~~judge~~ ~~or~~ ~~judges~~ ~~provided~~
+7 ~~for~~ ~~by~~ ~~the~~ ~~Constitution:~~
+
+8 ~~(18)~~ ~~St.~~ ~~Mary’s~~ ~~..........................................................................................~~ ~~[3]~~ ~~4~~
 
 9 1–603.
 
@@ -72,4 +84,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 2
-</bill>

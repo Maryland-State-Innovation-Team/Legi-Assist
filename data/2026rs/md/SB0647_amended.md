@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 SENATE BILL 647
 
@@ -19,7 +18,7 @@ CHAPTER ______
 2 Law Enforcement Officers’ Pension System and State Police Retirement
 3 System – Line–of–Duty Catastrophic Injury Disability
 
-4 FOR the power of requiring a certain line–of–duty disability allowance to be paid to a
+4 FOR the purpose of requiring a certain line–of–duty disability allowance to be paid to a
 5 member of the Law Enforcement Officers’ Pension System or the State Police
 6 Retirement System who is found to be disabled and unable to engage in any
 7 substantial gainful activity; and generally relating to line–of–duty disability
@@ -577,4 +576,3 @@ President of the Senate.
 ________________________________________________________________________________
 Speaker of the House of Delegates.
 END OF PAGE 12
-</bill>

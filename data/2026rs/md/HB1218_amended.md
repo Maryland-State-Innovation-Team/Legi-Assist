@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1218
 
@@ -189,4 +188,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 4
-</bill>

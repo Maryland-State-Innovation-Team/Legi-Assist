@@ -1,11 +1,10 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1326
 
 D4, O4 (6lr2628)
 ENROLLED BILL
 — Judiciary/Judicial Proceedings —
-Introduced by Delegates Wilson, Cardin, Phillips, Nkongolo,
+Introduced by ~~Delegate~~ ~~Wilson~~ Delegates Wilson, Cardin, Phillips, Nkongolo,
 Simmons, McComas, Moreno, Simpson, Mangione, Conaway, Woods, and
 Williams
 
@@ -167,8 +166,8 @@ START OF PAGE 4
 9 2. by a contractor, an employee of a contractor, or a volunteer
 10 of the institution who has on–campus contact with children; and
 
-11 (2) may be disclosed by the Department of Human Services to the
-12 operator of a child care center that is required to be licensed
+11 (2) may be disclosed by the Department of Human Services to
+12 the operator of a child care center that is required to be licensed
 13 or to hold a letter of compliance under Title 9.5, Subtitle 4 of the Education Article or to a
 14 family child care provider who is required to be registered under Title 9.5, Subtitle 3 of the
 15 Education Article, to determine the suitability of an individual for employment in the child
@@ -231,4 +230,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 5
-</bill>

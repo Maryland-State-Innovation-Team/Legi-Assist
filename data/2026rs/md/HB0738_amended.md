@@ -1,5 +1,3 @@
-<bill>
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 751
 
@@ -11,14 +9,16 @@ AN ACT concerning
 
 Real Property – Transfer–on–Death Deed – Establishment
 
-FOR the purpose of providing for the disclaimer of nonprobate transfers at death; providing for the
+FOR the purpose of altering the Maryland Uniform Disclaimer of Property Interests Act to
+provide for the disclaimer of nonprobate transfers at death; providing for the
 creation, revocation, recordation, and effects of a transfer–on–death deed for real
 property; providing example forms for the creation and revocation of a
 transfer–on–death deed; altering certain recording requirements for the clerks of the
 circuit court; exempting a certain transfer–on–death deed from certain property
-transfer taxes; providing for the retroactive application of this Act to transfer–on–death deeds executed prior to the effective date of this Act
+transfer taxes; providing for the retroactive application of this Act to ~~life~~ ~~estate~~ ~~deeds~~
+~~with~~ ~~powers~~ transfer–on–death deeds executed prior to the effective date of this Act
 for a transferor who dies on or after the effective date of this Act; and generally
-relating to transfer–on–death deeds.
+relating to ~~life~~ ~~estate~~ ~~deeds~~ ~~with~~ ~~powers~~ transfer–on–death deeds.
 
 BY adding to
 Article – Estates and Trusts
@@ -54,7 +54,7 @@ END OF PAGE 1
 START OF PAGE 2
 Ch. 751 2026 LAWS OF MARYLAND
 
-Section 14–1001 through 14–1014 to be under the new subtitle “Subtitle 10.
+Section 14–1001 through ~~14–1013~~ 14–1014 to be under the new subtitle “Subtitle 10.
 Maryland Transfer–on–Death Deed Act”
 Annotated Code of Maryland
 (2023 Replacement Volume and 2025 Supplement)
@@ -76,7 +76,7 @@ That the Laws of Maryland read as follows:
 
 Article – Estates and Trusts
 
-Subtitle 4. NONTESTAMENTARY TRANSFERS.
+Subtitle 4. [Multiple–Party Accounts] NONTESTAMENTARY TRANSFERS.
 
 1–402.
 
@@ -118,9 +118,12 @@ benefit plan; or
 may be effected by personal delivery, first–class mail, or any other method likely to result
 in its receipt.
 
-(e) In the case of an interest created by a beneficiary designation THAT IS DISCLAIMED before the designation becomes irrevocable, THE disclaimer shall be delivered to the person making the beneficiary designation.
+(e) In the case of an interest created by a beneficiary designation [made] THAT
+IS DISCLAIMED before [the time] the designation becomes irrevocable, [a] THE disclaimer
+shall be delivered to the person making the beneficiary designation.
 
-(f) In the case of an interest created by a beneficiary designation THAT IS DISCLAIMED after the designation becomes irrevocable:
+(f) In the case of an interest created by a beneficiary designation [made] THAT
+IS DISCLAIMED after [the time] the designation becomes irrevocable[, a]:
 
 (1) THE disclaimer OF AN INTEREST IN PERSONAL PROPERTY shall be
 delivered to the person obligated to distribute the interest; AND
@@ -135,13 +138,15 @@ THAT IS THE SUBJECT OF THE DISCLAIMER IS LOCATED.
 a disclaimer is required or permitted by law to be filed, recorded, or registered, the
 disclaimer may be filed, recorded, or registered.
 
-(b) EXCEPT AS PROVIDED UNDER § 9–209(F)(2) OF THIS SUBTITLE, FAILURE to file, record, or register the disclaimer does not affect its validity.
+(b) [Failure] EXCEPT AS PROVIDED UNDER § 9–209(F)(2) OF THIS SUBTITLE,
+FAILURE to file, record, or register the disclaimer does not affect its validity.
 
 Article – Real Property
 
 3–104.
 
-(a) (1) (I) EXCEPT AS PROVIDED IN SUBPARAGRAPH (II) OF THIS PARAGRAPH, THE clerk of the circuit court may record an instrument that effects a change
+(a) (1) (I) [The] EXCEPT AS PROVIDED IN SUBPARAGRAPH (II) OF THIS
+PARAGRAPH, THE clerk of the circuit court may record an instrument that effects a change
 of ownership if the instrument is:
 
 – 3 –
@@ -150,15 +155,15 @@ END OF PAGE 3
 START OF PAGE 4
 Ch. 751 2026 LAWS OF MARYLAND
 
-1. Endorsed with the certificate of the collector of taxes of the
+[(i)] 1. Endorsed with the certificate of the collector of taxes of the
 county in which the property is assessed, required under subsection (b) of this section;
 
-2. A. Accompanied by a complete intake sheet; or
+[(ii) 1.] 2. A. Accompanied by a complete intake sheet; or
 
-B. Endorsed by the assessment office for the county as
+[2.] B. Endorsed by the assessment office for the county as
 provided in subsection (g)(8) of this section; and
 
-3. Accompanied by a copy of the instrument, and any survey,
+[(iii)] 3. Accompanied by a copy of the instrument, and any survey,
 for submission to the Department of Assessments and Taxation.
 
 (II) THE REQUIREMENTS OF SUBPARAGRAPH (I)1 AND 2B OF
@@ -166,7 +171,8 @@ THIS PARAGRAPH DO NOT APPLY TO THE RECORDATION OF A TRANSFER–ON–DEATH
 DEED OR A REVOCATION OF A TRANSFER–ON–DEATH DEED EXECUTED IN
 ACCORDANCE WITH TITLE 14, SUBTITLE 10 OF THIS ARTICLE.
 
-(2) (I) EXCEPT AS PROVIDED UNDER SUBPARAGRAPH (II) OF THIS PARAGRAPH, THE Supervisor of Assessments shall transfer ownership of property
+(2) (I) [The] EXCEPT AS PROVIDED UNDER SUBPARAGRAPH (II) OF
+THIS PARAGRAPH, THE Supervisor of Assessments shall transfer ownership of property
 in the assessment records, effective as of the date of recordation, on receipt from the clerk
 of the circuit court of a copy of the instrument, the completed intake sheet, and any survey
 submitted under paragraph (1) of this subsection or documents received through an
@@ -595,7 +601,7 @@ or recording and indexing of instruments.
 
 (5) A clerk may not charge any fee for recording an intake sheet.
 
-(6) (I) EXCEPT AS PROVIDED IN SUBPARAGRAPH (II) OF THIS
+(6) (I) [A] EXCEPT AS PROVIDED IN SUBPARAGRAPH (II) OF THIS
 PARAGRAPH, A clerk may not refuse to record an instrument that does not effect a change
 of ownership on the assessment books solely because it is not accompanied by an intake
 sheet.
@@ -616,7 +622,7 @@ WES MOORE, Governor Ch. 751
 intake sheet or endorsed as transferred on the assessment books by the assessment office
 for the county where the property is located.
 
-(8) (I) THIS PARAGRAPH DOES NOT APPLY TO A
+(8) (i) THIS PARAGRAPH DOES NOT APPLY TO A
 TRANSFER–ON–DEATH DEED EXECUTED IN ACCORDANCE WITH TITLE 14, SUBTITLE
 10 OF THIS ARTICLE.
 
@@ -625,7 +631,7 @@ is submitted for transfer on the assessment books without an intake sheet, the p
 offering the deed or other instrument shall mail or deliver to the person having charge of
 the assessment books the information required on the intake sheet.
 
-(III) When property is transferred on the assessment books
+[(ii)] (III) When property is transferred on the assessment books
 under this paragraph:
 
 1. The transfer shall be to the grantee or assignee named in
@@ -634,7 +640,7 @@ the deed or other instrument; and
 2. The person recording the transfer shall evidence the fact
 of the transfer on the deed or other instrument.
 
-(IV) An endorsement under this paragraph is sufficient to
+[(iii)] (IV) An endorsement under this paragraph is sufficient to
 authorize the recording of the deed or other instrument by the clerk of the appropriate
 court.
 
@@ -648,7 +654,8 @@ instrument it accompanies.
 (ii) The intake sheet is not part of the instrument and does not
 constitute constructive notice as to the contents of the instrument.
 
-(iii) The lack of an intake sheet does not affect the validity of any conveyance, lien, or lien priority based on recordation of an instrument.
+(iii) The lack of an intake sheet does not affect the validity of
+any conveyance, lien, or lien priority based on recordation of an instrument.
 
 SUBTITLE 10. MARYLAND TRANSFER–ON–DEATH DEED ACT.
 
@@ -790,7 +797,8 @@ OF ANY DESIGNATED BENEFICIARY.
 
 14–1008.
 
-(A) SUBJECT TO SUBSECTION (C) OF THIS SECTION, THE TRANSFEROR MAY REVOKE A PREVIOUSLY RECORDED
+(A) SUBJECT TO SUBSECTION (C) OF THIS SECTION, THE TRANSFEROR MAY
+REVOKE A PREVIOUSLY RECORDED
 TRANSFER–ON–DEATH DEED, OR ANY PART OF THAT RECORDED
 
 – 16 –
@@ -804,14 +812,17 @@ COUNTY IN WHICH THE PROPERTY IS LOCATED, BEFORE THE DEATH OF THE
 TRANSFEROR, AN EXECUTED AND ACKNOWLEDGED:
 
 (1) TRANSFER–ON–DEATH DEED THAT REVOKES THE DEED OR PART
-OF THE DEED EXPRESSLY OR BY INCONSISTENCY AND THAT IS RECORDED BEFORE THE DEATH OF THE TRANSFEROR;
+OF THE DEED EXPRESSLY OR BY INCONSISTENCY AND THAT IS RECORDED
+BEFORE THE DEATH OF THE TRANSFEROR;
 
 (2) INSTRUMENT OF REVOCATION THAT EXPRESSLY REVOKES THE
-DEED OR PART OF THE DEED AND THAT IS RECORDED BEFORE THE DEATH OF THE TRANSFEROR; OR
+DEED OR PART OF THE DEED AND THAT IS RECORDED BEFORE THE DEATH
+OF THE TRANSFEROR; OR
 
 (3) INTER VIVOS DEED THAT REVOKES THE
-TRANSFER–ON–DEATH DEED EXPRESSLY OR BY INCONSISTENCY AND THAT IS DELIVERED BEFORE THE DEATH OF THE TRANSFEROR OR PART OF THE DEED EXPRESSLY OR BY
-INCONSISTENCY.
+TRANSFER–ON–DEATH DEED OR PART OF THE DEED EXPRESSLY OR BY
+INCONSISTENCY AND THAT IS DELIVERED BEFORE THE DEATH OF THE
+TRANSFEROR.
 
 (B) AFTER A TRANSFER–ON–DEATH DEED IS RECORDED, IT MAY NOT BE
 REVOKED BY:
@@ -855,7 +866,8 @@ ARTICLE (STATUTORY SHARE OF PRETERMITTED CHILD AND ISSUE);
 ARTICLE (ELECTIVE SHARE OF SURVIVING SPOUSE);
 
 (III) SECTION 4–105(B)(3) AND (4) OF THE ESTATES AND
-TRUSTS ARTICLE (REVOCATION BY SUBSEQUENT MARRIAGE FOLLOWED BY A CHILD OR BY DIVORCE);
+TRUSTS ARTICLE (REVOCATION BY SUBSEQUENT MARRIAGE FOLLOWED BY A CHILD
+OR BY DIVORCE);
 
 (IV) SECTION 4–403 OF THE ESTATES AND TRUSTS ARTICLE
 (LAPSE);
@@ -913,7 +925,8 @@ TRANSFER–ON–DEATH DEED BELONGS TO THE SURVIVING JOINT OWNER OR
 OWNERS WITH RIGHT OF SURVIVORSHIP.
 
 (2) IF A TRANSFEROR IS A JOINT OWNER AND IS THE LAST SURVIVING
-JOINT OWNER, THE TRANSFER–ON–DEATH DEED IS EFFECTIVE ON THE DEATH OF THE LAST SURVIVING JOINT OWNER.
+JOINT OWNER, THE TRANSFER–ON–DEATH DEED IS EFFECTIVE ON THE DEATH OF
+THE LAST SURVIVING JOINT OWNER.
 
 14–1010.
 
@@ -953,8 +966,8 @@ TRANSFER–ON–DEATH DEED:
 
 NOTICE TO OWNER
 
-YOU SHOULD CAREFULLY READ ALL INFORMATION ON THIS FORM AND THE “COMMON QUESTIONS ABOUT THE USE OF THIS FORM”
-DOCUMENT.
+YOU SHOULD CAREFULLY READ ALL INFORMATION ON THIS FORM AND
+THE “COMMON QUESTIONS ABOUT THE USE OF THIS FORM” DOCUMENT.
 
 YOU MAY WANT TO CONSULT A LAWYER BEFORE USING THIS FORM.
 
@@ -967,7 +980,8 @@ MAY HAVE UNINTENDED CONSEQUENCES.
 
 THIS FORM MUST BE NOTARIZED AND RECORDED IN EACH COUNTY (OR
 BALTIMORE CITY) IN WHICH THE PROPERTY IS LOCATED BEFORE YOUR DEATH, OR
-IT WILL NOT BE EFFECTIVE. THE NOTARY PUBLIC CANNOT BE A RELATIVE OF ANY BENEFICIARY OR OWNER.
+IT WILL NOT BE EFFECTIVE. THE NOTARY PUBLIC CANNOT BE A RELATIVE OF ANY
+BENEFICIARY OR OWNER.
 
 PLEASE ATTACH AND RECORD ADDITIONAL PAGES IF THE REQUESTED
 INFORMATION DOES NOT FIT ON THIS FORM.
@@ -1005,7 +1019,8 @@ SURVIVORSHIP.
 
 PRIMARY BENEFICIARY OR BENEFICIARIES
 
-I DESIGNATE THE FOLLOWING BENEFICIARY OR BENEFICIARIES IF THE BENEFICIARY OR BENEFICIARIES SURVIVE ME.
+I DESIGNATE THE FOLLOWING BENEFICIARY OR BENEFICIARIES IF THE
+BENEFICIARY OR BENEFICIARIES SURVIVE ME.
 
 _________________________ _________________________________
 PRINTED NAME MAILING ADDRESS, IF AVAILABLE
@@ -1118,7 +1133,14 @@ IS THE “LEGAL DESCRIPTION” OF THE PROPERTY NECESSARY? YES.
 
 HOW DO I FIND THE “LEGAL DESCRIPTION” OF THE PROPERTY? THIS
 INFORMATION MAY BE ON THE DEED YOU RECEIVED WHEN YOU BECAME AN OWNER
-OF THE PROPERTY AND MAY BE FOUND IN A PARAGRAPH THAT STARTS WITH THE WORDS “BEGINNING” OR “BEING”. THIS INFORMATION MAY ALSO BE AVAILABLE IN
+OF THE PROPERTY AND MAY BE FOUND IN A PARAGRAPH THAT STARTS WITH THE
+– 23 –
+END OF PAGE 23
+
+START OF PAGE 24
+Ch. 751 2026 LAWS OF MARYLAND
+
+WORDS “BEGINNING” OR “BEING”. THIS INFORMATION MAY ALSO BE AVAILABLE IN
 THE OFFICE OF THE CLERK OF THE CIRCUIT COURT FOR THE COUNTY WHERE THE
 PROPERTY IS LOCATED. IF YOU ARE NOT ABSOLUTELY SURE, CONSULT A LAWYER.
 
@@ -1489,7 +1511,7 @@ TRANSFEROR.
 it is not subject to recordation tax under:
 
 (25) § 12–108(gg) of this article (Transfer of principal residence surrendered
-in bankruptcy); or
+in bankruptcy); [or]
 
 (26) § 12–108(hh) of this article (Transfer of real property within the Pimlico
 racing facility site, Pimlico site, Bowie Race Course Training Center property, or training
@@ -1528,5 +1550,3 @@ Approved by the Governor, May 26, 2026.
 
 – 32 –
 END OF PAGE 32
-</bill>
-</bill>

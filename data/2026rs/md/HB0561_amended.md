@@ -10,8 +10,7 @@ AN ACT concerning
 Maryland Child Care Credential Program – Extension of Funding
 
 FOR the purpose of requiring, for certain fiscal years, the Governor to appropriate a certain
-amount of funding for the Maryland Child Care Credential Program and
-generally relating to funding for the Maryland
+amount of funding for the Maryland Child Care Credential Program and generally relating to funding for the Maryland
 Child Care Credential Program.
 
 BY repealing and reenacting, with amendments,
@@ -56,8 +55,8 @@ Ch. 623 2026 LAWS OF MARYLAND
 (3) For fiscal year 2026, the Governor shall appropriate for the program an
 amount that is at least equal to the amount appropriated in fiscal year 2024.
 
-(4) FOR EACH OF FISCAL YEARS 2028 THROUGH 2030, THE GOVERNOR SHALL APPROPRIATE
-$5,687,000 FOR THE PROGRAM.
+(4) FOR EACH OF FISCAL YEARS 2028 THROUGH 2030, THE
+GOVERNOR SHALL APPROPRIATE $5,687,000 FOR THE PROGRAM.
 
 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
 1, 2026.

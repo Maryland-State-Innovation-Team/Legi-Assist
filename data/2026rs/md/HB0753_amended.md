@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 753
 
@@ -29,7 +28,7 @@ CHAPTER ______
 
 2 Tax Sales – Homeowner Protections – Revisions
 
-3 FOR the requireing the State Tax Sale Ombudsman to develop a process to allow
+3 FOR the purpose of requiring the State Tax Sale Ombudsman to develop a process to allow
 4 a homeowner to designate a family member or another representative of the
 5 homeowner to communicate and work with the Ombudsman on the homeowner’s
 6 behalf; requiring the dwelling of a homeowner to be withheld from tax sale if the
@@ -129,7 +128,7 @@ HOUSE BILL 753 3
 17 (3) (I) THE MAYOR AND CITY COUNCIL OF BALTIMORE CITY OR
 18 THE GOVERNING BODY OF A COUNTY SHALL WITHHOLD FROM SALE THE DWELLING
 19 OF A HOMEOWNER WHO HAS A TERMINAL ILLNESS OR MEDICAL HARDSHIP AS
-20 DOCUMENTED BY A LICENSED HEALTHCARE PROVIDER WHO HAS
+20 DOCUMENTED BY A LICENSED HEALTH CARE PROVIDER WHO HAS
 21 TREATED OR EXAMINED THE HOMEOWNER.
 
 22 (II) THE MAYOR AND CITY COUNCIL OF BALTIMORE CITY OR
@@ -292,4 +291,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 6
-</bill>

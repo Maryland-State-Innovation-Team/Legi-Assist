@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1016
 
@@ -26,13 +25,13 @@ CHAPTER ______
 
 1 AN ACT concerning
 
-2 Noncompete and Conflict of Interest Clauses – Licensed Architects –
+2 ~~Labor~~ ~~and~~ ~~Employment~~ ~~–~~ Noncompete and Conflict of Interest Clauses –
 3 Licensed Architects – Employer Workforce Relocation and Out–of–State
 4 Employers
 
 5 FOR the purpose of applying certain provisions of law establishing that certain noncompete
 6 and conflict of interest provisions in certain employment contracts are null and void
-7 as being against the public policy of the State to licensed architects employed by licensed architects
+7 as being against the public policy of the State to ~~employees~~ ~~of~~ licensed architects
 8 employed by certain employers that relocate the majority of its employees outside the
 9 State or have its principal place of business outside the State; and generally relating
 10 to noncompete and conflict of interest clauses in employment contracts.
@@ -109,7 +108,7 @@ HOUSE BILL 1016 3
 5 C. earns equal to or less than $350,000 in total annual
 6 compensation;
 
-7 3. A LICENSED ARCHITECT WHO IS EMPLOYED BY A LICENSED ARCHITECT WHO IS
+7 3. ~~AN~~ ~~EMPLOYEE~~ ~~OF~~ A LICENSED ARCHITECT WHO IS
 8 EMPLOYED BY AN EMPLOYER THAT:
 
 9 A. AT ANY TIME DURING ON THE FIRST DAY OF THE
@@ -184,4 +183,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 4
-</bill>

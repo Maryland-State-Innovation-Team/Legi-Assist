@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 570
 
@@ -13,7 +12,7 @@ Alterations
 
 FOR the purpose of altering the membership of the Baltimore County School Board
 Nominating Commission to include one representative of the Greater Baltimore
-Chamber of Commerce, one representative of the American Federation of
+~~County~~ Chamber of Commerce, one representative of the American Federation of
 State, County and Municipal Employees Local 3, Council 434, and one representative
 of the Citizens Advisory Council for Gifted and Talented Education; and generally
 relating to the Baltimore County School Board Nominating Commission.
@@ -62,7 +61,7 @@ from the county at large.
 
 (i) The Teachers Association of Baltimore County;
 
-(ii) The GREATER Baltimore Chamber of Commerce;
+(ii) The GREATER Baltimore ~~County~~ Chamber of Commerce;
 
 (iii) The PTA Council of Baltimore County, Inc.;
 
@@ -90,7 +89,7 @@ MUNICIPAL EMPLOYEES LOCAL 3, COUNCIL 434; AND
 TALENTED EDUCATION.
 
 SECTION 2. AND BE IT FURTHER ENACTED, That the term of the initial member
-of the Greater Baltimore Chamber of Commerce under § 8–2B–03 of the Education
+of the Greater Baltimore ~~County~~ Chamber of Commerce under § 8–2B–03 of the Education
 Article, as enacted by Section 1 of this Act, shall serve the remainder of the term of the
 member of the Baltimore County Chamber of Commerce, subject to Section 3 of this Act.
 
@@ -140,7 +139,7 @@ Employees Local 3, Council 434;
 
 (ii) the Citizens Advisory Council for Gifted and Talented Education;
 
-(iii) the Greater Baltimore Chamber of Commerce;
+(iii) the Greater Baltimore ~~County~~ Chamber of Commerce;
 
 (iv) the PTA Council of Baltimore County, Inc.;
 
@@ -175,4 +174,3 @@ Approved by the Governor, May 12, 2026.
 
 – 4 –
 END OF PAGE 4
-</bill>

@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 297
 
@@ -29,7 +28,7 @@ CHAPTER ______
 2 Adult Education – High School Diploma Pathways – ~~GED~~ ~~Option~~ ~~Pilot~~ ~~Program~~
 3 ~~and~~ MDiplomaWorks Pathway
 
-4 FOR the appetite of ~~establishing~~ ~~the~~ ~~GED~~ ~~Option~~ ~~Pilot~~ ~~Program;~~ ~~requiring~~ ~~the~~ ~~Maryland~~
+4 FOR the purpose of ~~establishing~~ ~~the~~ ~~GED~~ ~~Option~~ ~~Pilot~~ ~~Program;~~ ~~requiring~~ ~~the~~ ~~Maryland~~
 5 ~~Department~~ ~~of~~ ~~Labor,~~ ~~in~~ ~~consultation~~ ~~with~~ ~~certain~~ ~~entities,~~ ~~to~~ ~~establish~~ ~~criteria~~ ~~to~~
 6 ~~select~~ ~~certain~~ ~~local~~ ~~school~~ ~~systems~~ ~~to~~ ~~participate~~ ~~in~~ ~~the~~ ~~Pilot~~ ~~Program;~~ ~~establishing~~
 7 ~~qualifications~~ ~~for~~ ~~certain~~ ~~students~~ ~~selected~~ ~~to~~ ~~participate~~ ~~in~~ ~~the~~ ~~Pilot~~ ~~Program;~~
@@ -259,4 +258,4 @@ Speaker of the House of Delegates.
 
 ________________________________________________________________________________
 President of the Senate.
-END OF PAGE 6</bill>
+END OF PAGE 6

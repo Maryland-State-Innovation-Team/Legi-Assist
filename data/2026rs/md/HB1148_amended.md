@@ -16,23 +16,23 @@ CHAPTER ______
 
 1 AN ACT concerning
 
-2 Property Taxes – Tax Sales, Legacy Protection Program, and Tax Credits
+2 Property Taxes – Tax Sales, ~~Heirs~~ Legacy Protection Program, and Tax Credits
 
-3 For the purpose of altering eligibility for certain services and programs offered by the
+3 FOR the purpose of altering eligibility for certain services and programs offered by the
 4 State Tax Sale Ombudsman to include certain persons acting on behalf of a deceased
-5 homeowner or an heir or a legatee of a deceased homeowner; establishing a Legacy
-6 Protection Program administered by the Ombudsman for the purpose of
+5 homeowner or an heir or a legatee of a deceased homeowner; establishing ~~an~~ ~~Heirs~~
+6 a Legacy Protection Program administered by the Ombudsman for the purpose of
 7 allowing heirs who inherit a dwelling to become the record title holder of the
 8 dwelling, preventing tax sales of dwellings inherited by heirs, and allowing heirs to
 9 remain in their homes; requiring the Ombudsman to conduct certain outreach,
-10 disseminate certain information, and provide certain grants to carry out the Legacy
-11 Protection Program; establishing the Legacy Protection Fund financed
-12 by the State and county governments to provide funding for the Legacy
+10 disseminate certain information, and provide certain grants to carry out the ~~Heirs~~
+11 Legacy Protection Program; establishing the ~~Heirs~~ Legacy Protection Fund financed
+12 by the State and county governments to provide funding for the ~~Heirs~~ Legacy
 13 Protection Program; requiring interest earnings to be credited to the Fund; altering
 14 eligibility for the homeowners’ and homestead tax credits to include certain heirs
 15 who are not shown as the record title holder of a dwelling in the land records of the
 16 county for a certain period of time if certain requirements are met; and generally
-17 relating to protecting heirs from property tax sales, the Legacy Protection
+17 relating to protecting heirs from property tax sales, the ~~Heirs~~ Legacy Protection
 18 Program, and the State property tax credit programs.
 
 19 BY repealing and reenacting, without amendments,
@@ -126,7 +126,7 @@ HOUSE BILL 1148 3
 
 16 213. the Population Health Improvement Fund; AND
 
-17 214. THE LEGACY PROTECTION FUND.
+17 214. THE ~~HEIRS~~ LEGACY PROTECTION FUND.
 
 18 Article – Tax – Property
 
@@ -276,14 +276,14 @@ START OF PAGE 6
 14 (5) “OMBUDSMAN” MEANS THE STATE TAX SALE OMBUDSMAN
 15 ESTABLISHED UNDER § 2–112 OF THIS SUBTITLE.
 
-16 (6) “PROGRAM” MEANS THE LEGACY PROTECTION PROGRAM
+16 (6) “PROGRAM” MEANS THE ~~HEIRS~~ LEGACY PROTECTION PROGRAM
 17 ESTABLISHED UNDER THIS SECTION.
 
 18 (7) “RECORD TITLE HOLDER” MEANS THE PERSON WHO IS LISTED AS
 19 THE OWNER OF A DWELLING ON A DEED RECORDED IN THE LAND RECORDS OF THE
 20 COUNTY WHERE THE DWELLING IS LOCATED.
 
-21 (B) (1) THERE IS A LEGACY PROTECTION PROGRAM
+21 (B) (1) THERE IS ~~AN~~ ~~HEIRS~~ A LEGACY PROTECTION PROGRAM
 22 ADMINISTERED BY THE OMBUDSMAN IN THE DEPARTMENT.
 
 23 (2) THE PURPOSE OF THE PROGRAM IS TO:
@@ -358,17 +358,17 @@ START OF PAGE 8
 5 (3) AN HEIR MAY QUALIFY TO RECEIVE FREE LEGAL ASSISTANCE
 6 FROM A LEGAL SERVICES ORGANIZATION THAT RECEIVES A GRANT UNDER
 7 PARAGRAPH (1) OF THIS SUBSECTION IF THE HEIR’S DWELLING IS VALUED AT
-8 $450,000 OR LESS, AS SHOWN IN THE RECORDS OF THE DEPARTMENT.
+8 ~~$350,000~~ $450,000 OR LESS, AS SHOWN IN THE RECORDS OF THE DEPARTMENT.
 
 9 (F) (1) THE OMBUDSMAN SHALL PROVIDE GRANTS DIRECTLY TO HEIRS
 10 TO PAY ALL OR PART OF PROBATE FEES UNDER § 2–206 OF THE ESTATES AND
-11 TRUSTS ARTICLE, INHERITANCE TAXES UNDER TITLE 7, SUBTITLE 2 OF THE
+11 TRUSTS ARTICLE ~~OR~~, INHERITANCE TAXES UNDER TITLE 7, SUBTITLE 2 OF THE
 12 TAX – GENERAL ARTICLE, OR ANY OTHER TAX OR FEE THAT AN HEIR MUST PAY TO
 13 COMPLETE THE PROBATE PROCESS AND BECOME THE RECORD TITLE HOLDER OF
 14 THE HEIR’S DWELLING.
 
 15 (2) AN HEIR MAY QUALIFY TO RECEIVE A GRANT IF THE HEIR’S
-16 DWELLING IS VALUED AT $450,000 OR LESS, AS SHOWN IN THE RECORDS
+16 DWELLING IS VALUED AT ~~$350,000~~ $450,000 OR LESS, AS SHOWN IN THE RECORDS
 17 OF THE DEPARTMENT.
 
 18 (3) THE OMBUDSMAN SHALL DETERMINE:
@@ -396,10 +396,10 @@ END OF PAGE 8
 START OF PAGE 9
 HOUSE BILL 1148 9
 
-1 (H) (1) IN THIS SUBSECTION, “FUND” MEANS THE LEGACY
+1 (H) (1) IN THIS SUBSECTION, “FUND” MEANS THE ~~HEIRS~~ LEGACY
 2 PROTECTION FUND.
 
-3 (2) THERE IS A LEGACY PROTECTION FUND.
+3 (2) THERE IS ~~AN~~ ~~HEIRS~~ A LEGACY PROTECTION FUND.
 
 4 (3) THE PURPOSE OF THE FUND IS TO FINANCE THE PROGRAM.
 
@@ -483,7 +483,7 @@ START OF PAGE 10
 
 30 (88) the Abandoned and Neglected Cemeteries Fund; AND
 
-31 (89) THE LEGACY PROTECTION FUND.
+31 (89) THE ~~HEIRS~~ LEGACY PROTECTION FUND.
 END OF PAGE 10
 
 START OF PAGE 11
@@ -580,7 +580,7 @@ START OF PAGE 12
 26 GRANTED THE PROPERTY TAX CREDIT UNDER THIS SECTION IF THE HEIR:
 
 27 1. FILES AN APPLICATION IN ACCORDANCE WITH
-28 SUBSECTION (L) OF THIS SECTION;
+28 SUBSECTION ~~(D)(6)~~ (L) OF THIS SECTION;
 
 29 2. MEETS THE ELIGIBILITY REQUIREMENTS FOR A
 30 HOMEOWNER UNDER THIS SECTION; AND
@@ -853,7 +853,7 @@ START OF PAGE 18
 10 applicable to all taxable years beginning after June 30, 2026.
 
 11 SECTION 4. AND BE IT FURTHER ENACTED, That Section 1 of this Act shall take
-12 effect July 1, 2027.
+12 effect ~~July~~ ~~1,~~ ~~2026~~ July 1, 2027.
 
 13 SECTION 5. AND BE IT FURTHER ENACTED, That, except as provided in Section
 14 4 of this Act, this Act shall take effect June 1, 2026.

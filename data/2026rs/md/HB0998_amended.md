@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 998
 
@@ -231,7 +230,7 @@ HOUSE BILL 998 5
 22 (5) the licensee only keeps and serves alcoholic beverages in conjunction
 23 with a single rental contract.
 
-24 SECTION 3. AND BE IT FURTHER ENACTED, That ~~,~~ ~~notwithstanding~~ :
+24 SECTION 3. AND BE IT FURTHER ENACTED, That, ~~notwithstanding:~~
 
 25 (a) Notwithstanding § 12–1705 of the Alcoholic Beverages and Cannabis Article,
 26 a Class D beer and wine license issued for a premises in the 800 block of St. Paul Street shall
@@ -269,4 +268,4 @@ Speaker of the House of Delegates.
 
 ________________________________________________________________________________
 President of the Senate.
-END OF PAGE 6</bill>
+END OF PAGE 6

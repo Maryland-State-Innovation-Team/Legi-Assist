@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 746
 
@@ -107,41 +106,59 @@ HOUSE BILL 746 3
 1 (B) THIS SECTION APPLIES TO:
 
 2 (1) INSURERS AND NONPROFIT HEALTH SERVICE PLANS THAT
-3 PROVIDE HOSPITAL, MEDICAL, OR SURGICAL BENEFITS TO INDIVIDUALS OR
-4 GROUPS ON AN EXPENSE–INCURRED BASIS UNDER HEALTH INSURANCE POLICIES
-5 OR CONTRACTS THAT ARE ISSUED OR DELIVERED IN THE STATE; AND
+3 PROVIDE ~~COVERAGE~~ ~~FOR~~ ~~SERVICES~~ ~~PROVIDED~~ ~~IN~~ ~~ACCORDANCE~~ ~~WITH~~ ~~THE~~
+4 ~~COLLABORATIVE~~ ~~CARE~~ ~~MODEL~~ ~~UNDER~~ ~~INDIVIDUAL,~~ ~~GROUP,~~ ~~OR~~ ~~BLANKET~~
+5 HOSPITAL, MEDICAL, OR SURGICAL BENEFITS TO INDIVIDUALS OR GROUPS ON AN
+6 EXPENSE–INCURRED BASIS UNDER HEALTH INSURANCE POLICIES OR CONTRACTS
+7 THAT ARE ISSUED OR DELIVERED IN THE STATE; AND
 
-6 (2) HEALTH MAINTENANCE ORGANIZATIONS THAT PROVIDE
-7 HOSPITAL, MEDICAL, OR SURGICAL BENEFITS TO INDIVIDUALS OR GROUPS UNDER
-8 CONTRACTS THAT ARE ISSUED OR DELIVERED IN THE STATE.
+8 (2) HEALTH MAINTENANCE ORGANIZATIONS THAT PROVIDE
+9 ~~COVERAGE~~ ~~FOR~~ ~~SERVICES~~ ~~PROVIDED~~ ~~IN~~ ~~ACCORDANCE~~ ~~WITH~~ ~~THE~~ ~~COLLABORATIVE~~
+10 ~~CARE~~ ~~MODEL~~ ~~UNDER~~ ~~INDIVIDUAL~~ ~~OR~~ ~~GROUP~~ HOSPITAL, MEDICAL, OR SURGICAL
+11 BENEFITS TO INDIVIDUALS OR GROUPS UNDER CONTRACTS THAT ARE ISSUED OR
+12 DELIVERED IN THE STATE.
 
-9 (C) AN ENTITY SUBJECT TO THIS SECTION SHALL PROVIDE COVERAGE
-10 FOR SERVICES PROVIDED IN ACCORDANCE WITH THE COLLABORATIVE CARE
-11 MODEL.
+13 ~~(C)~~ ~~(1)~~ ~~EXCEPT~~ ~~AS~~ ~~PROVIDED~~ ~~IN~~ ~~PARAGRAPH~~ ~~(2)~~ ~~OF~~ ~~THIS~~ ~~SUBSECTION,~~
+14 ~~AN~~ ~~ENTITY~~ ~~SUBJECT~~ ~~TO~~ ~~THIS~~ ~~SECTION~~ ~~MAY~~ ~~NOT~~ ~~IMPOSE~~ ~~A~~ ~~COPAYMENT,~~
+15 ~~COINSURANCE,~~ ~~OR~~ ~~DEDUCTIBLE~~ ~~REQUIREMENT~~ ~~ON~~ ~~COVERAGE~~ ~~FOR~~ ~~SERVICES~~
+16 ~~PROVIDED~~ ~~IN~~ ~~ACCORDANCE~~ ~~WITH~~ ~~THE~~ ~~COLLABORATIVE~~ ~~CARE~~ ~~MODEL.~~
 
-12 SECTION 3. AND BE IT FURTHER ENACTED, That on or before December 1,
-13 2026, the Maryland Health Care Commission shall:
+17 ~~(2)~~ ~~IF~~ ~~AN~~ ~~INSURED~~ ~~OR~~ ~~ENROLLEE~~ ~~IS~~ ~~COVERED~~ ~~UNDER~~ ~~A~~
+18 ~~HIGH–DEDUCTIBLE~~ ~~HEALTH~~ ~~PLAN,~~ ~~AS~~ ~~DEFINED~~ ~~IN~~ ~~26~~ ~~U.S.C.~~ ~~§~~ ~~223,~~ ~~AN~~ ~~ENTITY~~
+19 ~~SUBJECT~~ ~~TO~~ ~~THIS~~ ~~SECTION~~ ~~MAY~~ ~~SUBJECT~~ ~~SERVICES~~ ~~PROVIDED~~ ~~IN~~ ~~ACCORDANCE~~
+20 ~~WITH~~ ~~THE~~ ~~COLLABORATIVE~~ ~~CARE~~ ~~MODEL~~ ~~TO~~ ~~THE~~ ~~DEDUCTIBLE~~ ~~REQUIREMENT~~ ~~OF~~
+21 ~~THE~~ ~~HIGH–DEDUCTIBLE~~ ~~HEALTH~~ ~~PLAN.~~
 
-14 (1) conduct a study in accordance with § 15–1501 of the Insurance
-15 Article on the impact of eliminating health insurance cost–sharing for services provided
-16 under the Collaborative Care Model by insurers, nonprofit health service plans, and
-17 health maintenance organizations that provide coverage for services provided in
-18 accordance with the Collaborative Care Model under individual, group, or blanket
-19 health insurance policies or contracts that are issued or delivered in the State; and
+22 (C) AN ENTITY SUBJECT TO THIS SECTION SHALL PROVIDE COVERAGE FOR
+23 SERVICES PROVIDED IN ACCORDANCE WITH THE COLLABORATIVE CARE MODEL.
 
-20 (2) report its findings and recommendations, in accordance with § 2–
-21 1257 of the State Government Article, to the Senate Finance Committee and the House
-22 Health Committee.
+24 SECTION 3. AND BE IT FURTHER ENACTED, That on or before December 1,
+25 2026, the Maryland Health Care Commission shall:
 
-23 SECTION ~~3.~~ 4. AND BE IT FURTHER ENACTED, That Section 2 of this Act shall
-24 apply to all policies, contracts, and health benefit plans issued, delivered, or renewed in the
-25 State on or after January 1, 2027.
+26 (1) conduct a study in accordance with § 15–1501 of the Insurance Article
+27 on the impact of eliminating health insurance cost–sharing for services provided under the
+28 Collaborative Care Model by insurers, nonprofit health service plans, and health
+29 maintenance organizations that provide coverage for services provided in accordance with
+30 the Collaborative Care Model under individual, group, or blanket health insurance policies
+31 or contracts that are issued or delivered in the State; and
 
-26 SECTION ~~4.~~ 5. AND BE IT FURTHER ENACTED, That Sections 2 and ~~3~~ 4 of this
-27 Act shall take effect January 1, 2027.
+32 (2) report its findings and recommendations, in accordance with § 2–1257
+33 of the State Government Article, to the Senate Finance Committee and the House Health
+34 Committee.
+END OF PAGE 3
 
-28 SECTION ~~5.~~ 6. AND BE IT FURTHER ENACTED, That, except as provided in
-29 Section ~~4~~ 5 of this Act, this Act shall take effect July 1, 2026.
+START OF PAGE 4
+4 HOUSE BILL 746
+
+1 SECTION ~~3.~~ 4. AND BE IT FURTHER ENACTED, That Section 2 of this Act shall
+2 apply to all policies, contracts, and health benefit plans issued, delivered, or renewed in the
+3 State on or after January 1, 2027.
+
+4 SECTION ~~4.~~ 5. AND BE IT FURTHER ENACTED, That Sections 2 and ~~3~~ 4 of this
+5 Act shall take effect January 1, 2027.
+
+6 SECTION ~~5.~~ 6. AND BE IT FURTHER ENACTED, That, except as provided in
+7 Section ~~4~~ 5 of this Act, this Act shall take effect July 1, 2026.
 
 Approved:
 
@@ -153,5 +170,4 @@ Speaker of the House of Delegates.
 
 ________________________________________________________________________________
 President of the Senate.
-END OF PAGE 3
-</bill>
+END OF PAGE 4

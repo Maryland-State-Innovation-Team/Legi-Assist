@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 775
 
@@ -15,7 +14,7 @@ FOR the purpose of altering the contents of a certain bullying, harassment, or i
 form to require the identification of certain information; requiring each county board
 of education to report information about groups with certain characteristics under
 certain circumstances; requiring the State Department of Education to establish
-certain standards by a certain date; requiring each county board to post
+certain standards by a certain date; requiring each county board ~~of~~ ~~education~~ to post
 certain information on its website in a certain manner on or before a certain date
 each year; and generally relating to bullying, harassment, or intimidation and
 county boards of education.
@@ -110,18 +109,18 @@ WES MOORE, Governor Ch. 775
 CHARACTERISTICS DESCRIBED IN SUBSECTION (A)(2)(I)1 OF THIS SECTION
 THAT ARE BELIEVED TO HAVE BEEN A MOTIVATING FACTOR IN THE INCIDENT;
 
-(V) Indicate the location of the incident;
+[(iv)] (V) Indicate the location of the incident;
 
-(VI) Identify any physical injury suffered by the victim and
+[(v)] (VI) Identify any physical injury suffered by the victim and
 describe the seriousness and any permanent effects of the injury;
 
-(VII) Indicate the number of days a student is absent from
+[(vi)] (VII) Indicate the number of days a student is absent from
 school, if any, as a result of the incident;
 
-(VIII) Identify any request for psychological services initiated by
+[(vii)] (VIII) Identify any request for psychological services initiated by
 the victim or the victim’s family due to psychological injuries suffered; and
 
-(IX) Include instructions on how to fill out the form and the
+[(viii)] (IX) Include instructions on how to fill out the form and the
 mailing address to where the form shall be sent.
 
 (3) A county board shall distribute copies of the victim of bullying,
@@ -159,7 +158,7 @@ Ch. 775 2026 LAWS OF MARYLAND
 (5) The Governor may include funding in the State budget to provide
 grants to county boards to establish an anonymous two–way electronic tip program.
 
-(e) (1) SUBJECT TO THE REQUIREMENTS OF THIS SUBSECTION,
+(e) (1) Each SUBJECT TO THE REQUIREMENTS OF THIS SUBSECTION,
 EACH county board shall submit summaries of report forms filed with the county board to
 the State Board on or before January 31 each year.
 
@@ -169,19 +168,21 @@ individual.
 (3) (I) A COUNTY BOARD SHALL INCLUDE IN ITS REPORT
 INCIDENTS OF BULLYING, HARASSMENT, OR INTIMIDATION THAT, AFTER A
 THOROUGH AND IMPARTIAL INVESTIGATION, ARE DETERMINED TO HAVE BEEN
-MOTIVATED IN WHOLE OR IN SUBSTANTIAL PART BY ANY ACTUAL PERSONAL CHARACTERISTICS
-DESCRIBED IN SUBSECTION (A)(2)(I)1 OF THIS SECTION OF MEMBERS WITH THOSE
-PERSONAL CHARACTERISTICS.
+MOTIVATED IN WHOLE OR IN SUBSTANTIAL PART BY ANY ACTUAL PERSONAL
+CHARACTERISTICS DESCRIBED IN SUBSECTION (A)(2)(I)1 OF THIS SECTION OF
+MEMBERS WITH THOSE PERSONAL CHARACTERISTICS.
 
 (II) ON OR BEFORE JULY 1, 2027, THE DEPARTMENT SHALL
 ESTABLISH STANDARDS FOR THE CONDITIONS DESCRIBED UNDER SUBPARAGRAPH
 (I) OF THIS PARAGRAPH.
 
-(F) (1) SUBJECT TO PARAGRAPH (2) OF THIS SUBSECTION, ON OR
-BEFORE JANUARY 31 EACH YEAR, EACH COUNTY BOARD SHALL MAKE AVAILABLE ON REQUEST
+(F) (1) ON SUBJECT TO PARAGRAPH (2) OF THIS SUBSECTION, ON OR
+BEFORE JANUARY 31 EACH YEAR, EACH COUNTY BOARD SHALL POST IN A
+~~PROMINENT~~ ~~LOCATION~~ ~~ON~~ ~~ITS~~ ~~WEBSITE~~ MAKE AVAILABLE ON REQUEST
 INFORMATION ABOUT THE NUMBER OF INCIDENTS OF BULLYING, HARASSMENT, OR
 INTIMIDATION REPORTED TO THE STATE BOARD BY THE COUNTY BOARD UNDER
 SUBSECTION (E) OF THIS SECTION THAT WERE DETERMINED TO BE MOTIVATED BY
+~~AN~~ ~~ACTUAL~~ ~~OR~~ ~~PERCEIVED~~ ~~PERSONAL~~ ~~CHARACTERISTIC~~ ~~OF~~ ~~AN~~ ~~INDIVIDUAL~~ ~~OR~~ ~~A~~
 GROUP, DISAGGREGATED BY THE MOTIVATING PERSONAL CHARACTERISTIC
 INFORMATION DESCRIBED UNDER SUBSECTION (E)(3) OF THIS SECTION.
 
@@ -194,7 +195,7 @@ WES MOORE, Governor Ch. 775
 (2) A COUNTY BOARD MAY NOT PUBLISH ANY INFORMATION THAT
 COULD BE USED TO IDENTIFY AN INDIVIDUAL STUDENT.
 
-(G) The information contained in a victim of bullying, harassment, or
+[(f)] (G) The information contained in a victim of bullying, harassment, or
 intimidation report form in accordance with subsection (c) of this section or received from
 an anonymous two–way electronic tip in accordance with subsection (d) of this section:
 
@@ -203,8 +204,9 @@ under the Family Educational Rights and Privacy Act or this section; and
 
 (2) May not be made a part of a student’s permanent educational record.
 
-(H) (1) The Department shall submit a report on or before March 31 each
-year to the Senate Education, ENERGY, AND THE ENVIRONMENT Committee and the House Ways and Means Committee, in accordance
+[(g)] (H) (1) The Department shall submit a report on or before March 31 each
+year to the Senate Education, [Health, and Environmental Affairs] ENERGY, AND THE
+ENVIRONMENT Committee and the House Ways and Means Committee, in accordance
 with § 2–1257 of the State Government Article, consisting of a summary of the information
 included in the victim of bullying, harassment, or intimidation report forms filed with the
 county boards the previous year.
@@ -234,4 +236,3 @@ Approved by the Governor, May 26, 2026.
 
 – 5 –
 END OF PAGE 5
-</bill>

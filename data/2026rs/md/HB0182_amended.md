@@ -44,7 +44,7 @@ CHAPTER ______
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
 Underlining indicates amendments to bill.
-Strike out indicates matter stricken from the bill by amendment or deleted from the law by
+~~Strike~~ ~~out~~ indicates matter stricken from the bill by amendment or deleted from the law by
 amendment.
 Italics indicate opposite chamber/conference committee amendments.*hb0182*
 END OF PAGE 1
@@ -68,31 +68,32 @@ START OF PAGE 2
 
 12 BY repealing and reenacting, with amendments,
 13 Article – Election Law
-14 Section 1–101(tt–1)
+14 Section 1–101(tt–1) ~~and~~ ~~8–503~~ ~~through~~ ~~8–505~~
 15 Annotated Code of Maryland
 16 (2022 Replacement Volume and 2025 Supplement)
 
 17 BY repealing and reenacting, with amendments,
 18 Article – Election Law
-19 BY repealing and reenacting, with amendments,
-20 Chapter 43 of the Acts of the General Assembly of 2007
-21 Section 4
-22 Section 8–503 through 8–505
-23 Annotated Code of Maryland
-24 (2022 Replacement Volume and 2025 Supplement)
-25 (As enacted by Chapter 43 of the Acts of the General Assembly of 2007)
+19 Section ~~8–504~~ ~~and~~ 8–503 through 8–505
+20 Annotated Code of Maryland
+21 (2022 Replacement Volume and 2025 Supplement)
+22 (As enacted by Chapters 43 and 44 of the Acts of the General Assembly of 2007)
+
+23 BY repealing
+24 Chapter 43 ~~and~~ ~~44~~ of the Acts of the General Assembly of 2007
+25 Section 3
 
 26 BY repealing and reenacting, with amendments,
-27 Chapter 44 of the Acts of the General Assembly of 2007
+27 Chapter 43 of the Acts of the General Assembly of 2007
 28 Section 4
 
-29 BY repealing
-30 Chapter 43 of the Acts of the General Assembly of 2007
-31 Section 3
+29 BY repealing ~~and~~ ~~reenacting,~~ ~~with~~ ~~amendments,~~
+30 Chapter ~~43~~ ~~and~~ 44 of the Acts of the General Assembly of 2007
+31 Section ~~4~~ 3
 
-32 BY repealing
+32 BY repealing and reenacting, with amendments,
 33 Chapter 44 of the Acts of the General Assembly of 2007
-34 Section 3
+34 Section 4
 
 35 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
 36 That Section(s) 8–503 through 8–505 of Article – Election Law of the Annotated Code of
@@ -187,7 +188,7 @@ START OF PAGE 4
 26 (C) THE EXECUTED PLEDGES SHALL ACCOMPANY THE SUBMISSION OF THE
 27 CORRESPONDING PRESIDENTIAL ELECTOR NOMINEE NAMES TO THE STATE BOARD.
 
-28 (D) IF THE AGREEMENT UNDER, AFTER THE NOMINATION OF A CANDIDATE FOR PRESIDENT OR VICE
+28 (D) IF, AFTER THE NOMINATION OF A CANDIDATE FOR PRESIDENT OR VICE
 29 PRESIDENT BY A POLITICAL PARTY AND BEFORE THE MEETING OF PRESIDENTIAL
 30 ELECTORS UNDER § 8–508 OF THIS SUBTITLE, THE CANDIDATE DIES OR WITHDRAWS
 31 AS A CANDIDATE FOR THAT OFFICE IN ACCORDANCE WITH THE RULES OF THE
@@ -231,7 +232,7 @@ HOUSE BILL 182 5
 21 8–506.
 
 22 IN SUBMITTING THIS STATE’S CERTIFICATE OF ASCERTAINMENT AS
-23 REQUIRED BY 3 U.S.C. § 5, THE GOVERNOR SHALL CERTIFY THE
+23 REQUIRED BY 3 U.S.C. § 6 3 U.S.C. § 5, THE GOVERNOR SHALL CERTIFY THE
 24 STATE’S PRESIDENTIAL ELECTORS AND STATE IN THE CERTIFICATE THAT:
 
 25 (1) THE PRESIDENTIAL ELECTORS WILL SERVE AS PRESIDENTIAL
@@ -258,175 +259,409 @@ START OF PAGE 6
 5 (B) THE POSITION OF A PRESIDENTIAL ELECTOR NOT PRESENT TO VOTE IS
 6 VACANT.
 
-7 (C) (1) PRESIDENTIAL ELECTORS STILL
+7 (C) (1) THE STATE ADMINISTRATOR PRESIDENTIAL ELECTORS STILL
 8 SERVING SHALL APPOINT AN INDIVIDUAL AS A SUBSTITUTE PRESIDENTIAL ELECTOR
 9 TO FILL A VACANCY AS FOLLOWS:
 
-10 (I) IF THE ALTERNATE PRESIDENTIAL ELECTOR IS PRESENT TO
+10 ~~(1)~~ (I) IF THE ALTERNATE PRESIDENTIAL ELECTOR IS PRESENT TO
 11 VOTE, BY APPOINTING THE ALTERNATE PRESIDENTIAL ELECTOR FOR THE VACANT
 12 POSITION;
 
-13 (II) IF THE ALTERNATE PRESIDENTIAL ELECTOR FOR THE
+13 ~~(2)~~ (II) IF THE ALTERNATE PRESIDENTIAL ELECTOR FOR THE
 14 VACANT POSITION IS NOT PRESENT TO VOTE, BY APPOINTING A PRESIDENTIAL
 15 ELECTOR CHOSEN BY LOT FROM AMONG THE ALTERNATE PRESIDENTIAL ELECTORS
 16 PRESENT TO VOTE WHO WERE NOMINATED BY THE SAME POLITICAL PARTY OR THE
 17 UNAFFILIATED PRESIDENTIAL CANDIDATE;
 
-18 (III) IF THE NUMBER OF ALTERNATE PRESIDENTIAL ELECTORS
+18 ~~(3)~~ (III) IF THE NUMBER OF ALTERNATE PRESIDENTIAL ELECTORS
 19 PRESENT TO VOTE IS INSUFFICIENT TO FILL ANY VACANT POSITION IN ACCORDANCE
-20 WITH ITEM (I) OR (II) OF THIS PARAGRAPH, BY APPOINTING
+20 WITH ITEM ~~(1)~~ ~~OR~~ ~~(2)~~ (I) OR (II) OF THIS ~~SUBSECTION~~ PARAGRAPH, BY APPOINTING
 21 ANY IMMEDIATELY AVAILABLE INDIVIDUAL WHO IS QUALIFIED TO SERVE AS A
 22 PRESIDENTIAL ELECTOR AND CHOSEN THROUGH NOMINATION BY AND PLURALITY
 23 VOTE OF THE REMAINING PRESIDENTIAL ELECTORS, INCLUDING NOMINATION AND
 24 VOTE BY A SINGLE PRESIDENTIAL ELECTOR IF ONLY ONE REMAINS; OR
 
-25 (IV) IF THERE IS A TIE BETWEEN AT LEAST TWO NOMINEES FOR
-26 SUBSTITUTE PRESIDENTIAL ELECTOR IN A VOTE CONDUCTED UNDER ITEM (III)
-27 OF THIS PARAGRAPH, BY APPOINTING A PRESIDENTIAL ELECTOR
-28 CHOSEN BY LOT FROM AMONG THOSE NOMINEES.
+25 ~~(4)~~ (IV) IF THERE IS A TIE BETWEEN AT LEAST TWO NOMINEES FOR
+26 SUBSTITUTE PRESIDENTIAL ELECTOR IN A VOTE CONDUCTED UNDER ITEM ~~(3)~~ (III)
+27 OF THIS ~~SUBSECTION~~ PARAGRAPH, BY APPOINTING A PRESIDENTIAL ELECTOR
+28 CHOSEN BY LOT FROM AMONG THOSE NOMINEES~~;~~ ~~OR~~
 
-29 (2) IF ALL PRESIDENTIAL ELECTOR POSITIONS ARE VACANT AND
-30 CANNOT BE FILLED IN ACCORDANCE WITH PARAGRAPH (1) OF THIS SUBSECTION,
-31 THE STATE ADMINISTRATOR SHALL APPOINT A SINGLE PRESIDENTIAL ELECTOR,
-32 WITH REMAINING VACANT POSITIONS TO BE FILLED IN ACCORDANCE WITH
-33 PARAGRAPH (1)(III) OR (IV) OF THIS SUBSECTION.
-
-34 (D) TO QUALIFY AS A SUBSTITUTE PRESIDENTIAL ELECTOR UNDER
-35 SUBSECTION (C) OF THIS SECTION, AN INDIVIDUAL WHO HAS NOT EXECUTED THE
-36 PLEDGE REQUIRED UNDER § 8–504 OF THIS SUBTITLE SHALL EXECUTE THE
-37 FOLLOWING PLEDGE: “I AGREE TO SERVE AND TO MARK MY BALLOTS FOR
-38 PRESIDENT AND VICE PRESIDENT CONSISTENT WITH THE PLEDGE OF THE
-39 INDIVIDUAL TO WHOSE PRESIDENTIAL ELECTOR POSITION I HAVE SUCCEEDED.”.
+29 ~~(5)~~ ~~IF~~ ~~ALL~~ ~~PRESIDENTIAL~~ ~~ELECTOR~~ ~~POSITIONS~~ ~~ARE~~ ~~VACANT~~ ~~AND~~
+30 ~~CANNOT~~ ~~BE~~ ~~FILLED~~ ~~IN~~ ~~ACCORDANCE~~ ~~WITH~~ ~~ITEM~~ ~~(1),~~ ~~(2),~~ ~~(3),~~ ~~OR~~ ~~(4)~~ ~~OF~~ ~~THIS~~
+31 ~~SUBSECTION,~~ ~~BY~~ ~~APPOINTING~~ ~~A~~ ~~SINGLE~~ ~~PRESIDENTIAL~~ ~~ELECTOR,~~ ~~WITH~~ ~~REMAINING~~
+32 ~~VACANT~~ ~~POSITIONS~~ ~~TO~~ ~~BE~~ ~~FILLED~~ ~~IN~~ ~~ACCORDANCE~~ ~~WITH~~ ~~ITEM~~ ~~(3)~~ ~~OR~~ ~~(4)~~ ~~OF~~ ~~THIS~~
+33 ~~SUBSECTION.~~
 END OF PAGE 6
 
 START OF PAGE 7
 HOUSE BILL 182 7
 
-1 [8–505.] 8–508.
+1 (2) IF ALL PRESIDENTIAL ELECTOR POSITIONS ARE VACANT AND
+2 CANNOT BE FILLED IN ACCORDANCE WITH PARAGRAPH (1) OF THIS SUBSECTION,
+3 THE STATE ADMINISTRATOR SHALL APPOINT A SINGLE PRESIDENTIAL ELECTOR,
+4 WITH REMAINING VACANT POSITIONS TO BE FILLED IN ACCORDANCE WITH
+5 PARAGRAPH (1)(III) OR (IV) OF THIS SUBSECTION.
 
-2 (a) (1) The individuals elected to the office of presidential elector shall meet in
-3 the State House in the City of Annapolis on the day provided by the Constitution and laws
-4 of the United States.
+6 (D) TO QUALIFY AS A SUBSTITUTE PRESIDENTIAL ELECTOR UNDER
+7 SUBSECTION (C) OF THIS SECTION, AN INDIVIDUAL WHO HAS NOT EXECUTED THE
+8 PLEDGE REQUIRED UNDER § 8–504 OF THIS SUBTITLE SHALL EXECUTE THE
+9 FOLLOWING PLEDGE: “I AGREE TO SERVE AND TO MARK MY BALLOTS FOR
+10 PRESIDENT AND VICE PRESIDENT CONSISTENT WITH THE PLEDGE OF THE
+11 INDIVIDUAL TO WHOSE PRESIDENTIAL ELECTOR POSITION I HAVE SUCCEEDED.”.
 
-5 (2) The conduct of the meeting shall be consistent with the requirements
-6 of federal law.
+12 [8–505.] 8–508.
 
-7 (b) (1) Before proceeding to perform the duties of their office, the presidential
-8 electors who are present shall fill any vacancy in the office of PRESIDENTIAL elector IN
-9 ACCORDANCE WITH § 8–507 OF THIS SUBTITLE, whether the vacancy is caused by
-10 absence or other reason.
+13 (a) (1) The individuals elected to the office of presidential elector shall meet in
+14 the State House in the City of Annapolis on the day provided by the Constitution and laws
+15 of the United States.
 
-11 (2) An individual appointed to fill a vacancy is entitled to all rights and
-12 privileges of the duly elected electors.
+16 (2) The conduct of the meeting shall be consistent with the requirements
+17 of federal law.
 
-13 (c) (1) After taking the oath prescribed by Article I, § 9 of the Maryland
-14 Constitution before the Clerk of the Supreme Court of Maryland or, in the Clerk’s absence,
-15 before one of the Clerk’s deputies, the presidential electors shall cast their votes for:
+18 (b) (1) Before proceeding to perform the duties of their office, the presidential
+19 electors who are present shall fill any vacancy in the office of PRESIDENTIAL elector IN
+20 ACCORDANCE WITH § 8–507 OF THIS SUBTITLE, whether the vacancy is caused by
+21 absence or other reason.
 
-16 (I) IF THE AGREEMENT UNDER § 8–5A–01 OF THIS TITLE IS NOT
-17 IN EFFECT, THE CANDIDATES FOR PRESIDENT AND VICE PRESIDENT WHO
-18 RECEIVED A PLURALITY OF THE VOTES CAST IN THE STATE OF MARYLAND; OR
+22 (2) An individual appointed to fill a vacancy is entitled to all rights and
+23 privileges of the duly elected electors.
 
-19 (II) IF THE AGREEMENT UNDER § 8–5A–01 OF THIS TITLE IS IN
-20 EFFECT, the candidates for President and Vice President who received a plurality of the
-21 votes cast in the national popular vote total defined in § 8–5A–01 of this title.
+24 (c) (1) After taking the oath prescribed by Article I, § 9 of the Maryland
+25 Constitution before the Clerk of the Supreme Court of Maryland or, in the Clerk’s absence,
+26 before one of the Clerk’s deputies, the presidential electors shall cast their votes for:
 
-22 (2) THE STATE ADMINISTRATOR SHALL PROVIDE EACH
-23 PRESIDENTIAL ELECTOR WITH A PRESIDENTIAL AND A VICE PRESIDENTIAL BALLOT.
+27 (I) IF THE AGREEMENT UNDER § 8–5A–01 OF THIS TITLE IS NOT
+28 IN EFFECT, THE CANDIDATES FOR PRESIDENT AND VICE PRESIDENT WHO
+29 RECEIVED A PLURALITY OF THE VOTES CAST IN THE STATE OF MARYLAND; OR
 
-24 (3) EACH PRESIDENTIAL ELECTOR SHALL MARK THE PRESIDENTIAL
-25 ELECTOR’S PRESIDENTIAL AND VICE PRESIDENTIAL BALLOTS WITH THE
-26 PRESIDENTIAL ELECTOR’S SIGNATURE AND THE PRESIDENTIAL ELECTOR’S
-27 LEGIBLY PRINTED NAME.
+30 (II) IF THE AGREEMENT UNDER § 8–5A–01 OF THIS TITLE IS IN
+31 EFFECT, the candidates for President and Vice President who received a plurality of the
+32 votes cast in the national popular vote total defined in § 8–5A–01 of this title.
 
-28 (D) (1) (I) THIS PARAGRAPH APPLIES ONLY IF THE AGREEMENT
-29 UNDER § 8–5A–01 OF THIS TITLE IS NOT IN EFFECT.
-
-30 (II) EACH PRESIDENTIAL ELECTOR SHALL PRESENT BOTH
-31 COMPLETED BALLOTS TO THE STATE ADMINISTRATOR.
-
-32 (III) THE STATE ADMINISTRATOR SHALL EXAMINE THE
-33 BALLOTS PRESENTED UNDER SUBPARAGRAPH (II) OF THIS PARAGRAPH AND
-34 ACCEPT AS CAST ALL BALLOTS OF PRESIDENTIAL ELECTORS WHOSE VOTES ARE
+33 (2) THE STATE ADMINISTRATOR SHALL PROVIDE EACH
+34 PRESIDENTIAL ELECTOR WITH A PRESIDENTIAL AND A VICE PRESIDENTIAL BALLOT.
 END OF PAGE 7
 
 START OF PAGE 8
 8 HOUSE BILL 182
 
-1 CONSISTENT WITH THEIR PLEDGES EXECUTED UNDER § 8–504 OR § 8–507(D) OF
-2 THIS SUBTITLE.
+1 (3) EACH PRESIDENTIAL ELECTOR SHALL MARK THE PRESIDENTIAL
+2 ELECTOR’S PRESIDENTIAL AND VICE PRESIDENTIAL BALLOTS WITH THE
+3 PRESIDENTIAL ELECTOR’S SIGNATURE AND THE PRESIDENTIAL ELECTOR’S
+4 LEGIBLY PRINTED NAME.
 
-3 (2) (I) THIS PARAGRAPH APPLIES ONLY IF THE AGREEMENT
-4 UNDER § 8–5A–01 OF THIS TITLE IS IN EFFECT.
+5 (D) (1) (I) THIS PARAGRAPH APPLIES ONLY IF THE AGREEMENT
+6 UNDER § 8–5A–01 OF THIS TITLE IS NOT IN EFFECT.
 
-5 (II) EACH PRESIDENTIAL ELECTOR SHALL PRESENT BOTH
-6 COMPLETED BALLOTS TO THE STATE ADMINISTRATOR, WHO SHALL EXAMINE THE
-7 BALLOTS AND ACCEPT AS CAST ALL BALLOTS OF PRESIDENTIAL ELECTORS WHOSE
-8 VOTES ARE CONSISTENT WITH THEIR PLEDGES EXECUTED FOR THE CANDIDATES
-9 FOR PRESIDENT AND VICE PRESIDENT WHO ARE THE NATIONAL POPULAR VOTE
-10 WINNERS AS DEFINED IN § 8–5A–01 OF THIS TITLE.
+7 (II) EACH PRESIDENTIAL ELECTOR SHALL PRESENT BOTH
+8 COMPLETED BALLOTS TO THE STATE ADMINISTRATOR.
 
-11 (3) THE STATE ADMINISTRATOR MAY NOT ACCEPT EITHER A
-12 PRESIDENTIAL ELECTOR’S PRESIDENTIAL OR VICE PRESIDENTIAL BALLOT IF THE
-13 PRESIDENTIAL ELECTOR VOTED IN VIOLATION OF THE PRESIDENTIAL ELECTOR’S
-14 PLEDGE.
+9 (III) THE STATE ADMINISTRATOR SHALL EXAMINE THE
+10 BALLOTS PRESENTED UNDER SUBPARAGRAPH (II) OF THIS PARAGRAPH AND
+11 ACCEPT AS CAST ALL BALLOTS OF PRESIDENTIAL ELECTORS WHOSE VOTES ARE
+12 CONSISTENT WITH THEIR PLEDGES EXECUTED UNDER § 8–504 OR § 8–507(D) OF
+13 THIS SUBTITLE.
 
-15 (E) A PRESIDENTIAL ELECTOR WHO REFUSES TO PRESENT A BALLOT,
-16 PRESENTS AN UNMARKED BALLOT AND REFUSES TO SIGN THE CERTIFICATE OF
-17 VOTE, OR PRESENTS A BALLOT MARKED IN VIOLATION OF THE PRESIDENTIAL
-18 ELECTOR’S PLEDGE EXECUTED UNDER § 8–504 OR § 8–507(D) OF THIS SUBTITLE
-19 VACATES THE OFFICE OF ELECTOR, CREATING A VACANT POSITION TO BE FILLED
-20 UNDER § 8–507 OF THIS SUBTITLE.
+14 (2) (I) THIS PARAGRAPH APPLIES ONLY IF THE AGREEMENT
+15 UNDER § 8–5A–01 OF THIS TITLE IS IN EFFECT.
 
-21 (F) THE STATE ADMINISTRATOR SHALL DISTRIBUTE BALLOTS AND
-22 COLLECT BALLOTS FROM A SUBSTITUTE PRESIDENTIAL ELECTOR AND REPEAT THE
-23 PROCESS UNDER THIS SECTION, DECLARING VACANT POSITIONS TO BE FILLED AS
-24 REQUIRED UNDER § 8–507(C) OF THIS SUBTITLE, AND RECORDING APPROPRIATELY
-25 COMPLETED BALLOTS FROM THE SUBSTITUTE PRESIDENTIAL ELECTORS, UNTIL ALL
-26 OF THE STATE’S ELECTORAL VOTES HAVE BEEN CAST AND RECORDED.
+16 (II) EACH PRESIDENTIAL ELECTOR SHALL PRESENT BOTH
+17 COMPLETED BALLOTS TO THE STATE ADMINISTRATOR, WHO SHALL EXAMINE THE
+18 BALLOTS AND ACCEPT AS CAST ALL BALLOTS OF PRESIDENTIAL ELECTORS WHOSE
+19 VOTES ARE CONSISTENT WITH THEIR PLEDGES EXECUTED FOR THE CANDIDATES
+20 FOR PRESIDENT AND VICE PRESIDENT WHO ARE THE NATIONAL POPULAR VOTE
+21 WINNERS AS DEFINED IN § 8–5A–01 OF THIS TITLE.
 
-27 8–509.
+22 (3) THE STATE ADMINISTRATOR MAY NOT ACCEPT EITHER A
+23 PRESIDENTIAL ELECTOR’S PRESIDENTIAL OR VICE PRESIDENTIAL BALLOT IF THE
+24 PRESIDENTIAL ELECTOR VOTED IN VIOLATION OF THE PRESIDENTIAL ELECTOR’S
+25 PLEDGE.
 
-28 (A) AFTER THE VOTE OF THE STATE’S PRESIDENTIAL ELECTORS IS
-29 COMPLETED, IF THE FINAL LIST OF PRESIDENTIAL ELECTORS DIFFERS FROM ANY
-30 LIST THAT THE GOVERNOR PREVIOUSLY INCLUDED ON A CERTIFICATE OF
-31 ASCERTAINMENT PREPARED AND TRANSMITTED UNDER 3 U.S.C. § 5,
-32 THE STATE ADMINISTRATOR IMMEDIATELY SHALL PREPARE AN AMENDED
-33 CERTIFICATE OF ASCERTAINMENT IN ACCORDANCE WITH 3 U.S.C. § 4 AND
-34 TRANSMIT IT TO THE GOVERNOR FOR THE GOVERNOR’S SIGNATURE.
+26 (E) A PRESIDENTIAL ELECTOR WHO REFUSES TO PRESENT A BALLOT,
+27 PRESENTS AN UNMARKED BALLOT AND REFUSES TO SIGN THE CERTIFICATE OF
+28 VOTE, OR PRESENTS A BALLOT MARKED IN VIOLATION OF THE PRESIDENTIAL
+29 ELECTOR’S PLEDGE EXECUTED UNDER § 8–504 OR § 8–507(D) OF THIS SUBTITLE
+30 VACATES THE OFFICE OF ELECTOR, CREATING A VACANT POSITION TO BE FILLED
+31 UNDER § 8–507 OF THIS SUBTITLE.
 
-35 (B) THE GOVERNOR IMMEDIATELY SHALL DELIVER THE SIGNED AMENDED
-36 CERTIFICATE OF ASCERTAINMENT TO THE STATE ADMINISTRATOR AND A SIGNED
-37 DUPLICATE ORIGINAL OF THE AMENDED CERTIFICATE OF ASCERTAINMENT TO ALL
+32 (F) THE STATE ADMINISTRATOR SHALL DISTRIBUTE BALLOTS AND
+33 COLLECT BALLOTS FROM A SUBSTITUTE PRESIDENTIAL ELECTOR AND REPEAT THE
+34 PROCESS UNDER THIS SECTION, DECLARING VACANT POSITIONS TO BE FILLED AS
+35 REQUIRED UNDER § 8–507(C) OF THIS SUBTITLE, AND RECORDING APPROPRIATELY
 END OF PAGE 8
 
 START OF PAGE 9
 HOUSE BILL 182 9
 
-1 INDIVIDUALS ENTITLED TO RECEIVE THIS STATE’S CERTIFICATE OF
-2 ASCERTAINMENT, INDICATING THAT THE AMENDED CERTIFICATE OF
-3 ASCERTAINMENT IS TO BE SUBSTITUTED FOR THE CERTIFICATE OF
-4 ASCERTAINMENT PREVIOUSLY SUBMITTED.
+1 COMPLETED BALLOTS FROM THE SUBSTITUTE PRESIDENTIAL ELECTORS, UNTIL ALL
+2 OF THE STATE’S ELECTORAL VOTES HAVE BEEN CAST AND RECORDED.
 
-5 (C) (1) THE STATE ADMINISTRATOR SHALL PREPARE A CERTIFICATE OF
-6 THE VOTE.
+3 8–509.
 
-7 (2) THE PRESIDENTIAL ELECTORS ON THE FINAL LIST SHALL SIGN
-8 THE CERTIFICATE.
+4 (A) AFTER THE VOTE OF THE STATE’S PRESIDENTIAL ELECTORS IS
+5 COMPLETED, IF THE FINAL LIST OF PRESIDENTIAL ELECTORS DIFFERS FROM ANY
+6 LIST THAT THE GOVERNOR PREVIOUSLY INCLUDED ON A CERTIFICATE OF
+7 ASCERTAINMENT PREPARED AND TRANSMITTED UNDER 3 U.S.C. § 6 3 U.S.C. § 5,
+8 THE STATE ADMINISTRATOR IMMEDIATELY SHALL PREPARE AN AMENDED
+9 CERTIFICATE OF ASCERTAINMENT IN ACCORDANCE WITH 3 U.S.C. § 4 AND
+10 TRANSMIT IT TO THE GOVERNOR FOR THE GOVERNOR’S SIGNATURE.
 
-9 (3) THE STATE ADMINISTRATOR SHALL PROCESS AND TRANSMIT THE
-10 SIGNED CERTIFICATE WITH THE AMENDED CERTIFICATE OF ASCERTAINMENT
-11 UNDER 3 U.S.C. §§ 9 THROUGH 11.
+11 (B) THE GOVERNOR IMMEDIATELY SHALL DELIVER THE SIGNED AMENDED
+12 CERTIFICATE OF ASCERTAINMENT TO THE STATE ADMINISTRATOR AND A SIGNED
+13 DUPLICATE ORIGINAL OF THE AMENDED CERTIFICATE OF ASCERTAINMENT TO ALL
+14 INDIVIDUALS ENTITLED TO RECEIVE THIS STATE’S CERTIFICATE OF
+15 ASCERTAINMENT, INDICATING THAT THE AMENDED CERTIFICATE OF
+16 ASCERTAINMENT IS TO BE SUBSTITUTED FOR THE CERTIFICATE OF
+17 ASCERTAINMENT PREVIOUSLY SUBMITTED.
 
-12 Chapter 43 of the Acts of 2007
+18 (C) (1) THE STATE ADMINISTRATOR SHALL PREPARE A CERTIFICATE OF
+19 THE VOTE.
 
-13 SECTION 4. AND BE IT FURTHER ENACTED, That this Act shall take effect October 1, 2007.
+20 (2) THE PRESIDENTIAL ELECTORS ON THE FINAL LIST SHALL SIGN
+21 THE CERTIFICATE.
 
-14 Chapter 44 of the Acts of 2007
+22 (3) THE STATE ADMINISTRATOR SHALL PROCESS AND TRANSMIT THE
+23 SIGNED CERTIFICATE WITH THE AMENDED CERTIFICATE OF ASCERTAINMENT
+24 UNDER 3 U.S.C. §§ 9 THROUGH 11.
 
-15 SECTION 4. AND BE IT FURTHER ENACTED, That this Act shall take effect October 1, 2007.
+25 Chapter 43 of the Acts of 2007
 
-16 SECTION 3. AND BE IT FURTHER ENACTED, That this Act shall take effect October 1, 2026.
+26 [SECTION 3. AND BE IT FURTHER ENACTED, That Section 1 of this Act may not
+27 take effect until the interstate compact entitled “Agreement Among the States to Elect the
+28 President by National Popular Vote” is enacted in substantially the same form by states
+29 cumulatively possessing a majority of the electoral votes and the enactments of the compact
+30 have taken effect in each state; that Section 1 of this Act shall only govern the appointment
+31 of presidential electors in any year in which the Agreement Among the States to Elect the
+32 President by National Popular Vote is, on July 20, in effect in states cumulatively
+33 possessing a majority of the electoral votes; that all the states of the United States are
+34 requested to concur in this Act of the General Assembly of Maryland by the enactment of a
+35 similar Act; and that the Department of Legislative Services shall notify the appropriate
+36 officials of the combined states of the enactment of this Act.]
+END OF PAGE 9
+
+START OF PAGE 10
+10 HOUSE BILL 182
+
+1 SECTION 4. AND BE IT FURTHER ENACTED, That[, except as provided in
+2 Section 3 of this Act,] this Act shall take effect October 1, 2007.
+
+3 Chapter 44 of the Acts of 2007
+
+4 [SECTION 3. AND BE IT FURTHER ENACTED, That Section 1 of this Act may not
+5 take effect until the interstate compact entitled “Agreement Among the States to Elect the
+6 President by National Popular Vote” is enacted in substantially the same form by states
+7 cumulatively possessing a majority of the electoral votes and the enactments of the compact
+8 have taken effect in each state; that Section 1 of this Act shall only govern the appointment
+9 of presidential electors in any year in which the Agreement Among the States to Elect the
+10 President by National Popular Vote is, on July 20, in effect in states cumulatively
+11 possessing a majority of the electoral votes; that all the states of the United States are
+12 requested to concur in this Act of the General Assembly of Maryland by the enactment of a
+13 similar Act; and that the Department of Legislative Services shall notify the appropriate
+14 officials of the combined states of the enactment of this Act.]
+
+15 SECTION 4. AND BE IT FURTHER ENACTED, That[, except as provided in
+16 Section 3 of this Act,] this Act shall take effect October 1, 2007.
+
+17 ~~SECTION~~ ~~2.~~ ~~AND~~ ~~BE~~ ~~IT~~ ~~FURTHER~~ ~~ENACTED,~~ ~~That~~ ~~the~~ ~~Laws~~ ~~of~~ ~~Maryland~~ ~~read~~
+18 ~~as~~ ~~follows:~~
+
+19 ~~Article~~ ~~–~~ ~~Election~~ ~~Law~~
+
+20 [8–504.] 8–505.
+
+21 ~~(a)~~ ~~(1)~~ ~~At~~ ~~the~~ ~~general~~ ~~election~~ ~~for~~ ~~President~~ ~~and~~ ~~Vice~~ ~~President~~ ~~of~~ ~~the~~ ~~United~~
+22 ~~States~~ ~~there~~ ~~shall~~ ~~be~~ ~~elected,~~ ~~in~~ ~~accordance~~ ~~with~~ ~~subsection~~ ~~(b)~~ ~~of~~ ~~this~~ ~~section,~~ ~~the~~ ~~number~~
+23 ~~of~~ ~~presidential~~ ~~electors~~ ~~to~~ ~~which~~ ~~this~~ ~~State~~ ~~is~~ ~~entitled.~~
+
+24 ~~(2)~~ ~~Presidential~~ ~~electors~~ ~~shall~~ ~~be~~ ~~elected~~ ~~at~~ ~~large~~ ~~by~~ ~~the~~ ~~voters~~ ~~of~~ ~~the~~ ~~entire~~
+25 ~~State.~~
+
+26 ~~(b)~~ ~~(1)~~ ~~The~~ ~~names~~ ~~of~~ ~~the~~ ~~candidates~~ ~~for~~ ~~the~~ ~~office~~ ~~of~~ ~~presidential~~ ~~elector~~ ~~may~~
+27 ~~not~~ ~~be~~ ~~printed~~ ~~on~~ ~~the~~ ~~ballot.~~
+
+28 ~~(2)~~ ~~A~~ ~~vote~~ ~~for~~ ~~the~~ ~~candidates~~ ~~for~~ ~~President~~ ~~and~~ ~~Vice~~ ~~President~~ ~~of~~ ~~a~~ ~~political~~
+29 party shall be considered to be and counted as a vote for each of the NOMINEES FOR
+30 presidential [electors] ELECTOR of the political party [nominated] SUBMITTED in
+31 ~~accordance~~ ~~with~~ ~~§~~ ~~8–503~~ ~~of~~ ~~this~~ ~~subtitle.~~
+
+32 (3) A VOTE FOR AN UNAFFILIATED CANDIDATE FOR PRESIDENT AND
+33 VICE PRESIDENT SHALL BE CONSIDERED TO BE AND COUNTED AS A VOTE FOR EACH
+34 OF THE NOMINEES FOR PRESIDENTIAL ELECTOR SUBMITTED BY THE UNAFFILIATED
+END OF PAGE 10
+
+START OF PAGE 11
+HOUSE BILL 182 11
+
+1 PRESIDENTIAL CANDIDATE TO THE STATE BOARD IN ACCORDANCE WITH § 8–503 OF
+2 THIS SUBTITLE.
+
+3 [8–505.] 8–508.
+
+4 ~~(a)~~ ~~(1)~~ ~~The~~ ~~individuals~~ ~~elected~~ ~~to~~ ~~the~~ ~~office~~ ~~of~~ ~~presidential~~ ~~elector~~ ~~shall~~ ~~meet~~ ~~in~~
+5 ~~the~~ ~~State~~ ~~House~~ ~~in~~ ~~the~~ ~~City~~ ~~of~~ ~~Annapolis~~ ~~on~~ ~~the~~ ~~day~~ ~~provided~~ ~~by~~ ~~the~~ ~~Constitution~~ ~~and~~ ~~laws~~
+6 ~~of~~ ~~the~~ ~~United~~ ~~States.~~
+
+7 ~~(2)~~ ~~The~~ ~~conduct~~ ~~of~~ ~~the~~ ~~meeting~~ ~~shall~~ ~~be~~ ~~consistent~~ ~~with~~ ~~the~~ ~~requirements~~
+8 ~~of~~ ~~federal~~ ~~law.~~
+
+9 ~~(b)~~ ~~(1)~~ ~~Before~~ ~~proceeding~~ ~~to~~ ~~perform~~ ~~the~~ ~~duties~~ ~~of~~ ~~their~~ ~~office,~~ ~~the~~ ~~presidential~~
+10 electors who are present shall fill any vacancy in the office of PRESIDENTIAL elector IN
+11 ACCORDANCE WITH § 8–507 OF THIS SUBTITLE, whether the vacancy is caused by
+12 ~~absence~~ ~~or~~ ~~other~~ ~~reason.~~
+
+13 ~~(2)~~ ~~An~~ ~~individual~~ ~~appointed~~ ~~to~~ ~~fill~~ ~~a~~ ~~vacancy~~ ~~is~~ ~~entitled~~ ~~to~~ ~~all~~ ~~rights~~ ~~and~~
+14 ~~privileges~~ ~~of~~ ~~the~~ ~~duly~~ ~~elected~~ ~~electors.~~
+
+15 (c) (1) After taking the oath prescribed by Article I, § 9 of the Maryland
+16 ~~Constitution~~ ~~before~~ ~~the~~ ~~Clerk~~ ~~of~~ ~~the~~ ~~Supreme~~ ~~Court~~ ~~of~~ ~~Maryland~~ ~~or,~~ ~~in~~ ~~the~~ ~~Clerk’s~~ ~~absence,~~
+17 ~~before~~ ~~one~~ ~~of~~ ~~the~~ ~~Clerk’s~~ ~~deputies,~~ ~~the~~ ~~presidential~~ ~~electors~~ ~~shall~~ ~~cast~~ ~~their~~ ~~votes~~ ~~for~~ ~~the~~
+18 ~~candidates~~ ~~for~~ ~~President~~ ~~and~~ ~~Vice~~ ~~President~~ ~~who~~ ~~received~~ ~~a~~ ~~plurality~~ ~~of~~ ~~the~~ ~~votes~~ ~~cast~~ ~~in~~
+19 ~~the~~ ~~State~~ ~~of~~ ~~Maryland.~~
+
+20 (2) THE STATE ADMINISTRATOR SHALL PROVIDE EACH
+21 PRESIDENTIAL ELECTOR WITH A PRESIDENTIAL AND VICE PRESIDENTIAL BALLOT.
+
+22 (3) EACH PRESIDENTIAL ELECTOR SHALL MARK THE PRESIDENTIAL
+23 ELECTOR’S PRESIDENTIAL AND VICE PRESIDENTIAL BALLOTS WITH THE
+24 PRESIDENTIAL ELECTOR’S SIGNATURE AND THE PRESIDENTIAL ELECTOR’S
+25 LEGIBLY PRINTED NAME.
+
+26 (D) (1) EACH PRESIDENTIAL ELECTOR SHALL PRESENT BOTH
+27 COMPLETED BALLOTS TO THE STATE ADMINISTRATOR.
+
+28 (2) THE STATE ADMINISTRATOR SHALL EXAMINE THE BALLOTS
+29 PRESENTED UNDER PARAGRAPH (1) OF THIS SUBSECTION AND ACCEPT AS CAST ALL
+30 BALLOTS OF PRESIDENTIAL ELECTORS WHOSE VOTES ARE CONSISTENT WITH THEIR
+31 PLEDGES EXECUTED UNDER § 8–504 OR § 8–507(D) OF THIS SUBTITLE.
+
+32 (3) THE STATE ADMINISTRATOR MAY NOT COUNT EITHER A
+33 PRESIDENTIAL ELECTOR’S PRESIDENTIAL OR VICE PRESIDENTIAL BALLOT IF THE
+END OF PAGE 11
+
+START OF PAGE 12
+12 HOUSE BILL 182
+
+1 PRESIDENTIAL ELECTOR HAS NOT MARKED BOTH BALLOTS OR HAS MARKED A
+2 BALLOT IN VIOLATION OF THE PRESIDENTIAL ELECTOR’S PLEDGE.
+
+3 (E) A PRESIDENTIAL ELECTOR WHO REFUSES TO PRESENT A BALLOT,
+4 PRESENTS AN UNMARKED BALLOT, OR PRESENTS A BALLOT MARKED IN VIOLATION
+5 OF THE PRESIDENTIAL ELECTOR’S PLEDGE EXECUTED UNDER § 8–504 OR § 8–507(D)
+6 OF THIS SUBTITLE VACATES THE OFFICE OF ELECTOR, CREATING A VACANT
+7 POSITION TO BE FILLED UNDER § 8–507 OF THIS SUBTITLE.
+
+8 (F) THE STATE ADMINISTRATOR SHALL DISTRIBUTE BALLOTS AND
+9 COLLECT BALLOTS FROM A SUBSTITUTE PRESIDENTIAL ELECTOR AND REPEAT THE
+10 PROCESS UNDER THIS SECTION, DECLARING AND FILLING VACANT POSITIONS AS
+11 REQUIRED, AND RECORDING APPROPRIATELY COMPLETED BALLOTS FROM THE
+12 SUBSTITUTED PRESIDENTIAL ELECTORS, UNTIL ALL OF THE STATE’S ELECTORAL
+13 VOTES HAVE BEEN CAST AND RECORDED.
+
+14 ~~SECTION~~ ~~3.~~ ~~AND~~ ~~BE~~ ~~IT~~ ~~FURTHER~~ ~~ENACTED,~~ ~~That~~ ~~the~~ ~~Laws~~ ~~of~~ ~~Maryland~~ ~~read~~
+15 ~~as~~ ~~follows:~~
+
+16 ~~Article~~ ~~–~~ ~~Election~~ ~~Law~~
+
+17 [8–504.] 8–505.
+
+18 ~~(a)~~ ~~(1)~~ ~~At~~ ~~the~~ ~~general~~ ~~election~~ ~~for~~ ~~President~~ ~~and~~ ~~Vice~~ ~~President~~ ~~of~~ ~~the~~ ~~United~~
+19 ~~States~~ ~~there~~ ~~shall~~ ~~be~~ ~~elected,~~ ~~in~~ ~~accordance~~ ~~with~~ ~~subsection~~ ~~(b)~~ ~~of~~ ~~this~~ ~~section,~~ ~~the~~ ~~number~~
+20 ~~of~~ ~~presidential~~ ~~electors~~ ~~to~~ ~~which~~ ~~this~~ ~~State~~ ~~is~~ ~~entitled.~~
+
+21 ~~(2)~~ ~~Presidential~~ ~~electors~~ ~~shall~~ ~~be~~ ~~elected~~ ~~under~~ ~~the~~ ~~procedure~~ ~~provided~~ ~~in~~ ~~§~~
+22 ~~8–5A–01~~ ~~of~~ ~~this~~ ~~title.~~
+
+23 ~~(b)~~ ~~(1)~~ ~~The~~ ~~names~~ ~~of~~ ~~the~~ ~~candidates~~ ~~for~~ ~~the~~ ~~office~~ ~~of~~ ~~presidential~~ ~~elector~~ ~~may~~
+24 ~~not~~ ~~be~~ ~~printed~~ ~~on~~ ~~the~~ ~~ballot.~~
+
+25 ~~(2)~~ ~~A~~ ~~vote~~ ~~for~~ ~~the~~ ~~candidates~~ ~~for~~ ~~President~~ ~~and~~ ~~Vice~~ ~~President~~ ~~of~~ ~~a~~ ~~political~~
+26 party shall be considered to be and counted as a vote for each of the NOMINEES FOR
+27 presidential [electors] ELECTOR of the political party [nominated] SUBMITTED in
+28 ~~accordance~~ ~~with~~ ~~§~~ ~~8–503~~ ~~of~~ ~~this~~ ~~subtitle.~~
+
+29 (3) A VOTE FOR AN UNAFFILIATED CANDIDATE FOR PRESIDENT AND
+30 VICE PRESIDENT SHALL BE CONSIDERED TO BE AND COUNTED AS A VOTE FOR EACH
+31 OF THE NOMINEES FOR PRESIDENTIAL ELECTOR SUBMITTED BY THE UNAFFILIATED
+32 PRESIDENTIAL CANDIDATE TO THE STATE BOARD IN ACCORDANCE WITH § 8–503 OF
+33 THIS SUBTITLE.
+
+34 [8–505.] 8–508.
+END OF PAGE 12
+
+START OF PAGE 13
+HOUSE BILL 182 13
+
+1 ~~(a)~~ ~~(1)~~ ~~The~~ ~~individuals~~ ~~elected~~ ~~to~~ ~~the~~ ~~office~~ ~~of~~ ~~presidential~~ ~~elector~~ ~~shall~~ ~~meet~~ ~~in~~
+2 ~~the~~ ~~State~~ ~~House~~ ~~in~~ ~~the~~ ~~City~~ ~~of~~ ~~Annapolis~~ ~~on~~ ~~the~~ ~~day~~ ~~provided~~ ~~by~~ ~~the~~ ~~Constitution~~ ~~and~~ ~~laws~~
+3 ~~of~~ ~~the~~ ~~United~~ ~~States.~~
+
+4 ~~(2)~~ ~~The~~ ~~conduct~~ ~~of~~ ~~the~~ ~~meeting~~ ~~shall~~ ~~be~~ ~~consistent~~ ~~with~~ ~~the~~ ~~requirements~~
+5 ~~of~~ ~~federal~~ ~~law.~~
+
+6 ~~(b)~~ ~~(1)~~ ~~Before~~ ~~proceeding~~ ~~to~~ ~~perform~~ ~~the~~ ~~duties~~ ~~of~~ ~~their~~ ~~office,~~ ~~the~~ ~~presidential~~
+7 electors who are present shall fill any vacancy in the office of PRESIDENTIAL elector IN
+8 ACCORDANCE WITH § 8–507 OF THIS SUBTITLE, whether the vacancy is caused by
+9 ~~absence~~ ~~or~~ ~~other~~ ~~reason.~~
+
+10 ~~(2)~~ ~~An~~ ~~individual~~ ~~appointed~~ ~~to~~ ~~fill~~ ~~a~~ ~~vacancy~~ ~~is~~ ~~entitled~~ ~~to~~ ~~all~~ ~~rights~~ ~~and~~
+11 ~~privileges~~ ~~of~~ ~~the~~ ~~duly~~ ~~elected~~ ~~electors.~~
+
+12 (c) (1) After taking the oath prescribed by Article I, § 9 of the Maryland
+13 ~~Constitution~~ ~~before~~ ~~the~~ ~~Clerk~~ ~~of~~ ~~the~~ ~~Supreme~~ ~~Court~~ ~~of~~ ~~Maryland~~ ~~or,~~ ~~in~~ ~~the~~ ~~Clerk’s~~ ~~absence,~~
+14 ~~before~~ ~~one~~ ~~of~~ ~~the~~ ~~Clerk’s~~ ~~deputies,~~ ~~the~~ ~~presidential~~ ~~electors~~ ~~shall~~ ~~cast~~ ~~their~~ ~~votes~~ ~~for~~ ~~the~~
+15 ~~candidates~~ ~~for~~ ~~President~~ ~~and~~ ~~Vice~~ ~~President~~ ~~who~~ ~~received~~ ~~a~~ ~~plurality~~ ~~of~~ ~~the~~ ~~votes~~ ~~cast~~ ~~in~~
+16 ~~the~~ ~~national~~ ~~popular~~ ~~vote~~ ~~total~~ ~~defined~~ ~~in~~ ~~§~~ ~~8–5A–01~~ ~~of~~ ~~this~~ ~~title.~~
+
+17 (2) THE STATE ADMINISTRATOR SHALL PROVIDE EACH
+18 PRESIDENTIAL ELECTOR WITH A PRESIDENTIAL AND VICE PRESIDENTIAL BALLOT.
+
+19 (3) EACH PRESIDENTIAL ELECTOR SHALL MARK THE PRESIDENTIAL
+20 ELECTOR’S PRESIDENTIAL AND VICE PRESIDENTIAL BALLOTS WITH THE
+21 PRESIDENTIAL ELECTOR’S SIGNATURE AND THE PRESIDENTIAL ELECTOR’S
+22 LEGIBLY PRINTED NAME.
+
+23 (D) (1) EACH PRESIDENTIAL ELECTOR SHALL PRESENT BOTH
+24 COMPLETED BALLOTS TO THE STATE ADMINISTRATOR, WHO SHALL EXAMINE THE
+25 BALLOTS AND ACCEPT AS CAST ALL BALLOTS OF PRESIDENTIAL ELECTORS WHOSE
+26 VOTES ARE CONSISTENT WITH THEIR PLEDGES EXECUTED FOR THE CANDIDATES
+27 FOR PRESIDENT AND VICE PRESIDENT WHO ARE THE NATIONAL POPULAR VOTE
+28 WINNERS AS DEFINED IN § 8–5A–01 OF THIS TITLE.
+
+29 (2) THE STATE ADMINISTRATOR MAY NOT COUNT EITHER A
+30 PRESIDENTIAL ELECTOR’S PRESIDENTIAL OR VICE PRESIDENTIAL BALLOT IF THE
+31 PRESIDENTIAL ELECTOR HAS NOT MARKED BOTH BALLOTS OR HAS MARKED A
+32 BALLOT IN VIOLATION OF THE PRESIDENTIAL ELECTOR’S PLEDGE.
+
+33 (E) A PRESIDENTIAL ELECTOR WHO REFUSES TO PRESENT A BALLOT,
+34 PRESENTS AN UNMARKED BALLOT, OR PRESENTS A BALLOT MARKED IN VIOLATION
+35 OF THE PRESIDENTIAL ELECTOR’S PLEDGE EXECUTED UNDER § 8–504 OR § 8–507(D)
+END OF PAGE 13
+
+START OF PAGE 14
+14 HOUSE BILL 182
+
+1 OF THIS SUBTITLE VACATES THE OFFICE OF ELECTOR, CREATING A VACANT
+2 POSITION TO BE FILLED UNDER § 8–507 OF THIS SUBTITLE.
+
+3 (F) THE STATE ADMINISTRATOR SHALL DISTRIBUTE BALLOTS AND
+4 COLLECT BALLOTS FROM A SUBSTITUTE PRESIDENTIAL ELECTOR AND REPEAT THE
+5 PROCESS UNDER THIS SECTION, DECLARING AND FILLING VACANT POSITIONS AS
+6 REQUIRED, AND RECORDING APPROPRIATELY COMPLETED BALLOTS FROM THE
+7 SUBSTITUTE PRESIDENTIAL ELECTORS, UNTIL ALL OF THIS STATE’S ELECTORAL
+8 VOTES HAVE BEEN CAST AND RECORDED.
+
+9 ~~SECTION~~ ~~4.~~ ~~AND~~ ~~BE~~ ~~IT~~ ~~FURTHER~~ ~~ENACTED,~~ ~~That~~ ~~Section~~ ~~2~~ ~~of~~ ~~this~~ ~~Act~~ ~~shall~~ ~~take~~
+10 ~~effect~~ ~~October~~ ~~1,~~ ~~2026.~~ ~~It~~ ~~shall~~ ~~remain~~ ~~effective~~ ~~until~~ ~~the~~ ~~taking~~ ~~effect~~ ~~of~~ ~~Section~~ ~~1~~ ~~of~~
+11 ~~Chapters~~ ~~43~~ ~~and~~ ~~44~~ ~~of~~ ~~the~~ ~~Acts~~ ~~of~~ ~~the~~ ~~General~~ ~~Assembly~~ ~~of~~ ~~2007.~~ ~~If~~ ~~the~~ ~~contingency~~ ~~stated~~
+12 ~~in~~ ~~Section~~ ~~3~~ ~~of~~ ~~Chapters~~ ~~43~~ ~~and~~ ~~44~~ ~~of~~ ~~the~~ ~~Acts~~ ~~of~~ ~~the~~ ~~General~~ ~~Assembly~~ ~~of~~ ~~2007~~ ~~takes~~ ~~effect,~~
+13 ~~Section~~ ~~2~~ ~~of~~ ~~this~~ ~~Act~~ ~~shall~~ ~~be~~ ~~abrogated~~ ~~and~~ ~~of~~ ~~no~~ ~~further~~ ~~force~~ ~~and~~ ~~effect.~~
+
+14 ~~SECTION~~ ~~5.~~ ~~AND~~ ~~BE~~ ~~IT~~ ~~FURTHER~~ ~~ENACTED,~~ ~~That~~ ~~Section~~ ~~3~~ ~~of~~ ~~this~~ ~~Act~~ ~~shall~~ ~~take~~
+15 ~~effect~~ ~~on~~ ~~the~~ ~~taking~~ ~~effect~~ ~~of~~ ~~Section~~ ~~1~~ ~~of~~ ~~Chapters~~ ~~43~~ ~~and~~ ~~44~~ ~~of~~ ~~the~~ ~~Acts~~ ~~of~~ ~~the~~ ~~General~~
+16 ~~Assembly~~ ~~of~~ ~~2007.~~
+
+17 SECTION ~~6.~~ 3. AND BE IT FURTHER ENACTED, That, ~~subject~~ ~~to~~ ~~the~~ ~~provisions~~
+18 ~~of~~ ~~Sections~~ ~~4~~ ~~and~~ ~~5~~ ~~of~~ ~~this~~ ~~Act,~~ this Act shall take effect October 1, 2026.
 
 Approved:
 
@@ -438,5 +673,5 @@ Speaker of the House of Delegates.
 
 ________________________________________________________________________________
 President of the Senate.
-END OF PAGE 9
+END OF PAGE 14
 </bill>

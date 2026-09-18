@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 569
 
@@ -8,8 +7,8 @@ Chapter 569
 
 AN ACT concerning
 
-Baltimore City – Stop Sign Monitoring Systems Pilot Program – 
-41st Legislative District
+Baltimore City – Stop Sign Monitoring Systems Pilot Program – ~~Mt.~~ ~~Washington~~
+~~Neighborhood~~ 41st Legislative District
 
 FOR the purpose of authorizing the use of stop sign monitoring systems in certain school
 zones in Baltimore City under the pilot program authorized for Prince George’s
@@ -224,4 +223,3 @@ Approved by the Governor, May 12, 2026.
 
 – 5 –
 END OF PAGE 5
-</bill>

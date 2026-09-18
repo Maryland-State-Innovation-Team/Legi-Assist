@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 282
 
@@ -8,12 +7,17 @@ Chapter 282
 
 AN ACT concerning
 
-Emergency Medical Services – Vehicles and Ambulances – Required Supplies
+Emergency Medical Services – Vehicles and Ambulances – Required Supplies,
+~~Reviews,~~ ~~and~~ ~~Complaints~~
 
 FOR the purpose of requiring the Executive Director of the Maryland Institute for
 Emergency Medical Services Systems to coordinate, with a certain program, the
 minimum equipment, supplies, and medications to be available on emergency
-medical services vehicles; and generally relating to emergency medical services vehicles and
+medical services vehicles; ~~requiring~~ ~~each~~ ~~county~~ ~~and~~ ~~municipality~~ ~~that~~ ~~operates~~ ~~or~~
+~~contracts~~ ~~emergency~~ ~~medical~~ ~~services~~ ~~to~~ ~~conduct~~ ~~quarterly~~ ~~reviews~~ ~~of~~ ~~certain~~ ~~data~~
+~~and~~ ~~to~~ ~~certify~~ ~~completion~~ ~~of~~ ~~each~~ ~~review;~~ ~~requiring~~ ~~each~~ ~~county~~ ~~to~~ ~~establish~~ ~~and~~
+~~maintain~~ ~~a~~ ~~formal~~ ~~complaint~~ ~~filing~~ ~~system~~ ~~regarding~~ ~~ambulance~~ ~~quality,~~ ~~conduct,~~ ~~or~~
+~~compliance;~~ and generally relating to emergency medical services vehicles and
 ambulances.
 
 BY repealing and reenacting, without amendments,
@@ -27,6 +31,12 @@ Article – Education
 Section 13–510
 Annotated Code of Maryland
 (2022 Replacement Volume and 2025 Supplement)
+
+~~BY~~ ~~adding~~ ~~to~~
+~~Article~~ ~~–~~ ~~Education~~
+~~Section~~ ~~13–519~~
+~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+~~(2022~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
 That the Laws of Maryland read as follows:
@@ -56,7 +66,8 @@ adopted by the EMS Board, the Executive Director shall:
 
 (2) Coordinate the five emergency medical service regions in this State;
 
-(3) Coordinate the planning and operation of emergency medical services;
+(3) Coordinate the planning and operation of emergency medical services
+with the federal, State, and county governments;
 
 (4) Coordinate the training of all personnel in the Emergency Medical
 Services System and develop the necessary standards for their certification or licensure;
@@ -71,10 +82,11 @@ and illnesses;
 resuscitation, treatment, and rehabilitation of the critically ill and injured;
 
 (8) COORDINATE, WITH THE JURISDICTIONAL EMERGENCY MEDICAL
-SERVICES OPERATING PROGRAM, PROGRAMS, THE MINIMUM EQUIPMENT,
+SERVICES OPERATING PROGRAM, THE MINIMUM EQUIPMENT,
 SUPPLIES, AND MEDICATIONS, INCLUDING EQUIPMENT, SUPPLIES, AND
 MEDICATIONS NEEDED FOR EARLY CHILDHOOD CARE, INCLUDING NEONATAL CARE,
-TO BE AVAILABLE ON EMERGENCY MEDICAL SERVICES VEHICLES;
+TO BE AVAILABLE ON EMERGENCY MEDICAL SERVICES VEHICLES ~~WITH~~ ~~THE~~
+~~FEDERAL,~~ ~~STATE,~~ ~~AND~~ ~~COUNTY~~ ~~GOVERNMENTS~~;
 
 [(8)] (9) Work closely with the public and private agencies, health care
 institutions and universities involved with emergency medical services, the Emergency
@@ -99,11 +111,61 @@ throughout this State; and
 [(12)] (13) Implement all programmatic, operational, and administrative
 components of the Institute.
 
+~~13–519.~~
+
+(A) (1) IN THIS SECTION, “AMBULANCE” MEANS ANY CONVEYANCE
+DESIGNED AND CONSTRUCTED OR MODIFIED AND EQUIPPED TO BE USED,
+MAINTAINED, OR OPERATED TO TRANSPORT SICK, INJURED, WOUNDED, OR
+OTHERWISE INCAPACITATED INDIVIDUALS.
+
+(2) “AMBULANCE” INCLUDES A CONVEYANCE DESIGNED AND
+CONSTRUCTED OR MODIFIED AND EQUIPPED FOR AEROMEDICAL TRANSPORT.
+
+(B) (1) EACH COUNTY AND MUNICIPALITY THAT OPERATES OR
+CONTRACTS EMERGENCY MEDICAL SERVICES SHALL:
+
+(I) CONDUCT QUARTERLY REVIEWS OF AMBULANCE
+PERFORMANCE DATA PUBLISHED BY THE INSTITUTE;
+
+(II) CERTIFY COMPLETION OF EACH REVIEW; AND
+
+(III) SUBMIT A SUMMARY OF EACH REVIEW TO THE INSTITUTE.
+
+(2) A REVIEW CONDUCTED UNDER PARAGRAPH (1)(I) OF THIS
+SUBSECTION SHALL:
+
+~~(I)~~ ~~ASSESS:~~
+
+~~1.~~ ~~RESPONSE~~ ~~TIMES;~~
+
+2. SERVICE QUALITY; AND
+
+3. COMPLIANCE WITH INSTITUTE STANDARDS;
+
+(II) IDENTIFY TRENDS AND DEFICIENCIES IN SERVICES; AND
+
+(III) ALLOW A COUNTY OR MUNICIPALITY TO ADOPT
+CORRECTIVE MEASURES AND MAKE OPERATIONAL ADJUSTMENTS.
+
 – 3 –
 END OF PAGE 3
 
 START OF PAGE 4
 Ch. 282 2026 LAWS OF MARYLAND
+
+(C) (1) EACH COUNTY SHALL ESTABLISH AND MAINTAIN A FORMAL
+COMPLAINT FILING SYSTEM TO RECEIVE, INVESTIGATE, AND RESOLVE COMPLAINTS
+REGARDING AMBULANCE QUALITY, CONDUCT, OR COMPLIANCE.
+
+(2) THE FORMAL COMPLAINT FILING SYSTEM SHALL:
+
+(I) BE ACCESSIBLE ONLINE AND IN PERSON;
+
+(II) INCLUDE TRACKING, INVESTIGATION TIMELINES, AND
+NOTIFICATIONS; AND
+
+(III) REPORT COMPLAINT DATA AND RESOLUTIONS QUARTERLY
+TO THE INSTITUTE.
 
 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
 1, 2026.
@@ -112,4 +174,3 @@ Approved by the Governor, April 28, 2026.
 
 – 4 –
 END OF PAGE 4
-</bill>

@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 SENATE BILL 1007
 
@@ -32,14 +31,14 @@ CHAPTER ______
 5 the termination date of certain grants; and generally relating to amending prior
 6 authorizations of State Debt.
 
-7 _BY adding to_
-8 _Chapter 22 of the Acts of the General Assembly of 2017_
-9 _Section 1(3) Item ZA00(O–1)_
+7 BY adding to
+8 Chapter 22 of the Acts of the General Assembly of 2017
+9 Section 1(3) Item ZA00(O–1)
 
-10 _BY repealing and reenacting, with amendments,_
-11 _Chapter 22 of the Acts of the General Assembly of 2017, as amended by Chapter 643_
-12 _of the Acts of the General Assembly of 2025_
-13 _Section 1(3) Item ZA00(O)_
+10 BY repealing and reenacting, with amendments,
+11 Chapter 22 of the Acts of the General Assembly of 2017, as amended by Chapter 643
+12 of the Acts of the General Assembly of 2025
+13 Section 1(3) Item ZA00(O)
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
@@ -54,21 +53,21 @@ START OF PAGE 2
 
 1 BY repealing and reenacting, with amendments,
 2 Chapter 9 of the Acts of the General Assembly of 2018
-3 Section 1(3) Item _RQ00(C) and (D), ZA00(CH), ZA02(BJ), and_ ZA03(BQ)
+3 Section 1(3) Item RQ00(C) and (D), ZA00(CH), ZA02(BJ), and ZA03(BQ)
 
-4 _BY repealing and reenacting, with amendments,_
-5 _Chapter 9 of the Acts of the General Assembly of 2018, as amended by Chapter 141 of_
-6 _the Acts of the General Assembly of 2023_
-7 _Section 1(3) Item ZA00(CB)_
+4 BY repealing and reenacting, with amendments,
+5 Chapter 9 of the Acts of the General Assembly of 2018, as amended by Chapter 141 of
+6 the Acts of the General Assembly of 2023
+7 Section 1(3) Item ZA00(CB)
 
 8 BY repealing and reenacting, with amendments,
 9 Chapter 14 of the Acts of the General Assembly of 2019
-10 Section 1(3) Item ~~ZA00(AG)~~ ~~and~~ ~~(ES)~~ ZA00(AB), (AC), (AG), ~~ (DN)~~ _(BZ), (DN), (DX),_
-11 (ES), and (EW), ~~and~~ ZA02(AC)_ , and ZA03(M) and (AA)_
+10 Section 1(3) Item ~~ZA00(AG)~~ ~~and~~ ~~(ES)~~ ZA00(AB), (AC), (AG), ~~(DN)~~ (BZ), (DN), (DX),
+11 (ES), and (EW), ~~and~~ ZA02(AC), and ZA03(M) and (AA)
 
-12 _BY adding to_
-13 _Chapter 14 of the Acts of the General Assembly of 2019_
-14 _Section 1(3) Item ZA00(BZ–1)_
+12 BY adding to
+13 Chapter 14 of the Acts of the General Assembly of 2019
+14 Section 1(3) Item ZA00(BZ–1)
 
 15 BY repealing and reenacting, with amendments,
 16 Chapter 14 of the Acts of the General Assembly of 2019, as amended by Chapter 595
@@ -77,8 +76,8 @@ START OF PAGE 2
 
 19 BY repealing and reenacting, with amendments,
 20 Chapter 537 of the Acts of the General Assembly of 2020
-21 Section 1(3) Item ZA00(AF) ~~and~~ ~~ZA02(B)~~ ~~and~~ ~~(BR),~~ _ZA02(B), (AQ), and (BR), and_
-22 _ZA03(BJ)_
+21 Section 1(3) Item ZA00(AF) ~~and~~ ~~ZA02(B)~~ ~~and~~ ~~(BR),~~ ZA02(B), (AQ), and (BR), and
+22 ZA03(BJ)
 
 23 BY repealing and reenacting, with amendments,
 24 Chapter 537 of the Acts of the General Assembly of 2020, as amended by Chapter
@@ -87,132 +86,132 @@ START OF PAGE 2
 
 27 BY repealing and reenacting, with amendments,
 28 Chapter 63 of the Acts of the General Assembly of 2021
-29 Section 1(3) Item ZA00(DE) ~~and~~ ~~ZA02(B)~~ _and (FL) and ZA02(B) and (BK)_
+29 Section 1(3) Item ZA00(DE) ~~and~~ ~~ZA02(B)~~ and (FL) and ZA02(B) and (BK)
 
-30 _BY repealing and reenacting, with amendments,_
-31 _Chapter 63 of the Acts of the General Assembly of 2021, as amended by Chapter 626_
-32 _of the Acts of the General Assembly of 2022_
-33 _Section 1(3) Item ZA00(BJ)_
+30 BY repealing and reenacting, with amendments,
+31 Chapter 63 of the Acts of the General Assembly of 2021, as amended by Chapter 626
+32 of the Acts of the General Assembly of 2022
+33 Section 1(3) Item ZA00(BJ)
 
 34 BY repealing and reenacting, with amendments,
 35 Chapter 344 of the Acts of the General Assembly of 2022
-36 Section 1(3) Item ~~ZA00(EW)~~ _ZA00(E), (EW), and_ ~~ (FU)~~ _(JM), ZA02(AL), (BJ), (BN),_
-37 and (DM), and ZA03(B), (AH), _(AX),_ and (CQ)
+36 Section 1(3) Item ~~ZA00(EW)~~ ZA00(E), (EW), and ~~(FU)~~ (JM), ZA02(AL), (BJ), (BN),
+37 and (DM), and ZA03(B), (AH), (AX), and (CQ)
 END OF PAGE 2
 
 START OF PAGE 3
 SENATE BILL 1007 3
 
-1 _BY repealing and reenacting, with amendments,_
-2 _Chapter 344 of the Acts of the General Assembly of 2022, as amended by Chapter_
-3 _410 of the Acts of the General Assembly of 2024_
-4 _Section 1(3) Item ZA00(MO)_
+1 BY repealing and reenacting, with amendments,
+2 Chapter 344 of the Acts of the General Assembly of 2022, as amended by Chapter
+3 410 of the Acts of the General Assembly of 2024
+4 Section 1(3) Item ZA00(MO)
 
 5 BY repealing and reenacting, with amendments,
 6 Chapter 102 of the Acts of the General Assembly of 2023
-7 Section 1(3) Item ~~ZA00(DG)~~ ~~and~~ ~~(GC)~~ _ZA00(BS),_ ~~ (DG)~~ _(CD), (DG), (DR), (GC), and_
-8 _(HY) and ZA02(Y) and (DA)_
+7 Section 1(3) Item ~~ZA00(DG)~~ ~~and~~ ~~(GC)~~ ZA00(BS), ~~(DG)~~ (CD), (DG), (DR), (GC), and
+8 (HY) and ZA02(Y) and (DA)
 
 9 BY repealing and reenacting, with amendments,
 10 Chapter 720 of the Acts of the General Assembly of 2024
-11 Section 1(3) Item ZA00(AC) ~~and~~ ~~(BZ),~~ _(BU), (BZ),_ ~~and~~ ~~(EC)~~ _(EC), and (FM), ZA02(AF)_
-12 _and (CG),_ and ZA03(B)
+11 Section 1(3) Item ZA00(AC) ~~and~~ ~~(BZ),~~ (BU), (BZ), ~~and~~ ~~(EC)~~ (EC), and (FM), ZA02(AF)
+12 and (CG), and ZA03(B)
 
 13 BY repealing and reenacting, with amendments,
 14 Chapter 603 of the Acts of the General Assembly of 2025
-15 Section 1(3) Item ~~ZA00(HA)~~ _ZA00(BP), (CM), (HA), and (IX)_ ~~and~~ ~~ZA02(BP),~~ and
-16 _ZA02(R) and (BP)_
+15 Section 1(3) Item ~~ZA00(HA)~~ ZA00(BP), (CM), (HA), and (IX) ~~and~~ ~~ZA02(BP),~~ and
+16 ZA02(R) and (BP)
 
 17 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
 18 That the Laws of Maryland read as follows:
 
-19 _Chapter 22 of the Acts of 2017_
+19 Chapter 22 of the Acts of 2017
 
-20 _Section 1(3)_
+20 Section 1(3)
 
-21 _ZA00 MISCELLANEOUS GRANT PROGRAMS_
+21 ZA00 MISCELLANEOUS GRANT PROGRAMS
 
-22 _(O–1) DISCOVERY POINT DEVELOPMENT PROJECT. PROVIDE A_
-23 _GRANT TO THE COLLEGE PARK CITY – UNIVERSITY_
-24 _PARTNERSHIP, INC. FOR THE ACQUISITION, PLANNING,_
-25 _DESIGN, CONSTRUCTION, EXPANSION, REPAIR,_
-26 _RENOVATION, RECONSTRUCTION, AND CAPITAL_
-27 _EQUIPPING OF THE DISCOVERY POINT REDEVELOPMENT_
-28 _PROJECT. NOTWITHSTANDING SECTION 1(7) OF THIS_
-29 _ACT, THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1,_
-30 _2032 (PRINCE GEORGE’S COUNTY).................................... 22,246_
+22 (O–1) DISCOVERY POINT DEVELOPMENT PROJECT. PROVIDE A
+23 GRANT TO THE COLLEGE PARK CITY – UNIVERSITY
+24 PARTNERSHIP, INC. FOR THE ACQUISITION, PLANNING,
+25 DESIGN, CONSTRUCTION, EXPANSION, REPAIR,
+26 RENOVATION, RECONSTRUCTION, AND CAPITAL
+27 EQUIPPING OF THE DISCOVERY POINT REDEVELOPMENT
+28 PROJECT. NOTWITHSTANDING SECTION 1(7) OF THIS
+29 ACT, THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1,
+30 2032 (PRINCE GEORGE’S COUNTY).................................... 22,246
 
-31 _Chapter 22 of the Acts of 2017, as amended by Chapter 643 of the Acts of 2025_
+31 Chapter 22 of the Acts of 2017, as amended by Chapter 643 of the Acts of 2025
 
-32 _Section 1(3)_
+32 Section 1(3)
 
-33 _ZA00 MISCELLANEOUS GRANT PROGRAMS_
+33 ZA00 MISCELLANEOUS GRANT PROGRAMS
 END OF PAGE 3
 
 START OF PAGE 4
 4 SENATE BILL 1007
 
-1 (O) [Discovery Point Redevelopment Project] _MARYLAND_
-2 _INDEPENDENT COLLEGE AND UNIVERSITY ASSOCIATION_
-3 _– MCDANIEL COLLEGE._ Provide a grant to [the Board of
+1 (O) [Discovery Point Redevelopment Project] MARYLAND
+2 INDEPENDENT COLLEGE AND UNIVERSITY ASSOCIATION
+3 – MCDANIEL COLLEGE. Provide a grant to [the Board of
 4 Directors of the College Park City – University Partnership,
-5 Inc.] _MCDANIEL COLLEGE_ for the acquisition, planning,
+5 Inc.] MCDANIEL COLLEGE for the acquisition, planning,
 6 design, construction, expansion, repair, renovation,
 7 reconstruction, and capital equipping of the [Discovery Point
-8 Redevelopment Project] _GILL PHYSICAL EDUCATION_
-9 _LEARNING CENTER._ Notwithstanding Section 1(7) of this Act,
+8 Redevelopment Project] GILL PHYSICAL EDUCATION
+9 LEARNING CENTER. Notwithstanding Section 1(7) of this Act,
 10 this grant may not terminate before June 1, [2032 (Prince
-11 George’s County)] _2028 (CARROLL COUNTY)_ .......................... [22,246]
-12 _2,977,754_
+11 George’s County)] 2028 (CARROLL COUNTY) .......................... [22,246]
+12 2,977,754
 
 13 Chapter 9 of the Acts of 2018
 
 14 Section 1(3)
 
-15 _RQ00 UNIVERSITY OF MARYLAND MEDICAL SYSTEM_
+15 RQ00 UNIVERSITY OF MARYLAND MEDICAL SYSTEM
 
-16 _(C) R Adams Cowley Shock Trauma Center – Phase II. Provide a_
-17 _grant to the University of Maryland Medical System to assist in_
-18 _complecing construction of Phase II of renovations and upgrades_
-19 _to the R Adams Cowley Shock Trauma Center._
-20 _NOTWITHSTANDING SECTION 1(7) OF THIS ACT, THIS_
-21 _GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2028_
-22 _(Baltimore City) ............................................................................ 2,000,000_
+16 (C) R Adams Cowley Shock Trauma Center – Phase II. Provide a
+17 grant to the University of Maryland Medical System to assist in
+18 completing construction of Phase II of renovations and upgrades
+19 to the R Adams Cowley Shock Trauma Center.
+20 NOTWITHSTANDING SECTION 1(7) OF THIS ACT, THIS
+21 GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2028
+22 (Baltimore City) ............................................................................ 2,000,000
 
-23 _(D) Comprehensive Cancer and Organ Transplant Treatment_
-24 _Center. Provide a grant to the University of Maryland Medical_
-25 _System to design, construct, and capital equip facilities to_
-26 _expand clinical programs of the Marlene and Stewart_
-27 _Greenbaum Comprehensive Cancer and Organ Transplant_
-28 _Treatment Center. Provided that it is the intent of the General_
-29 _Assembly that State support for this project total $175,000,000_
-30 _beginning in fiscal 2019. NOTWITHSTANDING SECTION 1(7)_
-31 _OF THIS ACT, THIS GRANT MAY NOT TERMINATE BEFORE_
-32 _JUNE 1, 2028 (Baltimore City)................................................... 2,500,000_
+23 (D) Comprehensive Cancer and Organ Transplant Treatment
+24 Center. Provide a grant to the University of Maryland Medical
+25 System to design, construct, and capital equip facilities to
+26 expand clinical programs of the Marlene and Stewart
+27 Greenbaum Comprehensive Cancer and Organ Transplant
+28 Treatment Center. Provided that it is the intent of the General
+29 Assembly that State support for this project total $175,000,000
+30 beginning in fiscal 2019. NOTWITHSTANDING SECTION 1(7)
+31 OF THIS ACT, THIS GRANT MAY NOT TERMINATE BEFORE
+32 JUNE 1, 2028 (Baltimore City)................................................... 2,500,000
 
 33 ZA00 MISCELLANEOUS GRANT PROGRAMS
 
-34 _(CH) The Compound. Provide a grant to the Board of Directors of The_
-35 _Compound for the acquisition, planning, design, construction,_
-36 _repair, renovation, reconstruction, site improvement, and_
-37 _capital equipping of an arts complex (Baltimore City)................ [250,000]_
-38 _150,000_
+34 (CH) The Compound. Provide a grant to the Board of Directors of The
+35 Compound for the acquisition, planning, design, construction,
+36 repair, renovation, reconstruction, site improvement, and
+37 capital equipping of an arts complex (Baltimore City)................ [250,000]
+38 150,000
 END OF PAGE 4
 
 START OF PAGE 5
 SENATE BILL 1007 5
 
-1 _ZA02 LOCAL SENATE INITIATIVES_
+1 ZA02 LOCAL SENATE INITIATIVES
 
-2 _(BJ) Noyes Children’s Library Renovation. Provide a grant equal to_
-3 _the lesser of (i) $100,000 or (ii) the amount of the matching fund_
-4 _provided, to the Board of Directors of the Noyes Children’s_
-5 _Library Foundation, Inc. for the acquisition, planning, design,_
-6 _construction, EXPANSION, repair, renovation, reconstruction,_
-7 _site improvement, and capital equipping of the Noyes Children’s_
-8 _Library. NOTWITHSTANDING SECTION 1(7) OF THIS ACT,_
-9 _THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2028_
-10 _(Montgomery County) ................................................................... 100,000_
+2 (BJ) Noyes Children’s Library Renovation. Provide a grant equal to
+3 the lesser of (i) $100,000 or (ii) the amount of the matching fund
+4 provided, to the Board of Directors of the Noyes Children’s
+5 Library Foundation, Inc. for the acquisition, planning, design,
+6 construction, EXPANSION, repair, renovation, reconstruction,
+7 site improvement, and capital equipping of the Noyes Children’s
+8 Library. NOTWITHSTANDING SECTION 1(7) OF THIS ACT,
+9 THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2028
+10 (Montgomery County) ................................................................... 100,000
 
 11 ZA03 LOCAL HOUSE OF DELEGATES INITIATIVES
 
@@ -226,19 +225,19 @@ SENATE BILL 1007 5
 19 THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2027
 20 (Washington County) ................................................................... 50,000
 
-21 _Chapter 9 of the Acts of 2018, as amended by Chapter 141 of the Acts of 2023_
+21 Chapter 9 of the Acts of 2018, as amended by Chapter 141 of the Acts of 2023
 
-22 _Section 1(3)_
+22 Section 1(3)
 
-23 _ZA00 MISCELLANEOUS GRANT PROGRAMS_
+23 ZA00 MISCELLANEOUS GRANT PROGRAMS
 
-24 _(CB) Let’s Thrive Baltimore Youth in Action. Provide a grant to Let’s_
-25 _Thrive Baltimore Inc. for the acquisition, planning, design,_
-26 _construction, EXPANSION, repair, renovation, reconstruction,_
-27 _site improvement, and capital equipping of the Let’s Thrive_
-28 _Baltimore property. NOTWITHSTANDING SECTION 1(7) OF_
-29 _THIS ACT, THIS GRANT MAY NOT TERMINATE BEFORE_
-30 _JUNE 1, 2028 (Baltimore City)................................................... 250,000_
+24 (CB) Let’s Thrive Baltimore Youth in Action. Provide a grant to Let’s
+25 Thrive Baltimore Inc. for the acquisition, planning, design,
+26 construction, EXPANSION, repair, renovation, reconstruction,
+27 site improvement, and capital equipping of the Let’s Thrive
+28 Baltimore property. NOTWITHSTANDING SECTION 1(7) OF
+29 THIS ACT, THIS GRANT MAY NOT TERMINATE BEFORE
+30 JUNE 1, 2028 (Baltimore City)................................................... 250,000
 
 31 Chapter 14 of the Acts of 2019
 
@@ -277,22 +276,22 @@ START OF PAGE 6
 21 SECTION 1(7) OF THIS ACT, THIS GRANT MAY NOT
 22 TERMINATE BEFORE JUNE 1, 2029 (Montgomery County)... 550,000
 
-23 _(BZ) Everyman Theatre. Provide a grant to the Board of Directors of_
-24 _the Everyman Theatre, Incorporated for the acquisition,_
-25 _planning, design, construction, repair, renovation,_
-26 _reconstruction, site improvement, and capital equipping of the_
-27 _Everyman Theatre facility, located in Baltimore City (Baltimore_
-28 _City)............................................................................................... [500,000]_
-29 _0_
+23 (BZ) Everyman Theatre. Provide a grant to the Board of Directors of
+24 the Everyman Theatre, Incorporated for the acquisition,
+25 planning, design, construction, repair, renovation,
+26 reconstruction, site improvement, and capital equipping of the
+27 Everyman Theatre facility, located in Baltimore City (Baltimore
+28 City)............................................................................................... [500,000]
+29 0
 
-30 _(BZ–1) ARENA PLAYERS, INC. PROVIDE A GRANT TO ARENA_
-31 _PLAYERS, INC. FOR THE ACQUISITION, PLANNING,_
-32 _DESIGN, CONSTRUCTION, EXPANSION, REPAIR,_
-33 _RENOVATION, RECONSTRUCTION, SITE IMPROVEMENT,_
-34 _AND CAPITAL EQUIPPING OF THE ARENA PLAYERS_
-35 _THEATER FACILITIES. NOTWITHSTANDING SECTION 1(7)_
-36 _OF THIS ACT, THIS GRANT MAY NOT TERMINATE BEFORE_
-37 _JUNE 1, 2033 (BALTIMORE CITY)....................................... 500,000_
+30 (BZ–1) ARENA PLAYERS, INC. PROVIDE A GRANT TO ARENA
+31 PLAYERS, INC. FOR THE ACQUISITION, PLANNING,
+32 DESIGN, CONSTRUCTION, EXPANSION, REPAIR,
+33 RENOVATION, RECONSTRUCTION, SITE IMPROVEMENT,
+34 AND CAPITAL EQUIPPING OF THE ARENA PLAYERS
+35 THEATER FACILITIES. NOTWITHSTANDING SECTION 1(7)
+36 OF THIS ACT, THIS GRANT MAY NOT TERMINATE BEFORE
+37 JUNE 1, 2033 (BALTIMORE CITY)....................................... 500,000
 
 38 (DN) Westport Community Economic Development Corporation.
 39 Provide a grant to the Board of Directors of the Westport
@@ -310,21 +309,21 @@ SENATE BILL 1007 7
 6 SECTION 1(7) OF THIS ACT, THIS GRANT MAY NOT
 7 TERMINATE BEFORE JUNE 1, 2028 (Baltimore City) ............ 50,000
 
-8 _(DX) Harford Road Senior Center. Provide a grant to the Mayor and_
-9 _City Council of Baltimore for the acquisition, planning, design,_
-10 _construction, EXPANSION, repair, renovation, reconstruction,_
-11 _site improvement, and capital equipping of the Harford Road_
-12 _Senior Center, including repairs to the building’s roof[, located_
-13 _in Baltimore City]. NOTWITHSTANDING SECTION 1(7) OF_
-14 _THIS ACT, THIS GRANT MAY NOT TERMINATE BEFORE_
-15 _JUNE 1, 2028 (Baltimore City)................................................... 150,000_
+8 (DX) Harford Road Senior Center. Provide a grant to the Mayor and
+9 City Council of Baltimore for the acquisition, planning, design,
+10 construction, EXPANSION, repair, renovation, reconstruction,
+11 site improvement, and capital equipping of the Harford Road
+12 Senior Center, including repairs to the building’s roof[, located
+13 in Baltimore City]. NOTWITHSTANDING SECTION 1(7) OF
+14 THIS ACT, THIS GRANT MAY NOT TERMINATE BEFORE
+15 JUNE 1, 2028 (Baltimore City)................................................... 150,000
 
-16 (ES) Town of Brookeville [Market Street] _INFRASTRUCTURE_
+16 (ES) Town of Brookeville [Market Street] INFRASTRUCTURE
 17 Improvements. Provide a grant to the Commissioners of the
 18 Town of Brookeville for the acquisition, planning, design,
 19 construction, EXPANSION, repair, renovation, reconstruction,
-20 site improvement, and capital equipping of _INFRASTRUCTURE_
-21 improvements [to] _IN_ the Town of Brookeville [Market Street
+20 site improvement, and capital equipping of INFRASTRUCTURE
+21 improvements [to] IN the Town of Brookeville [Market Street
 22 Improvements]. NOTWITHSTANDING SECTION 1(7) OF THIS
 23 ACT, THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1,
 24 2031 (Montgomery County) ....................................................... 100,000
@@ -335,7 +334,7 @@ SENATE BILL 1007 7
 28 reconstruction, site improvement, and capital equipping of the
 29 Chesapeake Arts Center[, located in Anne Arundel County].
 30 NOTWITHSTANDING SECTION 1(7) OF THIS ACT, THIS
-31 GRANT MAY NOT TERMINATE BEFORE JUNE 1, ~~2028~~ _2031_
+31 GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2031
 32 (Anne Arundel County)............................................................... 150,000
 
 33 ZA02 LOCAL HOUSE OF DELEGATES INITIATIVES
@@ -355,34 +354,34 @@ START OF PAGE 8
 1 equipping of the Calvert Marine Museum Paleontology
 2 Collections and Research Center[, located in Calvert County].
 3 NOTWITHSTANDING SECTION 1(7) OF THIS ACT, THIS
-4 GRANT MAY NOT TERMINATE BEFORE JUNE 30, ~~2028~~ _2031_
+4 GRANT MAY NOT TERMINATE BEFORE JUNE 30, 2028
 5 (Calvert County)........................................................................... 250,000
 
 6 ZA03 LOCAL SENATE INITIATIVES
 7 (Statewide)
 
-8 _(M) Harford Road Senior Center. Provide a grant equal to the lesser_
-9 _of (i) $100,000 or (ii) the amount of the matching fund provided,_
-10 _to the Mayor and City Council of Baltimore for the acquisition,_
-11 _planning, design, construction, EXPANSION, repair,_
-12 _renovation, reconstruction, site improvement, and capital_
-13 _equipping of the Harford Road Senior Center, including repairs_
-14 _to the building’s roof[, located in Baltimore City]._
-15 _NOTWITHSTANDING SECTION 1(7) OF THIS ACT, THIS_
-16 _GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2028_
-17 _(Baltimore City) ............................................................................ 100,000_
+8 (M) Harford Road Senior Center. Provide a grant equal to the lesser
+9 of (i) $100,000 or (ii) the amount of the matching fund provided,
+10 to the Mayor and City Council of Baltimore for the acquisition,
+11 planning, design, construction, EXPANSION, repair,
+12 renovation, reconstruction, site improvement, and capital
+13 equipping of the Harford Road Senior Center, including repairs
+14 to the building’s roof[, located in Baltimore City].
+15 NOTWITHSTANDING SECTION 1(7) OF THIS ACT, THIS
+16 GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2028
+17 (Baltimore City) ............................................................................ 100,000
 
-18 _(AA) Dorchester Center for the Arts. Provide a grant [equal to the_
-19 _lesser of (i) $80,000 or (ii) the amount of the matching fund_
-20 _provided,] to the Board of Directors of the Dorchester Center for_
-21 _the Arts, Inc. for the acquisition, planning, design, construction,_
-22 _EXPANSION, repair, renovation, reconstruction, site_
-23 _improvement, and capital equipping of the Arts Performance_
-24 _Hall, located in Dorchester County. [Notwithstanding Section_
-25 _1(5) of this Act, the matching fund may consist of in kind_
-26 _contributions] NOTWITHSTANDING SECTION 1(7) OF THIS_
-27 _ACT, THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1,_
-28 _2028 (Dorchester County) ............................................................ 80,000_
+18 (AA) Dorchester Center for the Arts. Provide a grant [equal to the
+19 lesser of (i) $80,000 or (ii) the amount of the matching fund
+20 provided,] to the Board of Directors of the Dorchester Center for
+21 the Arts, Inc. for the acquisition, planning, design, construction,
+22 EXPANSION, repair, renovation, reconstruction, site
+23 improvement, and capital equipping of the Arts Performance
+24 Hall, located in Dorchester County. [Notwithstanding Section
+25 1(5) of this Act, the matching fund may consist of in kind
+26 contributions] NOTWITHSTANDING SECTION 1(7) OF THIS
+27 ACT, THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1,
+28 2028 (Dorchester County) ............................................................ 80,000
 
 29 Chapter 14 of the Acts of 2019, as amended by Chapter 595 of the Acts of 2020
 
@@ -455,22 +454,22 @@ START OF PAGE 10
 1 THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2029
 2 (Allegany County)........................................................................ 42,000
 
-3 _(AQ) [Young Adult Residential Fellowship Program] HISTORICAL_
-4 _STABILIZATION AND RENOVATION – 426 HUTCHINS_
-5 _AVENUE. Provide a grant ~~of $125,000,~~ to the Board of_
-6 _Directors of the Pleasant Hope Community Development_
-7 _Corporation for the acquisition, planning, design, construction,_
-8 _repair, renovation, reconstruction, site improvement, and_
-9 _capital equipping of [the Young Adult Residential Fellowship_
-10 _Program facilities, located in Baltimore City,] 426 HUTCHINS_
-11 _AVENUE, subject to a requirement that the grantee provide and_
-12 _expend a matching fund of $100,000. Notwithstanding Section_
-13 _1(5) of this Act, the matching fund may consist of real property,_
-14 _in kind contributions, or funds expended prior to the effective_
-15 _date of this Act. NOTWITHSTANDING SECTION 1(7) OF THIS_
-16 _ACT, THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1,_
-17 _2028 (Baltimore City) .................................................................. [125,000]_
-18 _225,000_
+3 (AQ) [Young Adult Residential Fellowship Program] HISTORICAL
+4 STABILIZATION AND RENOVATION – 426 HUTCHINS
+5 AVENUE. Provide a grant [of $125,000,] to the Board of
+6 Directors of the Pleasant Hope Community Development
+7 Corporation for the acquisition, planning, design, construction,
+8 repair, renovation, reconstruction, site improvement, and
+9 capital equipping of [the Young Adult Residential Fellowship
+10 Program facilities, located in Baltimore City,] 426 HUTCHINS
+11 AVENUE, subject to a requirement that the grantee provide and
+12 expend a matching fund of $100,000. Notwithstanding Section
+13 1(5) of this Act, the matching fund may consist of real property,
+14 in kind contributions, or funds expended prior to the effective
+15 date of this Act. NOTWITHSTANDING SECTION 1(7) OF THIS
+16 ACT, THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1,
+17 2028 (Baltimore City) .................................................................. [125,000]
+18 225,000
 
 19 (BR) Mount Airy Center Street. Provide a grant of $500,000, to the
 20 Mayor and Town Council of the Town of Mount Airy for the
@@ -483,20 +482,20 @@ START OF PAGE 10
 27 GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2029
 28 (Carroll County)........................................................................... 500,000
 
-29 _ZA03 LOCAL HOUSE OF DELEGATES INITIATIVES_
+29 ZA03 LOCAL HOUSE OF DELEGATES INITIATIVES
 
-30 _(BJ) Kensington [Multipurpose Recreation Center] TOWN HALL._
-31 _Provide a grant ~~equal to the lesser of (i) $100,000 or (ii) the_
-32 _amount of the matching fund provided to the County Executive_
-33 _and County Council of Montgomery County~~ TO THE MAYOR_
-34 _AND TOWN COUNCIL OF THE TOWN OF KENSINGTON for the_
-35 _acquisition, planning, design, construction, repair, renovation,_
-36 _reconstruction, site improvement, and capital equipping of ~~a_
-37 _multipurpose recreation center including the installation of_
-38 _playground equipment, located in Montgomery County~~ THE_
-39 _KENSINGTON TOWN HALL. NOTWITHSTANDING SECTION_
-40 _1(7) OF THIS ACT, THIS GRANT MAY NOT TERMINATE_
-41 _BEFORE JUNE 1, 2028 (Montgomery County)........................... 100,000_
+30 (BJ) Kensington [Multipurpose Recreation Center] TOWN HALL.
+31 Provide a grant [equal to the lesser of (i) $100,000 or (ii) the
+32 amount of the matching fund provided to the County Executive
+33 and County Council of Montgomery County] TO THE MAYOR
+34 AND TOWN COUNCIL OF THE TOWN OF KENSINGTON for the
+35 acquisition, planning, design, construction, repair, renovation,
+36 reconstruction, site improvement, and capital equipping of [a
+37 multipurpose recreation center including the installation of
+38 playground equipment, located in Montgomery County] THE
+39 KENSINGTON TOWN HALL. NOTWITHSTANDING SECTION
+40 1(7) OF THIS ACT, THIS GRANT MAY NOT TERMINATE
+41 BEFORE JUNE 1, 2028 (Montgomery County)........................... 100,000
 END OF PAGE 10
 
 START OF PAGE 11
@@ -529,14 +528,14 @@ SENATE BILL 1007 11
 18 reconstruction, site improvement, and capital equipping of the
 19 Doctor First Mobile Communication System (Statewide) ......... 500,000
 
-20 _(FL) Gibson Grove. Provide a grant to the Board of Trustees of First_
-21 _Agape African Methodist Episcopal Zion (A.M.E.Z.) Church for_
-22 _the acquisition, planning, design, construction, repair,_
-23 _renovation, reconstruction, site improvement, and capital_
-24 _equipping of the Historic Gibson Grove[, located in Montgomery_
-25 _County]. NOTWITHSTANDING SECTION 1(7) OF THIS ACT,_
-26 _THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2030_
-27 _(Montgomery County) ................................................................... 150,000_
+20 (FL) Gibson Grove. Provide a grant to the Board of Trustees of First
+21 Agape African Methodist Episcopal Zion (A.M.E.Z.) Church for
+22 the acquisition, planning, design, construction, repair,
+23 renovation, reconstruction, site improvement, and capital
+24 equipping of the Historic Gibson Grove[, located in Montgomery
+25 County]. NOTWITHSTANDING SECTION 1(7) OF THIS ACT,
+26 THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2030
+27 (Montgomery County) ................................................................... 150,000
 
 28 ZA02 LOCAL HOUSE OF DELEGATES INITIATIVES
 
@@ -553,30 +552,30 @@ START OF PAGE 12
 
 1 County] (Allegany County) ......................................................... 50,000
 
-2 _(BK) Gibson Grove. Provide a grant to the Board of Trustees of First_
-3 _Agape African Methodist Episcopal Zion (A.M.E.Z.) Church for_
-4 _the acquisition, planning, design, construction, repair,_
-5 _renovation, reconstruction, site improvement, and capital_
-6 _equipping of the Historic Gibson Grove[, located in Montgomery_
-7 _County]. NOTWITHSTANDING SECTION 1(7) OF THIS ACT,_
-8 _THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2030_
-9 _(Montgomery County) ................................................................... 400,000_
+2 (BK) Gibson Grove. Provide a grant to the Board of Trustees of First
+3 Agape African Methodist Episcopal Zion (A.M.E.Z.) Church for
+4 the acquisition, planning, design, construction, repair,
+5 renovation, reconstruction, site improvement, and capital
+6 equipping of the Historic Gibson Grove[, located in Montgomery
+7 County]. NOTWITHSTANDING SECTION 1(7) OF THIS ACT,
+8 THIS GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2030
+9 (Montgomery County) ................................................................... 400,000
 
-10 _Chapter 63 of the Acts of 2021, as amended by Chapter 626 of the Acts of 2022_
+10 Chapter 63 of the Acts of 2021, as amended by Chapter 626 of the Acts of 2022
 
-11 _Section 1(3)_
+11 Section 1(3)
 
-12 _ZA00 MISCELLANEOUS GRANT PROGRAMS_
+12 ZA00 MISCELLANEOUS GRANT PROGRAMS
 
-13 _(BJ) Riverdale Park Hiker Biker Trail. Provide a grant to the Mayor_
-14 _and Town Council of the Town of Riverdale Park for the_
-15 _acquisition, planning, design, construction, repair, renovation,_
-16 _reconstruction, site improvement, and capital equipping of the_
-17 _Riverdale Park Hiker Biker Trail, including the realignment of_
-18 _the Hiker Biker Trail and Rhode Island and Maryland Avenues._
-19 _NOTWITHSTANDING SECTION 1(7) OF THIS ACT, THIS_
-20 _GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2030 (Prince_
-21 _George’s County) ........................................................................... 850,000_
+13 (BJ) Riverdale Park Hiker Biker Trail. Provide a grant to the Mayor
+14 and Town Council of the Town of Riverdale Park for the
+15 acquisition, planning, design, construction, repair, renovation,
+16 reconstruction, site improvement, and capital equipping of the
+17 Riverdale Park Hiker Biker Trail, including the realignment of
+18 the Hiker Biker Trail and Rhode Island and Maryland Avenues.
+19 NOTWITHSTANDING SECTION 1(7) OF THIS ACT, THIS
+20 GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2030 (Prince
+21 George’s County) ........................................................................... 850,000
 
 22 Chapter 344 of the Acts of 2022
 
@@ -614,49 +613,42 @@ SENATE BILL 1007 13
 9 WASTE FACILITIES IMPROVEMENTS in East Baltimore at
 10 Bowley’s Lane Sanitation Yard (Baltimore City)....................... 4,000,000
 
-11 (FU) Ambassador Theater. Provide a grant to the [Board of Directors
-12 of Artspace Baltimore, LLC] AMBASSADOR CENTER FOR
-13 ARTS AND CULTURE, INC. for the acquisition, planning,
-14 design, construction, EXPANSION, repair, renovation,
-15 reconstruction, site improvement, and capital equipping of the
-16 Ambassador Theater (Baltimore City) ....................................... 2,500,000
+11 (JM) Catonsville Middle School. Provide a grant to the [County
+12 Executive and County Council of Baltimore County] BOARD OF
+13 EDUCATION OF BALTIMORE COUNTY for the acquisition,
+14 planning, design, construction, repair, renovation,
+15 reconstruction, site improvement, and capital equipping of
+16 Catonsville Middle School, including a scoreboard and
+17 electronic sign (Baltimore County)............................................... 100,000
 
-17 _(JM) Catonsville Middle School. Provide a grant to the [County_
-18 _Executive and County Council of Baltimore County] BOARD OF_
-19 _EDUCATION OF BALTIMORE COUNTY for the acquisition,_
-20 _planning, design, construction, repair, renovation,_
-21 _reconstruction, site improvement, and capital equipping of_
-22 _Catonsville Middle School, including a scoreboard and_
-23 _electronic sign (Baltimore County)............................................... 100,000_
+18 ZA02 LOCAL SENATE INITIATIVES
 
-24 ZA02 LOCAL SENATE INITIATIVES
+19 (AL) Roberta’s House. Provide a grant to the Board of Directors of
+20 Roberta’s House, Inc. for the acquisition, planning, design,
+21 construction, EXPANSION, repair, renovation, reconstruction,
+22 site improvement, and capital equipping of Roberta’s House,
+23 including the rooftop space, AND THE ACQUISITION AND
+24 RENOVATION OF ADJACENT PROPERTIES (Baltimore
+25 City) .............................................................................................. 150,000
 
-25 (AL) Roberta’s House. Provide a grant to the Board of Directors of
-26 Roberta’s House, Inc. for the acquisition, planning, design,
-27 construction, EXPANSION, repair, renovation, reconstruction,
-28 site improvement, and capital equipping of Roberta’s House,
-29 including the rooftop space, AND THE ACQUISITION AND
-30 RENOVATION OF ADJACENT PROPERTIES (Baltimore
-31 City) .............................................................................................. 150,000
-
-32 _(BJ) Pikesville High School Comfort Station. Provide a grant to the_
-33 _[County Executive and County Council of Baltimore County]_
-34 _BOARD OF EDUCATION OF BALTIMORE COUNTY for the_
-35 _acquisition, planning, design, construction, repair, renovation,_
-36 _reconstruction, site improvement, and capital equipping of a_
-37 _comfort station facility at Pikesville High School (Baltimore_
-38 _County).......................................................................................... 200,000_
+26 (BJ) Pikesville High School Comfort Station. Provide a grant to the
+27 [County Executive and County Council of Baltimore County]
+28 BOARD OF EDUCATION OF BALTIMORE COUNTY for the
+29 acquisition, planning, design, construction, repair, renovation,
+30 reconstruction, site improvement, and capital equipping of a
+31 comfort station facility at Pikesville High School (Baltimore
+32 County).......................................................................................... 200,000
 END OF PAGE 13
 
 START OF PAGE 14
 14 SENATE BILL 1007
 
-1 _(BN) Warren Elementary School Playground Replacement. Provide a_
-2 _grant to the [County Executive and County Council of Baltimore_
-3 _County] BOARD OF EDUCATION OF BALTIMORE COUNTY_
-4 _for the acquisition, planning, design, construction, repair,_
-5 _renovation, reconstruction, site improvement, and capital_
-6 _equipping of playground equipment (Baltimore County)............ 150,000_
+1 (BN) Warren Elementary School Playground Replacement. Provide a
+2 grant to the [County Executive and County Council of Baltimore
+3 County] BOARD OF EDUCATION OF BALTIMORE COUNTY
+4 for the acquisition, planning, design, construction, repair,
+5 renovation, reconstruction, site improvement, and capital
+6 equipping of playground equipment (Baltimore County)............ 150,000
 
 7 (DM) [Long Branch–Arliss Neighborhood Park] LONG BRANCH
 8 LOCAL PARK. Provide a grant to the Maryland–National
@@ -683,13 +675,13 @@ START OF PAGE 14
 26 RENOVATION OF ADJACENT PROPERTIES (Baltimore
 27 City) .............................................................................................. 150,000
 
-28 _(AX) Pikesville High School Comfort Station. Provide a grant to the_
-29 _[County Executive and County Council of Baltimore County]_
-30 _BOARD OF EDUCATION OF BALTIMORE COUNTY for the_
-31 _acquisition, planning, design, construction, repair, renovation,_
-32 _reconstruction, site improvement, and capital equipping of a_
-33 _comfort station facility at Pikesville High School (Baltimore_
-34 _County).......................................................................................... 600,000_
+28 (AX) Pikesville High School Comfort Station. Provide a grant to the
+29 [County Executive and County Council of Baltimore County]
+30 BOARD OF EDUCATION OF BALTIMORE COUNTY for the
+31 acquisition, planning, design, construction, repair, renovation,
+32 reconstruction, site improvement, and capital equipping of a
+33 comfort station facility at Pikesville High School (Baltimore
+34 County).......................................................................................... 600,000
 
 35 (CQ) [Newport Mill Local Park] STONEYBROOK LOCAL PARK.
 36 Provide a grant to the Maryland–National Capital Park and
@@ -701,28 +693,28 @@ END OF PAGE 14
 START OF PAGE 15
 SENATE BILL 1007 15
 
-1 Local Park] STONEYBROOK LOCAL PARK._ NOTWITHSTANDING_
-2 _SECTION 1(7) OF THIS ACT, THIS GRANT MAY NOT_
-3 _TERMINATE BEFORE JUNE 1, 2031_
+1 Local Park] STONEYBROOK LOCAL PARK.
+2 NOTWITHSTANDING SECTION 1(7) OF THIS ACT, THIS
+3 GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2031
 4 (Montgomery County) ................................................................. 300,000
 
-5 _Chapter 344 of the Acts of 2022, as amended by Chapter 410 of the_
-6 _Acts of 2024_
+5 Chapter 344 of the Acts of 2022, as amended by Chapter 410 of the
+6 Acts of 2024
 
-7 _Section 1(3)_
+7 Section 1(3)
 
-8 _ZA00 MISCELLANEOUS GRANT PROGRAMS_
+8 ZA00 MISCELLANEOUS GRANT PROGRAMS
 
-9 _(MO) Park Heights [Workforce Housing] COMMUNITY_
-10 _INVESTMENT. Provide a grant to the Board of Directors of_
-11 _Park Heights Renaissance to be used, in consultation with [the_
-12 _Department of Housing and Community Development, the_
-13 _Maryland Thoroughbred Racetrack Operating Authority, and]_
-14 _the governing body of the Pimlico Redevelopment Community_
-15 _Compact, for investments [in workforce housing] that are_
-16 _consistent with THE JOINT PLAN REQUIRED UNDER §_
-17 _10–646.1(B)(6) OF THE ECONOMIC DEVELOPMENT_
-18 _ARTICLE AND the Park Heights Master Plan Area ................ 10,000,000_
+9 (MO) Park Heights [Workforce Housing] COMMUNITY
+10 INVESTMENT. Provide a grant to the Board of Directors of
+11 Park Heights Renaissance to be used, in consultation with [the
+12 Department of Housing and Community Development, the
+13 Maryland Thoroughbred Racetrack Operating Authority, and]
+14 the governing body of the Pimlico Redevelopment Community
+15 Compact, for investments [in workforce housing] that are
+16 consistent with THE JOINT PLAN REQUIRED UNDER §
+17 10–646.1(B)(6) OF THE ECONOMIC DEVELOPMENT
+18 ARTICLE AND the Park Heights Master Plan Area ................ 10,000,000
 
 19 Chapter 102 of the Acts of 2023
 
@@ -740,12 +732,12 @@ SENATE BILL 1007 15
 29 RESTROOM FACILITIES AND OTHER GENERAL
 30 IMPROVEMENTS (Montgomery County) ................................... 350,000
 
-31 _(CD) Holy Cross Hospital. Provide a grant to the Board of Directors_
-32 _of Holy Cross Health, Inc. for the acquisition, planning, design,_
-33 _construction, repair, renovation, reconstruction, site_
-34 _improvement, and capital equipping of the [Holy Cross Health_
-35 _cancer center in Wheaton] HOLY CROSS HOSPITAL BIPLANE_
-36 _ROOM (Montgomery County) ....................................................... 2,000,000_
+31 (CD) Holy Cross Hospital. Provide a grant to the Board of Directors
+32 of Holy Cross Health, Inc. for the acquisition, planning, design,
+33 construction, repair, renovation, reconstruction, site
+34 improvement, and capital equipping of the [Holy Cross Health
+35 cancer center in Wheaton] HOLY CROSS HOSPITAL BIPLANE
+36 ROOM (Montgomery County) ....................................................... 2,000,000
 END OF PAGE 15
 
 START OF PAGE 16
@@ -757,13 +749,13 @@ START OF PAGE 16
 4 reconstruction, site improvement, and capital equipping of the
 5 Doctor First Mobile Communication System (Statewide) ......... 500,000
 
-6 _(DR) Woodlawn High School. Provide a grant to the [County_
-7 _Executive and County Council of Baltimore County] BOARD OF_
-8 _EDUCATION OF BALTIMORE COUNTY for the acquisition,_
-9 _planning, design, construction, repair, renovation,_
-10 _reconstruction, site improvement, and capital equipping of_
-11 _Woodlawn High School, including exterior lighting (Baltimore_
-12 _County).......................................................................................... 75,000_
+6 (DR) Woodlawn High School. Provide a grant to the [County
+7 Executive and County Council of Baltimore County] BOARD OF
+8 EDUCATION OF BALTIMORE COUNTY for the acquisition,
+9 planning, design, construction, repair, renovation,
+10 reconstruction, site improvement, and capital equipping of
+11 Woodlawn High School, including exterior lighting (Baltimore
+12 County).......................................................................................... 75,000
 
 13 (GC) [Shakespeare Beyond the Walls – Assets for Touring Company]
 14 CHESAPEAKE SHAKESPEARE COMPANY THEATRE.
@@ -813,55 +805,54 @@ SENATE BILL 1007 17
 8 ZA00 MISCELLANEOUS GRANT PROGRAMS
 
 9 (AC) North Bethesda Metro Station Access Improvements. Provide
-10 a grant to ~~the~~ [Washington Metropolitan Area Transit
-11 Authority] ~~COUNTY EXECUTIVE AND COUNTY COUNCIL OF~~
-12 ~~MONTGOMERY COUNTY~~ _MONTGOMERY COUNTY,_
-13 _MARYLAND_ for the acquisition, planning, design, construction,
-14 EXPANSION, repair, renovation, reconstruction, site
-15 improvement, and capital equipping of the North Bethesda
-16 Metro Station (Montgomery County) ......................................... 3,000,000
+10 a grant to [Washington Metropolitan Area Transit
+11 Authority] MONTGOMERY COUNTY, MARYLAND for the
+12 acquisition, planning, design, construction, EXPANSION,
+13 repair, renovation, reconstruction, site improvement, and
+14 capital equipping of the North Bethesda Metro Station
+15 (Montgomery County) ................................................................. 3,000,000
 
-17 (BU) Choice Neighborhood Initiative. Provide a grant to the Mayor
-18 and City Council of the City of Annapolis for the acquisition,
-19 planning, design, construction, repair, renovation,
-20 reconstruction, site improvement, and capital equipping of the
-21 expansion of affordable housing in the City of Annapolis.
-22 NOTWITHSTANDING SECTION 1(7) OF THIS ACT, THIS
-23 GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2028 (Anne
-24 Arundel County).......................................................................... 1,000,000
+16 (BU) Choice Neighborhood Initiative. Provide a grant to the Mayor
+17 and City Council of the City of Annapolis for the acquisition,
+18 planning, design, construction, repair, renovation,
+19 reconstruction, site improvement, and capital equipping of the
+20 expansion of affordable housing in the City of Annapolis.
+21 NOTWITHSTANDING SECTION 1(7) OF THIS ACT, THIS
+22 GRANT MAY NOT TERMINATE BEFORE JUNE 1, 2028 (Anne
+23 Arundel County).......................................................................... 1,000,000
 
-25 (BZ) Town of Brookeville Infrastructure Improvements. Provide a
-26 grant to the Commissioners of the Town of Brookeville for the
-27 acquisition, planning, design, construction, EXPANSION,
-28 repair, renovation, reconstruction, site improvement, and
-29 capital equipping of infrastructure improvements [on Market
-30 Street] IN THE TOWN OF BROOKEVILLE (Montgomery
-31 County) ........................................................................................ 150,000
+24 (BZ) Town of Brookeville Infrastructure Improvements. Provide a
+25 grant to the Commissioners of the Town of Brookeville for the
+26 acquisition, planning, design, construction, EXPANSION,
+27 repair, renovation, reconstruction, site improvement, and
+28 capital equipping of infrastructure improvements [on Market
+29 Street] IN THE TOWN OF BROOKEVILLE (Montgomery
+30 County) ........................................................................................ 150,000
 
-32 (EC) York Road Commercial Corridor. Provide a grant to the Board
-33 of Directors of the York Road Partnership, Inc. for the
-34 acquisition, planning, design, construction, repair, renovation,
-35 reconstruction, site improvement, and capital equipping of
-36 Greater Govans/York Road Corridor revitalization
-37 _“NON–COMMERCIAL” projects, RESTRICTING THE USE OF_
-38 _$300,000 OF THE GRANT TO BE USED ONLY IN_
+31 (EC) York Road Commercial Corridor. Provide a grant to the Board
+32 of Directors of the York Road Partnership, Inc. for the
+33 acquisition, planning, design, construction, repair, renovation,
+34 reconstruction, site improvement, and capital equipping of
+35 Greater Govans/York Road Corridor revitalization
+36 “NON–COMMERCIAL” projects, RESTRICTING THE USE OF
+37 $300,000 OF THE GRANT TO BE USED ONLY IN
 END OF PAGE 17
 
 START OF PAGE 18
 18 SENATE BILL 1007
 
-1 _PARTNERSHIP WITH BALTIMORE GREEN SPACE FOR_
-2 _ECOLOGICAL ASSESSMENT, SITE DESIGN AND MAPPING,_
-3 _LAND CLEARING, TEMPORARY FENCING, AND EQUIPMENT_
-4 _ACQUISITION FOR THE GOVANS URBAN FOREST_
-5 _RESTORATION AND MASTER PLANNING_ (Baltimore City) .... 600,000
+1 PARTNERSHIP WITH BALTIMORE GREEN SPACE FOR
+2 ECOLOGICAL ASSESSMENT, SITE DESIGN AND MAPPING,
+3 LAND CLEARING, TEMPORARY FENCING, AND EQUIPMENT
+4 ACQUISITION FOR THE GOVANS URBAN FOREST
+5 RESTORATION AND MASTER PLANNING (Baltimore City) .... 600,000
 
-6 _(FM) Holy Cross Hospital. Provide a grant to the Board of Directors_
-7 _of Holy Cross Health, Inc. for the acquisition, planning, design,_
-8 _construction, repair, renovation, reconstruction, site_
-9 _improvement, and capital equipping of the [Holy Cross Health_
-10 _cancer center in Wheaton] HOLY CROSS HOSPITAL BIPLANE_
-11 _ROOM (Montgomery County) ....................................................... 2,000,000_
+6 (FM) Holy Cross Hospital. Provide a grant to the Board of Directors
+7 of Holy Cross Health, Inc. for the acquisition, planning, design,
+8 construction, repair, renovation, reconstruction, site
+9 improvement, and capital equipping of the [Holy Cross Health
+10 cancer center in Wheaton] HOLY CROSS HOSPITAL BIPLANE
+11 ROOM (Montgomery County) ....................................................... 2,000,000
 
 12 ZA02 LOCAL SENATE INITIATIVES
 13 (Statewide)
@@ -875,13 +866,13 @@ START OF PAGE 18
 20 Commercial Corridor Neighborhood Signage and Pedestrian
 21 Safety Infrastructure project (Baltimore City) ........................... 105,000
 
-22 _(CG) Leisure World of Maryland – Healthy Community Initiative._
-23 _Provide a grant to the Board of Directors of the Leisure World_
-24 _of Maryland Corporation for the acquisition, planning, design,_
-25 _construction, repair, renovation, reconstruction, site_
-26 _improvement, and capital equipping of ~~a zero emission_
-27 _14–passenger~~ _wheelchair accessible_ [bus] _BUSES__
-28 _(Montgomery County) ................................................................... 250,000_
+22 (CG) Leisure World of Maryland – Healthy Community Initiative.
+23 Provide a grant to the Board of Directors of the Leisure World
+24 of Maryland Corporation for the acquisition, planning, design,
+25 construction, repair, renovation, reconstruction, site
+26 improvement, and capital equipping of [a zero emission
+27 14–passenger] wheelchair accessible [bus] BUSES
+28 (Montgomery County) ................................................................... 250,000
 
 29 ZA03 LOCAL HOUSE OF DELEGATES INITIATIVES
 30 (Statewide)
@@ -904,18 +895,18 @@ SENATE BILL 1007 19
 
 2 ZA00 MISCELLANEOUS GRANT PROGRAMS
 
-3 _(BP) Black Sox Park. Provide a grant to [Parks and People, Inc. and]_
-4 _the South Baltimore Gateway Partnership for the acquisition,_
-5 _planning, design, construction, expansion, repair, renovation,_
-6 _reconstruction, site improvement, and capital equipping of_
-7 _Black Sox Park (Baltimore City) ................................................. 3,000,000_
+3 (BP) Black Sox Park. Provide a grant to [Parks and People, Inc. and]
+4 the South Baltimore Gateway Partnership for the acquisition,
+5 planning, design, construction, expansion, repair, renovation,
+6 reconstruction, site improvement, and capital equipping of
+7 Black Sox Park (Baltimore City) ................................................. 3,000,000
 
-8 _(CM) North Bethesda Metro Station Access Improvements. Provide a_
-9 _grant to [the Washington Metropolitan Area Transit Authority]_
-10 _MONTGOMERY COUNTY, MARYLAND for the acquisition,_
-11 _planning, design, construction, expansion, repair, renovation,_
-12 _reconstruction, site improvement, and capital equipping of the_
-13 _North Bethesda Metro Station (Montgomery County)................. 600,000_
+8 (CM) North Bethesda Metro Station Access Improvements. Provide a
+9 grant to [the Washington Metropolitan Area Transit Authority]
+10 MONTGOMERY COUNTY, MARYLAND for the acquisition,
+11 planning, design, construction, expansion, repair, renovation,
+12 reconstruction, site improvement, and capital equipping of the
+13 North Bethesda Metro Station (Montgomery County)................. 600,000
 
 14 (HA) Sandy Spring Museum [Library]. Provide a grant to the Board
 15 of Directors of the Sandy Spring Museum for the acquisition,
@@ -934,16 +925,16 @@ SENATE BILL 1007 19
 26 ZA02 LOCAL HOUSE OF DELEGATES INITIATIVES
 27 (Statewide)
 
-28 _(R) Forest Park Renaissance. Provide a grant to the Board of_
-29 _Directors of the WBC Community Development Corporation for_
-30 _the acquisition, planning, design, construction, expansion,_
-31 _repair, renovation, reconstruction, site improvement, and_
-32 _capital equipping of blighted residential and commercial_
-33 _properties [on and around the business center at the intersection_
-34 _of Liberty Heights and Garrison Blvd. including two shovel_
-35 _ready projects: Forest Park Gateway Center located at 3901_
-36 _Liberty Heights and a recently acquired lot located at 3403_
-37 _Garrison Blvd.] (Baltimore City)................................................. 400,000_
+28 (R) Forest Park Renaissance. Provide a grant to the Board of
+29 Directors of the WBC Community Development Corporation for
+30 the acquisition, planning, design, construction, expansion,
+31 repair, renovation, reconstruction, site improvement, and
+32 capital equipping of blighted residential and commercial
+33 properties [on and around the business center at the intersection
+34 of Liberty Heights and Garrison Blvd. including two shovel
+35 ready projects: Forest Park Gateway Center located at 3901
+36 Liberty Heights and a recently acquired lot located at 3403
+37 Garrison Blvd.] (Baltimore City)................................................. 400,000
 END OF PAGE 19
 
 START OF PAGE 20
@@ -973,4 +964,3 @@ President of the Senate.
 ________________________________________________________________________________
 Speaker of the House of Delegates.
 END OF PAGE 20
-</bill>

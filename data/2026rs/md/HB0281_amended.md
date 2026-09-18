@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 266
 
@@ -261,7 +260,7 @@ check to the local department.
 
 (3) Within 15 calendar days after the [local department receives the results
 of] DATE ON WHICH THE STATE OR LOCAL LAW ENFORCEMENT AGENCY CONDUCTS
-CONDUCTS the name–based check, the local department shall submit a complete set of
+the name–based check, the local department shall submit a complete set of
 fingerprints to the Department for each individual described in paragraph (1) of this
 subsection on whom a name–based check was [performed] CONDUCTED.
 
@@ -296,4 +295,3 @@ Approved by the Governor, April 28, 2026.
 
 – 6 –
 END OF PAGE 6
-</bill>

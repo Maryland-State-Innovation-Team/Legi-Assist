@@ -93,17 +93,17 @@ underserved communities;
 (XI) one individual with expertise as a member of law
 enforcement;
 
-– 2 –
-END OF PAGE 2
-
-START OF PAGE 3
-WES MOORE, Governor Ch. 207
-
 (XII) one individual who is a patient with conditions that can be
 treated with psychedelic substances;
 
 (XIII) one individual with experience with the pharmacology of
 natural psychedelic substances; and
+
+– 2 –
+END OF PAGE 2
+
+START OF PAGE 3
+WES MOORE, Governor Ch. 207
 
 (XIV) one physician with experience with the appropriate use of
 psychedelic substances and other integrative medical practices.

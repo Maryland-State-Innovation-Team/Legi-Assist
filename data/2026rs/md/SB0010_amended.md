@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 SENATE BILL 10
 
@@ -25,13 +24,13 @@ CHAPTER ______
 5 return as incomplete an application for the use of a certain speed monitoring system
 6 within a certain number of days; providing that if the Administration does not
 7 approve, deny, or return the application in accordance with this Act, the application
-8 is deemed approved; <u>limiting the number of applications that may be submitted</u>
-9 <u>within a certain period of time;</u> and generally relating to applications for the use of
+8 is deemed approved; limiting the number of applications that may be submitted
+9 within a certain period of time; and generally relating to applications for the use of
 10 speed monitoring systems.
 
 11 BY repealing and reenacting, without amendments,
 12 Article – Transportation
-13 Section 21–809(a)(1), <u>(5),</u> and (9)
+13 Section 21–809(a)(1), (5), and (9)
 14 Annotated Code of Maryland
 15 (2020 Replacement Volume and 2025 Supplement)
 
@@ -84,9 +83,9 @@ START OF PAGE 2
 22 the municipal corporation instead of the county to use a speed monitoring system at that
 23 location.
 
-24 2. A. WITHIN ~~90~~ <u>120</u> DAYS AFTER RECEIPT OF AN
-25 APPLICATION <u>SUBMITTED BY A PROGRAM ADMINISTRATOR OR THE PROGRAM</u>
-26 <u>ADMINISTRATOR’S CONTRACTOR</u> FOR THE USE OF A SPEED MONITORING SYSTEM
+24 2. A. WITHIN 120 DAYS AFTER RECEIPT OF AN
+25 APPLICATION SUBMITTED BY A PROGRAM ADMINISTRATOR OR THE PROGRAM
+26 ADMINISTRATOR’S CONTRACTOR FOR THE USE OF A SPEED MONITORING SYSTEM
 27 UNDER THIS SUBPARAGRAPH, THE STATE HIGHWAY ADMINISTRATION SHALL
 28 APPROVE OR DENY THE APPLICATION OR RETURN THE APPLICATION AS
 29 INCOMPLETE.
@@ -95,20 +94,20 @@ START OF PAGE 2
 31 OR RETURN AN APPLICATION IN ACCORDANCE WITH SUBSUBSUBPARAGRAPH A OF
 32 THIS SUBSUBPARAGRAPH, THE APPLICATION SHALL BE DEEMED APPROVED.
 
-33 <u>C. A SPEED MONITORING SYSTEM CONTRACTOR THAT</u>
-34 <u>SUBMITS AN APPLICATION UNDER THIS SUBPARAGRAPH SHALL CONSULT WITH THE</u>
+33 C. A SPEED MONITORING SYSTEM CONTRACTOR THAT
+34 SUBMITS AN APPLICATION UNDER THIS SUBPARAGRAPH SHALL CONSULT WITH THE
 END OF PAGE 2
 
 START OF PAGE 3
 SENATE BILL 10 3
 
-1 <u>PROGRAM ADMINISTRATOR BEFORE AND AFTER THE SUBMISSION OF THE</u>
-2 <u>APPLICATION.</u>
+1 PROGRAM ADMINISTRATOR BEFORE AND AFTER THE SUBMISSION OF THE
+2 APPLICATION.
 
-3 <u>D. A PROGRAM ADMINISTRATOR OR THE PROGRAM</u>
-4 <u>ADMINISTRATOR’S CONTRACTOR MAY NOT SUBMIT MORE THAN 10 APPLICATIONS</u>
-5 <u>FOR THE USE OF A SPEED MONITORING SYSTEM UNDER THIS SUBPARAGRAPH</u>
-6 <u>DURING ANY 30–DAY PERIOD.</u>
+3 D. A PROGRAM ADMINISTRATOR OR THE PROGRAM
+4 ADMINISTRATOR’S CONTRACTOR MAY NOT SUBMIT MORE THAN 10 APPLICATIONS
+5 FOR THE USE OF A SPEED MONITORING SYSTEM UNDER THIS SUBPARAGRAPH
+6 DURING ANY 30–DAY PERIOD.
 
 7 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
 8 October 1, 2026.
@@ -124,4 +123,3 @@ President of the Senate.
 ________________________________________________________________________________
 Speaker of the House of Delegates.
 END OF PAGE 3
-</bill>

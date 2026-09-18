@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 273
 
@@ -8,12 +7,15 @@ Chapter 273
 
 AN ACT concerning
 
-Environment – Appropriation or Use of Water and Dam Safety – Enforcement
+Environment – ~~Water~~ ~~Resources~~ ~~and~~ ~~Wetlands~~ Appropriation or Use of Water
+and Dam Safety – Enforcement
 
 FOR the purpose of authorizing the Department of the Environment to impose an
 administrative penalty for certain violations related to the appropriation or use of
 water and dam safety; repealing a certain limitation on the Department’s authority
-to issue certain orders and send certain notices related to dam safety; requiring the Department to
+to issue certain orders and send certain notices related to dam safety; ~~authorizing~~
+~~the~~ ~~Department~~ ~~to~~ ~~impose~~ ~~an~~ ~~administrative~~ ~~penalty~~ ~~for~~ ~~certain~~ ~~violations~~ ~~related~~ ~~to~~
+~~wetlands~~ ~~construction,~~ ~~modification,~~ ~~or~~ ~~development~~ requiring the Department to
 take certain actions before imposing certain civil or administrative penalties;
 requiring certain administrative penalties to be paid into the Maryland Clean Water
 Fund; and generally relating to the enforcement authority of the Department of the
@@ -33,7 +35,7 @@ Annotated Code of Maryland
 
 BY repealing and reenacting, with amendments,
 Article – Environment
-Section 9–320(b)
+Section 9–320(b) ~~and~~ ~~16–502~~
 Annotated Code of Maryland
 (2014 Replacement Volume and 2025 Supplement)
 
@@ -112,7 +114,7 @@ OR TO HUMAN HEALTH OR SAFETY;
 REASONABLENESS OF CONTROLLING, REDUCING, OR ELIMINATING THE VIOLATION;
 
 7. THE DEGREE OF HAZARD OR HARM POSED BY THE
-VIOLATION;
+VIOLATION; AND
 
 8. THE EXTENT TO WHICH THE CURRENT VIOLATION IS
 PART OF A RECURRENT PATTERN OF THE SAME OR SIMILAR TYPE OF VIOLATION
@@ -163,7 +165,7 @@ ENFORCEMENT ACTION UNDER THIS SECTION IS APPROPRIATE; AND
 THE PERSON, OR AN AUTHORIZED REPRESENTATIVE OF THE PERSON, FOR A LOAN
 FROM THE PRIVATE DAM REPAIR FUND.
 
-[(c)] (E) (1) Except as provided in paragraph (2) of this subsection, all funds
+[(c)] (D) (E) (1) Except as provided in paragraph (2) of this subsection, all funds
 collected by the Department under this section, including any civil [penalty] OR
 ADMINISTRATIVE PENALTIES or any fine imposed by a court under the provisions of this
 section, shall be paid into the Maryland Clean Water Fund.
@@ -337,17 +339,17 @@ supplemental inspections and monitoring; and
 more than 45% of the generator fees for sludge utilized in that county that is generated
 outside of that county or service area.
 
-SECTION 2. AND BE IT FURTHER ENACTED, That, if any provision of this
-Act or the application of any provision of this Act to any person or circumstance is held
-invalid for any reason in a court of competent jurisdiction, the invalidity does not affect
-other provisions or any other application of this Act that can be given effect without the
-invalid provision or application, and for this purpose the provisions of this Act are
-declared severable.
+SECTION 2. AND BE IT FURTHER ENACTED, That, if any provision of this Act or
+the application of any provision of this Act to any person or circumstance is held invalid for
+any reason in a court of competent jurisdiction, the invalidity does not affect other
+provisions or any other application of this Act that can be given effect without the invalid
+provision or application, and for this purpose the provisions of this Act are declared
+severable.
 
-SECTION 3. AND BE IT FURTHER ENACTED, That this Act shall take effect
+SECTION ~~2.~~ 3. AND BE IT FURTHER ENACTED, That this Act shall take effect
 July 1, 2026.
 
 Approved by the Governor, April 28, 2026.
 
-– 9 –
-END OF PAGE 9</bill>
+– 7 –
+END OF PAGE 7

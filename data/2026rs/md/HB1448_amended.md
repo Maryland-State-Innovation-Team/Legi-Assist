@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1448
 
@@ -67,12 +66,12 @@ START OF PAGE 2
 
 10 (a) In this section, “State Board” means the State Board of Elections.
 
-11 (B) (1) (I) 1. ON OR BEFORE THE DATE THAT IS ~~6~~ 3 MONTHS
+11 (B) (1) (I) 1. ON OR BEFORE THE DATE THAT IS 6 3 MONTHS
 12 BEFORE THE CANDIDATE FILING DEADLINE FOR A REGULAR MUNICIPAL ELECTION,
 13 THE MUNICIPALITY SHALL SUBMIT TO THE STATE BOARD THE QUALIFICATIONS TO
 14 BE A CANDIDATE FOR EACH OFFICE ON THE MUNICIPAL BALLOT.
 
-15 2. WITHIN ~~10~~ 15 BUSINESS DAYS AFTER A SPECIAL
+15 2. WITHIN 15 BUSINESS DAYS AFTER A SPECIAL
 16 MUNICIPAL ELECTION IS SCHEDULED, THE MUNICIPALITY SHALL REPORT TO THE
 17 STATE BOARD:
 
@@ -89,7 +88,7 @@ START OF PAGE 2
 25 STATE BOARD SHALL PUBLISH THE INFORMATION ON THE STATE BOARD’S
 26 WEBSITE.
 
-27 (2) (I) ON OR BEFORE THE DATE THAT IS ~~1 WEEK~~ 10 BUSINESS
+27 (2) (I) ON OR BEFORE THE DATE THAT IS 1 WEEK 10 BUSINESS
 28 DAYS AFTER THE CANDIDATE FILING DEADLINE FOR A MUNICIPAL ELECTION,
 29 INCLUDING A SPECIAL ELECTION, THE MUNICIPALITY SHALL SUBMIT TO THE STATE
 30 BOARD:
@@ -117,44 +116,45 @@ HOUSE BILL 1448 3
 13 SUBPARAGRAPH (I) of this [subsection] PARAGRAPH shall be organized by election year
 14 and the name of the municipality.
 
-15 (D) (1) IN THIS SUBSECTION, “RANKED–CHOICE VOTING” MEANS A
-16 METHOD OF CASTING AND TABULATING VOTES IN WHICH VOTERS RANK
-17 CANDIDATES IN ORDER OF PREFERENCE AND VOTES ARE TABULATED IN A
-18 MANNER THAT REFLECTS VOTER PREFERENCE.
+15 [(c)] (2) Within 30 days after the results of a municipal election are certified,
+16 the municipality shall submit to the State Board an electronic copy of the election results
+17 for each office or question voted on at the election, including:
 
-19 (2) A MUNICIPALITY THAT CONDUCTS ITS ELECTIONS USING
-20 RANKED–CHOICE VOTING SHALL SUBMIT TO THE STATE BOARD THE
-21 MUNICIPALITY’S REGULATIONS FOR THE TABULATION OF RANKED–CHOICE
-22 BALLOTS.
+18 [(1)] (I) vote totals for each office or question reported separately by each
+19 of the following voting methods, if applicable:
 
-23 (3) THE STATE BOARD SHALL PUBLISH THE REGULATIONS
-24 SUBMITTED UNDER PARAGRAPH (2) OF THIS SUBSECTION ON THE STATE
-25 BOARD’S WEBSITE.
+20 [(i)] 1. in–person early voting;
 
-26 [(c)] (2) Within 30 days after the results of a municipal election are certified,
-27 the municipality shall submit to the State Board an electronic copy of the election results
-28 for each office or question voted on at the election, including:
+21 [(ii)] 2. mail–in voting or vote–by–mail;
 
-29 [(1)] (I) vote totals for each office or question reported separately by each
-30 of the following voting methods, if applicable:
+22 [(iii)] 3. provisional voting; and
 
-31 [(i)] 1. in–person early voting;
+23 [(iv)] 4. in–person election day voting; and
 
-32 [(ii)] 2. mail–in voting or vote–by–mail;
+24 [(2)] (II) if the municipality conducts partisan elections, the party
+25 affiliation of each candidate.
 
-33 [(iii)] 3. provisional voting; and
+26 (D) (1) IN THIS SUBSECTION, “RANKED–CHOICE VOTING” MEANS A
+27 METHOD OF CASTING AND TABULATING VOTES IN WHICH VOTERS RANK CANDIDATES
+28 IN ORDER OF PREFERENCE AND VOTES ARE TABULATED IN A MANNER THAT
+29 REFLECTS VOTER PREFERENCE.
 
-34 [(iv)] 4. in–person election day voting; and
-
-35 [(2)] (II) if the municipality conducts partisan elections, the party
-36 affiliation of each candidate.
+30 (2) A MUNICIPALITY THAT CONDUCTS ITS ELECTIONS USING
+31 RANKED–CHOICE VOTING SHALL SUBMIT TO THE STATE BOARD THE
 END OF PAGE 3
 
 START OF PAGE 4
 4 HOUSE BILL 1448
 
-1 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect June
-2 1, 2026.
+1 MUNICIPALITY’S REGULATIONS FOR THE TABULATION OF RANKED–CHOICE
+2 BALLOTS.
+
+3 (3) THE STATE BOARD SHALL PUBLISH THE REGULATIONS
+4 SUBMITTED UNDER PARAGRAPH (2) OF THIS SUBSECTION ON THE STATE BOARD’S
+5 WEBSITE.
+
+6 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect June
+7 1, 2026.
 
 Approved:
 
@@ -167,4 +167,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 4
-</bill>

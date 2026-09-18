@@ -1,5 +1,3 @@
-<bill>
-<bill>
 START OF PAGE 1
 HOUSE BILL 895
 
@@ -32,11 +30,13 @@ CHAPTER ______
 
 1 AN ACT concerning
 
-2 
-3 
-4 Food Retailers and Third–Party Delivery Service Providers – Dynamic Pricing
-5 and Personal Data
-6 (Protection From Predatory Pricing Act)
+2 ~~Food~~ ~~Retailers~~ ~~–~~ ~~Dynamic~~ ~~Pricing,~~ ~~Surveillance~~ ~~Data,~~ ~~and~~ ~~Collective~~ ~~Bargaining~~
+3 ~~Agreements~~
+4 ~~Consumer~~ ~~Protection~~ ~~–~~ ~~Price~~ ~~Setting~~ ~~of~~ ~~Consumer~~ ~~Goods~~ ~~and~~ ~~Services~~ ~~and~~
+5 ~~Use~~ ~~of~~ ~~Protected~~ ~~Class~~ ~~Data~~
+6 Food Retailers and Third–Party Delivery Service Providers – Dynamic Pricing
+7 and Personal Data
+8 (Protection From Predatory Pricing Act)
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
@@ -49,39 +49,53 @@ END OF PAGE 1
 START OF PAGE 2
 2 HOUSE BILL 895
 
-1 FOR the purpose of prohibiting a food retailer and a third–party delivery service
-2 provider from engaging in the practice of dynamic pricing or using personal data to set
-3 a higher price for food that is exempt from the sale and use tax under certain
-4 circumstances; prohibiting a food retailer and a third–party delivery service provider 
-5 from using protected class data to offer, advertise, or sell a consumer good or service under 
-6 certain circumstances; making a certain violation of this Act an unfair, abusive, or deceptive 
-7 trade practice that is subject to enforcement and penalties under the Maryland Consumer 
-8 Protection Act; and generally relating to the regulation of food retailers and third–party 
-9 delivery service providers.
+1 FOR the purpose of prohibiting a food retailer and a third–party ~~food~~ delivery service
+2 provider from engaging in the practice of dynamic pricing or using consumer
+3 ~~surveillance~~ personal data to set a price for consumer goods or services; prohibiting
+4 a food retailer and a third–party ~~food~~ delivery service provider from using protected
+5 class data to offer, advertise, or sell a consumer good or service under certain
+6 circumstances; ~~prohibiting~~ ~~a~~ ~~food~~ ~~retailer~~ ~~from~~ ~~diminishing~~ ~~or~~ ~~impairing~~ ~~any~~ ~~right~~
+7 ~~or~~ ~~benefit~~ ~~guaranteed~~ ~~to~~ ~~employees~~ ~~of~~ ~~the~~ ~~food~~ ~~retailer~~ ~~under~~ ~~an~~ ~~existing~~ ~~collective~~
+8 ~~bargaining~~ ~~agreement~~ ~~or~~ ~~memorandum~~ ~~of~~ ~~understanding~~ ~~under~~ ~~certain~~
+9 ~~circumstances;~~ ~~prohibiting~~ ~~a~~ ~~merchant~~ ~~from~~ ~~setting~~ ~~the~~ ~~price~~ ~~of~~ ~~consumer~~ ~~goods~~ ~~or~~
+10 ~~services~~ ~~using~~ ~~certain~~ ~~dynamic~~ ~~pricing~~ ~~or~~ ~~personal~~ ~~data~~ ~~and~~ ~~issuing~~ ~~a~~ ~~certain~~
+11 ~~communication~~ ~~in~~ ~~a~~ ~~certain~~ ~~manner~~ ~~unless~~ ~~the~~ ~~merchant~~ ~~includes~~ ~~a~~ ~~certain~~ ~~clear~~ ~~and~~
+12 ~~conspicuous~~ ~~disclosure~~ ~~statement;~~ making a ~~a~~ certain ~~violation~~ ~~violations~~ violation
+13 of this Act an unfair, abusive, or deceptive trade practice that is subject to
+14 enforcement and penalties under the Maryland Consumer Protection Act; and
+15 generally relating to ~~the~~ ~~regulation~~ ~~of~~ ~~food~~ ~~retailers~~ ~~consumer~~ ~~protections~~ ~~regarding~~
+16 ~~the~~ ~~setting~~ ~~of~~ ~~prices~~ ~~for~~ ~~consumer~~ ~~goods~~ ~~and~~ ~~services~~ ~~and~~ ~~the~~ ~~use~~ ~~of~~ ~~protected~~ ~~class~~
+17 ~~data~~ the regulation of food retailers and third–party delivery service providers.
 
-10 BY adding to
-11 Article – Commercial Law
-12 Section 13–321
-13 Annotated Code of Maryland
-14 (2025 Replacement Volume)
+18 BY adding to
+19 Article – Commercial Law
+20 Section 13–321 ~~and~~ ~~13–322~~
+21 Annotated Code of Maryland
+22 (2025 Replacement Volume)
 
-15 BY repealing and reenacting, with amendments,
-16 Article – Commercial Law
-17 Section 13–408 and 13–411
-18 Annotated Code of Maryland
-19 (2025 Replacement Volume)
+23 BY repealing and reenacting, with amendments,
+24 Article – Commercial Law
+25 Section 13–408 and 13–411
+26 Annotated Code of Maryland
+27 (2025 Replacement Volume)
 
-20 BY repealing and reenacting, without amendments,
-21 Article – Commercial Law
-22 Section 14–4701(a) and (w)
-23 Annotated Code of Maryland
-24 (2025 Replacement Volume)
+28 BY repealing and reenacting, without amendments,
+29 Article – Commercial Law
+30 Section 14–4701(a) and (w)
+31 Annotated Code of Maryland
+32 (2025 Replacement Volume)
 
-25 BY repealing and reenacting, without amendments,
-26 Article – Tax – General
-27 Section 11–206(c)
-28 Annotated Code of Maryland
-29 (2022 Replacement Volume and 2025 Supplement)
+33 ~~BY~~ ~~adding~~ ~~to~~
+34 ~~Article~~ ~~–~~ ~~Labor~~ ~~and~~ ~~Employment~~
+35 ~~Section~~ ~~4–406~~
+36 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+37 ~~(2025~~ ~~Replacement~~ ~~Volume)~~
+
+38 BY repealing and reenacting, without amendments,
+39 Article – Tax – General
+40 Section 11–206(c)
+41 Annotated Code of Maryland
+42 (2022 Replacement Volume and 2025 Supplement)
 END OF PAGE 2
 
 START OF PAGE 3
@@ -94,192 +108,252 @@ HOUSE BILL 895 3
 
 4 13–321.
 
-5 (A) IN THIS SECTION THE FOLLOWING WORDS HAVE THE MEANINGS
+5 (A) (1) IN THIS SECTION THE FOLLOWING WORDS HAVE THE MEANINGS
 6 INDICATED.
 
-7 (1) “CONSENT” HAS THE MEANING STATED IN § 14–4701 OF THIS
-8 ARTICLE.
+7 (2) “ARTIFICIAL INTELLIGENCE” HAS THE MEANING STATED IN §
+8 3.5–801 OF THE STATE FINANCE AND PROCUREMENT ARTICLE.
 
-9 (2) “DYNAMIC PRICING” MEANS THE DISCRIMINATORY
-10 PRACTICE OF OFFERING OR SETTING A PERSONALIZED PRICE FOR A GOOD OR 
-11 SERVICE THAT IS SPECIFIC TO A CONSUMER BASED ON THE CONSUMER’S 
-12 PERSONAL DATA, REGARDLESS OF WHETHER THE SELLER COLLECTED OR 
-13 PURCHASED THE PERSONAL DATA.
+9 (2) “CONSENT” HAS THE MEANING STATED IN § 14–4701 OF THIS
+10 ARTICLE.
 
-14 (3) “FOOD RETAILER” MEANS A MERCHANT THAT OPERATES A
-15 BUSINESS ESTABLISHMENT THAT:
+11 (3) (2) (3) (I) “DYNAMIC PRICING” MEANS THE DISCRIMINATORY
+12 PRACTICE OF VARYING THE PRICES OF CONSUMER GOODS OR SERVICES WITHIN A
+13 THE SAME BUSINESS DAY BASED ON DEMAND OR OTHER FACTORS OFFERING OR
+14 SETTING A PERSONALIZED PRICE FOR A GOOD OR SERVICE THAT IS SPECIFIC TO A
+15 CONSUMER BASED ON THE CONSUMER’S PERSONAL DATA, REGARDLESS OF
+16 WHETHER THE SELLER COLLECTED OR PURCHASED THE PERSONAL DATA,
+17 INCLUDING THROUGH THE USE OF ARTIFICIAL INTELLIGENCE OR MODELS THAT
+18 RETRAIN OR RECALIBRATE BASED ON RECEIVED INFORMATION IN NEAR REAL–
+19 TIME.
 
-16 (I) HAS A MINIMUM OF 15,000 SQUARE FEET; AND
+20 (II) “DYNAMIC PRICING” DOES NOT INCLUDE THE:
 
-17 (II) SELLS FOOD THAT IS EXEMPT FROM THE SALES AND USE
-18 TAX IN ACCORDANCE WITH § 11–206(C) OF THE TAX – GENERAL ARTICLE.
+21 1. THE USE OF PROMOTIONAL PRICING OFFERS,
+22 LOYALTY PROGRAM BENEFITS, OR OTHER TEMPORARY DISCOUNTS OR CHANGES TO
+23 PRICING RELATED TO RETENTION OF EXISTING CUSTOMERS;
 
-19 (4) “PERSONAL DATA” HAS THE MEANING STATED IN § 14–4701 OF 
-20 THIS ARTICLE.
-
-21 (5) “PROTECTED CLASS DATA” MEANS INFORMATION ABOUT AN
-22 INDIVIDUAL OR GROUP OF INDIVIDUALS THAT, ALONE OR IN COMBINATION,
-23 DIRECTLY OR BY IMPLICATION IDENTIFIES A CHARACTERISTIC THAT IS LEGALLY
-24 PROTECTED FROM DISCRIMINATION UNDER THE LAWS OF THE STATE OR UNDER
-25 FEDERAL LAW.
-
-26 (6) (I) “THIRD–PARTY DELIVERY SERVICE PROVIDER”
-27 MEANS A MERCHANT THAT FACILITATES AS A CONSUMER SERVICE THE
-28 DELIVERY OF FOOD THAT IS EXEMPT FROM THE SALES AND USE TAX IN ACCORDANCE
-29 WITH § 11–206(C) OF THE TAX – GENERAL ARTICLE.
-
-30 (II) “THIRD–PARTY DELIVERY SERVICE PROVIDER” DOES
-31 NOT INCLUDE A FOOD RETAILER.
+24 2. A DIFFERENCE IN PRICE BASED ON OBJECTIVE COSTS
+25 ATTRIBUTABLE TO PROVIDING CONSUMER GOODS OR SERVICES TO DIFFERENT
+26 CONSUMERS, SUCH AS A DIFFERENCE IN PRICE CAUSED BY SHIPPING COSTS OR
+27 TAXES BASED ON A CONSUMER’S PHYSICAL LOCATION;
 END OF PAGE 3
 
 START OF PAGE 4
 4 HOUSE BILL 895
 
-1 (B) (1) THIS SUBSECTION DOES NOT APPLY TO:
+24 3. A PRICE CORRECTION RESULTING FROM A
+25 PRICING ERROR; OR
 
-2 (I) USING PROMOTIONAL PRICING OFFERS, LOYALTY PROGRAM
-3 BENEFITS, OR OTHER TEMPORARY DISCOUNTS OR CHANGES TO PRICING RELATED
-4 TO RETENTION OF EXISTING CUSTOMERS;
+26 4. RESETTING A PRICE FOLLOWING A SYSTEM OR
+27 NETWORK OUTAGE.
 
-5 (II) SETTING A DIFFERENT PRICE BASED ON OBJECTIVE COSTS
-6 ATTRIBUTABLE TO PROVIDING CONSUMER GOODS OR SERVICES TO DIFFERENT
-7 CONSUMERS, SUCH AS A DIFFERENCE IN PRICE CAUSED BY SHIPPING COSTS OR
-8 TAXES BASED ON A CONSUMER’S PHYSICAL LOCATION;
+28 (4) (3) (4) “FOOD RETAILER” MEANS A MERCHANT THAT OPERATES A
+29 BUSINESS ESTABLISHMENT THAT:
 
-9 (III) SETTING A DIFFERENT PRICE BASED ON COSTS OR
-10 DIFFERENCES IN SUPPLY OR DEMAND ASSOCIATED WITH PROVIDING OR SELLING A
-11 GOOD OR SERVICE IN DIFFERENT LOCATIONS OR GEOGRAPHIES;
+30 (I) HAS A MINIMUM OF 15,000 SQUARE FEET; AND
 
-12 (IV) SETTING A DIFFERENT PRICE BASED ON COSTS ASSOCIATED
-13 WITH THE AVAILABILITY OR SUPPLY OF THE GOOD OR SERVICE;
-
-14 (V) OFFERING A PRICE TO A CONSUMER THROUGH A LOYALTY,
-15 MEMBERSHIP, OR REWARDS PROGRAM IN WHICH ANY CONSUMER MAY VOLUNTARILY
-16 ENROLL OR CONSENT TO PARTICIPATE;
-
-17 (VI) OFFERING A PRICE TO A CONSUMER IN CONNECTION WITH A
-18 SUBSCRIPTION–BASED CONTRACT OR AGREEMENT;
-
-19 (VII) OFFERING A PRICE TO A CONSUMER WHO CONSENTS TO
-20 PROVIDING PERSONAL DATA OR OTHER INFORMATION IN EXCHANGE FOR
-21 OBTAINING THE PRICE;
-
-22 (VIII) CORRECTING A PRICE RESULTING FROM A PRICING ERROR;
-23 OR
-
-24 (IX) RESETTING A PRICE FOLLOWING A SYSTEM OR NETWORK
-25 OUTAGE.
-
-26 (2) A FOOD RETAILER OR THIRD–PARTY DELIVERY SERVICE
-27 PROVIDER MAY NOT:
-
-28 (I) ENGAGE IN DYNAMIC PRICING TO SET A HIGHER PRICE FOR
-29 FOOD THAT IS EXEMPT FROM THE SALE AND USE TAX IN ACCORDANCE WITH §
-30 11–206(C) OF THE TAX – GENERAL ARTICLE FOR A SPECIFIC CONSUMER; OR
-
-31 (II) USE PERSONAL DATA TO SET A HIGHER
-32 PRICE FOR FOOD THAT IS EXEMPT FROM THE SALE AND USE TAX UNDER § 
-33 11–206(C) OF THE TAX – GENERAL ARTICLE FOR A SINGLE CONSUMER.
+31 (II) SELLS FOOD THAT IS EXEMPT FROM THE SALES AND USE
+32 TAX IN ACCORDANCE WITH § 11–206(C) OF THE TAX – GENERAL ARTICLE.
 END OF PAGE 4
 
 START OF PAGE 5
 HOUSE BILL 895 5
 
-1 (C) A FOOD RETAILER OR THIRD–PARTY DELIVERY SERVICE
-2 PROVIDER MAY NOT USE PROTECTED CLASS DATA TO OFFER, ADVERTISE, OR SELL
-3 A CONSUMER GOOD OR SERVICE TO A CONSUMER FOR WHOM THE PROTECTED CLASS
-4 DATA PERTAINS IF THE USE OF THE PROTECTED CLASS DATA HAS THE EFFECT OF
-5 WITHHOLDING OR DENYING FROM THE CONSUMER AN ACCOMMODATION, AN
-6 ADVANTAGE, OR A PRIVILEGE ACCORDED TO OTHERS.
+1 (5) (4) (5) “SURVEILLANCE PERSONAL DATA” MEANS CONSUMER
+2 INFORMATION COLLECTED AND TRACKED BY TECHNOLOGICAL METHODS, SYSTEMS,
+3 OR TOOLS, SUCH AS SENSORS, CAMERAS, DEVICE TRACKING, BIOMETRIC
+4 MONITORING, OR OTHER FORMS OF OBSERVATION OR DATA COLLECTION, THAT ARE
+5 CAPABLE OF GATHERING PERSONALLY IDENTIFIABLE INFORMATION ABOUT A
+6 CONSUMER’S BEHAVIOR, CHARACTERISTICS, LOCATION, OR OTHER PERSONAL
+7 ATTRIBUTES, WHETHER IN A PHYSICAL OR DIGITAL ENVIRONMENT HAS THE
+8 MEANING STATED IN § 14–4701 OF THIS ARTICLE.
 
-7 (D) (1) BEFORE INITIATING AN ENFORCEMENT ACTION UNDER SUBTITLE
-8 4 OF THIS TITLE FOR A VIOLATION OF THIS SECTION, THE DIVISION SHALL ISSUE A
-9 NOTICE OF VIOLATION TO THE ALLEGED VIOLATOR.
+9 (5) (6) “PROTECTED CLASS DATA” MEANS INFORMATION ABOUT AN
+10 INDIVIDUAL OR GROUP OF INDIVIDUALS THAT, ALONE OR IN COMBINATION,
+11 DIRECTLY OR BY IMPLICATION IDENTIFIES A CHARACTERISTIC THAT IS LEGALLY
+12 PROTECTED FROM DISCRIMINATION UNDER THE LAWS OF THE STATE OR UNDER
+13 FEDERAL LAW.
 
-10 (2) THE DIVISION SHALL PROVIDE THE ALLEGED VIOLATOR 45 DAYS
-11 AFTER THE NOTICE OF VIOLATION IS RECEIVED TO CURE THE VIOLATION.
+14 (7) (I) “THIRD–PARTY DELIVERY SERVICE PROVIDER”
+15 MEANS A MERCHANT THAT PROVIDES FACILITATES AS A CONSUMER SERVICE THE
+16 DELIVERY OF FOOD THAT IS EXEMPT FROM THE SALES AND USE TAX IN ACCORDANCE
+17 WITH § 11–206(C) OF THE TAX – GENERAL ARTICLE.
 
-12 (3) IF THE ALLEGED VIOLATOR CURES THE VIOLATION WITHIN THE
-13 TIME PERIOD SPECIFIED UNDER PARAGRAPH (2) OF THIS SUBSECTION, THE
-14 DIVISION MAY NOT INITIATE AN ENFORCEMENT ACTION FOR A VIOLATION OF THIS
-15 SECTION.
+18 (II) “THIRD–PARTY DELIVERY SERVICE PROVIDER” DOES
+19 NOT INCLUDE A FOOD RETAILER.
 
-16 (E) THIS SECTION MAY NOT BE CONSTRUED TO AUTHORIZE A PRIVATE
-17 RIGHT OF ACTION UNDER THIS SECTION OR ANY OTHER LAW.
+20 (B) (1) THIS SUBSECTION DOES NOT APPLY TO:
 
-18 13–408.
+21 (I) USING PROMOTIONAL PRICING OFFERS, LOYALTY PROGRAM
+22 BENEFITS, OR OTHER TEMPORARY DISCOUNTS OR CHANGES TO PRICING RELATED
+23 TO RETENTION OF EXISTING CUSTOMERS;
 
-19 (a) THIS SECTION DOES NOT APPLY TO A VIOLATION OF § 13–321 OF 
-20 THIS TITLE.
+24 (II) SETTING A DIFFERENT PRICE BASED ON OBJECTIVE COSTS
+25 ATTRIBUTABLE TO PROVIDING CONSUMER GOODS OR SERVICES TO DIFFERENT
+26 CONSUMERS, SUCH AS A DIFFERENCE IN PRICE CAUSED BY SHIPPING COSTS OR
+27 TAXES BASED ON A CONSUMER’S PHYSICAL LOCATION;
 
-21 (B) In addition to any action by the Division or Attorney General authorized by
-22 this title and any other action otherwise authorized by law, any person may bring an action
-23 to recover for injury or loss sustained by him as the result of a practice prohibited by this
-24 title.
+28 (III) SETTING A DIFFERENT PRICE BASED ON COSTS OR
+29 DIFFERENCES IN SUPPLY OR DEMAND ASSOCIATED WITH PROVIDING OR SELLING A
+30 GOOD OR SERVICE IN DIFFERENT LOCATIONS OR GEOGRAPHIES;
 
-25 [(b)] (C) Any person who brings an action to recover for injury or loss under this
-26 section and who is awarded damages may also seek, and the court may award, reasonable
-27 attorney’s fees.
-
-28 [(c)] (D) If it appears to the satisfaction of the court, at any time, that an action
-29 is brought in bad faith or is of a frivolous nature, the court may order the offending party
-30 to pay to the other party reasonable attorney’s fees.
-
-31 [(d)] (E) Notwithstanding any other provision of this section, a person may not
-32 bring an action under this section to recover for injuries sustained as a result of the
-33 professional services provided by a health care provider, as defined in § 3–2A–01 of the
-34 Courts Article.
+31 (IV) SETTING A DIFFERENT PRICE BASED ON COSTS ASSOCIATED
+32 WITH THE AVAILABILITY OR SUPPLY OF THE GOOD OR SERVICE;
 END OF PAGE 5
 
 START OF PAGE 6
 6 HOUSE BILL 895
 
-1 13–411.
+1 (V) OFFERING A PRICE TO A CONSUMER THROUGH A LOYALTY,
+2 MEMBERSHIP, OR REWARDS PROGRAM IN WHICH ANY CONSUMER MAY VOLUNTARILY
+3 ENROLL OR CONSENT TO PARTICIPATE;
 
-2 (A) THIS SECTION DOES NOT APPLY TO A VIOLATION OF § 13–321 OF 
-3 THIS TITLE.
+4 (VI) OFFERING A PRICE TO A CONSUMER IN CONNECTION WITH A
+5 SUBSCRIPTION–BASED CONTRACT OR AGREEMENT;
 
-4 [(a)] (B) Except as provided in subsection [(b)] (C) of this section, any person
-5 who violates any provision of this title is guilty of a misdemeanor and, unless another
-6 criminal penalty is specifically provided elsewhere, on conviction is subject to a fine not
-7 exceeding $1,000 or imprisonment not exceeding one year or both, in addition to any civil
-8 penalties.
+6 (VII) OFFERING A PRICE TO A CONSUMER WHO CONSENTS TO
+7 PROVIDING PERSONAL DATA OR OTHER INFORMATION IN EXCHANGE FOR
+8 OBTAINING THE PRICE;
 
-9 [(b)] (C) A person may not be imprisoned for violation of any provision of an
-10 order of the Attorney General or an agreement of a party relating to unit pricing under
-11 Title 14, Subtitle 1 of this article.
+9 (VIII) CORRECTING A PRICE RESULTING FROM A PRICING ERROR;
+10 OR
 
-12 14–4701.
+11 (IX) RESETTING A PRICE FOLLOWING A SYSTEM OR NETWORK
+12 OUTAGE.
 
-13 (a) In this subtitle the following words have the meanings indicated.
+13 (2) A FOOD RETAILER OR THIRD–PARTY DELIVERY SERVICE
+14 PROVIDER MAY NOT ENGAGE:
 
-14 (w) (1) “Personal data” means any information that is linked or can be
-15 reasonably linked to an identified or identifiable consumer.
+15 (1) (I) ENGAGE IN DYNAMIC PRICING TO SET A HIGHER PRICE FOR
+16 FOOD THAT IS EXEMPT FROM THE SALE AND USE TAX IN ACCORDANCE WITH §
+17 11–206(C) OF THE TAX – GENERAL ARTICLE FOR A SPECIFIC CONSUMER; OR USE
 
-16 (2) “Personal data” does not include:
+18 (2) (II) USE SURVEILLANCE PERSONAL DATA TO SET A HIGHER
+19 PRICE FOR CONSUMER GOODS OR SERVICES FOOD THAT IS EXEMPT FROM THE SALE
+20 AND USE TAX UNDER § 11–206(C) OF THE TAX – GENERAL ARTICLE FOR A SINGLE
+21 CONSUMER.
 
-17 (i) De–identified data; or
+22 (C) A FOOD RETAILER OR THIRD–PARTY DELIVERY SERVICE
+23 PROVIDER MAY NOT USE PROTECTED CLASS DATA TO OFFER, ADVERTISE, OR SELL
+24 A CONSUMER GOOD OR SERVICE TO A CONSUMER FOR WHOM THE PROTECTED CLASS
+25 DATA PERTAINS IF THE USE OF THE PROTECTED CLASS DATA HAS THE EFFECT OF
+26 WITHHOLDING OR DENYING FROM THE CONSUMER AN ACCOMMODATION, AN
+27 ADVANTAGE, OR A PRIVILEGE ACCORDED TO OTHERS.
 
-18 (ii) Publicly available information.
+28 (D) (1) BEFORE INITIATING AN ENFORCEMENT ACTION UNDER SUBTITLE
+29 4 OF THIS TITLE FOR A VIOLATION OF THIS SECTION, THE DIVISION SHALL ISSUE A
+30 NOTICE OF VIOLATION TO THE ALLEGED VIOLATOR.
 
-19 Article – Tax – General
-
-20 11–206.
-
-21 (c) (1) Except as provided in paragraph (2) of this subsection, the sales and
-22 use tax does not apply to a sale of food for consumption off the premises by a food vendor
-23 who operates a substantial grocery or market business at the same location where the food
-24 is sold.
-
-25 (2) The exemption under paragraph (1) of this subsection does not apply to:
-
-26 (i) food that the vendor serves for consumption on the premises of
-27 the buyer or of a third party; or
-
-28 (ii) food for immediate consumption.
-
-29 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect 
-30 October 1, 2026.
+31 (2) THE DIVISION SHALL PROVIDE THE ALLEGED VIOLATOR 45 DAYS
+32 AFTER THE NOTICE OF VIOLATION IS RECEIVED TO CURE THE VIOLATION.
 END OF PAGE 6
-</bill>
-</bill>
+
+START OF PAGE 7
+HOUSE BILL 895 7
+
+1 (3) IF THE ALLEGED VIOLATOR CURES THE VIOLATION WITHIN THE
+2 TIME PERIOD SPECIFIED UNDER PARAGRAPH (2) OF THIS SUBSECTION, THE
+3 DIVISION MAY NOT INITIATE AN ENFORCEMENT ACTION FOR A VIOLATION OF THIS
+4 SECTION.
+
+5 (E) THIS SECTION MAY NOT BE CONSTRUED TO AUTHORIZE A PRIVATE
+6 RIGHT OF ACTION UNDER THIS SECTION OR ANY OTHER LAW.
+
+END OF PAGE 7
+
+START OF PAGE 8
+8 HOUSE BILL 895
+
+24 13–408.
+
+25 (a) THIS SECTION DOES NOT APPLY TO A VIOLATION OF § 13–321 OF THIS TITLE.
+
+27 (B) In addition to any action by the Division or Attorney General authorized by
+28 this title and any other action otherwise authorized by law, any person may bring an action
+29 to recover for injury or loss sustained by him as the result of a practice prohibited by this
+30 title.
+
+31 [(b)] (C) Any person who brings an action to recover for injury or loss under this
+32 section and who is awarded damages may also seek, and the court may award, reasonable
+33 attorney’s fees.
+END OF PAGE 8
+
+START OF PAGE 9
+HOUSE BILL 895 9
+
+1 [(c)] (D) If it appears to the satisfaction of the court, at any time, that an action
+2 is brought in bad faith or is of a frivolous nature, the court may order the offending party
+3 to pay to the other party reasonable attorney’s fees.
+
+4 [(d)] (E) Notwithstanding any other provision of this section, a person may not
+5 bring an action under this section to recover for injuries sustained as a result of the
+6 professional services provided by a health care provider, as defined in § 3–2A–01 of the
+7 Courts Article.
+
+8 13–411.
+
+9 (A) THIS SECTION DOES NOT APPLY TO A VIOLATION OF § 13–321 OF THIS TITLE.
+
+11 [(a)] (B) Except as provided in subsection [(b)] (C) of this section, any person
+12 who violates any provision of this title is guilty of a misdemeanor and, unless another
+13 criminal penalty is specifically provided elsewhere, on conviction is subject to a fine not
+14 exceeding $1,000 or imprisonment not exceeding one year or both, in addition to any civil
+15 penalties.
+
+16 [(b)] (C) A person may not be imprisoned for violation of any provision of an
+17 order of the Attorney General or an agreement of a party relating to unit pricing under
+18 Title 14, Subtitle 1 of this article.
+
+19 14–4701.
+
+20 (a) In this subtitle the following words have the meanings indicated.
+
+21 (w) (1) “Personal data” means any information that is linked or can be
+22 reasonably linked to an identified or identifiable consumer.
+
+23 (2) “Personal data” does not include:
+
+24 (i) De–identified data; or
+
+25 (ii) Publicly available information.
+
+26 ~~Article~~ ~~–~~ ~~Labor~~ ~~and~~ ~~Employment~~
+
+27 4–406.
+
+28 (A) IN THIS SECTION, “FOOD RETAILER” HAS THE MEANING STATED IN §
+29 13–321 OF THE COMMERCIAL LAW ARTICLE.
+
+30 (B) A FOOD RETAILER MAY NOT IMPLEMENT AN ADMINISTRATIVE,
+31 OPERATIONAL, OR ORGANIZATIONAL CHANGE THAT DIMINISHES OR IMPAIRS ANY
+END OF PAGE 9
+
+START OF PAGE 10
+10 HOUSE BILL 895
+
+1 RIGHT OR BENEFIT GUARANTEED TO EMPLOYEES OF THE FOOD RETAILER UNDER
+2 AN EXISTING COLLECTIVE BARGAINING AGREEMENT OR MEMORANDUM OF
+3 UNDERSTANDING UNLESS THE CHANGE IS NEGOTIATED AND MUTUALLY AGREED ON
+4 WITH THE EXCLUSIVE REPRESENTATIVE OF THE EMPLOYEES.
+
+5 (C) A PERSON MAY BRING AN ACTION TO RECOVER FOR INJURY OR LOSS
+6 SUSTAINED AS A RESULT OF A VIOLATION OF THIS SECTION.
+
+7 (D) A PERSON WHO BRINGS AN ACTION TO RECOVER FOR INJURY OR LOSS
+8 UNDER THIS SECTION AND WHO IS AWARDED DAMAGES MAY ALSO SEEK, AND THE
+9 COURT MAY AWARD, REASONABLE ATTORNEY’S FEES.
+
+10 (E) IF IT APPEARS TO THE SATISFACTION OF THE COURT, AT ANY TIME,
+11 THAT AN ACTION IS BROUGHT IN BAD FAITH OR IS OF A FRIVOLOUS NATURE, THE
+12 COURT MAY ORDER THE OFFENDING PARTY TO PAY TO THE OTHER PARTY
+13 REASONABLE ATTORNEY’S FEES.
+
+14 Article – Tax – General
+
+15 11–206.
+
+16 (c) (1) Except as provided in paragraph (2) of this subsection, the sales and
+17 use tax does not apply to a sale of food for consumption off the premises by a food vendor
+18 who operates a substantial grocery or market business at the same location where the food
+19 is sold

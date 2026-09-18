@@ -1,5 +1,3 @@
-<bill>
-<bill>
 START OF PAGE 1
 HOUSE BILL 467
 
@@ -30,7 +28,7 @@ CHAPTER ______
 2 Correctional Services – Maryland Parole Commission and Erroneously
 3 Convicted Individuals – Improvements in Transparency and Equity
 
-4 FOR the provide of requiring the annual report of the Maryland Parole Commission to
+4 FOR the purpose of requiring the annual report of the Maryland Parole Commission to
 5 include certain information; altering a certain provision of law to require the
 6 Commission to provide certain documents to a certain incarcerated individual and
 7 the incarcerated individual’s representative at a certain time, rather than allow the
@@ -451,7 +449,7 @@ START OF PAGE 10
 5 an administrative law judge brought under § 10–501 of the State Finance and Procurement
 6 Article before the effective date of this Act.
 
-7 SECTION 3. AND BE IT FURTHER ENACTED, That this Act shall take effect
+7 SECTION ~~2.~~ 3. AND BE IT FURTHER ENACTED, That this Act shall take effect
 8 October 1, 2026.
 
 Approved:
@@ -465,5 +463,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 10
-</bill>
-</bill>

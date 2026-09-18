@@ -1,12 +1,10 @@
-<bill>
-<bill>
 START OF PAGE 1
 HOUSE BILL 1219
 
 C4, M3 (6lr2155)
 ENROLLED BILL
 — Environment and Transportation and Judiciary/Finance —
-Introduced by Delegates Fraser–Hidalgo, Behler, Boyce,
+Introduced by ~~Delegate~~ ~~Fraser–Hidalgo~~ Delegates Fraser–Hidalgo, Behler, Boyce,
 Foley, Holmes, Lewis, Stein, and Ziegler
 
 Read and Examined by Proofreaders:
@@ -29,7 +27,7 @@ CHAPTER ______
 
 2 Climate Change, Homeowner’s Insurance, and Emergency Management – Study
 
-3 FOR the provide of requiring the University System of Maryland to conduct a study to
+3 FOR the purpose of requiring the University System of Maryland to conduct a study to
 4 evaluate the relationship between climate change, homeowner’s insurance, and
 5 emergency and disaster preparedness; and generally relating to a study on the
 6 relationship between climate change, homeowner’s insurance, and emergency
@@ -74,10 +72,10 @@ START OF PAGE 2
 12 of Counties; ~~and~~
 
 13 (8) a Municipal Emergency Manager, appointed by the Maryland
-14 Municipal League*; and*
+14 Municipal League; and
 
-15 *(9) a representative of the Independent Insurance Agents of Maryland,*
-16 *designated by the Independent Insurance Agents of Maryland.*
+15 (9) a representative of the Independent Insurance Agents of Maryland,
+16 designated by the Independent Insurance Agents of Maryland.
 
 17 (c) The study shall evaluate:
 
@@ -95,7 +93,7 @@ START OF PAGE 2
 26 (4) existing local resources or reserve funds available for disaster recovery
 27 needs.
 
-28 (d) (1) On or before July 1, 2027, the University System of Maryland
+28 (d) (1) On or before ~~January~~ July 1, 2027, the University System of Maryland
 29 shall submit its findings and recommendations to the General Assembly, in accordance
 30 with § 2–1257 of the State Government Article.
 END OF PAGE 2
@@ -172,5 +170,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 4
-</bill>
-</bill>

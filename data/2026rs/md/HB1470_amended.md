@@ -25,23 +25,27 @@ CHAPTER ______
 1 AN ACT concerning
 
 2 Medical Assistance Programs – Drug Dispensing – Cost–of–Dispensing Survey
+3 ~~and~~ ~~Fee–for–Service~~ ~~Professional~~ ~~Dispensing~~ ~~Fee~~
 
 4 FOR the purpose of requiring the Maryland Department of Health to conduct the in–State
-5 cost–of–dispensing survey at a certain frequency; requiring the Department to report the
-6 results of the survey to the General Assembly; and generally relating to the in–State
-7 cost–of–dispensing survey under the Maryland Medical Assistance
-8 Program.
+5 cost–of–dispensing survey at a certain frequency; ~~requiring~~ ~~the~~ ~~Department~~ ~~to~~ ~~adopt~~
+6 ~~regulations~~ ~~establishing~~ ~~a~~ ~~fee–for–service~~ ~~professional~~ ~~dispensing~~ ~~fee~~ ~~based~~ ~~on~~ ~~the~~
+7 ~~results~~ ~~of~~ ~~the~~ ~~survey~~ ~~within~~ ~~a~~ ~~certain~~ ~~period~~ ~~of~~ ~~time~~ ~~after~~ ~~the~~ ~~completion~~ ~~of~~ ~~the~~
+8 ~~survey;~~ requiring the Department to report the results of the survey to the General
+9 Assembly; and generally relating to the in–State cost–of–dispensing survey ~~and~~
+10 ~~fee–for–service~~ ~~professional~~ ~~dispensing~~ ~~fees~~ under the Maryland Medical Assistance
+11 Program.
 
-9 BY adding to
-10 Article – Health – General
-11 Section 15–107.1
+12 BY adding to
+13 Article – Health – General
+14 Section 15–107.1 ~~and~~ ~~15–118.2~~
 
-12 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
-13 [Brackets] indicate matter deleted from existing law.
-14 Underlining indicates amendments to bill.
-15 ~~Strike~~ ~~out~~ indicates matter stricken from the bill by amendment or deleted from the law by
-16 amendment.
-17 Italics indicate opposite chamber/conference committee amendments.*hb1470*
+EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
+[Brackets] indicate matter deleted from existing law.
+Underlining indicates amendments to bill.
+~~Strike~~ ~~out~~ indicates matter stricken from the bill by amendment or deleted from the law by
+amendment.
+Italics indicate opposite chamber/conference committee amendments.*hb1470*
 END OF PAGE 1
 
 START OF PAGE 2
@@ -61,9 +65,16 @@ START OF PAGE 2
 8 IN–STATE COST–OF–DISPENSING SURVEY AT LEAST ONCE EVERY 3 YEARS.
 
 9 (B) ON OR BEFORE DECEMBER 1 EACH YEAR IN WHICH THE SURVEY
-10 REQUIRED UNDER THIS SECTION IS CONDUCTED, THE DEPARTMENT SHALL
-11 REPORT THE RESULTS OF THE SURVEY TO THE GENERAL ASSEMBLY, IN
-12 ACCORDANCE WITH § 2–1257 OF THE STATE GOVERNMENT ARTICLE.
+10 REQUIRED UNDER THIS SECTION IS CONDUCTED, THE DEPARTMENT SHALL REPORT
+11 THE RESULTS OF THE SURVEY TO THE GENERAL ASSEMBLY, IN ACCORDANCE WITH
+12 § 2–1257 OF THE STATE GOVERNMENT ARTICLE.
+
+13 ~~15–118.2.~~
+
+14 ~~WITHIN~~ ~~6~~ ~~MONTHS~~ ~~AFTER~~ ~~THE~~ ~~COMPLETION~~ ~~OF~~ ~~THE~~ ~~IN–STATE~~
+15 ~~COST–OF–DISPENSING~~ ~~SURVEY,~~ ~~THE~~ ~~DEPARTMENT~~ ~~SHALL~~ ~~ADOPT~~ ~~REGULATIONS~~
+16 ~~ESTABLISHING~~ ~~A~~ ~~FEE–FOR–SERVICE~~ ~~PROFESSIONAL~~ ~~DISPENSING~~ ~~FEE~~ ~~BASED~~ ~~ON~~
+17 ~~THE~~ ~~RESULTS~~ ~~OF~~ ~~THE~~ ~~SURVEY.~~
 
 18 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
 19 October 1, 2026.

@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 SENATE BILL 487
 
@@ -103,7 +102,7 @@ START OF PAGE 3
 SENATE BILL 487 3
 
 1 (13) A proceeding for a civil infraction under § 21–202.1, § 21–704.1, §
-2 21–706.1, § 21–706.1, § 21–707.1, § 21–809, § 21–810, § 21–810.1, § 21–1134, § 22–612, or § 24–111.3
+2 21–706.1, § 21–707.1, § 21–809, § 21–810, § 21–810.1, § 21–1134, § 22–612, or § 24–111.3
 3 of the Transportation Article or § 10–112 of the Criminal Law Article;
 
 4 7–301.
@@ -514,44 +513,38 @@ SENATE BILL 487 11
 7 ISSUED BY THE STATE HIGHWAY ADMINISTRATION UNDER § 21–810.1 OF THIS
 8 SUBTITLE.
 
-9 (d) (5) A person who receives a citation under paragraph (1) of this
-10 subsection may:
+9 (d) (5) A person who receives a citation under paragraph (1) of this subsection
+10 may:
+
 11 (i) Pay the civil penalty, in accordance with instructions on the
 12 citation, directly to the political subdivision, the District Court, THE STATE HIGHWAY
 13 ADMINISTRATION, or the Maryland Transportation Authority, as appropriate; or
 
-14 (d) (5) A person who receives a citation under paragraph (1) of this subsection
-15 may:
+14 21–810.1.
 
-16 (i) Pay the civil penalty, in accordance with instructions on the
-17 citation, directly to the political subdivision, the District Court, THE STATE HIGHWAY
-18 ADMINISTRATION, or the Maryland Transportation Authority, as appropriate; or
+15 (A) (1) IN THIS SECTION THE FOLLOWING WORDS HAVE THE MEANINGS
+16 INDICATED.
 
-19 21–810.1.
+17 (2) (I) “OWNER” MEANS THE REGISTERED OWNER OF A MOTOR
+18 VEHICLE OR A LESSEE OF A MOTOR VEHICLE UNDER A LEASE OF 6 MONTHS OR
+19 LONGER.
 
-20 (A) (1) IN THIS SECTION THE FOLLOWING WORDS HAVE THE MEANINGS
-21 INDICATED.
+20 (II) “OWNER” DOES NOT INCLUDE:
 
-22 (2) (I) “OWNER” MEANS THE REGISTERED OWNER OF A MOTOR
-23 VEHICLE OR A LESSEE OF A MOTOR VEHICLE UNDER A LEASE OF 6 MONTHS OR
-24 LONGER.
+21 1. A MOTOR VEHICLE RENTAL OR LEASING COMPANY;
+22 OR
 
-25 (II) “OWNER” DOES NOT INCLUDE:
+23 2. A HOLDER OF A SPECIAL REGISTRATION PLATE
+24 ISSUED UNDER TITLE 13, SUBTITLE 9, PART III OF THIS ARTICLE.
 
-26 1. A MOTOR VEHICLE RENTAL OR LEASING COMPANY;
-27 OR
+25 (3) “RECORDED IMAGE” MEANS AN IMAGE RECORDED BY A SPEED
+26 MONITORING SYSTEM:
 
-28 2. A HOLDER OF A SPECIAL REGISTRATION PLATE
-29 ISSUED UNDER TITLE 13, SUBTITLE 9, PART III OF THIS ARTICLE.
+27 (I) ON:
 
-30 (3) “RECORDED IMAGE” MEANS AN IMAGE RECORDED BY A SPEED
-31 MONITORING SYSTEM:
+28 1. A PHOTOGRAPH;
 
-32 (I) ON:
-
-33 1. A PHOTOGRAPH;
-
-34 2. A MICROPHOTOGRAPH;
+29 2. A MICROPHOTOGRAPH;
 END OF PAGE 11
 
 START OF PAGE 12
@@ -1001,4 +994,3 @@ President of the Senate.
 ________________________________________________________________________________
 Speaker of the House of Delegates.
 END OF PAGE 21
-</bill> Maryland State Senate Bill 487 (Vulnerable Road User Protection Act of 2026) is modified to reflect authorized speed monitoring systems in safety corridors. Changes include designating State agency citations as payable to the District Court for contested cases and updating the transition period for safety corridor systems from 90 to 30 days for warning notices. Additionally, the State Highway Administration is authorized to receive civil penalties from speed monitoring system violations.

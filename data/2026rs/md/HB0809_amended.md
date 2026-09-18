@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 780
 
@@ -11,8 +10,7 @@ AN ACT concerning
 Walter Sondheim Jr. Public Service Internship Scholarship Program – Funding
 
 FOR the purpose of specifying the intern fellowships that exist in the Walter Sondheim Jr.
-Public Service Internship Scholarship Program; increasing the maximum scholarship
-award amount under the Program; increasing the maximum
+Public Service Internship Scholarship Program; increasing the maximum
 scholarship award amount under the Program; requiring the Governor to include in
 the annual budget bill an appropriation for the Program that is at least a certain
 percentage of the appropriation provided in a prior fiscal year; and generally relating
@@ -122,7 +120,7 @@ scholarships on or before:
 provided in the State budget.
 
 (g) Subject to the availability of funds, the scholarship award under the Program
-shall be at least $2,000 and no more than [$5,000] $6,000.
+shall be at least $2,000 and no more than $6,000.
 
 (h) The Shriver Center shall serve as a clearinghouse for public and nonprofit
 entities that wish to hire public service interns participating in the Program.
@@ -165,4 +163,3 @@ Approved by the Governor, May 26, 2026.
 
 – 4 –
 END OF PAGE 4
-</bill>

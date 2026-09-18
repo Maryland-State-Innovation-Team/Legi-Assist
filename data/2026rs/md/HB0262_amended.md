@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 104
 
@@ -141,8 +140,7 @@ Governor in accordance with subsection (e) of this section THAT INCLUDES:
 
 (I) AT LEAST ONE MEMBER FROM THE UNIVERSITY SECTOR;
 
-(II) AT LEAST ONE MEMBER FROM THE PRIVATE SECTOR;
-AND
+(II) AT LEAST ONE MEMBER FROM THE PRIVATE SECTOR; AND
 
 (III) AT LEAST ONE MEMBER FROM THE NONPROFIT SECTOR.
 
@@ -297,4 +295,3 @@ Approved by the Governor, April 14, 2026.
 
 – 6 –
 END OF PAGE 6
-</bill>

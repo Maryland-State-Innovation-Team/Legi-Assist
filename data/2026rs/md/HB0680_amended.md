@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 680
 
@@ -229,4 +228,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 5
-</bill>

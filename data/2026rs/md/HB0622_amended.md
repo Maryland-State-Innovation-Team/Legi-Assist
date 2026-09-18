@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 622
 
@@ -32,9 +31,9 @@ CHAPTER ______
 4 FOR the purpose of extending the time period during which a holder of a certain dispensary
 5 license may continue to deliver medical cannabis; increasing the number of
 6 individuals a micro dispensary is permitted to employ; altering certain provisions
-7 relating to training requirements for certain cannabis agents;
-8 *requiring the Maryland Cannabis Administration to give priority to certain training programs*
-9 *when reviewing cannabis agent training programs for approval;* and generally
+7 relating to training requirements for certain cannabis agents; requiring the
+8 Maryland Cannabis Administration to give priority to certain training programs
+9 when reviewing cannabis agent training programs for approval; and generally
 10 relating to cannabis licensees.
 
 11 BY repealing and reenacting, without amendments,
@@ -102,11 +101,11 @@ START OF PAGE 3
 HOUSE BILL 622 3
 
 1 (1) require all employees to successfully complete an annual [responsible
-2 vendor] A CANNABIS AGENT training program authorized under this title*:*
+2 vendor] A CANNABIS AGENT training program authorized under this title:
 
-3 *(I) WITHIN 90 DAYS OF A NEW EMPLOYEE’S START DATE; AND*
+3 (I) WITHIN 90 DAYS OF A NEW EMPLOYEE’S START DATE; AND
 
-4 *(II)* AT LEAST ONCE EVERY 2 YEARS; and
+4 (II) AT LEAST ONCE EVERY 2 YEARS; and
 
 5 (2) ensure that the display and consumption of cannabis or cannabis
 6 products are not visible from outside of the licensed premises.
@@ -115,12 +114,12 @@ HOUSE BILL 622 3
 
 8 (f) A cannabis licensee shall require each registered cannabis agent to complete
 9 an annual [responsible vendor] A CANNABIS AGENT training program authorized under
-10 this title*:*
+10 this title:
 
-11 *(1) WITHIN 90 DAYS OF THE CANNABIS AGENT’S START DATE AS AN*
-12 *EMPLOYEE OF OR VOLUNTEER FOR THE CANNABIS LICENSEE; AND*
+11 (1) WITHIN 90 DAYS OF THE CANNABIS AGENT’S START DATE AS AN
+12 EMPLOYEE OF OR VOLUNTEER FOR THE CANNABIS LICENSEE; AND
 
-13 *(2)* AT LEAST ONCE EVERY 2 YEARS.
+13 (2) AT LEAST ONCE EVERY 2 YEARS.
 
 14 36–1001.
 
@@ -172,10 +171,10 @@ START OF PAGE 4
 12 (IV) PUBLIC HEALTH AND SAFETY STANDARDS RELEVANT TO
 13 EACH LICENSE TYPE.
 
-14 *(D) IN REVIEWING APPLICATIONS FOR APPROVAL OF PROPOSED CANNABIS*
-15 *AGENT TRAINING PROGRAMS, THE ADMINISTRATION SHALL GIVE PRIORITY TO*
-16 *APPLICATIONS FOR PROGRAMS THAT WERE PREVIOUSLY APPROVED AS*
-17 *RESPONSIBLE VENDOR TRAINING PROGRAMS.*
+14 (D) IN REVIEWING APPLICATIONS FOR APPROVAL OF PROPOSED CANNABIS
+15 AGENT TRAINING PROGRAMS, THE ADMINISTRATION SHALL GIVE PRIORITY TO
+16 APPLICATIONS FOR PROGRAMS THAT WERE PREVIOUSLY APPROVED AS
+17 RESPONSIBLE VENDOR TRAINING PROGRAMS.
 
 18 36–1002.
 
@@ -196,4 +195,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 4
-</bill>

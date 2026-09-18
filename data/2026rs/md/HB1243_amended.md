@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 806
 
@@ -13,7 +12,7 @@ Manufacturers
 
 PG 423–26
 
-FOR the purpose of exempting certain personal property in the possession of a person
+FOR the purpose of exempting ~~all~~ certain personal property in the possession of a person
 engaged in a certain manufacturing business with fewer than a certain number of
 employees from the municipal corporation personal property tax in Prince George’s
 County; and generally relating to a personal property tax exemption for
@@ -138,12 +137,14 @@ in the possession of a manufacturer are not subject to property tax.
 
 7–226.1.
 
-IN PRINCE GEORGE’S COUNTY, ALL PERSONAL PROPERTY DESCRIBED IN
-§§ 7–222, 7–225, AND 7–226 OF THIS SUBTITLE IN THE POSSESSION OF A PERSON
-ENGAGED IN A MANUFACTURING BUSINESS THAT HOLDS AN ALCOHOLIC
-BEVERAGES MANUFACTURER’S LICENSE UNDER TITLE 2, SUBTITLE 2 OF THE
-ALCOHOLIC BEVERAGES AND CANNABIS ARTICLE AND HAS 50 OR FEWER
-EMPLOYEES IS EXEMPT FROM THE MUNICIPAL CORPORATION PROPERTY TAX.
+IN PRINCE GEORGE’S COUNTY, ALL PERSONAL PROPERTY~~, INCLUDING
+MANUFACTURING INVENTORY,~~ DESCRIBED IN §§ 7–222, 7–225, AND 7–226 OF THIS
+SUBTITLE IN THE POSSESSION OF A PERSON ENGAGED IN A MANUFACTURING
+BUSINESS THAT HOLDS AN ALCOHOLIC BEVERAGES MANUFACTURER’S LICENSE
+UNDER TITLE 2, SUBTITLE 2 OF THE ALCOHOLIC BEVERAGES AND CANNABIS
+ARTICLE AND HAS 50 OR FEWER EMPLOYEES IS EXEMPT FROM THE MUNICIPAL
+CORPORATION PROPERTY TAX~~, INCLUDING ANY SPECIAL TAXING DISTRICT
+PROPERTY TAX~~.
 
 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect June
 1, 2026, and shall be applicable to all taxable years beginning after June 30, 2026.
@@ -152,4 +153,3 @@ Approved by the Governor, May 26, 2026.
 
 – 3 –
 END OF PAGE 3
-</bill>

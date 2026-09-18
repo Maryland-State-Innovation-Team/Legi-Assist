@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1533
 
@@ -6,9 +5,9 @@ J1 (6lr2548)
 ENROLLED BILL
 — Health/Finance —
 Introduced by Delegates Alston, Palakovich Carr, Allen, Boyce, Coley, Fennell,
-Guzzone, Hornberger, Lewis, Miller, Roberson, Roberts, Shetty, Stein, Bagnall,
-Cullison, Hill, Kaufman, Lopez, Martinez, Rosenberg, Ross, White Holland, and
-Woorman
+Guzzone, Hornberger, Lewis, Miller, Roberson, Roberts, Shetty, ~~and~~ ~~Stein~~
+Stein, Bagnall, Cullison, Hill, Kaufman, Lopez, Martinez, Rosenberg, Ross,
+White Holland, and Woorman
 
 Read and Examined by Proofreaders:
 
@@ -32,13 +31,38 @@ CHAPTER ______
 3 Ingredients
 4 (Crown and Care Act – Protecting Communities From Harmful Hair Chemicals)
 
-5 FOR the purpose of making a violation of certain provisions of law regarding the
-6 manufacture, sale, delivery, holding, or offering for sale certain cosmetic products an
-7 unfair, abusive, or deceptive trade practice; providing that a person who violates the
-8 prohibition on the manufacture, sale, delivery, holding, or offering for sale a cosmetic
-9 product that contains certain ingredients is liable for certain civil damages resulting
-10 from actual harm sustained by an individual; and generally relating to prohibited
-11 ingredients in cosmetic products.
+5 FOR the purpose of ~~prohibiting~~ ~~a~~ ~~person~~ ~~from~~ ~~knowingly~~ ~~manufacturing,~~ ~~selling,~~ ~~delivering,~~
+6 ~~holding,~~ ~~or~~ ~~offering~~ ~~for~~ ~~sale~~ ~~a~~ ~~cosmetic~~ ~~product~~ ~~that~~ ~~contains~~ ~~intentionally~~ ~~added~~
+7 ~~lead;~~ making a violation of certain provisions of law regarding the manufacture, sale,
+8 delivery, holding, or offering for sale certain cosmetic products an unfair, abusive, or
+9 deceptive trade practice; providing that a person who violates the prohibition on the
+10 manufacture, sale, delivery, holding, or offering for sale a cosmetic product that
+11 contains certain ingredients is liable for certain civil damages resulting from actual
+12 harm sustained by an individual; authorizing the Maryland Department of Health
+
+EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
+[Brackets] indicate matter deleted from existing law.
+Underlining indicates amendments to bill.
+~~Strike~~ ~~out~~ indicates matter stricken from the bill by amendment or deleted from the law by
+amendment.
+Italics indicate opposite chamber/conference committee amendments.*hb1533*
+END OF PAGE 1
+
+START OF PAGE 2
+2 HOUSE BILL 1533
+
+1 to investigate a complaint alleging that a person included certain prohibited
+2 ingredients in cosmetic products; ~~establishing~~ ~~the~~ ~~Harmful~~ ~~Hair~~ ~~Chemicals~~
+3 ~~Restitution~~ ~~Fund~~ ~~as~~ ~~a~~ ~~special,~~ ~~nonlapsing~~ ~~fund;~~ ~~requiring~~ ~~that~~ ~~interest~~ ~~earnings~~ ~~of~~
+4 ~~the~~ ~~Fund~~ ~~remain~~ ~~in~~ ~~the~~ ~~Fund;~~ and generally relating to prohibited ingredients in
+5 cosmetic products.
+
+6 ~~BY~~ ~~renumbering~~
+7 ~~Article~~ ~~–~~ ~~Health~~ ~~–~~ ~~General~~
+8 ~~Section~~ ~~21–259.3~~
+9 ~~to~~ ~~be~~ ~~Section~~ ~~21–259.4~~
+10 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+11 ~~(2023~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
 12 BY repealing and reenacting, with amendments,
 13 Article – Commercial Law
@@ -58,169 +82,323 @@ CHAPTER ______
 25 Annotated Code of Maryland
 26 (2025 Replacement Volume)
 
-27 BY repealing and reenacting, with amendments,
+27 BY repealing and reenacting, without amendments,
 28 Article – Health – General
-29 Section 21–259.2
+29 Section 21–101(a) and (e)
 30 Annotated Code of Maryland
 31 (2023 Replacement Volume and 2025 Supplement)
 
-32 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
-33 That the Laws of Maryland read as follows:
+32 BY repealing and reenacting, with amendments,
+33 Article – Health – General
+34 Section 21–259.2
+35 Annotated Code of Maryland
+36 (2023 Replacement Volume and 2025 Supplement)
 
-34 Article – Commercial Law
-
-35 13–301.
-
-36 Unfair, abusive, or deceptive trade practices include any:
-
-37 (14) Violation of a provision of:
-
-38 (xlvii) Title 14, Subtitle 50 of this article; [or]
-
-39 (xlviii) Section 13–411.1(c)(2) of the Transportation Article; or
-
-40 (XLIX) SECTION 21–259.2 OF THE HEALTH – GENERAL
-41 ARTICLE; OR
-
-42 Article – Health – General
-
-END OF PAGE 1
-
-START OF PAGE 2
-2 HOUSE BILL 1533
-
-1 21–259.2.
-
-2 (a) In this section:
-
-3 (1) “Ingredient” means any single chemical entity or mixture used as a
-4 component in the manufacture of a cosmetic product; and
-
-5 (2) “Ingredient” does not include an incidental ingredient, as described in
-6 21 C.F.R. § 701.3(l).
-
-7 (b) Except as provided in subsection (c) of this section, a person may not
-8 knowingly manufacture, sell, deliver, hold, or offer for sale in the State a cosmetic product
-9 that contains any of the following intentionally added ingredients:
-
-10 (1) Dibutyl phthalate (CAS no. 84–74–2);
-
-11 (2) Diethylhexyl phthalate (CAS no. 117–81–7);
-
-12 (3) Formaldehyde (CAS no. 50–00–0);
-
-13 (4) Paraformaldehyde (CAS no. 30525–89–4);
-
-14 (5) Methylene glycol (CAS no. 463–57–0);
-
-15 (6) Quaternium–15 (CAS no. 51229–78–8);
-
-16 (7) Mercury (CAS no. 7439–97–6);
-
-17 (8) Isobutylparaben (CAS no. 4247–02–3);
-
-18 (9) Isopropylparaben (CAS no. 4191–73–5);
-
-19 (10) m–Phenylenediamine and its salts (CAS no. 108–45–2);
-
-20 (11) o–Phenylenediamine and its salts (CAS no. 95–54–5); ~~or~~
-
-21 (12) LEAD (CAS NO. 7439–92–1); OR
-
-22 (13) The following per– and polyfluoroalkyl substances (PFAS) and their
-23 salts:
-
-24 (i) Perfluorooctane sulfonate (PFOS) or
-25 heptadecafluorooctane–1–sulfonic acid (CAS no. 1763–23–1);
-
-26 (ii) Potassium perfluorooctanesulfonate or potassium
-27 heptadecafluorooctane–1–sulfonate (CAS no. 2795–39–3);
-
-28 (iii) Diethanolamine perfluorooctane sulfonate (CAS no.
-29 70225–14–8);
-
-30 (iv) Ammonium perfluorooctane sulfonate or ammonium
-31 heptadecafluorooctanesulfonate (CAS no. 29081–56–9);
-
+37 ~~BY~~ ~~adding~~ ~~to~~
+38 ~~Article~~ ~~–~~ ~~Health~~ ~~–~~ ~~General~~
+39 ~~Section~~ ~~21–259.3~~
+40 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
 END OF PAGE 2
 
 START OF PAGE 3
 HOUSE BILL 1533 3
 
-1 (v) Lithium perfluorooctane sulfonate or lithium
-2 heptadecafluorooctanesulfonate (CAS no. 29457–72–5);
+1 ~~(2023~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
-3 (vi) Perfluorooctanoic acid (PFOA) (CAS no. 335–67–1);
+2 ~~BY~~ ~~repealing~~ ~~and~~ ~~reenacting,~~ ~~without~~ ~~amendments,~~
+3 ~~Article~~ ~~–~~ ~~State~~ ~~Finance~~ ~~and~~ ~~Procurement~~
+4 ~~Section~~ ~~6–226(a)(2)(i)~~ ~~and~~ ~~(ii)~~
+5 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+6 ~~(2021~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
-4 (vii) Ammonium pentadecafluorooctanoate (CAS no. 3825–26–1);
+7 ~~BY~~ ~~repealing~~ ~~and~~ ~~reenacting,~~ ~~with~~ ~~amendments,~~
+8 ~~Article~~ ~~–~~ ~~State~~ ~~Finance~~ ~~and~~ ~~Procurement~~
+9 ~~Section~~ ~~6–226(a)(2)(iii)212.~~ ~~and~~ ~~213.~~
+10 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+11 ~~(2021~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
-5 (viii) Nonadecafluorodecanoic acid (CAS no. 335–76–2);
+12 ~~BY~~ ~~adding~~ ~~to~~
+13 ~~Article~~ ~~–~~ ~~State~~ ~~Finance~~ ~~and~~ ~~Procurement~~
+14 ~~Section~~ ~~6–226(a)(2)(iii)214.~~
+15 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+16 ~~(2021~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
-6 (ix) Ammonium nonadecafluorodecanoate (CAS no. 3108–42–7);
+17 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
+18 That ~~Section(s)~~ ~~21–259.3~~ ~~of~~ ~~Article~~ ~~–~~ ~~Health~~ ~~–~~ ~~General~~ ~~of~~ ~~the~~ ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+19 ~~be~~ ~~renumbered~~ ~~to~~ ~~be~~ ~~Section(s)~~ ~~21–259.4.~~
 
-7 (x) Sodium nonadecafluorodecanoate (CAS no. 3830–45–3);
+20 ~~SECTION~~ ~~2.~~ ~~AND~~ ~~BE~~ ~~IT~~ ~~FURTHER~~ ~~ENACTED,~~ ~~That~~ the Laws of Maryland read
+21 as follows:
 
-8 (xi) Perfluorononanoic acid (PFNA) (CAS no. 375–95–1);
+22 Article – Commercial Law
 
-9 (xii) Sodium heptadecafluorononanoate (CAS no. 21049–39–8); or
+23 13–301.
 
-10 (xiii) Ammonium perfluorononanoate (CAS no. 4149–60–4).
+24 Unfair, abusive, or deceptive trade practices include any:
 
-11 (c) A person is not in violation of this section if the person manufactures, sells,
-12 delivers, holds, or offers for sale in the State a cosmetic product that:
+25 (14) Violation of a provision of:
 
-13 (1) Was manufactured through a process intended to comply with this
-14 section; and
+26 (xlvii) Title 14, Subtitle 50 of this article; [or]
 
-15 (2) Contains a technically unavoidable trace quantity of an ingredient
-16 listed in subsection (b) of this section due to:
+27 (xlviii) Section 13–411.1(c)(2) of the Transportation Article; or
 
-17 (i) An impurity of a natural or synthetic ingredient;
+28 (XLIX) SECTION 21–259.2 OF THE HEALTH – GENERAL
+29 ARTICLE; OR
 
-18 (ii) The manufacturing process;
+30 Article – Health – General
 
-19 (iii) Storage; or
-
-20 (iv) Packaging.
-
-21 (D) (1) IN ADDITION TO ANY OTHER PENALTIES UNDER THIS TITLE, A
-22 PERSON WHO VIOLATES THIS SECTION IS LIABLE FOR CIVIL DAMAGES RESULTING
-23 FROM ACTUAL HARM SUSTAINED BY THE INDIVIDUAL RESULTING FROM THE
-24 VIOLATION.
-
-25 (2) AN ACTION UNDER THIS SECTION MUST BE BROUGHT WITHIN 3
-26 YEARS AFTER THE DATE ON WHICH THE PLAINTIFF DISCOVERED OR REASONABLY
-27 SHOULD HAVE DISCOVERED THAT THE EXPOSURE TO AN INGREDIENT IN VIOLATION
-28 OF THIS SECTION WAS THE PROXIMATE CAUSE OF THE INJURY SUSTAINED BY THE
-29 PLAINTIFF.
-
-30 (3) IN ANY ACTION BROUGHT TO ENFORCE THIS SECTION, A COURT
-31 MAY AWARD REASONABLE ATTORNEY’S FEES TO A PREVAILING PLAINTIFF:
-
-32 (I) TREBLE DAMAGES;
-
-33 (II) IF THE VIOLATION WAS WILLFUL, PUNITIVE DAMAGES; AND
-
-34 (III) REASONABLE ATTORNEY’S FEES.
-
-35 (E) (1) THE DEPARTMENT MAY INVESTIGATE ANY COMPLAINT ALLEGING
-36 THAT A PERSON HAS VIOLATED THIS SECTION.
-
-37 (2) ON RECEIPT OF A COMPLAINT, A REPRESENTATIVE OF THE
-38 DEPARTMENT, AT A REASONABLE TIME, MAY ENTER AND INSPECT THE PREMISES OF
-39 THE PERSON LOCATED IN THE STATE TO DETERMINE COMPLIANCE WITH THIS
-40 SECTION.
-
-41 (3) THE PERSON MAY NOT REFUSE TO GRANT ACCESS TO A
-42 REPRESENTATIVE WHO REQUESTS TO ENTER AND INSPECT THE PREMISES OF THE
-43 PERSON UNDER PARAGRAPH (2) OF THIS SUBSECTION.
-
-44 SECTION 2. AND BE IT FURTHER ENACTED, That:
-
+31 21–101.
 END OF PAGE 3
 
 START OF PAGE 4
 4 HOUSE BILL 1533
+
+1 (a) In this title the following words have the meanings indicated.
+
+2 (e) (1) “Cosmetic” means any substance, or any component of a substance, that
+3 is intended to be rubbed, poured, sprinkled, or sprayed on, introduced into, or otherwise
+4 applied to the human body for cleansing, beautifying, promoting attractiveness, or altering
+5 appearance.
+
+6 (2) “Cosmetic” does not include soap.
+
+7 21–259.2.
+
+8 (a) In this section:
+
+9 (1) “Ingredient” means any single chemical entity or mixture used as a
+10 component in the manufacture of a cosmetic product; and
+
+11 (2) “Ingredient” does not include an incidental ingredient, as described in
+12 21 C.F.R. § 701.3(l).
+
+13 (b) Except as provided in subsection (c) of this section, a person may not
+14 knowingly manufacture, sell, deliver, hold, or offer for sale in the State a cosmetic product
+15 that contains any of the following intentionally added ingredients:
+
+16 (1) Dibutyl phthalate (CAS no. 84–74–2);
+
+17 (2) Diethylhexyl phthalate (CAS no. 117–81–7);
+
+18 (3) Formaldehyde (CAS no. 50–00–0);
+
+19 (4) Paraformaldehyde (CAS no. 30525–89–4);
+
+20 (5) Methylene glycol (CAS no. 463–57–0);
+
+21 (6) Quaternium–15 (CAS no. 51229–78–8);
+
+22 (7) Mercury (CAS no. 7439–97–6);
+
+23 (8) Isobutylparaben (CAS no. 4247–02–3);
+
+24 (9) Isopropylparaben (CAS no. 4191–73–5);
+
+25 (10) m–Phenylenediamine and its salts (CAS no. 108–45–2);
+
+26 (11) o–Phenylenediamine and its salts (CAS no. 95–54–5); ~~or~~
+
+27 (12) LEAD (CAS NO. 7439–92–1); OR
+END OF PAGE 4
+
+START OF PAGE 5
+HOUSE BILL 1533 5
+
+1 (13) The following per– and polyfluoroalkyl substances (PFAS) and their
+2 salts:
+
+3 (i) Perfluorooctane sulfonate (PFOS) or
+4 heptadecafluorooctane–1–sulfonic acid (CAS no. 1763–23–1);
+
+5 (ii) Potassium perfluorooctanesulfonate or potassium
+6 heptadecafluorooctane–1–sulfonate (CAS no. 2795–39–3);
+
+7 (iii) Diethanolamine perfluorooctane sulfonate (CAS no.
+8 70225–14–8);
+
+9 (iv) Ammonium perfluorooctane sulfonate or ammonium
+10 heptadecafluorooctanesulfonate (CAS no. 29081–56–9);
+
+11 (v) Lithium perfluorooctane sulfonate or lithium
+12 heptadecafluorooctanesulfonate (CAS no. 29457–72–5);
+
+13 (vi) Perfluorooctanoic acid (PFOA) (CAS no. 335–67–1);
+
+14 (vii) Ammonium pentadecafluorooctanoate (CAS no. 3825–26–1);
+
+15 (viii) Nonadecafluorodecanoic acid (CAS no. 335–76–2);
+
+16 (ix) Ammonium nonadecafluorodecanoate (CAS no. 3108–42–7);
+
+17 (x) Sodium nonadecafluorodecanoate (CAS no. 3830–45–3);
+
+18 (xi) Perfluorononanoic acid (PFNA) (CAS no. 375–95–1);
+
+19 (xii) Sodium heptadecafluorononanoate (CAS no. 21049–39–8); or
+
+20 (xiii) Ammonium perfluorononanoate (CAS no. 4149–60–4).
+
+21 (c) A person is not in violation of this section if the person manufactures, sells,
+22 delivers, holds, or offers for sale in the State a cosmetic product that:
+
+23 (1) Was manufactured through a process intended to comply with this
+24 section; and
+
+25 (2) Contains a technically unavoidable trace quantity of an ingredient
+26 listed in subsection (b) of this section due to:
+
+27 (i) An impurity of a natural or synthetic ingredient;
+
+28 (ii) The manufacturing process;
+END OF PAGE 5
+
+START OF PAGE 6
+6 HOUSE BILL 1533
+
+1 (iii) Storage; or
+
+2 (iv) Packaging.
+
+3 (D) (1) IN ADDITION TO ANY OTHER PENALTIES UNDER THIS TITLE, A
+4 PERSON WHO VIOLATES THIS SECTION IS LIABLE FOR CIVIL DAMAGES RESULTING
+5 FROM ACTUAL HARM SUSTAINED BY THE INDIVIDUAL RESULTING FROM THE
+6 VIOLATION.
+
+7 (2) AN ACTION UNDER THIS SECTION MUST BE BROUGHT WITHIN 3
+8 YEARS AFTER THE DATE ON WHICH THE PLAINTIFF DISCOVERED OR REASONABLY
+9 SHOULD HAVE DISCOVERED THAT THE EXPOSURE TO AN INGREDIENT IN VIOLATION
+10 OF THIS SECTION WAS THE PROXIMATE CAUSE OF THE INJURY SUSTAINED BY THE
+11 PLAINTIFF.
+
+12 (3) IN ANY ACTION BROUGHT TO ENFORCE THIS SECTION, A COURT
+13 MAY AWARD REASONABLE ATTORNEY’S FEES TO A PREVAILING PLAINTIFF:
+
+14 (I) TREBLE DAMAGES;
+
+15 (II) IF THE VIOLATION WAS WILLFUL, PUNITIVE DAMAGES; AND
+
+16 (III) REASONABLE ATTORNEY’S FEES.
+
+17 (E) (1) THE DEPARTMENT MAY INVESTIGATE ANY COMPLAINT ALLEGING
+18 THAT A PERSON HAS VIOLATED THIS SECTION.
+
+19 (2) ON RECEIPT OF A COMPLAINT, A REPRESENTATIVE OF THE
+20 DEPARTMENT, AT A REASONABLE TIME, MAY ENTER AND INSPECT THE PREMISES OF
+21 THE PERSON LOCATED IN THE STATE TO DETERMINE COMPLIANCE WITH THIS
+22 SECTION.
+
+23 (3) THE PERSON MAY NOT:
+
+24 (I) REFUSE TO GRANT ACCESS TO A REPRESENTATIVE WHO
+25 REQUESTS TO ENTER AND INSPECT THE PREMISES OF THE PERSON UNDER
+26 PARAGRAPH (2) OF THIS SUBSECTION; OR
+
+27 (II) INTERFERE WITH AN INSPECTION UNDER PARAGRAPH (2)
+28 OF THIS SUBSECTION.
+
+29 (4) AN INVESTIGATION OF A PREMISES OF A PERSON CONDUCTED
+30 UNDER THIS SUBSECTION MAY INCLUDE SAMPLING OF A COSMETIC PRODUCT TO
+END OF PAGE 6
+
+START OF PAGE 7
+HOUSE BILL 1533 7
+
+1 DETERMINE IF THE COSMETIC PRODUCT CONTAINS A TECHNICALLY UNAVOIDABLE
+2 TRACE QUANTITY OF AN INGREDIENT LISTED IN SUBSECTION (B) OF THIS SECTION.
+
+3 ~~21–259.3.~~
+
+4 ~~(A)~~ ~~IN~~ ~~THIS~~ ~~SECTION,~~ ~~“FUND”~~ ~~MEANS~~ ~~THE~~ ~~HARMFUL~~ ~~HAIR~~ ~~CHEMICAL~~
+5 ~~RESTITUTION~~ ~~FUND.~~
+
+6 ~~(B)~~ ~~THERE~~ ~~IS~~ ~~A~~ ~~HARMFUL~~ ~~HAIR~~ ~~CHEMICAL~~ ~~RESTITUTION~~ ~~FUND.~~
+
+7 ~~(C)~~ ~~THE~~ ~~PURPOSE~~ ~~OF~~ ~~THE~~ ~~FUND~~ ~~IS~~ ~~TO~~ ~~SUPPORT~~ ~~THE~~ ~~RESEARCH~~ ~~AND~~
+8 ~~TREATMENT,~~ ~~INCLUDING~~ ~~SCREENINGS~~ ~~AND~~ ~~DIAGNOSIS,~~ ~~OF~~ ~~FIBROIDS,~~ ~~UTERINE~~
+9 ~~CANCER,~~ ~~HAIR~~ ~~LOSS,~~ ~~AND~~ ~~RELATED~~ ~~CONDITIONS~~ ~~CAUSED~~ ~~BY~~ ~~HARMFUL~~ ~~HAIR~~
+10 ~~CHEMICALS.~~
+
+11 ~~(D)~~ ~~THE~~ ~~DEPARTMENT~~ ~~SHALL~~ ~~ADMINISTER~~ ~~THE~~ ~~FUND.~~
+
+12 ~~(E)~~ ~~(1)~~ ~~THE~~ ~~FUND~~ ~~IS~~ ~~A~~ ~~SPECIAL,~~ ~~NONLAPSING~~ ~~FUND~~ ~~THAT~~ ~~IS~~ ~~NOT~~
+13 ~~SUBJECT~~ ~~TO~~ ~~§~~ ~~7–302~~ ~~OF~~ ~~THE~~ ~~STATE~~ ~~FINANCE~~ ~~AND~~ ~~PROCUREMENT~~ ~~ARTICLE.~~
+
+14 ~~(2)~~ ~~THE~~ ~~STATE~~ ~~TREASURER~~ ~~SHALL~~ ~~HOLD~~ ~~THE~~ ~~FUND~~ ~~SEPARATELY,~~
+15 ~~AND~~ ~~THE~~ ~~COMPTROLLER~~ ~~SHALL~~ ~~ACCOUNT~~ ~~FOR~~ ~~THE~~ ~~FUND.~~
+
+16 ~~(F)~~ ~~THE~~ ~~FUND~~ ~~CONSISTS~~ ~~OF:~~
+
+17 ~~(1)~~ ~~ALL~~ ~~FUNDS,~~ ~~EXCLUDING~~ ~~FUNDS~~ ~~RECEIVED~~ ~~BY~~ ~~THE~~ ~~AGGRIEVED~~
+18 ~~PARTY~~ ~~AND~~ ~~THE~~ ~~COSTS~~ ~~OF~~ ~~THE~~ ~~ACTION~~ ~~THE~~ ~~ATTORNEY~~ ~~GENERAL~~ ~~IS~~ ~~ENTITLED~~ ~~TO~~
+19 ~~RECOVER,~~ ~~RECEIVED~~ ~~BY~~ ~~THE~~ ~~DIVISION~~ ~~OF~~ ~~CONSUMER~~ ~~PROTECTION~~ ~~IN~~ ~~THE~~ ~~OFFICE~~
+20 ~~OF~~ ~~THE~~ ~~ATTORNEY~~ ~~GENERAL~~ ~~FROM~~ ~~ENFORCING~~ ~~§~~ ~~21–259.2~~ ~~OF~~ ~~THIS~~ ~~SUBTITLE~~
+21 ~~UNDER~~ ~~THE~~ ~~CONSUMER~~ ~~PROTECTION~~ ~~ACT;~~ ~~AND~~
+
+22 ~~(2)~~ ~~INTEREST~~ ~~EARNINGS~~ ~~OF~~ ~~THE~~ ~~FUND.~~
+
+23 ~~(G)~~ ~~(1)~~ ~~THE~~ ~~FUND~~ ~~SHALL~~ ~~BE~~ ~~USED~~ ~~FOR:~~
+
+24 ~~(I)~~ ~~PROVIDING~~ ~~GRANTS~~ ~~FOR~~ ~~THE~~ ~~SUPPORT~~ ~~OF~~ ~~THE~~ ~~RESEARCH~~
+25 ~~AND~~ ~~TREATMENT,~~ ~~INCLUDING~~ ~~SCREENINGS~~ ~~AND~~ ~~DIAGNOSIS,~~ ~~OF~~ ~~FIBROIDS,~~ ~~UTERINE~~
+26 ~~CANCER,~~ ~~HAIR~~ ~~LOSS,~~ ~~AND~~ ~~RELATED~~ ~~CONDITIONS~~ ~~CAUSED~~ ~~BY~~ ~~HARMFUL~~ ~~HAIR~~
+27 ~~CHEMICALS;~~
+
+28 ~~(II)~~ ~~CARRYING~~ ~~OUT~~ ~~ANY~~ ~~LAWS~~ ~~ENACTED~~ ~~TO~~ ~~BENEFIT~~ ~~VICTIMS~~
+29 ~~OF~~ ~~A~~ ~~VIOLATION~~ ~~OF~~ ~~§~~ ~~21–259.2~~ ~~OF~~ ~~THIS~~ ~~SUBTITLE;~~ ~~AND~~
+END OF PAGE 7
+
+START OF PAGE 8
+8 HOUSE BILL 1533
+
+1 ~~(III)~~ ~~PROVIDING~~ ~~RESTITUTION~~ ~~TO~~ ~~VICTIMS~~ ~~OF~~ ~~A~~ ~~VIOLATION~~ ~~OF~~ ~~§~~
+2 ~~21–259.2~~ ~~OF~~ ~~THIS~~ ~~SUBTITLE.~~
+
+3 ~~(2)~~ ~~ON~~ ~~OR~~ ~~BEFORE~~ ~~JANUARY~~ ~~1,~~ ~~2027,~~ ~~THE~~ ~~DEPARTMENT~~ ~~SHALL~~
+4 ~~ADOPT~~ ~~REGULATIONS~~ ~~TO~~ ~~ADMINISTER~~ ~~THE~~ ~~FUND.~~
+
+5 ~~(H)~~ ~~(1)~~ ~~THE~~ ~~STATE~~ ~~TREASURER~~ ~~SHALL~~ ~~INVEST~~ ~~THE~~ ~~MONEY~~ ~~OF~~ ~~THE~~ ~~FUND~~
+6 ~~IN~~ ~~THE~~ ~~SAME~~ ~~MANNER~~ ~~AS~~ ~~OTHER~~ ~~STATE~~ ~~MONEY~~ ~~MAY~~ ~~BE~~ ~~INVESTED.~~
+
+7 ~~(2)~~ ~~ANY~~ ~~INTEREST~~ ~~EARNINGS~~ ~~OF~~ ~~THE~~ ~~FUND~~ ~~SHALL~~ ~~BE~~ ~~CREDITED~~ ~~TO~~
+8 ~~THE~~ ~~FUND.~~
+
+9 ~~(I)~~ ~~EXPENDITURES~~ ~~FROM~~ ~~THE~~ ~~FUND~~ ~~MAY~~ ~~BE~~ ~~MADE~~ ~~ONLY~~ ~~IN~~ ~~ACCORDANCE~~
+10 ~~WITH~~ ~~THE~~ ~~STATE~~ ~~BUDGET.~~
+
+11 ~~(J)~~ ~~MONEY~~ ~~EXPENDED~~ ~~FROM~~ ~~THE~~ ~~FUND~~ ~~FOR~~ ~~THE~~ ~~SUPPORT~~ ~~OF~~ ~~RESEARCH~~
+12 ~~AND~~ ~~TREATMENT~~ ~~UNDER~~ ~~SUBSECTION~~ ~~(G)~~ ~~OF~~ ~~THIS~~ ~~SECTION~~ ~~IS~~ ~~SUPPLEMENTAL~~ ~~TO~~
+13 ~~AND~~ ~~IS~~ ~~NOT~~ ~~INTENDED~~ ~~TO~~ ~~TAKE~~ ~~THE~~ ~~PLACE~~ ~~OF~~ ~~FUNDING~~ ~~THAT~~ ~~OTHERWISE~~ ~~WOULD~~
+14 ~~BE~~ ~~APPROPRIATED~~ ~~FOR~~ ~~THE~~ ~~SUPPORT~~ ~~OF~~ ~~RESEARCH~~ ~~AND~~ ~~TREATMENT.~~
+
+15 ~~Article~~ ~~–~~ ~~State~~ ~~Finance~~ ~~and~~ ~~Procurement~~
+
+16 ~~6–226.~~
+
+17 ~~(a)~~ ~~(2)~~ ~~(i)~~ ~~This~~ ~~paragraph~~ ~~does~~ ~~not~~ ~~apply~~ ~~in~~ ~~fiscal~~ ~~years~~ ~~2024~~ ~~through~~ ~~2028.~~
+
+18 ~~(ii)~~ ~~Notwithstanding~~ ~~any~~ ~~other~~ ~~provision~~ ~~of~~ ~~law,~~ ~~and~~ ~~unless~~
+19 ~~inconsistent~~ ~~with~~ ~~a~~ ~~federal~~ ~~law,~~ ~~grant~~ ~~agreement,~~ ~~or~~ ~~other~~ ~~federal~~ ~~requirement~~ ~~or~~ ~~with~~ ~~the~~
+20 ~~terms~~ ~~of~~ ~~a~~ ~~gift~~ ~~or~~ ~~settlement~~ ~~agreement,~~ ~~net~~ ~~interest~~ ~~on~~ ~~all~~ ~~State~~ ~~money~~ ~~allocated~~ ~~by~~ ~~the~~
+21 ~~State~~ ~~Treasurer~~ ~~under~~ ~~this~~ ~~section~~ ~~to~~ ~~special~~ ~~funds~~ ~~or~~ ~~accounts,~~ ~~and~~ ~~otherwise~~ ~~entitled~~ ~~to~~
+22 ~~receive~~ ~~interest~~ ~~earnings,~~ ~~as~~ ~~accounted~~ ~~for~~ ~~by~~ ~~the~~ ~~Comptroller,~~ ~~shall~~ ~~accrue~~ ~~to~~ ~~the~~ ~~General~~
+23 ~~Fund~~ ~~of~~ ~~the~~ ~~State.~~
+
+24 ~~(iii)~~ ~~The~~ ~~provisions~~ ~~of~~ ~~subparagraph~~ ~~(ii)~~ ~~of~~ ~~this~~ ~~paragraph~~ ~~do~~ ~~not~~
+25 ~~apply~~ ~~to~~ ~~the~~ ~~following~~ ~~funds:~~
+
+26 ~~212.~~ ~~the~~ ~~Department~~ ~~of~~ ~~Social~~ ~~and~~ ~~Economic~~ ~~Mobility~~ ~~Special~~
+27 ~~Fund;~~ ~~[and]~~
+
+28 ~~213.~~ ~~the~~ ~~Population~~ ~~Health~~ ~~Improvement~~ ~~Fund;~~ ~~AND~~
+
+29 ~~214.~~ ~~THE~~ ~~HARMFUL~~ ~~HAIR~~ ~~CHEMICALS~~ ~~RESTITUTION~~
+30 ~~FUND.~~
+
+31 SECTION 2. AND BE IT FURTHER ENACTED, That:
+END OF PAGE 8
+
+START OF PAGE 9
+HOUSE BILL 1533 9
 
 1 (a) (1) The Maryland Department of Health, in conjunction with the Office of
 2 the Attorney General, shall develop a plan for the administration of a special fund to support
@@ -242,7 +420,7 @@ START OF PAGE 4
 14 subsection (a) of this section to the Senate Finance Committee and the House Health
 15 Committee, in accordance with § 2–1257 of the State Government Article.
 
-16 SECTION 3. AND BE IT FURTHER ENACTED, That this Act shall take effect
+16 SECTION ~~2.~~ 3. AND BE IT FURTHER ENACTED, That this Act shall take effect
 17 July 1, 2026.
 
 Approved:
@@ -255,6 +433,4 @@ Speaker of the House of Delegates.
 
 ________________________________________________________________________________
 President of the Senate.
-
-END OF PAGE 4
-</bill>
+END OF PAGE 9

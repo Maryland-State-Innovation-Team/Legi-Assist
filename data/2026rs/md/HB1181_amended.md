@@ -1,11 +1,10 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1181
 
 D4, J1 (6lr2312)
 ENROLLED BILL
 — Appropriations and Health/Judicial Proceedings —
-Introduced by ~~Delegate~~ ~~Bagnall~~ Delegates Bagnall, Alston, Cullison, Guzzone, Hill,
+Introduced by Delegates Bagnall, Alston, Cullison, Guzzone, Hill,
 Hutchinson, S. Johnson, Kaufman, Kipke, Lopez, Martinez, M. Morgan,
 Reilly, Rosenberg, Ross, Szeliga, Taveras, White Holland, and Woorman
 
@@ -32,14 +31,13 @@ CHAPTER ______
 
 4 FOR the purpose of altering provisions relating to children who are placed in an
 5 out–of–home placement by a local department of social services under a voluntary
-6 placement agreement; ~~altering~~ ~~the~~ ~~duties~~ ~~of~~ ~~the~~ ~~Workgroup~~ ~~on~~ ~~Children~~ ~~in~~
-7 ~~Unlicensed~~ ~~Settings~~ ~~and~~ ~~Pediatric~~ ~~Hospital~~ ~~Overstays;~~ requiring the Department of
-8 Human Services and the Maryland Department of Health to jointly submit a certain
-9 report concerning children who are placed in an out–of–home placement under a
-10 voluntary placement agreement; establishing that certain child support due to the
-11 State before the effective date of this Act shall be unenforceable and uncollectable; and
-12 generally relating to children in out–of–home placement and voluntary placement
-13 agreements.
+6 placement agreement; requiring the Department of
+7 Human Services and the Maryland Department of Health to jointly submit a certain
+8 report concerning children who are placed in an out–of–home placement under a
+9 voluntary placement agreement; establishing that certain child support due to the
+10 State before the effective date of this Act shall be unenforceable and uncollectable; and
+11 generally relating to children in out–of–home placement and voluntary placement
+12 agreements.
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
@@ -107,7 +105,7 @@ HOUSE BILL 1181 3
 
 3 ~~WHEREAS,~~ ~~The~~ ~~General~~ ~~Assembly~~ ~~recognizes~~ ~~the~~ ~~urgent~~ ~~need~~ ~~to~~ ~~codify~~ ~~timelines,~~
 4 ~~clarify~~ ~~agency~~ ~~accountability,~~ ~~and~~ ~~eliminate~~ ~~duplicative~~ ~~procedural~~ ~~barriers~~ ~~to~~ ~~ensure~~ ~~that~~
-5 ~~children~~ ~~in~~ ~~crisis~~ ~~receive~~ ~~timely,~~ ~~clinically~~ ~~appropriate~~ ~~care;~~ ~~now,~~ therefore,
+5 ~~children~~ ~~in~~ ~~crisis~~ ~~receive~~ ~~timely,~~ ~~clinically~~ ~~appropriate~~ ~~care;~~ ~~now,~~ ~~therefore,~~
 
 6 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
 7 That the Laws of Maryland read as follows:
@@ -340,323 +338,329 @@ HOUSE BILL 1181 7
 28 RIGHT TO PETITION THE COURT FOR A MODIFICATION OF AN EXISTING CHILD
 29 SUPPORT OBLIGATION.
 
-30 (2) (I) 1. EXCEPT AS PROVIDED IN SUBSUBPARAGRAPH 2 OF
-31 THIS SUBPARAGRAPH, THE ADMINISTRATION AND THE CHILD SUPPORT
-32 ADMINISTRATION SHALL COLLABORATE TO ESTABLISH UNIFORM CRITERIA FOR
-33 WAIVING OR REDUCING CHILD SUPPORT OBLIGATIONS FOR LOW–INCOME
-34 FAMILIES WHO ENTER INTO A VOLUNTARY PLACEMENT AGREEMENT UNDER THIS
-35 SECTION.
+30 (2) (I) 1. THE EXCEPT AS PROVIDED IN SUBSUBPARAGRAPH 2
+31 OF THIS SUBPARAGRAPH, THE ADMINISTRATION AND THE CHILD SUPPORT
+32 ENFORCEMENT ADMINISTRATION SHALL COLLABORATE TO ESTABLISH UNIFORM
+33 CRITERIA FOR WAIVING OR REDUCING CHILD SUPPORT OBLIGATIONS FOR
+34 LOW–INCOME FAMILIES WHO ENTER MAY NOT REFER A CHILD’S CASE TO THE CHILD
 END OF PAGE 7
 
 START OF PAGE 8
 8 HOUSE BILL 1181
 
-1 2. THE ADMINISTRATION MAY REFER THE CASE OF A
-2 CHILD WHOSE FAMILY HAS ENTERED INTO A VOLUNTARY PLACEMENT
-3 AGREEMENT UNDER THIS SECTION TO THE CHILD SUPPORT ADMINISTRATION IF
-4 A CHILD SUPPORT ORDER WILL NOT ADVERSELY AFFECT THE CHILD OR IMPEDE
-5 THE COMPLETION OF THE CHILD’S PERMANENCY PLAN.
+1 SUPPORT ENFORCEMENT ADMINISTRATION IF THE CHILD’S FAMILY ENTERS INTO A
+2 VOLUNTARY PLACEMENT AGREEMENT UNDER THIS SECTION.
 
-6 (II) THE COURT MAY NOT ORDER THE PAYMENT OF CHILD
-7 SUPPORT BY THE PARENT OR GUARDIAN OF A CHILD PLACED IN OUT–OF–HOME
-8 PLACEMENT BY A LOCAL DEPARTMENT IN ACCORDANCE WITH A VOLUNTARY
-9 PLACEMENT AGREEMENT UNDER THIS SECTION IF A CHILD SUPPORT ORDER WILL
-10 ADVERSELY AFFECT THE CHILD OR IMPEDE THE COMPLETION OF THE CHILD’S
-11 PERMANENCY PLAN.
+3 (II) ON OR BEFORE OCTOBER 1, 2026, THE CHILD SUPPORT
+4 ENFORCEMENT ADMINISTRATION SHALL FILE A MOTION TO MODIFY ANY CHILD
+5 SUPPORT ORDER ISSUED UNDER A VOLUNTARY PLACEMENT AGREEMENT.
 
-12 (III) THE STATE MAY NOT ACCEPT AN ASSIGNMENT OF THE
-13 RIGHT TO CHILD SUPPORT FOR A CHILD PLACED IN AN OUT–OF–HOME PLACEMENT
-14 BY A LOCAL DEPARTMENT IN ACCORDANCE WITH A VOLUNTARY PLACEMENT
-15 AGREEMENT UNDER THIS SECTION IF THE ADMINISTRATION DETERMINES THAT THE
-16 ASSIGNMENT OF AN EXISTING SUPPORT OBLIGATION TO THE STATE WILL
-17 ADVERSELY AFFECT THE CHILD OR IMPEDE THE COMPLETION OF THE CHILD’S
-18 PERMANENCY PLAN.
+6 2. THE ADMINISTRATION MAY REFER THE CASE OF A
+7 CHILD WHOSE FAMILY HAS ENTERED INTO A VOLUNTARY PLACEMENT AGREEMENT
+8 UNDER THIS SECTION TO THE CHILD SUPPORT ADMINISTRATION IF A CHILD
+9 SUPPORT ORDER WILL NOT ADVERSELY AFFECT THE CHILD OR IMPEDE THE
+10 COMPLETION OF THE CHILD’S PERMANENCY PLAN.
 
-19 (O) (1) A THE LOCAL BEHAVIORAL HEALTH AUTHORITY SHALL BE
-20 NOTIFIED OF A CHILD WITH SPECIAL NEEDS WHO IS THE SUBJECT OF A VOLUNTARY
-21 PLACEMENT AGREEMENT REQUEST FOR PSYCHIATRIC RESIDENTIAL TREATMENT
-22 AND WHO IS ELIGIBLE TO RECEIVE MEDICAL ASSISTANCE SHALL BE REFERRED
-23 DIRECTLY TO THE LOCAL BEHAVIORAL HEALTH AUTHORITY.
+11 (II) THE COURT MAY NOT ORDER THE PAYMENT OF CHILD
+12 SUPPORT BY THE PARENT OR GUARDIAN OF A CHILD PLACED IN OUT–OF–HOME
+13 PLACEMENT BY A LOCAL DEPARTMENT IN ACCORDANCE WITH A VOLUNTARY
+14 PLACEMENT AGREEMENT UNDER THIS SECTION IF A CHILD SUPPORT ORDER WILL
+15 ADVERSELY AFFECT THE CHILD OR IMPEDE THE COMPLETION OF THE CHILD’S
+16 PERMANENCY PLAN.
 
-24 (2) NOTHING IN THIS SUBSECTION MAY BE INTERPRETED TO
-25 PREVENT A LOCAL CARE TEAM FROM PROVIDING THE CHILD AND FAMILY WITH
-26 ALTERNATIVE OR INTERIM SERVICES.
+17 (III) THE STATE MAY NOT ACCEPT AN ASSIGNMENT OF THE
+18 RIGHT TO CHILD SUPPORT FOR A CHILD PLACED IN AN OUT–OF–HOME PLACEMENT
+19 BY A LOCAL DEPARTMENT IN ACCORDANCE WITH A VOLUNTARY PLACEMENT
+20 AGREEMENT UNDER THIS SECTION IF THE ADMINISTRATION DETERMINES THAT THE
+21 ASSIGNMENT OF AN EXISTING SUPPORT OBLIGATION TO THE STATE WILL
+22 ADVERSELY AFFECT THE CHILD OR IMPEDE THE COMPLETION OF THE CHILD’S
+23 PERMANENCY PLAN.
 
-27 (P) (1) ON OR BEFORE JULY 1, 2027, AND EACH JULY 1 THEREAFTER,
-28 EACH LOCAL DEPARTMENT SHALL REPORT TO THE DEPARTMENT:
+24 (O) (1) A THE LOCAL BEHAVIORAL HEALTH AUTHORITY SHALL BE
+25 NOTIFIED OF A CHILD WITH SPECIAL NEEDS WHO IS THE SUBJECT OF A VOLUNTARY
+26 PLACEMENT AGREEMENT REQUEST FOR PSYCHIATRIC RESIDENTIAL TREATMENT
+27 AND WHO IS ELIGIBLE TO RECEIVE MEDICAL ASSISTANCE SHALL BE REFERRED
+28 DIRECTLY TO THE LOCAL BEHAVIORAL HEALTH AUTHORITY.
 
-29 (I) THE NUMBER OF VOLUNTARY PLACEMENT AGREEMENT
-30 REQUESTS RECEIVED IN THE PRECEDING YEAR;
+29 (2) NOTHING IN THIS SUBSECTION MAY BE INTERPRETED TO
+30 PREVENT A LOCAL CARE TEAM FROM PROVIDING THE CHILD AND FAMILY WITH
+31 ALTERNATIVE OR INTERIM SERVICES.
 
-31 (II) THE AVERAGE TIME IT TOOK FOR THE LOCAL DEPARTMENT
-32 TO MAKE A DETERMINATION AND PLACEMENT;
+32 (P) (1) ON OR BEFORE JULY 1, 2027, AND EACH JULY 1 THEREAFTER,
+33 EACH LOCAL DEPARTMENT SHALL REPORT TO THE DEPARTMENT:
 
-33 (III) THE NUMBER OF REQUESTS THAT WERE DENIED AND THE
-34 REASONS FOR THE DENIALS; AND
+34 (I) THE NUMBER OF VOLUNTARY PLACEMENT AGREEMENT
+35 REQUESTS RECEIVED IN THE PRECEDING YEAR;
 END OF PAGE 8
 
 START OF PAGE 9
 HOUSE BILL 1181 9
 
-1 (IV) THE AVERAGE LENGTH OF A HOSPITAL STAY FOR A CHILD
-2 AWAITING A PLACEMENT.
+1 (II) THE AVERAGE TIME IT TOOK FOR THE LOCAL DEPARTMENT
+2 TO MAKE A DETERMINATION AND PLACEMENT;
 
-3 (2) ON OR BEFORE SEPTEMBER DECEMBER 1, 2027, AND EACH
-4 SEPTEMBER DECEMBER 1 THEREAFTER, THE DEPARTMENT SHALL PUBLISH ON ITS
-5 WEBSITE AGGREGATED STATEWIDE DATA COMPILED FROM THE LOCAL
-6 DEPARTMENT REPORTS UNDER PARAGRAPH (1) OF THIS SUBSECTION.
+3 (III) THE NUMBER OF REQUESTS THAT WERE DENIED AND THE
+4 REASONS FOR THE DENIALS; AND
 
-7 ~~Chapter~~ ~~479~~ ~~of~~ ~~the~~ ~~Acts~~ ~~of~~ ~~2025~~
+5 (IV) THE AVERAGE LENGTH OF A HOSPITAL STAY FOR A CHILD
+6 AWAITING A PLACEMENT.
 
-8 ~~SECTION~~ ~~2.~~ ~~AND~~ ~~BE~~ ~~IT~~ ~~FURTHER~~ ~~ENACTED,~~ ~~That:~~
+7 (2) ON OR BEFORE SEPTEMBER DECEMBER 1, 2027, AND EACH
+8 SEPTEMBER DECEMBER 1 THEREAFTER, THE DEPARTMENT SHALL PUBLISH ON ITS
+9 WEBSITE AGGREGATED STATEWIDE DATA COMPILED FROM THE LOCAL
+10 DEPARTMENT REPORTS UNDER PARAGRAPH (1) OF THIS SUBSECTION.
 
-9 ~~(a)~~ ~~(1)~~ ~~In~~ ~~this~~ ~~section,~~ ~~“child~~ ~~in~~ ~~an~~ ~~unlicensed~~ ~~setting”~~ ~~means~~ ~~an~~ ~~individual~~
-10 ~~under~~ ~~the~~ ~~age~~ ~~of~~ ~~21~~ ~~years~~ ~~in~~ ~~an~~ ~~out–of–home~~ ~~placement~~ ~~who~~ ~~is~~ ~~residing~~ ~~in~~ ~~a~~ ~~hotel,~~ ~~an~~ ~~office~~
-11 ~~building,~~ ~~a~~ ~~shelter,~~ ~~or~~ ~~any~~ ~~other~~ ~~unlicensed~~ ~~setting.~~
+11 ~~Chapter~~ ~~479~~ ~~of~~ ~~the~~ ~~Acts~~ ~~of~~ ~~2025~~
 
-12 ~~(2)~~ ~~“Child~~ ~~in~~ ~~an~~ ~~unlicensed~~ ~~setting”~~ ~~does~~ ~~not~~ ~~include~~ ~~an~~ ~~individual~~ ~~under~~
-13 ~~the~~ ~~age~~ ~~of~~ ~~21~~ ~~years~~ ~~who~~ ~~is~~ ~~receiving~~ ~~a~~ ~~self–independent~~ ~~living~~ ~~stipend,~~ ~~living~~ ~~with~~ ~~kin~~
-14 ~~awaiting~~ ~~approval~~ ~~for~~ ~~a~~ ~~placement,~~ ~~or~~ ~~on~~ ~~aftercare~~ ~~with~~ ~~a~~ ~~parent.~~
+12 ~~SECTION~~ ~~2.~~ ~~AND~~ ~~BE~~ ~~IT~~ ~~FURTHER~~ ~~ENACTED,~~ ~~That:~~
 
-15 ~~(b)~~ ~~(1)~~ ~~There~~ ~~is~~ ~~a~~ ~~Workgroup~~ ~~on~~ ~~Children~~ ~~in~~ ~~Unlicensed~~ ~~Settings~~ ~~and~~ ~~Pediatric~~
-16 ~~Hospital~~ ~~Overstays~~ ~~in~~ ~~the~~ ~~State.~~
+13 ~~(a)~~ ~~(1)~~ ~~In~~ ~~this~~ ~~section,~~ ~~“child~~ ~~in~~ ~~an~~ ~~unlicensed~~ ~~setting”~~ ~~means~~ ~~an~~ ~~individual~~
+14 ~~under~~ ~~the~~ ~~age~~ ~~of~~ ~~21~~ ~~years~~ ~~in~~ ~~an~~ ~~out–of–home~~ ~~placement~~ ~~who~~ ~~is~~ ~~residing~~ ~~in~~ ~~a~~ ~~hotel,~~ ~~an~~ ~~office~~
+15 ~~building,~~ ~~a~~ ~~shelter,~~ ~~or~~ ~~any~~ ~~other~~ ~~unlicensed~~ ~~setting.~~
 
-17 ~~(2)~~ ~~The~~ ~~Workgroup~~ ~~shall~~ ~~consist~~ ~~of~~ ~~representatives~~ ~~who~~ ~~have~~ ~~experience~~
-18 ~~and~~ ~~knowledge~~ ~~of~~ ~~working~~ ~~with~~ ~~children~~ ~~with~~ ~~behavioral~~ ~~health~~ ~~challenges,~~ ~~adverse~~
-19 ~~childhood~~ ~~experiences,~~ ~~and~~ ~~developmental~~ ~~disabilities,~~ ~~including:~~
+16 ~~(2)~~ ~~“Child~~ ~~in~~ ~~an~~ ~~unlicensed~~ ~~setting”~~ ~~does~~ ~~not~~ ~~include~~ ~~an~~ ~~individual~~ ~~under~~
+17 ~~the~~ ~~age~~ ~~of~~ ~~21~~ ~~years~~ ~~who~~ ~~is~~ ~~receiving~~ ~~a~~ ~~self–independent~~ ~~living~~ ~~stipend,~~ ~~living~~ ~~with~~ ~~kin~~
+18 ~~awaiting~~ ~~approval~~ ~~for~~ ~~a~~ ~~placement,~~ ~~or~~ ~~on~~ ~~aftercare~~ ~~with~~ ~~a~~ ~~parent.~~
 
-20 ~~(i)~~ ~~the~~ ~~Secretary~~ ~~of~~ ~~Health,~~ ~~or~~ ~~the~~ ~~Secretary’s~~ ~~designee;~~
+19 ~~(b)~~ ~~(1)~~ ~~There~~ ~~is~~ ~~a~~ ~~Workgroup~~ ~~on~~ ~~Children~~ ~~in~~ ~~Unlicensed~~ ~~Settings~~ ~~and~~ ~~Pediatric~~
+20 ~~Hospital~~ ~~Overstays~~ ~~in~~ ~~the~~ ~~State.~~
 
-21 ~~(ii)~~ ~~the~~ ~~Secretary~~ ~~of~~ ~~Human~~ ~~Services,~~ ~~or~~ ~~the~~ ~~Secretary’s~~ ~~designee;~~
+21 ~~(2)~~ ~~The~~ ~~Workgroup~~ ~~shall~~ ~~consist~~ ~~of~~ ~~representatives~~ ~~who~~ ~~have~~ ~~experience~~
+22 ~~and~~ ~~knowledge~~ ~~of~~ ~~working~~ ~~with~~ ~~children~~ ~~with~~ ~~behavioral~~ ~~health~~ ~~challenges,~~ ~~adverse~~
+23 ~~childhood~~ ~~experiences,~~ ~~and~~ ~~developmental~~ ~~disabilities,~~ ~~including:~~
 
-22 ~~(iii)~~ ~~the~~ ~~Secretary~~ ~~of~~ ~~Juvenile~~ ~~Services,~~ ~~or~~ ~~the~~ ~~Secretary’s~~ ~~designee;~~
+24 ~~(i)~~ ~~the~~ ~~Secretary~~ ~~of~~ ~~Health,~~ ~~or~~ ~~the~~ ~~Secretary’s~~ ~~designee;~~
 
-23 ~~(iv)~~ ~~the~~ ~~State~~ ~~Public~~ ~~Defender,~~ ~~or~~ ~~the~~ ~~State~~ ~~Public~~ ~~Defender’s~~
-24 ~~designee;~~ ~~and~~
+25 ~~(ii)~~ ~~the~~ ~~Secretary~~ ~~of~~ ~~Human~~ ~~Services,~~ ~~or~~ ~~the~~ ~~Secretary’s~~ ~~designee;~~
 
-25 ~~(v)~~ ~~the~~ ~~following~~ ~~members,~~ ~~appointed~~ ~~by~~ ~~the~~ ~~Governor:~~
+26 ~~(iii)~~ ~~the~~ ~~Secretary~~ ~~of~~ ~~Juvenile~~ ~~Services,~~ ~~or~~ ~~the~~ ~~Secretary’s~~ ~~designee;~~
 
-26 ~~1.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Maryland~~ ~~Association~~ ~~of~~
-27 ~~Resources~~ ~~for~~ ~~Families~~ ~~and~~ ~~Youth;~~
+27 ~~(iv)~~ ~~the~~ ~~State~~ ~~Public~~ ~~Defender,~~ ~~or~~ ~~the~~ ~~State~~ ~~Public~~ ~~Defender’s~~
+28 ~~designee;~~ ~~and~~
 
-28 ~~2.~~ ~~one~~ ~~representative~~ ~~of~~ ~~Disability~~ ~~Rights~~ ~~Maryland;~~
-
-29 ~~3.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Community~~ ~~Behavioral~~ ~~Health~~
-30 ~~Association~~ ~~of~~ ~~Maryland;~~
+29 ~~(v)~~ ~~the~~ ~~following~~ ~~members,~~ ~~appointed~~ ~~by~~ ~~the~~ ~~Governor:~~
 END OF PAGE 9
 
 START OF PAGE 10
 10 HOUSE BILL 1181
 
-1 ~~4.~~ ~~one~~ ~~representative~~ ~~of~~ ~~Maryland~~ ~~Legal~~ ~~Aid;~~
+1 ~~1.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Maryland~~ ~~Association~~ ~~of~~
+2 ~~Resources~~ ~~for~~ ~~Families~~ ~~and~~ ~~Youth;~~
 
-2 ~~5.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Court~~ ~~Appointed~~ ~~Special~~
-3 ~~Advocates~~ ~~of~~ ~~Maryland;~~
+3 ~~2.~~ ~~one~~ ~~representative~~ ~~of~~ ~~Disability~~ ~~Rights~~ ~~Maryland;~~
 
-4 ~~6.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~National~~ ~~Association~~ ~~of~~ ~~Social~~
-5 ~~Workers~~ ~~–~~ ~~Maryland~~ ~~who~~ ~~is~~ ~~a~~ ~~hospital–based~~ ~~clinical~~ ~~social~~ ~~worker;~~
+4 ~~3.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Community~~ ~~Behavioral~~ ~~Health~~
+5 ~~Association~~ ~~of~~ ~~Maryland;~~
 
-6 ~~7.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Maryland~~ ~~Chapter~~ ~~of~~ ~~the~~
-7 ~~American~~ ~~Academy~~ ~~of~~ ~~Pediatrics;~~
+6 ~~4.~~ ~~one~~ ~~representative~~ ~~of~~ ~~Maryland~~ ~~Legal~~ ~~Aid;~~
 
-8 ~~8.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Maryland~~ ~~Hospital~~ ~~Association;~~
+7 ~~5.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Court~~ ~~Appointed~~ ~~Special~~
+8 ~~Advocates~~ ~~of~~ ~~Maryland;~~
 
-9 ~~9.~~ ~~one~~ ~~representative~~ ~~of~~ ~~a~~ ~~specialty~~ ~~psychiatric~~ ~~hospital;~~
+9 ~~6.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~National~~ ~~Association~~ ~~of~~ ~~Social~~
+10 ~~Workers~~ ~~–~~ ~~Maryland~~ ~~who~~ ~~is~~ ~~a~~ ~~hospital–based~~ ~~clinical~~ ~~social~~ ~~worker;~~
 
-10 ~~10.~~ ~~one~~ ~~representative~~ ~~of~~ ~~a~~ ~~residential~~ ~~treatment~~ ~~provider~~ ~~in~~
-11 ~~the~~ ~~State;~~ ~~and~~
+11 ~~7.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Maryland~~ ~~Chapter~~ ~~of~~ ~~the~~
+12 ~~American~~ ~~Academy~~ ~~of~~ ~~Pediatrics;~~
 
-12 ~~11.~~ ~~one~~ ~~representative~~ ~~of~~ ~~a~~ ~~family~~ ~~of~~ ~~a~~ ~~child~~ ~~in~~ ~~foster~~ ~~care,~~ ~~as~~
-13 ~~defined~~ ~~in~~ ~~§~~ ~~8–101(h)~~ ~~of~~ ~~the~~ ~~Human~~ ~~Services~~ ~~Article.~~
+13 ~~8.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Maryland~~ ~~Hospital~~ ~~Association;~~
 
-14 ~~(3)~~ ~~The~~ ~~members~~ ~~of~~ ~~the~~ ~~Workgroup~~ ~~shall~~ ~~elect~~ ~~the~~ ~~chair~~ ~~and~~ ~~vice~~ ~~chair~~ ~~of~~
-15 ~~the~~ ~~Workgroup.~~
+14 ~~9.~~ ~~one~~ ~~representative~~ ~~of~~ ~~a~~ ~~specialty~~ ~~psychiatric~~ ~~hospital;~~
 
-16 ~~(4)~~ ~~The~~ ~~Workgroup~~ ~~shall~~ ~~meet~~ ~~before~~ ~~August~~ ~~1,~~ ~~2025,~~ ~~and~~ ~~at~~ ~~least~~ ~~once~~
-17 ~~every~~ ~~30~~ ~~days~~ ~~thereafter.~~
+15 ~~10.~~ ~~one~~ ~~representative~~ ~~of~~ ~~a~~ ~~residential~~ ~~treatment~~ ~~provider~~ ~~in~~
+16 ~~the~~ ~~State;~~ ~~and~~
 
-18 ~~(5)~~ ~~The~~ ~~State~~ ~~Council~~ ~~on~~ ~~Child~~ ~~Abuse~~ ~~and~~ ~~Neglect~~ ~~shall~~ ~~provide~~ ~~staff~~ ~~for~~
-19 ~~the~~ ~~Workgroup.~~
+17 ~~11.~~ ~~one~~ ~~representative~~ ~~of~~ ~~a~~ ~~family~~ ~~of~~ ~~a~~ ~~child~~ ~~in~~ ~~foster~~ ~~care,~~ ~~as~~
+18 ~~defined~~ ~~in~~ ~~§~~ ~~8–101(h)~~ ~~of~~ ~~the~~ ~~Human~~ ~~Services~~ ~~Article.~~
 
-20 ~~(6)~~ ~~A~~ ~~member~~ ~~of~~ ~~the~~ ~~Workgroup:~~
+19 ~~(3)~~ ~~The~~ ~~members~~ ~~of~~ ~~the~~ ~~Workgroup~~ ~~shall~~ ~~elect~~ ~~the~~ ~~chair~~ ~~and~~ ~~vice~~ ~~chair~~ ~~of~~
+20 ~~the~~ ~~Workgroup.~~
 
-21 ~~(i)~~ ~~may~~ ~~not~~ ~~receive~~ ~~compensation~~ ~~as~~ ~~a~~ ~~member~~ ~~of~~ ~~the~~ ~~Workgroup;~~
-22 ~~but~~
+21 ~~(4)~~ ~~The~~ ~~Workgroup~~ ~~shall~~ ~~meet~~ ~~before~~ ~~August~~ ~~1,~~ ~~2025,~~ ~~and~~ ~~at~~ ~~least~~ ~~once~~
+22 ~~every~~ ~~30~~ ~~days~~ ~~thereafter.~~
 
-23 ~~(ii)~~ ~~is~~ ~~entitled~~ ~~to~~ ~~reimbursement~~ ~~for~~ ~~expenses~~ ~~under~~ ~~the~~ ~~Standard~~
-24 ~~State~~ ~~Travel~~ ~~Regulations,~~ ~~as~~ ~~provided~~ ~~in~~ ~~the~~ ~~State~~ ~~budget.~~
+23 ~~(5)~~ ~~The~~ ~~State~~ ~~Council~~ ~~on~~ ~~Child~~ ~~Abuse~~ ~~and~~ ~~Neglect~~ ~~shall~~ ~~provide~~ ~~staff~~ ~~for~~
+24 ~~the~~ ~~Workgroup.~~
 
-25 ~~(c)~~ ~~(1)~~ ~~The~~ ~~Workgroup~~ ~~shall:~~
+25 ~~(6)~~ ~~A~~ ~~member~~ ~~of~~ ~~the~~ ~~Workgroup:~~
 
-26 ~~(i)~~ ~~complete~~ ~~an~~ ~~assessment~~ ~~of~~ ~~the~~ ~~number,~~ ~~type,~~ ~~and~~ ~~cost~~ ~~of~~ ~~the~~
-27 ~~additional~~ ~~beds~~ ~~and~~ ~~supportive~~ ~~services~~ ~~needed~~ ~~to~~ ~~place~~ ~~all~~ ~~children~~ ~~in~~ ~~pediatric~~ ~~overstays~~
-28 ~~and~~ ~~other~~ ~~unlicensed~~ ~~settings~~ ~~in~~ ~~the~~ ~~least~~ ~~restrictive~~ ~~settings;~~
+26 ~~(i)~~ ~~may~~ ~~not~~ ~~receive~~ ~~compensation~~ ~~as~~ ~~a~~ ~~member~~ ~~of~~ ~~the~~ ~~Workgroup;~~
+27 ~~but~~
 
-29 ~~(ii)~~ ~~develop~~ ~~a~~ ~~comprehensive~~ ~~and~~ ~~sustainable~~ ~~resource~~ ~~development~~
-30 ~~plan~~ ~~designed~~ ~~to~~ ~~increase~~ ~~the~~ ~~number~~ ~~of~~ ~~licensed~~ ~~settings~~ ~~and~~ ~~end~~ ~~the~~ ~~use~~ ~~of~~ ~~pediatric~~
-31 ~~overstays~~ ~~and~~ ~~unlicensed~~ ~~settings;~~
+28 ~~(ii)~~ ~~is~~ ~~entitled~~ ~~to~~ ~~reimbursement~~ ~~for~~ ~~expenses~~ ~~under~~ ~~the~~ ~~Standard~~
+29 ~~State~~ ~~Travel~~ ~~Regulations,~~ ~~as~~ ~~provided~~ ~~in~~ ~~the~~ ~~State~~ ~~budget.~~
+
+30 ~~(c)~~ ~~(1)~~ ~~The~~ ~~Workgroup~~ ~~shall:~~
 END OF PAGE 10
 
 START OF PAGE 11
 HOUSE BILL 1181 11
 
-1 ~~(iii)~~ ~~develop~~ ~~an~~ ~~implementation~~ ~~plan~~ ~~with~~ ~~comprehensive~~ ~~data~~ ~~to~~
-2 inform the plan; [and]
+1 ~~(i)~~ ~~complete~~ ~~an~~ ~~assessment~~ ~~of~~ ~~the~~ ~~number,~~ ~~type,~~ ~~and~~ ~~cost~~ ~~of~~ ~~the~~
+2 ~~additional~~ ~~beds~~ ~~and~~ ~~supportive~~ ~~services~~ ~~needed~~ ~~to~~ ~~place~~ ~~all~~ ~~children~~ ~~in~~ ~~pediatric~~ ~~overstays~~
+3 ~~and~~ ~~other~~ ~~unlicensed~~ ~~settings~~ ~~in~~ ~~the~~ ~~least~~ ~~restrictive~~ ~~settings;~~
 
-3 ~~(iv)~~ ~~determine~~ ~~the~~ ~~anticipated~~ ~~timeline~~ ~~for~~ ~~when~~ ~~the~~ ~~practice~~ ~~of~~
-4 placing children in unlicensed settings will cease;
+4 ~~(ii)~~ ~~develop~~ ~~a~~ ~~comprehensive~~ ~~and~~ ~~sustainable~~ ~~resource~~ ~~development~~
+5 ~~plan~~ ~~designed~~ ~~to~~ ~~increase~~ ~~the~~ ~~number~~ ~~of~~ ~~licensed~~ ~~settings~~ ~~and~~ ~~end~~ ~~the~~ ~~use~~ ~~of~~ ~~pediatric~~
+6 ~~overstays~~ ~~and~~ ~~unlicensed~~ ~~settings;~~
 
-5 (V) STUDY VOLUNTARY PLACEMENT AGREEMENTS FOR
-6 CHILDREN WITH A DEVELOPMENTAL DISABILITY OR MENTAL ILLNESS; AND
+7 ~~(iii)~~ ~~develop~~ ~~an~~ ~~implementation~~ ~~plan~~ ~~with~~ ~~comprehensive~~ ~~data~~ ~~to~~
+8 inform the plan; [and]
 
-7 (VI) RECOMMEND STATUTORY AND BUDGETARY CHANGES
-8 NECESSARY TO TRANSFER FUNDING FROM THE DEPARTMENT OF HUMAN SERVICES
-9 TO THE MARYLAND DEPARTMENT OF HEALTH.
+9 ~~(iv)~~ ~~determine~~ ~~the~~ ~~anticipated~~ ~~timeline~~ ~~for~~ ~~when~~ ~~the~~ ~~practice~~ ~~of~~
+10 placing children in unlicensed settings will cease;
 
-10 (2) On or before October 1, [2025] 2026, the Workgroup shall report its
-11 findings and recommendations to the Governor, THE JOINT COMMITTEE ON CHILDREN,
-12 YOUTH, AND FAMILIES, and, in accordance with § 2–1257 of the State Government
-13 ~~Article,~~ ~~the~~ ~~General~~ ~~Assembly.~~
+11 (V) STUDY VOLUNTARY PLACEMENT AGREEMENTS FOR
+12 CHILDREN WITH A DEVELOPMENTAL DISABILITY OR MENTAL ILLNESS; AND
 
-14 ~~Chapter~~ ~~480~~ ~~of~~ ~~the~~ ~~Acts~~ ~~of~~ ~~2025~~
+13 (VI) RECOMMEND STATUTORY AND BUDGETARY CHANGES
+14 NECESSARY TO TRANSFER FUNDING FROM THE DEPARTMENT OF HUMAN SERVICES
+15 TO THE MARYLAND DEPARTMENT OF HEALTH.
 
-15 ~~SECTION~~ ~~2.~~ ~~AND~~ ~~BE~~ ~~IT~~ ~~FURTHER~~ ~~ENACTED,~~ ~~That:~~
+16 (2) On or before October 1, [2025] 2026, the Workgroup shall report its
+17 findings and recommendations to the Governor, THE JOINT COMMITTEE ON CHILDREN,
+18 YOUTH, AND FAMILIES, and, in accordance with § 2–1257 of the State Government
+19 ~~Article,~~ ~~the~~ ~~General~~ ~~Assembly.~~
 
-16 ~~(a)~~ ~~(1)~~ ~~In~~ ~~this~~ ~~section,~~ ~~“child~~ ~~in~~ ~~an~~ ~~unlicensed~~ ~~setting”~~ ~~means~~ ~~an~~ ~~individual~~
-17 ~~under~~ ~~the~~ ~~age~~ ~~of~~ ~~21~~ ~~years~~ ~~in~~ ~~an~~ ~~out–of–home~~ ~~placement~~ ~~who~~ ~~is~~ ~~residing~~ ~~in~~ ~~a~~ ~~hotel,~~ ~~an~~ ~~office~~
-18 ~~building,~~ ~~a~~ ~~shelter,~~ ~~or~~ ~~any~~ ~~other~~ ~~unlicensed~~ ~~setting.~~
+20 ~~Chapter~~ ~~480~~ ~~of~~ ~~the~~ ~~Acts~~ ~~of~~ ~~2025~~
 
-19 ~~(2)~~ ~~“Child~~ ~~in~~ ~~an~~ ~~unlicensed~~ ~~setting”~~ ~~does~~ ~~not~~ ~~include~~ ~~an~~ ~~individual~~ ~~under~~
-20 ~~the~~ ~~age~~ ~~of~~ ~~21~~ ~~years~~ ~~who~~ ~~is~~ ~~receiving~~ ~~a~~ ~~self–independent~~ ~~living~~ ~~stipend,~~ ~~living~~ ~~with~~ ~~kin~~
-21 ~~awaiting~~ ~~approval~~ ~~for~~ ~~a~~ ~~placement,~~ ~~or~~ ~~on~~ ~~aftercare~~ ~~with~~ ~~a~~ ~~parent.~~
+21 ~~SECTION~~ ~~2.~~ ~~AND~~ ~~BE~~ ~~IT~~ ~~FURTHER~~ ~~ENACTED,~~ ~~That:~~
 
-22 ~~(b)~~ ~~(1)~~ ~~There~~ ~~is~~ ~~a~~ ~~Workgroup~~ ~~on~~ ~~Children~~ ~~in~~ ~~Unlicensed~~ ~~Settings~~ ~~and~~ ~~Pediatric~~
-23 ~~Hospital~~ ~~Overstays~~ ~~in~~ ~~the~~ ~~State.~~
+22 ~~(a)~~ ~~(1)~~ ~~In~~ ~~this~~ ~~section,~~ ~~“child~~ ~~in~~ ~~an~~ ~~unlicensed~~ ~~setting”~~ ~~means~~ ~~an~~ ~~individual~~
+23 ~~under~~ ~~the~~ ~~age~~ ~~of~~ ~~21~~ ~~years~~ ~~in~~ ~~an~~ ~~out–of–home~~ ~~placement~~ ~~who~~ ~~is~~ ~~residing~~ ~~in~~ ~~a~~ ~~hotel,~~ ~~an~~ ~~office~~
+24 ~~building,~~ ~~a~~ ~~shelter,~~ ~~or~~ ~~any~~ ~~other~~ ~~unlicensed~~ ~~setting.~~
 
-24 ~~(2)~~ ~~The~~ ~~Workgroup~~ ~~shall~~ ~~consist~~ ~~of~~ ~~representatives~~ ~~who~~ ~~have~~ ~~experience~~
-25 ~~and~~ ~~knowledge~~ ~~of~~ ~~working~~ ~~with~~ ~~children~~ ~~with~~ ~~behavioral~~ ~~health~~ ~~challenges,~~ ~~adverse~~
-26 ~~childhood~~ ~~experiences,~~ ~~and~~ ~~developmental~~ ~~disabilities,~~ ~~including:~~
+25 ~~(2)~~ ~~“Child~~ ~~in~~ ~~an~~ ~~unlicensed~~ ~~setting”~~ ~~does~~ ~~not~~ ~~include~~ ~~an~~ ~~individual~~ ~~under~~
+26 ~~the~~ ~~age~~ ~~of~~ ~~21~~ ~~years~~ ~~who~~ ~~is~~ ~~receiving~~ ~~a~~ ~~self–independent~~ ~~living~~ ~~stipend,~~ ~~living~~ ~~with~~ ~~kin~~
+27 ~~awaiting~~ ~~approval~~ ~~for~~ ~~a~~ ~~placement,~~ ~~or~~ ~~on~~ ~~aftercare~~ ~~with~~ ~~a~~ ~~parent.~~
 
-27 ~~(i)~~ ~~the~~ ~~Secretary~~ ~~of~~ ~~Health,~~ ~~or~~ ~~the~~ ~~Secretary’s~~ ~~designee;~~
+28 ~~(b)~~ ~~(1)~~ ~~There~~ ~~is~~ ~~a~~ ~~Workgroup~~ ~~on~~ ~~Children~~ ~~in~~ ~~Unlicensed~~ ~~Settings~~ ~~and~~ ~~Pediatric~~
+29 ~~Hospital~~ ~~Overstays~~ ~~in~~ ~~the~~ ~~State.~~
 
-28 ~~(ii)~~ ~~the~~ ~~Secretary~~ ~~of~~ ~~Human~~ ~~Services,~~ ~~or~~ ~~the~~ ~~Secretary’s~~ ~~designee;~~
-
-29 ~~(iii)~~ ~~the~~ ~~Secretary~~ ~~of~~ ~~Juvenile~~ ~~Services,~~ ~~or~~ ~~the~~ ~~Secretary’s~~ ~~designee;~~
-
-30 ~~(iv)~~ ~~the~~ ~~State~~ ~~Public~~ ~~Defender,~~ ~~or~~ ~~the~~ ~~State~~ ~~Public~~ ~~Defender’s~~
-31 ~~designee;~~ ~~and~~
+30 ~~(2)~~ ~~The~~ ~~Workgroup~~ ~~shall~~ ~~consist~~ ~~of~~ ~~representatives~~ ~~who~~ ~~have~~ ~~experience~~
+31 ~~and~~ ~~knowledge~~ ~~of~~ ~~working~~ ~~with~~ ~~children~~ ~~with~~ ~~behavioral~~ ~~health~~ ~~challenges,~~ ~~adverse~~
+32 ~~childhood~~ ~~experiences,~~ ~~and~~ ~~developmental~~ ~~disabilities,~~ ~~including:~~
 END OF PAGE 11
 
 START OF PAGE 12
 12 HOUSE BILL 1181
 
-1 ~~(v)~~ ~~the~~ ~~following~~ ~~members,~~ ~~appointed~~ ~~by~~ ~~the~~ ~~Governor:~~
+1 ~~(i)~~ ~~the~~ ~~Secretary~~ ~~of~~ ~~Health,~~ ~~or~~ ~~the~~ ~~Secretary’s~~ ~~designee;~~
 
-2 ~~1.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Maryland~~ ~~Association~~ ~~of~~
-3 ~~Resources~~ ~~for~~ ~~Families~~ ~~and~~ ~~Youth;~~
+2 ~~(ii)~~ ~~the~~ ~~Secretary~~ ~~of~~ ~~Human~~ ~~Services,~~ ~~or~~ ~~the~~ ~~Secretary’s~~ ~~designee;~~
 
-4 ~~2.~~ ~~one~~ ~~representative~~ ~~of~~ ~~Disability~~ ~~Rights~~ ~~Maryland;~~
+3 ~~(iii)~~ ~~the~~ ~~Secretary~~ ~~of~~ ~~Juvenile~~ ~~Services,~~ ~~or~~ ~~the~~ ~~Secretary’s~~ ~~designee;~~
 
-5 ~~3.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Community~~ ~~Behavioral~~ ~~Health~~
-6 ~~Association~~ ~~of~~ ~~Maryland;~~
+4 ~~(iv)~~ ~~the~~ ~~State~~ ~~Public~~ ~~Defender,~~ ~~or~~ ~~the~~ ~~State~~ ~~Public~~ ~~Defender’s~~
+5 ~~designee;~~ ~~and~~
 
-7 ~~4.~~ ~~one~~ ~~representative~~ ~~of~~ ~~Maryland~~ ~~Legal~~ ~~Aid;~~
+6 ~~(v)~~ ~~the~~ ~~following~~ ~~members,~~ ~~appointed~~ ~~by~~ ~~the~~ ~~Governor:~~
 
-8 ~~5.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Court~~ ~~Appointed~~ ~~Special~~
-9 ~~Advocates~~ ~~of~~ ~~Maryland;~~
+7 ~~1.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Maryland~~ ~~Association~~ ~~of~~
+8 ~~Resources~~ ~~for~~ ~~Families~~ ~~and~~ ~~Youth;~~
 
-10 ~~6.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~National~~ ~~Association~~ ~~of~~ ~~Social~~
-11 ~~Workers~~ ~~–~~ ~~Maryland~~ ~~who~~ ~~is~~ ~~a~~ ~~hospital–based~~ ~~clinical~~ ~~social~~ ~~worker;~~
+9 ~~2.~~ ~~one~~ ~~representative~~ ~~of~~ ~~Disability~~ ~~Rights~~ ~~Maryland;~~
 
-12 ~~7.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Maryland~~ ~~Chapter~~ ~~of~~ ~~the~~
-13 ~~American~~ ~~Academy~~ ~~of~~ ~~Pediatrics;~~
+10 ~~3.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Community~~ ~~Behavioral~~ ~~Health~~
+11 ~~Association~~ ~~of~~ ~~Maryland;~~
 
-14 ~~8.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Maryland~~ ~~Hospital~~ ~~Association;~~
+12 ~~4.~~ ~~one~~ ~~representative~~ ~~of~~ ~~Maryland~~ ~~Legal~~ ~~Aid;~~
 
-15 ~~9.~~ ~~one~~ ~~representative~~ ~~of~~ ~~a~~ ~~specialty~~ ~~psychiatric~~ ~~hospital;~~
+13 ~~5.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Court~~ ~~Appointed~~ ~~Special~~
+14 ~~Advocates~~ ~~of~~ ~~Maryland;~~
 
-16 ~~10.~~ ~~one~~ ~~representative~~ ~~of~~ ~~a~~ ~~residential~~ ~~treatment~~ ~~provider~~ ~~in~~
-17 ~~the~~ ~~State;~~ ~~and~~
+15 ~~6.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~National~~ ~~Association~~ ~~of~~ ~~Social~~
+16 ~~Workers~~ ~~–~~ ~~Maryland~~ ~~who~~ ~~is~~ ~~a~~ ~~hospital–based~~ ~~clinical~~ ~~social~~ ~~worker;~~
 
-18 ~~11.~~ ~~one~~ ~~representative~~ ~~of~~ ~~a~~ ~~family~~ ~~of~~ ~~a~~ ~~child~~ ~~in~~ ~~foster~~ ~~care,~~ ~~as~~
-19 ~~defined~~ ~~in~~ ~~§~~ ~~8–101(h)~~ ~~of~~ ~~the~~ ~~Human~~ ~~Services~~ ~~Article.~~
+17 ~~7.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Maryland~~ ~~Chapter~~ ~~of~~ ~~the~~
+18 ~~American~~ ~~Academy~~ ~~of~~ ~~Pediatrics;~~
 
-20 ~~(3)~~ ~~The~~ ~~members~~ ~~of~~ ~~the~~ ~~Workgroup~~ ~~shall~~ ~~elect~~ ~~the~~ ~~chair~~ ~~and~~ ~~vice~~ ~~chair~~ ~~of~~
-21 ~~the~~ ~~Workgroup.~~
+19 ~~8.~~ ~~one~~ ~~representative~~ ~~of~~ ~~the~~ ~~Maryland~~ ~~Hospital~~ ~~Association;~~
 
-22 ~~(4)~~ ~~The~~ ~~Workgroup~~ ~~shall~~ ~~meet~~ ~~before~~ ~~August~~ ~~1,~~ ~~2025,~~ ~~and~~ ~~at~~ ~~least~~ ~~once~~
-23 ~~every~~ ~~30~~ ~~days~~ ~~thereafter.~~
+20 ~~9.~~ ~~one~~ ~~representative~~ ~~of~~ ~~a~~ ~~specialty~~ ~~psychiatric~~ ~~hospital;~~
 
-24 ~~(5)~~ ~~The~~ ~~State~~ ~~Council~~ ~~on~~ ~~Child~~ ~~Abuse~~ ~~and~~ ~~Neglect~~ ~~shall~~ ~~provide~~ ~~staff~~ ~~for~~
-25 ~~the~~ ~~Workgroup.~~
+21 ~~10.~~ ~~one~~ ~~representative~~ ~~of~~ ~~a~~ ~~residential~~ ~~treatment~~ ~~provider~~ ~~in~~
+22 ~~the~~ ~~State;~~ ~~and~~
 
-26 ~~(6)~~ ~~A~~ ~~member~~ ~~of~~ ~~the~~ ~~Workgroup:~~
+23 ~~11.~~ ~~one~~ ~~representative~~ ~~of~~ ~~a~~ ~~family~~ ~~of~~ ~~a~~ ~~child~~ ~~in~~ ~~foster~~ ~~care,~~ ~~as~~
+24 ~~defined~~ ~~in~~ ~~§~~ ~~8–101(h)~~ ~~of~~ ~~the~~ ~~Human~~ ~~Services~~ ~~Article.~~
 
-27 ~~(i)~~ ~~may~~ ~~not~~ ~~receive~~ ~~compensation~~ ~~as~~ ~~a~~ ~~member~~ ~~of~~ ~~the~~ ~~Workgroup;~~
-28 ~~but~~
+25 ~~(3)~~ ~~The~~ ~~members~~ ~~of~~ ~~the~~ ~~Workgroup~~ ~~shall~~ ~~elect~~ ~~the~~ ~~chair~~ ~~and~~ ~~vice~~ ~~chair~~ ~~of~~
+26 ~~the~~ ~~Workgroup.~~
 
-29 ~~(ii)~~ ~~is~~ ~~entitled~~ ~~to~~ ~~reimbursement~~ ~~for~~ ~~expenses~~ ~~under~~ ~~the~~ ~~Standard~~
-30 ~~State~~ ~~Travel~~ ~~Regulations,~~ ~~as~~ ~~provided~~ ~~in~~ ~~the~~ ~~State~~ ~~budget.~~
+27 ~~(4)~~ ~~The~~ ~~Workgroup~~ ~~shall~~ ~~meet~~ ~~before~~ ~~August~~ ~~1,~~ ~~2025,~~ ~~and~~ ~~at~~ ~~least~~ ~~once~~
+28 ~~every~~ ~~30~~ ~~days~~ ~~thereafter.~~
 END OF PAGE 12
 
 START OF PAGE 13
 HOUSE BILL 1181 13
 
-1 ~~(c)~~ ~~(1)~~ ~~The~~ ~~Workgroup~~ ~~shall:~~
+1 ~~(5)~~ ~~The~~ ~~State~~ ~~Council~~ ~~on~~ ~~Child~~ ~~Abuse~~ ~~and~~ ~~Neglect~~ ~~shall~~ ~~provide~~ ~~staff~~ ~~for~~
+2 ~~the~~ ~~Workgroup.~~
 
-2 ~~(i)~~ ~~complete~~ ~~an~~ ~~assessment~~ ~~of~~ ~~the~~ ~~number,~~ ~~type,~~ ~~and~~ ~~cost~~ ~~of~~ ~~the~~
-3 ~~additional~~ ~~beds~~ ~~and~~ ~~supportive~~ ~~services~~ ~~needed~~ ~~to~~ ~~place~~ ~~all~~ ~~children~~ ~~in~~ ~~pediatric~~ ~~overstays~~
-4 ~~and~~ ~~other~~ ~~unlicensed~~ ~~settings~~ ~~in~~ ~~the~~ ~~least~~ ~~restrictive~~ ~~settings;~~
+3 ~~(6)~~ ~~A~~ ~~member~~ ~~of~~ ~~the~~ ~~Workgroup:~~
 
-5 ~~(ii)~~ ~~develop~~ ~~a~~ ~~comprehensive~~ ~~and~~ ~~sustainable~~ ~~resource~~ ~~development~~
-6 ~~plan~~ ~~designed~~ ~~to~~ ~~increase~~ ~~the~~ ~~number~~ ~~of~~ ~~licensed~~ ~~settings~~ ~~and~~ ~~end~~ ~~the~~ ~~use~~ ~~of~~ ~~pediatric~~
-7 ~~overstays~~ ~~and~~ ~~unlicensed~~ ~~settings;~~
+4 ~~(i)~~ ~~may~~ ~~not~~ ~~receive~~ ~~compensation~~ ~~as~~ ~~a~~ ~~member~~ ~~of~~ ~~the~~ ~~Workgroup;~~
+5 ~~but~~
 
-8 ~~(iii)~~ ~~develop~~ ~~an~~ ~~implementation~~ ~~plan~~ ~~with~~ ~~comprehensive~~ ~~data~~ ~~to~~
-9 inform the plan; [and]
+6 ~~(ii)~~ ~~is~~ ~~entitled~~ ~~to~~ ~~reimbursement~~ ~~for~~ ~~expenses~~ ~~under~~ ~~the~~ ~~Standard~~
+7 ~~State~~ ~~Travel~~ ~~Regulations,~~ ~~as~~ ~~provided~~ ~~in~~ ~~the~~ ~~State~~ ~~budget.~~
 
-10 ~~(iv)~~ ~~determine~~ ~~the~~ ~~anticipated~~ ~~timeline~~ ~~for~~ ~~when~~ ~~the~~ ~~practice~~ ~~of~~
-11 placing children in unlicensed settings will cease;
+8 ~~(c)~~ ~~(1)~~ ~~The~~ ~~Workgroup~~ ~~shall:~~
 
-12 (V) STUDY VOLUNTARY PLACEMENT AGREEMENTS FOR
-13 CHILDREN WITH A DEVELOPMENTAL DISABILITY OR MENTAL ILLNESS; AND
+9 ~~(i)~~ ~~complete~~ ~~an~~ ~~assessment~~ ~~of~~ ~~the~~ ~~number,~~ ~~type,~~ ~~and~~ ~~cost~~ ~~of~~ ~~the~~
+10 ~~additional~~ ~~beds~~ ~~and~~ ~~supportive~~ ~~services~~ ~~needed~~ ~~to~~ ~~place~~ ~~all~~ ~~children~~ ~~in~~ ~~pediatric~~ ~~overstays~~
+11 ~~and~~ ~~other~~ ~~unlicensed~~ ~~settings~~ ~~in~~ ~~the~~ ~~least~~ ~~restrictive~~ ~~settings;~~
 
-14 (VI) RECOMMEND STATUTORY AND BUDGETARY CHANGES
-15 NECESSARY TO TRANSFER FUNDING FROM THE DEPARTMENT OF HUMAN SERVICES
-16 TO THE MARYLAND DEPARTMENT OF HEALTH.
+12 ~~(ii)~~ ~~develop~~ ~~a~~ ~~comprehensive~~ ~~and~~ ~~sustainable~~ ~~resource~~ ~~development~~
+13 ~~plan~~ ~~designed~~ ~~to~~ ~~increase~~ ~~the~~ ~~number~~ ~~of~~ ~~licensed~~ ~~settings~~ ~~and~~ ~~end~~ ~~the~~ ~~use~~ ~~of~~ ~~pediatric~~
+14 ~~overstays~~ ~~and~~ ~~unlicensed~~ ~~settings;~~
 
-17 (2) On or before October 1, [2025] 2026, the Workgroup shall report its
-18 findings and recommendations to the Governor, THE JOINT COMMITTEE ON CHILDREN,
-19 YOUTH, AND FAMILIES, and, in accordance with § 2–1257 of the State Government
-20 ~~Article,~~ ~~the~~ ~~General~~ ~~Assembly.~~
+15 ~~(iii)~~ ~~develop~~ ~~an~~ ~~implementation~~ ~~plan~~ ~~with~~ ~~comprehensive~~ ~~data~~ ~~to~~
+16 inform the plan; [and]
 
-21 SECTION 2. AND BE IT FURTHER ENACTED, That, on or before October 1, 2029,
-22 the Department of Human Services and the Maryland Department of Health shall submit
-23 a joint report to the Governor, the Joint Committee on Children, Youth, and Families, and,
-24 in accordance with § 2–1257 of the State Government Article, the General Assembly that
-25 contains the following information concerning children who are placed in an out–of–home
-26 placement under a voluntary placement agreement:
+17 ~~(iv)~~ ~~determine~~ ~~the~~ ~~anticipated~~ ~~timeline~~ ~~for~~ ~~when~~ ~~the~~ ~~practice~~ ~~of~~
+18 placing children in unlicensed settings will cease;
 
-27 (1) the impact on hospital discharge delays;
+19 (V) STUDY VOLUNTARY PLACEMENT AGREEMENTS FOR
+20 CHILDREN WITH A DEVELOPMENTAL DISABILITY OR MENTAL ILLNESS; AND
 
-28 (2) family outcomes and reunification rates;
+21 (VI) RECOMMEND STATUTORY AND BUDGETARY CHANGES
+22 NECESSARY TO TRANSFER FUNDING FROM THE DEPARTMENT OF HUMAN SERVICES
+23 TO THE MARYLAND DEPARTMENT OF HEALTH.
 
-29 (3) the implementation status of voluntary placement agreement reform;
-30 and
+24 (2) On or before October 1, [2025] 2026, the Workgroup shall report its
+25 findings and recommendations to the Governor, THE JOINT COMMITTEE ON CHILDREN,
+26 YOUTH, AND FAMILIES, and, in accordance with § 2–1257 of the State Government
+27 ~~Article,~~ ~~the~~ ~~General~~ ~~Assembly.~~
 
-31 (4) recommendations for changes in the law.
-
-32 SECTION 3. AND BE IT FURTHER ENACTED, That the balance of any child
-33 support owed to the State before the effective date of this Act for a child whose parent or
-34 guardian has entered into a voluntary placement agreement with a local department shall
-35 be unenforceable and uncollectable on the taking effect of this Act.
+28 SECTION 2. AND BE IT FURTHER ENACTED, That, on or before October 1, 2029,
+29 the Department of Human Services and the Maryland Department of Health shall submit
+30 a joint report to the Governor, the Joint Committee on Children, Youth, and Families, and,
+31 in accordance with § 2–1257 of the State Government Article, the General Assembly that
+32 contains the following information concerning children who are placed in an out–of–home
+33 placement under a voluntary placement agreement:
 END OF PAGE 13
 
 START OF PAGE 14
 14 HOUSE BILL 1181
 
-1 SECTION 4. AND BE IT FURTHER ENACTED, That this Act shall take effect
-2 October 1, 2026.
+1 (1) the impact on hospital discharge delays;
+
+2 (2) family outcomes and reunification rates;
+
+3 (3) the implementation status of voluntary placement agreement reform;
+4 and
+
+5 (4) recommendations for changes in the law.
+
+6 SECTION 3. AND BE IT FURTHER ENACTED, That the balance of any child
+7 support owed to the State before the effective date of this Act for a child whose parent or
+8 guardian has entered into a voluntary placement agreement with a local department shall
+9 be unenforceable and uncollectable on the taking effect of this Act.
+
+10 SECTION ~~3.~~ 4. AND BE IT FURTHER ENACTED, That this Act shall take effect
+11 ~~July~~ October 1, 2026.
 
 Approved:
 
@@ -669,4 +673,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 14
-</bill>

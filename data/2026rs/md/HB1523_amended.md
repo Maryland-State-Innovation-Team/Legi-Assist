@@ -1,12 +1,10 @@
-<bill>
-<bill>
-START OF PAGE 1
+```markdown
 HOUSE BILL 1523
 
 J1, A1 (6lr2655)
 ENROLLED BILL
 — Health and Judiciary/Finance —
-Introduced by ~~Delegate~~ ~~Ross~~ Delegates Ross, Alston, Bagnall, Cullison, Guzzone,
+Introduced by Delegates Ross, Alston, Bagnall, Cullison, Guzzone,
 Hill, Hutchinson, S. Johnson, Kaufman, Kipke, Lopez, Martinez, M. Morgan,
 Reilly, Rosenberg, Szeliga, Taveras, White Holland, and Woorman
 
@@ -31,13 +29,13 @@ CHAPTER ______
 2 Alcohol, Tobacco, and Cannabis Commission – Unauthorized Consumable
 3 Products – Enforcement and Seizure
 
-4 FOR the privilege of altering the violations of law with respect to which the Field
+4 FOR the purpose of altering the violations of law with respect to which the Field
 5 Enforcement Division of the Alcohol, Tobacco, and Cannabis Commission is
 6 authorized to issue a citation or charging document; prohibiting a retailer from
 7 distributing, selling, exposing for sale, or advertising for sale unauthorized
 8 consumable products; authorizing the Executive Director of the Commission to seize,
 9 confiscate, or destroy unauthorized consumable products and certain other products;
-10 establishing and ~~repealing~~ altering certain provisions governing the enforcement of
+10 establishing and altering certain provisions governing the enforcement of
 11 certain prohibitions related to unauthorized consumable products; requiring the
 12 Maryland Department of Health to report certain changes related to unauthorized
 13 consumable products to the Alcohol, Tobacco, and Cannabis Commission within a
@@ -210,8 +208,8 @@ HOUSE BILL 1523 5
 7 2E OF THE HEALTH – GENERAL ARTICLE;
 
 8 (III) A PHENIBUT PRODUCT AS DEFINED IN § 21–2F–01 OF THE
-9 HEALTH – GENERAL ARTICLE THAT DOES NOT COMPLY WITH TITLE 21, SUBTITLE
-10 2F OF THE HEALTH – GENERAL ARTICLE; AND
+9 HEALTH – GENERAL ARTICLE THAT DOES NOT COMPLY WITH TITLE 21,
+10 SUBTITLE 2F OF THE HEALTH – GENERAL ARTICLE; AND
 
 11 (IV) A CONSUMABLE PRODUCT THAT CONTAINS A POISONOUS OR
 12 DELETERIOUS SUBSTANCE IN VIOLATION OF A RULE OR REGULATION ADOPTED
@@ -229,424 +227,50 @@ HOUSE BILL 1523 5
 20 (2) A PRODUCT THAT IS LABELED, ADVERTISED, REPRESENTED, OR
 21 OFFERED FOR SALE AS CONTAINING:
 
-22 (I) 7–HYDROXYMITRAGYNINE IN AN AMOUNT THAT:
+22 (I) ~~KRATOM;~~
 
-23 1. FOR A KRATOM PRODUCT, IS GREATER THAN THE
-24 AMOUNT PERMITTED UNDER § 21–2E–02(B)(1)(III) OF THE HEALTH – GENERAL
-25 ARTICLE; OR
-
-26 2. IS GREATER THAN 1 MILLIGRAM PER SERVING;
+23 ~~(II)~~ 7–HYDROXYMITRAGYNINE IN AN AMOUNT THAT:
 END OF PAGE 5
 
 START OF PAGE 6
 6 HOUSE BILL 1523
 
-1 (II) TIANEPTINE SODIUM;
+1 1. FOR A KRATOM PRODUCT, IS GREATER THAN THE
+2 AMOUNT PERMITTED UNDER § 21–2E–02(B)(1)(III) OF THE HEALTH – GENERAL
+3 ARTICLE; OR
 
-2 (III) TIANEPTINE SULFATE; OR
+4 2. IS GREATER THAN 1 MILLIGRAM PER SERVING;
 
-3 (IV) BETA–PHENYL–GAMMA–AMINOBUTYRIC ACID HCL.
+5 ~~(III)~~ ~~ANY~~ ~~PART~~ ~~OF~~ ~~THE~~ ~~PLANT~~ ~~MITRAGYNA~~ ~~SPECIOSA;~~
 
-4 (D) A PRODUCT SEIZED UNDER SUBSECTION (C) OF THIS SECTION IS
-5 PRESUMED TO BE CONTRABAND AND SUBJECT TO SUMMARY FORFEITURE UNLESS
-6 THE PERSON FROM WHOM THE PRODUCT WAS SEIZED DEMONSTRATES THE
-7 PRODUCT IS:
+6 ~~(IV)~~ (II) TIANEPTINE SODIUM;
 
-8 (1) IF APPLICABLE, IN COMPLIANCE WITH TITLE 21, SUBTITLE 2E OF
-9 THE HEALTH – GENERAL ARTICLE; OR
+7 ~~(V)~~ (III) TIANEPTINE SULFATE; OR
 
-10 (2) AUTHORIZED FOR SALE AND DISTRIBUTION FOR THE PURPOSES
-11 OF HUMAN CONSUMPTION BY:
+8 ~~(VI)~~ ~~PHENIBUT;~~ ~~OR~~
 
-12 (I) THE MARYLAND DEPARTMENT OF HEALTH; OR
+9 ~~(VII)~~ (IV) BETA–PHENYL–GAMMA–AMINOBUTYRIC ACID HCL.
 
-13 (II) THE U.S. FOOD AND DRUG ADMINISTRATION.
+10 (D) A PRODUCT SEIZED UNDER SUBSECTION (C) OF THIS SECTION IS
+11 PRESUMED TO BE CONTRABAND AND SUBJECT TO SUMMARY FORFEITURE UNLESS
+12 THE PERSON FROM WHOM THE PRODUCT WAS SEIZED DEMONSTRATES THE
+13 PRODUCT IS:
 
-14 (E) A RETAILER THAT VIOLATES SUBSECTION (B) OF THIS SECTION IS
-15 GUILTY OF A MISDEMEANOR AND ON CONVICTION IS SUBJECT TO A FINE NOT
-16 EXCEEDING $5,000.
+14 (1) IF APPLICABLE, IN COMPLIANCE WITH TITLE 21, SUBTITLE 2E OF
+15 THE HEALTH – GENERAL ARTICLE; OR
 
-17 (F) IN ADDITION TO THE PENALTIES ESTABLISHED UNDER THIS SECTION:
+16 (2) AUTHORIZED FOR SALE AND DISTRIBUTION FOR THE PURPOSES
+17 OF HUMAN CONSUMPTION BY:
 
-18 (1) THE DISTRICT COURT MAY ORDER THE EXECUTIVE DIRECTOR,
-19 THE COMPTROLLER, OR THE APPLICABLE LOCAL LICENSING BOARD OR
-20 COMMISSION TO:
+18 (I) THE MARYLAND DEPARTMENT OF HEALTH; OR
 
-21 (I) SUSPEND OR REVOKE A LICENSE ISSUED UNDER THIS
-22 ARTICLE OR TITLE 16, 16.5, 16.7, OR 17 OF THE BUSINESS REGULATION ARTICLE;
-23 AND
+19 (II) THE U.S. FOOD AND DRUG ADMINISTRATION.
 
-24 (II) DISPOSE OF OR DESTROY AN UNAUTHORIZED CONSUMABLE
-25 PRODUCT SEIZED UNDER SUBSECTION (C) OF THIS SECTION; AND
+20 (E) A RETAILER THAT VIOLATES SUBSECTION (B) OF THIS SECTION IS
+21 GUILTY OF A MISDEMEANOR AND ON CONVICTION IS SUBJECT TO A FINE NOT
+22 EXCEEDING $5,000.
 
-26 (2) A RETAILER THAT VIOLATES THIS SECTION IS LIABLE FOR CIVIL
-27 DAMAGES SUSTAINED BY AN INDIVIDUAL THAT RESULT FROM THE VIOLATION.
+23 (F) IN ADDITION TO THE PENALTIES ESTABLISHED UNDER THIS SECTION:
 
-28 6–101.
-
-29 (a) Alcoholic beverages, UNAUTHORIZED CONSUMABLE PRODUCTS, AS
-30 DEFINED UNDER § 1–323 OF THIS ARTICLE, and other contraband kept, possessed, used,
-31 sold, manufactured, stored, or transported in violation of this article:
-
-32 (1) are subject to seizure and forfeiture; and
-
-33 (2) when seized, may be recovered or disposed of only as provided in this
-34 subtitle.
-
-35 (b) Property is forfeited if it:
-
-36 (1) was seized as contraband in the possession or control of a defendant
-37 who is found guilty of violating this article; [or]
-
-38 (2) is otherwise found to be contraband or in violation of this article; OR
-
-39 (3) WAS SEIZED IN ACCORDANCE WITH § 1–323 OF THIS ARTICLE.
-
-40 (c) (1) Except as provided in paragraph (2) of this subsection, property is
-41 forfeited if it:
-
-42 (i) is seized as contraband and remains unclaimed for 30 days after
-43 seizure; and
-
-44 (ii) has not been destroyed in accordance with this subtitle.
-
-45 (2) (i) A vehicle, a vessel, or an aircraft that is seized as contraband is
-46 forfeited unless a protest is filed within 30 days after the publication under subparagraph
-47 (ii) of this paragraph.
-
-48 (ii) The Comptroller or the Executive Director, as appropriate:
-END OF PAGE 7
-
-START OF PAGE 8
-8 HOUSE BILL 1523
-
-1 1. if possible, shall notify the registered owner of the
-2 property of the seizure; and
-
-3 2. shall publish a notice:
-
-4 A. in a newspaper of general circulation in the county where
-5 the vehicle, vessel, or aircraft was seized; and
-
-6 B. informing interested persons of the seizure and the right
-7 to file a protest.
-
-8 6–207.
-
-9 (a) In this section, “tetrahydrocannabinol” has the meaning stated in § 36–1102
-10 of this article.
-
-11 (b) In a prosecution for selling alcoholic beverages or tetrahydrocannabinol
-12 without an appropriate license, proof that the defendant displayed or offered alcoholic
-13 beverages or tetrahydrocannabinol for sale, or kept a place of business where alcoholic
-14 beverages or tetrahydrocannabinol were displayed or offered for sale, is prima facie
-15 evidence that the defendant sold alcoholic beverages or tetrahydrocannabinol.
-
-16 (C) IN A PROSECUTION FOR A VIOLATION OF § 1–323(B) OF THIS ARTICLE
-17 OR A VIOLATION LISTED IN § 1–313(B)(2)(III)2, 3, OR 4 OF THIS ARTICLE, PROOF
-18 THAT THE DEFENDANT DISPLAYED OR OFFERED FOR SALE AN UNAUTHORIZED
-19 CONSUMABLE PRODUCT, OR KEPT A PLACE OF BUSINESS WHERE AN UNAUTHORIZED
-20 CONSUMABLE PRODUCT WAS DISPLAYED, ADVERTISED, OR OFFERED FOR SALE, IS
-21 PRIMA FACIE EVIDENCE THAT THE DEFENDANT SOLD AN UNAUTHORIZED
-22 CONSUMABLE PRODUCT.
-
-23 Article – Health – General
-
-24 21–2E–02.
-
-25 (a) (1) A retailer that prepares, distributes, sells, or exposes for sale a kratom
-26 product shall disclose on the product label the factual basis on which the representation is
-27 made.
-
-28 (2) A retailer may not prepare, distribute, sell, or expose for sale a kratom
-29 product that:
-
-30 (i) Does not comply with the disclosure requirement established
-31 under paragraph (1) of this subsection; or
-
-32 (ii) Has not been recognized as a dietary ingredient or approved drug
-33 by the U.S. Food and Drug Administration.
-END OF PAGE 8
-
-START OF PAGE 9
-HOUSE BILL 1523 9
-
-1 (b) (1) Subject to paragraph (2) of this subsection, a retailer may not prepare,
-2 distribute, sell, or expose for sale any of the following:
-
-3 (i) A kratom product that is adulterated with a dangerous substance
-4 other than kratom;
-
-5 (ii) A kratom product that is contaminated with a dangerous
-6 substance other than kratom;
-
-7 (iii) A kratom product containing a level of 7–hydroxymitragynine in
-8 the alkaloid fraction that is greater than 2% of the alkaloid composition of the product;
-
-9 (iv) A kratom product containing a synthetic alkaloid, including
-10 synthetic mitragynine, synthetic 7–hydroxymitragynine, or any other synthetically derived
-11 compound of the kratom plant; or
-
-12 (v) A product containing kratom that does not include on its package
-13 or label the amount of mitragynine and 7–hydroxymitragynine contained in the product.
-
-14 (2) (i) For the purpose of paragraph (1)(i) of this subsection, a kratom
-15 product is adulterated with a dangerous substance other than kratom if:
-
-16 1. The kratom product is mixed or packed with a substance
-17 other than kratom; and
-
-18 2. That substance affects the quality or strength of the
-19 kratom product to a degree as to render the kratom product injurious to a consumer.
-
-20 (ii) For the purpose of paragraph (1)(ii) of this subsection, a kratom
-21 product is contaminated with a dangerous substance other than kratom if the kratom
-22 product contains a poisonous or otherwise deleterious ingredient other than kratom,
-23 including a drug that is designated as a controlled dangerous substance under Title 5 of
-24 the Criminal Law Article.
-
-25 (c) A retailer may not distribute, sell, or expose for sale a kratom product to an
-26 individual under the age of 21 years.
-
-27 (d) In a prosecution for a violation of this section, it is a REBUTTABLE defense
-28 that the defendant relied in good faith on the representations ON THE MANUFACTURER’S LABEL ON a kratom product.
-
-29 (e) A retailer that violates subsection (a)(1) of this section is subject to a civil
-30 penalty not exceeding:
-
-31 (1) $1,000 for a first violation; and
-END OF PAGE 9
-
-START OF PAGE 10
-10 HOUSE BILL 1523
-
-1 (2) $2,000 for each subsequent violation.
-
-2 (f) A retailer that violates subsection (a)(2), (b), or (c) of this section is
-3 guilty of a misdemeanor and on conviction is subject to a fine not exceeding $5,000,
-4 imprisonment for not more than 90 days, or both.
-
-5 (g) In addition to any other penalties specified in this section, a retailer
-6 who violates this section is liable for any civil damages sustained by the individual resulting
-7 from the violation.
-
-8 21–2E–03.
-
-9 (a) A retailer may not directly or indirectly advertise a therapeutic benefit of
-10 kratom.
-
-11 (b) A retailer may not directly or indirectly advertise or market kratom products
-12 to minors.
-
-13 (c) It is a violation of subsection (b) of this section for a retailer to use any of the
-14 following in the advertising, promotion, packaging, or labeling of a kratom product:
-
-15 (1) A cartoon;
-
-16 (2) A superhero;
-
-17 (3) A video game reference;
-
-18 (4) An image of a food product primarily intended for minors;
-
-19 (5) A trademark that imitates or mimics the trademark of a product that
-20 has been advertised or marketed primarily to minors;
-
-21 (6) A symbol or celebrity that is primarily associated with minors or media
-22 primarily directed to minors; [and]
-
-23 (7) An image of an individual who appears to be under the age of 27 years;
-24 AND
-
-25 (8) OTHER IMAGES, GRAPHICS, OR FEATURES OR LIKENESSES TO
-26 IMAGES, GRAPHICS, OR FEATURES THAT ARE POPULARLY USED TO ADVERTISE TO
-27 CHILDREN, INCLUDING:
-
-28 (I) NEON COLORS, SIGNS, OR OTHER BRIGHTLY COLORED
-29 DISPLAYS;
-END OF PAGE 10
-
-START OF PAGE 11
-HOUSE BILL 1523 11
-
-1 (II) ANIMALS;
-
-2 (III) MASCOTS; OR
-
-3 (IV) STATEMENTS, ARTWORK, OR DESIGNS THAT COULD
-4 REASONABLY MISLEAD AN INDIVIDUAL TO BELIEVE THAT THE PACKAGE CONTAINS
-5 ANYTHING OTHER THAN A KRATOM PRODUCT.
-
-6 (d) It is a violation of subsection (b) of this section for a retailer to advertise or
-7 promote a kratom product:
-
-8 (1) In a newspaper, a magazine, a periodical, or any other publication for
-9 which individuals under the age of 21 years constitute 15% or more of the total audience,
-10 as measured by competent and reliable survey evidence;
-
-11 (2) At a concert, a stadium, a sporting event, or any other public event for
-12 which individuals under the age of 21 years constitute 15% or more of the total audience,
-13 as measured by competent and reliable survey evidence; or
-
-14 (3) [On an outdoor billboard or sign board that is within 500 feet of a
-15 school] BY PLACING AN ADVERTISEMENT FOR KRATOM ON THE SIDE OF A BUILDING
-16 OR ANOTHER PUBLICLY VISIBLE LOCATION OF ANY FORM, INCLUDING A SIGN, A
-17 POSTER, A PLACARD, A DEVICE, A GRAPHIC DISPLAY, AN OUTDOOR BILLBOARD, OR
-18 A FREESTANDING SIGNBOARD.
-
-19 (E) A RETAILER THAT VIOLATES THIS SECTION IS GUILTY OF A
-20 MISDEMEANOR AND ON CONVICTION IS SUBJECT TO A FINE NOT EXCEEDING $5,000,
-21 IMPRISONMENT FOR NOT MORE THAN 90 DAYS, OR both.
-
-22 21–2F–02.
-
-23 (a) (1) A retailer that prepares, distributes, sells, or exposes for sale a
-24 phenibut product shall disclose on the product label the factual basis on which any
-25 representations regarding the phenibut product are made.
-
-26 (2) A retailer may not prepare, distribute, sell, or expose for sale a phenibut
-27 product that:
-
-28 (i) Does not comply with the disclosure requirement established
-29 under paragraph (1) of this subsection; or
-
-30 (ii) Has not been recognized as a dietary ingredient or approved drug
-31 by the U.S. Food and Drug Administration.
-END OF PAGE 11
-
-START OF PAGE 12
-12 HOUSE BILL 1523
-
-1 (b) (1) Subject to paragraph (2) of this subsection, a retailer may not prepare,
-2 distribute, sell, or expose for sale any of the following:
-
-3 (i) A phenibut product that is adulterated with a dangerous
-4 substance other than phenibut;
-
-5 (ii) A phenibut product that is contaminated with a dangerous
-6 substance other than phenibut; or
-
-7 (iii) A product containing phenibut that does not include on its
-8 package or label the amount of beta–phenyl–gamma–aminobutyric acid HCl contained in
-9 the product.
-
-10 (2) (i) For the purpose of paragraph (1)(i) of this subsection, a phenibut
-11 product is adulterated with a dangerous substance other than phenibut if:
-
-12 1. The phenibut product is mixed or packed with a substance
-13 other than phenibut; and
-
-14 2. That substance affects the quality or strength of the
-15 phenibut product to a degree as to render the phenibut product injurious to a consumer.
-
-16 (ii) For the purpose of paragraph (1)(ii) of this subsection, a phenibut
-17 product is contaminated with a dangerous substance other than phenibut if the phenibut
-18 product contains a poisonous or otherwise deleterious ingredient other than phenibut,
-19 including a drug that is designated as a controlled dangerous substance under Title 5 of
-20 the Criminal Law Article.
-
-21 (c) A retailer may not distribute, sell, or expose for sale a phenibut product to an
-22 individual under the age of 21 years.
-
-23 (d) In a prosecution for a violation of this section, it is a REBUTTABLE defense
-24 that the defendant relied in good faith on the representations ON THE MANUFACTURER’S LABEL ON a phenibut product.
-
-25 (e) A retailer that violates subsection (a)(1) of this section is subject to a civil
-26 penalty not exceeding:
-
-27 (1) $1,000 for a first violation; and
-
-28 (2) $2,000 for each subsequent violation.
-
-29 (f) A retailer that violates subsection (a)(2), (b), or (c) of this section is
-30 guilty of a misdemeanor and on conviction is subject to a fine not exceeding $5,000,
-31 imprisonment for not more than 90 days, or both.
-END OF PAGE 12
-
-START OF PAGE 13
-HOUSE BILL 1523 13
-
-1 (g) In addition to any other penalties specified in this section, a retailer
-2 who violates this section is liable for any civil damages sustained by the individual resulting
-3 from the violation.
-
-4 21–2F–03.
-
-5 (a) A retailer may not directly or indirectly advertise a therapeutic benefit of
-6 phenibut.
-
-7 (b) A retailer may not directly or indirectly advertise or market phenibut products
-8 to minors.
-
-9 (c) It is a violation of subsection (b) of this section for a retailer to use any of the
-10 following in the advertising, promotion, packaging, or labeling of a phenibut product:
-
-11 (1) A cartoon;
-
-12 (2) A superhero;
-
-13 (3) A video game reference;
-
-14 (4) An image of a food product primarily intended for minors;
-
-15 (5) A trademark that imitates or mimics the trademark of a product that
-16 has been advertised or marketed primarily to minors;
-
-17 (6) A symbol or celebrity that is primarily associated with minors or media
-18 primarily directed to minors; [and]
-
-19 (7) An image of an individual who appears to be under the age of 27 years;
-20 AND
-
-21 (8) OTHER IMAGES, GRAPHICS, OR FEATURES OR LIKENESSES TO
-22 IMAGES, GRAPHICS, OR FEATURES THAT ARE POPULARLY USED TO ADVERTISE TO
-23 CHILDREN, INCLUDING:
-
-24 (I) NEON COLORS, SIGNS, OR OTHER BRIGHTLY COLORED
-25 DISPLAYS;
-
-26 (II) ANIMALS;
-
-27 (III) MASCOTS; OR
-END OF PAGE 13
-
-START OF PAGE 14
-14 HOUSE BILL 1523
-
-1 (IV) STATEMENTS, ARTWORK, OR DESIGNS THAT COULD
-2 REASONABLY MISLEAD AN INDIVIDUAL TO BELIEVE THAT THE PACKAGE CONTAINS
-3 ANYTHING OTHER THAN A PHENIBUT PRODUCT.
-
-4 (d) It is a violation of subsection (b) of this section for a retailer to advertise or
-5 promote a phenibut product:
-
-6 (1) In a newspaper, a magazine, a periodical, or any other publication for
-7 which individuals under the age of 21 years constitute 15% or more of the total audience,
-8 as measured by competent and reliable survey evidence;
-
-9 (2) At a concert, a stadium, a sporting event, or any other public event for
-10 which individuals under the age of 21 years constitute 15% or more of the total audience,
-11 as measured by competent and reliable survey evidence; or
-
-12 (3) [On an outdoor billboard or sign board that is within 500 feet of a
-13 school] BY PLACING AN ADVERTISEMENT FOR PHENIBUT ON THE SIDE OF A
-14 BUILDING OR ANOTHER PUBLICLY VISIBLE LOCATION OF ANY FORM, INCLUDING A
-15 SIGN, A POSTER, A PLACARD, A DEVICE, A GRAPHIC DISPLAY, AN OUTDOOR
-16 BILLBOARD, OR A FREESTANDING SIGNBOARD.
-
-17 (E) A RETAILER THAT VIOLATES THIS SECTION IS GUILTY OF A
-18 MISDEMEANOR AND ON CONVICTION IS SUBJECT TO A FINE NOT EXCEEDING $5,000,
-19 IMPRISONMENT FOR NOT MORE THAN 90 DAYS, OR BOTH.
-
-20 SECTION 2. AND BE IT FURTHER ENACTED, That the Maryland Department of
-21 Health shall notify the Alcohol, Tobacco, and Cannabis Commission within 30 days after a
-22 change is made in the regulatory or approval status of kratom products, tianeptine
-23 products, phenibut products, or any other product designated by the Secretary of Health as
-24 an unauthorized consumable product for enforcement by the Executive Director of the
-25 Alcohol, Tobacco, and Cannabis Commission.
-
-26 SECTION 3. AND BE IT FURTHER ENACTED, That this Act shall take effect July
-27 1, 2026.
-END OF PAGE 14
-</bill>
-</bill>
+24 (1) THE DISTRICT COURT MAY ORDER THE EXECUTIVE DIRECTOR,
+25 THE COMPTROLLER

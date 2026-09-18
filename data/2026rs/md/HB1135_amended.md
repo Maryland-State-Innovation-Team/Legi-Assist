@@ -1,6 +1,4 @@
 <bill>
-<bill>
-<bill>
 START OF PAGE 1
 HOUSE BILL 1135
 
@@ -96,8 +94,8 @@ START OF PAGE 2
 28 adopted by the Board; and
 
 29 (vi) If the vaccination is administered to an individual under the age
-30 of 18 years, OR ORDERED FOR ADMINISTRATION BY ~~AN ADULT
-31 CAREGIVER~~ ~~A PARENT OR GUARDIAN~~ AN ADULT CAREGIVER ~~AN ADULT CAREGIVER~~ TO AN INDIVIDUAL
+30 of 18 years, OR ORDERED FOR ADMINISTRATION BY AN ADULT
+31 CAREGIVER TO AN INDIVIDUAL
 END OF PAGE 2
 
 START OF PAGE 3
@@ -123,7 +121,7 @@ HOUSE BILL 1135 3
 14 adult a vaccination that is recommended in the Centers for Disease Control and
 15 Prevention’s Health Information for International Travel.
 
-16 (4) (i) A pharmacist shall ORDER OR administer a vaccination under
+16 (4) (i) A pharmacist, INCLUDING THE INTENDED RECIPIENT OF EACH VACCINATION ORDERED BY THE PHARMACIST, shall ORDER OR administer a vaccination under
 17 paragraph (1), (2), or (3) of this subsection under a written protocol that:
 
 18 1. Is vaccine specific; and
@@ -145,7 +143,8 @@ HOUSE BILL 1135 3
 29 (5) A pharmacist shall:
 
 30 (i) Report all vaccinations administered OR ORDERED by the
-31 pharmacist, INCLUDING THE INTENDED RECIPIENT OF EACH VACCINATION ORDERED BY THE PHARMACIST to the ImmuNet Program established under § 18–109 of the
+31 pharmacist to the ImmuNet Program established under § 18–109 of the
+32 Health – General Article;
 END OF PAGE 3
 
 START OF PAGE 4
@@ -190,6 +189,4 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 4
-</bill>
-</bill>
 </bill>

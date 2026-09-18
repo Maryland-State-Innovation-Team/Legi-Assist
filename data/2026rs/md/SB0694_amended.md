@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 SECOND PRINTING
 SENATE BILL 694
@@ -38,12 +37,6 @@ CHAPTER ______
 14 Section 20–1202 and 20–1203
 15 Annotated Code of Maryland
 16 (2021 Replacement Volume and 2025 Supplement)
-
-BY adding to
-Article - State Government
-Section 20–1204
-Annotated Code of Maryland
-(2021 Replacement Volume and 2025 Supplement)
 
 17 BY adding to
 18 Article – State Government
@@ -163,16 +156,6 @@ START OF PAGE 4
 2 party:
 
 3 (i) injunctive relief;
-20–1204.
-
-(A) THIS SECTION APPLIES IN ANY COUNTY OTHER THAN BALTIMORE
-COUNTY, HOWARD COUNTY, MONTGOMERY COUNTY, OR PRINCE GEORGE’S
-COUNTY.
-
-(B) A COMPLAINT FILED IN ACCORDANCE WITH § 20–1004 OF THIS TITLE
-SATISFIES ANY REQUIREMENT TO EXHAUST REMEDIES BEFORE FILING A CIVIL
-ACTION IMPOSED BY A COUNTY OR LOCAL UNIT RESPONSIBLE FOR HANDLING
-VIOLATIONS OF COUNTY OR LOCAL DISCRIMINATION LAWS.
 
 4 (ii) compensatory damages, including back pay; or
 
@@ -208,4 +191,3 @@ President of the Senate.
 ________________________________________________________________________________
 Speaker of the House of Delegates.
 END OF PAGE 4
-</bill>

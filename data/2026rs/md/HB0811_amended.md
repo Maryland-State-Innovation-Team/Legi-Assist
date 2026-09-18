@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 811
 
@@ -26,7 +25,7 @@ CHAPTER ______
 1 AN ACT concerning
 
 2 Aging–in–Place Programs – Grants – Multigenerational Third Places
-3 (~~The~~ Village Multigenerational Third Places Act)
+3 ~~(The~~ Village Multigenerational Third Places Act)
 
 4 FOR the purpose of authorizing the Department of Aging to make grants to nonprofit
 5 organizations and area agencies on aging to support social connection for individuals
@@ -173,4 +172,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 4
-</bill>

@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 504
 
@@ -375,4 +374,3 @@ Approved by the Governor, May 12, 2026.
 
 – 8 –
 END OF PAGE 8
-</bill>

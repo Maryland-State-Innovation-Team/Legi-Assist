@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1372
 
@@ -31,7 +30,7 @@ CHAPTER ______
 2 Public Health – Office of Health Care Quality Information and Maryland
 3 ~~Department~~ ~~of~~ Health Centralization Commission
 
-4 FOR the provideing the Maryland Health Care Commission, in collaboration with
+4 FOR the purpose of requiring the Maryland Health Care Commission, in collaboration with
 5 the Office of Health Care Quality within the Maryland Department of Health, to
 6 develop a process to receive and publish certain inspection information on a certain
 7 website; establishing the Maryland ~~Department~~ ~~of~~ Health Centralization
@@ -122,14 +121,17 @@ HOUSE BILL 1372 3
 12 PUBLISH IT ON THE COMMISSION’S MARYLAND QUALITY REPORTING WEBSITE FOR
 13 EACH APPLICABLE FACILITY:
 
-14 (I) THE DATE OF THE OFFICE’S MOST RECENT INSPECTION; AND
-15
+14 (I) THE DATE OF THE OFFICE’S MOST RECENT INSPECTION;
+15 AND
+
 16 (II) ANY ASSOCIATED RATINGS OR OTHER QUALITY METRICS
-17 CALCULATED.
-18
-19
-20
-21
+17 CALCULATED ~~BY~~ ~~THE~~ ~~OFFICE~~ ~~BASED~~ ~~ON~~ ~~THE~~ ~~MOST~~ ~~RECENT~~ ~~INSPECTION;~~ ~~AND~~
+
+18 ~~(III)~~ ~~THE~~ ~~DATE~~ ~~OF~~ ~~THE~~ ~~NEXT~~ ~~SCHEDULED~~ ~~INSPECTION;~~ ~~AND~~
+
+19 ~~(IV)~~ ~~IF~~ ~~APPLICABLE,~~ ~~A~~ ~~STATEMENT~~ ~~THAT~~ ~~THE~~ ~~FACILITY~~ ~~HAS~~ ~~NOT~~
+20 ~~BEEN~~ ~~INSPECTED~~ ~~DURING~~ ~~THE~~ ~~TIME~~ ~~FRAME~~ ~~REQUIRED~~ ~~BY~~ ~~STATUTE~~ ~~OR~~
+21 ~~REGULATION.~~
 
 22 Article – Health Occupations
 
@@ -319,7 +321,7 @@ HOUSE BILL 1372 7
 20 Centralization Commission established under § 1–103 of the Health Occupations Article,
 21 as enacted by Section 1 of this Act, shall hold its first meeting on or before July 1, 2026.
 
-22 SECTION 3. AND BE IT FURTHER ENACTED, That this Act is an emergency
+22 SECTION ~~2.~~ 3. AND BE IT FURTHER ENACTED, That this Act is an emergency
 23 measure, is necessary for the immediate preservation of the public health or safety, has
 24 been passed by a yea and nay vote supported by three–fifths of all the members elected to
 25 each of the two Houses of the General Assembly, and shall take effect from the date it is
@@ -336,4 +338,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 7
-</bill>

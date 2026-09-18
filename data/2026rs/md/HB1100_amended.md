@@ -1,4 +1,4 @@
-<bill>
+START OF PAGE 1
 HOUSE BILL 1100
 
 C2, E1 (6lr3426)
@@ -26,166 +26,254 @@ CHAPTER ______
 
 2 Telecommunications Infrastructure – Protections
 
-3 For the purpose of specifying that certain documentation may establish lawful authority
+3 FOR the purpose of specifying that certain documentation may establish lawful authority
 4 to sell certain telecommunications equipment as junk or scrap metal; requiring
 5 certain junk dealers, scrap metal processors, and antique dealers to register and
 6 provide a description including certain information of purchased
-7 telecommunications equipment with a certain law enforcement official; prohibiting
-8 certain individuals from destroying telecommunications infrastructure in a certain
-9 manner; and generally relating to telecommunications equipment and
-10 infrastructure.
+7 telecommunications equipment with a certain law enforcement official; ~~prohibiting~~
+8 ~~certain~~ ~~junk~~ ~~dealers,~~ ~~scrap~~ ~~metal~~ ~~processors,~~ ~~and~~ ~~antique~~ ~~dealers~~ ~~from~~ ~~purchasing~~
+9 ~~telecommunications~~ ~~equipment~~ ~~other~~ ~~than~~ ~~by~~ ~~check~~ ~~mailed~~ ~~to~~ ~~the~~ ~~seller’s~~ ~~address;~~
+10 ~~prohibiting~~ ~~the~~ ~~sale~~ ~~or~~ ~~disposal~~ ~~of~~ ~~certain~~ ~~telecommunications~~ ~~equipment~~ ~~within~~ ~~a~~
+11 ~~certain~~ ~~period;~~ prohibiting certain individuals from destroying telecommunications
+12 infrastructure in a certain manner; and generally relating to telecommunications
+13 equipment and infrastructure.
 
-11 BY repealing and reenacting, without amendments,
-12 Article – Business Regulation
-13 Section 17–1001(a) and (f)(1)(ii)9. and (2)
-14 Annotated Code of Maryland
-15 (2024 Replacement Volume and 2025 Supplement)
+14 BY repealing and reenacting, without amendments,
 
-16 BY repealing and reenacting, with amendments,
-17 Article – Business Regulation
-18 Section 17–1001(f)(1)(ii)8. and 17–1009(d)
-19 Annotated Code of Maryland
-20 (2024 Replacement Volume and 2025 Supplement)
+EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
+[Brackets] indicate matter deleted from existing law.
+Underlining indicates amendments to bill.
+~~Strike~~ ~~out~~ indicates matter stricken from the bill by amendment or deleted from the law by
+amendment.
+Italics indicate opposite chamber/conference committee amendments.*hb1100*
+END OF PAGE 1
 
-21 BY adding to
-22 Article – Criminal Law
-23 Section 6–305.1
-24 Annotated Code of Maryland
-25 (2021 Replacement Volume and 2025 Supplement)
+START OF PAGE 2
+2 HOUSE BILL 1100
 
-26 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
-27 That the Laws of Maryland read as follows:
+1 Article – Business Regulation
+2 Section 17–1001(a) ~~and~~ ~~(f)(2)~~ and (f)(1)(ii)9. and (2)
+3 Annotated Code of Maryland
+4 (2024 Replacement Volume and 2025 Supplement)
 
-28 Article – Business Regulation
+5 BY repealing and reenacting, with amendments,
+6 Article – Business Regulation
+7 Section 17–1001(f)(1)(ii)8. and ~~9.~~ 17–1009(d)
+8 Annotated Code of Maryland
+9 (2024 Replacement Volume and 2025 Supplement)
 
-29 17–1001.
+10 ~~BY~~ ~~adding~~ ~~to~~
+11 ~~Article~~ ~~–~~ ~~Business~~ ~~Regulation~~
+12 ~~Section~~ ~~17–1001(f)(1)(ii)9.~~ ~~and~~ ~~(m)~~ ~~and~~ ~~17–1010.1~~ ~~10.~~
+13 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+14 ~~(2024~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
-30 (a) In this subtitle the following words have the meanings indicated.
+15 BY adding to
+16 Article – Criminal Law
+17 Section 6–305.1
+18 Annotated Code of Maryland
+19 (2021 Replacement Volume and 2025 Supplement)
 
-31 (f) (1) “Junk” or “scrap metal” includes:
+20 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
+21 That the Laws of Maryland read as follows:
 
-32 (ii) the following used articles, made of either ferrous or nonferrous
-33 metal:
+22 Article – Business Regulation
 
-34 8. TELECOMMUNICATIONS EQUIPMENT THAT INCLUDES
+23 17–1001.
 
-35 A. ANTENNAE;
+24 (a) In this subtitle the following words have the meanings indicated.
 
-36 B. BURNED WIRES;
+25 (f) (1) “Junk” or “scrap metal” includes:
 
-37 C. BUSBARS;
+26 (ii) the following used articles, made of either ferrous or nonferrous
+27 metal:
 
-38 D. CELL TOWER BATTERIES;
+28 8. cell tower batteries; [and]
 
-39 E. FIBER OPTIC AND COPPER CABLES;
+29 9. ~~TELECOMMUNICATIONS~~ ~~EQUIPMENT~~
+30 TELECOMMUNICATIONS INFRASTRUCTURE AS DEFINED IN § 6–305.1 OF THE
+31 CRIMINAL LAW ARTICLE;
 
-40 F. POWER INVERTERS;
+32 10. TELECOMMUNICATIONS EQUIPMENT THAT INCLUDES
+33 ANY OTHER USED ARTICLES OWNED BY A TELECOMMUNICATIONS COMPANY, AS
+34 DEFINED IN § 6–305.1 OF THE CRIMINAL LAW ARTICLE, INCLUDING:
+END OF PAGE 2
 
-41 G. MATERIALS WITH IDENTIFIABLE MARKERS THAT
-42 INDICATE OWNERSHIP BY THE TELECOMMUNICATIONS COMPANY; AND
+START OF PAGE 3
+HOUSE BILL 1100 3
 
-43 H. SMALL CELL FACILITIES; AND
+1 A. ANTENNAE;
 
-44 9. any other used articles owned by a public utility including:
+2 B. BURNED WIRES;
 
-45 A. guardrails;
+3 B. C. BUSBARS;
 
-46 B. manhole covers;
+4 C. D. CELL TOWER BATTERIES;
 
-47 C. metal light poles;
+5 E. FIBER OPTIC AND COPPER CABLES;
 
-48 D. tree grates;
+6 F. POWER INVERTERS; AND
 
-49 E. water meters; and
+7 D. G. MATERIALS WITH IDENTIFIABLE MARKERS THAT
+8 INDICATE OWNERSHIP BY THE TELECOMMUNICATIONS COMPANY; AND
 
-50 F. street signs.
+9 H. SMALL CELL FACILITIES; AND
 
-51 (2) “Junk” or “scrap metal” does not include beverage cans or food cans.
+10 [9.] ~~10.~~ 11. any other used articles owned by a public utility
+11 including:
 
-52 17–1009.
+12 A. guardrails;
 
-53 (d) (1) A junk dealer or scrap metal processor may not barter, buy, exchange, or
-54 accept from a person any junk or scrap metal unless the junk dealer or scrap metal processor
-55 keeps records and makes entries in them in accordance with this subtitle.
+13 B. manhole covers;
 
-56 (2) A junk dealer or scrap metal processor may not purchase a catalytic
-57 converter from an individual unless the individual, at the time of purchase, provides
-58 identification as:
+14 C. metal light poles;
 
-59 (i) a licensed automotive dismantler and recycler or scrap metal
-60 processor; or
+15 D. tree grates;
 
-61 (ii) an agent or employee of a licensed commercial enterprise.
+16 E. water meters; and
 
-62 (3) (I) A junk dealer or scrap metal processor may not purchase a
-63 cemetery urn, grave marker, or any other item listed under § 17–1001(f)(1)(ii) of this subtitle
-64 from an individual unless the individual, at the time of purchase, provides appropriate
-65 authorization from a relevant business or unit of federal, State, or local government OR
-66 FROM AN INDIVIDUAL WITH AUTHORIZATION UNDER SUBPARAGRAPH (II) OF THIS
-67 PARAGRAPH specifically authorizing the individual to conduct the transaction.
+17 F. street signs.
 
-68 (II) FOR A PURCHASE OF TELECOMMUNICATIONS EQUIPMENT
-69 SOLD AS JUNK OR SCRAP METAL, APPROPRIATE AUTHORIZATION UNDER THIS
-70 SUBSECTION INCLUDES A BILL OF SALE, RECEIPT, LETTER OF AUTHORIZATION, OR
-71 OTHER DOCUMENTARY EVIDENCE THAT THE SELLER HAS LAWFUL AUTHORITY TO
-72 SELL THE TELECOMMUNICATIONS EQUIPMENT.
+18 (2) “Junk” or “scrap metal” does not include beverage cans or food cans.
 
-73 Article – Criminal Law
+19 17–1009.
 
-74 6–305.1.
+20 (d) (1) A junk dealer or scrap metal processor may not barter, buy, exchange, or
+21 accept from a person any junk or scrap metal unless the junk dealer or scrap metal processor
+22 keeps records and makes entries in them in accordance with this subtitle.
 
-75 (A) (1) IN THIS SECTION THE FOLLOWING WORDS HAVE THE MEANINGS
-76 INDICATED.
+23 (2) A junk dealer or scrap metal processor may not purchase a catalytic
+24 converter from an individual unless the individual, at the time of purchase, provides
+25 identification as:
+END OF PAGE 3
 
-77 (2) “TELECOMMUNICATIONS COMPANY” MEANS A COMPANY THAT
-78 PROVIDES BROADBAND INTERNET, CABLE TELEVISION, TELEPHONE, OR OTHER
-79 WIRELESS COMMUNICATION SERVICES.
+START OF PAGE 4
+4 HOUSE BILL 1100
 
-80 (3) (I) “TELECOMMUNICATIONS INFRASTRUCTURE” MEANS ITEMS
-81 THAT ARE USED TO PROVIDE BROADBAND INTERNET, CABLE TELEVISION,
-82 TELEPHONE, OR OTHER WIRELESS COMMUNICATION SERVICES.
+1 (i) a licensed automotive dismantler and recycler or scrap metal
+2 processor; or
 
-83 (II) “TELECOMMUNICATIONS INFRASTRUCTURE” INCLUDES:
+3 (ii) an agent or employee of a licensed commercial enterprise.
 
-84 1. ANTENNAE;
+4 (3) (I) A junk dealer or scrap metal processor may not purchase a
+5 cemetery urn, grave marker, or any other item listed under § 17–1001(f)(1)(ii) of this subtitle
+6 from an individual unless the individual, at the time of purchase, provides appropriate
+7 authorization from a relevant business or unit of federal, State, or local government OR
+8 FROM AN INDIVIDUAL WITH AUTHORIZATION UNDER SUBPARAGRAPH (II) OF THIS
+9 PARAGRAPH specifically authorizing the individual to conduct the transaction.
 
-85 2. FIBER OPTIC AND COPPER CABLES;
+10 (II) FOR A PURCHASE OF TELECOMMUNICATIONS EQUIPMENT
+11 SOLD AS JUNK OR SCRAP METAL, APPROPRIATE AUTHORIZATION UNDER THIS
+12 SUBSECTION INCLUDES A BILL OF SALE, RECEIPT, LETTER OF AUTHORIZATION, OR
+13 OTHER DOCUMENTARY EVIDENCE THAT THE SELLER HAS LAWFUL AUTHORITY TO
+14 SELL THE TELECOMMUNICATIONS EQUIPMENT.
 
-86 3. HEADENDS;
+15 ~~(M)~~ ~~“TELECOMMUNICATIONS~~ ~~EQUIPMENT”~~ ~~MEANS~~ ~~AN~~ ~~ITEM~~ ~~THAT~~ ~~AN~~
+16 ~~INDIVIDUAL~~ ~~KNOWS~~ ~~OR~~ ~~REASONABLY~~ ~~SHOULD~~ ~~KNOW~~ ~~TO~~ ~~ORDINARILY~~ ~~BE~~ ~~USED~~ ~~BY,~~
+17 ~~OR~~ ~~BELONG~~ ~~TO,~~ ~~A~~ ~~TELEPHONE,~~ ~~TELEGRAPH,~~ ~~INTERNET,~~ ~~OR~~ ~~OTHER~~ ~~WIRELESS~~
+18 ~~COMMUNICATION~~ ~~COMPANY.~~
 
-87 4. TELEPHONE POLES;
+19 ~~17–1010.1.~~
 
-88 5. RADIO TRANSCEIVERS;
+20 ~~(A)~~ ~~THIS~~ ~~SECTION~~ ~~APPLIES~~ ~~TO~~ ~~ALL~~ ~~JUNK~~ ~~DEALERS,~~ ~~SCRAP~~ ~~METAL~~
+21 ~~PROCESSORS,~~ ~~AND~~ ~~ANTIQUE~~ ~~DEALERS~~ ~~WHO~~ ~~ARE~~ ~~RESIDENTS~~ ~~OF~~ ~~THE~~ ~~STATE.~~
 
-89 6. RADIO TOWERS;
+22 ~~(B)~~ ~~(1)~~ ~~EACH~~ ~~JUNK~~ ~~DEALER,~~ ~~SCRAP~~ ~~METAL~~ ~~PROCESSOR,~~ ~~OR~~ ~~ANTIQUE~~
+23 ~~DEALER~~ ~~SUBJECT~~ ~~TO~~ ~~THIS~~ ~~SECTION~~ ~~WHO~~ ~~PURCHASES~~ ~~TELECOMMUNICATIONS~~
+24 ~~EQUIPMENT~~ ~~SHALL~~ ~~REGISTER~~ ~~WITH~~ ~~THE~~ ~~SHERIFF~~ ~~OR~~ ~~OTHER~~ ~~LAW~~ ~~ENFORCEMENT~~
+25 ~~OFFICIAL~~ ~~DESIGNATED~~ ~~BY~~ ~~THE~~ ~~GOVERNING~~ ~~BODY~~ ~~OF~~ ~~THE~~ ~~COUNTY~~ ~~IN~~ ~~WHICH~~ ~~THE~~
+26 ~~BUSINESS~~ ~~OF~~ ~~THE~~ ~~JUNK~~ ~~DEALER,~~ ~~SCRAP~~ ~~METAL~~ ~~PROCESSOR,~~ ~~OR~~ ~~ANTIQUE~~ ~~DEALER~~
+27 ~~IS~~ ~~LOCATED~~ ~~A~~ ~~COMPLETE~~ ~~DESCRIPTION~~ ~~OF~~ ~~THE~~ ~~TELECOMMUNICATIONS~~
+28 ~~EQUIPMENT.~~
 
-90 7. WIRELESS SUPPORT STRUCTURES;
+29 ~~(2)~~ ~~THE~~ ~~DESCRIPTION~~ ~~SHALL~~ ~~INCLUDE:~~
 
-91 8. SMALL CELL FACILITIES; AND
+30 ~~(I)~~ ~~THE~~ ~~DATE~~ ~~AND~~ ~~TIME~~ ~~OF~~ ~~PURCHASE;~~
 
-92 9. TELECOMMUNICATIONS COMPANY OFFICE
-93 FACILITIES.
+31 ~~(II)~~ ~~THE~~ ~~NAME~~ ~~AND~~ ~~ADDRESS~~ ~~OF~~ ~~THE~~ ~~SELLER;~~ ~~AND~~
 
-94 (B) THIS SECTION DOES NOT APPLY TO:
+32 ~~(III)~~ ~~THE~~ ~~LICENSE~~ ~~TAG~~ ~~NUMBER~~ ~~OF~~ ~~ANY~~ ~~VEHICLE~~ ~~USED.~~
+END OF PAGE 4
 
-95 (1) AN EMPLOYEE OF A TELECOMMUNICATIONS COMPANY OR A
-96 PERSON ACTING UNDER THE AUTHORITY OF A TELECOMMUNICATIONS COMPANY;
-97 OR
+START OF PAGE 5
+HOUSE BILL 1100 5
 
-98 (2) SUPERVISION AND CONTROL OF A TELECOMMUNICATIONS
-99 COMPANY AND ITS MATERIAL, EQUIPMENT, OR FACILITIES BY A POLITICAL
-100 SUBDIVISION WITHIN WHICH THE TELECOMMUNICATIONS COMPANY IS DOING
-101 BUSINESS.
+1 ~~(C)~~ ~~A~~ ~~JUNK~~ ~~DEALER,~~ ~~SCRAP~~ ~~METAL~~ ~~PROCESSOR,~~ ~~OR~~ ~~ANTIQUE~~ ~~DEALER~~
+2 ~~SUBJECT~~ ~~TO~~ ~~THIS~~ ~~SECTION~~ ~~WHO~~ ~~PURCHASES~~ ~~TELECOMMUNICATIONS~~ ~~EQUIPMENT~~
+3 ~~MAY~~ ~~PURCHASE~~ ~~TELECOMMUNICATIONS~~ ~~EQUIPMENT~~ ~~ONLY~~ ~~BY~~ ~~ISSUING~~ ~~A~~ ~~CHECK~~
+4 ~~THAT~~ ~~IS~~ ~~MAILED~~ ~~TO~~ ~~THE~~ ~~SELLER’S~~ ~~ADDRESS.~~
 
-102 (C) A PERSON MAY NOT RECKLESSLY OR WILLFULLY AND MALICIOUSLY
-103 DEFACE, DAMAGE, OR DESTROY TELECOMMUNICATIONS INFRASTRUCTURE.
+5 ~~(D)~~ ~~TELECOMMUNICATIONS~~ ~~EQUIPMENT~~ ~~MAY~~ ~~NOT~~ ~~BE~~ ~~SOLD~~ ~~OR~~ ~~OTHERWISE~~
+6 ~~DISPOSED~~ ~~OF~~ ~~FOR~~ ~~A~~ ~~PERIOD~~ ~~OF~~ ~~30~~ ~~DAYS~~ ~~AFTER~~ ~~THE~~ ~~DATE~~ ~~OF~~ ~~PURCHASE.~~
 
-104 (D) A PERSON WHO VIOLATES THIS SECTION IS GUILTY OF A
-105 MISDEMEANOR AND ON CONVICTION IS SUBJECT TO IMPRISONMENT NOT
-106 EXCEEDING 6 MONTHS OR A FINE NOT EXCEEDING $500 OR BOTH.
+7 ~~(E)~~ ~~A~~ ~~PERSON~~ ~~WHO~~ ~~VIOLATES~~ ~~THIS~~ ~~SECTION:~~
 
-107 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
-108 October 1, 2026.
+8 ~~(1)~~ ~~IS~~ ~~SUBJECT~~ ~~TO~~ ~~REVOCATION~~ ~~OF~~ ~~ANY~~ ~~STATE~~ ~~JUNK~~ ~~LICENSE~~ ~~HELD~~
+9 ~~BY~~ ~~THE~~ ~~PERSON;~~ ~~AND~~
+
+10 ~~(2)~~ ~~IS~~ ~~GUILTY~~ ~~OF~~ ~~A~~ ~~MISDEMEANOR~~ ~~AND,~~ ~~ON~~ ~~CONVICTION,~~ ~~IS~~ ~~SUBJECT~~
+11 ~~TO~~ ~~A~~ ~~FINE~~ ~~NOT~~ ~~EXCEEDING~~ ~~$2,000.~~
+
+12 Article – Criminal Law
+
+13 6–305.1.
+
+14 (A) (1) IN THIS SECTION THE FOLLOWING WORDS HAVE THE MEANINGS
+15 INDICATED.
+
+16 (2) “TELECOMMUNICATIONS COMPANY” MEANS A COMPANY THAT
+17 PROVIDES BROADBAND INTERNET, CABLE TELEVISION, TELEPHONE, OR OTHER
+18 WIRELESS COMMUNICATION SERVICES.
+
+19 (3) (I) “TELECOMMUNICATIONS INFRASTRUCTURE” MEANS ITEMS
+20 THAT ARE USED TO PROVIDE BROADBAND INTERNET, CABLE TELEVISION,
+21 TELEPHONE, OR OTHER WIRELESS COMMUNICATION SERVICES.
+
+22 (II) “TELECOMMUNICATIONS INFRASTRUCTURE” INCLUDES:
+
+23 1. ANTENNAE;
+
+24 2. FIBER OPTIC AND COPPER CABLES;
+
+25 3. HEADENDS;
+
+26 4. TELEPHONE POLES;
+
+27 5. RADIO TRANSCEIVERS;
+END OF PAGE 5
+
+START OF PAGE 6
+6 HOUSE BILL 1100
+
+1 6. RADIO TOWERS;
+
+2 7. WIRELESS SUPPORT STRUCTURES;
+
+3 8. SMALL CELL FACILITIES; AND
+
+4 9. TELECOMMUNICATIONS COMPANY OFFICE
+5 FACILITIES.
+
+6 (B) THIS SECTION DOES NOT APPLY TO:
+
+7 (1) AN EMPLOYEE OF A TELECOMMUNICATIONS COMPANY OR A
+8 PERSON ACTING UNDER THE AUTHORITY OF A TELECOMMUNICATIONS COMPANY;
+9 OR
+
+10 (2) SUPERVISION AND CONTROL OF A TELECOMMUNICATIONS
+11 COMPANY AND ITS MATERIAL, EQUIPMENT, OR FACILITIES BY A POLITICAL
+12 SUBDIVISION WITHIN WHICH THE TELECOMMUNICATIONS COMPANY IS DOING
+13 BUSINESS.
+
+14 (C) A PERSON MAY NOT RECKLESSLY OR WILLFULLY AND MALICIOUSLY
+15 DEFACE, DAMAGE, OR DESTROY TELECOMMUNICATIONS INFRASTRUCTURE.
+
+16 (D) A PERSON WHO VIOLATES THIS SECTION IS GUILTY OF A ~~FELONY~~
+17 MISDEMEANOR AND ON CONVICTION IS SUBJECT TO IMPRISONMENT NOT
+18 EXCEEDING 6 MONTHS OR A FINE NOT EXCEEDING ~~$5,000~~ $500 OR BOTH.
+
+19 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
+20 October 1, 2026.
 
 Approved:
 
@@ -197,4 +285,4 @@ Speaker of the House of Delegates.
 
 ________________________________________________________________________________
 President of the Senate.
-</bill>
+END OF PAGE 6

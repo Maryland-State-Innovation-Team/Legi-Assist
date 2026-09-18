@@ -1,5 +1,3 @@
-<bill>
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 774
 
@@ -125,10 +123,11 @@ WES MOORE, Governor Ch. 774
 (2) “Faculty at the Maryland School for the Deaf” does not include officers
 or supervisory employees at the Maryland School for the Deaf.
 
-(H) “GRADUATE ASSISTANT” MEANS A GRADUATE STUDENT AT THE UNIVERSITY
-OF MARYLAND, COLLEGE PARK OR THE UNIVERSITY OF MARYLAND, BALTIMORE
-COUNTY WHO IS A TEACHING, ADMINISTRATIVE, OR RESEARCH ASSISTANT OR IN A
-COMPARABLE POSITION, A FELLOW, OR A POSTDOCTORAL INTERN.
+(H) “GRADUATE ASSISTANT” MEANS A GRADUATE STUDENT AT THE
+UNIVERSITY OF MARYLAND, COLLEGE PARK OR THE UNIVERSITY OF MARYLAND,
+BALTIMORE COUNTY WHO IS A TEACHING, ADMINISTRATIVE, OR
+RESEARCH ASSISTANT OR IN A COMPARABLE POSITION, A FELLOW, OR A
+POSTDOCTORAL INTERN.
 
 [(h)] (I) “President” means:
 
@@ -174,14 +173,16 @@ comparable position;
 
 (iii) a member of the faculty, including a faculty librarian;
 
-(iv) a student employee, including a
-teaching assistant or a comparable position, fellow, or post doctoral intern, EXCEPT FOR A GRADUATE ASSISTANT;
+(iv) a student employee, including a teaching assistant or a
+comparable position, fellow, or post doctoral intern, EXCEPT FOR
+A GRADUATE ASSISTANT;
 
 (v) a contingent, contractual, temporary, or emergency employee,
 EXCEPT FOR A GRADUATE ASSISTANT;
 
 (vi) a contingent, contractual, or temporary employee whose position
-is funded through a research or service grant or contract, or through clinical revenues; or
+is funded through a research or service grant or contract, or through clinical revenues;
+or
 
 (vii) an employee whose regular place of employment is outside the
 State of Maryland;
@@ -215,5 +216,3 @@ Approved by the Governor, May 26, 2026.
 
 – 5 –
 END OF PAGE 5
-</bill>
-</bill>

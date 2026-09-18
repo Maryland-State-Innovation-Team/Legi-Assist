@@ -1,6 +1,3 @@
-<bill>
-<bill>
-START OF PAGE 1
 HOUSE BILL 1611
 
 Q1 6lr3701
@@ -22,9 +19,12 @@ CHAPTER ______
 2 Property Tax – Credit for Dwelling House of Disabled Veterans and Surviving
 3 Spouses – Alterations
 
-4 ~~repealing~~ ~~altering~~ ~~repealing~~ altering a certain income limitation and certain disability rating percentages used to establish
+4 FOR the purpose of altering a certain income limitation and certain disability rating percentages used to establish
 5 eligibility for a certain property tax credit against the county or municipal corporation
-6 property tax imposed on the dwelling house of certain disabled veterans; authorizing the Mayor and City Council of Baltimore City or the governing body of a county or municipal corporation to provide for, by law, additional eligibility criteria for the tax credit; and generally relating to a
+6 property tax imposed on the dwelling house of certain disabled veterans and their surviving
+7 spouses ~~and~~ ~~instead~~ ~~authorizing~~ ~~the~~ ~~governing~~ ~~body~~ ~~of~~ ~~a~~ ~~county~~ ~~or~~ ~~a~~ ~~municipal~~
+8 ~~corporation~~ ~~to~~ ~~establish~~ ~~eligibility~~ ~~criteria~~ ~~that~~ ~~limits~~ ~~the~~ ~~property~~ ~~tax~~ ~~credit~~ ~~based~~
+9 ~~on~~ ~~a~~ ~~disabled~~ ~~veteran’s~~ ~~federal~~ ~~adjusted~~ ~~gross~~ ~~income;~~ authorizing the Mayor and City Council of Baltimore City or the governing body of a county or municipal corporation to provide for, by law, additional eligibility criteria for the tax credit; and generally relating to a
 10 property tax credit for the dwelling house of a disabled veteran and a surviving spouse.
 
 11 BY repealing and reenacting, with amendments,
@@ -88,20 +88,22 @@ START OF PAGE 2
 24 against the county or municipal corporation property tax imposed on a dwelling house if:
 
 25 (1) the dwelling house is owned by a disabled veteran;
-
-(2) THE FEDERAL ADJUSTED GROSS INCOME OF THE DISABLED VETERAN IS LESS THAN OR EQUAL TO:
-
-(I) $150,000, IF FILING AN INDIVIDUAL INCOME TAX RETURN; OR
-
-(II) $300,000, IF FILING A JOINT INCOME TAX RETURN; AND
-
-26 (3) the application requirements of subsection (C) of this section are met.
 END OF PAGE 2
 
 START OF PAGE 3
 HOUSE BILL 1611 3
 
-1 (C) (1) A disabled veteran shall apply for the property tax credit under this
+(2) the federal adjusted gross income of the disabled veteran for the
+immediately preceding taxable year does not exceed:
+
+(I) $150,000, IF FILING AN INDIVIDUAL INCOME TAX
+RETURN; OR
+
+(II) $300,000, IF FILING A JOINT INCOME TAX RETURN; and
+
+2 (3) the application requirements of subsection (C) of this section are met.
+
+11 (C) (1) A disabled veteran shall apply for the property tax credit under this
 12 section by providing to the county or municipal corporation:
 
 13 (i) a copy of the disabled veteran’s discharge certificate from active
@@ -126,22 +128,25 @@ HOUSE BILL 1611 3
 26 county or municipal corporation may provide, by law, for:
 
 27 (1) the AMOUNT AND duration of the tax credit;
-
-(2) regulations and procedures for the application and uniform processing
-of requests for the tax credit;
 END OF PAGE 3
 
 START OF PAGE 4
 4 HOUSE BILL 1611
 
+(2) regulations and procedures for the application and uniform processing
+2 of requests for the tax credit;
+
 3 (3) the definition of surviving spouse and the amount and duration
 4 of the tax credit for the surviving spouse;
 
 5 (4) notwithstanding subsection (a)(2)(ii)2 of this section, eligibility
-6 criteria for the credit allowed under this section that limits the credit
-7 to individuals described under subsection (a)(2)(ii)1 of this section; (5) ADDITIONAL ELIGIBILITY CRITERIA, INCLUDING CRITERIA BASED ON INCOME AND DISABILITY RATING; and
+6 criteria for the credit allowed under this section that limits the credit to individuals
+7 described under subsection (a)(2)(ii)1 of this section;
 
-8 (6) any other provision necessary to carry out the tax credit under
+(5) ADDITIONAL ELIGIBILITY CRITERIA, INCLUDING CRITERIA
+BASED ON INCOME AND DISABILITY RATING; and
+
+8 (5) any other provision necessary to carry out the tax credit under
 9 this section.
 
 10 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect June
@@ -158,5 +163,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 4
-</bill>
-</bill>

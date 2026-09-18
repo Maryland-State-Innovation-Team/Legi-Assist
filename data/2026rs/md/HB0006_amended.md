@@ -114,21 +114,52 @@ SUMMARIZES THE DATA COLLECTED BY THE COMMISSION UNDER THIS SECTION.
 
 15–140.
 
-(a) IN THIS SECTION, “PREGNANT and parenting student” means a student enrolled at a public senior higher education institution OR A COMMUNITY COLLEGE who:
+(a) [(1) In this section the following words have the meanings indicated.
 
-(1) Is pregnant;
+(2) “Pregnant] IN THIS SECTION, “PREGNANT and parenting student”
+means a student enrolled at a public senior higher education institution OR A COMMUNITY
+COLLEGE who:
 
-(2) Exercises care, custody, or control over a child OF ANY AGE; OR
+[(i)] (1) Is pregnant; [or]
 
-(3) SHARES PARENTAL RESPONSIBILITIES WITH SOMEONE IN THE SAME HOUSEHOLD OR A DIFFERENT HOUSEHOLD.
+[(ii)] (2) Exercises care, custody, or control over a child OF ANY
+AGE; OR
+
+(3) SHARES PARENTAL RESPONSIBILITIES WITH SOMEONE IN THE
+SAME HOUSEHOLD OR A DIFFERENT HOUSEHOLD.
+
+(3) (i) “Public senior higher education institution” means:
+
+1. The constituent institutions of the University System of
+Maryland;
+
+2. Morgan State University; and
+
+3. St. Mary’s College of Maryland.
+
+(ii) “Public senior higher education institution” does not include:
+
+1. The University of Maryland Center for Environmental
+Studies;
+
+2. The University of Maryland Global Campus; or
+
+3. The University of Baltimore.
+
+– 3 –
+END OF PAGE 3
+
+START OF PAGE 4
+Ch. 735 2026 LAWS OF MARYLAND
 
 (b) The General Assembly finds that all students at an institution of higher
 education in the State, regardless of their gender, shall enjoy freedom from discrimination
 of any kind, including pregnancy discrimination as described in Title IX of the Education
 Amendments of 1972.
 
-(c) (1) Each public senior higher education institution AND COMMUNITY COLLEGE shall adopt a plan regarding pregnant and
-parenting students that is consistent with Title IX of the federal Higher Education Act.
+(c) (1) Each public senior higher education institution AND COMMUNITY
+COLLEGE shall adopt a plan regarding pregnant and parenting students that is consistent
+with Title IX of the federal Higher Education Act.
 
 (2) The plan required under paragraph (1) of this subsection shall include:
 
@@ -156,8 +187,9 @@ and parenting students; and
 (iv) A referral network of on–campus and off–campus health care
 service providers.
 
-(d) On or before [August] OCTOBER 1, 2026, each public senior higher education institution AND COMMUNITY COLLEGE shall post
-the plan adopted under subsection (c) of this section on the institution’s website.
+(d) On or before [August] OCTOBER 1, 2026, each public senior higher
+education institution AND COMMUNITY COLLEGE shall post the plan adopted under
+subsection (c) of this section on the institution’s website.
 
 24–701.
 

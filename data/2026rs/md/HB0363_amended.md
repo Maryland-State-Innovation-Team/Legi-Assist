@@ -1,5 +1,4 @@
 <bill>
-<bill>
 START OF PAGE 1
 HOUSE BILL 363
 
@@ -17,7 +16,7 @@ Proofreader.
 
 Sealed with the Great Seal and presented to the Governor, for his approval this
 
-_______ day of _______________ at ________________________ o’clock, ________M.
+_______ day of ___________________________ at ________________________ o’clock, ________M.
 
 ______________________________________________
 Speaker.
@@ -29,7 +28,7 @@ CHAPTER ______
 2 ~~Income~~ ~~Tax~~ ~~–~~ ~~Local~~ Local Government – Grant for Recipients of State Child Tax
 3 Credit – Authorization
 
-4 FOR the provide of authorizing a county to provide, by law, a ~~credit~~ ~~against~~ ~~the~~ ~~county~~
+4 FOR the purpose of authorizing a county to provide, by law, a ~~credit~~ ~~against~~ ~~the~~ ~~county~~
 5 grant to recipients of the State income tax credit for certain dependent children,
 6 subject to certain limitations; and generally relating to ~~a~~ ~~credit~~ ~~against~~ ~~the~~ ~~county~~
 7 county grants to recipients of the State income tax credit for dependent children.
@@ -54,7 +53,7 @@ START OF PAGE 2
 2 HOUSE BILL 363
 
 1 Article – Tax – General
-2 Section 10–706 and 10–809
+2 Section ~~10–706,~~ ~~10–751,~~ ~~and~~ ~~10–809~~ 10–706 and 10–809
 3 Annotated Code of Maryland
 4 (2022 Replacement Volume and 2025 Supplement)
 
@@ -103,6 +102,7 @@ START OF PAGE 3
 HOUSE BILL 363 3
 
 5 SECTION; AND
+
 6 (2) ANY OTHER PROVISION NECESSARY TO CARRY OUT THE GRANT
 7 UNDER THIS SECTION.
 
@@ -121,11 +121,11 @@ HOUSE BILL 363 3
 16 (b) A credit under § 10–701 of this subtitle is allowed against the total county and
 17 State income taxes.
 
-18 (c) (1) A credit allowed under [§ 10–704(a)(1)] § 10–704(B)(1) or § 10–
-19 709(b)(1) of this subtitle is allowed against the State income tax only.
+18 (c) (1) A credit allowed under [§ 10–704(a)(1)] § 10–704(B)(1) or §
+19 10–709(b)(1) of this subtitle is allowed against the State income tax only.
 
-20 (2) A credit allowed under [§ 10–704(a)(2)] § 10–704(B)(2) or § 10–
-21 709(b)(2) of this subtitle is allowed against the county income tax only.
+20 (2) A credit allowed under [§ 10–704(a)(2)] § 10–704(B)(2) or §
+21 10–709(b)(2) of this subtitle is allowed against the county income tax only.
 
 22 10–751.
 
@@ -162,7 +162,7 @@ START OF PAGE 4
 15 adjusted gross income exceeds the threshold amount, except that the reduction cannot
 16 reduce the credit below zero.
 
-17 (d) If the credit allowed under this [section] in any taxable
+17 (d) If the credit allowed under this section in any taxable
 18 year exceeds the State income tax for that taxable year, the taxpayer may claim a refund
 19 in the amount of the excess.
 
@@ -178,7 +178,6 @@ START OF PAGE 4
 26 OR § 10–751 of this title.
 
 27 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect June
-28 1, 2026.
-END OF PAGE 5
-</bill>
+28 1, 2026, ~~and~~ ~~shall~~ ~~be~~ ~~applicable~~ ~~to~~ ~~all~~ ~~taxable~~ ~~years~~ ~~beginning~~ ~~after~~ ~~December~~ ~~31,~~ ~~2026.~~
+END OF PAGE 4
 </bill>

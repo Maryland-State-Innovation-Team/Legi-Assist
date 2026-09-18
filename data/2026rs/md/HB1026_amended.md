@@ -1,5 +1,3 @@
-<bill>
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 515
 
@@ -11,20 +9,21 @@ AN ACT concerning
 
 Business Regulation – Rounding Cash Transactions – Authorization
 
-FOR the purpose of authorizing a merchant to round the portion of the price of a certain
+FOR the purpose of authorizing a merchant to round the portion of the price of a
 transaction for which a customer pays using cash in a certain manner or round the
-amount of change due to a customer in a certain manner; providing that a certain amount
-added to or subtracted from the price in a cash transaction under this Act is not included
-in the taxable price; providing that certain provisions of this Act shall preempt existing
-regulations, rules, and ordinances that conflict with certain provisions of this Act;
-altering the definition of “taxable price” for the purposes of certain provisions of law
-governing the State sales and use tax to clarify the exclusion from the tax of a certain
-amount collected due to rounding the price for a good or service in accordance with
-certain provisions of this Act; and generally relating to rounding cash transactions.
+amount of change due to a customer in a certain manner; providing that a certain
+amount added to or subtracted from the price in a cash transaction under this Act is
+not included in the taxable price; providing that certain provisions of this Act shall
+preempt existing regulations, rules, and ordinances that conflict with certain provisions
+of this Act; altering the definition of “taxable price” for the purposes of certain
+provisions of law governing the State sales and use tax to clarify the exclusion from the
+tax of a certain amount collected due to rounding the price for a good or service in
+accordance with certain provisions of this Act; and generally relating to rounding cash
+transactions.
 
 BY adding to
 Article – Business Regulation
-Section 1–601 through ~~1–607~~ 1–606 to be under the new subtitle “Subtitle 6.
+Section 1–601 through 1–606 to be under the new subtitle “Subtitle 6.
 Rounding Cash Transactions in a Trade or Business”
 Annotated Code of Maryland
 (2024 Replacement Volume and 2025 Supplement)
@@ -36,6 +35,12 @@ Annotated Code of Maryland
 (2022 Replacement Volume and 2025 Supplement)
 
 BY repealing and reenacting, with amendments,
+– 1 –
+END OF PAGE 1
+
+START OF PAGE 2
+Ch. 515 2026 LAWS OF MARYLAND
+
 Article – Tax – General
 Section 11–101(l)
 Annotated Code of Maryland
@@ -68,12 +73,12 @@ MERCHANT.
 (D) “MERCHANT” MEANS A PERSON ENGAGED IN THE TRADE OR BUSINESS
 OF THE SALE OF GOODS OR SERVICES.
 
-(E) “PRICE” MEANS THE AMOUNT DUE AND PAYABLE BY A CUSTOMER FOR A
-GOOD OR SERVICE AFTER A MERCHANT:
+(E) “PRICE” MEANS THE AMOUNT DUE AND PAYABLE BY A CUSTOMER
+FOR A GOOD OR SERVICE AFTER A MERCHANT:
 
 (1) SUBTRACTS ANY DISCOUNT OR DEDUCTION; AND
 
-(2) APPLIES ANY APPLICABLE TAX OR FEE
+(2) APPLIES ANY APPLICABLE TAX OR FEE.
 
 1–602.
 
@@ -85,8 +90,8 @@ WES MOORE, Governor Ch. 515
 
 THIS SUBTITLE:
 
-(1) DOES NOT APPLY TO A TRANSACTION FOR A GOOD OR SERVICE PAID
-WITH EXACT CHANGE; AND
+(1) DOES NOT APPLY TO A TRANSACTION FOR A GOOD OR
+SERVICE PAID WITH EXACT CHANGE; AND
 
 (2) MAY NOT BE CONSTRUED TO AUTHORIZE A MERCHANT TO ROUND
 A PRICE FOR A GOOD OR SERVICE IN A MANNER THAT ALTERS THE CALCULATION OF
@@ -94,15 +99,16 @@ ANY TAX OR FEE APPLICABLE TO THE TRANSACTION.
 
 1–603.
 
-(A) THIS SECTION APPLIES TO THE PORTION OF THE PRICE OF AN IN–PERSON
-TRANSACTION OR A TELEPHONE, MAIL, OR INTERNET TRANSACTION FOR WHICH A
-CUSTOMER PAYS USING CASH IF THE PRICE TOTALS AT LEAST 5 CENTS.
+(A) THIS SECTION APPLIES TO THE PORTION OF THE PRICE OF AN
+IN–PERSON TRANSACTION OR A TELEPHONE, MAIL, OR INTERNET
+TRANSACTION FOR WHICH A CUSTOMER PAYS USING CASH IF THE PRICE
+TOTALS AT LEAST 5 CENTS.
 
 (B) NOTWITHSTANDING ANY OTHER PROVISION OF LAW, A MERCHANT
 DOING BUSINESS IN THE STATE MAY:
 
-(1) ROUND THE PRICE FOR A GOOD OR SERVICE IN THE FOLLOWING
-MANNER:
+(1) ROUND THE PRICE FOR A GOOD OR SERVICE IN THE
+FOLLOWING MANNER:
 
 (I) IF THE PRICE ENDS IN 1 CENT, 2 CENTS, 6 CENTS, OR 7
 CENTS, BY ROUNDING THE PRICE DOWN TO THE NEAREST CENT DIVISIBLE BY FIVE;
@@ -116,13 +122,7 @@ DOWN CONSISTENT WITH ITEM (1) OF THIS SUBSECTION.
 
 1–604.
 
-(A) THIS SECTION APPLIES TO THE PORTION OF THE PRICE OF AN IN–PERSON
-TRANSACTION OR A TELEPHONE, MAIL, OR INTERNET TRANSACTION FOR WHICH A
-CUSTOMER PAYS USING CASH IF THE PRICE TOTALS LESS THAN 5 CENTS.
-
-(B) NOTWITHSTANDING ANY OTHER PROVISION OF LAW, A MERCHANT
-DOING BUSINESS IN THE STATE MAY ROUND THE PRICE FOR A GOOD OR SERVICE BY
-ROUNDING THE PRICE UP TO 5 CENTS.
+(A) THIS SECTION APPLIES TO
 
 – 3 –
 END OF PAGE 3
@@ -130,15 +130,29 @@ END OF PAGE 3
 START OF PAGE 4
 Ch. 515 2026 LAWS OF MARYLAND
 
-~~1–606.~~ 1–605.
+THE PORTION OF THE PRICE OF AN IN–PERSON TRANSACTION OR A
+TELEPHONE, MAIL, OR INTERNET TRANSACTION FOR WHICH A CUSTOMER PAYS
+USING CASH IF THE PRICE TOTALS LESS THAN 5 CENTS.
+
+(B) NOTWITHSTANDING ANY OTHER PROVISION OF LAW, A MERCHANT
+DOING BUSINESS IN THE STATE MAY ROUND THE PRICE FOR A GOOD OR SERVICE
+BY ROUNDING THE PRICE UP TO 5 CENTS.
+
+1–605.
 
 THIS SUBTITLE SUPERSEDES ANY REGULATION, RULE, OR ORDINANCE THAT
 CONFLICTS WITH THIS SUBTITLE.
 
-~~1–607.~~ 1–606.
+1–606.
 
 THE SECRETARY MAY ADOPT REGULATIONS TO CARRY OUT THE PROVISIONS
 OF THIS SUBTITLE.
+
+– 4 –
+END OF PAGE 4
+
+START OF PAGE 5
+WES MOORE, Governor Ch. 515
 
 Article – Tax – General
 
@@ -182,11 +196,11 @@ premises of the vendor;
 
 5. a professional service;
 
-– 4 –
-END OF PAGE 4
+– 5 –
+END OF PAGE 5
 
-START OF PAGE 5
-WES MOORE, Governor Ch. 515
+START OF PAGE 6
+Ch. 515 2026 LAWS OF MARYLAND
 
 6. a tax:
 
@@ -233,10 +247,16 @@ kept in the regular course of business; [or]
 IN A CASH TRANSACTION TO DETERMINE THE ROUNDED PRICE UNDER TITLE 1,
 SUBTITLE 6 OF THE BUSINESS REGULATION ARTICLE.
 
+– 6 –
+END OF PAGE 6
+
+START OF PAGE 7
+WES MOORE, Governor Ch. 515
+
 (4) “Taxable price” includes all sales and charges, including insurance,
-freight handling, equipment and supplies, delivery and pickup, cellular telephone, and
-other accessories, but not including sales of motor fuel subject to the motor fuel tax,
-made in connection with:
+freight handling, equipment and supplies, delivery and pickup, cellular telephone, and other
+accessories, but not including sales of motor fuel subject to the motor fuel tax, made in
+connection with:
 
 (i) a short–term vehicle rental, as defined in § 11–104(c) of this
 subtitle; or
@@ -252,22 +272,21 @@ accommodations intermediary or a short–term rental platform, the full amount o
 consideration paid by a buyer for the sale or use of an accommodation, but not including
 any tax that is remitted to a taxing authority; and
 
-(ii) for the sale or use of a home amenity rental facilitated by a
-home amenity rental intermediary or home amenity rental platform, the full amount of
-consideration paid by a buyer for the sale or use of a home amenity rental, but not
-including any tax that is remitted to a taxing authority.
+(ii) for the sale or use of a home amenity rental facilitated by a home
+amenity rental intermediary or home amenity rental platform, the full amount of
+consideration paid by a buyer for the sale or use of a home amenity rental, but not including
+any tax that is remitted to a taxing authority.
 
 (6) “Taxable price” does not include:
 
 (i) for the sale or use of an accommodation facilitated by an
-accommodations intermediary or a short–term rental platform, a commission paid by
-an accommodations provider to a person after facilitating the sale or use of an
-accommodation; or
+accommodations intermediary or a short–term rental platform, a commission paid by an
+accommodations provider to a person after facilitating the sale or use of an accommodation;
+or
 
-(ii) for the sale or use of a home amenity rental facilitated by a
-home amenity rental intermediary or home amenity rental platform, a commission paid
-by a home amenity rental provider to a person after facilitating the sale or use of a home
-amenity rental.
+(ii) for the sale or use of a home amenity rental facilitated by a home
+amenity rental intermediary or home amenity rental platform, a commission paid by a home
+amenity rental provider to a person after facilitating the sale or use of a home amenity rental.
 
 SECTION 2. AND BE IT FURTHER ENACTED, That this Act is an emergency
 measure, is necessary for the immediate preservation of the public health or safety, has
@@ -279,5 +298,3 @@ Approved by the Governor, May 12, 2026.
 
 – 7 –
 END OF PAGE 7
-</bill>
-</bill>

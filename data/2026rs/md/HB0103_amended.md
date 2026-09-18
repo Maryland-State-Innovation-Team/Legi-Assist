@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 103
 
@@ -27,7 +26,7 @@ CHAPTER ______
 
 2 Consumer Protection – Consumer Contracts – Prohibited ~~Waiver~~ Waivers
 
-3 For the purpose of ~~repealing~~ altering certain exemptions relating to a prohibition on a
+3 FOR the purpose of ~~repealing~~ altering certain exemptions relating to a prohibition on a
 4 consumer contract that sets a shorter time to bring an action under or on the
 5 consumer contract under certain circumstances; prohibiting a consumer contract
 6 from waiving, limiting, impairing, or disclaiming ~~any~~ ~~right~~ ~~conferred~~ ~~or~~ ~~created~~ ~~or~~ ~~a~~
@@ -65,7 +64,7 @@ START OF PAGE 2
 9 ~~BY~~ ~~adding~~ ~~to~~
 10 ~~Article~~ ~~–~~ ~~Commercial~~ ~~Law~~
 11 ~~Section~~ ~~13–301(14)(xlix)~~
-12 ~~Annotated~~ ~~Code~~ ~~of Maryland~~
+12 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
 13 ~~(2025~~ ~~Replacement~~ ~~Volume)~~
 
 14 BY repealing and reenacting, with amendments,
@@ -94,7 +93,7 @@ START OF PAGE 2
 
 29 14–1328.
 
-30 (a) (1) In this section, ~~“consumer contract” means a contract involving the sale, lease, or provision of goods or services that are for personal, family, or household purposes.~~ THE FOLLOWING WORDS HAVE THE
+30 (a) (1) In this section[, “consumer] THE FOLLOWING WORDS HAVE THE
 31 MEANINGS INDICATED.
 END OF PAGE 2
 
@@ -107,12 +106,12 @@ HOUSE BILL 103 3
 3 (3) “CONSUMER contract” means a contract involving the sale, lease, or
 4 provision of goods or services that are for personal, family, or household purposes.
 
-5 (b) [This section does not apply to:
+5 (b) This section does not apply to:
 
-6 (1) [Any consumer contract provided by a business, including an affiliate or
-7 a subsidiary of the business, that is doing business under a license, franchise agreement,
-8 certificate, or other authorization issued by a State agency, political subdivision, or public
-9 utility commission] A CONSUMER CONTRACT FOR A SERVICE PROVIDED BY A
+6 (1) ~~Any~~ ~~consumer~~ ~~contract~~ ~~provided~~ ~~by~~ ~~a~~ ~~business,~~ ~~including~~ ~~an~~ ~~affiliate~~ ~~or~~
+7 ~~a~~ ~~subsidiary~~ ~~of~~ ~~the~~ ~~business,~~ ~~that~~ ~~is~~ ~~doing~~ ~~business~~ ~~under~~ ~~a~~ ~~license,~~ ~~franchise~~ ~~agreement,~~
+8 ~~certificate,~~ ~~or~~ ~~other~~ ~~authorization~~ ~~issued~~ ~~by~~ ~~a~~ ~~State~~ ~~agency,~~ ~~political~~ ~~subdivision,~~ ~~or~~ ~~public~~
+9 ~~utility~~ ~~commission~~ A CONSUMER CONTRACT FOR A SERVICE PROVIDED BY A
 10 SELF–SERVICE STORAGE FACILITY, AS DEFINED IN § 18–501 OF THIS ARTICLE;
 
 11 (2) A service regulated by:
@@ -126,15 +125,16 @@ HOUSE BILL 103 3
 15 (3) A person or business licensed to provide security system services under
 16 Title 18 of the Business Occupations and Professions Article.
 
-17 (c) (1) EXCEPT AS PROVIDED IN PARAGRAPH (2) OF THIS SUBSECTION, THE FOLLOWING PROVISIONS in a consumer contract that [sets a shorter
+17 (c) (1) A provision ~~THE~~ EXCEPT AS PROVIDED IN PARAGRAPH (2) OF THIS
+18 SUBSECTION, THE FOLLOWING PROVISIONS in a consumer contract that [sets a shorter
 19 time to bring an action under or on the consumer contract than required by the law of the
 20 State when the consumer contract is issued or delivered] WAIVES, LIMITS, IMPAIRS, OR
 21 DISCLAIMS A RIGHT CONFERRED OR CREATED OR A MANNER OF ENFORCEMENT
-22 ESTABLISHED BY FEDERAL OR STATE LAW IS ARE against State public policy, illegal,
+22 ESTABLISHED BY FEDERAL OR STATE LAW is ARE against State public policy, illegal,
 23 and void, INCLUDING A:
 
-24 (I) A PROVISION THAT WAIVES, LIMITS, IMPAIRS, OR
-25 DISCLAIMS ~~STATUTORY OR PUNITIVE DAMAGES~~ THE FOLLOWING REMEDIES IF
+24 ~~(1)~~ (I) A PROVISION THAT WAIVES, LIMITS, IMPAIRS, OR
+25 DISCLAIMS ~~STATUTORY~~ ~~OR~~ ~~PUNITIVE~~ ~~DAMAGES~~ THE FOLLOWING REMEDIES IF
 26 AUTHORIZED BY FEDERAL OR STATE LAW:
 
 27 1. STATUTORY DAMAGES;
@@ -150,7 +150,7 @@ END OF PAGE 3
 START OF PAGE 4
 4 HOUSE BILL 103
 
-1 (II) A PROVISION THAT SETS A SHORTER TIME TO BRING AN
+1 ~~(2)~~ (II) A PROVISION THAT SETS A SHORTER TIME TO BRING AN
 2 ACTION UNDER OR ON THE CONSUMER CONTRACT THAN REQUIRED BY STATE LAW
 3 WHEN THE CONSUMER CONTRACT WAS ISSUED OR DELIVERED.
 
@@ -158,7 +158,7 @@ START OF PAGE 4
 5 STATUTORY OR PUNITIVE DAMAGES AUTHORIZED BY FEDERAL OR STATE LAW TO
 6 THE EXTENT OF THE APPLICABLE LIMIT OF INSURANCE COVERAGE.
 
-7 [(d)] If a consumer contract contains a provision that is illegal under this
+7 [(d)] ~~(C)~~ If a consumer contract contains a provision that is illegal under this
 8 section:
 
 9 (1) A court [may]:
@@ -186,7 +186,7 @@ START OF PAGE 4
 24 VIOLATION OF THIS SECTION FROM ENGAGING IN OR CONTINUING TO ENGAGE IN
 25 THE VIOLATION.
 
-26 (E) (1) THIS SECTION SHALL BE CONSTRUED TO APPLY EQUALLY
+26 ~~(E)~~ ~~(D)~~ (E) (1) THIS SECTION SHALL BE CONSTRUED TO APPLY EQUALLY
 27 AND WITHOUT FAVORABLE TREATMENT TO A CONSUMER CONTRACT WITH OR
 28 WITHOUT AN ARBITRATION PROVISION.
 
@@ -239,4 +239,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 5
-</bill>

@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 560
 
@@ -113,7 +112,7 @@ subcontract participation goals under § 20–206 of this subtitle; AND
 
 (5) PROMOTE, ENCOURAGE, AND SUPPORT INCREASED BUSINESS
 PARTICIPATION AND ECONOMIC OUTCOMES IN COMMISSION CONTRACTS AND
-SUBCONTRACTS.~~
+~~SUBCONTRACTS.~~
 
 20–301.
 
@@ -343,4 +342,3 @@ Approved by the Governor, May 12, 2026.
 
 – 7 –
 END OF PAGE 7
-</bill>

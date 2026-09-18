@@ -1,12 +1,12 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1365
 
 J5, J4, J2 6lr0671
 
-By: Delegates Pena–Melnyk, Bagnall, D. Jones, Spiegel, Rose, Alston, Cullison,
-Guzzone, Hill, Hutchinson, S. Johnson, Kaufman, Kipke, Lopez, Martinez, M.
-Morgan, Reilly, Rosenberg, Ross, Taveras, White Holland, and Woorman
+By: ~~Delegate~~ ~~Pena–Melnyk~~ Delegates Pena–Melnyk, Bagnall, D. Jones, Spiegel,
+Rose, Alston, Cullison, Guzzone, Hill, Hutchinson, S. Johnson, Kaufman,
+Kipke, Lopez, Martinez, M. Morgan, Reilly, Rosenberg, Ross, Taveras,
+White Holland, and Woorman
 Introduced and read first time: February 13, 2026
 Assigned to: Health
 
@@ -40,13 +40,6 @@ CHAPTER ______
 19 Article – Health – General
 20 Section 13–201
 21 Annotated Code of Maryland
-22 (2023 Replacement Volume and 2025 Supplement)
-
-23 BY repealing and reenacting, with amendments,
-24 Article – Health – General
-25 Section 13–203
-26 Annotated Code of Maryland
-27 (2023 Replacement Volume and 2025 Supplement)
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
@@ -58,241 +51,248 @@ END OF PAGE 1
 START OF PAGE 2
 2 HOUSE BILL 1365
 
-1 BY adding to
-2 Article – Health Occupations
-3 Section 1–231
-4 Annotated Code of Maryland
-5 (2021 Replacement Volume and 2025 Supplement)
+1 (2023 Replacement Volume and 2025 Supplement)
 
-6 BY adding to
-7 Article – Insurance
-8 Section 15–864
-9 Annotated Code of Maryland
-10 (2017 Replacement Volume and 2025 Supplement)
+2 BY repealing and reenacting, with amendments,
+3 Article – Health – General
+4 Section 13–203
+5 Annotated Code of Maryland
+6 (2023 Replacement Volume and 2025 Supplement)
 
-11 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
-12 That the Laws of Maryland read as follows:
+7 BY adding to
+8 Article – Health Occupations
+9 Section 1–231
+10 Annotated Code of Maryland
+11 (2021 Replacement Volume and 2025 Supplement)
 
-13 Article – Health – General
+12 BY adding to
+13 Article – Insurance
+14 Section 15–864
+15 Annotated Code of Maryland
+16 (2017 Replacement Volume and 2025 Supplement)
 
-14 13–201.
+17 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
+18 That the Laws of Maryland read as follows:
 
-15 In this subtitle, “Advisory Council” means the State Advisory Council on Health and
-16 Wellness.
+19 Article – Health – General
 
-17 13–203.
+20 13–201.
 
-18 (a) The Advisory Council consists of [34] voting members appointed by the
-19 Secretary.
+21 In this subtitle, “Advisory Council” means the State Advisory Council on Health and
+22 Wellness.
 
-20 (b) The following members shall serve without term limits:
+23 13–203.
 
-21 (1) The Secretary [of Health], or the Secretary’s designee;
+24 (a) The Advisory Council consists of [34] voting members appointed by the
+25 Secretary.
 
-22 (2) The State Superintendent of Schools, or the State Superintendent’s
-23 designee;
+26 (b) The following members shall serve without term limits:
 
-24 (3) The Secretary of Aging, or the Secretary’s designee;
+27 (1) The Secretary [of Health], or the Secretary’s designee;
 
-25 (4) The Secretary of Disabilities, or the Secretary’s designee;
+28 (2) The State Superintendent of Schools, or the State Superintendent’s
+29 designee;
 
-26 (5) A representative of the Maryland Office of Minority Health and Health
-27 Disparities; [and]
+30 (3) The Secretary of Aging, or the Secretary’s designee;
 
-28 (6) A representative of the Maryland Association of County Health
-29 Officers; AND
-
-30 (7) THE EXECUTIVE DIRECTOR OF THE MARYLAND COMMISSION
-31 FOR WOMEN, OR THE EXECUTIVE DIRECTOR’S DESIGNEE.
-
-32 (c) The following members are subject to term limits:
-
-33 (1) One representative of the American Heart Association Mid–Atlantic,
-34 Inc., nominated by the Executive Director of the Association;
+31 (4) The Secretary of Disabilities, or the Secretary’s designee;
 END OF PAGE 2
 
 START OF PAGE 3
 HOUSE BILL 1365 3
 
-1 (2) One representative of the Arthritis Foundation, Mid–Atlantic Region,
-2 Maryland, nominated by the Executive Director of the Foundation;
+1 (5) A representative of the Maryland Office of Minority Health and Health
+2 Disparities; [and]
 
-3 (3) One representative of the American Diabetes Association, Maryland
-4 Chapter, nominated by the Executive Director of the Association;
+3 (6) A representative of the Maryland Association of County Health
+4 Officers; AND
 
-5 (4) One representative of Johns Hopkins Medicine, nominated by the Chief
-6 Executive Officer of Johns Hopkins Medicine;
+5 (7) THE EXECUTIVE DIRECTOR OF THE MARYLAND COMMISSION
+6 FOR WOMEN, OR THE EXECUTIVE DIRECTOR’S DESIGNEE.
 
-7 (5) One representative of MedChi, the Maryland State Medical Society,
-8 nominated by the Executive Director of MedChi;
+7 (c) The following members are subject to term limits:
 
-9 (6) One representative of the University of Maryland Medical Center and
-10 University of Maryland School of Medicine, nominated by the Chief Executive Officer of the
-11 Medical Center and the Dean of the School of Medicine;
+8 (1) One representative of the American Heart Association Mid–Atlantic,
+9 Inc., nominated by the Executive Director of the Association;
 
-12 (7) One representative of the Maryland Chapter of the American Academy
-13 of Pediatrics, nominated by the Executive Director of the Chapter;
+10 (2) One representative of the Arthritis Foundation, Mid–Atlantic Region,
+11 Maryland, nominated by the Executive Director of the Foundation;
 
-14 (8) One representative of the Maryland Nurses Association, nominated by
-15 the Executive Director of the Association;
+12 (3) One representative of the American Diabetes Association, Maryland
+13 Chapter, nominated by the Executive Director of the Association;
 
-16 (9) One representative of the Maryland Academy of Nutrition and
-17 Dietetics, nominated by the President of the Academy;
+14 (4) One representative of Johns Hopkins Medicine, nominated by the Chief
+15 Executive Officer of Johns Hopkins Medicine;
 
-18 (10) One representative of the Maryland Chapter of the American College of
-19 Emergency Physicians, nominated by the President of the Chapter; [and]
+16 (5) One representative of MedChi, the Maryland State Medical Society,
+17 nominated by the Executive Director of MedChi;
 
-20 (11) ONE REPRESENTATIVE WITH EXPERTISE IN PERIMENOPAUSAL,
-21 MENOPAUSAL, AND POSTMENOPAUSAL EVALUATION AND TREATMENT; AND
+18 (6) One representative of the University of Maryland Medical Center and
+19 University of Maryland School of Medicine, nominated by the Chief Executive Officer of the
+20 Medical Center and the Dean of the School of Medicine;
 
-22 (12) [Eighteen] SEVENTEEN members of the public, who may include:
+21 (7) One representative of the Maryland Chapter of the American Academy
+22 of Pediatrics, nominated by the Executive Director of the Chapter;
 
-23 (i) Individuals with a chronic disease or family members of an
-24 individual with a chronic disease;
+23 (8) One representative of the Maryland Nurses Association, nominated by
+24 the Executive Director of the Association;
 
-25 (ii) Licensed health care providers;
+25 (9) One representative of the Maryland Academy of Nutrition and
+26 Dietetics, nominated by the President of the Academy;
 
-26 (iii) Individuals with a physical fitness background;
+27 (10) One representative of the Maryland Chapter of the American College of
+28 Emergency Physicians, nominated by the President of the Chapter; [and]
 
-27 (iv) Employers or representatives of the business sector;
+29 (11) ONE REPRESENTATIVE WITH EXPERTISE IN PERIMENOPAUSAL,
+30 MENOPAUSAL, AND POSTMENOPAUSAL EVALUATION AND TREATMENT; AND
 
-28 (v) Representatives of health insurers;
-
-29 (vi) Representatives of community–based organizations; and
-
-30 (vii) Individuals with expressed interest in health and wellness.
-
-31 (d) (1) This subsection applies to members who are subject to term limits.
+31 (12) [Eighteen] SEVENTEEN members of the public, who may include:
 END OF PAGE 3
 
 START OF PAGE 4
 4 HOUSE BILL 1365
 
-1 (2) The term of a member is 4 years.
+1 (i) Individuals with a chronic disease or family members of an
+2 individual with a chronic disease;
 
-2 (3) The terms of members are staggered as required by the terms provided
-3 for members of the Advisory Council on October 1, 2017.
+3 (ii) Licensed health care providers;
 
-4 (4) A member may serve two consecutive full terms.
+4 (iii) Individuals with a physical fitness background;
 
-5 (5) At the end of a term, a member continues to serve until a successor is
-6 appointed and qualifies.
+5 (iv) Employers or representatives of the business sector;
 
-7 (6) A member who is appointed after a term has begun serves only for the
-8 rest of the term and until a successor is appointed and qualifies.
+6 (v) Representatives of health insurers;
 
-9 (7) A member who serves two consecutive full 4–year terms may not be
-10 reappointed for 4 years after the completion of those terms.
+7 (vi) Representatives of community–based organizations; and
 
-11 (e) If a vacancy occurs, the Secretary promptly shall appoint a successor.
+8 (vii) Individuals with expressed interest in health and wellness.
 
-12 Article – Health Occupations
+9 (d) (1) This subsection applies to members who are subject to term limits.
 
-13 1–231.
+10 (2) The term of a member is 4 years.
 
-14 (A) THIS SECTION APPLIES ONLY TO A LICENSEE OR CERTIFICATE HOLDER
-15 WHO EVALUATES AND MANAGES MENOPAUSE AND MENOPAUSE–ASSOCIATED
-16 SYMPTOMS WHILE ACTING WITHIN THE SCOPE OF THE LICENSE OR CERTIFICATE.
+11 (3) The terms of members are staggered as required by the terms provided
+12 for members of the Advisory Council on October 1, 2017.
 
-17 (B) EACH HEALTH OCCUPATIONS BOARD THAT REQUIRES A LICENSEE OR
-18 CERTIFICATE HOLDER TO COMPLETE CONTINUING EDUCATION AS A CONDITION OF
-19 THE RENEWAL OF THE LICENSE OR CERTIFICATE SHALL GRANT AT LEAST 2 HOURS
-20 OF CONTINUING EDUCATION CREDITS FOR EVERY 1 HOUR OF CONTINUING
-21 EDUCATION ON MENOPAUSE AND MENOPAUSE–ASSOCIATED SYMPTOMS
-22 COMPLETED BY THE LICENSEE OR CERTIFICATE HOLDER.
+13 (4) A member may serve two consecutive full terms.
 
-23 (C) (1) THE DEPARTMENT SHALL IDENTIFY AT LEAST ONE TRAINING
-24 PROGRAM FOR LICENSEES AND CERTIFICATE HOLDERS REGARDING THE
-25 EVALUATION AND MANAGEMENT OF MENOPAUSE AND MENOPAUSE–ASSOCIATED
-26 SYMPTOMS THAT MAY BE USED FOR THE PURPOSES OF SUBSECTION (B) OF THIS
-27 SECTION.
+14 (5) At the end of a term, a member continues to serve until a successor is
+15 appointed and qualifies.
 
-28 (2) IN IDENTIFYING A TRAINING PROGRAM UNDER PARAGRAPH (1) OF
-29 THIS SUBSECTION, THE DEPARTMENT SHALL CONSULT WITH PROFESSIONAL
-30 ASSOCIATIONS WITH EXPERTISE IN MENOPAUSE AND MENOPAUSE–ASSOCIATED
-31 SYMPTOMS, INCLUDING THE MENOPAUSE SOCIETY.
+16 (6) A member who is appointed after a term has begun serves only for the
+17 rest of the term and until a successor is appointed and qualifies.
 
-32 (D) A HEALTH OCCUPATIONS BOARD SUBJECT TO THIS SECTION MAY ADOPT
-33 REGULATIONS TO CARRY OUT THIS SECTION, INCLUDING REGULATIONS
+18 (7) A member who serves two consecutive full 4–year terms may not be
+19 reappointed for 4 years after the completion of those terms.
+
+20 (e) If a vacancy occurs, the Secretary promptly shall appoint a successor.
+
+21 Article – Health Occupations
+
+22 1–231.
+
+23 (A) THIS SECTION APPLIES ONLY TO A LICENSEE OR CERTIFICATE HOLDER
+24 WHO EVALUATES AND MANAGES MENOPAUSE AND MENOPAUSE–ASSOCIATED
+25 SYMPTOMS WHILE ACTING WITHIN THE SCOPE OF THE LICENSE OR CERTIFICATE.
+
+26 (B) EACH HEALTH OCCUPATIONS BOARD THAT REQUIRES A LICENSEE OR
+27 CERTIFICATE HOLDER TO COMPLETE CONTINUING EDUCATION AS A CONDITION OF
 END OF PAGE 4
 
 START OF PAGE 5
 HOUSE BILL 1365 5
 
-1 ESTABLISHING THE MAXIMUM NUMBER OF CONTINUING EDUCATION CREDITS THAT
-2 MAY BE GRANTED UNDER THIS SECTION.
+1 THE RENEWAL OF THE LICENSE OR CERTIFICATE SHALL GRANT AT LEAST 2 HOURS
+2 OF CONTINUING EDUCATION CREDITS FOR EVERY 1 HOUR OF CONTINUING
+3 EDUCATION ON MENOPAUSE AND MENOPAUSE–ASSOCIATED SYMPTOMS
+4 COMPLETED BY THE LICENSEE OR CERTIFICATE HOLDER.
 
-3 SECTION 2. AND BE IT FURTHER ENACTED, That the Laws of Maryland read
-4 as follows:
+5 (C) (1) THE DEPARTMENT SHALL IDENTIFY AT LEAST ONE TRAINING
+6 PROGRAM FOR LICENSEES AND CERTIFICATE HOLDERS REGARDING THE
+7 EVALUATION AND MANAGEMENT OF MENOPAUSE AND MENOPAUSE–ASSOCIATED
+8 SYMPTOMS THAT MAY BE USED FOR THE PURPOSES OF SUBSECTION (B) OF THIS
+9 SECTION.
 
-5 Article – Insurance
+10 (2) IN IDENTIFYING A TRAINING PROGRAM UNDER PARAGRAPH (1) OF
+11 THIS SUBSECTION, THE DEPARTMENT SHALL CONSULT WITH PROFESSIONAL
+12 ASSOCIATIONS WITH EXPERTISE IN MENOPAUSE AND MENOPAUSE–ASSOCIATED
+13 SYMPTOMS, INCLUDING THE MENOPAUSE SOCIETY.
 
-6 15–864.
+14 (D) A HEALTH OCCUPATIONS BOARD SUBJECT TO THIS SECTION MAY ADOPT
+15 REGULATIONS TO CARRY OUT THIS SECTION, INCLUDING REGULATIONS
+16 ESTABLISHING THE MAXIMUM NUMBER OF CONTINUING EDUCATION CREDITS THAT
+17 MAY BE GRANTED UNDER THIS SECTION.
 
-7 (A) THIS SECTION APPLIES TO:
+18 SECTION 2. AND BE IT FURTHER ENACTED, That the Laws of Maryland read
+19 as follows:
 
-8 (1) INSURERS AND NONPROFIT HEALTH SERVICE PLANS THAT
-9 PROVIDE HOSPITAL, MEDICAL, OR SURGICAL BENEFITS TO INDIVIDUALS OR GROUPS
-10 ON AN EXPENSE–INCURRED BASIS UNDER HEALTH INSURANCE POLICIES OR
-11 CONTRACTS THAT ARE ISSUED OR DELIVERED IN THE STATE; AND
+20 Article – Insurance
 
-12 (2) HEALTH MAINTENANCE ORGANIZATIONS THAT PROVIDE
-13 HOSPITAL, MEDICAL, OR SURGICAL BENEFITS TO INDIVIDUALS OR GROUPS UNDER
-14 CONTRACTS THAT ARE ISSUED OR DELIVERED IN THE STATE.
+21 15–864.
 
-15 (B) AN ENTITY SUBJECT TO THIS SECTION SHALL PROVIDE COVERAGE FOR
-16 THE EVALUATION AND MANAGEMENT OF MENOPAUSE AND
-17 MENOPAUSE–ASSOCIATED SYMPTOMS AS DETERMINED BY THE TREATING HEALTH
-18 CARE PROVIDER.
+22 (A) THIS SECTION APPLIES TO:
 
-19 SECTION 3. AND BE IT FURTHER ENACTED, That the Maryland Commission for
-20 Women shall:
+23 (1) INSURERS AND NONPROFIT HEALTH SERVICE PLANS THAT
+24 PROVIDE HOSPITAL, MEDICAL, OR SURGICAL BENEFITS TO INDIVIDUALS OR GROUPS
+25 ON AN EXPENSE–INCURRED BASIS UNDER HEALTH INSURANCE POLICIES OR
+26 CONTRACTS THAT ARE ISSUED OR DELIVERED IN THE STATE; AND
 
-21 (1) evaluate opportunities for State policy initiatives that improve the
-22 health and economic security of individuals in the State with perimenopausal, menopausal,
-23 and postmenopausal conditions; and
+27 (2) HEALTH MAINTENANCE ORGANIZATIONS THAT PROVIDE
+28 HOSPITAL, MEDICAL, OR SURGICAL BENEFITS TO INDIVIDUALS OR GROUPS UNDER
+29 CONTRACTS THAT ARE ISSUED OR DELIVERED IN THE STATE.
 
-24 (2) on or before October 1, 2027, report its findings and recommendations
-25 to the General Assembly, in accordance with § 2–1257 of the State Government Article.
-
-26 SECTION 4. AND BE IT FURTHER ENACTED, That the Maryland Department of
-27 Health shall:
-
-28 (1) in consultation with the State Community Health Worker Advisory
-29 Committee, evaluate and develop an action plan to increase access to perimenopausal,
-30 menopausal, and postmenopausal health care services through the outreach of community
-31 health workers to consumers; and
-
-32 (2) on or before October 1, 2027, submit its evaluation and recommended
-33 action plan to the General Assembly, in accordance with § 2–1257 of the State Government
-34 Article.
+30 (B) AN ENTITY SUBJECT TO THIS SECTION SHALL PROVIDE COVERAGE FOR
+31 THE EVALUATION AND MANAGEMENT OF MENOPAUSE AND
+32 MENOPAUSE–ASSOCIATED SYMPTOMS AS DETERMINED BY THE TREATING HEALTH
+33 CARE PROVIDER.
 END OF PAGE 5
 
 START OF PAGE 6
 6 HOUSE BILL 1365
 
-1 SECTION 5. AND BE IT FURTHER ENACTED, That the Maryland Department of
-2 Health shall:
+1 SECTION 3. AND BE IT FURTHER ENACTED, That the Maryland Commission for
+2 Women shall:
 
-3 (1) in consultation with health care provider professional associations and
-4 institutions of higher education, including community colleges, evaluate methods for
-5 increasing opportunities for clinical education, including postgraduate education, on
-6 perimenopausal, menopausal, and postmenopausal evaluation and treatment; and
+3 (1) evaluate opportunities for State policy initiatives that improve the
+4 health and economic security of individuals in the State with perimenopausal, menopausal,
+5 and postmenopausal conditions; and
 
-7 (2) on or before October 1, 2027, report its findings and recommendations
-8 to the General Assembly, in accordance with § 2–1257 of the State Government Article.
+6 (2) on or before October 1, 2027, report its findings and recommendations
+7 to the General Assembly, in accordance with § 2–1257 of the State Government Article.
 
-9 SECTION ~~3.~~ 6. AND BE IT FURTHER ENACTED, That Section 2 of this Act shall
-10 apply to all policies, contracts, and health benefit plans issued, delivered, or renewed in the
-11 State on or after January 1, 2027.
+8 SECTION 4. AND BE IT FURTHER ENACTED, That the Maryland Department of
+9 Health shall:
 
-12 SECTION ~~4.~~ 7. AND BE IT FURTHER ENACTED, That Section 2 of this Act shall
-13 take effect January 1, 2027.
+10 (1) in consultation with the State Community Health Worker Advisory
+11 Committee, evaluate and develop an action plan to increase access to perimenopausal,
+12 menopausal, and postmenopausal health care services through the outreach of community
+13 health workers to consumers; and
 
-14 SECTION ~~5.~~ 8. AND BE IT FURTHER ENACTED, That, ~~except~~ ~~as~~ ~~provided~~ ~~in~~
-15 Section ~~4~~ 1 of this Act, ~~this~~ ~~Act~~ shall take effect October 1, 2026.
+14 (2) on or before October 1, 2027, submit its evaluation and recommended
+15 action plan to the General Assembly, in accordance with § 2–1257 of the State Government
+16 Article.
 
-16 SECTION 9. AND BE IT FURTHER ENACTED, That, except as provided in
-17 Sections 7 and 8 of this Act, this Act shall take effect July 1, 2026.
+17 SECTION 5. AND BE IT FURTHER ENACTED, That the Maryland Department of
+18 Health shall:
+
+19 (1) in consultation with health care provider professional associations and
+20 institutions of higher education, including community colleges, evaluate methods for
+21 increasing opportunities for clinical education, including postgraduate education, on
+22 perimenopausal, menopausal, and postmenopausal evaluation and treatment; and
+
+23 (2) on or before October 1, 2027, report its findings and recommendations
+24 to the General Assembly, in accordance with § 2–1257 of the State Government Article.
+
+25 SECTION ~~3.~~ 6. AND BE IT FURTHER ENACTED, That Section 2 of this Act shall
+26 apply to all policies, contracts, and health benefit plans issued, delivered, or renewed in the
+27 State on or after January 1, 2027.
+
+28 SECTION ~~4.~~ 7. AND BE IT FURTHER ENACTED, That Section 2 of this Act shall
+29 take effect January 1, 2027.
+
+30 SECTION ~~5.~~ 8. AND BE IT FURTHER ENACTED, That, ~~except~~ ~~as~~ ~~provided~~ ~~in~~
+31 Section ~~4~~ 1 of this Act, ~~this~~ ~~Act~~ shall take effect October 1, 2026.
+
+32 SECTION 9. AND BE IT FURTHER ENACTED, That, except as provided in
+33 Sections 7 and 8 of this Act, this Act shall take effect July 1, 2026.
 END OF PAGE 6
-</bill>

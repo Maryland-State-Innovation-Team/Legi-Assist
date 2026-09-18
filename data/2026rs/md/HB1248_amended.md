@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1248
 
@@ -37,12 +36,9 @@ CHAPTER ______
 10 ~~could~~ ~~be~~ ~~converted~~ ~~to~~ ~~part–time~~ ~~positions~~ ~~with~~ ~~benefits;~~ ~~and~~ ~~generally~~ ~~relating~~ ~~to~~ ~~the~~
 11 ~~Part–Time~~ ~~State~~ ~~Employment~~ ~~Pilot~~ ~~Program~~ Workgroup for an Inclusive State
 12 Workplace to ~~create~~ ~~a~~ ~~strategy~~ ~~and~~ ~~implementation~~ ~~work~~ ~~plan~~ ~~regarding~~ ~~more~~
-13 ~~inclusive~~ *study and make recommendations regarding the expansion of part–time* State
-14 employment opportunities for individuals who are challenged by the traditional full–time
-15 employment structure; *requiring the Department of Budget and Management, taking into
-16 consideration the Workgroup’s findings and recommendations, to develop and distribute
-17 guidance to State agencies on expanding part–time employment opportunities;* and
-18 generally relating to the Workgroup for an Inclusive State Workplace.
+13 ~~inclusive~~ study and make recommendations regarding the expansion of part–time
+14 State employment opportunities for individuals who are challenged by the
+15 traditional full–time employment structure; requiring the Department of Budget and
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
@@ -55,46 +51,51 @@ END OF PAGE 1
 START OF PAGE 2
 2 HOUSE BILL 1248
 
-1 ~~BY~~ ~~repealing~~ ~~and~~ ~~reenacting,~~ ~~without~~ ~~amendments,~~
-2 ~~Article~~ ~~–~~ ~~State~~ ~~Personnel~~ ~~and~~ ~~Pensions~~
-3 ~~Section~~ ~~1–101(a),~~ ~~(f),~~ ~~and~~ ~~(j)~~
-4 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
-5 ~~(2024~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
+1 Management, taking into consideration the Workgroup’s findings and
+2 recommendations, to develop and distribute guidance to State agencies on expanding
+3 part–time employment opportunities; and generally relating to the Workgroup for an
+4 Inclusive State Workplace.
 
-6 ~~BY~~ ~~repealing~~ ~~and~~ ~~reenacting,~~ ~~with~~ ~~amendments,~~
-7 ~~Article~~ ~~–~~ ~~State~~ ~~Personnel~~ ~~and~~ ~~Pensions~~
-8 ~~Section~~ ~~7–701~~
-9 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
-10 ~~(2024~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
+5 ~~BY~~ ~~repealing~~ ~~and~~ ~~reenacting,~~ ~~without~~ ~~amendments,~~
+6 ~~Article~~ ~~–~~ ~~State~~ ~~Personnel~~ ~~and~~ ~~Pensions~~
+7 ~~Section~~ ~~1–101(a),~~ ~~(f),~~ ~~and~~ ~~(j)~~
+8 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+9 ~~(2024~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
-11 ~~BY~~ ~~adding~~ ~~to~~
-12 ~~Article~~ ~~–~~ ~~State~~ ~~Personnel~~ ~~and~~ ~~Pensions~~
-13 ~~Section~~ ~~7–702~~
-14 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
-15 ~~(2024~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
+10 ~~BY~~ ~~repealing~~ ~~and~~ ~~reenacting,~~ ~~with~~ ~~amendments,~~
+11 ~~Article~~ ~~–~~ ~~State~~ ~~Personnel~~ ~~and~~ ~~Pensions~~
+12 ~~Section~~ ~~7–701~~
+13 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+14 ~~(2024~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
-16 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
-17 That ~~the~~ ~~Laws~~ ~~of~~ ~~Maryland~~ ~~read~~ ~~as~~ ~~follows:~~
+15 ~~BY~~ ~~adding~~ ~~to~~
+16 ~~Article~~ ~~–~~ ~~State~~ ~~Personnel~~ ~~and~~ ~~Pensions~~
+17 ~~Section~~ ~~7–702~~
+18 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+19 ~~(2024~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
-18 ~~Article~~ ~~–~~ ~~State~~ ~~Personnel~~ ~~and~~ ~~Pensions~~
+20 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
+21 That ~~the~~ ~~Laws~~ ~~of~~ ~~Maryland~~ ~~read~~ ~~as~~ ~~follows:~~
 
-19 ~~1–101.~~
+22 ~~Article~~ ~~–~~ ~~State~~ ~~Personnel~~ ~~and~~ ~~Pensions~~
 
-20 ~~(a)~~ ~~In~~ ~~this~~ ~~Division~~ ~~I~~ ~~of~~ ~~this~~ ~~article~~ ~~the~~ ~~following~~ ~~words~~ ~~have~~ ~~the~~ ~~meanings~~
-21 ~~indicated.~~
+23 ~~1–101.~~
 
-22 ~~(f)~~ ~~Unless~~ ~~expressly~~ ~~provided~~ ~~otherwise,~~ ~~“Department”~~ ~~means~~ ~~the~~ ~~Department~~ ~~of~~
-23 ~~Budget~~ ~~and~~ ~~Management.~~
+24 ~~(a)~~ ~~In~~ ~~this~~ ~~Division~~ ~~I~~ ~~of~~ ~~this~~ ~~article~~ ~~the~~ ~~following~~ ~~words~~ ~~have~~ ~~the~~ ~~meanings~~
+25 ~~indicated.~~
 
-24 ~~(j)~~ ~~“Position”~~ ~~means~~ ~~an~~ ~~employment~~ ~~assignment~~ ~~of~~ ~~duties~~ ~~and~~ ~~responsibilities~~
-25 ~~that~~ ~~requires~~ ~~the~~ ~~full–time~~ ~~employment~~ ~~of~~ ~~one~~ ~~individual~~ ~~or~~ ~~less~~ ~~than~~ ~~full–time~~ ~~employment~~
-26 ~~of~~ ~~one~~ ~~or~~ ~~more~~ ~~individuals.~~
+26 ~~(f)~~ ~~Unless~~ ~~expressly~~ ~~provided~~ ~~otherwise,~~ ~~“Department”~~ ~~means~~ ~~the~~ ~~Department~~ ~~of~~
+27 ~~Budget~~ ~~and~~ ~~Management.~~
 
-27 ~~7–701.~~
+28 ~~(j)~~ ~~“Position”~~ ~~means~~ ~~an~~ ~~employment~~ ~~assignment~~ ~~of~~ ~~duties~~ ~~and~~ ~~responsibilities~~
+29 ~~that~~ ~~requires~~ ~~the~~ ~~full–time~~ ~~employment~~ ~~of~~ ~~one~~ ~~individual~~ ~~or~~ ~~less~~ ~~than~~ ~~full–time~~ ~~employment~~
+30 ~~of~~ ~~one~~ ~~or~~ ~~more~~ ~~individuals.~~
 
-28 (a) [In] EXCEPT AS PROVIDED IN § 7–702 OF THIS SUBTITLE, IN this [title]
-29 ~~SUBTITLE,~~ ~~“part–time~~ ~~employee”~~ ~~means~~ ~~an~~ ~~employee~~ ~~who~~ ~~works~~ ~~an~~ ~~average~~ ~~of~~ ~~50%~~ ~~or~~ ~~more~~
-30 ~~but~~ ~~less~~ ~~than~~ ~~100%~~ ~~of~~ ~~the~~ ~~regular~~ ~~workweek.~~
+31 ~~7–701.~~
+
+32 (a) [In] EXCEPT AS PROVIDED IN § 7–702 OF THIS SUBTITLE, IN this [title]
+33 ~~SUBTITLE,~~ ~~“part–time~~ ~~employee”~~ ~~means~~ ~~an~~ ~~employee~~ ~~who~~ ~~works~~ ~~an~~ ~~average~~ ~~of~~ ~~50%~~ ~~or~~ ~~more~~
+34 ~~but~~ ~~less~~ ~~than~~ ~~100%~~ ~~of~~ ~~the~~ ~~regular~~ ~~workweek.~~
 END OF PAGE 2
 
 START OF PAGE 3
@@ -214,24 +215,24 @@ HOUSE BILL 1248 5
 10 (7) the Secretary of Health, or the Secretary’s designee;
 
 11 (8) the ~~Deputy~~ ~~Secretary~~ ~~of~~ ~~the~~ ~~Developmental~~ ~~Disabilities~~
-12 ~~Administration,~~ ~~or~~ ~~the~~ ~~Deputy~~ *Secretary of Disabilities, or the* Secretary’s designee;
+12 ~~Administration,~~ ~~or~~ ~~the~~ ~~Deputy~~ Secretary of Disabilities, or the Secretary’s designee;
 
-13 (9) ~~one~~ ~~representative~~ ~~from~~ ~~the~~ ~~Maryland~~ ~~Department~~ ~~of~~ ~~Health~~ *the
-14 Secretary of Transportation, or the Secretary’s designee;*
+13 (9) ~~one~~ ~~representative~~ ~~from~~ ~~the~~ ~~Maryland~~ ~~Department~~ ~~of~~ ~~Health~~ the
+14 Secretary of Transportation, or the Secretary’s designee;
 
 15 (10) the Chancellor of the University System of Maryland, or the
 16 Chancellor’s designee;
 
-17 (11) *one representative from a State employees union, appointed by the
-18 Governor;*
+17 (11) one representative from a State employees union, appointed by the
+18 Governor;
 
-19 *(12)* one member of the Senate of Maryland, appointed by the President of
+19 (12) one member of the Senate of Maryland, appointed by the President of
 20 the Senate;
 
-21 ~~(12)~~ *(13)* one member of the House of Delegates, appointed by the Speaker
+21 ~~(12)~~ (13) one member of the House of Delegates, appointed by the Speaker
 22 of the House; and
 
-23 ~~(13)~~ *(14)* any representative appointed by the Governor under subsection
+23 ~~(13)~~ (14) any representative appointed by the Governor under subsection
 24 (c) of this section.
 
 25 (c) The Governor may appoint the following members to the Workgroup:
@@ -247,7 +248,7 @@ START OF PAGE 6
 6 HOUSE BILL 1248
 
 1 (4) a representative who is actively engaged in the older adult community;
-2 *and*
+2 and
 
 3 (5) ~~a~~ ~~representative~~ ~~from~~ ~~a~~ ~~State~~ ~~employees~~ ~~union;~~ ~~and~~
 
@@ -265,9 +266,9 @@ START OF PAGE 6
 10 (2) is entitled to reimbursement for expenses under the Standard State
 11 Travel Regulations, as provided in the State budget.
 
-12 (g) *(1) The Workgroup shall begin meeting before October 1, 2026.*
+12 (g) (1) The Workgroup shall begin meeting before October 1, 2026.
 
-13 *(2)* The Workgroup shall:
+13 (2) The Workgroup shall:
 
 14 ~~(1)~~ ~~outline~~ ~~the~~ ~~steps~~ ~~the~~ ~~State~~ ~~needs~~ ~~to~~ ~~take~~ ~~to~~ ~~offer~~ ~~more~~ ~~inclusive~~
 15 ~~employment~~ ~~opportunities~~ ~~for~~ ~~caregivers,~~ ~~people~~ ~~with~~ ~~disabilities~~ ~~or~~ ~~other~~ ~~medical~~
@@ -288,42 +289,42 @@ START OF PAGE 6
 26 ~~conditions,~~ ~~older~~ ~~adults,~~ ~~and~~ ~~other~~ ~~individuals~~ ~~challenged~~ ~~by~~ ~~the~~ ~~traditional,~~ ~~full–time~~
 27 ~~employment~~ ~~structure.~~
 
-28 *(i) outline the steps the State needs to take to encourage the
+28 (i) outline the steps the State needs to take to encourage the
 29 expansion of part–time employment within the State Personnel Management System, the
-30 University System of Maryland, and the Department of Transportation;*
+30 University System of Maryland, and the Department of Transportation;
 END OF PAGE 6
 
 START OF PAGE 7
 HOUSE BILL 1248 7
 
-1 *(ii) focus on the inclusive employment opportunities in State
-2 government and removing obstacles for individuals challenged by full–time employment;*
+1 (ii) focus on the inclusive employment opportunities in State
+2 government and removing obstacles for individuals challenged by full–time employment;
 
-3 *(iii) review the current policies and procedures concerning part–time
-4 employment in State government;*
+3 (iii) review the current policies and procedures concerning part–time
+4 employment in State government;
 
-5 *(iv) analyze the budgetary incentives, recruitment best practices, and
+5 (iv) analyze the budgetary incentives, recruitment best practices, and
 6 support structures currently in place to encourage hiring of part–time, benefit–eligible
-7 employees;*
+7 employees;
 
-8 *(v) study the economic and operational effects and quantify the
-9 long–term economic benefits of part–time employment on households and State government;*
+8 (v) study the economic and operational effects and quantify the
+9 long–term economic benefits of part–time employment on households and State government;
 
-10 *(vi) suggest timelines and identify methods and associated metrics for
-11 expanding part–time employment opportunities; and*
+10 (vi) suggest timelines and identify methods and associated metrics for
+11 expanding part–time employment opportunities; and
 
-12 *(vii) identify any potential statutory changes required to implement
-13 the steps identified by the Workgroup.*
+12 (vii) identify any potential statutory changes required to implement
+13 the steps identified by the Workgroup.
 
 14 (h) On or before September 15, 2027, the Workgroup shall ~~share~~ ~~its~~ ~~inclusive~~
-15 ~~workplace~~ ~~implementation~~ ~~strategy~~ ~~and~~ ~~workplan~~ *provide its findings and
-16 recommendations* in a report to the General Assembly, in accordance with § 2–1257 of the
+15 ~~workplace~~ ~~implementation~~ ~~strategy~~ ~~and~~ ~~workplan~~ provide its findings and
+16 recommendations in a report to the General Assembly, in accordance with § 2–1257 of the
 17 State Government Article.
 
-18 *(i) On or before December 31, 2027, the Department of Budget and Management
+18 (i) On or before December 31, 2027, the Department of Budget and Management
 19 shall develop and distribute guidance to State agencies on expanding part–time employment
 20 opportunities, taking into consideration the findings and recommendations of the
-21 Workgroup.*
+21 Workgroup.
 
 22 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
 23 1, 2026. It shall remain effective for a period of ~~3~~ 2 years and, at the end of June 30, ~~2029~~
@@ -341,4 +342,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 7
-</bill>

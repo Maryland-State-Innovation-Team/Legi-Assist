@@ -276,7 +276,7 @@ Article; and
 administrator as required under § 20–301 of the Health Occupations Article.
 
 SECTION 2. AND BE IT FURTHER ENACTED, That an individual who holds a
-certificate as a residential child and youth care practitioner on ~~July~~ ~~1,~~ ~~2026~~ January 1, 2027, may not be
+certificate as a residential child and youth care practitioner on January 1, 2027, may not be
 required to complete:
 
 (1) any program of training required by § 20–302.1 of the Health

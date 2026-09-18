@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 772
 
@@ -30,7 +29,7 @@ CHAPTER ______
 2 ~~Workgroup~~ ~~on~~ Behavioral Health Rate Methodology Modernization –
 3 Workgroup Establishment and Study
 
-4 FOR the provide of requiring the Maryland Department of Health, rather than the
+4 FOR the purpose of requiring the Maryland Department of Health, rather than the
 5 Behavioral Health Administration and the Medical Care Programs Administration,
 6 to conduct a certain rate–setting study; requiring the Department to review and
 7 implement certain recommendations and administer certain tools and oversee
@@ -419,4 +418,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 9
-</bill>

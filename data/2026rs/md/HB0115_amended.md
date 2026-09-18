@@ -1,11 +1,9 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 428
 
 Chapter 428
 
 (House Bill 115)
-Delegates Wilkins, Wells, Sample–Hughes, Lehman, and Crutchfield
 
 AN ACT concerning
 
@@ -16,16 +14,13 @@ FOR the purpose of requiring, on or before a certain date, the State Board of El
 the Department of Public Safety and Correctional Services to jointly develop and
 implement certain procedures and a certain electronic transmission process for the
 restoration of voter registration for individuals released from incarceration at a State
-correctional facility; requiring the Department ~~of~~ ~~Public~~ ~~Safety~~ ~~and~~ ~~Correctional~~
-~~Services~~ to transmit a certain list of individuals released from incarceration at a
-State correctional facility to the State ~~Board~~ ~~of~~ ~~Elections~~ in a certain manner;
-requiring the State Board to ~~automatically~~ promptly restore the voter registration of
+correctional facility; requiring the Department to transmit a certain list of individuals released from incarceration at a
+State correctional facility to the State in a certain manner;
+requiring the State Board to promptly restore the voter registration of
 certain individuals released from State correctional facilities who were registered to
 vote in the State before being incarcerated; prohibiting certain information
-regarding ~~voters~~ ~~registered~~ ~~through~~ ~~the~~ ~~Department~~ the voter registration agency
-through which a formerly incarcerated voter has registered from being disclosed
-~~under~~ ~~the~~ ~~Public~~ ~~Information~~ ~~Act~~ to the public; and generally relating to automatic
-restoration of voter registration for individuals released from State correctional
+regarding the voter registration agency through which a formerly incarcerated voter has registered from being disclosed
+to the public; and generally relating to automatic restoration of voter registration for individuals released from State correctional
 facilities.
 
 BY repealing and reenacting, without amendments,
@@ -106,11 +101,11 @@ END OF PAGE 2
 START OF PAGE 3
 WES MOORE, Governor Ch. 428
 
-~~(B)~~ (C) ON A ~~WEEKLY~~ MONTHLY BASIS, THE DEPARTMENT OF PUBLIC
+(C) ON A MONTHLY BASIS, THE DEPARTMENT OF PUBLIC
 SAFETY AND CORRECTIONAL SERVICES SHALL ELECTRONICALLY TRANSMIT TO
-THE STATE BOARD A LIST THAT INCLUDES THE ~~NAME AND NEW RESIDENTIAL ADDRESS OF~~ FOLLOWING INFORMATION FOR EACH INDIVIDUAL WHO WAS RELEASED
-FROM INCARCERATION AT A STATE CORRECTIONAL FACILITY IN THE IMMEDIATELY
-PRECEDING ~~WEEK~~ MONTH:
+THE STATE BOARD A LIST THAT INCLUDES THE FOLLOWING INFORMATION FOR
+EACH INDIVIDUAL WHO WAS RELEASED FROM INCARCERATION AT A STATE
+CORRECTIONAL FACILITY IN THE IMMEDIATELY PRECEDING MONTH:
 
 (1) THE INDIVIDUAL’S FULL NAME;
 
@@ -125,19 +120,19 @@ INCARCERATION; AND
 
 (5) THE INDIVIDUAL’S NEW RESIDENTIAL ADDRESS.
 
-~~(C)~~ (D) ON RECEIPT OF THE LIST UNDER SUBSECTION ~~B~~ (C) OF THIS
+(D) ON RECEIPT OF THE LIST UNDER SUBSECTION (C) OF THIS
 SECTION, THE STATE BOARD SHALL IDENTIFY EACH INDIVIDUAL ON THE LIST WHO
 WAS REGISTERED TO VOTE IN THE STATE BEFORE BEING INCARCERATED AND
 WHOSE NEW RESIDENTIAL ADDRESS IS LOCATED IN THE STATE.
 
-~~(D)~~ (E) THE STATE BOARD SHALL ~~AUTOMATICALLY~~ PROMPTLY RESTORE
-THE VOTER REGISTRATION OF EACH INDIVIDUAL IDENTIFIED UNDER SUBSECTION
-~~C~~ (D) OF THIS SECTION AT THE INDIVIDUAL’S NEW RESIDENTIAL ADDRESS AND
-GIVE THE INDIVIDUAL ACTIVE VOTER STATUS.
+(E) THE STATE BOARD SHALL PROMPTLY RESTORE THE VOTER
+REGISTRATION OF EACH INDIVIDUAL IDENTIFIED UNDER SUBSECTION (D) OF THIS
+SECTION AT THE INDIVIDUAL’S NEW RESIDENTIAL ADDRESS AND GIVE THE
+INDIVIDUAL ACTIVE VOTER STATUS.
 
-~~(E)~~ (F) WITH THE VOTER NOTIFICATION CARD THAT IS SENT IN
+(F) WITH THE VOTER NOTIFICATION CARD THAT IS SENT IN
 ACCORDANCE WITH § 3–301(C) OF THIS TITLE TO EACH INDIVIDUAL WHOSE VOTER
-REGISTRATION IS RESTORED UNDER SUBSECTION ~~D~~ (E) OF THIS SECTION, THE
+REGISTRATION IS RESTORED UNDER SUBSECTION (E) OF THIS SECTION, THE
 ELECTION DIRECTOR SHALL ENCLOSE A NOTICE THAT INCLUDES A STATEMENT
 THAT:
 
@@ -158,12 +153,10 @@ OR IF THE INDIVIDUAL NEEDS TO UPDATE THE INDIVIDUAL’S RESIDENTIAL
 ADDRESS, THE INDIVIDUAL SHOULD CONTACT THE STATE BOARD OR THE
 APPROPRIATE LOCAL BOARD.
 
-~~(F)~~ (G) NOTWITHSTANDING ~~THE PUBLIC INFORMATION ACT, THE FACT
-THAT A PARTICULAR VOTER WAS REGISTERED THROUGH THE DEPARTMENT OF
-PUBLIC SAFETY AND CORRECTIONAL SERVICES UNDER THIS SECTION~~ § 3–506 OF
-THIS TITLE AND THE PUBLIC INFORMATION ACT, THE IDENTITY OF THE VOTER
-REGISTRATION AGENCY THROUGH WHICH A FORMERLY INCARCERATED VOTER HAS
-REGISTERED UNDER THIS SECTION MAY NOT BE DISCLOSED TO THE PUBLIC.
+(G) NOTWITHSTANDING § 3–506 OF THIS TITLE AND THE PUBLIC
+INFORMATION ACT, THE IDENTITY OF THE VOTER REGISTRATION AGENCY
+THROUGH WHICH A FORMERLY INCARCERATED VOTER HAS REGISTERED UNDER
+THIS SECTION MAY NOT BE DISCLOSED TO THE PUBLIC.
 
 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
 January 1, 2027.
@@ -172,4 +165,3 @@ Approved by the Governor, May 12, 2026.
 
 – 4 –
 END OF PAGE 4
-</bill>

@@ -1,12 +1,9 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 815
 
 Chapter 815
 
 (House Bill 121)
-
-By: Baltimore County Delegation
 
 AN ACT concerning
 
@@ -111,4 +108,3 @@ Approved by the Governor, May 26, 2026.
 
 – 3 –
 END OF PAGE 3
-</bill>

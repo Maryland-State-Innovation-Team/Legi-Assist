@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 275
 
@@ -32,14 +31,14 @@ Article – Business Occupations and Professions
 (a) To qualify for a license, an applicant shall be an individual who meets the
 requirements of this section.
 
-(b) (1) SUBJECT TO PARAGRAPH (2) OF THIS SUBSECTION, AN applicant shall have graduated on completion of a 4–year
+(b) (1) An SUBJECT TO PARAGRAPH (2) OF THIS SUBSECTION, AN applicant shall have graduated on completion of a 4–year
 curriculum in forestry from a college or university that is:
 
 (I) approved by the Board [or]; AND
 
 (II) accredited by:
 
-(I) the Society of American Foresters; OR
+(I) the Society of American Foresters;. OR
 
 (II) AN EQUIVALENT ACCREDITING ENTITY.
 
@@ -55,8 +54,8 @@ DETERMINES THAT THE APPLICANT’S EDUCATION, INCLUDING A COMPARABLE
 GRADUATE DEGREE OR INTERNATIONAL DEGREE, IS SUBSTANTIALLY EQUIVALENT
 TO THE REQUIREMENTS UNDER PARAGRAPH (1) OF THIS SUBSECTION.
 
-(c) The applicant shall have at least 2 years of experience in forestry that
-indicates to the Board that the applicant is competent to practice forestry.
+(c) The applicant shall have at least 2 years of experience in forestry that indicates
+to the Board that the applicant is competent to practice forestry.
 
 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
 October 1, 2026.
@@ -65,4 +64,3 @@ Approved by the Governor, April 28, 2026.
 
 – 2 –
 END OF PAGE 2
-</bill>

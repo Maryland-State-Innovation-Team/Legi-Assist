@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 SECOND PRINTING
 HOUSE BILL 816
@@ -82,122 +81,128 @@ START OF PAGE 2
 
 19 (g) “Fund” means the Maryland Automobile Insurance Fund.
 
-20 20–405.
+20 ~~20–301.~~
 
-21 (d) (1) The Board of Directors shall calculate assessment allocation
-22 percentages for commercial auto and private passenger auto divisions by dividing the most
-23 recent certified assessment for commercial auto and private passenger auto divisions by
-24 the total of:
+21 ~~(a)~~ ~~The~~ ~~purpose~~ ~~of~~ ~~the~~ ~~Fund~~ ~~is~~ ~~to~~ ~~provide~~ ~~the~~ ~~financial~~ ~~security~~ ~~required~~ ~~under~~ ~~§~~
+22 17–103 of the Transportation Article AT AFFORDABLE RATES to those eligible persons
+23 ~~that~~ ~~are~~ ~~unable~~ ~~to~~ ~~obtain~~ ~~it~~ ~~from~~ ~~an~~ ~~Association~~ ~~member.~~
 
-25 (i) the respective aggregate net direct written premiums obtained
-26 under subsection (c) of this section; and
+24 20–405.
 
-27 (ii) the respective total net direct written premiums of the Fund for
-28 the same period.
+25 (d) (1) The Board of Directors shall calculate assessment allocation
+26 percentages for commercial auto and private passenger auto divisions by dividing the most
+27 recent certified assessment for commercial auto and private passenger auto divisions by
+28 the total of:
 
-29 (2) The assessment allocation percentage for the private passenger auto
-30 division may not exceed [3%] 1%.
+29 (i) the respective aggregate net direct written premiums obtained
+30 under subsection (c) of this section; and
+
+31 (ii) the respective total net direct written premiums of the Fund for
+32 the same period.
 END OF PAGE 2
 
 START OF PAGE 3
 HOUSE BILL 816 3
 
-1 20–507.
+1 (2) The assessment allocation percentage for the private passenger auto
+2 division may not exceed [3%] 1%.
 
-2 (a) Subject to the authority of the Commissioner to determine whether rates are
-3 excessive, inadequate, or unfairly discriminatory, as provided in Title 11, Subtitle 2 or
-4 Subtitle 3 of this article, the Executive Director shall determine the premiums to be charged
-5 on policies issued by the Fund.
+3 20–507.
 
-6 (b) (1) Except as provided in subsections (c) and (d) of this section, the
-7 provisions of Title 11, Subtitle 3 of this article apply to the determination of premiums by
-8 the Executive Director and the filing of rates with the Commissioner.
+4 (a) Subject to the authority of the Commissioner to determine whether rates are
+5 excessive, inadequate, or unfairly discriminatory, as provided in Title 11, Subtitle 2 or
+6 Subtitle 3 of this article, the Executive Director shall determine the premiums to be charged
+7 on policies issued by the Fund.
 
-9 (2) Notwithstanding Title 11, Subtitle 2 or Subtitle 3 of this article or any
-10 other provision of this title, the Executive Director may:
+8 (b) (1) Except as provided in subsections (c) and (d) of this section, the
+9 provisions of Title 11, Subtitle 3 of this article apply to the determination of premiums by
+10 the Executive Director and the filing of rates with the Commissioner.
 
-11 (I) base premiums on one or both of the following items:
+11 (2) Notwithstanding Title 11, Subtitle 2 or Subtitle 3 of this article or any
+12 other provision of this title, the Executive Director may:
 
-12 [1.] 1. the number of points accumulated by an insured or
-13 applicant for insurance under the point system provided for in Title 16, Subtitle 4 of the
-14 Transportation Article; or
+13 (I) base premiums on one or both of the following items:
 
-15 [2.] 2. the prior claims experience of an insured or applicant for
-16 insurance; AND
+14 [(i)] 1. the number of points accumulated by an insured or
+15 applicant for insurance under the point system provided for in Title 16, Subtitle 4 of the
+16 Transportation Article; or
 
-17 (II) ESTABLISH AN AFFORDABILITY PROGRAM ~~THAT~~ ~~MAY~~
-18 ~~OTHERWISE~~ ~~BE~~ ~~CONSIDERED~~ ~~INCONSISTENT~~ ~~WITH~~ ~~TITLE~~ ~~11,~~ ~~SUBTITLE~~ ~~2~~ ~~OR~~
-19 ~~SUBTITLE~~ ~~3~~ ~~OF~~ ~~THIS~~ ~~ARTICLE~~ IN ACCORDANCE WITH § 20–521 OF THIS SUBTITLE.
+17 [(ii)] 2. the prior claims experience of an insured or applicant for
+18 insurance; AND
 
-20 (c) The provisions of Title 11, Subtitle 2 of this article apply to the determination
-21 of premiums by the Executive Director and the filing of rates with the Commissioner:
+19 (II) ESTABLISH AN AFFORDABILITY PROGRAM THAT MAY
+20 OTHERWISE BE CONSIDERED INCONSISTENT WITH TITLE 11, SUBTITLE 2 OR
+21 SUBTITLE 3 OF THIS ARTICLE IN ACCORDANCE WITH § 20–521 OF THIS SUBTITLE.
 
-22 (1) between July 1, 2025, and December 31, 2025, both inclusive; and
+22 (c) The provisions of Title 11, Subtitle 2 of this article apply to the determination
+23 of premiums by the Executive Director and the filing of rates with the Commissioner:
 
-23 (2) beginning January 1, 2026, if the Fund’s total adjusted capital is less
-24 than the amount required under § 20–306(c) of this title.
+24 (1) between July 1, 2025, and December 31, 2025, both inclusive; and
 
-25 (e) In reviewing rates filed by the Fund, the Commissioner shall consider not only
-26 the rating principles under Title 11, Subtitle 2 or Subtitle 3 of this article but also the
-27 statutory purpose of the Fund under § 20–301 of this title.
+25 (2) beginning January 1, 2026, if the Fund’s total adjusted capital is less
+26 than the amount required under § 20–306(c) of this title.
 
-28 20–521.
+27 (e) In reviewing rates filed by the Fund, the Commissioner shall consider not only
+28 the rating principles under Title 11, Subtitle 2 or Subtitle 3 of this article but also the
+29 statutory purpose of the Fund under § 20–301 of this title.
 
-29 (A) IN THIS SECTION, “AFFORDABILITY PROGRAM” MEANS A PROGRAM
-30 THAT LIMITS THE MAXIMUM PREMIUM RATE FOR A POLICY OF PRIVATE PASSENGER
-31 AUTO INSURANCE ISSUED BY THE FUND IN AN AMOUNT THAT MAY BE INADEQUATE.
+30 20–521.
 END OF PAGE 3
 
 START OF PAGE 4
 4 HOUSE BILL 816
 
-1 (B) SUBJECT TO REVIEW AND APPROVAL BY THE COMMISSIONER, THE
-2 EXECUTIVE DIRECTOR MAY ESTABLISH AN AFFORDABILITY PROGRAM IF:
+1 (A) IN THIS SECTION, “AFFORDABILITY PROGRAM” MEANS A PROGRAM
+2 THAT LIMITS THE MAXIMUM PREMIUM RATE FOR A POLICY OF PRIVATE PASSENGER
+3 AUTO INSURANCE ISSUED BY THE FUND IN AN AMOUNT THAT MAY BE INADEQUATE.
 
-3 (1) RATES ARE NOT EXCESSIVE OR UNFAIRLY DISCRIMINATORY; AND
+4 (B) SUBJECT TO REVIEW AND APPROVAL BY THE COMMISSIONER, THE
+5 EXECUTIVE DIRECTOR MAY ESTABLISH AN AFFORDABILITY PROGRAM IF:
 
-4 (2) THE AFFORDABILITY PROGRAM DOES NOT RESULT IN:
+6 (1) RATES ARE NOT EXCESSIVE OR UNFAIRLY DISCRIMINATORY; AND
 
-5 (I) AN OVERALL INADEQUACY GREATER THAN 20% OF THE
-6 FUND’S NET WRITTEN PREMIUM; OR
+7 (2) THE AFFORDABILITY PROGRAM DOES NOT RESULT IN:
 
-7 (II) AN ASSESSMENT ALLOCATION PERCENTAGE THAT EXCEEDS
-8 THE LIMIT ESTABLISHED IN § 20–405(D) OF THIS TITLE.
+8 (I) AN OVERALL INADEQUACY GREATER THAN 20% OF THE
+9 FUND’S NET WRITTEN PREMIUM; OR
 
-9 (C) AN INDIVIDUAL IS ELIGIBLE FOR A POLICY THROUGH THE
-10 AFFORDABILITY PROGRAM IF THE INDIVIDUAL:
+10 (II) AN ASSESSMENT ALLOCATION PERCENTAGE THAT EXCEEDS
+11 THE LIMIT ESTABLISHED IN § 20–405(D) OF THIS TITLE.
 
-11 (1) MEETS THE ELIGIBILITY REQUIREMENTS FOR POLICYHOLDERS
-12 UNDER § 20–502 OF THIS SUBTITLE; AND
+12 (C) AN INDIVIDUAL IS ELIGIBLE FOR A POLICY THROUGH THE
+13 AFFORDABILITY PROGRAM IF THE INDIVIDUAL:
 
-13 (2) HAS A HOUSEHOLD INCOME THAT IS NOT MORE THAN 250% OF
-14 THE FEDERAL POVERTY LEVEL.
+14 (1) MEETS THE ELIGIBILITY REQUIREMENTS FOR POLICYHOLDERS
+15 UNDER § 20–502 OF THIS SUBTITLE; AND
 
-15 (D) THE COMMISSIONER MAY REQUIRE THE FUND TO MODIFY THE
-16 AFFORDABILITY PROGRAM IF THE COMMISSIONER DETERMINES THAT:
+16 (2) HAS A HOUSEHOLD INCOME THAT IS NOT MORE THAN 250% OF
+17 THE FEDERAL POVERTY LEVEL.
 
-17 (1) THE RATES OFFERED THROUGH THE AFFORDABILITY PROGRAM
-18 DO NOT MEET THE REQUIREMENTS OF THIS SECTION;
+18 (D) THE COMMISSIONER MAY REQUIRE THE FUND TO MODIFY THE
+19 AFFORDABILITY PROGRAM IF THE COMMISSIONER DETERMINES THAT:
 
-19 (2) THE AFFORDABILITY PROGRAM WILL NO LONGER MEET THE
-20 CONDITION ESTABLISHED UNDER SUBSECTION (B)(2)(I) OR (II) OF THIS SECTION;
-21 OR
+20 (1) THE RATES OFFERED THROUGH THE AFFORDABILITY PROGRAM
+21 DO NOT MEET THE REQUIREMENTS OF THIS SECTION;
 
-22 (3) THE AFFORDABILITY PROGRAM VIOLATES OTHER PROVISIONS OF
-23 THIS ARTICLE TO WHICH THE FUND IS SUBJECT.
+22 (2) THE AFFORDABILITY PROGRAM WILL NO LONGER MEET THE
+23 CONDITION ESTABLISHED UNDER SUBSECTION (B)(2)(I) OR (II) OF THIS SECTION;
+24 OR
 
-24 (E) THE COMMISSIONER MAY NOT DISAPPROVE OR REQUIRE THE
-25 MODIFICATION OF AN AFFORDABILITY PROGRAM BASED ON THE FUND’S
-26 NONCOMPLIANCE WITH § 20–306 OF THIS TITLE.
+25 (3) THE AFFORDABILITY PROGRAM VIOLATES OTHER PROVISIONS OF
+26 THIS ARTICLE TO WHICH THE FUND IS SUBJECT.
 
-27 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
-28 ~~October~~ July 1, ~~2026~~ 2027. It shall remain effective for a period of 2 years and, at the end
-29 of June 30, 2029, this Act, with no further action required by the General Assembly, shall
-30 be abrogated and of no further force and effect.
+27 (E) THE COMMISSIONER MAY NOT DISAPPROVE OR REQUIRE THE
+28 MODIFICATION OF AN AFFORDABILITY PROGRAM BASED ON THE FUND’S
+29 NONCOMPLIANCE WITH § 20–306 OF THIS TITLE.
 END OF PAGE 4
 
 START OF PAGE 5
 HOUSE BILL 816 5
+
+1 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
+2 ~~October~~ July 1, ~~2026~~ 2027. It shall remain effective for a period of 2 years and, at the end
+3 of June 30, 2029, this Act, with no further action required by the General Assembly, shall
+4 be abrogated and of no further force and effect.
 
 Approved:
 
@@ -210,4 +215,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 5
-</bill>

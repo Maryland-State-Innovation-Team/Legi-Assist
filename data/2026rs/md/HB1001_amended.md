@@ -1,5 +1,3 @@
-<bill>
-<bill>
 START OF PAGE 1
 HOUSE BILL 1001
 
@@ -35,7 +33,7 @@ CHAPTER ______
 7 ~~while~~ ~~serving,~~ in a polling place, ~~have~~ ~~a~~ ~~local~~ ~~election~~ ~~director~~ ~~has~~ certain individuals
 8 have the authority to keep the peace and order the arrest of certain persons;
 9 ~~authorizing~~ requiring a local ~~board~~ ~~employees~~ election director, while serving in a
-10 polling place, to protect rights of, ~~certain~~ challengers and watchers;
+10 polling place, to protect certain rights of, ~~certain~~ challengers and watchers;
 11 authorizing a local election director, while serving in a polling place, to deny
 12 admission of, and eject certain challengers and watchers from a polling place under
 13 certain circumstances; altering the persons that may designate a registered voter as
@@ -55,11 +53,11 @@ START OF PAGE 2
 
 1 altering the persons that may designate a registered voter as an observer at each
 2 counting center; and generally relating to the authority of ~~local~~ ~~board~~ ~~employees~~
-3 ~~individuals~~ persons at polling places, early voting centers, and counting centers.
+3 ~~individuals~~ persons at polling places ~~and,~~ early voting centers, and counting centers.
 
 4 BY repealing and reenacting, with amendments,
 5 Article – Election Law
-6 Section 10–304, 10–311, and 11–301(a–1)(2)
+6 Section 10–304 ~~and,~~ ~~10–311(d)~~ ~~and~~ ~~(e)~~ 10–311, and 11–301(a–1)(2)
 7 Annotated Code of Maryland
 8 (2022 Replacement Volume and 2025 Supplement)
 
@@ -84,25 +82,26 @@ START OF PAGE 2
 
 23 (a) (1) A police officer who is on duty at a polling place shall obey the order of
 24 an election judge for that polling place, THE STATE ADMINISTRATOR, THE DEPUTY
-25 STATE ADMINISTRATOR, OR A LOCAL ELECTION DIRECTOR.
+25 STATE ADMINISTRATOR, OR A LOCAL ELECTION
+26 DIRECTOR.
 
-26 (2) A police officer making an arrest under an order of an election judge,
-27 THE STATE ADMINISTRATOR, THE DEPUTY STATE ADMINISTRATOR, OR A LOCAL
-28 ELECTION DIRECTOR is fully protected in so doing as if
-29 the police officer received a valid warrant to make the arrest.
+27 (2) A police officer making an arrest under an order of an election judge,
+28 THE STATE ADMINISTRATOR, THE DEPUTY STATE ADMINISTRATOR, OR A LOCAL
+29 ELECTION DIRECTOR is fully protected in so doing as if
+30 the police officer received a valid warrant to make the arrest.
 
-30 (b) A police officer who is on duty at a polling place shall protect a challenger or
-31 watcher in the discharge of the duties of the challenger or watcher.
+31 (b) A police officer who is on duty at a polling place shall protect a challenger or
+32 watcher in the discharge of the duties of the challenger or watcher.
 
-32 10–307.1.
+33 10–307.1.
 END OF PAGE 2
 
 START OF PAGE 3
 HOUSE BILL 1001 3
 
 1 (A) IN A POLLING PLACE, THE STATE ADMINISTRATOR,
-2 THE DEPUTY STATE ADMINISTRATOR, OR A LOCAL ELECTION DIRECTOR HAS THE
-3 AUTHORITY TO:
+2 THE DEPUTY STATE ADMINISTRATOR, OR A LOCAL
+3 ELECTION DIRECTOR HAS THE AUTHORITY TO:
 
 4 (1) KEEP THE PEACE; AND
 
@@ -228,8 +227,8 @@ HOUSE BILL 1001 5
 23 watcher who desires to challenge the right to vote of any other individual to enter the
 24 polling place OR EARLY VOTING CENTER for that purpose.
 
-25 (2) A majority of the election judges OR A LOCAL
-26 ELECTION DIRECTOR may limit the number of nonaccredited challengers and watchers
+25 (2) A majority of the election judges OR A LOCAL ELECTION
+26 DIRECTOR may limit the number of nonaccredited challengers and watchers
 27 allowed in the polling place OR EARLY VOTING CENTER at any one time for the purpose
 28 of challenging the right of an individual to vote.
 
@@ -281,5 +280,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 6
-</bill>
-</bill>

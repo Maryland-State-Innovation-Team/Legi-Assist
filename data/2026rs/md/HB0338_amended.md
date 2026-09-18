@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 264
 
@@ -179,10 +178,10 @@ and Standards Commission; and
 
 (2) is designated by the Department as a police officer.
 
-SECTION 2. AND BE IT FURTHER ENACTED, That before a police officer of
-the Maryland Capital Police within the Department of General Services exercises the
-powers granted under this Act in Baltimore City, the Maryland Capital Police must
-enter a memoranda of understanding with the Baltimore Police Department.
+SECTION 2. AND BE IT FURTHER ENACTED, That before a police officer of the
+Maryland Capitol Police within the Department of General Services exercises the powers
+granted under this Act in Baltimore City, the Maryland Capitol Police must enter a
+memorandum of understanding with the Baltimore Police Department.
 
 SECTION ~~2.~~ 3. AND BE IT FURTHER ENACTED, That this Act shall take effect
 July 1, 2026.
@@ -191,4 +190,3 @@ Approved by the Governor, April 28, 2026.
 
 – 4 –
 END OF PAGE 4
-</bill>

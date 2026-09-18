@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 969
 
@@ -19,7 +18,7 @@ CHAPTER ______
 2 Electric Vehicle Fuel Sold at Retail – Equipment Requirements, Units of
 3 Measure, ~~Sales~~ ~~Price,~~ and Fees
 
-4 For the purpose of requiring the owner or possessor of a weight and measure used for the
+4 FOR the purpose of requiring the owner or possessor of a weight and measure used for the
 5 retail sale of electricity as a vehicle fuel to display certain information in a certain
 6 manner; requiring all electricity possessed, offered, or exposed for sale and sold at
 7 retail as a vehicle fuel to be measured and sold in a certain manner; ~~requiring~~ ~~the~~
@@ -89,7 +88,7 @@ START OF PAGE 2
 27 MAY CHARGE A FEE FOR SERVICES RELATED TO THE RETAIL SALE OF ELECTRICITY
 28 AS A VEHICLE FUEL.
 
-29 ~~(D)~~ (C) (2) THE FEE AUTHORIZED UNDER THIS SUBSECTION ~~MAY~~:
+29 (2) THE FEE AUTHORIZED UNDER THIS SUBSECTION ~~MAY~~:
 
 30 (I) MAY BE A FIXED FEE OR ASSESSED BASED ON LENGTH OF
 31 TIME;
@@ -117,4 +116,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 3
-</bill>

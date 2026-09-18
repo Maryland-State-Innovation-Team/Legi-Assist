@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1076
 
@@ -28,7 +27,7 @@ CHAPTER ______
 2 Higher Education Institutions – Over–the–Counter Contraception – Access and
 3 Reporting
 
-4 FOR the appetite of requiring each public senior higher education institution and
+4 FOR the purpose of requiring each public senior higher education institution and
 5 community college to submit a certain report on contraception access to the
 6 Maryland Higher Education Commission each year; requiring the Commission to
 7 submit a certain report on contraception access to the General Assembly each year;
@@ -107,82 +106,81 @@ HOUSE BILL 1076 3
 5 CONTRACEPTION ON CAMPUS, INCLUDING:
 
 6 (1) HOW STUDENTS ARE PROVIDED ACCESS TO OVER–THE–COUNTER
-7 CONTRACEPTION ON CAMPUS, DISAGGREGATED BY EACH METHOD OF OVER–THE–COUNTER
-8 CONTRACEPTION;
+7 CONTRACEPTION ON CAMPUS, DISAGGREGATED BY EACH METHOD OF OVER–THE–COUNTER CONTRACEPTION;
 
-9 (2) WHETHER THE PUBLIC SENIOR HIGHER EDUCATION INSTITUTION
-10 OR COMMUNITY COLLEGE HAS PROVIDED ACCESS TO ALL METHODS OF
-11 OVER–THE–COUNTER CONTRACEPTION AS REQUIRED UNDER §§ 15–136 AND 16–111
-12 OF THIS ARTICLE;
+8 (2) WHETHER THE PUBLIC SENIOR HIGHER EDUCATION INSTITUTION
+9 OR COMMUNITY COLLEGE HAS PROVIDED ACCESS TO ALL METHODS OF
+10 OVER–THE–COUNTER CONTRACEPTION AS REQUIRED UNDER §§ 15–136 AND 16–111
+11 OF THIS ARTICLE;
 
-13 (3) THE AMOUNT OF OVER–THE–COUNTER CONTRACEPTION
-14 PROVIDED ON CAMPUS, DISAGGREGATED BY EACH METHOD OF OVER–THE–COUNTER
-15 CONTRACEPTION; AND
+12 (3) THE AMOUNT OF OVER–THE–COUNTER CONTRACEPTION
+13 PROVIDED ON CAMPUS, DISAGGREGATED BY EACH METHOD OF OVER–THE–COUNTER
+14 CONTRACEPTION; AND
 
-16 (4) A DESCRIPTION OF HOW THE PUBLIC SENIOR HIGHER EDUCATION
-17 INSTITUTION OR COMMUNITY COLLEGE HAS CONSULTED WITH STUDENTS AND
-18 STUDENT ORGANIZATIONS IN RELATION TO PROVIDING OVER–THE–COUNTER
-19 CONTRACEPTION ON CAMPUS.
+15 (4) A DESCRIPTION OF HOW THE PUBLIC SENIOR HIGHER EDUCATION
+16 INSTITUTION OR COMMUNITY COLLEGE HAS CONSULTED WITH STUDENTS AND
+17 STUDENT ORGANIZATIONS IN RELATION TO PROVIDING OVER–THE–COUNTER
+18 CONTRACEPTION ON CAMPUS.
 
-20 (C) ON OR BEFORE OCTOBER 1, 2026, AND EACH OCTOBER 1 THEREAFTER,
-21 THE COMMISSION SHALL REPORT TO THE GENERAL ASSEMBLY, IN ACCORDANCE
-22 WITH § 2–1257 OF THE STATE GOVERNMENT ARTICLE, ON THE INFORMATION
-23 PROVIDED UNDER SUBSECTION (B) OF THIS SECTION.
+19 (C) ON OR BEFORE OCTOBER 1, 2026, AND EACH OCTOBER 1 THEREAFTER,
+20 THE COMMISSION SHALL REPORT TO THE GENERAL ASSEMBLY, IN ACCORDANCE
+21 WITH § 2–1257 OF THE STATE GOVERNMENT ARTICLE, ON THE INFORMATION
+22 PROVIDED UNDER SUBSECTION (B) OF THIS SECTION.
 
-24 16–111.
+23 16–111.
 
-25 (a) In this section, “over–the–counter contraception” means a contraceptive drug
-26 or device approved by the federal Food and Drug Administration that can be obtained for
-27 use without a prescription.
+24 (a) In this section, “over–the–counter contraception” means a contraceptive drug
+25 or device approved by the federal Food and Drug Administration that can be obtained for
+26 use without a prescription.
 
-28 (b) (1) On or before August 1, 2025, each community college, in consultation
-29 with students and student organizations, shall develop and implement a plan to provide
-30 students with access to ALL METHODS OF over–the–counter contraception.
+27 (b) (1) On or before August 1, 2025, each community college, in consultation
+28 with students and student organizations, shall develop and implement a plan to provide
+29 students with access to ALL METHODS OF over–the–counter contraception.
 
-31 (2) The plan under paragraph (1) of this subsection shall include access to
-32 over–the–counter contraception through:
+30 (2) The plan under paragraph (1) of this subsection shall include access to
+31 over–the–counter contraception through:
 
-33 (i) The student health center;
+32 (i) The student health center;
+
+33 (ii) Retail establishments on campus;
 END OF PAGE 3
 
 START OF PAGE 4
 4 HOUSE BILL 1076
 
-1 (ii) Retail establishments on campus;
+1 (iii) Vending machines; or
 
-2 (iii) Vending machines; or
+2 (iv) Any other method that provides all students access when on
+3 campus.
 
-3 (iv) Any other method that provides all students access when on
-4 campus.
+4 (c) [(1) On or before September 1, 2025, and each September 1 thereafter, on a
+5 form provided by the Commission, each community college shall submit a report to the
+6 Commission on implementation of the plan required under this section, including:
 
-5 (c) [(1) On or before September 1, 2025, and each September 1 thereafter, on a
-6 form provided by the Commission, each community college shall submit a report to the
-7 Commission on implementation of the plan required under this section, including:
+7 (i) How students are provided access to over–the–counter
+8 contraception on campus;
 
-8 (i) How students are provided access to over–the–counter
-9 contraception on campus;
+9 (ii) Available information regarding the amount of over–the–counter
+10 contraception provided on campus; and
 
-10 (ii) Available information regarding the amount of over–the–counter
-11 contraception provided on campus; and
+11 (iii) A description of how the community college has consulted with
+12 students and student organizations to develop and implement the plan under this section.
 
-12 (iii) A description of how the community college has consulted with
-13 students and student organizations to develop and implement the plan under this section.
+13 (2) On or before October 1, 2025, and each October 1 thereafter, the
+14 Commission shall report to the General Assembly, in accordance with § 2–1257 of the State
+15 Government Article, on the information collected from the community colleges under
+16 paragraph (1) of this subsection.
 
-14 (2) On or before October 1, 2025, and each October 1 thereafter, the
-15 Commission shall report to the General Assembly, in accordance with § 2–1257 of the State
-16 Government Article, on the information collected from the community colleges under
-17 paragraph (1) of this subsection.
+17 (d)] The Maryland Department of Health, on request, may provide assistance to a
+18 community college in:
 
-18 (d)] The Maryland Department of Health, on request, may provide assistance to a
-19 community college in:
+19 (1) Developing a plan under this section; and
 
-20 (1) Developing a plan under this section; and
+20 (2) Consulting and collaborating with organizations with expertise in
+21 providing access to over–the–counter contraception through vending machines.
 
-21 (2) Consulting and collaborating with organizations with expertise in
-22 providing access to over–the–counter contraception through vending machines.
-
-23 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
-24 1, 2026.
+22 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
+23 1, 2026.
 
 Approved:
 
@@ -195,4 +193,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 4
-</bill>

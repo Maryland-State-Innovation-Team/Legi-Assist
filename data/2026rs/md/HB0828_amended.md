@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 828
 
@@ -25,18 +24,21 @@ CHAPTER ______
 
 1 AN ACT concerning
 
-2 State Board of Education – Membership – Employee of a County Board of Education
+2 State Board of Education – Membership – ~~Educational~~ ~~Support~~ ~~Member~~
+3 Employee of a County Board of Education
 
-3 FOR the purpose of authorizing the Governor to appoint as a member of the
-4 State Board of Education an individual who is an employee of a county board of
-5 education under certain circumstances; altering the number of members required to
-6 affirmatively vote for the State Board to take an action on certain matters; and
-7 generally relating to the membership of the State Board of Education.
+4 FOR the purpose of ~~altering~~ ~~the~~ ~~membership~~ ~~of~~ ~~the~~ ~~State~~ ~~Board~~ ~~of~~ ~~Education~~ ~~to~~ ~~include~~ ~~an~~
+5 ~~educational~~ ~~support~~ ~~member;~~ ~~providing~~ ~~for~~ ~~the~~ ~~qualifications,~~ ~~term,~~ ~~powers,~~ ~~and~~
+6 ~~election~~ ~~of~~ ~~the~~ ~~new~~ ~~member;~~ authorizing the Governor to appoint as a member of the
+7 State Board of Education an individual who is an employee of a county board of
+8 education under certain circumstances; altering the number of members required to
+9 affirmatively vote for the State Board to take an action on certain matters; and
+10 generally relating to the membership of the State Board of Education.
 
-8 BY repealing and reenacting, with amendments,
-9 Article – Education
-10 Section 2–202 and 2–204
-11 Annotated Code of Maryland
+11 BY repealing and reenacting, with amendments,
+12 Article – Education
+13 Section 2–202 and 2–204
+14 Annotated Code of Maryland
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
@@ -74,26 +76,27 @@ START OF PAGE 2
 
 15 (3) The following individuals may not be appointed to the Board:
 
-16 (i) Except for the teacher member, A MEMBER WHO IS AN EMPLOYEE OF A
-17 COUNTY BOARD APPOINTED UNDER PARAGRAPH (5) OF THIS SUBSECTION, and
-18 student member, any individual who is subject to the authority of the Board;
+16 (i) Except for the teacher member, ~~EDUCATIONAL~~ ~~SUPPORT~~
+17 ~~MEMBER,~~ A MEMBER WHO IS AN EMPLOYEE OF A COUNTY BOARD APPOINTED UNDER
+18 PARAGRAPH (5) OF THIS SUBSECTION, and student member, any individual who is
+19 subject to the authority of the Board;
 
-19 (ii) The Governor; and
+20 (ii) The Governor; and
 
-20 (iii) The State Superintendent.
+21 (iii) The State Superintendent.
 
-21 (4) (i) Of the 13 regular members of the State Board, one regular
-22 member shall be a certified teacher who is actively teaching.
+22 (4) (i) Of the 13 regular members of the State Board, one regular
+23 member shall be a certified teacher who is actively teaching.
 
-23 (ii) The Governor shall appoint the teacher member, with the advice
-24 and consent of the Senate, who received the highest number of votes after an election by
-25 teachers in the State.
+24 (ii) The Governor shall appoint the teacher member, with the advice
+25 and consent of the Senate, who received the highest number of votes after an election by
+26 teachers in the State.
 
-26 (iii) The Department shall provide notice of a teacher member
-27 vacancy on the State Board to:
+27 (iii) The Department shall provide notice of a teacher member
+28 vacancy on the State Board to:
 
-28 1. All certified teachers who are actively teaching in the
-29 State; and
+29 1. All certified teachers who are actively teaching in the
+30 State; and
 END OF PAGE 2
 
 START OF PAGE 3
@@ -116,124 +119,152 @@ HOUSE BILL 828 3
 11 appeals to the State Board under § 6–202 of this article.
 
 12 (5) (I) OF THE 13 REGULAR MEMBERS OF THE STATE BOARD, ONE
-13 REGULAR MEMBER MAY BE AN EMPLOYEE OF A COUNTY BOARD WHO IS NOT THE
-14 TEACHER MEMBER APPOINTED UNDER PARAGRAPH (4) OF THIS SUBSECTION.
+13 REGULAR MEMBER ~~SHALL~~ ~~BE~~ ~~AN~~ ~~EDUCATIONAL~~ ~~SUPPORT~~ ~~PROFESSIONAL~~ ~~WHO~~ ~~IS~~
+14 ~~ACTIVELY~~ ~~WORKING~~ ~~IN~~ ~~A~~ ~~PUBLIC~~ ~~SCHOOL~~ ~~AS~~ ~~A~~ ~~NONCERTIFICATED,~~
+15 ~~NONSUPERVISORY~~ ~~PUBLIC~~ ~~SCHOOL~~ ~~EMPLOYEE~~ ~~DESIGNATED~~ ~~AS~~ ~~PART~~ ~~OF~~ ~~A~~
+16 ~~BARGAINING~~ ~~UNIT~~ ~~UNDER~~ ~~TITLE~~ ~~6,~~ ~~SUBTITLE~~ ~~5~~ ~~OF~~ ~~THIS~~ ~~ARTICLE.~~
 
-15 (II) NOT MORE THAN TWO REGULAR MEMBERS OF THE STATE
-16 BOARD MAY BE EMPLOYEES OF A COUNTY BOARD AT ANY GIVEN TIME.
+17 ~~(II)~~ ~~THE~~ ~~GOVERNOR~~ ~~SHALL~~ ~~APPOINT~~ ~~THE~~ ~~EDUCATIONAL~~
+18 ~~SUPPORT~~ ~~MEMBER,~~ ~~WITH~~ ~~THE~~ ~~ADVICE~~ ~~AND~~ ~~CONSENT~~ ~~OF~~ ~~THE~~ ~~SENATE,~~ ~~WHO~~
+19 ~~RECEIVED~~ ~~THE~~ ~~HIGHEST~~ ~~NUMBER~~ ~~OF~~ ~~VOTES~~ ~~AFTER~~ ~~AN~~ ~~ELECTION~~ ~~BY~~ ~~EDUCATIONAL~~
+20 ~~SUPPORT~~ ~~PROFESSIONALS~~ ~~IN~~ ~~THE~~ ~~STATE.~~
 
-17 (III) A REGULAR MEMBER WHO IS AN EMPLOYEE OF A COUNTY
-18 BOARD MAY NOT BE A COUNTY SUPERINTENDENT.
+21 ~~(III)~~ ~~THE~~ ~~DEPARTMENT~~ ~~SHALL~~ ~~PROVIDE~~ ~~NOTICE~~ ~~OF~~ ~~AN~~
+22 ~~EDUCATIONAL~~ ~~SUPPORT~~ ~~MEMBER~~ ~~VACANCY~~ ~~ON~~ ~~THE~~ ~~STATE~~ ~~BOARD~~ ~~TO:~~
 
-19 (IV) A REGULAR MEMBER WHO IS AN EMPLOYEE OF A COUNTY
-20 BOARD MAY ATTEND AND PARTICIPATE IN AN EXECUTIVE SESSION OF THE STATE
-21 BOARD.
+23 ~~1.~~ ~~ALL~~ ~~EDUCATIONAL~~ ~~SUPPORT~~ ~~PROFESSIONALS~~ ~~WHO~~
+24 ~~ARE~~ ~~ACTIVELY~~ ~~WORKING~~ ~~IN~~ ~~A~~ ~~PUBLIC~~ ~~SCHOOL~~ ~~AS~~ ~~A~~ ~~NONCERTIFICATED,~~
+25 ~~NONSUPERVISORY~~ ~~PUBLIC~~ ~~SCHOOL~~ ~~EMPLOYEE~~ ~~DESIGNATED~~ ~~AS~~ ~~PART~~ ~~OF~~ ~~A~~
+26 ~~BARGAINING~~ ~~UNIT~~ ~~UNDER~~ ~~TITLE~~ ~~6,~~ ~~SUBTITLE~~ ~~5~~ ~~OF~~ ~~THIS~~ ~~ARTICLE~~ ~~IN~~ ~~THE~~ ~~STATE;~~ ~~AND~~
 
-22 (V) A REGULAR MEMBER WHO IS AN EMPLOYEE OF A COUNTY
-23 BOARD WHO IS A CERTIFICATED PUBLIC SCHOOL EMPLOYEE UNDER TITLE 6,
-24 SUBTITLE 4 OF THIS ARTICLE MAY NOT VOTE ON ANY MATTER THAT RELATES TO
-25 APPEALS TO THE STATE BOARD UNDER § 6–202 OF THIS ARTICLE.
+27 ~~2.~~ ~~ALL~~ ~~EDUCATIONAL~~ ~~SUPPORT~~ ~~PROFESSIONALS’~~
+28 ~~ORGANIZATIONS~~ ~~REPRESENTING~~ ~~EDUCATIONAL~~ ~~SUPPORT~~ ~~PROFESSIONALS~~ ~~IN~~ ~~THE~~
+29 ~~STATE~~ ~~FOR~~ ~~PURPOSES~~ ~~OF~~ ~~COLLECTIVE~~ ~~BARGAINING.~~
 
-26 (VI) A REGULAR MEMBER WHO IS AN EMPLOYEE OF A COUNTY
-27 BOARD WHO IS A NONCERTIFICATED, NONSUPERVISORY PUBLIC SCHOOL EMPLOYEE
-28 UNDER TITLE 6, SUBTITLE 5 OF THIS ARTICLE MAY NOT VOTE ON ANY APPEALS TO
-29 THE STATE BOARD OF A DISMISSAL OR DISCIPLINARY ACTION OF PERSONNEL
-30 UNDER § 4–205 OF THIS ARTICLE.
-
-31 [(5)] (6) (i) Of the 13 regular members of the State Board, one regular
-32 member shall be the parent of a student enrolled in a public school in the State.
-
-33 (ii) The Governor shall appoint the parent member, with the advice
+30 ~~(IV)~~ ~~THE~~ ~~ELECTION~~ ~~SHALL~~ ~~BE~~ ~~CONDUCTED~~ ~~UNDER~~
+31 ~~REGULATIONS~~ ~~THAT~~ ~~THE~~ ~~DEPARTMENT~~ ~~ADOPTS~~ MAY BE AN EMPLOYEE OF A COUNTY
+32 BOARD WHO IS NOT THE TEACHER MEMBER APPOINTED UNDER PARAGRAPH (4) OF
+33 THIS SUBSECTION.
 END OF PAGE 3
 
 START OF PAGE 4
 4 HOUSE BILL 828
 
-1 and consent of the Senate, from a list of three qualified individuals submitted to the
-2 Governor by the Maryland PTA.
+1 (II) NOT MORE THAN TWO REGULAR MEMBERS OF THE STATE
+2 BOARD MAY BE EMPLOYEES OF A COUNTY BOARD AT ANY GIVEN TIME.
 
-3 (iii) The Department shall provide notice of the parent member
-4 vacancy on the State Board to the Maryland PTA.
+3 (III) A REGULAR MEMBER WHO IS AN EMPLOYEE OF A COUNTY
+4 BOARD MAY NOT BE A COUNTY SUPERINTENDENT.
 
-5 (iv) The parent member may attend and participate in an executive
-6 session of the State Board.
+5 ~~(V)~~ (IV) ~~THE~~ ~~EDUCATIONAL~~ ~~SUPPORT~~ ~~MEMBER~~ A REGULAR
+6 MEMBER WHO IS AN EMPLOYEE OF A COUNTY BOARD MAY ATTEND AND PARTICIPATE
+7 IN AN EXECUTIVE SESSION OF THE STATE BOARD.
 
-7 [(6)] (7) The student member shall be selected by the Governor from a list
-8 of 2 persons nominated by the Maryland Association of Student Councils.
+8 ~~(VI)~~ (V) ~~THE~~ ~~EDUCATIONAL~~ ~~SUPPORT~~ ~~MEMBER~~ A REGULAR
+9 MEMBER WHO IS AN EMPLOYEE OF A COUNTY BOARD WHO IS A CERTIFICATED PUBLIC
+10 SCHOOL EMPLOYEE UNDER TITLE 6, SUBTITLE 4 OF THIS ARTICLE MAY NOT VOTE
+11 ON ANY MATTER THAT RELATES TO APPEALS TO THE STATE BOARD UNDER § 6–202
+12 OF THIS ARTICLE.
 
-9 (c) (1) The student member shall be:
+13 (VI) A REGULAR MEMBER WHO IS AN EMPLOYEE OF A COUNTY
+14 BOARD WHO IS A NONCERTIFICATED, NONSUPERVISORY PUBLIC SCHOOL EMPLOYEE
+15 UNDER TITLE 6, SUBTITLE 5 OF THIS ARTICLE MAY NOT VOTE ON ANY APPEALS TO
+16 THE STATE BOARD OF A DISMISSAL OR DISCIPLINARY ACTION OF PERSONNEL
+17 UNDER § 4–205 OF THIS ARTICLE.
 
-10 (i) A regularly enrolled student; and
+18 [(5)] (6) (i) Of the 13 regular members of the State Board, one regular
+19 member shall be the parent of a student enrolled in a public school in the State.
 
-11 (ii) In good standing in a public high school in the State.
+20 (ii) The Governor shall appoint the parent member, with the advice
+21 and consent of the Senate, from a list of three qualified individuals submitted to the
+22 Governor by the Maryland PTA.
 
-12 (2) The student member may attend and participate in an executive
-13 session of the Board.
+23 (iii) The Department shall provide notice of the parent member
+24 vacancy on the State Board to the Maryland PTA.
 
-14 (3) The student member may not vote on any matter that relates to:
+25 (iv) The parent member may attend and participate in an executive
+26 session of the State Board.
 
-15 (i) The dismissal of or other disciplinary action involving personnel;
-16 or
+27 [(6)] (7) The student member shall be selected by the Governor from a list
+28 of 2 persons nominated by the Maryland Association of Student Councils.
 
-17 (ii) Appeals to the State Board under § 2–205 of this subtitle or §
-18 4–205 or § 6–202 of this article.
+29 (c) (1) The student member shall be:
 
-19 (d) (1) Each regular member serves for a term of 4 years and until a successor
-20 is appointed and qualifies. These terms are staggered as required by the terms of the
-21 members serving on the State Board as of July 1, 1989.
+30 (i) A regularly enrolled student; and
 
-22 (2) The Governor shall appoint a new member to fill any vacancy on the
-23 Board for the remainder of that term and until a successor is appointed and qualifies.
-
-24 (3) A member is eligible for reappointment but may not serve for more than
-25 two full 4–year terms.
-
-26 (4) The student member shall serve for a term of 1 year. A student member
-27 is eligible for reappointment but may not serve more than two full 1–year terms.
-
-28 2–204.
-
-29 (a) (1) Each year, the State Board shall hold:
-
-30 (i) A meeting in July; and
-
-31 (ii) At least three other regular meetings.
+31 (ii) In good standing in a public high school in the State.
 END OF PAGE 4
 
 START OF PAGE 5
 HOUSE BILL 828 5
 
-1 (2) The Board may hold special meetings as necessary.
+1 (2) The student member may attend and participate in an executive
+2 session of the Board.
 
-2 (b) (1) At the annual Board meeting in July, the State Board shall select a
-3 president and a vice president from among its members.
+3 (3) The student member may not vote on any matter that relates to:
 
-4 (2) A member may not serve for more than 4 years as president.
+4 (i) The dismissal of or other disciplinary action involving personnel;
+5 or
 
-5 (c) (1) The State Superintendent is the Chief Executive, Secretary, and
-6 Treasurer of the State Board.
+6 (ii) Appeals to the State Board under § 2–205 of this subtitle or §
+7 4–205 or § 6–202 of this article.
 
-7 (2) [He] THE STATE SUPERINTENDENT shall attend each meeting of the
-8 Board and of its committees, except when [his own] THE tenure, salary, or the
-9 administration of [his] THE STATE SUPERINTENDENT’S office are under consideration.
+8 (d) (1) Each regular member serves for a term of 4 years and until a successor
+9 is appointed and qualifies. These terms are staggered as required by the terms of the
+10 members serving on the State Board as of July 1, 1989.
 
-10 (3) [He] THE STATE SUPERINTENDENT may advise the Board on any
-11 question under consideration, but may not vote.
+11 (2) The Governor shall appoint a new member to fill any vacancy on the
+12 Board for the remainder of that term and until a successor is appointed and qualifies.
 
-12 (d) A member of the State Board serves without compensation but is entitled to
-13 reimbursement for expenses in accordance with the Standard State Travel Regulations.
+13 (3) A member is eligible for reappointment but may not serve for more than
+14 two full 4–year terms.
 
-14 (e) (1) [The] EXCEPT AS PROVIDED IN PARAGRAPH (2) OF THIS
-15 SUBSECTION, THE affirmative vote of a majority of the members then serving on the State
-16 Board is required for any action by the Board.
+15 (4) The student member shall serve for a term of 1 year. A student member
+16 is eligible for reappointment but may not serve more than two full 1–year terms.
 
-17 (2) IN MATTERS CONSIDERED BY THE STATE BOARD FOR WHICH A
-18 MEMBER IS PROHIBITED IN LAW FROM VOTING, AN AFFIRMATIVE VOTE OF A
-19 MAJORITY OF THE MEMBERS THEN SERVING WHO ARE AUTHORIZED TO VOTE ON THE
-20 MATTER IS REQUIRED FOR ACTION BY THE BOARD.
+17 2–204.
 
-21 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
-22 1, 2026.
+18 (a) (1) Each year, the State Board shall hold:
+
+19 (i) A meeting in July; and
+
+20 (ii) At least three other regular meetings.
+
+21 (2) The Board may hold special meetings as necessary.
+
+22 (b) (1) At the annual Board meeting in July, the State Board shall select a
+23 president and a vice president from among its members.
+
+24 (2) A member may not serve for more than 4 years as president.
+
+25 (c) (1) The State Superintendent is the Chief Executive, Secretary, and
+26 Treasurer of the State Board.
+
+27 (2) [He] THE STATE SUPERINTENDENT shall attend each meeting of the
+28 Board and of its committees, except when [his own] THE tenure, salary, or the
+29 administration of [his] THE STATE SUPERINTENDENT’S office are under consideration.
+END OF PAGE 5
+
+START OF PAGE 6
+6 HOUSE BILL 828
+
+1 (3) [He] THE STATE SUPERINTENDENT may advise the Board on any
+2 question under consideration, but may not vote.
+
+3 (d) A member of the State Board serves without compensation but is entitled to
+4 reimbursement for expenses in accordance with the Standard State Travel Regulations.
+
+5 (e) (1) [The] EXCEPT AS PROVIDED IN PARAGRAPH (2) OF THIS
+6 SUBSECTION, THE affirmative vote of a majority of the members then serving on the State
+7 Board is required for any action by the Board.
+
+8 (2) IN MATTERS CONSIDERED BY THE STATE BOARD FOR WHICH A
+9 MEMBER IS PROHIBITED IN LAW FROM VOTING, AN AFFIRMATIVE VOTE OF A
+10 MAJORITY OF THE MEMBERS THEN SERVING WHO ARE AUTHORIZED TO VOTE ON THE
+11 MATTER IS REQUIRED FOR ACTION BY THE BOARD.
+
+12 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
+13 1, 2026.
 
 Approved:
 
@@ -245,5 +276,4 @@ Speaker of the House of Delegates.
 
 ________________________________________________________________________________
 President of the Senate.
-END OF PAGE 5
-</bill>
+END OF PAGE 6

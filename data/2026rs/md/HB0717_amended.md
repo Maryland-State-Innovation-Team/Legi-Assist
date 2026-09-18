@@ -1,5 +1,3 @@
-<bill>
-<bill>
 START OF PAGE 1
 HOUSE BILL 717
 
@@ -315,8 +313,8 @@ HOUSE BILL 717 7
 6 Chapter 372 of the Acts of 2025
 
 7 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect June
-8 1, 2025. It shall remain effective for a period of [1 year] 6 YEARS and, at the end
-9 of [2026] MAY 31, 2031, this Act, with no further action required by the General Assembly,
+8 1, 2025. It shall remain effective for a period of ~~1 year~~ 6 YEARS and, at the end
+9 of ~~2026~~ MAY 31, 2031, this Act, with no further action required by the General Assembly,
 10 shall be abrogated and of no further force and effect.
 
 11 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect June
@@ -337,5 +335,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 7
-</bill>
-</bill>

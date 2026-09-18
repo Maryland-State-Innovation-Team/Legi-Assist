@@ -1,5 +1,3 @@
-<bill>
-<bill>
 START OF PAGE 1
 SENATE BILL 594
 
@@ -28,7 +26,7 @@ CHAPTER ______
 
 2 Cannabis – Advertising – Alterations
 
-3 FOR the purpose of altering the ownership and control percentage requirement for a social equity applicant for a cannabis license; altering the ownership and control percentage requirement for a social
+3 FOR the purpose of altering the ownership and control percentage requirement for a social
 4 equity applicant for a cannabis license; repealing certain criteria for a certain
 5 prohibition on cannabis advertising that targets ~~minors~~ individuals under the age of
 6 21 years; authorizing a standard dispensary to place certain exterior signage for
@@ -37,11 +35,6 @@ CHAPTER ______
 9 and ~~establish~~ develop by regulation ~~an~~ ~~alternative~~ ~~method~~ ~~for~~ ~~determining~~ ~~audience~~
 10 ~~composition~~ a process for accepting a certain attestation from a certain person
 11 regarding audience composition; providing a certain exception to a prohibition on the
-BY repealing and reenacting, with amendments,
-Article – Alcoholic Beverages and Cannabis
-Section 36–101(ff) and 36–903
-Annotated Code of Maryland
-(2024 Replacement Volume and 2025 Supplement)
 12 third–party use of certain distinguishing characteristics of a cannabis licensee for
 13 advertisements; and generally relating to cannabis advertising.
 
@@ -58,28 +51,14 @@ END OF PAGE 1
 START OF PAGE 2
 2 SENATE BILL 594
 
+1 Article – Alcoholic Beverages and Cannabis
+2 Section 36–101(ff) and 36–903
+3 Annotated Code of Maryland
+4 (2024 Replacement Volume and 2025 Supplement)
+
 5 ~~BY~~ ~~repealing~~ ~~and~~ ~~reenacting,~~ ~~with~~ ~~amendments,~~
 6 ~~Article~~ ~~–~~ ~~Alcoholic~~ ~~Beverages~~ ~~and~~ ~~Cannabis~~
 7 ~~Section~~ ~~36–901~~ ~~and~~ ~~36–903~~
-36–101.
-
-(ff) “Social equity applicant” means an applicant for a cannabis license or
-cannabis registration that:
-
-(1) has at least [65%] 55% ownership and control held by one or more
-individuals who:
-
-(i) have lived in a disproportionately impacted area for at least
-5 of the 10 years immediately preceding the submission of the application;
-
-(ii) attended a public school in a disproportionately impacted
-area for at least 5 years; or
-
-(iii) for at least 2 years, attended a 4–year institution of higher
-education in the State where at least 40% of the individuals who attend the institution
-of higher education are eligible for a Pell Grant; or
-
-(2) meets any other criteria established by the Administration.
 8 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
 9 ~~(2024~~ ~~Replacement~~ ~~Volume~~ ~~and~~ ~~2025~~ ~~Supplement)~~
 
@@ -157,15 +136,15 @@ SENATE BILL 594 3
 
 21 (i) violate Title 13, Subtitle 3 of the Commercial Law Article;
 
-22 (ii) directly or indirectly target individuals under the age of 21
+22 (ii) directly [or indirectly] target individuals under the age of 21
 23 years;
 
 24 (iii) contain a design, an illustration, a picture, or a representation
 25 that:
 
-26 1. targets [or is attractive to] INDIVIDUALS UNDER
+26 1. targets [or is attractive to] minors INDIVIDUALS UNDER
 27 THE AGE OF 21 YEARS, including a cartoon character, a mascot, or any other depiction
-28 that is commonly used to market products to INDIVIDUALS UNDER THE AGE OF
+28 that is commonly used to market products to minors INDIVIDUALS UNDER THE AGE OF
 29 21 YEARS;
 END OF PAGE 3
 
@@ -206,7 +185,7 @@ START OF PAGE 4
 23 (II) A cannabis business may place exterior signage on the premises
 24 of the business for the limited purpose of identifying the business to the public.
 
-25 (III) SUBJECT TO SUBPARAGRAPH (IV) OF THIS
+25 (II) (III) SUBJECT TO SUBPARAGRAPH (III) (IV) OF THIS
 26 PARAGRAPH, THE HOLDER OF A STANDARD DISPENSARY LICENSE MAY PLACE
 27 EXTERIOR SIGNAGE, INCLUDING A POSTER OR A PLACARD THAT IS ATTACHED TO
 28 THE BUILDING, OR A FREESTANDING SIGNBOARD THAT IS IMMEDIATELY ADJACENT
@@ -220,44 +199,48 @@ START OF PAGE 5
 SENATE BILL 594 5
 
 1 2. PROVIDING CONTACT INFORMATION FOR THE
-2 ADMINISTRATION;
+2 DISPENSARY, INCLUDING A WEBSITE ADDRESS, PHONE NUMBER, E–MAIL ADDRESS,
+3 OR QUICK RESPONSE (QR) CODE;
 
-3 3. PROVIDING INFORMATION ON WHAT TO DO IF AN
-4 ADVERSE EVENT OCCURS, INCLUDING:
+4 3. 2. PROVIDING CONTACT INFORMATION FOR THE
+5 ADMINISTRATION;
 
-5 A. AN ADVISORY TO CALL 9–1–1 IN AN EMERGENCY;
+6 4. 3. PROVIDING INFORMATION ON WHAT TO DO IF AN
+7 ADVERSE EVENT OCCURS, INCLUDING:
 
-6 B. CONTACT INFORMATION FOR THE MARYLAND
-7 POISON CENTER; AND
+8 A. AN ADVISORY TO CALL 9–1–1 IN AN EMERGENCY;
 
-8 C. CONTACT INFORMATION FOR THE PET POISON
-9 HELPLINE; AND
+9 B. CONTACT INFORMATION FOR THE MARYLAND
+10 POISON CENTER; AND
 
-10 4. IDENTIFYING AN OWNERSHIP OR LICENSURE
-11 DESIGNATION, AS APPROVED BY THE ADMINISTRATION.
+11 C. CONTACT INFORMATION FOR THE PET POISON
+12 HELPLINE; AND
 
-12 (IV) EXTERIOR SIGNAGE UNDER SUBPARAGRAPH (III)
-13 OF THIS PARAGRAPH MAY NOT EXCEED:
+13 5. 4. IDENTIFYING AN OWNERSHIP OR LICENSURE
+14 DESIGNATION, AS APPROVED BY THE ADMINISTRATION.
 
-14 1. 900 SQUARE INCHES FOR ANY INDIVIDUAL EXTERIOR
-15 SIGN; OR
+15 (III) (IV) EXTERIOR SIGNAGE UNDER SUBPARAGRAPH (II) (III)
+16 OF THIS PARAGRAPH MAY NOT EXCEED:
 
-16 2. 1,200 SQUARE INCHES TOTAL FOR ALL EXTERIOR
-17 SIGNAGE.
+17 1. 900 SQUARE INCHES FOR ANY INDIVIDUAL EXTERIOR
+18 SIGN; OR
 
-18 (3) TO DETERMINE WHETHER AN ADVERTISEMENT OR A PROPOSED
-19 ADVERTISEMENT MEETS THE AUDIENCE COMPOSITION REQUIREMENTS UNDER
-20 PARAGRAPH (1)(IV) OF THIS SUBSECTION, THE ADMINISTRATION SHALL:
+19 2. 1,200 SQUARE INCHES TOTAL FOR ALL EXTERIOR
+20 SIGNAGE.
 
-21 (I) ACCEPT THE MOST RECENT AND READILY AVAILABLE
-22 AUDIENCE COMPOSITION DATA FROM THE TELEVISION, RADIO, INTERNET, MOBILE
-23 APPLICATION, SOCIAL MEDIA, OR OTHER ELECTRONIC COMMUNICATION, EVENT
-24 SPONSORSHIP, OR PRINT PUBLICATION ENTITY WITH WHICH THE CANNABIS
-25 LICENSEE ADVERTISES OR PROPOSES TO ADVERTISE; AND
+21 (3) TO DETERMINE WHETHER AN ADVERTISEMENT OR A PROPOSED
+22 ADVERTISEMENT MEETS THE AUDIENCE COMPOSITION REQUIREMENTS UNDER
+23 PARAGRAPH (1)(IV) OF THIS SUBSECTION, THE ADMINISTRATION SHALL:
 
-26 (II) ON OR BEFORE JANUARY 1, 2027, ADOPT REGULATIONS
-27 ESTABLISHING AT LEAST ONE ALTERNATIVE METHOD FOR DETERMINING AUDIENCE
-28 COMPOSITION THAT DEVELOP A PROCESS TO ACCEPT AN ATTESTATION REGARDING
+24 (I) ACCEPT THE MOST RECENT AND READILY AVAILABLE
+25 AUDIENCE COMPOSITION DATA FROM THE TELEVISION, RADIO, INTERNET, MOBILE
+26 APPLICATION, SOCIAL MEDIA, OR OTHER ELECTRONIC COMMUNICATION, EVENT
+27 SPONSORSHIP, OR PRINT PUBLICATION ENTITY WITH WHICH THE CANNABIS
+28 LICENSEE ADVERTISES OR PROPOSES TO ADVERTISE; AND
+
+29 (II) ON OR BEFORE JANUARY 1, 2027, ADOPT REGULATIONS
+30 ESTABLISHING AT LEAST ONE ALTERNATIVE METHOD FOR DETERMINING AUDIENCE
+31 COMPOSITION THAT DEVELOP A PROCESS TO ACCEPT AN ATTESTATION REGARDING
 END OF PAGE 5
 
 START OF PAGE 6
@@ -339,5 +322,3 @@ President of the Senate.
 ________________________________________________________________________________
 Speaker of the House of Delegates.
 END OF PAGE 7
-</bill>
-</bill>

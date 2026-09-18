@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1335
 
@@ -18,13 +17,13 @@ CHAPTER ______
 
 2 Department of Information Technology – ~~Recruitment,~~ ~~Retention,~~ ~~and~~
 3 ~~Compensation~~ ~~of~~ ~~Information~~ ~~Technology~~ ~~and~~ ~~Cybersecurity~~ ~~Professionals~~
-4 <u>Information Technology Staffing and Capability Assessment</u> – Independent
+4 Information Technology Staffing and Capability Assessment – Independent
 5 Study
 
 6 FOR the purpose of requiring the Department of Information Technology to procure the
 7 services of a third–party entity to conduct a certain independent study; and generally
-8 relating to the ~~recruitment,~~ ~~retention,~~ ~~and~~ ~~compensation~~ <u>staffing, capability
-9 assessment, and workforce alignment</u> of information technology and cybersecurity
+8 relating to the ~~recruitment,~~ ~~retention,~~ ~~and~~ ~~compensation~~ staffing, capability
+9 assessment, and workforce alignment of information technology and cybersecurity
 10 professionals in the State.
 
 11 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
@@ -33,12 +32,12 @@ CHAPTER ______
 13 (a) The Department of Information Technology shall procure the services of a
 14 third–party entity to conduct an independent study that includes:
 
-15 <u>(1) an assessment of information technology and cybersecurity staffing</u>
-16 <u>needs across the principal departments of the Executive Branch as identified in § 8–201 of</u>
-17 <u>the State Government Article, including:</u>
+15 (1) an assessment of information technology and cybersecurity staffing
+16 needs across the principal departments of the Executive Branch as identified in § 8–201 of
+17 the State Government Article, including:
 
-18 <u>(i) an inventory of existing information technology and</u>
-19 <u>cybersecurity positions by classification, role, and function;</u>
+18 (i) an inventory of existing information technology and
+19 cybersecurity positions by classification, role, and function;
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
@@ -50,36 +49,36 @@ END OF PAGE 1
 START OF PAGE 2
 2 HOUSE BILL 1335
 
-1 <u>(ii) an evaluation of each principal department’s information</u>
-2 <u>technology environment, including:</u>
+1 (ii) an evaluation of each principal department’s information
+2 technology environment, including:
 
-3 <u>1. the size and information technology needs of the principal</u>
-4 <u>department;</u>
+3 1. the size and information technology needs of the principal
+4 department;
 
-5 <u>2. the size and scope of systems and applications used by</u>
-6 <u>information technology;</u>
+5 2. the size and scope of systems and applications used by
+6 information technology;
 
-7 <u>3. cybersecurity risk profile and regulatory or compliance</u>
-8 <u>obligations; and</u>
+7 3. cybersecurity risk profile and regulatory or compliance
+8 obligations; and
 
-9 <u>4. legacy system dependencies and modernization</u>
-10 <u>requirements;</u>
+9 4. legacy system dependencies and modernization
+10 requirements;
 
-11 <u>(iii) an analysis of capability gaps between current staffing levels and</u>
-12 <u>the skills required to support principal department missions;</u>
+11 (iii) an analysis of capability gaps between current staffing levels and
+12 the skills required to support principal department missions;
 
-13 <u>(iv) identification of the types of information technology and</u>
-14 <u>cybersecurity roles necessary to support operations based on the principal department’s</u>
-15 <u>specific technology environment; and</u>
+13 (iv) identification of the types of information technology and
+14 cybersecurity roles necessary to support operations based on the principal department’s
+15 specific technology environment; and
 
-16 <u>(v) recommendations for aligning State information technology</u>
-17 <u>staffing models with the operational, security, and project delivery needs of principal</u>
-18 <u>departments and the strategic priorities of the Department of Information Technology’s</u>
-19 <u>statewide information technology master plan; and</u>
+16 (v) recommendations for aligning State information technology
+17 staffing models with the operational, security, and project delivery needs of principal
+18 departments and the strategic priorities of the Department of Information Technology’s
+19 statewide information technology master plan; and
 
-20 <u>(2) recommendations for updated information technology classifications</u>
-21 <u>and pay scales for information technology and cybersecurity professionals, informed by</u>
-22 <u>comparable compensation data from other agencies across State and local government.</u>
+20 (2) recommendations for updated information technology classifications
+21 and pay scales for information technology and cybersecurity professionals, informed by
+22 comparable compensation data from other agencies across State and local government.
 
 23 ~~(1)~~ ~~a~~ ~~comparison~~ ~~of~~ ~~compensation~~ ~~of~~ ~~information~~ ~~technology~~ ~~and~~
 24 ~~cybersecurity~~ ~~professionals~~ ~~at~~ ~~State~~ ~~agencies~~ ~~with~~ ~~other~~ ~~comparable~~ ~~positions:~~
@@ -119,4 +118,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 3
-</bill>

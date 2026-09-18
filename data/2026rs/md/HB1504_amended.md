@@ -1,14 +1,9 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 418
 
 Chapter 418
 
 (House Bill 1504)
-
-Delegates Healey, Allen, Anderson, Baker, Behler, Boyce, Foley, Fraser–Hidalgo, Grammer, Guyton, Holmes, Jacobs, Korman, Lewis, J. Long, T. Morgan, Nawrocki, Odom, Stein, and Ziegler
-
-(The Honorable Anne Healey Pedestrian Safety Act of 2026)
 
 AN ACT concerning
 
@@ -112,9 +107,7 @@ WES MOORE, Governor Ch. 418
 a sustainable community as defined in § 6–301 of the Housing and Community
 Development Article.
 
-(ii) FROM THE FUNDING PROGRAMMED FOR SIDEWALKS AND
-BICYCLE PATHWAYS BY THE DEPARTMENT IN THE CONSOLIDATED
-TRANSPORTATION PROGRAM UNDER § 2–103.1 OF THIS ARTICLE FROM THE FUNDING PROGRAMMED FOR SIDEWALKS AND BICYCLE
+(ii) FROM THE FUNDING PROGRAMMED FOR SIDEWALKS AND BICYCLE
 PATHWAYS BY THE DEPARTMENT IN THE CONSOLIDATED TRANSPORTATION
 PROGRAM UNDER § 2–103.1 OF THIS ARTICLE, THE ADMINISTRATION SHALL
 PRIORITIZE FUNDING FOR SIDEWALKS AND BICYCLE PATHWAYS THAT ARE, OR ARE
@@ -207,4 +200,3 @@ Approved by the Governor, May 12, 2026.
 
 – 4 –
 END OF PAGE 4
-</bill>

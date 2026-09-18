@@ -28,11 +28,17 @@ CHAPTER ______
 2 Criminal Procedure – Expungement – No Finding and Case Terminated Without
 3 Finding
 
-4 FOR the purpose of authorizing a person to file a petition for expungement of a
+4 FOR the purpose of authorizing ~~the~~ a person to file a petition for expungement of a
 5 disposition under a certain provision of law if the disposition was included in a case
 6 that was disposed of by the court with a no finding designation or designated by the
 7 court as having been terminated without finding; and generally relating to
-13 expungement.
+8 expungement.
+
+9 ~~BY~~ ~~repealing~~ ~~and~~ ~~reenacting,~~ ~~without~~ ~~amendments,~~
+10 ~~Article~~ ~~–~~ ~~Criminal~~ ~~Procedure~~
+11 ~~Section~~ ~~10–110(a)~~
+12 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+13 ~~(2025~~ ~~Replacement~~ ~~Volume)~~
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
@@ -47,9 +53,15 @@ START OF PAGE 2
 
 1 BY repealing and reenacting, with amendments,
 2 Article – Criminal Procedure
-3 Section 10–110(a)
+3 Section ~~10–110(d)~~ 10–110(a)
 4 Annotated Code of Maryland
 5 (2025 Replacement Volume)
+
+6 ~~BY~~ ~~adding~~ ~~to~~
+7 ~~Article~~ ~~–~~ ~~Criminal~~ ~~Procedure~~
+8 ~~Section~~ ~~10–110(j)~~
+9 ~~Annotated~~ ~~Code~~ ~~of~~ ~~Maryland~~
+10 ~~(2025~~ ~~Replacement~~ ~~Volume)~~
 
 11 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
 12 That the Laws of Maryland read as follows:
@@ -144,27 +156,53 @@ START OF PAGE 4
 1 (xxvii)§ 16–101 or § 16–303 of the Transportation Article; or
 
 2 (xxviii) the common law offenses of affray, rioting, criminal
-3 contempt, battery, hindering;
+3 contempt, battery, or hindering;
 
 4 (2) a felony that is a violation of:
 
 5 (i) § 7–104 of the Criminal Law Article;
 
-21 OR
+6 (ii) the prohibition against possession with intent to distribute a
+7 controlled dangerous substance under § 5–602 of the Criminal Law Article; or
 
-22 (4) AN OFFENSE LISTED IN ITEM (1), (2), OR (3) OF THIS
-23 SUBSECTION WHERE A REMAINING CHARGE WAS:
+8 (iii) § 6–202(a), § 6–203, or § 6–204 of the Criminal Law Article; ~~or~~
 
-24 (I) DISPOSED OF BY A COURT WITH A NO FINDING
-25 DESIGNATION; OR
+9 (3) an attempt, a conspiracy, or a solicitation of any offense listed in item
+10 (1) or (2) of this subsection; OR
 
-26 (II) INCLUDED IN A CASE THAT WAS DESIGNATED BY A COURT
-27 AS HAVING BEEN TERMINATED WITHOUT FINDING.
+11 (4) AN OFFENSE LISTED IN ITEM (1), (2), OR (3) OF THIS SUBSECTION
+12 WHERE A REMAINING CHARGE WAS:
 
+13 (I) DISPOSED OF BY A COURT WITH A NO FINDING
+14 DESIGNATION; OR
+
+15 (II) INCLUDED IN A CASE THAT WAS DESIGNATED BY A COURT AS
+16 HAVING BEEN TERMINATED WITHOUT FINDING.
+
+17 ~~(d)~~ ~~(1)~~ ~~If~~ ~~the~~ ~~person~~ ~~is~~ ~~convicted~~ ~~of~~ ~~a~~ ~~new~~ ~~crime~~ ~~during~~ ~~the~~ ~~applicable~~ ~~time~~
+18 ~~period~~ ~~set~~ ~~forth~~ ~~in~~ ~~subsection~~ ~~(c)~~ ~~of~~ ~~this~~ ~~section,~~ ~~the~~ ~~original~~ ~~conviction~~ ~~or~~ ~~convictions~~ ~~are~~
+19 ~~not~~ ~~eligible~~ ~~for~~ ~~expungement~~ ~~unless~~ ~~the~~ ~~new~~ ~~conviction~~ ~~becomes~~ ~~eligible~~ ~~for~~ ~~expungement.~~
+
+20 ~~(2)~~ ~~A~~ ~~person~~ ~~is~~ ~~not~~ ~~eligible~~ ~~for~~ ~~expungement~~ ~~if~~ ~~the~~ ~~person~~ ~~is~~ ~~a~~ ~~defendant~~ ~~in~~
+21 ~~a~~ ~~pending~~ ~~criminal~~ ~~proceeding.~~
+
+22 ~~(3)~~ ~~[If]~~ ~~SUBJECT~~ ~~TO~~ ~~SUBSECTION~~ ~~(J)~~ ~~OF~~ ~~THIS~~ ~~SECTION,~~ ~~IF~~ ~~a~~ ~~person~~ ~~is~~
+23 ~~not~~ ~~eligible~~ ~~for~~ ~~expungement~~ ~~of~~ ~~one~~ ~~conviction~~ ~~in~~ ~~a~~ ~~unit,~~ ~~the~~ ~~person~~ ~~is~~ ~~not~~ ~~eligible~~ ~~for~~
+24 ~~expungement~~ ~~of~~ ~~any~~ ~~other~~ ~~conviction~~ ~~in~~ ~~the~~ ~~unit.~~
+
+25 ~~(J)~~ ~~A~~ ~~DISPOSITION~~ ~~MAY~~ ~~BE~~ ~~EXPUNGED~~ ~~UNDER~~ ~~THIS~~ ~~SECTION~~ ~~IF~~ ~~THE~~ ~~CASE~~
+26 ~~WAS~~ ~~NOT~~ ~~DISPOSED~~ ~~OF~~ ~~BY~~ ~~AN~~ ~~UNEQUIVOCAL~~ ~~CONVICTION~~ ~~BUT~~ ~~WAS~~ ~~INSTEAD~~
+27 ~~INCLUDED~~ ~~IN~~ ~~A~~ ~~CASE~~ ~~THAT~~ ~~WAS:~~
+
+28 ~~(1)~~ ~~DISPOSED~~ ~~OF~~ ~~BY~~ ~~THE~~ ~~COURT~~ ~~WITH~~ ~~A~~ ~~NO~~ ~~FINDING~~ ~~DESIGNATION;~~
+29 ~~OR~~
 END OF PAGE 4
 
 START OF PAGE 5
 HOUSE BILL 187 5
+
+1 ~~(2)~~ ~~DESIGNATED~~ ~~BY~~ ~~THE~~ ~~COURT~~ ~~AS~~ ~~HAVING~~ ~~BEEN~~ ~~TERMINATED~~
+2 ~~WITHOUT~~ ~~FINDING.~~
 
 3 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
 4 October 1, 2026.

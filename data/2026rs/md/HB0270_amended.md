@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 267
 
@@ -13,7 +12,7 @@ Military Family Inclusion Act
 FOR the purpose of altering the membership of the Maryland Trust Fund Board of
 Trustees, the Maryland Veterans Commission, the Maryland Commission on
 Caregiving, and the Maryland Youth Advisory Council; and generally relating to
-military–connected membership on councils and commissions.
+~~military~~ military–connected membership on councils and commissions.
 
 BY repealing and reenacting, without amendments,
 Article – Human Services
@@ -35,7 +34,7 @@ Annotated Code of Maryland
 
 BY repealing and reenacting, with amendments,
 Article – State Government
-Section 9–914(b), 9–917, 9–918, 9–926(a), 9–927(b)(1), 9–935(a), and
+Section 9–914(b), ~~9–914.1,~~ 9–917, 9–918, 9–926(a), 9–927(b)(1), 9–935(a), and
 9–2701(c)(1)
 Annotated Code of Maryland
 (2021 Replacement Volume and 2025 Supplement)
@@ -138,6 +137,22 @@ appointed by the Speaker of the House; and
 (10) AS AN EX OFFICIO TRUSTEE, a member of the Senate appointed by the
 President of the Senate.
 
+~~9–914.1.~~
+
+~~(a)~~ ~~The~~ ~~Board~~ ~~shall~~ ~~meet~~ ~~at~~ ~~places~~ ~~and~~ ~~dates~~ ~~to~~ ~~be~~ ~~determined~~ ~~by~~ ~~the~~ ~~Board,~~ ~~but~~
+~~not~~ ~~less~~ ~~than~~ ~~2~~ ~~times~~ ~~a~~ ~~year.~~
+
+(b) A majority of the VOTING trustees is a quorum.
+
+~~(c)~~ ~~A~~ ~~trustee:~~
+
+~~(1)~~ ~~may~~ ~~not~~ ~~receive~~ ~~compensation~~ ~~as~~ ~~a~~ ~~trustee;~~ ~~but~~
+
+~~(2)~~ ~~is~~ ~~entitled~~ ~~to~~ ~~reimbursement~~ ~~for~~ ~~expenses~~ ~~under~~ ~~the~~ ~~Standard~~ ~~State~~
+~~Travel~~ ~~Regulations,~~ ~~as~~ ~~provided~~ ~~in~~ ~~the~~ ~~State~~ ~~budget.~~
+
+~~(d)~~ ~~The~~ ~~Department~~ ~~shall~~ ~~provide~~ ~~staff,~~ ~~supplies,~~ ~~and~~ ~~office~~ ~~space~~ ~~for~~ ~~the~~ ~~Board.~~
+
 – 3 –
 END OF PAGE 3
 
@@ -213,7 +228,7 @@ FAMILIES.
 [(vii) 1 shall be an honorary nonvoting member appointed from a list
 of individuals submitted to the Governor by the Pearl Harbor Survivors Association.]
 
-(b) Each member must be a resident of the State.
+(b) Each member must be a resident of the State ~~and~~ ~~a~~ ~~veteran.~~
 
 (c) (1) The term of an appointed member is 5 years.
 
@@ -328,4 +343,3 @@ Approved by the Governor, April 28, 2026.
 
 – 7 –
 END OF PAGE 7
-</bill>

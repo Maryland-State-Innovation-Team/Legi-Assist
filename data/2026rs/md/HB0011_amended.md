@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 567
 
@@ -42,7 +41,7 @@ Council of Anne Arundel County.
 (2) The Sheriff may appoint a chief deputy who shall serve at the pleasure
 of the Sheriff.
 
-(3) THE SHERIFF ~~SHALL~~ MAY APPOINT THREE MAJORS WHO SHALL
+(3) THE SHERIFF MAY APPOINT THREE MAJORS WHO SHALL
 SERVE AT THE PLEASURE OF THE SHERIFF AT A SALARY AS PROVIDED BY THE
 COUNTY COUNCIL OF ANNE ARUNDEL COUNTY.
 
@@ -59,4 +58,3 @@ Approved by the Governor, May 12, 2026.
 
 – 2 –
 END OF PAGE 2
-</bill>

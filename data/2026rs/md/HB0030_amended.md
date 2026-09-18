@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 527
 
@@ -72,7 +71,7 @@ power, even if it were in complete operating condition.
 
 [(9)] (10) “Tow list” means the list of towing businesses authorized by the
 Department to perform police–initiated towing services of disabled or abandoned
-~~commercial~~ vehicles within the Department’s jurisdiction.
+vehicles within the Department’s jurisdiction.
 
 [(10)] (11) “Towing” means using another vehicle to move or remove a
 vehicle.
@@ -231,4 +230,3 @@ Approved by the Governor, May 12, 2026.
 
 – 5 –
 END OF PAGE 5
-</bill>

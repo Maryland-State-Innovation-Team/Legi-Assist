@@ -1,7 +1,3 @@
-<bill>
-<bill>
-<bill>
-<bill>
 START OF PAGE 1
 HOUSE BILL 1367
 
@@ -174,7 +170,7 @@ START OF PAGE 4
 11 (d) The Governor, President of the Senate, and Speaker of the House jointly shall
 12 designate the chair of the Commission.
 
-13 (e) The Maryland Health Care Commission shall provide
+13 (e) The Maryland ~~Department~~ ~~of~~ ~~Health~~ Health Care Commission shall provide
 14 staff for the Commission.
 
 15 (f) A member of the Commission:
@@ -228,7 +224,7 @@ HOUSE BILL 1367 5
 15 and other facilities and health care practitioners would play in a new health care system;
 
 16 (x) what model health care systems should be considered and how to
-17 ensure that innovation is not preserved by the current health care system; and
+17 ensure that innovation is not constrained by the current health care system; and
 
 18 (xi) how high deductibles and limited networks in health insurance
 19 coverage deter care and decrease equal access to health care in the current system; and
@@ -248,7 +244,7 @@ HOUSE BILL 1367 5
 
 29 SECTION 2. AND BE IT FURTHER ENACTED, That:
 
-30 (a) Section 1 of this Act is contingent on the Maryland
+30 (a) Section 1 of this Act is contingent on the Maryland ~~Department~~ ~~of~~ ~~Health~~
 31 Health Care Commission:
 END OF PAGE 5
 
@@ -262,7 +258,7 @@ START OF PAGE 6
 4 required under Section 1 of this Act.
 
 5 (b) Within 5 days of receiving sufficient funding to conduct the work of the
-6 Commission as required under Section 1 of this Act, the Maryland
+6 Commission as required under Section 1 of this Act, the Maryland ~~Department~~ ~~of~~ ~~Health~~
 7 Health Care Commission shall notify the Department of Legislative Services.
 
 8 (c) If notice of the receipt of the funding is received by the Department of
@@ -290,7 +286,4 @@ Speaker of the House of Delegates.
 
 ________________________________________________________________________________
 President of the Senate.
-END OF PAGE 6</bill>
-</bill>
-</bill>
-</bill>
+END OF PAGE 6

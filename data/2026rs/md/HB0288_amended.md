@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 288
 
@@ -232,10 +231,10 @@ HOUSE BILL 288 5
 19 (f) The county board shall publish the most recent version of the virtual
 20 education plan on the county board’s website.
 
-21 (G) NOTHING IN THIS SUBTITLE MAY BE CONSTRUED TO LIMIT OR
-22 INTERFERE WITH THE RESPONSIBILITIES OF THE SECRETARY OF HEALTH UNDER
-23 TITLE 18 OF THE HEALTH – GENERAL ARTICLE IN THE EVENT OF A PUBLIC HEALTH
-24 EMERGENCY.
+21 ~~(G)~~ ~~NOTHING~~ ~~IN~~ ~~THIS~~ ~~SUBTITLE~~ ~~MAY~~ ~~BE~~ ~~CONSTRUED~~ ~~TO~~ ~~LIMIT~~ ~~OR~~
+22 ~~INTERFERE~~ ~~WITH~~ ~~THE~~ ~~RESPONSIBILITIES~~ ~~OF~~ ~~THE~~ ~~SECRETARY~~ ~~OF~~ ~~HEALTH~~ ~~UNDER~~
+23 ~~TITLE~~ ~~18~~ ~~OF~~ ~~THE~~ ~~HEALTH~~ ~~–~~ ~~GENERAL~~ ~~ARTICLE~~ ~~IN~~ ~~THE~~ ~~EVENT~~ ~~OF~~ ~~A~~ ~~PUBLIC~~ ~~HEALTH~~
+24 ~~EMERGENCY.~~
 
 25 7–14A–10.
 
@@ -247,4 +246,3 @@ HOUSE BILL 288 5
 30 SECTION ~~2.~~ 3. AND BE IT FURTHER ENACTED, That this Act shall take effect
 31 July 1, 2026.
 END OF PAGE 5
-</bill>

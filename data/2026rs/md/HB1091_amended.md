@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1091
 
@@ -22,7 +21,7 @@ CHAPTER ______
 2 Health Insurance and Dental Plan Organizations – Dentists – Assignment of
 3 Benefits and Reimbursement of Nonpreferred Providers
 
-4 For the purpose of prohibiting certain insurers and dental plan organizations from
+4 FOR the purpose of prohibiting certain insurers and dental plan organizations from
 5 prohibiting an assignment of benefits to a provider who is a dentist by an insured or
 6 refusing to directly reimburse a nonpreferred provider who is a dentist; requiring a
 7 nonpreferred provider who is a dentist and who seeks an assignment of benefits from
@@ -94,8 +93,8 @@ START OF PAGE 2
 26 LICENSED IN THE STATE UNDER TITLE 4 OF THE HEALTH OCCUPATIONS ARTICLE
 27 WHO PERFORM THE SAME OR SIMILAR DENTAL SERVICES; OR
 
-28 [(2)] (3) for a health care provider who is not a physician OR DENTIST,
-29 a health care provider who holds the same type of license or
+28 [(2)] (3) for a health care provider who is not a physician
+29 OR DENTIST, a health care provider who holds the same type of license or
 30 certification.
 
 31 14–205.3.
@@ -204,7 +203,7 @@ START OF PAGE 5
 HOUSE BILL 1091 5
 
 1 (3) THE AMOUNT THAT IS THE ENROLLEE’S RESPONSIBILITY; AND
-2 
+
 3 (4) A STATEMENT INSTRUCTING THE ENROLLEE TO USE THE
 4 PAYMENT TO PAY THE NONPREFERRED DENTIST IN THE EVENT THAT THE ENROLLEE
 5 HAS NOT PAID THE NONPREFERRED DENTIST IN FULL FOR DENTAL SERVICES
@@ -271,4 +270,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 6
-</bill>

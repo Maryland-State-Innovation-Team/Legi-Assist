@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1526
 
@@ -23,9 +22,9 @@ CHAPTER ______
 4 FOR the purpose of establishing in Carroll County a Class 1 distillery on–premises
 5 consumption permit; authorizing the Board of License Commissioners for Carroll
 6 County to issue the permit to a holder of a Class 1 distillery license; authorizing the
-7 holder of the permit to sell<u>, prepare, and serve</u> certain food, nonalcoholic beverages,
-8 and alcoholic beverages for on–premises consumption; <u>authorizing the holder of the</u>
-9 <u>permit to use the licensed premises for events;</u> and generally relating to Class 1
+7 holder of the permit to sell, prepare, and serve certain food, nonalcoholic beverages,
+8 and alcoholic beverages for on–premises consumption; authorizing the holder of the
+9 permit to use the licensed premises for events; and generally relating to Class 1
 10 distillery on–premises consumption permits in Carroll County.
 
 11 BY repealing and reenacting, without amendments,
@@ -168,29 +167,29 @@ START OF PAGE 4
 7 (C) THE PERMIT SERVES AS THE ON–PREMISES CONSUMPTION PERMIT
 8 REQUIRED UNDER § 2–202(E) AND (I) OF THIS ARTICLE.
 
-9 (D) <u>(1)</u> THE PERMIT AUTHORIZES THE HOLDER TO SELL<u>, PREPARE, AND</u>
-10 <u>SERVE</u>:
+9 (D) (1) THE PERMIT AUTHORIZES THE HOLDER TO SELL, PREPARE, AND
+10 SERVE:
 
-11 ~~ (1) ~~ <u>(I)</u> FOOD;
+11 (I) FOOD;
 
-12 ~~ (2) ~~ <u>(II)</u> NONALCOHOLIC BEVERAGES; AND
+12 (II) NONALCOHOLIC BEVERAGES; AND
 
-13 ~~ (3) ~~ <u>(III)</u> ALCOHOLIC BEVERAGES, INCLUDING BRANDY, RUM,
+13 (III) ALCOHOLIC BEVERAGES, INCLUDING BRANDY, RUM,
 14 WHISKEY, AND NEUTRAL SPIRITS THAT ARE DISTILLED, RECTIFIED, BLENDED, AND
 15 BOTTLED AT THE DISTILLERY FOR ON– AND OFF–PREMISES CONSUMPTION TO THE
 16 EXTENT THE PERMIT HOLDER IS AUTHORIZED UNDER THE CLASS 1 DISTILLERY
 17 LICENSE.
 
-18 ~~ (E) ~~ <u>(2)</u> THE AUTHORIZATION TO SELL<u>, PREPARE, AND SERVE</u> FOOD AND
-19 NONALCOHOLIC BEVERAGES UNDER THIS ~~SECTION~~ <u>SUBSECTION</u> IS SUBJECT TO
+18 (2) THE AUTHORIZATION TO SELL, PREPARE, AND SERVE FOOD AND
+19 NONALCOHOLIC BEVERAGES UNDER THIS SUBSECTION IS SUBJECT TO
 20 APPROVAL BY THE CARROLL COUNTY HEALTH DEPARTMENT.
 
-21 <u>(E) (1) THE PERMIT AUTHORIZES THE HOLDER TO USE THE LICENSED</u>
-22 <u>PREMISES FOR EVENTS.</u>
+21 (E) (1) THE PERMIT AUTHORIZES THE HOLDER TO USE THE LICENSED
+22 PREMISES FOR EVENTS.
 
-23 <u>(2) ANY ON–PREMISES CONSUMPTION OF ALCOHOLIC BEVERAGES AT</u>
-24 <u>AN EVENT HELD IN ACCORDANCE WITH PARAGRAPH (1) OF THIS SUBSECTION SHALL</u>
-25 <u>COMPLY WITH SUBSECTION (D) OF THIS SECTION.</u>
+23 (2) ANY ON–PREMISES CONSUMPTION OF ALCOHOLIC BEVERAGES AT
+24 AN EVENT HELD IN ACCORDANCE WITH PARAGRAPH (1) OF THIS SUBSECTION SHALL
+25 COMPLY WITH SUBSECTION (D) OF THIS SECTION.
 
 26 (F) AN APPLICATION FOR A PERMIT UNDER THIS SECTION SHALL INCLUDE
 27 A DIAGRAM OF THE PROPOSED AREA FOR CONSUMPTION UNDER THE PERMIT AND
@@ -218,4 +217,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 5
-</bill>

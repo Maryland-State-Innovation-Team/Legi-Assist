@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 SENATE BILL 582
 
@@ -27,7 +26,7 @@ CHAPTER ______
 
 2 Consumer Protection – Unsolicited Loans
 
-3 PROHIBITING A ~~CREDITOR~~ PERSON FROM SENDING A CHECK OR OTHER NEGOTIABLE
+3 FOR the purpose of prohibiting a ~~creditor~~ person from sending a check or other negotiable
 4 instrument to an individual under certain circumstances; establishing that an
 5 individual who receives a check or other negotiable instrument is not liable for the
 6 amount of the check or negotiable instrument under certain circumstances; and
@@ -60,7 +59,7 @@ START OF PAGE 2
 5 (A) IN THIS SECTION, “CREDITOR” MEANS A PERSON THAT ENGAGES IN
 6 WHOLE OR IN PART IN THE BUSINESS OF MAKING LOANS OR OTHER EXTENSIONS OF
 7 CREDIT FOR PERSONAL, FAMILY, OR HOUSEHOLD PURPOSES THIS SECTION DOES
-8 NOT APPLY TO AN INDIVIDUAL:
+8 NOT APPLY TO A PERSON THAT SENDS TO AN INDIVIDUAL:
 
 9 (1) A CONVENIENCE CHECK FOR THE SOLE
 10 PURPOSE OF ACCESSING AN EXISTING CREDIT LINE OF THE INDIVIDUAL; OR
@@ -94,4 +93,3 @@ START OF PAGE 2
 30 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect
 31 October 1, 2026.
 END OF PAGE 2
-</bill>

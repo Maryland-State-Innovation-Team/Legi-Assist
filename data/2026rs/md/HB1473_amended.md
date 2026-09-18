@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 1473
 
@@ -187,7 +186,7 @@ START OF PAGE 4
 19 (III) TWO MEMBERS APPOINTED BY THE PRESIDENT OF THE
 20 SENATE; AND
 
-21 ~~ (III) ~~ (IV) TWO MEMBERS APPOINTED BY THE SPEAKER OF THE
+21 ~~(III)~~ (IV) TWO MEMBERS APPOINTED BY THE SPEAKER OF THE
 22 HOUSE.
 
 23 (2) THE BOARD SHALL CONSIST OF INDIVIDUALS WHO,
@@ -429,4 +428,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 9
-</bill>

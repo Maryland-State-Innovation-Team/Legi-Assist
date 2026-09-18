@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 714
 
@@ -12,11 +11,11 @@ Consumer Protection – Retail Transactions for Essential Consumer Goods –
 Cash Payments
 
 FOR the purpose of prohibiting a merchant, in a certain transaction between certain hours,
-from prohibiting a person from making a cash payment to purchase an essential
-consumer good, requiring a person to purchase an essential consumer
-good by using a credit or debit card, or charging or collecting from a person
-a higher price than for an equivalent cashless transaction for making a cash
-payment for the purchase of an essential consumer good, subject to
+from prohibiting a person from making a cash payment to purchase ~~a~~ an essential
+consumer good ~~or~~ ~~service,~~ requiring a person to purchase ~~a~~ an essential consumer
+good ~~or~~ ~~service~~ by using a credit or debit card, or charging or collecting from a person
+a ~~fee~~ higher price than for an equivalent cashless transaction for making a cash
+payment for the purchase of ~~a~~ an essential consumer good ~~or~~ ~~service,~~ subject to
 certain exceptions; establishing that a violation of this Act is an unfair, abusive, or
 deceptive trade practice subject to certain enforcement and penalty provisions under
 the Maryland Consumer Protection Act; and generally relating to retail cash
@@ -57,11 +56,11 @@ Ch. 714 2026 LAWS OF MARYLAND
 
 (14) Violation of a provision of:
 
-(xlvii) Title 14, Subtitle 50 of this article;
+(xlvii) Title 14, Subtitle 50 of this article; [or]
 
 (xlviii) Section 13–411.1(c)(2) of the Transportation Article; or
 
-(XLIX) SECTION 14–1330 OF THIS ARTICLE;
+(XLIX) SECTION 14–1330 OF THIS ARTICLE; OR
 
 14–1330.
 
@@ -85,15 +84,14 @@ SUPPLIES AND EQUIPMENT, AND PERSONAL PROTECTIVE EQUIPMENT; AND
 
 (V) FUEL.
 
-(4) “MERCHANT” HAS THE MEANING STATED IN § 13–101
-OF THIS ARTICLE.
+(4) “MERCHANT” HAS THE MEANING STATED IN § 13–101 OF THIS
+ARTICLE.
 
 (5) “RETAIL ESTABLISHMENT” MEANS AN ESTABLISHMENT THAT
 SELLS CONSUMER GOODS TO THE PUBLIC.
 
 (B) (1) THIS SECTION APPLIES ONLY TO AN IN–PERSON
-TRANSACTION AT A RETAIL ESTABLISHMENT TOTALING LESS THAN
-$300.
+TRANSACTION AT A RETAIL ESTABLISHMENT TOTALING LESS THAN $300.
 
 (2) THIS SECTION DOES NOT APPLY TO:
 
@@ -114,7 +112,9 @@ PUBLIC PRIMARILY:
 CONSUMPTION; OR
 
 2. A LIMITED VARIETY OF GOURMET OR SPECIALTY
-FOODS, INCLUDING CHEESES, FRUITS, NUTS, CANDY, SPICES, AND OILS; OR
+FOODS, INCLUDING CHEESES, FRUITS, NUTS, CANDY, SPICES, AND OILS;
+
+OR
 
 (IV) THE PURCHASE OF FUEL FROM A MERCHANT THAT SELLS
 FUEL TO THE PUBLIC BUT REQUIRES A PAID MEMBERSHIP TO PURCHASE THE FUEL.
@@ -142,6 +142,13 @@ PAYMENT FOR THE PURCHASE OF A CONSUMER GOOD:
 
 1. PROVIDES AND MAINTAINS A DEVICE ON THE
 PREMISES OF THE ESTABLISHMENT THAT CONVERTS CASH INTO A PREPAID CARD
+
+– 3 –
+END OF PAGE 3
+
+START OF PAGE 4
+Ch. 714 2026 LAWS OF MARYLAND
+
 THAT A PERSON MAY USE TO PURCHASE A CONSUMER GOOD AT THE
 ESTABLISHMENT;
 
@@ -151,12 +158,6 @@ AND
 3. IF THE DEVICE MALFUNCTIONS OR BECOMES
 INOPERABLE, ACCEPTS PAYMENT IN CASH IN ACCORDANCE WITH THIS SECTION
 UNTIL THE DEVICE RESUMES NORMAL OPERATIONS.
-
-– 3 –
-END OF PAGE 3
-
-START OF PAGE 4
-Ch. 714 2026 LAWS OF MARYLAND
 
 (2) A MERCHANT MAY COLLECT FROM A PERSON AN ADDITIONAL
 AMOUNT NOT EXCEEDING 4 CENTS WHEN ROUNDING THE PRICE FOR AN ESSENTIAL
@@ -191,6 +192,12 @@ NOT EXCEEDING $1,000 FOR EACH SUBSEQUENT VIOLATION.
 (III) THE FINES PROVIDED FOR IN SUBPARAGRAPHS (I) AND (II)
 OF THIS PARAGRAPH:
 
+– 4 –
+END OF PAGE 4
+
+START OF PAGE 5
+WES MOORE, Governor Ch. 714
+
 1. ARE CIVIL PENALTIES RECOVERABLE IN
 ACCORDANCE WITH § 13–410(C) OF THIS ARTICLE; AND
 
@@ -204,4 +211,3 @@ Approved by the Governor, May 26, 2026.
 
 – 5 –
 END OF PAGE 5
-</bill>

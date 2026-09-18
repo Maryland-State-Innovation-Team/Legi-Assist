@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 470
 
@@ -19,7 +18,7 @@ CHAPTER ______
 
 2 Digital Asset and Blockchain Technology Task Force – Establishment
 
-3 FOR the privilege of establishing the Digital Asset and Blockchain Technology Task Force
+3 FOR the purpose of establishing the Digital Asset and Blockchain Technology Task Force
 4 to study and make recommendations regarding the use and regulation of blockchain
 5 technology and cryptocurrency in the State; and generally relating to the Digital
 6 Asset and Blockchain Technology Task Force.
@@ -39,9 +38,9 @@ CHAPTER ______
 
 15 (3) the Comptroller, or the Comptroller’s designee;
 
-16 <u>(4) the State Treasurer, or the State Treasurer’s designee;</u>
+16 (4) the State Treasurer, or the State Treasurer’s designee;
 
-17 ~~(4)~~ <u>(5)</u> the Secretary of Commerce, or the Secretary’s designee;
+17 ~~(4)~~ (5) the Secretary of Commerce, or the Secretary’s designee;
 
 EXPLANATION: CAPITALS INDICATE MATTER ADDED TO EXISTING LAW.
 [Brackets] indicate matter deleted from existing law.
@@ -53,15 +52,15 @@ END OF PAGE 1
 START OF PAGE 2
 2 HOUSE BILL 470
 
-1 <u>(6) the Secretary of Information Technology, or the Secretary’s designee;</u>
+1 (6) the Secretary of Information Technology, or the Secretary’s designee;
 
-2 ~~(5)~~ <u>(7)</u> the Secretary of Labor, or the Secretary’s designee; ~~and~~
+2 ~~(5)~~ (7) the Secretary of Labor, or the Secretary’s designee; ~~and~~
 
-3 <u>(8) the Securities Commissioner, or the Commissioner’s designee; and</u>
+3 (8) the Securities Commissioner, or the Commissioner’s designee; and
 
-4 ~~(6)~~ <u>(9)</u> the following members, appointed by the Governor:
+4 ~~(6)~~ (9) the following members, appointed by the Governor:
 
-5 (i) ~~one~~ ~~representative~~ <u>two representatives</u> of the financial services
+5 (i) ~~one~~ ~~representative~~ two representatives of the financial services
 6 industry;
 
 7 (ii) one faculty member of an institution of higher education in the
@@ -127,4 +126,3 @@ Speaker of the House of Delegates.
 ________________________________________________________________________________
 President of the Senate.
 END OF PAGE 3
-</bill>

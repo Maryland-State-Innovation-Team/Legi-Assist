@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 HOUSE BILL 261
 
@@ -57,45 +56,48 @@ START OF PAGE 2
 3 publish notice of a certain award in eMaryland Marketplace Advantage; requiring
 4 the Department of General Services to adopt certain regulations; providing for the
 5 establishment of certain percentage goals for minority business enterprise
-6 participation and veteran–owned small business enterprise participation; and generally relating to
-7 competitive proof of concept procurements.
+6 participation and veteran–owned small business enterprise participation;
+7 ~~authorizing~~ ~~the~~ ~~Governor’s~~ ~~Office~~ ~~of~~ ~~Small,~~ ~~Minority,~~ ~~and~~ ~~Women~~ ~~Business~~ ~~Affairs~~
+8 ~~to~~ ~~exempt~~ ~~competitive~~ ~~proof~~ ~~of~~ ~~concept~~ ~~procurements~~ ~~from~~ ~~the~~ ~~small~~ ~~business~~ ~~reserve~~
+9 ~~designation~~ ~~under~~ ~~certain~~ ~~circumstances;~~ and generally relating to competitive proof
+10 of concept procurements.
 
-8 BY repealing and reenacting, with amendments,
-9 Article – State Finance and Procurement
-10 Section 13–102(a), 13–116, 14–302(a)(2), and 14–602(b)
-11 Annotated Code of Maryland
-12 (2021 Replacement Volume and 2025 Supplement)
+11 BY repealing and reenacting, with amendments,
+12 Article – State Finance and Procurement
+13 Section 13–102(a), 13–116, 14–302(a)(2), ~~14–502.1(b),~~ and 14–602(b)
+14 Annotated Code of Maryland
+15 (2021 Replacement Volume and 2025 Supplement)
 
-13 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
-14 That the Laws of Maryland read as follows:
+16 SECTION 1. BE IT ENACTED BY THE GENERAL ASSEMBLY OF MARYLAND,
+17 That the Laws of Maryland read as follows:
 
-15 Article – State Finance and Procurement
+18 Article – State Finance and Procurement
 
-16 13–102.
+19 13–102.
 
-17 (a) The following procurement methods are authorized at the procurement
-18 officer’s discretion, where applicable:
+20 (a) The following procurement methods are authorized at the procurement
+21 officer’s discretion, where applicable:
 
-19 (1) competitive sealed bids under § 13–103 of this subtitle;
+22 (1) competitive sealed bids under § 13–103 of this subtitle;
 
-20 (2) competitive sealed proposals under § 13–104 or § 13–105 of this
-21 subtitle;
+23 (2) competitive sealed proposals under § 13–104 or § 13–105 of this
+24 subtitle;
 
-22 (3) noncompetitive negotiation under § 13–106 of this subtitle;
+25 (3) noncompetitive negotiation under § 13–106 of this subtitle;
 
-23 (4) sole source procurement under § 13–107 of this subtitle;
+26 (4) sole source procurement under § 13–107 of this subtitle;
 
-24 (5) emergency or expedited procurement under § 13–108 of this subtitle;
+27 (5) emergency or expedited procurement under § 13–108 of this subtitle;
 
-25 (6) small procurement under § 13–109 of this subtitle;
+28 (6) small procurement under § 13–109 of this subtitle;
 
-26 (7) an intergovernmental cooperative purchasing agreement under §
-27 13–110 of this subtitle;
+29 (7) an intergovernmental cooperative purchasing agreement under §
+30 13–110 of this subtitle;
 
-28 (8) auction bids under § 13–111 of this subtitle;
+31 (8) auction bids under § 13–111 of this subtitle;
 
-29 (9) architectural, engineering, and land surveying services qualification
-30 based selection under § 13–112 of this subtitle;
+32 (9) architectural, engineering, and land surveying services qualification
+33 based selection under § 13–112 of this subtitle;
 END OF PAGE 2
 
 START OF PAGE 3
@@ -162,32 +164,36 @@ START OF PAGE 4
 10 Technology to evaluate whether the proof of concept can be successfully deployed and is
 11 beneficial to the State.
 
-12 (c) (1) [A] competitive proof of concept procurement solicitation shall include a
-13 statement of:
+12 (c) (1) [A competitive proof of concept procurement may be conducted through
+13 the issuance of a solicitation by any method of procurement authorized under this Division
+14 II.
 
-14 (i) the scope of work, STATEMENT OF NEED, or project description,
-15 including the intended use, quantity, estimated time frame for the proof of concept, and
-16 anticipated number of proof of concept awards that will be made; and
+15 (2)] A competitive proof of concept procurement solicitation shall include a
+16 statement of:
 
-17 (ii) the factors, including price, that will be used AT EACH PHASE in
-18 evaluating proposals and the relative importance of each.
+17 (i) the scope of work, STATEMENT OF NEED, or project description,
+18 including the intended use, quantity, estimated time frame for the proof of concept, and
+19 anticipated number of proof of concept awards that will be made; and
 
-19 [(3)] (2) A solicitation may be distributed to vendors known to offer goods
-20 or services within the scope of the proof of concept and shall[, except for procurements
-21 under $15,000 not otherwise required by law to be posted,] be posted on eMaryland
-22 Marketplace Advantage[, in accordance with the policies and procedures under subsection
-23 (g) of this section].
+20 (ii) the factors, including price, that will be used AT EACH PHASE in
+21 evaluating proposals and the relative importance of each.
 
-24 (d) After receipt of proposals but before award of a procurement contract, a unit
-25 may:
+22 [(3)] (2) A solicitation may be distributed to vendors known to offer goods
+23 or services within the scope of the proof of concept and shall[, except for procurements
+24 under $15,000 not otherwise required by law to be posted,] be posted on eMaryland
+25 Marketplace Advantage[, in accordance with the policies and procedures under subsection
+26 (g) of this section].
 
-26 (1) conduct discussions with AND RECEIVE CLARIFICATIONS FROM an
-27 offeror [to ensure full understanding of:
+27 (d) After receipt of proposals but before award of a procurement contract, a unit
+28 may:
 
-28 (i) the requirements of the unit, as set forth in the request for
-29 proposals; and
+29 (1) conduct discussions with AND RECEIVE CLARIFICATIONS FROM an
+30 offeror [to ensure full understanding of:
 
-30 (ii) the proposal submitted by the offeror; and];
+31 (i) the requirements of the unit, as set forth in the request for
+32 proposals; and
+
+33 (ii) the proposal submitted by the offeror; and];
 END OF PAGE 4
 
 START OF PAGE 5
@@ -233,25 +239,33 @@ HOUSE BILL 261 5
 29 Procurement Officer, and the Attorney General, shall establish guidelines for each unit to
 30 consider when determining the appropriate minority business enterprise participation
 31 percentage goal for a procurement contract in accordance with paragraph (3) of this
+32 subsection.
+
+33 (II) FOR A COMPETITIVE PROOF OF CONCEPT PROCUREMENT
+34 CONDUCTED UNDER § 13–116 OF THIS ARTICLE, THE MINORITY BUSINESS
 END OF PAGE 5
 
 START OF PAGE 6
 6 HOUSE BILL 261
 
-1 
-2 
-3 
-4 
-5 
-6 
-7 
-8 
-9 (3) A COMPETITIVE PROOF OF CONCEPT PROCUREMENT CONDUCTED
-10 UNDER § 13–116 OF THIS ARTICLE MAY BE EXEMPT FROM DESIGNATION UNDER
-11 PARAGRAPH (1) OF THIS SUBSECTION IF THE GOVERNOR’S OFFICE OF SMALL,
-12 MINORITY, AND WOMEN BUSINESS AFFAIRS DETERMINES THAT IT IS NOT
-13 PRACTICABLE TO DESIGNATE THE PROCUREMENT FOR THE SMALL BUSINESS
-14 RESERVE.
+1 ENTERPRISE PARTICIPATION PERCENTAGE GOAL, IF ANY, SHALL BE ESTABLISHED
+2 AT A PHASE SPECIFIED IN THE SOLICITATION DOCUMENTS.
+
+3 ~~14–502.1.~~
+
+4 ~~(b)~~ ~~(1)~~ ~~[A]~~ ~~EXCEPT~~ ~~AS~~ ~~PROVIDED~~ ~~IN~~ ~~PARAGRAPH~~ ~~(3)~~ ~~OF~~ ~~THIS~~
+5 ~~SUBSECTION,~~ ~~A~~ ~~procurement~~ ~~with~~ ~~a~~ ~~total~~ ~~dollar~~ ~~value~~ ~~of~~ ~~$1,000,000~~ ~~or~~ ~~less~~ ~~shall~~ ~~be~~
+6 ~~designated~~ ~~for~~ ~~the~~ ~~small~~ ~~business~~ ~~reserve.~~
+
+7 ~~(2)~~ ~~Each~~ ~~unit~~ ~~or~~ ~~agency~~ ~~shall~~ ~~implement~~ ~~this~~ ~~subsection~~ ~~in~~ ~~a~~ ~~manner~~
+8 ~~consistent~~ ~~with~~ ~~all~~ ~~applicable~~ ~~statutes,~~ ~~including~~ ~~the~~ ~~requirements~~ ~~of~~ ~~Subtitle~~ ~~3~~ ~~of~~ ~~this~~ ~~title.~~
+
+9 ~~(3)~~ ~~A~~ ~~COMPETITIVE~~ ~~PROOF~~ ~~OF~~ ~~CONCEPT~~ ~~PROCUREMENT~~ ~~CONDUCTED~~
+10 ~~UNDER~~ ~~§~~ ~~13–116~~ ~~OF~~ ~~THIS~~ ~~ARTICLE~~ ~~MAY~~ ~~BE~~ ~~EXEMPT~~ ~~FROM~~ ~~DESIGNATION~~ ~~UNDER~~
+11 ~~PARAGRAPH~~ ~~(1)~~ ~~OF~~ ~~THIS~~ ~~SUBSECTION~~ ~~IF~~ ~~THE~~ ~~GOVERNOR’S~~ ~~OFFICE~~ ~~OF~~ ~~SMALL,~~
+12 ~~MINORITY,~~ ~~AND~~ ~~WOMEN~~ ~~BUSINESS~~ ~~AFFAIRS~~ ~~DETERMINES~~ ~~THAT~~ ~~IT~~ ~~IS~~ ~~NOT~~
+13 ~~PRACTICABLE~~ ~~TO~~ ~~DESIGNATE~~ ~~THE~~ ~~PROCUREMENT~~ ~~FOR~~ ~~THE~~ ~~SMALL~~ ~~BUSINESS~~
+14 ~~RESERVE.~~
 
 15 14–602.
 
@@ -275,4 +289,3 @@ START OF PAGE 6
 29 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect June
 30 1, 2026.
 END OF PAGE 6
-</bill>

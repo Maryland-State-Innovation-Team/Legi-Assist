@@ -1,4 +1,3 @@
-<bill>
 START OF PAGE 1
 WES MOORE, Governor Ch. 309
 
@@ -10,7 +9,7 @@ AN ACT concerning
 
 Income Tax Credit – Venison Donation – Alterations
 
-FOR the purpose of ~~repealing~~ ~~the~~ ~~limitation~~ ~~on~~ repealing the limitation on the maximum amount of a credit
+FOR the purpose of repealing the limitation on the maximum amount of a credit
 against the State income tax that an individual may claim for certain expenses
 incurred for a donation of deer meat to certain organizations; and generally relating
 to an income tax credit for the donation of deer meat.
@@ -42,11 +41,7 @@ laws and regulations; and
 program administered by an organization that is exempt from taxation under § 501(c)(3) of
 the Internal Revenue Code.
 
-(c) [(1) For any taxable year, the total amount of credits that an individual may
-claim under this section may not exceed $300 $600, unless the individual harvested each
-deer for which the credits are claimed in accordance with a deer management permit.
-
-(2)] The unused amount of the credit for any taxable year may not be carried
+(c) The unused amount of the credit for any taxable year may not be carried
 over to any other taxable year.
 
 – 1 –
@@ -62,6 +57,12 @@ immunity from liability described under § 5–634 of the Courts Article for don
 accepts a donation under this section shall report to the Comptroller the following
 information for the immediately preceding taxable year:
 
+(1) the name and home address of each donor who intended to claim the
+income tax credit under this section; and
+
+(2) the number of deer donated by each donor who intended to claim the
+income tax credit under this section.
+
 SECTION 2. AND BE IT FURTHER ENACTED, That this Act shall take effect July
 1, 2026, and shall be applicable to all taxable years beginning after December 31, 2025. It
 shall remain effective until the taking effect of the termination provision specified in
@@ -73,4 +74,3 @@ Approved by the Governor, April 28, 2026.
 
 – 2 –
 END OF PAGE 2
-</bill>
