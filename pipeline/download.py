@@ -4,7 +4,7 @@ import re
 import hashlib
 import json
 import time
-from requests.exceptions import RequestException
+from requests.exceptions import HTTPError, RequestException
 from bs4 import BeautifulSoup
 import pandas as pd
 from tqdm import tqdm
@@ -19,7 +19,13 @@ def download_session_data(session_year: int, state_manager) -> List[str]:
     headers = {'User-Agent': 'Mozilla/5.0 (Custom Pipeline)'}
 
     print(f"Fetching master list from {json_url}...")
-    resp = _fetch_with_retry(json_url, headers)
+    try:
+        resp = _fetch_with_retry(json_url, headers)
+    except HTTPError as e:
+        if e.response is not None and e.response.status_code == 404:
+            print(f"Master list not yet published for {session_year}rs (404). Skipping session.")
+            return []
+        raise
     leg_data = resp.json()
 
     # Save master list for reference
@@ -28,8 +34,10 @@ def download_session_data(session_year: int, state_manager) -> List[str]:
     with open(master_list_path, 'w', encoding='utf-8') as f:
         json.dump(leg_data, f, indent=2)
 
-    # Filter invalid entries
-    if session_year != 2026:
+    # Filter to chaptered legislation only for past sessions.
+    # The current session (2027) is still in flight, so bills won't have a
+    # ChapterNumber yet — keep them all.
+    if session_year != 2027:
         leg_data = [l for l in leg_data if l.get('ChapterNumber')]
 
     # Deduplication Logic

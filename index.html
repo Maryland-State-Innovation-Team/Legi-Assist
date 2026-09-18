@@ -92,7 +92,7 @@
                                                         @change="fetchData"
                                                         style="height: auto; max-width: 100%;"
                                                     >
-                                                        <option v-for="year in [2026, 2025, 2024, 2023]" :value="year">{{ year }} Regular Session</option>
+                                                        <option v-for="year in [2027, 2026, 2025, 2024, 2023]" :value="year">{{ year }} Regular Session</option>
                                                     </select>
 
                                                     <button 
@@ -227,7 +227,7 @@
                      <div class="margin-bottom-3">
                          <label class="usa-label margin-top-0 font-sans-sm" for="year-select">Session</label>
                          <select class="usa-select mt-2 font-sans-sm" name="year-select" id="year-select" v-model="selectedYear" @change="fetchData">
-                            <option v-for="year in [2026, 2025, 2024, 2023]" :value="year">{{ year }} Regular Session</option>
+                            <option v-for="year in [2027, 2026, 2025, 2024, 2023]" :value="year">{{ year }} Regular Session</option>
                         </select>
                      </div>
                      
@@ -680,7 +680,7 @@
                             <div class="margin-bottom-3">
                                  <label class="usa-label margin-top-0 font-sans-sm" for="mobile-year-select">Session</label>
                                  <select v-model="selectedYear" id="mobile-year-select" @change="fetchData" class="usa-select width-full font-sans-sm">
-                                     <option v-for="year in [2026, 2025, 2024, 2023]" :value="year">{{ year }}</option>
+                                     <option v-for="year in [2027, 2026, 2025, 2024, 2023]" :value="year">{{ year }}</option>
                                  </select>
                             </div>
                             

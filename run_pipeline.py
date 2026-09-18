@@ -6,6 +6,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dotenv import load_dotenv
 from google import genai
 from openai import OpenAI
+from anthropic import Anthropic, AnthropicBedrock
 import ollama
 
 # Import our new modules
@@ -25,6 +26,13 @@ def setup_client(family, model_name):
         key = os.getenv("OPENAI_API_KEY")
         if not key: raise ValueError("Missing OPENAI_API_KEY")
         return OpenAI(api_key=key)
+    elif family == 'anthropic':
+        key = os.getenv("ANTHROPIC_API_KEY")
+        if not key: raise ValueError("Missing ANTHROPIC_API_KEY")
+        return Anthropic(api_key=key)
+    elif family == 'anthropic_bedrock':
+        # Auth via standard boto3 chain (AWS_PROFILE / task role / env vars).
+        return AnthropicBedrock()
     else:
         ollama.pull(model_name)
         return ollama.chat
@@ -32,7 +40,8 @@ def setup_client(family, model_name):
 def main():
     parser = argparse.ArgumentParser(description='Maryland Legislation Pipeline')
     parser.add_argument('--year', type=int, default=2026, help='Session Year')
-    parser.add_argument('--model-family', default='gemini', choices=['gemini', 'gpt', 'ollama'])
+    parser.add_argument('--model-family', default='gemini',
+                        choices=['gemini', 'gpt', 'anthropic', 'anthropic_bedrock', 'ollama'])
     parser.add_argument('--model', default='gemini-3-flash-preview', help='Model Name')
     parser.add_argument('--debug', action='store_true', help='Limit processing to first 10 bills')
     parser.add_argument('--workers', type=int, default=4, help='Number of concurrent bill workers')

@@ -6,12 +6,14 @@ Loads data, runs evaluations, generates comparative reports
 import json
 import os
 import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import Dict, List
 from tqdm import tqdm
 from dotenv import load_dotenv
 from google import genai
 from openai import OpenAI
+from anthropic import Anthropic, AnthropicBedrock
 import ollama
 import pandas as pd
 
@@ -36,6 +38,14 @@ def setup_client(family, model_name):
         if not key:
             raise ValueError("Missing OPENAI_API_KEY")
         return OpenAI(api_key=key)
+    elif family == 'anthropic':
+        key = os.getenv("ANTHROPIC_API_KEY")
+        if not key:
+            raise ValueError("Missing ANTHROPIC_API_KEY")
+        return Anthropic(api_key=key)
+    elif family == 'anthropic_bedrock':
+        # Auth via standard boto3 chain (AWS_PROFILE / task role / env vars).
+        return AnthropicBedrock()
     else:
         ollama.pull(model_name)
         return ollama.chat
@@ -63,29 +73,64 @@ def load_bill_markdown(session_year: int, bill_number: str) -> str:
         return f.read()
 
 
-def evaluate_session(session_years: List[int], llm_client, model_name: str,
-                     model_family: str, debug: bool = False) -> Dict:
-    """
-    Evaluate all bills across specified session years
+def _evaluate_bill(year: int, bill: Dict, pl_evaluator: PlainLanguageEvaluator,
+                   acc_evaluator: AccuracyEvaluator) -> Dict:
+    """Evaluate a single bill. Runs the per-bill LLM calls; returns partial score lists."""
+    pl_scores: List[PlainLanguageScore] = []
+    acc_scores: List[AccuracyScore] = []
 
-    Returns:
-        {
-            'plain_language_scores': List[PlainLanguageScore],
-            'accuracy_scores': List[AccuracyScore],
-            'metadata': {...}
-        }
+    bill_number = bill.get('BillNumber')
+    if not bill_number:
+        return {'pl': pl_scores, 'acc': acc_scores}
+
+    human_synopsis = bill.get('Synopsis', '')
+    ai_summary = bill.get('bill_summary', '')
+    bill_text = load_bill_markdown(year, bill_number)
+
+    if not human_synopsis and not ai_summary:
+        return {'pl': pl_scores, 'acc': acc_scores}
+
+    if human_synopsis:
+        try:
+            pl_scores.append(pl_evaluator.evaluate_text(
+                text=human_synopsis, bill_number=bill_number,
+                text_source='human', bill_context=bill,
+            ))
+        except Exception as e:
+            print(f"Error evaluating human synopsis for {bill_number}: {e}")
+
+    if ai_summary:
+        try:
+            pl_scores.append(pl_evaluator.evaluate_text(
+                text=ai_summary, bill_number=bill_number,
+                text_source='ai', bill_context=bill,
+            ))
+            if bill_text:
+                acc_scores.append(acc_evaluator.evaluate_accuracy(
+                    summary=ai_summary, bill_text=bill_text,
+                    bill_metadata=bill, bill_number=bill_number,
+                    text_source='ai',
+                ))
+        except Exception as e:
+            print(f"Error evaluating AI summary for {bill_number}: {e}")
+
+    return {'pl': pl_scores, 'acc': acc_scores}
+
+
+def evaluate_session(session_years: List[int], llm_client, model_name: str,
+                     model_family: str, debug: bool = False, workers: int = 4) -> Dict:
+    """
+    Evaluate all bills across specified session years, in parallel per bill.
     """
     print("Initializing evaluators...")
     pl_evaluator = PlainLanguageEvaluator(llm_client, model_name, model_family)
     acc_evaluator = AccuracyEvaluator(llm_client, model_name, model_family)
 
-    all_pl_scores = []
-    all_acc_scores = []
+    all_pl_scores: List[PlainLanguageScore] = []
+    all_acc_scores: List[AccuracyScore] = []
 
     for year in session_years:
         print(f"\n=== Evaluating {year} Session ===")
-
-        # Load data
         bills = load_frontend_data(year)
         if not bills:
             print(f"No data found for {year}, skipping")
@@ -95,62 +140,18 @@ def evaluate_session(session_years: List[int], llm_client, model_name: str,
             print(f"Debug mode: limiting to first 10 bills")
             bills = bills[:10]
 
-        print(f"Loaded {len(bills)} bills from {year}rs/frontend_data.json")
+        print(f"Loaded {len(bills)} bills from {year}rs/frontend_data.json (workers={workers})")
 
-        # Evaluate each bill
-        for bill in tqdm(bills, desc=f"Evaluating {year} bills"):
-            bill_number = bill.get('BillNumber')
-            if not bill_number:
-                continue
-
-            # Get both human and AI summaries
-            human_synopsis = bill.get('Synopsis', '')  # Official synopsis
-            ai_summary = bill.get('bill_summary', '')  # AI-generated summary from QA stage (field name is bill_summary, not summary)
-
-            # Load bill text for context
-            bill_text = load_bill_markdown(year, bill_number)
-
-            # Skip if no summaries to compare
-            if not human_synopsis and not ai_summary:
-                continue
-
-            # Evaluate Human Synopsis (Plain Language only)
-            if human_synopsis:
-                try:
-                    human_pl_score = pl_evaluator.evaluate_text(
-                        text=human_synopsis,
-                        bill_number=bill_number,
-                        text_source='human',
-                        bill_context=bill
-                    )
-                    all_pl_scores.append(human_pl_score)
-                except Exception as e:
-                    print(f"Error evaluating human synopsis for {bill_number}: {e}")
-
-            # Evaluate AI Summary (Both Plain Language and Accuracy)
-            if ai_summary:
-                try:
-                    # Plain Language
-                    ai_pl_score = pl_evaluator.evaluate_text(
-                        text=ai_summary,
-                        bill_number=bill_number,
-                        text_source='ai',
-                        bill_context=bill
-                    )
-                    all_pl_scores.append(ai_pl_score)
-
-                    # Accuracy (only for AI, as human synopsis is ground truth)
-                    if bill_text:
-                        ai_acc_score = acc_evaluator.evaluate_accuracy(
-                            summary=ai_summary,
-                            bill_text=bill_text,
-                            bill_metadata=bill,
-                            bill_number=bill_number,
-                            text_source='ai'
-                        )
-                        all_acc_scores.append(ai_acc_score)
-                except Exception as e:
-                    print(f"Error evaluating AI summary for {bill_number}: {e}")
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = [
+                executor.submit(_evaluate_bill, year, bill, pl_evaluator, acc_evaluator)
+                for bill in bills
+            ]
+            for future in tqdm(as_completed(futures), total=len(futures),
+                               desc=f"Evaluating {year} bills"):
+                result = future.result()
+                all_pl_scores.extend(result['pl'])
+                all_acc_scores.extend(result['acc'])
 
     return {
         'plain_language_scores': all_pl_scores,
@@ -159,7 +160,7 @@ def evaluate_session(session_years: List[int], llm_client, model_name: str,
             'evaluated_at': datetime.now().isoformat(),
             'session_years': session_years,
             'model': f"{model_family}/{model_name}",
-            'total_bills': len(all_pl_scores) // 2  # Divide by 2 (human + AI per bill)
+            'total_bills': len(all_pl_scores) // 2,  # human + AI per bill
         }
     }
 
@@ -298,9 +299,13 @@ def main():
     parser.add_argument('--years', nargs='+', type=int,
                        default=[2023, 2024, 2025, 2026],
                        help='Session years to evaluate')
-    parser.add_argument('--model-family', default='gemini', choices=['gemini', 'gpt', 'ollama'])
-    parser.add_argument('--model', default='gemini-3.8-flash')
+    parser.add_argument('--model-family', default='anthropic_bedrock',
+                        choices=['gemini', 'gpt', 'anthropic', 'anthropic_bedrock', 'ollama'])
+    parser.add_argument('--model', default='us.anthropic.claude-sonnet-4-6',
+                        help='Model ID. Defaults to Sonnet on Bedrock as the judge model.')
     parser.add_argument('--debug', action='store_true', help='Limit to first 10 bills per session')
+    parser.add_argument('--workers', type=int, default=4,
+                        help='Number of concurrent bill workers (default: 4)')
     parser.add_argument('--output-json', default=None, help='Output JSON path (default: evaluation/results/evaluation-YYYYMMDD-{model}.json)')
     parser.add_argument('--output-excel', default=None, help='Output Excel path (default: evaluation/results/evaluation-YYYYMMDD-{model}.xlsx)')
     args = parser.parse_args()
@@ -334,7 +339,8 @@ def main():
         llm_client=client,
         model_name=args.model,
         model_family=args.model_family,
-        debug=args.debug
+        debug=args.debug,
+        workers=args.workers,
     )
 
     # Convert dataclass objects to dicts for JSON serialization

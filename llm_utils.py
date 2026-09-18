@@ -1,4 +1,4 @@
-# LLM (OpenAI/Gemini) helpers for plan areas pipeline
+# LLM helpers — supports Gemini, OpenAI, Anthropic (native + Bedrock), and Ollama.
 
 import os
 import json
@@ -11,11 +11,17 @@ from google.genai.types import GenerateContentConfig
 import ollama
 from ollama import chat
 from ollama import ChatResponse
+import anthropic
+
+ANTHROPIC_MAX_TOKENS = 32768
+# Anthropic SDK ≥1.0 refuses non-streaming calls whose max_tokens could exceed
+# the default 10-minute timeout. Extend the per-call timeout to opt out.
+ANTHROPIC_TIMEOUT_SECONDS = 1800.0
 
 def query_llm_with_retries(client, prompt, value, response_format, model_name, max_retries=5, model_family='gemini'):
     """
-    Query Gemini, OpenAI (GPT), or Ollama LLM with retries and error handling. Returns parsed JSON or text.
-    model_family: 'gemini', 'gpt', or 'ollama'
+    Query the configured LLM with retries and error handling. Returns parsed JSON or text.
+    model_family: 'gemini', 'gpt', 'anthropic', 'anthropic_bedrock', or 'ollama'
     """
     for attempt in range(max_retries):
         try:
@@ -64,7 +70,7 @@ def query_llm_with_retries(client, prompt, value, response_format, model_name, m
                     {'role': 'system', 'content': prompt},
                     {'role': 'user', 'content': value},
                 ]
-                
+
                 if response_format:
                     response = client.beta.chat.completions.parse(
                         model=model_name,
@@ -79,9 +85,40 @@ def query_llm_with_retries(client, prompt, value, response_format, model_name, m
                     )
                     return response.choices[0].message.content
 
+            elif model_family in ('anthropic', 'anthropic_bedrock'):
+                # Both native (Anthropic) and Bedrock (AnthropicBedrock) clients share
+                # the messages.create API. Structured output uses a forced tool call.
+                kwargs = {
+                    'model': model_name,
+                    'max_tokens': ANTHROPIC_MAX_TOKENS,
+                    'system': prompt,
+                    'messages': [{'role': 'user', 'content': value}],
+                }
+                if response_format:
+                    json_schema = response_format.model_json_schema()
+                    kwargs['tools'] = [{
+                        'name': 'emit_response',
+                        'description': 'Emit the response in the required structure.',
+                        'input_schema': json_schema,
+                    }]
+                    kwargs['tool_choice'] = {'type': 'tool', 'name': 'emit_response'}
+
+                resp = client.with_options(timeout=ANTHROPIC_TIMEOUT_SECONDS).messages.create(**kwargs)
+
+                if response_format:
+                    for block in resp.content:
+                        if getattr(block, 'type', None) == 'tool_use' and block.name == 'emit_response':
+                            return dict(block.input or {})
+                    return None
+                else:
+                    return "".join(
+                        b.text for b in resp.content
+                        if getattr(b, 'type', None) == 'text'
+                    )
+
             else:
                 raise ValueError(f"Unknown model_family: {model_family}")
-        except (google.genai.errors.ServerError, OpenAIError) as e:
+        except (google.genai.errors.ServerError, OpenAIError, anthropic.APIError) as e:
             print(f"Connection error: {e}")
             if attempt < max_retries - 1:
                 sleep_duration = (2 ** attempt) * 1

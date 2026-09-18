@@ -26,12 +26,26 @@ This evaluates only the first 10 bills per session (~40 bills total) for testing
 ```bash
 python -m evaluation.run
 ```
-This evaluates all 3,743 bills. **Takes 10-15 hours** due to LLM API calls.
+This evaluates all 3,743 bills. Runs `--workers 4` concurrent bills by default; raise it (e.g. `--workers 16`) if your provider's rate limits allow.
 
 ### Specific Sessions Only
 ```bash
 python -m evaluation.run --years 2025 2026
 ```
+
+### Judge Model
+
+The default judge is Claude Sonnet on AWS Bedrock (`us.anthropic.claude-sonnet-4-6`). Override with `--model-family` and `--model`:
+
+```bash
+# Native Anthropic API
+python -m evaluation.run --model-family anthropic --model claude-sonnet-4-6
+
+# Gemini
+python -m evaluation.run --model-family gemini --model gemini-2.5-pro
+```
+
+Bedrock uses the standard boto3 credential chain — set `AWS_PROFILE` locally or run under a task role in CI.
 
 ## What You Get
 
