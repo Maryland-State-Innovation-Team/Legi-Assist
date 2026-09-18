@@ -42,7 +42,7 @@ def main():
     parser.add_argument('--year', type=int, default=2026, help='Session Year')
     parser.add_argument('--model-family', default='gemini',
                         choices=['gemini', 'gpt', 'anthropic', 'anthropic_bedrock', 'ollama'])
-    parser.add_argument('--model', default='gemini-3-flash-preview', help='Model Name')
+    parser.add_argument('--model', default='gemini-3.8-flash', help='Model Name')
     parser.add_argument('--debug', action='store_true', help='Limit processing to first 10 bills')
     parser.add_argument('--workers', type=int, default=4, help='Number of concurrent bill workers')
     args = parser.parse_args()
