@@ -135,6 +135,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+venv-linux
 
 # Spyder project settings
 .spyderproject
@@ -181,6 +182,7 @@ data/**/*.pdf
 
 # Ignore iframe testing
 legi-assist
+
 
 # Ignore evaluation results (keep private)
 evaluation/results/*.json
