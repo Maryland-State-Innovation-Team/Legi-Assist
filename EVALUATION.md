@@ -41,17 +41,19 @@ Immediately see:
 - Component breakdowns (everyday words, active voice, etc.)
 - Accuracy scores (AI summaries)
 
-### 2. Excel File (`evaluation_results.xlsx`)
+### 2. Excel File (`evaluation/results/evaluation-YYYYMMDD-{model}.xlsx`)
 **Best for human review panel:**
 - Sheet 1: Plain Language Scores by bill
 - Sheet 2: Accuracy Scores with LLM justifications
 - Sortable, filterable, ready for review
+- Timestamped and tagged by model (e.g., `evaluation-20260917-gemini.xlsx`)
 
-### 3. JSON File (`evaluation_results.json`)
+### 3. JSON File (`evaluation/results/evaluation-YYYYMMDD-{model}.json`)
 **Best for programmatic analysis:**
 - Machine-readable detailed results
 - Track scores over time
-- Integrate with other tools
+- Compare across models (Gemini vs Claude)
+- Timestamped and tagged by model (e.g., `evaluation-20260917-gemini.json`)
 
 ## Example Output
 

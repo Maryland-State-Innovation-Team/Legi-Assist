@@ -299,16 +299,30 @@ def main():
                        default=[2023, 2024, 2025, 2026],
                        help='Session years to evaluate')
     parser.add_argument('--model-family', default='gemini', choices=['gemini', 'gpt', 'ollama'])
-    parser.add_argument('--model', default='gemini-3-flash-preview')
+    parser.add_argument('--model', default='gemini-3.8-flash')
     parser.add_argument('--debug', action='store_true', help='Limit to first 10 bills per session')
-    parser.add_argument('--output-json', default='evaluation_results.json')
-    parser.add_argument('--output-excel', default='evaluation_results.xlsx')
+    parser.add_argument('--output-json', default=None, help='Output JSON path (default: evaluation/results/evaluation-YYYYMMDD-{model}.json)')
+    parser.add_argument('--output-excel', default=None, help='Output Excel path (default: evaluation/results/evaluation-YYYYMMDD-{model}.xlsx)')
     args = parser.parse_args()
+
+    # Create output directory
+    output_dir = 'evaluation/results'
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Generate timestamped filenames if not specified
+    timestamp = datetime.now().strftime('%Y%m%d')
+    model_tag = args.model_family  # Use model family (gemini, gpt, ollama) as tag
+
+    if args.output_json is None:
+        args.output_json = f'{output_dir}/evaluation-{timestamp}-{model_tag}.json'
+    if args.output_excel is None:
+        args.output_excel = f'{output_dir}/evaluation-{timestamp}-{model_tag}.xlsx'
 
     print(f"=== Maryland Plain Language Evaluation ===")
     print(f"Sessions: {args.years}")
     print(f"Model: {args.model_family}/{args.model}")
-    print(f"Debug: {args.debug}\n")
+    print(f"Debug: {args.debug}")
+    print(f"Output: {args.output_json}\n")
 
     # Initialize LLM client
     print("Initializing LLM client...")

@@ -181,3 +181,7 @@ data/**/*.pdf
 
 # Ignore iframe testing
 legi-assist
+
+# Ignore evaluation results (keep private)
+evaluation/results/*.json
+evaluation/results/*.xlsx
