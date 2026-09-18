@@ -18,19 +18,19 @@ python -m spacy download en_core_web_sm
 
 ### Quick Test (Debug Mode)
 ```bash
-python run_evaluation.py --debug
+python -m evaluation.run --debug
 ```
 This evaluates only the first 10 bills per session (~40 bills total) for testing.
 
 ### Full Evaluation (All 4 Sessions)
 ```bash
-python run_evaluation.py
+python -m evaluation.run
 ```
 This evaluates all 3,743 bills. **Takes 10-15 hours** due to LLM API calls.
 
 ### Specific Sessions Only
 ```bash
-python run_evaluation.py --years 2025 2026
+python -m evaluation.run --years 2025 2026
 ```
 
 ## What You Get

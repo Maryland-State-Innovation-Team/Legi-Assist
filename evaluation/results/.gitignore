@@ -1,6 +1,0 @@
-# Ignore all evaluation result files
-*.json
-*.xlsx
-
-# But keep this .gitignore file
-!.gitignore
