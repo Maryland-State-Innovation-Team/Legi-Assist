@@ -181,3 +181,4 @@ data/**/*.pdf
 
 # Ignore iframe testing
 legi-assist
+venv-linux
