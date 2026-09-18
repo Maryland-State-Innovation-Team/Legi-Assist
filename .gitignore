@@ -185,5 +185,4 @@ legi-assist
 
 
 # Ignore evaluation results (keep private)
-evaluation/results/*.json
-evaluation/results/*.xlsx
+evaluation/results/
