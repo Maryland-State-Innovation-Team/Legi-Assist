@@ -8,11 +8,28 @@ import os
 import re
 from typing import Dict, List, Optional
 from dataclasses import dataclass
+from pydantic import BaseModel
 import textstat
 import spacy
 
 # Import LLM utilities
 from llm_utils import query_llm_with_retries
+
+
+class _RatingResponse(BaseModel):
+    """LLM judge response for single-dimension 1-5 ratings (definitions, organization)."""
+    rating: int
+    justification: str
+
+
+class _AccuracyLLMResponse(BaseModel):
+    """LLM judge response for three-dimension accuracy evaluation."""
+    groundedness: float
+    groundedness_reason: str
+    relevance: float
+    relevance_reason: str
+    interpretation: float
+    interpretation_reason: str
 
 
 @dataclass
@@ -325,23 +342,19 @@ Rate from 1-5:
 Return ONLY a JSON object with your rating and brief justification."""
 
         try:
-            response = query_llm_with_retries(
+            result = query_llm_with_retries(
                 self.llm_client,
                 prompt,
                 f"Text to evaluate:\n\n{text}",
-                None,  # No schema, get text response
+                _RatingResponse,
                 self.model_name,
-                model_family=self.model_family
+                model_family=self.model_family,
             )
-
-            # Parse response for rating
-            rating_match = re.search(r'"rating":\s*(\d)', response)
-            if rating_match:
-                rating = int(rating_match.group(1))
-                return (rating / 5.0) * 10.0  # Scale to 0-10
-
-            return 5.0  # Default middle score
-        except:
+            if result and 'rating' in result:
+                return (int(result['rating']) / 5.0) * 10.0
+            return 5.0
+        except Exception as e:
+            print(f"Error scoring definitions: {e}")
             return 5.0
 
     def _score_organization_llm(self, text: str, bill_context: Optional[Dict]) -> float:
@@ -366,22 +379,19 @@ Rate from 1-5:
 Return ONLY a JSON object with your rating and brief justification."""
 
         try:
-            response = query_llm_with_retries(
+            result = query_llm_with_retries(
                 self.llm_client,
                 prompt,
                 f"Text to evaluate:\n\n{text}",
-                None,
+                _RatingResponse,
                 self.model_name,
-                model_family=self.model_family
+                model_family=self.model_family,
             )
-
-            rating_match = re.search(r'"rating":\s*(\d)', response)
-            if rating_match:
-                rating = int(rating_match.group(1))
-                return (rating / 5.0) * 15.0  # Scale to 0-15
-
+            if result and 'rating' in result:
+                return (int(result['rating']) / 5.0) * 15.0
             return 7.5
-        except:
+        except Exception as e:
+            print(f"Error scoring organization: {e}")
             return 7.5
 
 
@@ -458,22 +468,16 @@ BILL TEXT (first 3000 chars):
 """
 
         try:
-            response = query_llm_with_retries(
+            result = query_llm_with_retries(
                 self.llm_client,
                 prompt,
                 context,
-                None,
+                _AccuracyLLMResponse,
                 self.model_name,
-                model_family=self.model_family
+                model_family=self.model_family,
             )
-
-            # Parse JSON response (strip markdown if present)
-            response_text = response.strip()
-            if response_text.startswith('```'):
-                # Extract JSON from markdown code block
-                lines = response_text.split('\n')
-                response_text = '\n'.join(lines[1:-1]) if len(lines) > 2 else response_text
-            result = json.loads(response_text)
+            if not result:
+                raise ValueError("LLM returned no structured response")
 
             return AccuracyScore(
                 bill_number=bill_number,
@@ -483,11 +487,10 @@ BILL TEXT (first 3000 chars):
                 interpretation=float(result.get('interpretation', 3)),
                 groundedness_reason=result.get('groundedness_reason', ''),
                 relevance_reason=result.get('relevance_reason', ''),
-                interpretation_reason=result.get('interpretation_reason', '')
+                interpretation_reason=result.get('interpretation_reason', ''),
             )
         except Exception as e:
             print(f"Error evaluating accuracy for {bill_number}: {e}")
-            # Return default middle scores
             return AccuracyScore(
                 bill_number=bill_number,
                 text_source=text_source,
@@ -496,5 +499,5 @@ BILL TEXT (first 3000 chars):
                 interpretation=3.0,
                 groundedness_reason="Evaluation failed",
                 relevance_reason="Evaluation failed",
-                interpretation_reason="Evaluation failed"
+                interpretation_reason="Evaluation failed",
             )
