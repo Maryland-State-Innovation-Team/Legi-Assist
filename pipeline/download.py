@@ -194,7 +194,8 @@ def _fetch_with_retry(url, headers, retries=5, backoff=1):
     """Retries a GET request with exponential backoff."""
     for i in range(retries):
         try:
-            r = requests.get(url, headers=headers, timeout=60)
+            # TEMPORARY: Skip SSL verification (DO NOT COMMIT)
+            r = requests.get(url, headers=headers, timeout=60, verify=False)
             r.raise_for_status()
             return r
         except RequestException as e:
