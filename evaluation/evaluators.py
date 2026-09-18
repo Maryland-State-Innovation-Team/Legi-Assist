@@ -6,13 +6,10 @@ Evaluates bill summaries against MD Plain Language Initiative standards
 import json
 import os
 import re
-import argparse
 from typing import Dict, List, Optional
 from dataclasses import dataclass
 import textstat
 import spacy
-from collections import Counter
-from tqdm import tqdm
 
 # Import LLM utilities
 from llm_utils import query_llm_with_retries
@@ -501,29 +498,3 @@ BILL TEXT (first 3000 chars):
                 relevance_reason="Evaluation failed",
                 interpretation_reason="Evaluation failed"
             )
-
-
-def main():
-    parser = argparse.ArgumentParser(description='Maryland Plain Language Scorer')
-    parser.add_argument('--year', type=int, default=2026, help='Session Year')
-    parser.add_argument('--model-family', default='gemini', choices=['gemini', 'gpt', 'ollama'])
-    parser.add_argument('--model', default='gemini-3-flash-preview')
-    parser.add_argument('--debug', action='store_true', help='Limit to first 10 bills')
-    parser.add_argument('--output', default='evaluation_results.json', help='Output file')
-    args = parser.parse_args()
-
-    print(f"=== Maryland Plain Language Scorer ===")
-    print(f"Session: {args.year}")
-    print(f"Model: {args.model_family}/{args.model}\n")
-
-    # TODO: Initialize LLM client (copy from run_pipeline.py)
-    # TODO: Load frontend_data.json
-    # TODO: Load bill markdown files
-    # TODO: Run evaluations
-    # TODO: Generate report
-
-    print("Scorer framework ready. Implement main() with your data loading logic.")
-
-
-if __name__ == "__main__":
-    main()

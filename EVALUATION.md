@@ -26,7 +26,7 @@ This evaluates only the first 10 bills per session (~40 bills total) for testing
 ```bash
 python run_evaluation.py
 ```
-This evaluates all ~3,736 bills. **Takes 2-4 hours** due to LLM API calls.
+This evaluates all 3,743 bills. **Takes 10-15 hours** due to LLM API calls.
 
 ### Specific Sessions Only
 ```bash
@@ -129,4 +129,3 @@ python -m spacy download en_core_web_sm
 4. ✅ Review Excel output
 5. ✅ Share results with review panel
 
-See [docs/evaluation.md](docs/evaluation.md) for complete technical documentation.
