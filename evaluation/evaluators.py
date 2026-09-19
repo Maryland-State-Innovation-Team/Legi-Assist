@@ -17,7 +17,7 @@ from llm_utils import query_llm_with_retries
 
 
 class _RatingResponse(BaseModel):
-    """LLM judge response for single-dimension 1-5 ratings (definitions, organization)."""
+    """LLM judge response for single-dimension 1-5 ratings (everyday words, definitions, organization)."""
     rating: int
     justification: str
 
@@ -39,9 +39,12 @@ class PlainLanguageScore:
     text_source: str  # 'human' or 'ai'
 
     # (a) Everyday words - 30 points
-    flesch_score: float  # 0-15
+    #   Flesch was removed — its 1948 target range (60-70 "fairly easy") is
+    #   calibrated for magazine prose and cannot be reached by legislative
+    #   content regardless of writing quality. Its 10 pts moved to the LLM
+    #   judge, which measures the EO E(4)(a) criterion far more faithfully.
     jargon_score: float  # 0-10
-    complex_word_score: float  # 0-5
+    everyday_words_score: float  # 0-20 (LLM judge — primary signal for EO E(4)(a))
 
     # (b) Present tense & active voice - 20 points
     passive_score: float  # 0-12
@@ -61,7 +64,7 @@ class PlainLanguageScore:
     def total_plain_language_score(self) -> float:
         """Total plain language score out of 100"""
         return (
-            self.flesch_score + self.jargon_score + self.complex_word_score +
+            self.jargon_score + self.everyday_words_score +
             self.passive_score + self.past_tense_score +
             self.sentence_length_score + self.long_sentence_score +
             self.definition_score + self.organization_score
@@ -101,12 +104,32 @@ class PlainLanguageEvaluator:
             os.system("python -m spacy download en_core_web_sm")
             self.nlp = spacy.load("en_core_web_sm")
 
-        # Maryland-specific jargon list (extend based on legislative domain)
+        # Jargon list compiled from actual MGA synopsis + AI-summary corpus and
+        # cross-referenced against federal plain-language guidance (plainlanguage.gov).
+        # Includes archaic legalese (rare) and the bureaucratic tics that actually
+        # appear at frequency in Maryland legislative writing.
         self.legal_jargon = {
-            'aforementioned', 'herein', 'thereof', 'whereby', 'heretofore',
-            'therein', 'hereafter', 'pursuant', 'notwithstanding', 'whereas',
-            'aforesaid', 'hereby', 'thereto', 'forthwith', 'insofar',
-            'promulgate', 'effectuate', 'evidencing', 'supersede', 'rescind'
+            # Archaic here-/there-/where- constructions
+            'aforementioned', 'aforesaid', 'herein', 'hereby', 'hereto', 'hereof',
+            'hereunder', 'herewith', 'heretofore', 'hereinafter', 'hereafter',
+            'therein', 'thereof', 'thereto', 'thereunder', 'therefrom', 'thereafter',
+            'whereas', 'whereby', 'wherein', 'wherefor', 'wherewith',
+            # Formal legal connectors — bureaucratic when plain word exists
+            'notwithstanding', 'pursuant', 'forthwith', 'insofar',
+            'accordance', 'regarding', 'concerning', 'pertaining', 'respecting',
+            # Archaic verbs
+            'effectuate', 'promulgate', 'supersede', 'rescind',
+            'deem', 'deems', 'deemed', 'utilize', 'utilizes', 'utilized',
+            'ascertain', 'commence', 'commences', 'commenced',
+            'endeavor', 'endeavors',
+            # Demonstrative legalese
+            'aforesaid', 'said', 'same',
+            # Common bureaucratic replacements — use everyday word instead
+            'prior',        # "prior to" → "before"
+            'subsequent',   # "subsequent to" → "after"
+            'certain',      # legalese demonstrative pattern in synopses
+            'such',         # legalese demonstrative pattern
+            'provided',     # "provided that" → "if"
         }
 
     def evaluate_text(self, text: str, bill_number: str, text_source: str,
@@ -122,9 +145,8 @@ class PlainLanguageEvaluator:
         """
 
         # (a) Everyday words - 30 points
-        flesch_score = self._score_flesch_ease(text)
         jargon_score = self._score_jargon_density(text)
-        complex_word_score = self._score_complex_words(text)
+        everyday_words_score = self._score_everyday_words_llm(text, bill_context)
 
         # (b) Present tense & active voice - 20 points
         passive_score = self._score_passive_voice(text)
@@ -142,9 +164,8 @@ class PlainLanguageEvaluator:
         return PlainLanguageScore(
             bill_number=bill_number,
             text_source=text_source,
-            flesch_score=flesch_score,
             jargon_score=jargon_score,
-            complex_word_score=complex_word_score,
+            everyday_words_score=everyday_words_score,
             passive_score=passive_score,
             past_tense_score=past_tense_score,
             sentence_length_score=sentence_length_score,
@@ -154,30 +175,6 @@ class PlainLanguageEvaluator:
         )
 
     # ========== (a) Everyday Words Scoring ==========
-
-    def _score_flesch_ease(self, text: str) -> float:
-        """
-        Score Flesch Reading Ease (max 15 points)
-        Target: 60-70 (fairly easy to read)
-
-        Scale: 90-100 (very easy) → 0-30 (very difficult)
-        """
-        try:
-            flesch = textstat.flesch_reading_ease(text)
-
-            # Scoring: 60-70 is optimal (15 points)
-            if 60 <= flesch <= 70:
-                return 15.0
-            elif flesch > 70:
-                # Too simple is also penalized slightly
-                excess = flesch - 70
-                return max(10.0, 15.0 - (excess * 0.1))
-            else:
-                # Below 60 is penalized proportionally
-                deficit = 60 - flesch
-                return max(0.0, 15.0 - (deficit * 0.25))
-        except:
-            return 7.5  # Default middle score if calculation fails
 
     def _score_jargon_density(self, text: str) -> float:
         """
@@ -199,24 +196,49 @@ class PlainLanguageEvaluator:
         else:
             return 10.0 - (jargon_pct * 2)
 
-    def _score_complex_words(self, text: str) -> float:
+    def _score_everyday_words_llm(self, text: str, bill_context: Optional[Dict]) -> float:
         """
-        Score complex word percentage (max 5 points)
-        Complex = 3+ syllables
-        Target: <10% complex words
-        """
-        try:
-            complex_pct = textstat.difficult_words(text) / len(text.split()) * 100
+        LLM judge (max 20 points) — EO 01.01.2024.25 E(4)(a):
+        "Everyday words that convey meanings clearly and directly".
 
-            # Scoring: <10% = 5 points, >20% = 0 points
-            if complex_pct <= 10:
-                return 5.0
-            elif complex_pct >= 20:
-                return 0.0
-            else:
-                return 5.0 - ((complex_pct - 10) * 0.5)
-        except:
-            return 2.5
+        Primary signal for E(4)(a). Flesch was dropped from the rubric (its 1948
+        target range is calibrated for magazine prose, not policy documents);
+        Jargon (10 pts) remains as the deterministic anchor. This LLM judge
+        carries the remaining 20 pts because it measures the criterion's actual
+        intent — direct, familiar vocabulary vs. abstract or bureaucratic
+        constructions — far more faithfully than a syllable formula.
+        """
+        prompt = (
+            "You are evaluating a Maryland legislative bill summary against the state's "
+            "Plain Language Initiative (EO 01.01.2024.25), criterion (a): 'Everyday words "
+            "that convey meanings clearly and directly'.\n\n"
+            "Rate how well the summary uses EVERYDAY, DIRECT language:\n"
+            "- Prefers concrete verbs over nominalizations (e.g. 'decides' over 'makes a determination').\n"
+            "- Uses familiar policy vocabulary the general public can follow.\n"
+            "- Avoids abstract or bureaucratic constructions.\n"
+            "- Domain-necessary terms (agency names, statute references) DO NOT count against the score.\n\n"
+            "1 = Heavy nominalization or bureaucratic phrasing throughout\n"
+            "2 = Several indirect or abstract constructions\n"
+            "3 = Mixed — some direct, some indirect\n"
+            "4 = Mostly direct, minor issues\n"
+            "5 = Consistently direct and concrete language\n\n"
+            "Return only a rating (1-5) and a brief justification."
+        )
+        try:
+            result = query_llm_with_retries(
+                self.llm_client,
+                prompt,
+                f"Summary to evaluate:\n\n{text}",
+                _RatingResponse,
+                self.model_name,
+                model_family=self.model_family,
+            )
+            if result and 'rating' in result:
+                return (int(result['rating']) / 5.0) * 20.0
+            return 10.0
+        except Exception as e:
+            print(f"Error scoring everyday-words: {e}")
+            return 10.0
 
     # ========== (b) Present Tense & Active Voice Scoring ==========
 
@@ -263,7 +285,12 @@ class PlainLanguageEvaluator:
         for token in doc:
             if token.pos_ == "VERB":
                 total_verbs += 1
-                if token.tag_ in ["VBD", "VBN"]:  # Past tense tags
+                # Only count simple past (VBD). VBN (past participle) is not
+                # a tense marker in isolation — it's often used adjectivally
+                # ("the designated agent") or in passive/perfect constructions
+                # (which are separately scored). Counting VBN as past tense
+                # double-penalizes and misfires on standard descriptive prose.
+                if token.tag_ == "VBD":
                     past_tense_count += 1
 
         if total_verbs == 0:
@@ -425,14 +452,31 @@ Evaluate on three dimensions (rate each 1-5):
    - 3 = Mostly grounded with minor unsupported claims
    - 5 = Entirely grounded in source material
 
-2. RELEVANCE: Does it surface the material provisions?
-   - What the bill does
-   - Who it applies to
-   - When it takes effect
-   - Funding amounts, penalties, sunset terms
-   - 1 = Omits critical provisions
-   - 3 = Covers main points but misses some details
-   - 5 = Comprehensive coverage of material provisions
+2. RELEVANCE: Does the summary correctly PRIORITIZE the material provisions?
+   Plain-language summaries are inherently selective — a 3-5 sentence summary
+   cannot list every provision of a multi-page bill and should not try to.
+   Judge the summary on how well it identifies and emphasizes the highest-value
+   information for a general reader:
+   - The bill's central action (what it does, who it applies to)
+   - Any provision that materially changes what someone must, may, or cannot do
+   - Numeric anchors when material (dollar figures, effective dates, sunset dates)
+   Secondary provisions (procedural mechanics, minor definitional cleanups,
+   technical cross-references) may be omitted without penalty when a
+   reasonable editor would consider them non-essential.
+
+   - 1 = Misses the central action or a materially important provision that
+         a reasonable reader would need to understand the bill.
+   - 2 = Central action present but a material provision is omitted or buried.
+   - 3 = Central action clear; some material provisions covered but
+         prioritization is uneven (top-level items skipped in favor of minor
+         ones, or vice versa).
+   - 4 = Central action and the most important provisions are covered and
+         well-prioritized; any omissions are genuinely non-essential.
+   - 5 = The summary is well-prioritized — it emphasizes the highest-value
+         provisions a general reader needs, and any omitted content is
+         legitimately non-essential (procedural detail, minor cross-references,
+         technical language). A 5/5 does NOT require exhaustive coverage;
+         it requires correct editorial judgment about what to include.
 
 3. CORRECT INTERPRETATION: Is the explanation accurate?
    - No conflating "authorizes" with "requires"
@@ -463,8 +507,8 @@ BILL METADATA:
 - Sponsor: {bill_metadata.get('Sponsor', 'N/A')}
 - Title: {bill_metadata.get('Synopsis', 'N/A')}
 
-BILL TEXT (first 3000 chars):
-{bill_text[:3000]}
+BILL TEXT:
+{bill_text}
 """
 
         try:

@@ -32,13 +32,85 @@ unique_agencies = sorted(agencies_df['Agency Name'].dropna().unique().tolist())
 
 # Define Schema
 class AnswersToQuestions(BaseModel):
-    bill_summary: str
-    start_year: Optional[int] = None
-    end_year: Optional[int] = None
-    funding: Optional[float] = None
-    responsible_party: str
-    stakeholders: str
-    fiscal_impact_summary: Optional[str] = None
+    bill_summary: str = Field(description=(
+        "Plain-English summary of the bill in 4–6 short sentences. "
+        "Open with the verb that names the bill's central action — e.g. 'Exempts survivors of fallen public safety workers…' or 'Authorizes the Sheriff…'. "
+        "Do NOT open with 'This bill', 'This act', or 'The bill'; start with the verb.\n\n"
+
+        "SELECT, DO NOT ENUMERATE. Pick the highest-value provisions for a general reader; do not list everything. "
+        "Priority order: (1) the bill's central action, (2) provisions that materially change what someone must/may/cannot do, "
+        "(3) numeric anchors (dollar figures, effective dates, sunset dates, phase-in years, funding tiers), "
+        "(4) enumerated sub-categories ONLY when the specific items are the substantive point of the bill. "
+        "Omit procedural mechanics and minor cross-references.\n\n"
+
+        "SCOPE PRECISION. Name scope exactly — WHO and WHAT. Do not narrow scope. "
+        "If the bill covers 'all public institutions of higher education', do not write 'community colleges'.\n\n"
+
+        "COORDINATED CATEGORIES. When a bill regulates coordinated items ('trees of heaven AND invasive bamboo', "
+        "'all public institutions AND community colleges'), preserve every category by name. Do not compress 'X and Y' into 'X'. "
+        "Defined terms that get their own section must appear.\n\n"
+
+        "CONDITIONAL TRIGGERS. Preserve triggers on requirements: 'must report incidents WHEN there is a substantial change'. "
+        "A requirement without its trigger reads as universal, which misrepresents the bill.\n\n"
+
+        "MODAL AND MECHANISM PRECISION. Modal verbs verbatim: 'authorizes' for permissive authority, 'requires' for mandates, "
+        "'establishes' for new programs, 'prohibits' for bans, 'repeals' for removals. "
+        "Verbs of authority verbatim: 'determined by X' is not 'provided by X' or 'set by X'.\n\n"
+
+        "CONCRETE EXAMPLES OF DEFECTS TO AVOID:\n"
+        "Bill text: 'incidents motivated in whole or in substantial part by actual or perceived personal characteristics'\n"
+        "  WRONG: 'incidents motivated by actual personal characteristics' (dropped 'or perceived')\n"
+        "  RIGHT: 'incidents motivated by actual or perceived personal characteristics'\n"
+        "Bill text: 'each public institution of higher education and community college shall adopt a plan'\n"
+        "  WRONG: 'requires community colleges to adopt a plan'\n"
+        "  RIGHT: 'requires each public institution of higher education and community college to adopt a plan'\n"
+        "Bill text: 'the County Council may determine the salary'\n"
+        "  WRONG: 'the Council provides the salary'\n"
+        "  RIGHT: 'the Council determines the salary'\n"
+        "Bill text: 'trees of heaven, listed invasive trees, and invasive bamboo'\n"
+        "  WRONG: 'trees of heaven and listed invasive trees' (dropped 'invasive bamboo')\n"
+        "  RIGHT: 'trees of heaven, listed invasive trees, and invasive bamboo'\n"
+        "Bill text: 'may not exceed 80% of the maximum approved rate for medium-duty towing'\n"
+        "  WRONG: 'capped at 80%' (loses the reference basis)\n"
+        "  RIGHT: 'may not exceed 80% of the maximum medium-duty rate'\n\n"
+
+        "STYLE. Present tense, active voice. Every sentence 20 words or fewer; aim for 12–15.\n\n"
+
+        "AMENDMENT DIRECTION. When the bill AMENDS existing law, describe what changes — added, "
+        "removed, expanded, narrowed, repealed. A subsection stricken from the bill (shown with ~strikethrough~) "
+        "is REMOVED from law, and provisions that reference it must reflect that removal. Do not present the "
+        "removed language as still in force. If a provision is CONDITIONALLY EXCLUDED (e.g. 'this obligation "
+        "does not apply to X'), say so — do not describe a broader obligation than the amended law actually creates.\n\n"
+
+        "GROUND every claim in the bill text or Fiscal Note. Do not attribute a standard to any agency, "
+        "institution, or document unless the bill names it explicitly. When in doubt, omit rather than invent."
+    ))
+    start_year: Optional[int] = Field(default=None, description=(
+        "Four-digit calendar year the bill takes effect, taken from the bill's effective-date clause. "
+        "Do not infer; leave null if the bill states no effective date."
+    ))
+    end_year: Optional[int] = Field(default=None, description=(
+        "Four-digit calendar year the bill expires or sunsets, if explicitly stated. Leave null when there is no sunset."
+    ))
+    funding: Optional[float] = Field(default=None, description=(
+        "Estimated dollar impact as a plain number (write 1000000, not '1 million'). "
+        "Prefer the Fiscal Note's dollar figure; if only the bill text specifies, use that. "
+        "Use a positive number for new spending or new revenue and a negative number for revenue loss or spending reductions. "
+        "Leave null when the impact is described only qualitatively."
+    ))
+    responsible_party: str = Field(description=(
+        "Full name of the Maryland State agency, department, office, board, or role responsible for implementing "
+        "the bill (e.g. 'Maryland Higher Education Commission'). If multiple, list them separated by semicolons."
+    ))
+    stakeholders: str = Field(description=(
+        "Specific population(s) directly affected by the bill — who benefits, who is regulated, who pays. "
+        "Be concrete (e.g. 'volunteer firefighters in Anne Arundel County', not 'residents')."
+    ))
+    fiscal_impact_summary: Optional[str] = Field(default=None, description=(
+        "Concise state and local fiscal impact. Use the Fiscal Note's revenue and expenditure estimates when present. "
+        "If only qualitative language is available, describe the direction and mechanism "
+        "(e.g. 'Indeterminate increase in local costs from new record-keeping mandate') and note that specific figures are unavailable."
+    ))
 
 class AgencyRelevance(BaseModel):
     agency_name: Literal[tuple(unique_agencies)]
@@ -49,24 +121,14 @@ class AgencyRelevance(BaseModel):
 class AgencyAnalysis(BaseModel):
     relevant_agencies: List[AgencyRelevance]
 
-question_dict = {
-    'bill_summary': 'Write a brief, plain-English summary of the bill.',
-    'start_year': 'What year does the bill take effect?',
-    'end_year': 'What year does the bill expire or sunset?',
-    'funding': 'What is the estimated financial impact (allocations, mandates, or revenue changes) described in the Fiscal Note or bill text? Prioritize specific figures from the Fiscal Note; if absent, describe the nature of the impact found in the text (e.g. "Indeterminate revenue decrease"). (if millions, write out full number. E.g. "1 million" should be 1000000)',
-    'responsible_party': 'What Maryland State agency, department, office, or role is responsible for implementing the bill?',
-    'stakeholders': 'What population will be impacted by the bill?',
-    'fiscal_impact_summary': 'Summarize the state and local fiscal impact. If a formal Fiscal Note is present, prioritize its specific revenue and expenditure estimates. If absent, identify financial implications explicitly stated in the bill text (e.g., delayed fees, tax credits, or new spending mandates) and note that specific dollar estimates are unavailable.',
-}
 
 SYSTEM_PROMPT = (
-    "You are reading markdown generated from the text of a bill passed by the Maryland General Assembly, "
-    "and its associated Fiscal and Policy Note (appended at the end). "
-    "Note that ~ syntax means text has been stricken. "
-    "Answer the following questions:\n"
-    "{}\n"
-    "Please respond with only valid JSON in the specified format."
-).format("\n".join([f"- {key}: {value}" for key, value in question_dict.items()]))
+    "You are analyzing a chaptered bill from the Maryland General Assembly. "
+    "The input is markdown extracted from the bill text; a Fiscal and Policy Note follows the marker 'FISCAL NOTE:'. "
+    "Text wrapped in ~ ~ has been stricken and is not enacted. "
+    "Populate every required field of the schema using facts supported by the bill text or the Fiscal Note. "
+    "Use null for optional fields only when the information is genuinely absent."
+)
 
 
 def get_agency_prompt(agencies_text):

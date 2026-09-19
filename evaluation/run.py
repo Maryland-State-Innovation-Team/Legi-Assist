@@ -196,7 +196,7 @@ def generate_summary_report(results: Dict) -> str:
 
         # Component averages
         report.append(f"\n  Component Breakdown:")
-        report.append(f"    (a) Everyday Words:        {sum(s.flesch_score + s.jargon_score + s.complex_word_score for s in human_scores) / len(human_scores):.1f}/30")
+        report.append(f"    (a) Everyday Words:        {sum(s.jargon_score + s.everyday_words_score for s in human_scores) / len(human_scores):.1f}/30")
         report.append(f"    (b) Present/Active:        {sum(s.passive_score + s.past_tense_score for s in human_scores) / len(human_scores):.1f}/20")
         report.append(f"    (c) Short Sentences:       {sum(s.sentence_length_score + s.long_sentence_score for s in human_scores) / len(human_scores):.1f}/25")
         report.append(f"    (d) Definitions:           {sum(s.definition_score for s in human_scores) / len(human_scores):.1f}/10")
@@ -209,7 +209,7 @@ def generate_summary_report(results: Dict) -> str:
         report.append(f"  Average Total Score: {ai_total_avg:.1f}/100")
 
         report.append(f"\n  Component Breakdown:")
-        report.append(f"    (a) Everyday Words:        {sum(s.flesch_score + s.jargon_score + s.complex_word_score for s in ai_scores) / len(ai_scores):.1f}/30")
+        report.append(f"    (a) Everyday Words:        {sum(s.jargon_score + s.everyday_words_score for s in ai_scores) / len(ai_scores):.1f}/30")
         report.append(f"    (b) Present/Active:        {sum(s.passive_score + s.past_tense_score for s in ai_scores) / len(ai_scores):.1f}/20")
         report.append(f"    (c) Short Sentences:       {sum(s.sentence_length_score + s.long_sentence_score for s in ai_scores) / len(ai_scores):.1f}/25")
         report.append(f"    (d) Definitions:           {sum(s.definition_score for s in ai_scores) / len(ai_scores):.1f}/10")
@@ -258,9 +258,8 @@ def export_to_excel(results: Dict, output_path: str):
             'Bill Number': s.bill_number,
             'Source': s.text_source,
             'Total Score': s.total_plain_language_score,
-            'Flesch': s.flesch_score,
             'Jargon': s.jargon_score,
-            'Complex Words': s.complex_word_score,
+            'Everyday Words (LLM)': s.everyday_words_score,
             'Passive Voice': s.passive_score,
             'Past Tense': s.past_tense_score,
             'Sentence Length': s.sentence_length_score,
@@ -350,9 +349,8 @@ def main():
                 'bill_number': s.bill_number,
                 'text_source': s.text_source,
                 'total_score': s.total_plain_language_score,
-                'flesch_score': s.flesch_score,
                 'jargon_score': s.jargon_score,
-                'complex_word_score': s.complex_word_score,
+                'everyday_words_score': s.everyday_words_score,
                 'passive_score': s.passive_score,
                 'past_tense_score': s.past_tense_score,
                 'sentence_length_score': s.sentence_length_score,
