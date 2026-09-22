@@ -7151,16 +7151,16 @@
   },
   "HB0456": {
     "first_seen": "2026-02-06T19:32:06.355382",
-    "last_updated": "2026-09-18T14:46:02.671567",
-    "last_seen": "2026-09-18T14:46:02.671567",
+    "last_updated": "2026-09-22T05:07:25.435429",
+    "last_seen": "2026-09-22T05:07:25.435429",
     "needs_download": false,
     "needs_convert": false,
     "needs_amend": false,
     "needs_qa": false,
     "files": {
-      "bill_pdf": "/mnt/c/git/Legi-Scanner/data/2026rs/pdf/HB0456.pdf",
+      "bill_pdf": "/home/runner/work/Legi-Assist/Legi-Assist/data/2026rs/pdf/HB0456.pdf",
       "amendments": [],
-      "fiscal_note": "/mnt/c/git/Legi-Scanner/data/2026rs/pdf/HB0456_fn.pdf"
+      "fiscal_note": "/home/runner/work/Legi-Assist/Legi-Assist/data/2026rs/pdf/HB0456_fn.pdf"
     },
     "qa_results": {
       "bill_summary": "Establishes a gift basket permit in Howard County issued by the Board of License Commissioners. Authorizes qualifying florists selling gift baskets to deliver beer, wine, or liquor to of-age county consumers. Limits basket contents to 72 ounces of beer, 2.25 liters of wine, or 2.25 liters of liquor. Requires permit holders to purchase all alcoholic beverages from a retail license holder. Exempts the gift basket permit from public school distance restrictions applicable to other licenses. Sets the annual permit fee at $100.",
@@ -7182,8 +7182,8 @@
     "amended_status": "original",
     "amend_input_hash": null,
     "qa_input_hash": "c2b115a3b4e8a7a2ccf591a6f3a17061f9d0e10a53306f422a50d9edbea69746",
-    "last_updated_local": "2026-09-18T23:55:29.688501",
-    "bill_hash": "73978906507fdf4491aeefa8f5da5836"
+    "last_updated_local": "2026-09-22T05:07:25.609310",
+    "bill_hash": "b7a400771874b6823959de77b93486bf"
   },
   "HB0457": {
     "first_seen": "2026-02-06T19:32:06.880361",
