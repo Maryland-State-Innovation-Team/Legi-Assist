@@ -28435,15 +28435,15 @@
   },
   "SB0284": {
     "first_seen": "2026-09-18T14:46:40.347129",
-    "last_updated": "2026-09-18T14:46:42.146379",
-    "last_seen": "2026-09-18T14:46:42.146379",
+    "last_updated": "2026-09-28T05:08:21.757731",
+    "last_seen": "2026-09-28T05:08:21.757731",
     "needs_download": false,
     "needs_convert": false,
     "needs_amend": false,
     "needs_qa": false,
     "files": {
-      "fiscal_note": "/mnt/c/git/Legi-Scanner/data/2026rs/pdf/SB0284_fn.pdf",
-      "bill_pdf": "/mnt/c/git/Legi-Scanner/data/2026rs/pdf/SB0284.pdf",
+      "fiscal_note": "/home/runner/work/Legi-Assist/Legi-Assist/data/2026rs/pdf/SB0284_fn.pdf",
+      "bill_pdf": "/home/runner/work/Legi-Assist/Legi-Assist/data/2026rs/pdf/SB0284.pdf",
       "amendments": []
     },
     "qa_results": {
@@ -28694,8 +28694,8 @@
     "amended_status": "original",
     "amend_input_hash": null,
     "qa_input_hash": "d016b2d93a8764dd94df45bd9a9647d35c60cbca9e295f3d33ebb5e339635fbe",
-    "last_updated_local": "2026-09-18T23:59:56.099027",
-    "bill_hash": "7f6b722dc8463f978235d323f2116cba"
+    "last_updated_local": "2026-09-28T05:08:31.332202",
+    "bill_hash": "36de1c3ab4f954ad2f3267015ffc0598"
   },
   "SB0294": {
     "first_seen": "2026-09-18T14:46:42.467448",
