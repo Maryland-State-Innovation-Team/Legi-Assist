@@ -177,12 +177,14 @@ cython_debug/
 # Ignore node_modules
 node_modules
 
-# Ignore all PDFs
+# Ignore all generated data files
 data/**/*.pdf
+data/**/*.json
+data/**/*.md
+data/**/pipeline_state.json
 
 # Ignore iframe testing
 legi-assist
-
 
 # Ignore evaluation results (keep private)
 evaluation/results/
