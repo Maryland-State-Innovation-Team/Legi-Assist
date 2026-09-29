@@ -188,3 +188,6 @@ legi-assist
 
 # Ignore evaluation results (keep private)
 evaluation/results/
+
+# Ignore red-team test results (outputs, not source)
+red-team/results/

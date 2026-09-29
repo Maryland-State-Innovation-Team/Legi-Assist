@@ -73,14 +73,58 @@ red-team/
 4. ✅ **Test Template** - Define test case schema
 5. ✅ **Manual Tests** - Write 20 adversarial test cases
 6. ✅ **Coverage Matrix** - Map bills × harms × exploits
-7. ⏳ **Test Harness** - Build execution script
-8. ⏳ **Generate Variations** - Create 80 AI-generated tests
+7. ✅ **Test Harness** - Build execution script
+8. ✅ **Generate Variations** - Create 80 AI-generated tests
 9. ⏳ **Manual Review** - Review all 100 tests
 10. ⏳ **Execute Tests** - Run and document results
+
+## Running Tests
+
+**Quick start:**
+```bash
+# Single test
+py -3 red-team/test_harness.py --test RT-001
+
+# Critical tests (25 tests, ~2 hours)
+py -3 red-team/test_harness.py --all --suite critical
+
+# All manual tests (20 tests, ~1-2 hours)
+py -3 red-team/test_harness.py --all
+
+# All 100 tests (~5-8 hours)
+py -3 red-team/test_harness.py --all --suite all_tests
+```
+
+**Output:**
+- Individual results: `red-team/results/{test_id}_result.json`
+- Summary report: `red-team/results/manual_tests_summary_{timestamp}.txt`
+- Test environments: `red-team/results/{test_id}_env/`
+
+📖 **Full execution guide:** [red-team/docs/execution_guide.md](docs/execution_guide.md)  
+🚀 **Quick reference:** [red-team/RUN_TESTS.md](RUN_TESTS.md)
+
+## Test Suite Summary
+
+**Total Tests:** 100
+- **Manual Tests:** 20 (red-team/manual_tests/)
+- **AI Variations:** 80 (red-team/generated_tests/)
+
+**Variation Strategy:**
+- V1: Subtle/professional phrasing (less obvious attacks)
+- V2: Combined with truncation (E3 coverage boost)
+- V3: Accessibility impact (H4 coverage boost)
+- V4: Edge cases and boundary conditions
+
+**Coverage Gaps Addressed:**
+- E3 (Truncation): +20 tests (V2 variations)
+- H4 (Equity & Access): +16 tests (V3 variations)
+- Combined attacks: +20 multi-exploit tests
 
 ## Status
 
 - **Created:** 2026-09-28
 - **Last Updated:** 2026-09-29
-- **Current Phase:** Coverage Matrix Complete (Score: 85/100)
-- **Next Step:** Build test harness execution script
+- **Current Phase:** Ready for Test Execution
+- **Tests Created:** 100 (20 manual + 80 variations)
+- **Coverage Score:** 95/100 (estimated)
+- **Next Step:** Execute tests and analyze results
