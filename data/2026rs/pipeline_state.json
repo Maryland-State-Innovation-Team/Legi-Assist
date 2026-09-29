@@ -28435,8 +28435,8 @@
   },
   "SB0284": {
     "first_seen": "2026-09-18T14:46:40.347129",
-    "last_updated": "2026-09-28T05:08:21.757731",
-    "last_seen": "2026-09-28T05:08:21.757731",
+    "last_updated": "2026-09-29T05:07:56.448447",
+    "last_seen": "2026-09-29T05:07:56.448447",
     "needs_download": false,
     "needs_convert": false,
     "needs_amend": false,
@@ -28694,8 +28694,8 @@
     "amended_status": "original",
     "amend_input_hash": null,
     "qa_input_hash": "d016b2d93a8764dd94df45bd9a9647d35c60cbca9e295f3d33ebb5e339635fbe",
-    "last_updated_local": "2026-09-28T05:08:31.332202",
-    "bill_hash": "36de1c3ab4f954ad2f3267015ffc0598"
+    "last_updated_local": "2026-09-29T05:08:05.930037",
+    "bill_hash": "7f6b722dc8463f978235d323f2116cba"
   },
   "SB0294": {
     "first_seen": "2026-09-18T14:46:42.467448",
