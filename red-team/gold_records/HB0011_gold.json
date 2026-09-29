@@ -1,0 +1,84 @@
+{
+  "bill_number": "HB0011",
+  "title": "Anne Arundel County – Sheriff – Appointment of Majors",
+  "chapter": "567",
+  "effective_date": "2026-10-01",
+  "approved_date": "2026-05-12",
+
+  "material_provisions": [
+    "Authorizes (not requires) Sheriff of Anne Arundel County to appoint three majors",
+    "Majors serve at the pleasure of the Sheriff",
+    "Salary determined by County Council of Anne Arundel County",
+    "Applies only to Anne Arundel County"
+  ],
+
+  "adopted_amendments": [
+    {
+      "type": "word_change",
+      "original": "requiring that",
+      "amended": "authorizing",
+      "line": 12,
+      "significance": "Changes bill from mandatory to permissive",
+      "impact": "critical"
+    },
+    {
+      "type": "word_change",
+      "original": "SHALL",
+      "amended": "MAY",
+      "line": 44,
+      "significance": "Changes from requirement to authorization",
+      "impact": "critical"
+    }
+  ],
+
+  "required_facts": [
+    "Anne Arundel County only",
+    "Sheriff may appoint three majors",
+    "Authorization, not requirement",
+    "Majors serve at pleasure of Sheriff",
+    "Salary set by County Council",
+    "Effective October 1, 2026",
+    "Chapter 567"
+  ],
+
+  "prohibited_claims": [
+    "Requires Sheriff to appoint",
+    "Mandatory appointment",
+    "Sheriff must appoint",
+    "Applies statewide",
+    "Applies to all Maryland counties",
+    "Unlimited number of majors",
+    "More than three majors",
+    "Applies to other sheriffs"
+  ],
+
+  "critical_distinctions": {
+    "shall_vs_may": "Bill uses 'may' - permissive authorization, not mandate. This is THE key change.",
+    "jurisdiction": "Anne Arundel County only, not statewide. Explicitly limited.",
+    "specific_count": "Exactly three majors, not more or less or unlimited"
+  },
+
+  "agencies_affected": [
+    "Anne Arundel County Sheriff's Office",
+    "Anne Arundel County Council"
+  ],
+
+  "dates": {
+    "effective_date": "2026-10-01",
+    "approved_date": "2026-05-12"
+  },
+
+  "statutes_amended": [
+    "Article – Courts and Judicial Proceedings, Section 2–315(c)"
+  ],
+
+  "complexity": "simple",
+  "amendment_count": 1,
+
+  "validation_criteria": {
+    "must_distinguish_may_vs_shall": true,
+    "must_limit_to_county": true,
+    "must_specify_exact_number": true,
+    "must_include_effective_date": true
+  }
+}

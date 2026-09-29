@@ -1,0 +1,119 @@
+{
+  "bill_number": "HB0006",
+  "title": "Public Institutions of Higher Education – Pregnant and Parenting Students – Plan and Reporting",
+  "chapter": "735",
+  "effective_date": "2026-07-01",
+  "approved_date": "2026-05-26",
+
+  "material_provisions": [
+    "Maryland Higher Education Commission must collect student-level parental status data from public institutions",
+    "Excludes University of Maryland Global Campus from parental status data collection",
+    "Community colleges (not all public institutions) must adopt support plans for pregnant and parenting students",
+    "Public senior higher education institutions AND community colleges must post plans by October 1, 2026",
+    "Parental status added to Maryland Longitudinal Data System",
+    "Pregnancy status explicitly excluded from student data",
+    "Annual reports to legislature starting September 1, 2027"
+  ],
+
+  "adopted_amendments": [
+    {
+      "type": "scope_change",
+      "original": "all public institutions of higher education",
+      "amended": "community colleges",
+      "location": "Section 15-140(c)(1)",
+      "significance": "Narrows which institutions must adopt support plans",
+      "impact": "critical",
+      "strikethrough_visible": true
+    },
+    {
+      "type": "definition_change",
+      "change": "Excludes University of Maryland Global Campus from definition of public institution",
+      "location": "Section 11-409(A)",
+      "significance": "Exempts one institution from data collection requirements",
+      "impact": "high"
+    },
+    {
+      "type": "date_change",
+      "original": "August 1, 2026",
+      "amended": "October 1, 2026",
+      "location": "Section 15-140(d)",
+      "significance": "Extends deadline for posting plans",
+      "impact": "medium"
+    },
+    {
+      "type": "expansion",
+      "change": "Extends plan requirement from senior institutions only to community colleges as well",
+      "location": "Section 15-140(c)",
+      "significance": "Expands coverage to more institutions",
+      "impact": "high"
+    }
+  ],
+
+  "required_facts": [
+    "Commission collects parental status data from public institutions",
+    "University of Maryland Global Campus is excluded",
+    "Community colleges must adopt support plans",
+    "Public senior institutions AND community colleges must post plans",
+    "Deadline to post plans: October 1, 2026",
+    "Annual reports starting September 1, 2027",
+    "Parental status included in student data",
+    "Pregnancy status excluded from student data",
+    "Effective July 1, 2026"
+  ],
+
+  "prohibited_claims": [
+    "All public institutions must adopt plans (WRONG - only community colleges)",
+    "University of Maryland Global Campus must collect data (WRONG - explicitly excluded)",
+    "Deadline is August 1, 2026 (WRONG - changed to October 1)",
+    "Only senior institutions affected (WRONG - community colleges also)",
+    "Pregnancy status is student data (WRONG - explicitly excluded)",
+    "No exclusions exist (WRONG - UMGC is excluded)"
+  ],
+
+  "critical_distinctions": {
+    "scope_narrowing": "Support plan requirement changed from 'all public institutions' to 'community colleges only' - this is a major scope reduction visible via strikethrough",
+    "umgc_exclusion": "University of Maryland Global Campus explicitly excluded from parental status data collection mandate",
+    "dual_requirement": "Both senior institutions AND community colleges must post plans (expanded coverage)",
+    "data_distinction": "Parental status IS student data; pregnancy status is NOT",
+    "date_extension": "Posting deadline extended from August to October 2026"
+  },
+
+  "agencies_affected": [
+    "Maryland Higher Education Commission",
+    "All public institutions of higher education (for data collection)",
+    "Community colleges (for support plans)",
+    "Public senior higher education institutions (for support plans)",
+    "Maryland Longitudinal Data System",
+    "University of Maryland Global Campus (explicitly excluded)"
+  ],
+
+  "dates": {
+    "effective_date": "2026-07-01",
+    "approved_date": "2026-05-26",
+    "plan_posting_deadline": "2026-10-01",
+    "first_report_due": "2027-09-01"
+  },
+
+  "statutes_amended": [
+    "Article – Education, Section 11–409 (added)",
+    "Article – Education, Section 15–140 (amended)",
+    "Article – Education, Section 24–701(l) (amended)"
+  ],
+
+  "complexity": "medium",
+  "amendment_count": 1,
+  "strikethrough_count": "multiple",
+
+  "validation_criteria": {
+    "must_capture_scope_narrowing": true,
+    "must_note_umgc_exclusion": true,
+    "must_distinguish_data_types": true,
+    "must_include_both_deadlines": true,
+    "must_identify_dual_requirement": true,
+    "must_show_strikethrough_impact": true
+  },
+
+  "strikethrough_test_cases": [
+    "~~all~~ ~~public~~ ~~institutions~~ ~~of~~ ~~higher~~ ~~education~~ community colleges - must accurately reflect this scope change"
+  ]
+}

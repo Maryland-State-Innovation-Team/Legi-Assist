@@ -1,0 +1,218 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Legi-Assist Red Team Test Case Schema",
+  "description": "Schema for adversarial test cases targeting Legi-Assist pipeline safety and security",
+  "type": "object",
+  "required": [
+    "test_id",
+    "attack_objective",
+    "bill_number",
+    "legislative_stage",
+    "pipeline_stage",
+    "adversarial_fixture",
+    "expected_safe_behavior",
+    "required_facts",
+    "prohibited_claims",
+    "harms",
+    "exploits",
+    "severity"
+  ],
+  "properties": {
+    "test_id": {
+      "type": "string",
+      "pattern": "^RT-[0-9]{3}$",
+      "description": "Unique test identifier (RT-001 through RT-100)"
+    },
+    "test_type": {
+      "type": "string",
+      "enum": ["manual", "generated"],
+      "description": "Whether this test was hand-written or AI-generated"
+    },
+    "parent_test_id": {
+      "type": "string",
+      "pattern": "^RT-[0-9]{3}$",
+      "description": "For generated tests, the manual test this is a variation of"
+    },
+    "attack_objective": {
+      "type": "string",
+      "description": "Clear description of what the adversarial test is trying to accomplish",
+      "minLength": 20
+    },
+    "bill_number": {
+      "type": "string",
+      "enum": ["HB0006", "HB0011", "HB0014"],
+      "description": "Which test bill this targets"
+    },
+    "legislative_stage": {
+      "type": "string",
+      "enum": [
+        "First Reading",
+        "Committee",
+        "Second Reading",
+        "Third Reading",
+        "Enrolled",
+        "Chaptered"
+      ],
+      "description": "Legislative stage at which the attack occurs"
+    },
+    "pipeline_stage": {
+      "type": "string",
+      "enum": [
+        "Download",
+        "Convert",
+        "Amend",
+        "QA",
+        "Export",
+        "End-to-End"
+      ],
+      "description": "Which pipeline stage is being targeted"
+    },
+    "adversarial_fixture": {
+      "type": "object",
+      "description": "The malicious input or modification",
+      "required": ["type", "content", "location"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "modified_bill_text",
+            "modified_amendment",
+            "modified_fiscal_note",
+            "modified_metadata",
+            "corrupted_markdown",
+            "malicious_prompt",
+            "malformed_document",
+            "cache_manipulation",
+            "config_change"
+          ]
+        },
+        "content": {
+          "type": "string",
+          "description": "The actual adversarial content or description of modification"
+        },
+        "location": {
+          "type": "string",
+          "description": "Where this fixture should be injected (file path, section, etc.)"
+        },
+        "fixture_file": {
+          "type": "string",
+          "description": "Path to fixture file in red-team/fixtures/ if applicable"
+        }
+      }
+    },
+    "expected_safe_behavior": {
+      "type": "string",
+      "description": "What the system should do when encountering this attack",
+      "minLength": 20
+    },
+    "required_facts": {
+      "type": "array",
+      "description": "Facts from gold record that MUST appear in output",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "prohibited_claims": {
+      "type": "array",
+      "description": "Claims that MUST NOT appear in output",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "harms": {
+      "type": "array",
+      "description": "H1-H7 harms this test could expose",
+      "items": {
+        "type": "string",
+        "enum": ["H1", "H2", "H3", "H4", "H5", "H6", "H7"]
+      },
+      "minItems": 1
+    },
+    "exploits": {
+      "type": "array",
+      "description": "E1-E7 exploits this test demonstrates",
+      "items": {
+        "type": "string",
+        "enum": ["E1", "E2", "E3", "E4", "E5", "E6", "E7"]
+      },
+      "minItems": 1
+    },
+    "severity": {
+      "type": "string",
+      "enum": ["LOW", "MEDIUM", "HIGH", "CRITICAL"],
+      "description": "Proposed severity if this attack succeeds"
+    },
+    "failure_modes": {
+      "type": "array",
+      "description": "Ways in which this test could fail (false positives/negatives)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "failure_type": {
+            "type": "string",
+            "enum": [
+              "false_positive",
+              "false_negative",
+              "partial_success",
+              "test_infrastructure_issue"
+            ]
+          },
+          "description": {
+            "type": "string"
+          },
+          "mitigation": {
+            "type": "string",
+            "description": "How to detect or prevent this failure mode"
+          }
+        }
+      }
+    },
+    "success_criteria": {
+      "type": "object",
+      "description": "Conditions that indicate test passed (system was safe)",
+      "properties": {
+        "all_required_facts_present": {
+          "type": "boolean",
+          "default": true
+        },
+        "no_prohibited_claims_present": {
+          "type": "boolean",
+          "default": true
+        },
+        "no_output_injection": {
+          "type": "boolean",
+          "default": true
+        },
+        "no_hallucination": {
+          "type": "boolean",
+          "default": true
+        },
+        "maintains_plain_language": {
+          "type": "boolean",
+          "default": false
+        },
+        "custom_checks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional context, assumptions, or observations"
+    },
+    "created_date": {
+      "type": "string",
+      "format": "date",
+      "description": "When this test was created"
+    },
+    "created_by": {
+      "type": "string",
+      "description": "Who created this test (person or AI model)"
+    }
+  }
+}
