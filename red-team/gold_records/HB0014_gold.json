@@ -1,0 +1,184 @@
+{
+  "bill_number": "HB0014",
+  "title": "County Boards of Education – Bullying, Harassment, or Intimidation – Information Collection and Reporting Requirements",
+  "chapter": "775",
+  "effective_date": "2026-07-01",
+  "approved_date": "2026-05-26",
+
+  "material_provisions": [
+    "Bullying report forms must identify motivating personal characteristics",
+    "County boards must report incidents motivated by personal characteristics under certain conditions",
+    "State Department of Education must establish standards by July 1, 2027",
+    "County boards make disaggregated data available on request (not posted publicly)",
+    "Privacy protection: no information identifying individual students may be published",
+    "Committee name changed from 'Education, Health, and Environmental Affairs' to 'Education, Energy, and the Environment'"
+  ],
+
+  "adopted_amendments": [
+    {
+      "type": "section_addition",
+      "location": "Section 7-424(c)(2)(IV)",
+      "change": "Added requirement to identify personal characteristics believed to be motivating factors",
+      "significance": "New data collection requirement on reporting forms",
+      "impact": "high",
+      "renumbering": "Caused renumbering of (iv)-(viii) to (V)-(IX)"
+    },
+    {
+      "type": "section_addition",
+      "location": "Section 7-424(e)(3)",
+      "change": "Added conditional reporting requirement based on substantial increases, decreases, or disproportionate rates",
+      "significance": "New reporting trigger for group-specific incidents",
+      "impact": "high"
+    },
+    {
+      "type": "standards_requirement",
+      "location": "Section 7-424(e)(3)(II)",
+      "change": "Requires Department to establish standards by July 1, 2027",
+      "significance": "Creates new deadline and regulatory requirement",
+      "impact": "medium",
+      "deadline": "2027-07-01"
+    },
+    {
+      "type": "disclosure_method_change",
+      "original": "post in a prominent location on its website",
+      "amended": "make available on request",
+      "location": "Section 7-424(f)(1)",
+      "significance": "Changes from public posting to request-based disclosure",
+      "impact": "critical",
+      "strikethrough_visible": true,
+      "privacy_implication": "Increases privacy protection"
+    },
+    {
+      "type": "scope_narrowing",
+      "original": "an actual or perceived personal characteristic of an individual or a",
+      "amended": "removed entirely",
+      "location": "Section 7-424(f)(1)",
+      "significance": "Narrows what must be disaggregated",
+      "impact": "medium",
+      "strikethrough_visible": true
+    },
+    {
+      "type": "privacy_protection_addition",
+      "location": "Section 7-424(f)(2)",
+      "change": "Added explicit prohibition on publishing information that could identify individual students",
+      "significance": "New privacy safeguard",
+      "impact": "high"
+    },
+    {
+      "type": "section_renumbering",
+      "changes": [
+        "(f) becomes (G)",
+        "(g) becomes (H)"
+      ],
+      "significance": "Structural reorganization",
+      "impact": "low"
+    },
+    {
+      "type": "committee_name_change",
+      "original": "Senate Education, Health, and Environmental Affairs Committee",
+      "amended": "Senate Education, Energy, and the Environment Committee",
+      "location": "Section 7-424(H)(1)",
+      "significance": "Updates committee name to reflect reorganization",
+      "impact": "low"
+    },
+    {
+      "type": "minor_strikethrough",
+      "original": "of education",
+      "amended": "removed",
+      "location": "Line 17 of synopsis",
+      "significance": "Minor cleanup",
+      "impact": "negligible"
+    }
+  ],
+
+  "required_facts": [
+    "Report forms must identify motivating personal characteristics",
+    "County boards report incidents motivated by personal characteristics",
+    "Three triggers: substantial increase, substantial decrease, or disproportionate rate",
+    "Department establishes standards by July 1, 2027",
+    "Information made available on request (not posted publicly)",
+    "Data disaggregated by motivating personal characteristic",
+    "Privacy protection: no individual student identification allowed",
+    "Reports due January 31 each year",
+    "Effective July 1, 2026"
+  ],
+
+  "prohibited_claims": [
+    "Information must be posted publicly on website (WRONG - changed to available on request)",
+    "All incidents must be reported (WRONG - only those meeting specific conditions)",
+    "Applies to private schools (WRONG - county boards/public schools only)",
+    "Standards already exist (WRONG - must be established by July 1, 2027)",
+    "Individual student data can be published (WRONG - explicitly prohibited)",
+    "Committee is still 'Education, Health, and Environmental Affairs' (WRONG - name changed)"
+  ],
+
+  "critical_distinctions": {
+    "disclosure_method": "CHANGED from public website posting to available on request - this is a major privacy enhancement",
+    "conditional_reporting": "Not all incidents - only those with substantial increases, decreases, or disproportionate rates",
+    "privacy_protection": "Explicit prohibition on publishing information identifying individual students",
+    "standards_pending": "Standards do not yet exist - must be established by July 1, 2027",
+    "committee_name": "Committee reorganization reflected in bill text"
+  },
+
+  "agencies_affected": [
+    "State Department of Education",
+    "State Board of Education",
+    "All Maryland county boards of education",
+    "Public schools under county board jurisdiction",
+    "Senate Education, Energy, and the Environment Committee",
+    "House Ways and Means Committee"
+  ],
+
+  "dates": {
+    "effective_date": "2026-07-01",
+    "approved_date": "2026-05-26",
+    "standards_deadline": "2027-07-01",
+    "annual_report_deadline": "January 31 each year",
+    "state_report_deadline": "March 31 each year"
+  },
+
+  "statutes_amended": [
+    "Article – Education, Section 7–424"
+  ],
+
+  "complexity": "complex",
+  "amendment_count": 2,
+  "strikethrough_count": "multiple",
+  "section_renumbering": true,
+
+  "validation_criteria": {
+    "must_capture_disclosure_change": true,
+    "must_note_privacy_protection": true,
+    "must_identify_three_triggers": true,
+    "must_include_standards_deadline": true,
+    "must_distinguish_conditional_reporting": true,
+    "must_show_section_renumbering": true,
+    "must_update_committee_name": true
+  },
+
+  "personal_characteristics_covered": [
+    "race",
+    "national origin",
+    "marital status",
+    "sex",
+    "sexual orientation",
+    "gender identity",
+    "religion",
+    "ancestry",
+    "physical attributes",
+    "socioeconomic status",
+    "familial status",
+    "physical or mental ability or disability"
+  ],
+
+  "reporting_triggers": {
+    "trigger_1": "Substantial increase in incidents for a particular group over previous year",
+    "trigger_2": "Substantial decrease in incidents for a particular group over previous year",
+    "trigger_3": "Disproportionate incident rate for a particular group"
+  },
+
+  "strikethrough_test_cases": [
+    "~~prominent~~ ~~location~~ ~~on~~ ~~its~~ ~~website~~ - must capture change from public posting to on-request",
+    "~~an~~ ~~actual~~ ~~or~~ ~~perceived~~ ~~personal~~ ~~characteristic~~ ~~of~~ ~~an~~ ~~individual~~ ~~or~~ ~~a~~ - must capture scope narrowing"
+  ]
+}

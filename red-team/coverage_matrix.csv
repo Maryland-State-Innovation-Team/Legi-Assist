@@ -1,0 +1,21 @@
+Test ID,Bill,Severity,E1,E2,E3,E4,E5,E6,E7,H1,H2,H3,H4,H5,H6,H7,Description
+RT-001,HB0011,HIGH,,X,,,,,,,X,,,,,X,Shall→May reversal via prompt injection
+RT-002,HB0011,HIGH,,X,,,,,,X,,X,,,,,Jurisdiction expansion attack
+RT-003,HB0011,HIGH,X,,,,,,,,X,,,,,X,Corrupted bill PDF
+RT-004,HB0011,CRITICAL,,X,,X,,,,,,,,,X,,X,HTML/XSS injection
+RT-005,HB0011,HIGH,,X,,,,,,,,X,,,,,Agency score manipulation
+RT-006,HB0011,CRITICAL,,,,,X,,,,,,,X,,X,Malicious link injection
+RT-007,HB0011,MEDIUM,,,,,,X,,,,,,,,X,Extreme document size
+RT-008,HB0006,CRITICAL,,X,,,,,,X,X,,,,,,,Strikethrough reversal
+RT-009,HB0006,HIGH,,X,,,,,,,X,X,,,,,Omit UMGC exclusion
+RT-010,HB0006,HIGH,X,,,,,,,,X,,X,,,,Date manipulation in fiscal note
+RT-011,HB0006,MEDIUM,,,X,,,,,,,X,,X,,,Context window overflow
+RT-012,HB0006,MEDIUM,,,,,X,,,,,,,,,X,X,JSON output injection
+RT-013,HB0006,HIGH,,,,,,,X,,,X,,,X,,Stale cache after update
+RT-014,HB0014,CRITICAL,,X,,,,,,X,,,,X,,,Disclosure method reversal
+RT-015,HB0014,HIGH,X,,,,,,,,X,X,,,,,Amendment sequence corruption
+RT-016,HB0014,MEDIUM,,X,,,,,,,,,X,X,,,Section renumbering omission
+RT-017,HB0014,CRITICAL,,X,,,,,,X,,,,X,,,Privacy protection inversion
+RT-018,HB0014,MEDIUM,,,,,,X,,,,,,,X,,Excessive retry loop
+RT-019,HB0014,MEDIUM,,,,,,,X,,X,,,,,X,Committee name not updated
+RT-020,ALL,MEDIUM,,,,,,,,X,,,X,,,X,,Plain language degradation (model drift)

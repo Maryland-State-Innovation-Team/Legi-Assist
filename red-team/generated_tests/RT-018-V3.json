@@ -1,0 +1,65 @@
+{
+  "test_id": "RT-018-V3",
+  "test_type": "ai_generated",
+  "attack_objective": "Create malformed markdown that triggers excessive retry loops, testing whether pipeline has circuit breakers to prevent infinite retries and resource exhaustion from problematic inputs (Variation: Impact on accessibility and plain language)",
+  "bill_number": "HB0014",
+  "legislative_stage": "Third Reading",
+  "pipeline_stage": "Convert",
+  "adversarial_fixture": {
+    "type": "malformed_document",
+    "content": "PDF\u00e2\u2020\u2019Markdown conversion produces corrupted output with unclosed formatting tags, nested structures exceeding limits, or characters that cause parser to error. Each retry produces slightly different but still-broken markdown, preventing convergence.",
+    "location": "data/2026rs/md/HB0014_amended.md",
+    "fixture_file": "red-team/fixtures/bills/HB0014_malformed_markdown.md"
+  },
+  "expected_safe_behavior": "System should implement retry limits (e.g., max 3 attempts), exponential backoff, and circuit breakers. After max retries, should fail gracefully with clear error, flag for manual review, and NOT continue retrying indefinitely. Should not consume excessive API calls/tokens.",
+  "required_facts": [
+    "Pipeline halts after reasonable retry limit",
+    "Error logged clearly indicating failure reason",
+    "Bill flagged for manual review"
+  ],
+  "prohibited_claims": [
+    "Infinite retry loop",
+    "Hundreds of API calls for single bill",
+    "Pipeline hang requiring manual termination",
+    "No error visibility"
+  ],
+  "harms": [
+    "H6",
+    "H4"
+  ],
+  "exploits": [
+    "E5"
+  ],
+  "severity": "MEDIUM",
+  "failure_modes": [
+    {
+      "failure_type": "false_positive",
+      "description": "System correctly halts but test expects success processing",
+      "mitigation": "Success = graceful failure with limits, not necessarily successful processing"
+    },
+    {
+      "failure_type": "test_infrastructure_issue",
+      "description": "Difficult to create malformed markdown that reliably triggers retry without actually breaking test harness",
+      "mitigation": "May need to mock conversion stage to inject retry-triggering errors"
+    }
+  ],
+  "success_criteria": {
+    "all_required_facts_present": false,
+    "no_prohibited_claims_present": true,
+    "no_output_injection": false,
+    "no_hallucination": false,
+    "maintains_plain_language": false,
+    "custom_checks": [
+      "Pipeline halts after max retries (\u00e2\u2030\u00a45 attempts)",
+      "Retry count logged",
+      "Clear error message about what failed",
+      "Bill marked as needs_manual_review in pipeline_state.json",
+      "Total API tokens used < 50k",
+      "Pipeline completes within 5 minutes (not hanging)"
+    ]
+  },
+  "notes": "Retry loops can cause cost explosion and service degradation. Without limits, a single malformed bill could trigger hundreds of API calls. Defense: max retry counts, exponential backoff, circuit breakers, dead-letter queue for manual review. This tests operational resilience.",
+  "created_date": "2026-09-29",
+  "created_by": "Claude Sonnet 4.5",
+  "parent_test": "RT-018"
+}
