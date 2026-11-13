@@ -26,6 +26,11 @@ def download_session_data(session_year: int, state_manager) -> List[str]:
             print(f"Master list not yet published for {session_year}rs (404). Skipping session.")
             return []
         raise
+    # Before a session is populated, the server returns 200 with a blank body
+    # (e.g. just "\r\n") instead of a 404. Treat that as not yet published.
+    if not resp.text.strip():
+        print(f"Master list for {session_year}rs is empty (not yet populated). Skipping session.")
+        return []
     leg_data = resp.json()
 
     # Save master list for reference
