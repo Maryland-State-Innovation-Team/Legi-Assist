@@ -8,16 +8,16 @@ on:
 jobs:
   run-pipeline:
     if: github.repository == 'Maryland-State-Innovation-Team/Legi-Assist'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
 
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v7
       with:
         python-version: '3.12'
 
